@@ -1,0 +1,1089 @@
+{
+ "policy_id": "P04",
+ "policy_name": "perplexity",
+ "scope": "consumer",
+ "mode": "batch",
+ "text_sha256": "086612361cbe1de40239f1e7ce6fd0120356e4f1b3218b8c21a5ee553cfb442b",
+ "n_sentences": 385,
+ "batch_calls": [
+  {
+   "attempt": 1,
+   "flags": [
+    "G1",
+    "G2",
+    "G3",
+    "G4",
+    "G5",
+    "G6",
+    "G7",
+    "AI1",
+    "AI2",
+    "AI4",
+    "AI5",
+    "DPDP1",
+    "DPDP2",
+    "DPDP3"
+   ],
+   "cached": true,
+   "n_sentences": 182,
+   "raw": "{\"answers\": [{\"flag\": \"G1\", \"presence\": \"Present\", \"state\": \"ED\", \"evidence\": [{\"id\": \"p078.s1\", \"quote\": \"We process content you submit while using our services, including prompts, queries, uploads, and any other data you choose to provide.\"}], \"rationale\": \"The policy collects broad categories of user data including submitted content, prompts, uploads, health data, and device identifiers.\"}, {\"flag\": \"G2\", \"presence\": \"Present\", \"state\": \"CD\", \"evidence\": [{\"id\": \"p069.s3\", \"quote\": \"Among other things, third parties may use this data to serve ads tailored to your interests, which may include ads about our products or services.\"}, {\"id\": \"p191.s3\", \"quote\": \"You can opt out of online targeted advertising (e.g. cookies and pixels) through the cookie consent pop-up that appears when you visit a Perplexity webpage.\"}], \"rationale\": \"Third parties may collect and use data for targeted advertising, but a first-party cookie consent pop-up and GPC signal recognition are provided to opt out.\"}, {\"flag\": \"G3\", \"presence\": \"Present\", \"state\": \"CD\", \"evidence\": [{\"id\": \"p170.s1\", \"quote\": \"Inferences drawn from any of the information listed above\"}, {\"id\": \"p191.s3\", \"quote\": \"You can opt out of online targeted advertising (e.g. cookies and pixels) through the cookie consent pop-up that appears when you visit a Perplexity webpage.\"}], \"rationale\": \"The company draws inferences and learns user preferences for targeted advertising, but provides first-party opt-out mechanisms for targeted advertising.\"}, {\"flag\": \"G4\", \"presence\": \"Present\", \"state\": \"CD\", \"evidence\": [{\"id\": \"p206.s1\", \"quote\": \"We keep your personal data for only as long as necessary to fulfil the purposes in this Notice unless a longer retention period is required or permitted by law.\"}], \"rationale\": \"Data retention is stated only in general, purpose-based terms without specific retention periods for user account data or content.\"}, {\"flag\": \"G5\", \"presence\": \"Present\", \"state\": \"CD\", \"evidence\": [{\"id\": \"p186.s1\", \"quote\": \"Some jurisdictions give you a right to make the following choices:\"}, {\"id\": \"p224.s1\", \"quote\": \"To delete your account and data:\"}], \"rationale\": \"Rights such as access and deletion are described as dependent on applicable laws or specific jurisdictions, and deletion for general users is tied to deleting the account.\"}, {\"flag\": \"G6\", \"presence\": \"Present\", \"state\": \"CD\", \"evidence\": [{\"id\": \"p208.s4\", \"quote\": \"By submitting your personal data to us you agree to the transfer, storage, and processing of your data in a country other than your country of residence including, but not limited to, the United States.\"}, {\"id\": \"p208.s6\", \"quote\": \"You may also request a copy of any Standard Contractual Clauses we use for the transfer of your data outside of the EEA or United Kingdom, which includes the categories of information transferred, by contacting us using the contact information below.\"}], \"rationale\": \"Personal data is transferred internationally, and specific safeguards (Standard Contractual Clauses) are explicitly named.\"}, {\"flag\": \"G7\", \"presence\": \"Present\", \"state\": \"CD\", \"evidence\": [{\"id\": \"p214.s1\", \"quote\": \"Our websites and online services are not meant for children under 13 years old, and we do not knowingly collect personal data from children under age 16 without parental consent.\"}], \"rationale\": \"The policy specifies under-13 and under-16 age thresholds without specifying verified parental consent mechanisms or specific protections for older minors.\"}, {\"flag\": \"AI1\", \"presence\": \"Present\", \"state\": \"CD\", \"evidence\": [{\"id\": \"p033.s2\", \"quote\": \"We do not use the content of emails to create, train, improve, or fine-tune AI models.\"}, {\"id\": \"p091.s1\", \"quote\": \"Improve or create services and products, including our AI models.\"}], \"rationale\": \"The company uses data to improve its AI models, but restricts specific categories such as email content from being used for training.\"}, {\"flag\": \"AI2\", \"presence\": \"Absent\", \"state\": null, \"evidence\": [], \"rationale\": \"The policy does not describe any specific mechanism or setting for users to opt out of having their data used for AI model training.\"}, {\"flag\": \"AI4\", \"presence\": \"Present\", \"state\": \"ED\", \"evidence\": [{\"id\": \"p111.s2\", \"quote\": \"If we share deidentified data we will obligate the recipient not to try to reidentify the data.\"}], \"rationale\": \"The policy permits sharing de-identified data with third parties subject to an obligation not to re-identify it.\"}, {\"flag\": \"AI5\", \"presence\": \"Present\", \"state\": \"ED\", \"evidence\": [{\"id\": \"p184.s6\", \"quote\": \"Your health information may be shared in the following ways, in addition to those described elsewhere in this policy: with service providers that help us provide requested services, Apps/services that you connect to Perplexity health-related services and third party AI models that help us provide requested services.\"}], \"rationale\": \"User health information may be shared with third-party AI models without explicit restrictions on their model training or usage stated.\"}, {\"flag\": \"DPDP1\", \"presence\": \"Present\", \"state\": \"CD\", \"evidence\": [{\"id\": \"p110.s4\", \"quote\": \"As a result, our collection and processing of your data is based in different contexts on your consent, our need to perform a contract, our legal obligations, and/or our legitimate interest in conducting our business.\"}], \"rationale\": \"Processing relies on contract performance, legitimate interests, and contextual consent rather than explicit affirmative consent screens for the policy as a whole.\"}, {\"flag\": \"DPDP2\", \"presence\": \"Present\", \"state\": \"CD\", \"evidence\": [{\"id\": \"p197.s2\", \"quote\": \"Where we process your personal data based upon consent, you may revoke consent.\"}, {\"id\": \"p216.s1\", \"quote\": \"To submit a data privacy request directly to Perplexity, you can make your request in one of these ways:\"}], \"rationale\": \"Consent revocation is allowed, but general processing consent withdrawal requires submitting a request or"
+  }
+ ],
+ "flags": {
+  "G1": {
+   "flag": "G1",
+   "flag_key": "first_party_collection_scope",
+   "search_log": {
+    "we collect": 30,
+    "information/data we collect": 3,
+    "collected automatically": 0,
+    "you provide": 6,
+    "location": 5,
+    "device / identifiers": 5,
+    "content / messages": 30,
+    "contacts": 15,
+    "sensitive / biometric / financial": 17,
+    "from other sources": 3,
+    "usage / log data": 3
+   },
+   "n_candidates": 40,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "ED",
+   "evidence": [
+    {
+     "id": "p078.s1",
+     "quote": "We process content you submit while using our services, including prompts, queries, uploads, and any other data you choose to provide.",
+     "status": "exact",
+     "start": 10276,
+     "end": 10410,
+     "heading": "User Content – Input and Output"
+    }
+   ],
+   "status": "verified",
+   "rationale": "The policy collects broad categories of user data including submitted content, prompts, uploads, health data, and device identifiers.",
+   "attempts": 1,
+   "shown": [
+    "p004.s1",
+    "p005.s1",
+    "p014.s1",
+    "p014.s2",
+    "p018.s1",
+    "p019.s1",
+    "p021.s1",
+    "p022.s1",
+    "p029.s1",
+    "p029.s2",
+    "p036.s1",
+    "p036.s2",
+    "p042.s1",
+    "p043.s1",
+    "p046.s1",
+    "p047.s1",
+    "p054.s1",
+    "p055.s1",
+    "p060.s1",
+    "p061.s1",
+    "p066.s1",
+    "p066.s2",
+    "p072.s1",
+    "p073.s1",
+    "p078.s1",
+    "p079.s1",
+    "p081.s1",
+    "p081.s2",
+    "p082.s3",
+    "p083.s1",
+    "p084.s1",
+    "p085.s1",
+    "p085.s2",
+    "p121.s2",
+    "p121.s3",
+    "p182.s2",
+    "p182.s3",
+    "p184.s2",
+    "p184.s3"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": true,
+     "problems": []
+    }
+   ]
+  },
+  "G2": {
+   "flag": "G2",
+   "flag_key": "third_party_advertising_tracking",
+   "search_log": {
+    "advertis*": 17,
+    "targeted / interest-based / behavioural ads": 10,
+    "sell / sale of data": 3,
+    "pixel / SDK / tracking tech": 8,
+    "ad / marketing partners": 5,
+    "opt-out of sale/ads / GPC": 1,
+    "cookies": 7,
+    "analytics provider": 0,
+    "share with third parties": 8,
+    "marketing": 3
+   },
+   "n_candidates": 24,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "CD",
+   "evidence": [
+    {
+     "id": "p069.s3",
+     "quote": "Among other things, third parties may use this data to serve ads tailored to your interests, which may include ads about our products or services.",
+     "status": "exact",
+     "start": 8644,
+     "end": 8790,
+     "heading": "Targeted Advertising Technology"
+    },
+    {
+     "id": "p191.s3",
+     "quote": "You can opt out of online targeted advertising (e.g. cookies and pixels) through the cookie consent pop-up that appears when you visit a Perplexity webpage.",
+     "status": "exact",
+     "start": 21664,
+     "end": 21820,
+     "heading": "Your Choices"
+    }
+   ],
+   "status": "verified",
+   "rationale": "Third parties may collect and use data for targeted advertising, but a first-party cookie consent pop-up and GPC signal recognition are provided to opt out.",
+   "attempts": 1,
+   "shown": [
+    "p007.s2",
+    "p008.s1",
+    "p068.s1",
+    "p069.s1",
+    "p069.s2",
+    "p069.s3",
+    "p070.s1",
+    "p070.s2",
+    "p075.s1",
+    "p075.s2",
+    "p125.s1",
+    "p126.s1",
+    "p131.s1",
+    "p132.s1",
+    "p147.s1",
+    "p148.s1",
+    "p153.s1",
+    "p154.s1",
+    "p158.s1",
+    "p159.s1",
+    "p183.s4",
+    "p183.s5",
+    "p191.s1",
+    "p191.s2",
+    "p191.s3",
+    "p191.s4",
+    "p191.s7",
+    "p191.s8",
+    "p192.s1",
+    "p192.s2",
+    "p193.s1",
+    "p193.s2",
+    "p193.s3",
+    "p193.s4",
+    "p194.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": true,
+     "problems": []
+    }
+   ]
+  },
+  "G3": {
+   "flag": "G3",
+   "flag_key": "profiling_automated_decisions",
+   "search_log": {
+    "profiling": 1,
+    "automated decision": 0,
+    "infer / inference": 1,
+    "legal or similarly significant": 0,
+    "scoring": 0,
+    "personalise / recommend": 7,
+    "interests / preferences / segments": 27,
+    "predict / analyse behaviour": 0
+   },
+   "n_candidates": 6,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "CD",
+   "evidence": [
+    {
+     "id": "p170.s1",
+     "quote": "Inferences drawn from any of the information listed above",
+     "status": "exact",
+     "start": 17522,
+     "end": 17579,
+     "heading": "Inferences drawn from any of the information listed above"
+    },
+    {
+     "id": "p191.s3",
+     "quote": "You can opt out of online targeted advertising (e.g. cookies and pixels) through the cookie consent pop-up that appears when you visit a Perplexity webpage.",
+     "status": "exact",
+     "start": 21664,
+     "end": 21820,
+     "heading": "Your Choices"
+    }
+   ],
+   "status": "verified",
+   "rationale": "The company draws inferences and learns user preferences for targeted advertising, but provides first-party opt-out mechanisms for targeted advertising.",
+   "attempts": 1,
+   "shown": [
+    "p027.s1",
+    "p027.s2",
+    "p052.s1",
+    "p053.s1",
+    "p069.s3",
+    "p070.s1",
+    "p082.s2",
+    "p082.s3",
+    "p170.s1",
+    "p171.s1",
+    "p189.s2",
+    "p189.s3"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": true,
+     "problems": []
+    }
+   ]
+  },
+  "G4": {
+   "flag": "G4",
+   "flag_key": "data_retention_specificity",
+   "search_log": {
+    "retain / retention": 3,
+    "keep / store for": 1,
+    "as long as necessary": 1,
+    "numeric period": 1,
+    "indefinitely": 0,
+    "delete after / deletion": 8,
+    "legal obligation": 11
+   },
+   "n_candidates": 4,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "CD",
+   "evidence": [
+    {
+     "id": "p206.s1",
+     "quote": "We keep your personal data for only as long as necessary to fulfil the purposes in this Notice unless a longer retention period is required or permitted by law.",
+     "status": "exact",
+     "start": 26220,
+     "end": 26380,
+     "heading": "How We Protect and Retain Data"
+    }
+   ],
+   "status": "verified",
+   "rationale": "Data retention is stated only in general, purpose-based terms without specific retention periods for user account data or content.",
+   "attempts": 1,
+   "shown": [
+    "p203.s1",
+    "p204.s1",
+    "p206.s1",
+    "p206.s2",
+    "p206.s3",
+    "p206.s4",
+    "p214.s1",
+    "p214.s2"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": true,
+     "problems": []
+    }
+   ]
+  },
+  "G5": {
+   "flag": "G5",
+   "flag_key": "user_rights_access_deletion",
+   "search_log": {
+    "right to / your rights": 4,
+    "access": 3,
+    "correct / rectify / update": 1,
+    "delete / erase": 8,
+    "portability / export": 3,
+    "object / restrict": 2,
+    "nominate (DPDP)": 0,
+    "jurisdiction limits": 8
+   },
+   "n_candidates": 18,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "CD",
+   "evidence": [
+    {
+     "id": "p186.s1",
+     "quote": "Some jurisdictions give you a right to make the following choices:",
+     "status": "exact",
+     "start": 20403,
+     "end": 20469,
+     "heading": "Your Choices"
+    },
+    {
+     "id": "p224.s1",
+     "quote": "To delete your account and data:",
+     "status": "exact",
+     "start": 29391,
+     "end": 29423,
+     "heading": "Option 1: Use self-service for data export or deletion (recommended)"
+    }
+   ],
+   "status": "verified",
+   "rationale": "Rights such as access and deletion are described as dependent on applicable laws or specific jurisdictions, and deletion for general users is tied to deleting the account.",
+   "attempts": 1,
+   "shown": [
+    "p186.s1",
+    "p187.s1",
+    "p187.s2",
+    "p187.s3",
+    "p188.s1",
+    "p189.s3",
+    "p189.s4",
+    "p190.s1",
+    "p190.s2",
+    "p190.s3",
+    "p202.s2",
+    "p202.s3",
+    "p208.s6",
+    "p209.s1",
+    "p215.s1",
+    "p216.s1",
+    "p217.s1",
+    "p218.s1",
+    "p219.s1",
+    "p220.s1",
+    "p223.s1",
+    "p224.s1",
+    "p225.s1",
+    "p226.s1",
+    "p228.s1",
+    "p229.s1",
+    "p230.s1",
+    "p238.s1",
+    "p239.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": true,
+     "problems": []
+    }
+   ]
+  },
+  "G6": {
+   "flag": "G6",
+   "flag_key": "international_data_transfers",
+   "search_log": {
+    "transfer": 5,
+    "cross-border / international": 4,
+    "stored / processed in a country": 0,
+    "safeguard mechanisms": 1,
+    "localisation": 0,
+    "servers": 2,
+    "jurisdiction": 2
+   },
+   "n_candidates": 8,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "CD",
+   "evidence": [
+    {
+     "id": "p208.s4",
+     "quote": "By submitting your personal data to us you agree to the transfer, storage, and processing of your data in a country other than your country of residence including, but not limited to, the United States.",
+     "status": "exact",
+     "start": 27220,
+     "end": 27422,
+     "heading": "Transmission Of Data To Other Countries"
+    },
+    {
+     "id": "p208.s6",
+     "quote": "You may also request a copy of any Standard Contractual Clauses we use for the transfer of your data outside of the EEA or United Kingdom, which includes the categories of information transferred, by contacting us using the contact information below.",
+     "status": "exact",
+     "start": 27596,
+     "end": 27846,
+     "heading": "Transmission Of Data To Other Countries"
+    }
+   ],
+   "status": "verified",
+   "rationale": "Personal data is transferred internationally, and specific safeguards (Standard Contractual Clauses) are explicitly named.",
+   "attempts": 1,
+   "shown": [
+    "p121.s1",
+    "p121.s2",
+    "p121.s3",
+    "p183.s4",
+    "p183.s5",
+    "p191.s5",
+    "p191.s6",
+    "p207.s1",
+    "p208.s1",
+    "p208.s4",
+    "p208.s5",
+    "p208.s6",
+    "p209.s1",
+    "p236.s1",
+    "p236.s2"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": true,
+     "problems": []
+    }
+   ]
+  },
+  "G7": {
+   "flag": "G7",
+   "flag_key": "childrens_data_safeguards",
+   "search_log": {
+    "child / children / minor": 3,
+    "age threshold": 2,
+    "parent / guardian / consent": 2,
+    "COPPA / age verification": 0,
+    "knowingly collect": 1
+   },
+   "n_candidates": 4,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "CD",
+   "evidence": [
+    {
+     "id": "p214.s1",
+     "quote": "Our websites and online services are not meant for children under 13 years old, and we do not knowingly collect personal data from children under age 16 without parental consent.",
+     "status": "exact",
+     "start": 28664,
+     "end": 28842,
+     "heading": "Children"
+    }
+   ],
+   "status": "verified",
+   "rationale": "The policy specifies under-13 and under-16 age thresholds without specifying verified parental consent mechanisms or specific protections for older minors.",
+   "attempts": 1,
+   "shown": [
+    "p114.s2",
+    "p114.s3",
+    "p213.s1",
+    "p214.s1",
+    "p214.s2",
+    "p215.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": true,
+     "problems": []
+    }
+   ]
+  },
+  "AI1": {
+   "flag": "AI1",
+   "flag_key": "ai_model_training_on_user_content",
+   "search_log": {
+    "train / training": 1,
+    "model(s)": 3,
+    "machine learning": 0,
+    "artificial intelligence / AI": 7,
+    "improve / develop services": 2,
+    "content / inputs / outputs": 28,
+    "research": 1
+   },
+   "n_candidates": 7,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "CD",
+   "evidence": [
+    {
+     "id": "p033.s2",
+     "quote": "We do not use the content of emails to create, train, improve, or fine-tune AI models.",
+     "status": "exact",
+     "start": 3923,
+     "end": 4009,
+     "heading": "Email Assistant"
+    },
+    {
+     "id": "p091.s1",
+     "quote": "Improve or create services and products, including our AI models.",
+     "status": "exact",
+     "start": 11687,
+     "end": 11752,
+     "heading": "How We Use Data"
+    }
+   ],
+   "status": "verified",
+   "rationale": "The company uses data to improve its AI models, but restricts specific categories such as email content from being used for training.",
+   "attempts": 1,
+   "shown": [
+    "p003.s1",
+    "p003.s2",
+    "p033.s2",
+    "p034.s1",
+    "p091.s1",
+    "p092.s1",
+    "p184.s6",
+    "p184.s7",
+    "p221.s1",
+    "p222.s1",
+    "p227.s1",
+    "p228.s1",
+    "p236.s1",
+    "p236.s2"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": true,
+     "problems": []
+    }
+   ]
+  },
+  "AI2": {
+   "flag": "AI2",
+   "flag_key": "ai_training_opt_out_control",
+   "search_log": {
+    "opt out": 7,
+    "turn off / disable": 0,
+    "choose whether / your choices": 4,
+    "settings / controls": 15,
+    "train / model (co-occurrence)": 3,
+    "object / request": 9
+   },
+   "n_candidates": 11,
+   "mode": "batch",
+   "presence": "Absent",
+   "state": "NS",
+   "evidence": [],
+   "status": "absent_unverifiable",
+   "rationale": "The policy does not describe any specific mechanism or setting for users to opt out of having their data used for AI model training.",
+   "attempts": 1,
+   "shown": [
+    "p070.s2",
+    "p071.s1",
+    "p184.s7",
+    "p185.s1",
+    "p186.s1",
+    "p191.s1",
+    "p191.s2",
+    "p191.s3",
+    "p191.s4",
+    "p191.s5",
+    "p191.s6",
+    "p192.s1",
+    "p192.s2",
+    "p193.s1",
+    "p193.s4",
+    "p194.s1",
+    "p196.s4",
+    "p197.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": true,
+     "problems": []
+    }
+   ]
+  },
+  "AI3": {
+   "flag": "AI3",
+   "flag_key": "ai_human_review_of_chats",
+   "search_log": {
+    "human review": 0,
+    "reviewers / annotators / moderators": 0,
+    "staff may access / review content": 0,
+    "review content / conversations": 0,
+    "we may access / review / monitor content": 0,
+    "flagged / safety / abuse": 2,
+    "support / feedback": 3
+   },
+   "n_candidates": 0,
+   "mode": "batch",
+   "presence": "Absent",
+   "state": "NS",
+   "evidence": [],
+   "status": "no_candidates",
+   "rationale": "no sentence matched the flag's search terms; absence not verified",
+   "attempts": 0,
+   "shown": []
+  },
+  "AI4": {
+   "flag": "AI4",
+   "flag_key": "deidentification_training_carveout",
+   "search_log": {
+    "de-identified": 2,
+    "anonymised": 0,
+    "aggregated": 0,
+    "pseudonymised": 0,
+    "no longer identifies": 0,
+    "share / any purpose": 46
+   },
+   "n_candidates": 2,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "ED",
+   "evidence": [
+    {
+     "id": "p111.s2",
+     "quote": "If we share deidentified data we will obligate the recipient not to try to reidentify the data.",
+     "status": "exact",
+     "start": 13327,
+     "end": 13422,
+     "heading": "How We Use Data"
+    }
+   ],
+   "status": "verified",
+   "rationale": "The policy permits sharing de-identified data with third parties subject to an obligation not to re-identify it.",
+   "attempts": 1,
+   "shown": [
+    "p111.s1",
+    "p111.s2",
+    "p112.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": true,
+     "problems": []
+    }
+   ]
+  },
+  "AI5": {
+   "flag": "AI5",
+   "flag_key": "third_party_ai_subprocessors",
+   "search_log": {
+    "AI / model providers": 0,
+    "named AI vendors": 0,
+    "third-party AI / models": 1,
+    "integrations / connectors / plugins": 3,
+    "license content / data licensing": 0,
+    "sub-processors / service providers": 19,
+    "AI features": 0
+   },
+   "n_candidates": 4,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "ED",
+   "evidence": [
+    {
+     "id": "p184.s6",
+     "quote": "Your health information may be shared in the following ways, in addition to those described elsewhere in this policy: with service providers that help us provide requested services, Apps/services that you connect to Perplexity health-related services and third party AI models that help us provide requested services.",
+     "status": "exact",
+     "start": 19961,
+     "end": 20278,
+     "heading": "Inferences drawn from any of the information listed above"
+    }
+   ],
+   "status": "verified",
+   "rationale": "User health information may be shared with third-party AI models without explicit restrictions on their model training or usage stated.",
+   "attempts": 1,
+   "shown": [
+    "p184.s6",
+    "p184.s7",
+    "p202.s1",
+    "p202.s2",
+    "p202.s3",
+    "p203.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": true,
+     "problems": []
+    }
+   ]
+  },
+  "DPDP1": {
+   "flag": "DPDP1",
+   "flag_key": "dpdp_unambiguous_affirmative_consent",
+   "search_log": {
+    "by using / visiting you agree": 0,
+    "consent": 20,
+    "agree / accept": 1,
+    "DPDP / Indian law": 0,
+    "legal basis": 21,
+    "notice / checkbox / sign-up": 22,
+    "explicit / affirmative / freely": 0
+   },
+   "n_candidates": 41,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "CD",
+   "evidence": [
+    {
+     "id": "p110.s4",
+     "quote": "As a result, our collection and processing of your data is based in different contexts on your consent, our need to perform a contract, our legal obligations, and/or our legitimate interest in conducting our business.",
+     "status": "exact",
+     "start": 12958,
+     "end": 13175,
+     "heading": "How We Use Data"
+    }
+   ],
+   "status": "verified",
+   "rationale": "Processing relies on contract performance, legitimate interests, and contextual consent rather than explicit affirmative consent screens for the policy as a whole.",
+   "attempts": 1,
+   "shown": [
+    "p012.s1",
+    "p013.s1",
+    "p016.s1",
+    "p016.s2",
+    "p019.s1",
+    "p020.s1",
+    "p022.s1",
+    "p022.s2",
+    "p023.s1",
+    "p027.s1",
+    "p027.s2",
+    "p030.s1",
+    "p030.s2",
+    "p037.s1",
+    "p037.s2",
+    "p040.s1",
+    "p041.s1",
+    "p043.s1",
+    "p044.s1",
+    "p046.s1",
+    "p047.s1",
+    "p049.s2",
+    "p049.s3",
+    "p052.s1",
+    "p053.s1",
+    "p055.s1",
+    "p055.s2",
+    "p056.s1",
+    "p058.s1",
+    "p059.s1",
+    "p061.s1",
+    "p061.s2",
+    "p067.s1",
+    "p068.s1",
+    "p110.s4",
+    "p111.s1",
+    "p212.s3",
+    "p212.s4"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": true,
+     "problems": []
+    }
+   ]
+  },
+  "DPDP2": {
+   "flag": "DPDP2",
+   "flag_key": "dpdp_easy_consent_withdrawal",
+   "search_log": {
+    "withdraw / revoke consent": 3,
+    "consent manager": 0,
+    "opt out / unsubscribe": 8,
+    "settings / dashboard": 12,
+    "contact / email to withdraw": 26,
+    "delete account": 3,
+    "consent (co-occurrence)": 20
+   },
+   "n_candidates": 11,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "CD",
+   "evidence": [
+    {
+     "id": "p197.s2",
+     "quote": "Where we process your personal data based upon consent, you may revoke consent.",
+     "status": "exact",
+     "start": 23987,
+     "end": 24066,
+     "heading": "Your Choices"
+    },
+    {
+     "id": "p216.s1",
+     "quote": "To submit a data privacy request directly to Perplexity, you can make your request in one of these ways:",
+     "status": "exact",
+     "start": 28941,
+     "end": 29045,
+     "heading": "Data Subject Rights Contact Information"
+    }
+   ],
+   "status": "verified",
+   "rationale": "Consent revocation is allowed, but general processing consent withdrawal requires submitting a request or contacting the company rather than using a self-serve toggle.",
+   "attempts": 1,
+   "shown": [
+    "p191.s1",
+    "p191.s2",
+    "p191.s3",
+    "p191.s4",
+    "p191.s5",
+    "p191.s6",
+    "p192.s1",
+    "p192.s2",
+    "p193.s1",
+    "p193.s4",
+    "p194.s1",
+    "p196.s3",
+    "p196.s4",
+    "p197.s1",
+    "p197.s2",
+    "p197.s3",
+    "p198.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": true,
+     "problems": []
+    }
+   ]
+  },
+  "DPDP3": {
+   "flag": "DPDP3",
+   "flag_key": "dpdp_grievance_dpo_contact",
+   "search_log": {
+    "grievance officer": 0,
+    "data protection officer / DPO": 2,
+    "email address": 1,
+    "Data Protection Board / complaint": 1,
+    "contact us": 14,
+    "officer / named person": 1
+   },
+   "n_candidates": 3,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "ED",
+   "evidence": [
+    {
+     "id": "p237.s2",
+     "quote": "VeraSafe is also our data protection officer (DPO), in which capacity it may be contacted using the following details: VeraSafe, LLC, c/o VeraSafe Ireland Ltd., Unit 3D North Point House, North Point Business Park, New Mallow Road, Cork, T23AT2P, Ireland, +420 228 881 031, experts@verasafe.com.",
+     "status": "exact",
+     "start": 31307,
+     "end": 31602,
+     "heading": "Article 27 Representative and DPO"
+    }
+   ],
+   "status": "verified",
+   "rationale": "The policy explicitly designates VeraSafe as its Data Protection Officer (DPO) and provides full contact details including address, phone number, and email.",
+   "attempts": 1,
+   "shown": [
+    "p234.s1",
+    "p235.s1",
+    "p237.s2",
+    "p238.s1",
+    "p239.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": true,
+     "problems": []
+    }
+   ]
+  },
+  "DPDP4": {
+   "flag": "DPDP4",
+   "flag_key": "dpdp_eighth_schedule_languages",
+   "search_log": {
+    "Eighth Schedule": 0,
+    "language(s) / translation": 0,
+    "Indian language names (English)": 0,
+    "Indian language names (native script)": 0,
+    "English": 0
+   },
+   "n_candidates": 0,
+   "mode": "batch",
+   "presence": "Absent",
+   "state": "NS",
+   "evidence": [],
+   "status": "no_candidates",
+   "rationale": "no sentence matched the flag's search terms; absence not verified",
+   "attempts": 0,
+   "shown": []
+  }
+ },
+ "scores": {
+  "scoring_version": "1.0",
+  "risk_index": 50.0,
+  "risk_index_display": 50,
+  "disclosure_quality": 71.6667,
+  "disclosure_quality_display": 72,
+  "risk_points": 14.5,
+  "max_risk_points": 29.0,
+  "quality_points": 21.5,
+  "max_quality_points": 30.0,
+  "n_applicable": 15,
+  "n_not_stated": 2,
+  "per_flag": [
+   {
+    "flag": "G1",
+    "state": "ED",
+    "weight": 1.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 1.0,
+    "max_risk_points": 1.0,
+    "quality_points": 2.0
+   },
+   {
+    "flag": "G2",
+    "state": "CD",
+    "weight": 3.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 1.5,
+    "max_risk_points": 3.0,
+    "quality_points": 1.5
+   },
+   {
+    "flag": "G3",
+    "state": "CD",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 1.0,
+    "max_risk_points": 2.0,
+    "quality_points": 1.5
+   },
+   {
+    "flag": "G4",
+    "state": "CD",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 1.0,
+    "max_risk_points": 2.0,
+    "quality_points": 1.5
+   },
+   {
+    "flag": "G5",
+    "state": "CD",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 1.0,
+    "max_risk_points": 2.0,
+    "quality_points": 1.5
+   },
+   {
+    "flag": "G6",
+    "state": "CD",
+    "weight": 1.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 0.5,
+    "max_risk_points": 1.0,
+    "quality_points": 1.5
+   },
+   {
+    "flag": "G7",
+    "state": "CD",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 1.0,
+    "max_risk_points": 2.0,
+    "quality_points": 1.5
+   },
+   {
+    "flag": "AI1",
+    "state": "CD",
+    "weight": 3.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 1.5,
+    "max_risk_points": 3.0,
+    "quality_points": 1.5
+   },
+   {
+    "flag": "AI2",
+    "state": "NS",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 0.0,
+    "max_risk_points": 2.0,
+    "quality_points": 0.0
+   },
+   {
+    "flag": "AI3",
+    "state": "NS",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 0.0,
+    "max_risk_points": 2.0,
+    "quality_points": 0.0
+   },
+   {
+    "flag": "AI4",
+    "state": "ED",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 2.0,
+    "max_risk_points": 2.0,
+    "quality_points": 2.0
+   },
+   {
+    "flag": "AI5",
+    "state": "ED",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 2.0,
+    "max_risk_points": 2.0,
+    "quality_points": 2.0
+   },
+   {
+    "flag": "DPDP1",
+    "state": "CD",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 1.0,
+    "max_risk_points": 2.0,
+    "quality_points": 1.5
+   },
+   {
+    "flag": "DPDP2",
+    "state": "CD",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 1.0,
+    "max_risk_points": 2.0,
+    "quality_points": 1.5
+   },
+   {
+    "flag": "DPDP3",
+    "state": "ED",
+    "weight": 1.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 0.0,
+    "max_risk_points": 1.0,
+    "quality_points": 2.0
+   },
+   {
+    "flag": "DPDP4",
+    "state": "NS",
+    "weight": 0.0,
+    "applicable": false,
+    "reason": "informational flag (weight 0)",
+    "risk_points": 0.0,
+    "max_risk_points": 0.0,
+    "quality_points": 0.0
+   }
+  ],
+  "complete": true,
+  "rejected_flags_scored_as_UN": []
+ },
+ "policy_key": "P04_perplexity",
+ "cohort": "ai"
+}

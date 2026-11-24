@@ -1,0 +1,30 @@
+{
+  "rule": "practice suffix -> OPP-115 category",
+  "included": {
+    "*_1stParty": "First Party Collection/Use",
+    "*_3rdParty": "Third Party Sharing/Collection"
+  },
+  "excluded": {
+    "SSO": "ambiguous party (first party receiving data whose origin is a third party) - not forced either way",
+    "Facebook_SSO": "same as SSO",
+    "unannotated segments": "no practice mentioned - nothing to map",
+    "Data Retention": "no field in APP-350 schema speaks to retention",
+    "Data Security": "no field in APP-350 schema speaks to security measures",
+    "User Choice/Control": "no field in APP-350 schema speaks to opt-in/opt-out/consent mechanisms",
+    "Policy Change": "no field in APP-350 schema speaks to policy change notices",
+    "Do Not Track": "no field in APP-350 schema speaks to DNT signals",
+    "International and Specific Audiences": "no field in APP-350 schema speaks to audience/geographic scope",
+    "User Access, Edit and Deletion": "no field in APP-350 schema speaks to access/edit/delete rights",
+    "Other": "not a meaningful mapping target"
+  },
+  "modality_handling": "PERFORMED and NOT_PERFORMED both map to the same OPP-115 topic label (topic classifier, not stance classifier); original modality preserved per-practice in modality_detail field on every record",
+  "counts": {
+    "total_app350_segments": 15507,
+    "unannotated_excluded": 11422,
+    "sso_only_excluded": 148,
+    "mapped_segments": 3937,
+    "mapped_only_first_party": 2973,
+    "mapped_only_third_party": 535,
+    "mapped_both_multilabel": 429
+  }
+}

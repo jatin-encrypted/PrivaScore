@@ -1,0 +1,32 @@
+# PrivaScore configuration example.
+# Copy to privascore.toml (git-ignored) and edit. API keys are NOT stored here:
+# put GEMINI_API_KEY=... (or GROQ_API_KEY=...) in .env at the repo root (git-ignored; see .env.example).
+# After switching provider or model, run:  .venv/bin/python -m privascore.llm.smoke
+
+[llm]
+provider = "mock"            # "mock" (no network, dry run) | "gemini" | "groq"
+temperature = 0.0
+max_output_tokens = 4096     # Gemini 3.x models spend output tokens on hidden "thinking"
+timeout_seconds = 120
+min_interval_seconds = 4.0   # spacing between calls; raise it if you hit free-tier rate limits
+max_http_retries = 3
+
+[llm.gemini]
+# Model names change often. Pick one that your key can call in Google AI Studio.
+model = ""
+# api_key_env = "GEMINI_API_KEY"
+
+[llm.groq]
+# Pick a current model from the Groq console (an open model, not Gemini).
+model = ""
+# api_key_env = "GROQ_API_KEY"
+
+[extractor]
+max_candidates = 20
+include_next_sentence = true
+max_context_sentences = 40
+max_answer_retries = 1
+skip_llm_when_no_candidates = true
+cache_dir = ".cache/llm"
+min_quote_words = 4
+batch_max_output_tokens = 16384

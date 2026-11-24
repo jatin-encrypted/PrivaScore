@@ -1,0 +1,2309 @@
+{
+ "policy_id": "P11",
+ "policy_key": "P11_razorpay",
+ "policy_name": "razorpay",
+ "url": "https://razorpay.com/privacy-policy/",
+ "scope": "all_users",
+ "cohort": "india",
+ "fetched_at_utc": "2026-11-11T18:47:33+00:00",
+ "text_file": "policies/text/P11_razorpay.txt",
+ "text_sha256": "8c5d095bc8c19a8d9f1222e0e6bbd77832c93a8b6609df94428ac8c742bcb8c0",
+ "flag_definitions_sha256": "7c81dc82616e22f95abb8c359f50f76e890fa628b31296c19186e78518da00c7",
+ "segmenter_version": "1",
+ "n_paragraphs": 75,
+ "n_sentences": 142,
+ "sentences": {
+  "p001.s1": {
+   "start": 0,
+   "end": 1034,
+   "heading": ""
+  },
+  "p002.s1": {
+   "start": 1035,
+   "end": 1049,
+   "heading": "Privacy Policy"
+  },
+  "p003.s1": {
+   "start": 1050,
+   "end": 1103,
+   "heading": "Privacy Policy"
+  },
+  "p004.s1": {
+   "start": 1104,
+   "end": 1263,
+   "heading": "Privacy Policy"
+  },
+  "p005.s1": {
+   "start": 1264,
+   "end": 1297,
+   "heading": "Privacy Policy"
+  },
+  "p006.s1": {
+   "start": 1298,
+   "end": 1385,
+   "heading": "Privacy Policy"
+  },
+  "p007.s1": {
+   "start": 1386,
+   "end": 1479,
+   "heading": "Privacy Policy"
+  },
+  "p008.s1": {
+   "start": 1480,
+   "end": 1608,
+   "heading": "Privacy Policy"
+  },
+  "p009.s1": {
+   "start": 1609,
+   "end": 1611,
+   "heading": "1. Introduction to Privacy Policy"
+  },
+  "p009.s2": {
+   "start": 1612,
+   "end": 1642,
+   "heading": "1. Introduction to Privacy Policy"
+  },
+  "p010.s1": {
+   "start": 1643,
+   "end": 1910,
+   "heading": "1. Introduction to Privacy Policy"
+  },
+  "p010.s2": {
+   "start": 1911,
+   "end": 2060,
+   "heading": "1. Introduction to Privacy Policy"
+  },
+  "p011.s1": {
+   "start": 2061,
+   "end": 2187,
+   "heading": "1. Introduction to Privacy Policy"
+  },
+  "p011.s2": {
+   "start": 2188,
+   "end": 2387,
+   "heading": "1. Introduction to Privacy Policy"
+  },
+  "p012.s1": {
+   "start": 2388,
+   "end": 2531,
+   "heading": "1. Introduction to Privacy Policy"
+  },
+  "p012.s2": {
+   "start": 2532,
+   "end": 2659,
+   "heading": "1. Introduction to Privacy Policy"
+  },
+  "p012.s3": {
+   "start": 2660,
+   "end": 2864,
+   "heading": "1. Introduction to Privacy Policy"
+  },
+  "p013.s1": {
+   "start": 2865,
+   "end": 3052,
+   "heading": "1. Introduction to Privacy Policy"
+  },
+  "p013.s2": {
+   "start": 3053,
+   "end": 3121,
+   "heading": "1. Introduction to Privacy Policy"
+  },
+  "p013.s3": {
+   "start": 3122,
+   "end": 3292,
+   "heading": "1. Introduction to Privacy Policy"
+  },
+  "p014.s1": {
+   "start": 3293,
+   "end": 3295,
+   "heading": "2. Information we collect and how we use it"
+  },
+  "p014.s2": {
+   "start": 3296,
+   "end": 3336,
+   "heading": "2. Information we collect and how we use it"
+  },
+  "p015.s1": {
+   "start": 3337,
+   "end": 3384,
+   "heading": "2. Information we collect and how we use it"
+  },
+  "p015.s2": {
+   "start": 3385,
+   "end": 3622,
+   "heading": "2. Information we collect and how we use it"
+  },
+  "p015.s3": {
+   "start": 3623,
+   "end": 3716,
+   "heading": "2. Information we collect and how we use it"
+  },
+  "p015.s4": {
+   "start": 3717,
+   "end": 3866,
+   "heading": "2. Information we collect and how we use it"
+  },
+  "p016.s1": {
+   "start": 3867,
+   "end": 3982,
+   "heading": "2. Information we collect and how we use it"
+  },
+  "p016.s2": {
+   "start": 3983,
+   "end": 4130,
+   "heading": "2. Information we collect and how we use it"
+  },
+  "p017.s1": {
+   "start": 4131,
+   "end": 4606,
+   "heading": "2. Information we collect and how we use it"
+  },
+  "p018.s1": {
+   "start": 4607,
+   "end": 4826,
+   "heading": "2. Information we collect and how we use it"
+  },
+  "p018.s2": {
+   "start": 4827,
+   "end": 4905,
+   "heading": "2. Information we collect and how we use it"
+  },
+  "p019.s1": {
+   "start": 4906,
+   "end": 4908,
+   "heading": "3. Account information of Merchants"
+  },
+  "p019.s2": {
+   "start": 4909,
+   "end": 4941,
+   "heading": "3. Account information of Merchants"
+  },
+  "p020.s1": {
+   "start": 4942,
+   "end": 5131,
+   "heading": "3. Account information of Merchants"
+  },
+  "p020.s2": {
+   "start": 5132,
+   "end": 5474,
+   "heading": "3. Account information of Merchants"
+  },
+  "p021.s1": {
+   "start": 5475,
+   "end": 5761,
+   "heading": "3. Account information of Merchants"
+  },
+  "p021.s2": {
+   "start": 5762,
+   "end": 5931,
+   "heading": "3. Account information of Merchants"
+  },
+  "p021.s3": {
+   "start": 5932,
+   "end": 6032,
+   "heading": "3. Account information of Merchants"
+  },
+  "p021.s4": {
+   "start": 6033,
+   "end": 6158,
+   "heading": "3. Account information of Merchants"
+  },
+  "p022.s1": {
+   "start": 6159,
+   "end": 6269,
+   "heading": "3. Account information of Merchants"
+  },
+  "p023.s1": {
+   "start": 6270,
+   "end": 6370,
+   "heading": "3. Account information of Merchants"
+  },
+  "p023.s2": {
+   "start": 6371,
+   "end": 6471,
+   "heading": "3. Account information of Merchants"
+  },
+  "p024.s1": {
+   "start": 6472,
+   "end": 6474,
+   "heading": "4. Customer Information"
+  },
+  "p024.s2": {
+   "start": 6475,
+   "end": 6495,
+   "heading": "4. Customer Information"
+  },
+  "p025.s1": {
+   "start": 6496,
+   "end": 6679,
+   "heading": "4. Customer Information"
+  },
+  "p025.s2": {
+   "start": 6680,
+   "end": 6834,
+   "heading": "4. Customer Information"
+  },
+  "p026.s1": {
+   "start": 6835,
+   "end": 6985,
+   "heading": "4. Customer Information"
+  },
+  "p027.s1": {
+   "start": 6986,
+   "end": 7073,
+   "heading": "4. Customer Information"
+  },
+  "p028.s1": {
+   "start": 7074,
+   "end": 7267,
+   "heading": "4. Customer Information"
+  },
+  "p028.s2": {
+   "start": 7268,
+   "end": 7355,
+   "heading": "4. Customer Information"
+  },
+  "p029.s1": {
+   "start": 7356,
+   "end": 7580,
+   "heading": "4. Customer Information"
+  },
+  "p029.s2": {
+   "start": 7581,
+   "end": 7694,
+   "heading": "4. Customer Information"
+  },
+  "p030.s1": {
+   "start": 7695,
+   "end": 7820,
+   "heading": "4. Customer Information"
+  },
+  "p030.s2": {
+   "start": 7821,
+   "end": 7920,
+   "heading": "4. Customer Information"
+  },
+  "p030.s3": {
+   "start": 7921,
+   "end": 8006,
+   "heading": "4. Customer Information"
+  },
+  "p031.s1": {
+   "start": 8007,
+   "end": 8234,
+   "heading": "4. Customer Information"
+  },
+  "p032.s1": {
+   "start": 8235,
+   "end": 8237,
+   "heading": "5. Activity"
+  },
+  "p032.s2": {
+   "start": 8238,
+   "end": 8246,
+   "heading": "5. Activity"
+  },
+  "p033.s1": {
+   "start": 8247,
+   "end": 8456,
+   "heading": "5. Activity"
+  },
+  "p033.s2": {
+   "start": 8457,
+   "end": 8574,
+   "heading": "5. Activity"
+  },
+  "p033.s3": {
+   "start": 8575,
+   "end": 8751,
+   "heading": "5. Activity"
+  },
+  "p033.s4": {
+   "start": 8752,
+   "end": 8819,
+   "heading": "5. Activity"
+  },
+  "p034.s1": {
+   "start": 8820,
+   "end": 8905,
+   "heading": "5. Activity"
+  },
+  "p034.s2": {
+   "start": 8906,
+   "end": 9031,
+   "heading": "5. Activity"
+  },
+  "p034.s3": {
+   "start": 9032,
+   "end": 9220,
+   "heading": "5. Activity"
+  },
+  "p035.s1": {
+   "start": 9221,
+   "end": 9395,
+   "heading": "5. Activity"
+  },
+  "p035.s2": {
+   "start": 9396,
+   "end": 9487,
+   "heading": "5. Activity"
+  },
+  "p035.s3": {
+   "start": 9488,
+   "end": 9674,
+   "heading": "5. Activity"
+  },
+  "p036.s1": {
+   "start": 9675,
+   "end": 9677,
+   "heading": "6. Cookies"
+  },
+  "p036.s2": {
+   "start": 9678,
+   "end": 9685,
+   "heading": "6. Cookies"
+  },
+  "p037.s1": {
+   "start": 9686,
+   "end": 9801,
+   "heading": "6. Cookies"
+  },
+  "p037.s2": {
+   "start": 9802,
+   "end": 9926,
+   "heading": "6. Cookies"
+  },
+  "p037.s3": {
+   "start": 9927,
+   "end": 10077,
+   "heading": "6. Cookies"
+  },
+  "p037.s4": {
+   "start": 10078,
+   "end": 10171,
+   "heading": "6. Cookies"
+  },
+  "p037.s5": {
+   "start": 10172,
+   "end": 10261,
+   "heading": "6. Cookies"
+  },
+  "p038.s1": {
+   "start": 10262,
+   "end": 10441,
+   "heading": "6. Cookies"
+  },
+  "p038.s2": {
+   "start": 10442,
+   "end": 10598,
+   "heading": "6. Cookies"
+  },
+  "p038.s3": {
+   "start": 10599,
+   "end": 10660,
+   "heading": "6. Cookies"
+  },
+  "p038.s4": {
+   "start": 10661,
+   "end": 10801,
+   "heading": "6. Cookies"
+  },
+  "p039.s1": {
+   "start": 10802,
+   "end": 10940,
+   "heading": "6. Cookies"
+  },
+  "p039.s2": {
+   "start": 10941,
+   "end": 11015,
+   "heading": "6. Cookies"
+  },
+  "p040.s1": {
+   "start": 11016,
+   "end": 11018,
+   "heading": "7. Enforcement"
+  },
+  "p040.s2": {
+   "start": 11019,
+   "end": 11030,
+   "heading": "7. Enforcement"
+  },
+  "p041.s1": {
+   "start": 11031,
+   "end": 11228,
+   "heading": "7. Enforcement"
+  },
+  "p042.s1": {
+   "start": 11229,
+   "end": 11231,
+   "heading": "8. Transfer of information"
+  },
+  "p042.s2": {
+   "start": 11232,
+   "end": 11255,
+   "heading": "8. Transfer of information"
+  },
+  "p043.s1": {
+   "start": 11256,
+   "end": 11420,
+   "heading": "8. Transfer of information"
+  },
+  "p043.s2": {
+   "start": 11421,
+   "end": 11729,
+   "heading": "8. Transfer of information"
+  },
+  "p043.s3": {
+   "start": 11730,
+   "end": 11837,
+   "heading": "8. Transfer of information"
+  },
+  "p044.s1": {
+   "start": 11838,
+   "end": 12043,
+   "heading": "8. Transfer of information"
+  },
+  "p044.s2": {
+   "start": 12044,
+   "end": 12109,
+   "heading": "8. Transfer of information"
+  },
+  "p044.s3": {
+   "start": 12110,
+   "end": 12319,
+   "heading": "8. Transfer of information"
+  },
+  "p045.s1": {
+   "start": 12320,
+   "end": 12780,
+   "heading": "8. Transfer of information"
+  },
+  "p045.s2": {
+   "start": 12781,
+   "end": 12935,
+   "heading": "8. Transfer of information"
+  },
+  "p046.s1": {
+   "start": 12936,
+   "end": 13127,
+   "heading": "8. Transfer of information"
+  },
+  "p046.s2": {
+   "start": 13128,
+   "end": 13236,
+   "heading": "8. Transfer of information"
+  },
+  "p047.s1": {
+   "start": 13237,
+   "end": 13239,
+   "heading": "9. Links"
+  },
+  "p047.s2": {
+   "start": 13240,
+   "end": 13245,
+   "heading": "9. Links"
+  },
+  "p048.s1": {
+   "start": 13246,
+   "end": 13429,
+   "heading": "9. Links"
+  },
+  "p048.s2": {
+   "start": 13430,
+   "end": 13563,
+   "heading": "9. Links"
+  },
+  "p048.s3": {
+   "start": 13564,
+   "end": 13711,
+   "heading": "9. Links"
+  },
+  "p048.s4": {
+   "start": 13712,
+   "end": 13792,
+   "heading": "9. Links"
+  },
+  "p049.s1": {
+   "start": 13793,
+   "end": 13818,
+   "heading": "9. Links"
+  },
+  "p050.s1": {
+   "start": 13819,
+   "end": 14008,
+   "heading": "9. Links"
+  },
+  "p051.s1": {
+   "start": 14009,
+   "end": 14097,
+   "heading": "9. Links"
+  },
+  "p052.s1": {
+   "start": 14098,
+   "end": 14099,
+   "heading": "9. Links"
+  },
+  "p052.s2": {
+   "start": 14100,
+   "end": 14135,
+   "heading": "9. Links"
+  },
+  "p053.s1": {
+   "start": 14136,
+   "end": 14298,
+   "heading": "9. Links"
+  },
+  "p054.s1": {
+   "start": 14299,
+   "end": 14302,
+   "heading": "11. Security"
+  },
+  "p054.s2": {
+   "start": 14303,
+   "end": 14311,
+   "heading": "11. Security"
+  },
+  "p055.s1": {
+   "start": 14312,
+   "end": 14347,
+   "heading": "11. Security"
+  },
+  "p055.s2": {
+   "start": 14348,
+   "end": 14488,
+   "heading": "11. Security"
+  },
+  "p055.s3": {
+   "start": 14489,
+   "end": 14646,
+   "heading": "11. Security"
+  },
+  "p055.s4": {
+   "start": 14647,
+   "end": 14747,
+   "heading": "11. Security"
+  },
+  "p056.s1": {
+   "start": 14748,
+   "end": 15000,
+   "heading": "11. Security"
+  },
+  "p057.s1": {
+   "start": 15001,
+   "end": 15004,
+   "heading": "12. Terms and modifications to this Privacy Policy"
+  },
+  "p057.s2": {
+   "start": 15005,
+   "end": 15051,
+   "heading": "12. Terms and modifications to this Privacy Policy"
+  },
+  "p058.s1": {
+   "start": 15052,
+   "end": 15194,
+   "heading": "12. Terms and modifications to this Privacy Policy"
+  },
+  "p059.s1": {
+   "start": 15195,
+   "end": 15466,
+   "heading": "12. Terms and modifications to this Privacy Policy"
+  },
+  "p060.s1": {
+   "start": 15467,
+   "end": 15575,
+   "heading": "12. Terms and modifications to this Privacy Policy"
+  },
+  "p061.s1": {
+   "start": 15576,
+   "end": 15693,
+   "heading": "12. Terms and modifications to this Privacy Policy"
+  },
+  "p062.s1": {
+   "start": 15694,
+   "end": 15863,
+   "heading": "12. Terms and modifications to this Privacy Policy"
+  },
+  "p062.s2": {
+   "start": 15864,
+   "end": 15973,
+   "heading": "12. Terms and modifications to this Privacy Policy"
+  },
+  "p063.s1": {
+   "start": 15974,
+   "end": 16124,
+   "heading": "12. Terms and modifications to this Privacy Policy"
+  },
+  "p063.s2": {
+   "start": 16125,
+   "end": 16287,
+   "heading": "12. Terms and modifications to this Privacy Policy"
+  },
+  "p064.s1": {
+   "start": 16288,
+   "end": 16289,
+   "heading": "12. Terms and modifications to this Privacy Policy"
+  },
+  "p064.s2": {
+   "start": 16290,
+   "end": 16304,
+   "heading": "12. Terms and modifications to this Privacy Policy"
+  },
+  "p065.s1": {
+   "start": 16305,
+   "end": 16401,
+   "heading": "12. Terms and modifications to this Privacy Policy"
+  },
+  "p065.s2": {
+   "start": 16402,
+   "end": 16650,
+   "heading": "12. Terms and modifications to this Privacy Policy"
+  },
+  "p066.s1": {
+   "start": 16651,
+   "end": 16652,
+   "heading": "12. Terms and modifications to this Privacy Policy"
+  },
+  "p066.s2": {
+   "start": 16653,
+   "end": 16687,
+   "heading": "12. Terms and modifications to this Privacy Policy"
+  },
+  "p067.s1": {
+   "start": 16688,
+   "end": 16895,
+   "heading": "12. Terms and modifications to this Privacy Policy"
+  },
+  "p068.s1": {
+   "start": 16896,
+   "end": 17291,
+   "heading": "12. Terms and modifications to this Privacy Policy"
+  },
+  "p069.s1": {
+   "start": 17292,
+   "end": 17499,
+   "heading": "12. Terms and modifications to this Privacy Policy"
+  },
+  "p070.s1": {
+   "start": 17500,
+   "end": 17895,
+   "heading": "12. Terms and modifications to this Privacy Policy"
+  },
+  "p071.s1": {
+   "start": 17896,
+   "end": 17897,
+   "heading": "12. Terms and modifications to this Privacy Policy"
+  },
+  "p071.s2": {
+   "start": 17898,
+   "end": 17901,
+   "heading": "12. Terms and modifications to this Privacy Policy"
+  },
+  "p072.s1": {
+   "start": 17902,
+   "end": 17905,
+   "heading": "MR. Praveen Parihar"
+  },
+  "p072.s2": {
+   "start": 17906,
+   "end": 17921,
+   "heading": "MR. Praveen Parihar"
+  },
+  "p073.s1": {
+   "start": 17922,
+   "end": 17955,
+   "heading": "Razorpay Payments Private Limited"
+  },
+  "p074.s1": {
+   "start": 17956,
+   "end": 17980,
+   "heading": "E-mail: dpo@razorpay.com"
+  },
+  "p075.s1": {
+   "start": 17981,
+   "end": 18032,
+   "heading": "Grievances portal: https://razorpay.com/grievances/"
+  }
+ },
+ "flags": {
+  "G1": {
+   "question": "What personal data does the company itself collect, and how broad is it?",
+   "search_log": {
+    "we collect": {
+     "regex": "\\bwe (?:may )?(?:collect|receive|obtain|gather|process)\\b",
+     "tier": "core",
+     "sentences_matched": 9
+    },
+    "information/data we collect": {
+     "regex": "\\b(?:information|data) (?:that )?we (?:collect|receive|obtain)\\b",
+     "tier": "core",
+     "sentences_matched": 3
+    },
+    "collected automatically": {
+     "regex": "\\bautomatically (?:collect|receive|log|record)|collected automatically\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "you provide": {
+     "regex": "\\b(?:you|users) (?:provide|submit|give|share|upload|enter)\\b",
+     "tier": "core",
+     "sentences_matched": 5
+    },
+    "location": {
+     "regex": "\\b(?:precise |approximate |geo-?)?location\\b|\\bgeolocation\\b|\\bGPS\\b",
+     "tier": "support",
+     "sentences_matched": 1
+    },
+    "device / identifiers": {
+     "regex": "\\bdevice (?:information|data|identifiers?|id)\\b|\\bIP address(?:es)?\\b|\\badvertising (?:id|identifier)s?\\b|\\bIMEI\\b",
+     "tier": "support",
+     "sentences_matched": 1
+    },
+    "content / messages": {
+     "regex": "\\b(?:content|messages?|prompts?|inputs?|uploads?|files|photos|voice|audio|recordings?)\\b",
+     "tier": "support",
+     "sentences_matched": 13
+    },
+    "contacts": {
+     "regex": "\\bcontacts?(?: list| book)?\\b|\\baddress book\\b",
+     "tier": "support",
+     "sentences_matched": 8
+    },
+    "sensitive / biometric / financial": {
+     "regex": "\\bsensitive\\b|\\bbiometric\\b|\\bhealth\\b|\\bfinancial (?:information|data)\\b|\\bcard (?:number|details)\\b|\\bbank account\\b|\\bKYC\\b|\\bAadhaar\\b|\\bPAN\\b",
+     "tier": "support",
+     "sentences_matched": 3
+    },
+    "from other sources": {
+     "regex": "\\b(?:from|via) (?:third[- ]part(?:y|ies)|other sources|partners|data brokers|publicly available sources)\\b",
+     "tier": "support",
+     "sentences_matched": 0
+    },
+    "usage / log data": {
+     "regex": "\\b(?:usage|log|activity|interaction) (?:data|information)\\b|\\blog files?\\b",
+     "tier": "support",
+     "sentences_matched": 0
+    }
+   },
+   "n_candidates": 18,
+   "candidates": [
+    {
+     "sid": "p014.s2",
+     "heading": "2. Information we collect and how we use it",
+     "core": [
+      "we collect",
+      "information/data we collect"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p017.s1",
+     "heading": "2. Information we collect and how we use it",
+     "core": [
+      "we collect",
+      "information/data we collect"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p041.s1",
+     "heading": "7. Enforcement",
+     "core": [
+      "we collect",
+      "information/data we collect"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p067.s1",
+     "heading": "12. Terms and modifications to this Privacy Policy",
+     "core": [
+      "you provide"
+     ],
+     "support": [
+      "content / messages",
+      "contacts"
+     ],
+     "score": 5
+    },
+    {
+     "sid": "p069.s1",
+     "heading": "12. Terms and modifications to this Privacy Policy",
+     "core": [
+      "you provide"
+     ],
+     "support": [
+      "content / messages",
+      "contacts"
+     ],
+     "score": 5
+    },
+    {
+     "sid": "p015.s2",
+     "heading": "2. Information we collect and how we use it",
+     "core": [
+      "you provide"
+     ],
+     "support": [
+      "content / messages"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p020.s2",
+     "heading": "3. Account information of Merchants",
+     "core": [
+      "we collect"
+     ],
+     "support": [
+      "sensitive / biometric / financial"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p031.s1",
+     "heading": "4. Customer Information",
+     "core": [
+      "you provide"
+     ],
+     "support": [
+      "content / messages"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p004.s1",
+     "heading": "Privacy Policy",
+     "core": [
+      "we collect"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p011.s2",
+     "heading": "1. Introduction to Privacy Policy",
+     "core": [
+      "you provide"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p015.s1",
+     "heading": "2. Information we collect and how we use it",
+     "core": [
+      "we collect"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p045.s2",
+     "heading": "8. Transfer of information",
+     "core": [
+      "we collect"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p059.s1",
+     "heading": "12. Terms and modifications to this Privacy Policy",
+     "core": [
+      "we collect"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p061.s1",
+     "heading": "12. Terms and modifications to this Privacy Policy",
+     "core": [
+      "we collect"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p021.s1",
+     "heading": "3. Account information of Merchants",
+     "core": [],
+     "support": [
+      "content / messages",
+      "contacts"
+     ],
+     "score": 2
+    },
+    {
+     "sid": "p033.s1",
+     "heading": "5. Activity",
+     "core": [],
+     "support": [
+      "location",
+      "device / identifiers"
+     ],
+     "score": 2
+    },
+    {
+     "sid": "p068.s1",
+     "heading": "12. Terms and modifications to this Privacy Policy",
+     "core": [],
+     "support": [
+      "content / messages",
+      "contacts"
+     ],
+     "score": 2
+    },
+    {
+     "sid": "p070.s1",
+     "heading": "12. Terms and modifications to this Privacy Policy",
+     "core": [],
+     "support": [
+      "content / messages",
+      "contacts"
+     ],
+     "score": 2
+    }
+   ]
+  },
+  "G2": {
+   "question": "Does the company sell personal data, or share it with / let third parties collect it for advertising, marketing or cross-site tracking?",
+   "search_log": {
+    "advertis*": {
+     "regex": "\\badvertis(?:e|er|ers|ing|ement|ements)\\b|\\bads\\b",
+     "tier": "core",
+     "sentences_matched": 3
+    },
+    "targeted / interest-based / behavioural ads": {
+     "regex": "\\b(?:targeted|interest[- ]based|personali[sz]ed|behaviou?ral|cross[- ]context(?:ual)?)(?: behaviou?ral)? (?:advertising|ads|marketing)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "sell / sale of data": {
+     "regex": "\\b(?:sell|sells|selling|sold|sale)\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "pixel / SDK / tracking tech": {
+     "regex": "\\bpixels?\\b|\\bSDKs?\\b|\\bweb beacons?\\b|\\btracking (?:technolog(?:y|ies)|tools?)\\b|\\btrackers?\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "ad / marketing partners": {
+     "regex": "\\b(?:advertising|ad|marketing) (?:partners?|networks?|platforms?|companies)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "opt-out of sale/ads / GPC": {
+     "regex": "\\bdo not sell\\b|\\bglobal privacy control\\b|\\bopt[- ]out of (?:the )?(?:sale|sharing|targeted|personali[sz]ed|interest)",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "cookies": {
+     "regex": "\\bcookies?\\b",
+     "tier": "support",
+     "sentences_matched": 9
+    },
+    "analytics provider": {
+     "regex": "\\banalytics (?:providers?|partners?|services|tools)\\b|\\bGoogle Analytics\\b",
+     "tier": "support",
+     "sentences_matched": 0
+    },
+    "share with third parties": {
+     "regex": "\\bshare\\b.{0,40}\\bthird[- ]part(?:y|ies)\\b|\\bthird[- ]part(?:y|ies)\\b.{0,40}\\b(?:share|disclose|collect)",
+     "tier": "support",
+     "sentences_matched": 3
+    },
+    "marketing": {
+     "regex": "\\bmarketing\\b|\\bpromotional\\b",
+     "tier": "support",
+     "sentences_matched": 0
+    }
+   },
+   "n_candidates": 6,
+   "candidates": [
+    {
+     "sid": "p039.s1",
+     "heading": "6. Cookies",
+     "core": [
+      "opt-out of sale/ads / GPC"
+     ],
+     "support": [
+      "cookies"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p022.s1",
+     "heading": "3. Account information of Merchants",
+     "core": [
+      "sell / sale of data"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p038.s2",
+     "heading": "6. Cookies",
+     "core": [
+      "advertis*"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p046.s1",
+     "heading": "8. Transfer of information",
+     "core": [
+      "advertis*"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p046.s2",
+     "heading": "8. Transfer of information",
+     "core": [
+      "advertis*"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p038.s1",
+     "heading": "6. Cookies",
+     "core": [],
+     "support": [
+      "cookies",
+      "share with third parties"
+     ],
+     "score": 2
+    }
+   ]
+  },
+  "G3": {
+   "question": "Does the company build profiles or inferences about users, or make automated decisions about them?",
+   "search_log": {
+    "profiling": {
+     "regex": "\\bprofil(?:e|es|ing)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "automated decision": {
+     "regex": "\\bautomated (?:decision|decision-making|processing|means|systems?)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "infer / inference": {
+     "regex": "\\binfer(?:s|red|ring|ences?)?\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "legal or similarly significant": {
+     "regex": "\\blegal (?:or similarly significant )?effects?\\b|\\bsimilarly significant\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "scoring": {
+     "regex": "\\b(?:risk|credit|fraud) (?:scor(?:e|es|ing)|assessment)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "personalise / recommend": {
+     "regex": "\\bpersonali[sz](?:e|es|ed|ing|ation)\\b|\\brecommend(?:ation|ations|s|ed)?\\b|\\btailor(?:ed)?\\b|\\bcustomi[sz]e\\b",
+     "tier": "support",
+     "sentences_matched": 3
+    },
+    "interests / preferences / segments": {
+     "regex": "\\b(?:interests?|preferences|segments?|demographics?)\\b",
+     "tier": "support",
+     "sentences_matched": 6
+    },
+    "predict / analyse behaviour": {
+     "regex": "\\bpredict(?:ive|ions?)?\\b|\\banaly[sz]e?(?:s|d)? (?:your )?(?:behaviou?r|usage|activity)\\b",
+     "tier": "support",
+     "sentences_matched": 0
+    }
+   },
+   "n_candidates": 1,
+   "candidates": [
+    {
+     "sid": "p017.s1",
+     "heading": "2. Information we collect and how we use it",
+     "core": [],
+     "support": [
+      "personalise / recommend",
+      "interests / preferences / segments"
+     ],
+     "score": 2
+    }
+   ]
+  },
+  "G4": {
+   "question": "How specific is the policy about how long personal data is kept?",
+   "search_log": {
+    "retain / retention": {
+     "regex": "\\bretain(?:s|ed|ing)?\\b|\\bretention\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "keep / store for": {
+     "regex": "\\b(?:keep|kept|store|stored|hold)\\b.{0,60}\\b(?:for|until|as long as|period)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "as long as necessary": {
+     "regex": "\\bas long as (?:is )?(?:necessary|needed|required|reasonably)\\b|\\bno longer (?:than|necessary|needed)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "numeric period": {
+     "regex": "\\b\\d+\\s*(?:-\\s*)?(?:days?|weeks?|months?|years?)\\b|\\b(?:thirty|sixty|ninety|one|two|three|five|six|seven|ten|twelve|eighteen|twenty-four)\\s+(?:days?|months?|years?)\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "indefinitely": {
+     "regex": "\\bindefinite(?:ly)?\\b|\\bpermanently\\b|\\bforever\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "delete after / deletion": {
+     "regex": "\\b(?:delete|deleted|deletion|erase|purge|dispose)\\b",
+     "tier": "support",
+     "sentences_matched": 3
+    },
+    "legal obligation": {
+     "regex": "\\b(?:legal|statutory|regulatory) (?:obligations?|requirements?|purposes)\\b|\\brequired by (?:applicable )?law\\b",
+     "tier": "support",
+     "sentences_matched": 1
+    }
+   },
+   "n_candidates": 1,
+   "candidates": [
+    {
+     "sid": "p018.s2",
+     "heading": "2. Information we collect and how we use it",
+     "core": [
+      "retain / retention",
+      "numeric period"
+     ],
+     "support": [],
+     "score": 6
+    }
+   ]
+  },
+  "G5": {
+   "question": "What rights do users have to access, correct and delete their data, and for whom?",
+   "search_log": {
+    "right to / your rights": {
+     "regex": "\\bright(?:s)? (?:to|of)\\b|\\byour (?:privacy )?rights\\b|\\bdata subject\\b|\\bdata principal\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "access": {
+     "regex": "\\baccess (?:to )?(?:your|the) (?:personal )?(?:data|information)\\b|\\brequest (?:a copy|access)\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "correct / rectify / update": {
+     "regex": "\\b(?:correct|correction|rectif(?:y|ication)|update|amend)\\b",
+     "tier": "core",
+     "sentences_matched": 3
+    },
+    "delete / erase": {
+     "regex": "\\b(?:delete|deletion|erase|erasure|right to be forgotten)\\b",
+     "tier": "core",
+     "sentences_matched": 3
+    },
+    "portability / export": {
+     "regex": "\\bportab(?:le|ility)\\b|\\bexport (?:your )?data\\b|\\bdownload (?:your|a copy)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "object / restrict": {
+     "regex": "\\bobject(?:ion)? to\\b|\\brestrict(?:ion)? (?:of )?(?:the )?processing\\b",
+     "tier": "support",
+     "sentences_matched": 0
+    },
+    "nominate (DPDP)": {
+     "regex": "\\bnominat(?:e|ion)\\b",
+     "tier": "support",
+     "sentences_matched": 0
+    },
+    "jurisdiction limits": {
+     "regex": "\\b(?:EEA|European|UK|California|residents? of|depending on where you live|applicable law)\\b",
+     "tier": "support",
+     "sentences_matched": 3
+    }
+   },
+   "n_candidates": 7,
+   "candidates": [
+    {
+     "sid": "p062.s1",
+     "heading": "12. Terms and modifications to this Privacy Policy",
+     "core": [
+      "right to / your rights",
+      "correct / rectify / update"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p023.s1",
+     "heading": "3. Account information of Merchants",
+     "core": [
+      "delete / erase"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p023.s2",
+     "heading": "3. Account information of Merchants",
+     "core": [
+      "delete / erase"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p037.s3",
+     "heading": "6. Cookies",
+     "core": [
+      "delete / erase"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p055.s3",
+     "heading": "11. Security",
+     "core": [
+      "access"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p058.s1",
+     "heading": "12. Terms and modifications to this Privacy Policy",
+     "core": [
+      "correct / rectify / update"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p062.s2",
+     "heading": "12. Terms and modifications to this Privacy Policy",
+     "core": [
+      "correct / rectify / update"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "G6": {
+   "question": "Is personal data transferred to or stored in other countries, and are safeguards named?",
+   "search_log": {
+    "transfer": {
+     "regex": "\\btransfer(?:s|red|ring)?\\b",
+     "tier": "core",
+     "sentences_matched": 4
+    },
+    "cross-border / international": {
+     "regex": "\\bcross[- ]border\\b|\\binternational(?:ly)?\\b|\\bglobal(?:ly)?\\b|\\bother countries\\b|\\boutside (?:of )?(?:your|the|India)\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "stored / processed in a country": {
+     "regex": "\\b(?:stored|processed|hosted|located)\\b.{0,40}\\b(?:in|outside) (?:the )?(?:United States|U\\.S\\.|US|India|EU|Europe|Singapore|China|countr(?:y|ies))\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "safeguard mechanisms": {
+     "regex": "\\bstandard contractual clauses\\b|\\bSCCs?\\b|\\badequacy\\b|\\bData Privacy Framework\\b|\\bbinding corporate rules\\b|\\bappropriate safeguards\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "localisation": {
+     "regex": "\\blocali[sz](?:ation|ed)\\b|\\bstored (?:only |exclusively )?(?:in|within) India\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "servers": {
+     "regex": "\\bservers?\\b|\\bdata cent(?:er|re)s?\\b",
+     "tier": "support",
+     "sentences_matched": 2
+    },
+    "jurisdiction": {
+     "regex": "\\bjurisdictions?\\b|\\bdata protection laws?\\b",
+     "tier": "support",
+     "sentences_matched": 1
+    }
+   },
+   "n_candidates": 4,
+   "candidates": [
+    {
+     "sid": "p001.s1",
+     "heading": "",
+     "core": [
+      "transfer",
+      "cross-border / international"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p034.s2",
+     "heading": "5. Activity",
+     "core": [
+      "transfer"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p042.s2",
+     "heading": "8. Transfer of information",
+     "core": [
+      "transfer"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p051.s1",
+     "heading": "9. Links",
+     "core": [
+      "transfer"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "G7": {
+   "question": "What does the policy say about children and minors, and what age threshold and safeguards apply?",
+   "search_log": {
+    "child / children / minor": {
+     "regex": "\\bchild(?:ren)?(?:'s)?\\b|\\bminors?\\b|\\bkids?\\b|\\bteens?(?:agers?)?\\b|\\byouth\\b|\\byoung (?:people|users)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "age threshold": {
+     "regex": "\\bunder (?:the age of )?\\d{1,2}\\b|\\b\\d{1,2} years? (?:of age|old)\\b|\\bage of (?:majority|\\d{1,2})\\b|\\bminimum age\\b|\\bage requirement\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "parent / guardian / consent": {
+     "regex": "\\bparent(?:s|al)?\\b|\\bguardians?\\b|\\bverifiable (?:parental )?consent\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "COPPA / age verification": {
+     "regex": "\\bCOPPA\\b|\\bage (?:verification|assurance|estimation|gate)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "knowingly collect": {
+     "regex": "\\bknowingly\\b",
+     "tier": "support",
+     "sentences_matched": 0
+    }
+   },
+   "n_candidates": 1,
+   "candidates": [
+    {
+     "sid": "p044.s1",
+     "heading": "8. Transfer of information",
+     "core": [
+      "parent / guardian / consent"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "AI1": {
+   "question": "Does the company use users' personal data or content to train or improve AI / machine-learning models?",
+   "search_log": {
+    "train / training": {
+     "regex": "\\btrain(?:s|ed|ing)?\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "model(s)": {
+     "regex": "\\b(?:AI |machine[- ]learning |language |foundation |our )?models?\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "machine learning": {
+     "regex": "\\bmachine[- ]learning\\b|\\bML\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "artificial intelligence / AI": {
+     "regex": "\\bartificial intelligence\\b|\\bAI\\b|\\bgenerative\\b|\\bLLMs?\\b|\\blarge language\\b",
+     "tier": "core",
+     "sentences_matched": 12
+    },
+    "improve / develop services": {
+     "regex": "\\b(?:improve|develop|enhance|build)\\b.{0,30}\\b(?:services?|products?|features?|technolog(?:y|ies)|systems?|algorithms?)\\b",
+     "tier": "support",
+     "sentences_matched": 1
+    },
+    "content / inputs / outputs": {
+     "regex": "\\b(?:content|inputs?|outputs?|prompts?|conversations?|chats?|messages?|posts?|feedback)\\b",
+     "tier": "support",
+     "sentences_matched": 11
+    },
+    "research": {
+     "regex": "\\bresearch\\b",
+     "tier": "support",
+     "sentences_matched": 0
+    }
+   },
+   "n_candidates": 12,
+   "candidates": [
+    {
+     "sid": "p031.s1",
+     "heading": "4. Customer Information",
+     "core": [
+      "artificial intelligence / AI"
+     ],
+     "support": [
+      "content / inputs / outputs"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p004.s1",
+     "heading": "Privacy Policy",
+     "core": [
+      "artificial intelligence / AI"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p006.s1",
+     "heading": "Privacy Policy",
+     "core": [
+      "artificial intelligence / AI"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p007.s1",
+     "heading": "Privacy Policy",
+     "core": [
+      "artificial intelligence / AI"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p018.s1",
+     "heading": "2. Information we collect and how we use it",
+     "core": [
+      "artificial intelligence / AI"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p027.s1",
+     "heading": "4. Customer Information",
+     "core": [
+      "artificial intelligence / AI"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p028.s1",
+     "heading": "4. Customer Information",
+     "core": [
+      "artificial intelligence / AI"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p029.s1",
+     "heading": "4. Customer Information",
+     "core": [
+      "artificial intelligence / AI"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p030.s1",
+     "heading": "4. Customer Information",
+     "core": [
+      "artificial intelligence / AI"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p030.s2",
+     "heading": "4. Customer Information",
+     "core": [
+      "artificial intelligence / AI"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p030.s3",
+     "heading": "4. Customer Information",
+     "core": [
+      "artificial intelligence / AI"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p050.s1",
+     "heading": "9. Links",
+     "core": [
+      "artificial intelligence / AI"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "AI2": {
+   "question": "If personal data is used for AI training, can the user stop it, and how?",
+   "search_log": {
+    "opt out": {
+     "regex": "\\bopt(?:[- ])?out\\b|\\bopt(?:[- ])?in\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "turn off / disable": {
+     "regex": "\\bturn(?:ing)? off\\b|\\bdisabl(?:e|ed|ing)\\b|\\btoggle\\b|\\bswitch off\\b",
+     "tier": "core",
+     "sentences_matched": 3
+    },
+    "choose whether / your choices": {
+     "regex": "\\bchoose (?:whether|if|not to|to stop)\\b|\\byour choices?\\b|\\bcontrol (?:whether|how)\\b|\\b(?:stop|prevent)\\b.{0,40}\\b(?:used|using)\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "settings / controls": {
+     "regex": "\\b(?:privacy |data |account )?(?:settings|controls?|preferences)\\b|\\bdashboard\\b",
+     "tier": "support",
+     "sentences_matched": 3
+    },
+    "train / model (co-occurrence)": {
+     "regex": "\\btrain(?:s|ed|ing)?\\b|\\bmodels?\\b|\\bimprove the model\\b",
+     "tier": "support",
+     "sentences_matched": 0
+    },
+    "object / request": {
+     "regex": "\\bobject(?:ion)?\\b|\\bsubmit a request\\b|\\bprivacy (?:portal|request)\\b|\\bcontact us\\b",
+     "tier": "support",
+     "sentences_matched": 3
+    }
+   },
+   "n_candidates": 4,
+   "candidates": [
+    {
+     "sid": "p039.s1",
+     "heading": "6. Cookies",
+     "core": [
+      "opt out",
+      "turn off / disable"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p015.s4",
+     "heading": "2. Information we collect and how we use it",
+     "core": [
+      "choose whether / your choices"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p037.s5",
+     "heading": "6. Cookies",
+     "core": [
+      "turn off / disable"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p039.s2",
+     "heading": "6. Cookies",
+     "core": [
+      "turn off / disable"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "AI3": {
+   "question": "Can people (employees, contractors, reviewers) read or review users' content?",
+   "search_log": {
+    "human review": {
+     "regex": "\\bhuman (?:review(?:ers?)?|reviewed|oversight|moderators?)\\b|\\bmanual(?:ly)? review(?:ed)?\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "reviewers / annotators / moderators": {
+     "regex": "\\breviewers?\\b|\\bannotators?\\b|\\bmoderat(?:ors?|ion)\\b|\\bcrowd ?workers?\\b|\\braters?\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "staff may access / review content": {
+     "regex": "\\b(?:employees|personnel|staff|contractors|team members|authori[sz]ed (?:personnel|staff|employees))\\b.{0,60}\\b(?:access|review|read|view|see)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "review content / conversations": {
+     "regex": "\\breview(?:s|ed|ing)?\\b.{0,40}\\b(?:content|conversations?|chats?|messages?|inputs?|prompts?|recordings?)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "we may access / review / monitor content": {
+     "regex": "\\bwe (?:may |might |can )?(?:access|review|monitor|read|inspect|view|listen to)\\b.{0,50}\\b(?:content|communications?|conversations?|chats?|messages?|recordings?|files|inputs?)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "flagged / safety / abuse": {
+     "regex": "\\bflagged\\b|\\b(?:trust and )?safety\\b|\\babuse\\b|\\bmisuse\\b|\\bviolat(?:e|es|ion|ions)\\b",
+     "tier": "support",
+     "sentences_matched": 3
+    },
+    "support / feedback": {
+     "regex": "\\bfeedback\\b|\\bsupport (?:requests?|tickets?)\\b|\\bcustomer support\\b",
+     "tier": "support",
+     "sentences_matched": 3
+    }
+   },
+   "n_candidates": 0,
+   "candidates": []
+  },
+  "AI4": {
+   "question": "Does the policy let the company keep, use or share de-identified or aggregated data, and for what?",
+   "search_log": {
+    "de-identified": {
+     "regex": "\\bde-?identif(?:y|ied|ies|ication)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "anonymised": {
+     "regex": "\\banonymi[sz](?:e|ed|es|ation)\\b|\\banonymous\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "aggregated": {
+     "regex": "\\baggregat(?:e|ed|es|ion)\\b",
+     "tier": "core",
+     "sentences_matched": 3
+    },
+    "pseudonymised": {
+     "regex": "\\bpseudonymi[sz](?:e|ed|ation)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "no longer identifies": {
+     "regex": "\\b(?:no longer|cannot reasonably|not reasonably) (?:be used to )?identif(?:y|ies)\\b|\\bnon-?personal (?:data|information)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "share / any purpose": {
+     "regex": "\\bany (?:lawful )?purpose\\b|\\bshare\\b|\\bthird[- ]part(?:y|ies)\\b|\\bresearch\\b|\\bimprove\\b",
+     "tier": "support",
+     "sentences_matched": 27
+    }
+   },
+   "n_candidates": 4,
+   "candidates": [
+    {
+     "sid": "p038.s1",
+     "heading": "6. Cookies",
+     "core": [
+      "anonymised"
+     ],
+     "support": [
+      "share / any purpose"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p046.s1",
+     "heading": "8. Transfer of information",
+     "core": [
+      "aggregated"
+     ],
+     "support": [
+      "share / any purpose"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p033.s3",
+     "heading": "5. Activity",
+     "core": [
+      "aggregated"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p033.s4",
+     "heading": "5. Activity",
+     "core": [
+      "aggregated"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "AI5": {
+   "question": "Is user content sent to external AI / model providers, or licensed to others for AI training?",
+   "search_log": {
+    "AI / model providers": {
+     "regex": "\\b(?:AI|model|LLM|machine[- ]learning|artificial intelligence) (?:providers?|vendors?|partners?|services?|companies|developers?)\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "named AI vendors": {
+     "regex": "\\bOpenAI\\b|\\bChatGPT\\b|\\bAnthropic\\b|\\bClaude\\b|\\bGemini\\b|\\bGoogle AI\\b|\\bAzure OpenAI\\b|\\bLlama\\b|\\bMistral\\b|\\bxAI\\b|\\bGrok\\b|\\bPerplexity\\b|\\bDeepSeek\\b",
+     "tier": "core",
+     "sentences_matched": 2
+    },
+    "third-party AI / models": {
+     "regex": "\\bthird[- ]party (?:AI|models?|LLMs?|artificial intelligence)\\b",
+     "tier": "core",
+     "sentences_matched": 3
+    },
+    "integrations / connectors / plugins": {
+     "regex": "\\b(?:integrations?|connectors?|plug-?ins?|MCP|GPTs|extensions|(?<!user )agents?)\\b",
+     "tier": "core",
+     "sentences_matched": 10
+    },
+    "license content / data licensing": {
+     "regex": "\\blicen[cs](?:e|es|ing)\\b.{0,60}\\b(?:content|data)\\b|\\bdata licensing\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "sub-processors / service providers": {
+     "regex": "\\bsub-?processors?\\b|\\bservice providers?\\b|\\bvendors?\\b",
+     "tier": "support",
+     "sentences_matched": 1
+    },
+    "AI features": {
+     "regex": "\\bAI(?:-powered)? (?:features?|tools?|assistants?)\\b|\\bgenerative\\b",
+     "tier": "support",
+     "sentences_matched": 4
+    }
+   },
+   "n_candidates": 11,
+   "candidates": [
+    {
+     "sid": "p028.s1",
+     "heading": "4. Customer Information",
+     "core": [
+      "named AI vendors",
+      "third-party AI / models",
+      "integrations / connectors / plugins"
+     ],
+     "support": [
+      "AI features"
+     ],
+     "score": 10
+    },
+    {
+     "sid": "p050.s1",
+     "heading": "9. Links",
+     "core": [
+      "named AI vendors",
+      "integrations / connectors / plugins"
+     ],
+     "support": [
+      "AI features"
+     ],
+     "score": 7
+    },
+    {
+     "sid": "p029.s1",
+     "heading": "4. Customer Information",
+     "core": [
+      "third-party AI / models",
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p030.s3",
+     "heading": "4. Customer Information",
+     "core": [
+      "AI / model providers",
+      "third-party AI / models"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p001.s1",
+     "heading": "",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [
+      "sub-processors / service providers"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p027.s1",
+     "heading": "4. Customer Information",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [
+      "AI features"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p004.s1",
+     "heading": "Privacy Policy",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p018.s1",
+     "heading": "2. Information we collect and how we use it",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p028.s2",
+     "heading": "4. Customer Information",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p031.s1",
+     "heading": "4. Customer Information",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p049.s1",
+     "heading": "9. Links",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "DPDP1": {
+   "question": "How does the policy obtain consent: an explicit affirmative action, a general agreement, or browsewrap ('by using you agree')?",
+   "search_log": {
+    "by using / visiting you agree": {
+     "regex": "\\bby (?:using|visiting|accessing|downloading|browsing|continuing|registering|signing up|providing)\\b.{0,120}\\b(?:agree|consent|accept|acknowledge)\\w*",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "consent": {
+     "regex": "\\bconsent(?:s|ed|ing)?\\b",
+     "tier": "core",
+     "sentences_matched": 5
+    },
+    "agree / accept": {
+     "regex": "\\b(?:you )?(?:agree|accept|acknowledge)(?:s|d)?\\b",
+     "tier": "core",
+     "sentences_matched": 7
+    },
+    "DPDP / Indian law": {
+     "regex": "\\bDigital Personal Data Protection\\b|\\bDPDP(?:A)?\\b|\\bIT Act\\b|\\bSPDI\\b|\\bInformation Technology\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "legal basis": {
+     "regex": "\\blegal bas(?:is|es)\\b|\\blegitimate interests?\\b|\\bperformance of (?:a|the) contract\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "notice / checkbox / sign-up": {
+     "regex": "\\bnotice\\b|\\bcheck ?box\\b|\\bsign[- ]?up\\b|\\bregistration\\b|\\bclick(?:ing)?\\b",
+     "tier": "support",
+     "sentences_matched": 4
+    },
+    "explicit / affirmative / freely": {
+     "regex": "\\bexplicit(?:ly)?\\b|\\baffirmative\\b|\\bfreely\\b|\\bunambiguous\\b|\\binformed\\b",
+     "tier": "support",
+     "sentences_matched": 1
+    }
+   },
+   "n_candidates": 11,
+   "candidates": [
+    {
+     "sid": "p013.s1",
+     "heading": "1. Introduction to Privacy Policy",
+     "core": [
+      "by using / visiting you agree",
+      "consent",
+      "agree / accept"
+     ],
+     "support": [],
+     "score": 9
+    },
+    {
+     "sid": "p062.s1",
+     "heading": "12. Terms and modifications to this Privacy Policy",
+     "core": [
+      "consent",
+      "DPDP / Indian law"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p059.s1",
+     "heading": "12. Terms and modifications to this Privacy Policy",
+     "core": [
+      "consent"
+     ],
+     "support": [
+      "notice / checkbox / sign-up"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p013.s2",
+     "heading": "1. Introduction to Privacy Policy",
+     "core": [
+      "agree / accept"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p016.s2",
+     "heading": "2. Information we collect and how we use it",
+     "core": [
+      "consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p025.s2",
+     "heading": "4. Customer Information",
+     "core": [
+      "consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p031.s1",
+     "heading": "4. Customer Information",
+     "core": [
+      "agree / accept"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p035.s2",
+     "heading": "5. Activity",
+     "core": [
+      "agree / accept"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p056.s1",
+     "heading": "11. Security",
+     "core": [
+      "agree / accept"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p063.s1",
+     "heading": "12. Terms and modifications to this Privacy Policy",
+     "core": [
+      "agree / accept"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p065.s2",
+     "heading": "12. Terms and modifications to this Privacy Policy",
+     "core": [
+      "agree / accept"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "DPDP2": {
+   "question": "Can users withdraw consent, and is it as easy as giving it?",
+   "search_log": {
+    "withdraw / revoke consent": {
+     "regex": "\\bwithdraw(?:s|n|al|ing)?\\b|\\brevok(?:e|es|ed|ing)\\b|\\brevocation\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "consent manager": {
+     "regex": "\\bconsent manager\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "opt out / unsubscribe": {
+     "regex": "\\bopt(?:[- ])?out\\b|\\bunsubscrib(?:e|ing)\\b",
+     "tier": "core",
+     "sentences_matched": 2
+    },
+    "settings / dashboard": {
+     "regex": "\\bsettings\\b|\\bdashboard\\b|\\bpreferences\\b|\\bpreference cent(?:er|re)\\b|\\btoggle\\b",
+     "tier": "support",
+     "sentences_matched": 2
+    },
+    "contact / email to withdraw": {
+     "regex": "\\b(?:email|write to|contact)\\b",
+     "tier": "support",
+     "sentences_matched": 13
+    },
+    "delete account": {
+     "regex": "\\b(?:delete|deactivate|close) (?:your )?account\\b",
+     "tier": "support",
+     "sentences_matched": 1
+    },
+    "consent (co-occurrence)": {
+     "regex": "\\bconsent\\b",
+     "tier": "support",
+     "sentences_matched": 4
+    }
+   },
+   "n_candidates": 4,
+   "candidates": [
+    {
+     "sid": "p021.s2",
+     "heading": "3. Account information of Merchants",
+     "core": [
+      "opt out / unsubscribe"
+     ],
+     "support": [
+      "contact / email to withdraw"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p062.s1",
+     "heading": "12. Terms and modifications to this Privacy Policy",
+     "core": [
+      "withdraw / revoke consent"
+     ],
+     "support": [
+      "consent (co-occurrence)"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p039.s1",
+     "heading": "6. Cookies",
+     "core": [
+      "opt out / unsubscribe"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p059.s1",
+     "heading": "12. Terms and modifications to this Privacy Policy",
+     "core": [],
+     "support": [
+      "contact / email to withdraw",
+      "consent (co-occurrence)"
+     ],
+     "score": 2
+    }
+   ]
+  },
+  "DPDP3": {
+   "question": "Does the policy publish a Grievance Officer or Data Protection Officer with contact details?",
+   "search_log": {
+    "grievance officer": {
+     "regex": "\\bgrievance(?:s)?\\b",
+     "tier": "core",
+     "sentences_matched": 4
+    },
+    "data protection officer / DPO": {
+     "regex": "\\bdata protection officer\\b|\\bDPO\\b|\\bprivacy officer\\b|\\bnodal officer\\b",
+     "tier": "core",
+     "sentences_matched": 4
+    },
+    "email address": {
+     "regex": "[\\w.+-]+@[\\w-]+\\.[\\w.]+",
+     "tier": "core",
+     "sentences_matched": 2
+    },
+    "Data Protection Board / complaint": {
+     "regex": "\\bData Protection Board\\b|\\b(?:lodge|file|make) a complaint\\b|\\bsupervisory authority\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "contact us": {
+     "regex": "\\bcontact us\\b|\\bhow to contact\\b|\\bpostal address\\b|\\baddress\\b",
+     "tier": "support",
+     "sentences_matched": 10
+    },
+    "officer / named person": {
+     "regex": "\\bofficer\\b|\\bMr\\.?\\b|\\bMs\\.?\\b",
+     "tier": "support",
+     "sentences_matched": 3
+    }
+   },
+   "n_candidates": 7,
+   "candidates": [
+    {
+     "sid": "p068.s1",
+     "heading": "12. Terms and modifications to this Privacy Policy",
+     "core": [
+      "grievance officer",
+      "data protection officer / DPO"
+     ],
+     "support": [
+      "officer / named person"
+     ],
+     "score": 7
+    },
+    {
+     "sid": "p070.s1",
+     "heading": "12. Terms and modifications to this Privacy Policy",
+     "core": [
+      "grievance officer",
+      "data protection officer / DPO"
+     ],
+     "support": [
+      "officer / named person"
+     ],
+     "score": 7
+    },
+    {
+     "sid": "p074.s1",
+     "heading": "E-mail: dpo@razorpay.com",
+     "core": [
+      "data protection officer / DPO",
+      "email address"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p055.s4",
+     "heading": "11. Security",
+     "core": [
+      "email address"
+     ],
+     "support": [
+      "contact us"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p066.s2",
+     "heading": "12. Terms and modifications to this Privacy Policy",
+     "core": [
+      "grievance officer"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p071.s2",
+     "heading": "12. Terms and modifications to this Privacy Policy",
+     "core": [
+      "data protection officer / DPO"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p075.s1",
+     "heading": "Grievances portal: https://razorpay.com/grievances/",
+     "core": [
+      "grievance officer"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "DPDP4": {
+   "question": "Is the notice offered in Indian languages (Eighth Schedule) besides English? Record which languages.",
+   "search_log": {
+    "Eighth Schedule": {
+     "regex": "\\beighth schedule\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "language(s) / translation": {
+     "regex": "\\blanguages?\\b|\\btranslat(?:e|ed|ion|ions)\\b|\\bvernacular\\b|\\bregional\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "Indian language names (English)": {
+     "regex": "\\b(?:Hindi|Bengali|Bangla|Tamil|Telugu|Marathi|Gujarati|Kannada|Malayalam|Odia|Oriya|Punjabi|Assamese|Urdu|Konkani|Manipuri|Nepali|Sanskrit|Sindhi|Kashmiri|Maithili|Santali|Dogri|Bodo)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "Indian language names (native script)": {
+     "regex": "हिन्दी|हिंदी|বাংলা|தமிழ்|తెలుగు|मराठी|ગુજરાતી|ಕನ್ನಡ|മലയാളം|ଓଡ଼ିଆ|ਪੰਜਾਬੀ|অসমীয়া|اردو",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "English": {
+     "regex": "\\bEnglish\\b",
+     "tier": "support",
+     "sentences_matched": 0
+    }
+   },
+   "n_candidates": 0,
+   "candidates": []
+  }
+ }
+}

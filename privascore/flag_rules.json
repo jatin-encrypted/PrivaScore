@@ -1,0 +1,110 @@
+{
+  "version": "1.1",
+  "source": "Condensed from gold_set/ANNOTATION_GUIDELINES.md v1.0 plus the reviewer clarifications logged in its section 7 (14 Nov 2026, rounds 1-3). v1.0 is kept as flag_rules_v1.0.json.",
+  "general_rules": [
+    "Judge ONLY the numbered sentences given. Do not use outside knowledge about the company.",
+    "Present = the sentences address this flag (whether they say the company does it, does it with conditions, or does not do it). Absent = nothing in the given sentences addresses it. Unclear = it is addressed but contradictory or too vague to place in ED, CD or EE.",
+    "'May' counts as disclosure: 'we may share X' discloses the practice.",
+    "A specific statement beats a general one. If two specific statements truly contradict each other, answer Unclear and cite both.",
+    "'We do X unless you opt out' or 'we don't do X except ...' is CD when the condition or exception is stated.",
+    "Silence is never EE. EE needs an explicit statement.",
+    "Label for a user in India. If a right or rule is stated only for other regions (e.g. EEA or California residents) and nothing is said for other users, treat it as a limitation (normally CD).",
+    "Label for the evaluated scope. For scope 'consumer', ignore sentences that apply only to enterprise, business or API customers.",
+    "If a sentence only points to another document for this topic, the flag is Absent unless the given sentences themselves say something usable."
+  ],
+  "flags": {
+    "G1": {
+      "ED": "Collects personal data beyond basic account/contact details: any of device or usage data, location, user content (messages, prompts, uploads, recordings), contacts, financial/KYC/sensitive data, or data from other sources.",
+      "CD": "Collection limited to what the service needs; extra categories are opt-in.",
+      "EE": "Says it collects no personal data."
+    },
+    "G2": {
+      "ED": "Sells personal data, or shares it with / lets ad networks, ad partners, pixels or SDKs collect it for advertising or tracking, and NO opt-out is described.",
+      "CD": "Does the above but describes a FIRST-PARTY way to opt out: the company's own setting or toggle, its own cookie consent tool or 'Do Not Sell' link, honouring Global Privacy Control; or limits it (e.g. no targeted ads to minors).",
+      "EE": "Explicitly says it does not sell data AND does not share it for targeted / cross-context advertising, with nothing contradicting this.",
+      "notes": "Analytics-only providers do not make G2 ED or CD by themselves. 'We don't sell data' alone is not EE if other sentences describe advertising partners. Telling users to block or delete cookies in their browser, or to use third-party ad-network / industry opt-out pages, is NOT a first-party opt-out: answer ED."
+    },
+    "G3": {
+      "ED": "Profiling or inference for ads, personalisation or scoring with no user control described; or automated decisions with significant effects (credit, eligibility, account bans) with no human review or appeal described.",
+      "CD": "Personalisation/recommendations with a described user control; or automated decisions with human review or appeal; or automated risk/fraud scoring limited to security and payments.",
+      "EE": "Explicitly says it does not profile, or makes no automated decisions with legal or similarly significant effects, and no other profiling is described.",
+      "notes": "When the only control described is a third-party ad opt-out (browser cookie blocking, ad-network or industry opt-out pages), answer ED. The company's own settings or opt-out tools count as a control (CD)."
+    },
+    "G4": {
+      "ED": "States a concrete retention period (number of days/months/years, or a defined event such as '30 days after account deletion') for at least one category of user-provided content or account data. This is the most protective state.",
+      "CD": "Only purpose-based retention ('as long as necessary', 'as required by law'), or concrete periods only for peripheral data such as cookies or server logs.",
+      "EE": "Says identifiable data is kept indefinitely / permanently with no limit.",
+      "notes": "A deadline for erasing data AFTER the user asks for deletion or closes the account (e.g. 'deleted within 30 days of your request', 'takes effect within 5 business days') is an erasure SLA, not a retention period: answer CD. An AUTOMATIC deletion period for a category of user content (e.g. temporary chats deleted after 30 days, search queries deleted after 90 days) counts for ED. 'Until account deletion' or periods for logs only: CD."
+    },
+    "G5": {
+      "ED": "Access AND correction AND deletion rights offered to users generally or to users in India.",
+      "CD": "Some rights missing; or rights only for certain regions; or deletion only by closing the account; or broad carve-outs (e.g. data used in model training cannot be removed).",
+      "EE": "Explicitly denies access or deletion.",
+      "notes": "ED when access, correction and deletion are all offered to all users (self-service or by request), even if a legal-rights section also mentions jurisdictions. CD when any of the three is limited to some regions or missing."
+    },
+    "G6": {
+      "ED": "Data transferred to or stored in other countries and no specific safeguard is named (generic 'appropriate safeguards' counts as ED).",
+      "CD": "Transferred abroad and a specific mechanism is named: standard contractual clauses, adequacy decisions, Data Privacy Framework, binding corporate rules, or contracts requiring equivalent protection.",
+      "EE": "Explicitly says data is stored and processed only in one country (e.g. only in India).",
+      "notes": "With partial localisation (some data kept in India, other data abroad), label by the data that goes abroad. A named mechanism counts for CD even if it is stated only for EU/UK transfers. Merely saying the company is based in another country (e.g. 'US-based') without saying data is transferred: Absent. A clause that only forbids transfers to prohibited countries, without saying data goes abroad: Unclear."
+    },
+    "G7": {
+      "ED": "Protections cover under-18s: service is 18+ only, or verifiable parental consent under 18, or explicit ban on tracking/targeted ads for minors.",
+      "CD": "Only an under-13 or under-16 threshold with no specific protection for older minors; or minors allowed with 'parental permission' but no verification described.",
+      "EE": "Explicitly says it collects children's data with no safeguards.",
+      "notes": "A clause that the company has no knowledge of selling or sharing the data of minors under 16 (US privacy-law disclosure) is NOT a children's age or safeguard rule: if nothing else is said about children, answer Absent."
+    },
+    "AI1": {
+      "ED": "Uses personal data or user content to train AI / machine-learning models and NO opt-out or limit is described.",
+      "CD": "Trains, but with an opt-out; or only on some data (feedback, public posts); or by default only for some user tiers; or ML only for narrow purposes such as fraud or security models.",
+      "EE": "Explicitly says user data or content is NOT used to train AI models.",
+      "notes": "'We use data to improve our services' WITHOUT mentioning models, machine learning or AI does NOT count: answer Absent."
+    },
+    "AI2": {
+      "ED": "A self-serve setting or toggle stops use of the user's data for AI training.",
+      "CD": "Opt-out only by email, form or request; or only for future data or some data types; or requires deleting the account.",
+      "EE": "Explicitly says users cannot opt out of training.",
+      "notes": "If no way to stop training is described, answer Absent (silence is not EE)."
+    },
+    "AI3": {
+      "ED": "Routine human review of user content, e.g. reviewers or annotators reading conversations to improve models or quality.",
+      "CD": "Human access only for specific triggers: safety/abuse flags, user-submitted feedback, support requests, legal requests; or generic 'personnel access data as needed to provide the service'.",
+      "EE": "Explicitly says no human reads user content.",
+      "notes": "Routine review of user content by volunteer human moderators also counts as ED."
+    },
+    "AI4": {
+      "ED": "De-identified or aggregated data may be shared with third parties, used for any purpose, kept indefinitely, or used to train or improve models.",
+      "CD": "De-identified or aggregated data used only internally for named narrow purposes (analytics, security, research) and not shared.",
+      "EE": "Explicitly says it will not use or share de-identified data beyond the policy's limits."
+    },
+    "AI5": {
+      "ED": "User content is shared with third-party AI / model providers, or licensed for others' AI training, with no restriction on their use described.",
+      "CD": "Third-party AI providers are bound by stated limits (no training on the data, confidentiality), or data flows only when the user turns on an integration or connector.",
+      "EE": "Explicitly says no user content goes to third-party AI providers.",
+      "notes": "Generic service providers (cloud hosting, payments) are not AI5. The company's own products are not third parties."
+    },
+    "DPDP1": {
+      "ED": "Describes an explicit affirmative consent action: checkbox, separate consent screen, or a standalone itemised consent notice at sign-up.",
+      "CD": "Consent folded into accepting terms or registration; or relies on other legal bases (contract, legitimate interests) depending on location.",
+      "EE": "Browsewrap: 'by visiting / using / downloading ... you agree or consent to this policy' for the policy as a whole.",
+      "notes": "These are readiness wording checks, not legal compliance findings."
+    },
+    "DPDP2": {
+      "ED": "A self-serve way (settings, toggle, dashboard, consent manager) to withdraw consent for the main consent-based processing.",
+      "CD": "Withdrawal only by email or contact; or only by deleting the account; or covering only marketing messages.",
+      "EE": "Explicitly says consent cannot be withdrawn."
+    },
+    "DPDP3": {
+      "ED": "A designated Grievance Officer or Data Protection Officer (named person or designated role) WITH direct contact details.",
+      "CD": "Only a generic privacy email, form or postal address, with no designated officer.",
+      "EE": "Explicitly says there is no contact.",
+      "notes": "ED when a Data Protection Officer, Grievance Officer or Privacy Officer role is designated with a contact route, even if the contact is a generic inbox (e.g. 'contact our Data Protection Officer at privacy@...'). An EU-only representative with no designated officer is CD."
+    },
+    "DPDP4": {
+      "ED": "Says the notice is available in English and Eighth Schedule Indian languages, or the text itself offers versions in several Indian languages.",
+      "CD": "Some Indian languages only, or availability 'on request'.",
+      "EE": "Explicitly says English only.",
+      "notes": "Informational only; never a compliance finding."
+    }
+  }
+}

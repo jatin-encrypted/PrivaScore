@@ -1,0 +1,1927 @@
+{
+ "generated_at_utc": "2026-11-17T21:51:44+00:00",
+ "note": "Descriptive indicators only; not part of the Risk Index or Disclosure Quality.",
+ "readability_method": "Flesch 1948 / Kincaid et al. 1975; vowel-group syllable heuristic; 238 wpm",
+ "vagueness_lexicon": {
+  "version": "privascore-vague-1.0",
+  "source": "Categories: Bhatia et al. 2016 (IEEE RE). Terms: PrivaScore lexicon (not verified term-by-term against the paper)."
+ },
+ "bert": {
+  "checkpoint": "checkpoint-1134",
+  "threshold": 0.5,
+  "sanity_gate": {
+   "n": 582,
+   "stored_macro_f1": 0.7785,
+   "rescored_macro_f1": 0.7785,
+   "device": "mps",
+   "checkpoint": "checkpoint-1134",
+   "max_abs_prob_diff_vs_stored": 0.0009941458702087402,
+   "label_flips_vs_stored": 0,
+   "passed": true
+  },
+  "unit": "paragraph (one snapshot line)"
+ },
+ "policies": {
+  "P01": {
+   "key": "P01_openai",
+   "name": "openai",
+   "cohort": "ai",
+   "text_sha256": "4d3e6c2b467fc057af22da83b68a8892850c02e08d835ec53076a1c2f553ce1e",
+   "readability": {
+    "fk_grade": 14.1,
+    "flesch_reading_ease": 38.5,
+    "reading_minutes": 16.5,
+    "words": 3929,
+    "prose_sentences": 157,
+    "avg_words_per_sentence": 25.0
+   },
+   "vagueness": {
+    "vague_sentence_fraction": 0.586,
+    "multi_category_fraction": 0.204,
+    "cues_per_1000_words": {
+     "conditionality": 2.8,
+     "generalization": 7.6,
+     "modality": 13.7,
+     "numeric_quantifier": 14.5
+    },
+    "examples": [
+     {
+      "sid": "p041.s1",
+      "categories": {
+       "generalization": [
+        "or other",
+        "or other",
+        "or other"
+       ],
+       "modality": [
+        "may"
+       ],
+       "numeric_quantifier": [
+        "other",
+        "other",
+        "other"
+       ]
+      },
+      "text": "Government Authorities or Other Third Parties: We may share your Personal Data, including information about your interaction with our Services, with government authorities, industry peers, or other third parties in compliance with the law (i) if required to do so to comply with a legal obligation, or in the good faith belief that such action is necessary to comply with a legal obligation, (ii) to protect and defend our rights or property, (iii) if we determine, in our sole discretion, that there is a violation of our terms, policies, or the law; (iv) to detect or prevent fraud or other illegal activity; (v) to protect the safety, security, and integrity of our products, employees, users, or the public, or (vi) to protect against legal liability."
+     },
+     {
+      "sid": "p082.s2",
+      "categories": {
+       "conditionality": [
+        "in some cases"
+       ],
+       "modality": [
+        "may",
+        "likely"
+       ],
+       "numeric_quantifier": [
+        "some",
+        "most",
+        "most"
+       ]
+      },
+      "text": "In some cases, the words most likely to appear next may not be the most factually accurate."
+     },
+     {
+      "sid": "p013.s2",
+      "categories": {
+       "generalization": [
+        "or other"
+       ],
+       "modality": [
+        "may"
+       ],
+       "numeric_quantifier": [
+        "some",
+        "other"
+       ]
+      },
+      "text": "Some of our Services may also allow you to upload a profile picture, a username, or other information as part of your Account Information."
+     },
+     {
+      "sid": "p014.s1",
+      "categories": {
+       "conditionality": [
+        "depending on"
+       ],
+       "generalization": [
+        "such as",
+        "and other"
+       ],
+       "numeric_quantifier": [
+        "other"
+       ]
+      },
+      "text": "User Content: We collect Personal Data that you provide in the input to our Services (“Content”), including your prompts and other content you upload, such as files⁠, images⁠, audio and video⁠, Sora characters⁠, and data from connected services⁠, depending on the features you use."
+     },
+     {
+      "sid": "p043.s2",
+      "categories": {
+       "generalization": [
+        "such as"
+       ],
+       "modality": [
+        "may"
+       ],
+       "numeric_quantifier": [
+        "certain"
+       ]
+      },
+      "text": "In addition, if you create an account using an email address belonging to your employer or another organization, we may share the fact that you have an account and certain account information, such as your email address, with your employer or organization to, for example, enable you to be added to their business account."
+     }
+    ]
+   },
+   "bert_profile": {
+    "paragraphs": 142,
+    "share": {
+     "First Party Collection/Use": 0.415,
+     "Third Party Sharing/Collection": 0.19,
+     "User Choice/Control": 0.113,
+     "User Access, Edit and Deletion": 0.077,
+     "Data Retention": 0.07,
+     "Data Security": 0.021,
+     "Policy Change": 0.021,
+     "Do Not Track": 0.0,
+     "International and Specific Audiences": 0.063,
+     "Other": 0.437
+    }
+   }
+  },
+  "P02": {
+   "key": "P02_anthropic",
+   "name": "anthropic",
+   "cohort": "ai",
+   "text_sha256": "b0e0ce0a4df6fa4b0a674f412a8d8e60b0ef420e8cdaa948dd2c2918692cffef",
+   "readability": {
+    "fk_grade": 14.6,
+    "flesch_reading_ease": 33.7,
+    "reading_minutes": 23.4,
+    "words": 5558,
+    "prose_sentences": 228,
+    "avg_words_per_sentence": 24.4
+   },
+   "vagueness": {
+    "vague_sentence_fraction": 0.474,
+    "multi_category_fraction": 0.162,
+    "cues_per_1000_words": {
+     "conditionality": 4.3,
+     "generalization": 4.0,
+     "modality": 12.6,
+     "numeric_quantifier": 10.1
+    },
+    "examples": [
+     {
+      "sid": "p061.s2",
+      "categories": {
+       "conditionality": [
+        "reasonably necessary"
+       ],
+       "generalization": [
+        "or other",
+        "or other"
+       ],
+       "modality": [
+        "may"
+       ],
+       "numeric_quantifier": [
+        "any",
+        "other",
+        "other"
+       ]
+      },
+      "text": "We may share personal data with government authorities, law enforcement, or other third parties where, based on the information available to us, we have a good-faith belief that disclosure is reasonably necessary to (i) comply with applicable law, regulation or legal process, including for legal, tax or accounting purposes, or in response to an enforceable governmental request; (ii) prevent serious harm to any person or to property; (iii) detect, prevent, or otherwise address fraud or other illegal activity; or (iv) enforce our terms, or protect the rights, property, security, or safety of Anthropic, our users, or others."
+     },
+     {
+      "sid": "p013.s5",
+      "categories": {
+       "conditionality": [
+        "depending on"
+       ],
+       "generalization": [
+        "such as"
+       ],
+       "modality": [
+        "may"
+       ],
+       "numeric_quantifier": [
+        "some"
+       ]
+      },
+      "text": "Depending on the permissions you grant Claude, some Outputs may result in actions with effects outside the Services, such as sending communications, modifying files, or interacting with third-party services on your behalf."
+     },
+     {
+      "sid": "p017.s2",
+      "categories": {
+       "conditionality": [
+        "depending on"
+       ],
+       "generalization": [
+        "such as"
+       ],
+       "modality": [
+        "may"
+       ],
+       "numeric_quantifier": [
+        "some"
+       ]
+      },
+      "text": "If you choose to do so, data we will collect includes, depending on the method: an image of your government-issued identity document and the information appearing on it (such as your ID number and date of birth); your image in photo or video form, facial geometry templates (which may be considered ‘biometric data’ in some jurisdictions); and the result of the verification (for example, whether your age meets the applicable threshold)."
+     },
+     {
+      "sid": "p236.s2",
+      "categories": {
+       "conditionality": [
+        "in certain cases"
+       ],
+       "modality": [
+        "may"
+       ],
+       "numeric_quantifier": [
+        "certain",
+        "other"
+       ]
+      },
+      "text": "For example, in certain cases we may continue to process and retain data regardless of your request for deletion, objection, blocking or anonymisation, in order to comply with legal, contractual and regulatory obligations, safeguard and exercise rights, including in judicial, administrative and arbitration proceedings and in other cases provided for by law."
+     },
+     {
+      "sid": "p237.s3",
+      "categories": {
+       "generalization": [
+        "and other"
+       ],
+       "modality": [
+        "may"
+       ],
+       "numeric_quantifier": [
+        "any",
+        "other"
+       ]
+      },
+      "text": "Any information we hold about you will be transferred to, used, processed, and stored in the United States and other countries and territories, which may not have data privacy or data protection laws equivalent to those in your country or territory."
+     }
+    ]
+   },
+   "bert_profile": {
+    "paragraphs": 263,
+    "share": {
+     "First Party Collection/Use": 0.243,
+     "Third Party Sharing/Collection": 0.137,
+     "User Choice/Control": 0.057,
+     "User Access, Edit and Deletion": 0.03,
+     "Data Retention": 0.011,
+     "Data Security": 0.027,
+     "Policy Change": 0.015,
+     "Do Not Track": 0.0,
+     "International and Specific Audiences": 0.084,
+     "Other": 0.688
+    }
+   }
+  },
+  "P03": {
+   "key": "P03_deepseek",
+   "name": "deepseek",
+   "cohort": "ai",
+   "text_sha256": "7580bab746cfc4fdad2695bd97764d9ba6caf4606409857208c2eb045cf91ec2",
+   "readability": {
+    "fk_grade": 14.5,
+    "flesch_reading_ease": 35.7,
+    "reading_minutes": 16.9,
+    "words": 4029,
+    "prose_sentences": 160,
+    "avg_words_per_sentence": 25.2
+   },
+   "vagueness": {
+    "vague_sentence_fraction": 0.569,
+    "multi_category_fraction": 0.231,
+    "cues_per_1000_words": {
+     "conditionality": 4.7,
+     "generalization": 8.9,
+     "modality": 12.7,
+     "numeric_quantifier": 13.9
+    },
+    "examples": [
+     {
+      "sid": "p076.s2",
+      "categories": {
+       "conditionality": [
+        "in some cases"
+       ],
+       "modality": [
+        "may",
+        "likely"
+       ],
+       "numeric_quantifier": [
+        "some",
+        "most",
+        "most"
+       ]
+      },
+      "text": "In some cases, the words most likely to appear next may not be the most factually accurate."
+     },
+     {
+      "sid": "p014.s2",
+      "categories": {
+       "generalization": [
+        "such as",
+        "or other"
+       ],
+       "modality": [
+        "possible"
+       ],
+       "numeric_quantifier": [
+        "other"
+       ]
+      },
+      "text": "When you contact us, we collect the Personal Data you send to us, such as proof of identity or age, contact details, feedback or inquiries about your use of the Services or Personal Data about possible violations of our Terms of Service (our “Terms”) or other policies."
+     },
+     {
+      "sid": "p047.s2",
+      "categories": {
+       "conditionality": [
+        "as necessary"
+       ],
+       "generalization": [
+        "such as"
+       ],
+       "numeric_quantifier": [
+        "certain",
+        "other"
+       ]
+      },
+      "text": "These entities process the Personal Data You Provide, Automatically Collected Personal Data, and Personal Data from Other Sources for us, as necessary to provide certain functions, such as storage, content delivery, security, research and development, foundation model training and optimization, analytics, customer and technical support."
+     },
+     {
+      "sid": "p013.s2",
+      "categories": {
+       "generalization": [
+        "or other"
+       ],
+       "modality": [
+        "may"
+       ],
+       "numeric_quantifier": [
+        "other"
+       ]
+      },
+      "text": "When you use our Services, we may collect your text input, voice input, prompt, uploaded files, photos, feedback, chat history, or other content that you provide to our model and Services (“Prompts” or “Inputs”)."
+     },
+     {
+      "sid": "p024.s1",
+      "categories": {
+       "generalization": [
+        "such as"
+       ],
+       "modality": [
+        "may"
+       ],
+       "numeric_quantifier": [
+        "other"
+       ]
+      },
+      "text": "We may receive the Personal Data described in this Privacy Policy from other sources, such as:"
+     }
+    ]
+   },
+   "bert_profile": {
+    "paragraphs": 169,
+    "share": {
+     "First Party Collection/Use": 0.308,
+     "Third Party Sharing/Collection": 0.195,
+     "User Choice/Control": 0.107,
+     "User Access, Edit and Deletion": 0.053,
+     "Data Retention": 0.047,
+     "Data Security": 0.03,
+     "Policy Change": 0.012,
+     "Do Not Track": 0.0,
+     "International and Specific Audiences": 0.041,
+     "Other": 0.527
+    }
+   }
+  },
+  "P04": {
+   "key": "P04_perplexity",
+   "name": "perplexity",
+   "cohort": "ai",
+   "text_sha256": "086612361cbe1de40239f1e7ce6fd0120356e4f1b3218b8c21a5ee553cfb442b",
+   "readability": {
+    "fk_grade": 11.3,
+    "flesch_reading_ease": 47.5,
+    "reading_minutes": 19.9,
+    "words": 4748,
+    "prose_sentences": 254,
+    "avg_words_per_sentence": 18.7
+   },
+   "vagueness": {
+    "vague_sentence_fraction": 0.535,
+    "multi_category_fraction": 0.138,
+    "cues_per_1000_words": {
+     "conditionality": 1.9,
+     "generalization": 5.9,
+     "modality": 20.2,
+     "numeric_quantifier": 12.8
+    },
+    "examples": [
+     {
+      "sid": "p069.s3",
+      "categories": {
+       "generalization": [
+        "among other things"
+       ],
+       "modality": [
+        "may",
+        "may"
+       ],
+       "numeric_quantifier": [
+        "other"
+       ]
+      },
+      "text": "Among other things, third parties may use this data to serve ads tailored to your interests, which may include ads about our products or services."
+     },
+     {
+      "sid": "p008.s2",
+      "categories": {
+       "generalization": [
+        "and other"
+       ],
+       "modality": [
+        "can"
+       ],
+       "numeric_quantifier": [
+        "other"
+       ]
+      },
+      "text": "These can include our affiliates, vendors, social media, publicly available sources, and other companies."
+     },
+     {
+      "sid": "p016.s2",
+      "categories": {
+       "generalization": [
+        "among other things"
+       ],
+       "modality": [
+        "can"
+       ],
+       "numeric_quantifier": [
+        "other"
+       ]
+      },
+      "text": "Accounts can offer opportunities to, among other things, collaborate among users, save preferences, and save query history."
+     },
+     {
+      "sid": "p036.s2",
+      "categories": {
+       "generalization": [
+        "such as"
+       ],
+       "modality": [
+        "may"
+       ],
+       "numeric_quantifier": [
+        "certain"
+       ]
+      },
+      "text": "This may also be collected through certain services such as our health offerings."
+     },
+     {
+      "sid": "p081.s1",
+      "categories": {
+       "generalization": [
+        "or other"
+       ],
+       "modality": [
+        "may"
+       ],
+       "numeric_quantifier": [
+        "other"
+       ]
+      },
+      "text": "If you engage in forums, blogs, or other similar features offered by us, we may maintain records about the content you provide."
+     }
+    ]
+   },
+   "bert_profile": {
+    "paragraphs": 239,
+    "share": {
+     "First Party Collection/Use": 0.331,
+     "Third Party Sharing/Collection": 0.142,
+     "User Choice/Control": 0.088,
+     "User Access, Edit and Deletion": 0.033,
+     "Data Retention": 0.021,
+     "Data Security": 0.008,
+     "Policy Change": 0.013,
+     "Do Not Track": 0.004,
+     "International and Specific Audiences": 0.029,
+     "Other": 0.607
+    }
+   }
+  },
+  "P05": {
+   "key": "P05_xai",
+   "name": "xai",
+   "cohort": "ai",
+   "text_sha256": "e9d5e4f0d8fccc77ae5da947038d2d27380630c058197bb10a7da40d96cda0c9",
+   "readability": {
+    "fk_grade": 14.6,
+    "flesch_reading_ease": 37.3,
+    "reading_minutes": 17.3,
+    "words": 4114,
+    "prose_sentences": 157,
+    "avg_words_per_sentence": 26.2
+   },
+   "vagueness": {
+    "vague_sentence_fraction": 0.643,
+    "multi_category_fraction": 0.185,
+    "cues_per_1000_words": {
+     "conditionality": 1.7,
+     "generalization": 5.6,
+     "modality": 19.9,
+     "numeric_quantifier": 10.5
+    },
+    "examples": [
+     {
+      "sid": "p088.s4",
+      "categories": {
+       "conditionality": [
+        "depending on"
+       ],
+       "generalization": [
+        "such as"
+       ],
+       "modality": [
+        "may"
+       ],
+       "numeric_quantifier": [
+        "some"
+       ]
+      },
+      "text": "Depending on how a user interacts with the Service, including which modes the user purposely selects, the Service may have content such as some suggestive dialogue, coarse language, crude humor, sexual situations, or violence."
+     },
+     {
+      "sid": "p024.s1",
+      "categories": {
+       "generalization": [
+        "such as",
+        "and other",
+        "and other"
+       ],
+       "modality": [
+        "may"
+       ],
+       "numeric_quantifier": [
+        "other",
+        "other"
+       ]
+      },
+      "text": "User Content: You may provide personal information in prompts and other content you input, such as files, images, audio, voice, video, and other material (“Input”)."
+     },
+     {
+      "sid": "p020.s1",
+      "categories": {
+       "generalization": [
+        "such as"
+       ],
+       "modality": [
+        "may"
+       ],
+       "numeric_quantifier": [
+        "any",
+        "other"
+       ]
+      },
+      "text": "Communication Data: If you communicate with us, such as by email, by our webpages, or on social media sites, we may collect personal information that you submit to us including your name, user name, email address, any other information you voluntarily choose to provide us, and the contents of messages you send."
+     },
+     {
+      "sid": "p075.s1",
+      "categories": {
+       "generalization": [
+        "such as"
+       ],
+       "modality": [
+        "may"
+       ],
+       "numeric_quantifier": [
+        "certain"
+       ]
+      },
+      "text": "To third-parties with which you interact or share information: Certain features may allow you to share information with third-parties, such as through the X platform."
+     },
+     {
+      "sid": "p081.s1",
+      "categories": {
+       "generalization": [
+        "or other"
+       ],
+       "modality": [
+        "would"
+       ],
+       "numeric_quantifier": [
+        "other"
+       ]
+      },
+      "text": "For litigation, regulatory or other legal matters (e.g., we would retain your information if there was an ongoing legal claim and the information was relevant to the claim)."
+     }
+    ]
+   },
+   "bert_profile": {
+    "paragraphs": 115,
+    "share": {
+     "First Party Collection/Use": 0.461,
+     "Third Party Sharing/Collection": 0.226,
+     "User Choice/Control": 0.061,
+     "User Access, Edit and Deletion": 0.052,
+     "Data Retention": 0.035,
+     "Data Security": 0.035,
+     "Policy Change": 0.026,
+     "Do Not Track": 0.009,
+     "International and Specific Audiences": 0.061,
+     "Other": 0.4
+    }
+   }
+  },
+  "P06": {
+   "key": "P06_zoom",
+   "name": "zoom",
+   "cohort": "global",
+   "text_sha256": "c4604c11de4704cfa18b36f9d0e06b4191c27232224d9f9efed0f8f5ed374de9",
+   "readability": {
+    "fk_grade": 18.1,
+    "flesch_reading_ease": 25.7,
+    "reading_minutes": 34.3,
+    "words": 8157,
+    "prose_sentences": 240,
+    "avg_words_per_sentence": 34.0
+   },
+   "vagueness": {
+    "vague_sentence_fraction": 0.646,
+    "multi_category_fraction": 0.317,
+    "cues_per_1000_words": {
+     "conditionality": 4.3,
+     "generalization": 9.6,
+     "modality": 14.6,
+     "numeric_quantifier": 14.6
+    },
+    "examples": [
+     {
+      "sid": "p060.s2",
+      "categories": {
+       "conditionality": [
+        "depending on"
+       ],
+       "generalization": [
+        "and other"
+       ],
+       "modality": [
+        "can"
+       ],
+       "numeric_quantifier": [
+        "other"
+       ]
+      },
+      "text": "Depending on their settings, account owners also can see sender and receiver information, and other messaging data, along with the content of messages sent to and from users on their account (including from in-meeting chat where dedicated meeting group chats are enabled), unless the account owner has enabled Advanced Chat Encryption."
+     },
+     {
+      "sid": "p155.s1",
+      "categories": {
+       "generalization": [
+        "such as",
+        "such as",
+        "such as",
+        "such as",
+        "such as",
+        "such as",
+        "such as",
+        "and other",
+        "and other",
+        "or other",
+        "or other"
+       ],
+       "modality": [
+        "may"
+       ],
+       "numeric_quantifier": [
+        "certain",
+        "other",
+        "other",
+        "other",
+        "other"
+       ]
+      },
+      "text": "Categories of Personal Information Zoom Receives: Zoom may collect, or process on behalf of our customers, the following categories of personal data, as described above, in the “What Personal Data Do We Receive?”; section: identifiers (such as in Account Information, Profile and Participant Information, Contact Information, and Registration Information), financial account information (such as in Account Information); commercial information (such as in Account Information); internet or other electronic network activity information (such as Device Information, Usage Information Regarding Meetings, Webinars, Message, Collaborative Features, and the Website, and Limited Information from Zoom Email and Calendar Services); audio, electronic, and visual information (such as in Content and Context from Meetings, Webinars, Messaging, and Other Collaborative Features) education information such as from university customers; inferences we derive from the preceding or other information we collect; and sensitive personal information (such as certain categories in Account Information, Content and Context from Meetings, Webinars, Messaging, and Other Collaborative Features."
+     },
+     {
+      "sid": "p168.s2",
+      "categories": {
+       "generalization": [
+        "such as",
+        "and other"
+       ],
+       "modality": [
+        "may"
+       ],
+       "numeric_quantifier": [
+        "some",
+        "certain",
+        "certain",
+        "certain",
+        "certain",
+        "other"
+       ]
+      },
+      "text": "Zoom receives information that may be considered sensitive under some state laws, such as certain Account Information (e.g., financial information, log-in information), certain Content and Context from Meetings, Webinars, Messaging, and Other Collaborative Features and certain Limited Information from Zoom Email and Calendar Services (e.g., messaging content in cases described in this statement) as well as voiceprints and facial geometry, if you choose to enable certain features and provide the requisite consent."
+     },
+     {
+      "sid": "p023.s1",
+      "categories": {
+       "generalization": [
+        "and other",
+        "and other"
+       ],
+       "modality": [
+        "may",
+        "may"
+       ],
+       "numeric_quantifier": [
+        "other",
+        "other"
+       ]
+      },
+      "text": "Device Information: Information about the computers, phones, and other devices used when interacting with Zoom products and services, which may include information about the speakers, microphone, camera, OS version, hard disk ID, PC name, MAC address, IP address (which may be used to infer general location at a city or country level), device attributes (like operating system version and battery level), WiFi information, and other device information (like Bluetooth signals)."
+     },
+     {
+      "sid": "p171.s4",
+      "categories": {
+       "conditionality": [
+        "if applicable"
+       ],
+       "generalization": [
+        "such as",
+        "such as",
+        "such as"
+       ],
+       "modality": [
+        "may",
+        "may"
+       ]
+      },
+      "text": "To verify your identity, we may require you to log into your existing Zoom account (if applicable), give a declaration as to your identity under penalty of perjury, and/or provide additional information, such as providing at least two pieces of personal information relating to your account (which will be compared to information we have, such as profile information) or as we otherwise may already have in our possession, such as your email address and phone number."
+     }
+    ]
+   },
+   "bert_profile": {
+    "paragraphs": 178,
+    "share": {
+     "First Party Collection/Use": 0.365,
+     "Third Party Sharing/Collection": 0.315,
+     "User Choice/Control": 0.107,
+     "User Access, Edit and Deletion": 0.039,
+     "Data Retention": 0.022,
+     "Data Security": 0.022,
+     "Policy Change": 0.028,
+     "Do Not Track": 0.0,
+     "International and Specific Audiences": 0.146,
+     "Other": 0.494
+    }
+   }
+  },
+  "P07": {
+   "key": "P07_spotify",
+   "name": "spotify",
+   "cohort": "global",
+   "text_sha256": "ea050ce111fb7761f4d28179bbdffdf7b2e0d5082ee4766496daf7e9c98a3716",
+   "readability": {
+    "fk_grade": 10.4,
+    "flesch_reading_ease": 49.8,
+    "reading_minutes": 20.8,
+    "words": 4950,
+    "prose_sentences": 303,
+    "avg_words_per_sentence": 16.3
+   },
+   "vagueness": {
+    "vague_sentence_fraction": 0.482,
+    "multi_category_fraction": 0.119,
+    "cues_per_1000_words": {
+     "conditionality": 2.6,
+     "generalization": 5.5,
+     "modality": 17.8,
+     "numeric_quantifier": 14.7
+    },
+    "examples": [
+     {
+      "sid": "p153.s1",
+      "categories": {
+       "conditionality": [
+        "in some cases"
+       ],
+       "generalization": [
+        "such as"
+       ],
+       "modality": [
+        "may"
+       ],
+       "numeric_quantifier": [
+        "some"
+       ]
+      },
+      "text": "In some cases, we may use a third party application to help you verify your address, such as Google Maps."
+     },
+     {
+      "sid": "p290.s1",
+      "categories": {
+       "generalization": [
+        "and other"
+       ],
+       "modality": [
+        "possible"
+       ],
+       "numeric_quantifier": [
+        "certain",
+        "any",
+        "other"
+       ]
+      },
+      "text": "Legitimate Interest: When Spotify or a third party has an interest in using your personal data in a certain way, which is necessary and justified considering any possible risks to you and other Spotify users."
+     },
+     {
+      "sid": "p103.s2",
+      "categories": {
+       "conditionality": [
+        "to the extent"
+       ],
+       "modality": [
+        "possible"
+       ],
+       "numeric_quantifier": [
+        "any"
+       ]
+      },
+      "text": "However Spotify will try to honour any request to the extent possible."
+     },
+     {
+      "sid": "p212.s2",
+      "categories": {
+       "conditionality": [
+        "in some cases"
+       ],
+       "modality": [
+        "may"
+       ],
+       "numeric_quantifier": [
+        "some"
+       ]
+      },
+      "text": "In some cases, we may also use a photo of your face to verify that your ID belongs to you"
+     },
+     {
+      "sid": "p536.s2",
+      "categories": {
+       "generalization": [
+        "or other"
+       ],
+       "modality": [
+        "may"
+       ],
+       "numeric_quantifier": [
+        "other"
+       ]
+      },
+      "text": "We and our partners may use this information to present you with offers, promotions, or other marketing that we think you’ll find relevant."
+     }
+    ]
+   },
+   "bert_profile": {
+    "paragraphs": 628,
+    "share": {
+     "First Party Collection/Use": 0.253,
+     "Third Party Sharing/Collection": 0.134,
+     "User Choice/Control": 0.062,
+     "User Access, Edit and Deletion": 0.022,
+     "Data Retention": 0.021,
+     "Data Security": 0.011,
+     "Policy Change": 0.008,
+     "Do Not Track": 0.0,
+     "International and Specific Audiences": 0.014,
+     "Other": 0.704
+    }
+   }
+  },
+  "P08": {
+   "key": "P08_reddit",
+   "name": "reddit",
+   "cohort": "global",
+   "text_sha256": "d60d85907b1af9ded4ad758204c6cf7a44026c67c35281cfdd9673b00294030a",
+   "readability": {
+    "fk_grade": 14.0,
+    "flesch_reading_ease": 38.2,
+    "reading_minutes": 28.3,
+    "words": 6738,
+    "prose_sentences": 277,
+    "avg_words_per_sentence": 24.3
+   },
+   "vagueness": {
+    "vague_sentence_fraction": 0.545,
+    "multi_category_fraction": 0.22,
+    "cues_per_1000_words": {
+     "conditionality": 2.8,
+     "generalization": 5.9,
+     "modality": 15.1,
+     "numeric_quantifier": 14.1
+    },
+    "examples": [
+     {
+      "sid": "p203.s2",
+      "categories": {
+       "conditionality": [
+        "depending on"
+       ],
+       "generalization": [
+        "such as",
+        "and other"
+       ],
+       "modality": [
+        "may"
+       ],
+       "numeric_quantifier": [
+        "various",
+        "other"
+       ]
+      },
+      "text": "We process and store information on servers located in the United States, and we may transfer it to our affiliates, service providers, and other third parties located in various countries depending on factors such as the locations of our users and operational needs."
+     },
+     {
+      "sid": "p190.s1",
+      "categories": {
+       "conditionality": [
+        "as needed"
+       ],
+       "modality": [
+        "may",
+        "may",
+        "can"
+       ],
+       "numeric_quantifier": [
+        "some"
+       ]
+      },
+      "text": "Some analytics providers we partner with may provide specific opt-out mechanisms and we may provide, as needed and as available, additional tools and third-party services that allow you to better understand tracking technologies and how you can opt out."
+     },
+     {
+      "sid": "p167.s4",
+      "categories": {
+       "generalization": [
+        "such as"
+       ],
+       "modality": [
+        "may"
+       ],
+       "numeric_quantifier": [
+        "few",
+        "other"
+       ]
+      },
+      "text": "A few examples: (i) payment processors who process transactions on our behalf, (ii) cloud providers who host our data and our services, (iii) third-party ad serving and measurement providers who help us and advertisers serve relevant ads and measure the performance of ads (by disclosing information such as cookie IDs, your IP address, and/or a hashed version of your email; these third parties may combine that information with other information they already have about you to provide services to Reddit), (iv) age verification providers who help us confirm your age, (v) compliance providers who help us determine your eligibility to participate in Reddit Programs, and (vi) LLM providers who help us compile and summarize public content for relevant search results on Reddit."
+     },
+     {
+      "sid": "p171.s2",
+      "categories": {
+       "generalization": [
+        "and other"
+       ],
+       "modality": [
+        "may"
+       ],
+       "numeric_quantifier": [
+        "any",
+        "other"
+       ]
+      },
+      "text": "We may share information between and among Reddit, and any of our parents, affiliates, subsidiaries, and other companies under common control and ownership to provide, maintain, and improve the Services."
+     },
+     {
+      "sid": "p176.s2",
+      "categories": {
+       "conditionality": [
+        "as required"
+       ],
+       "modality": [
+        "may"
+       ],
+       "numeric_quantifier": [
+        "certain",
+        "any"
+       ]
+      },
+      "text": "We may retain certain information for legitimate business purposes and/or if we believe doing so is in accordance with, or as required by, any applicable law."
+     }
+    ]
+   },
+   "bert_profile": {
+    "paragraphs": 544,
+    "share": {
+     "First Party Collection/Use": 0.289,
+     "Third Party Sharing/Collection": 0.081,
+     "User Choice/Control": 0.031,
+     "User Access, Edit and Deletion": 0.026,
+     "Data Retention": 0.009,
+     "Data Security": 0.011,
+     "Policy Change": 0.006,
+     "Do Not Track": 0.002,
+     "International and Specific Audiences": 0.042,
+     "Other": 0.794
+    }
+   }
+  },
+  "P09": {
+   "key": "P09_notion",
+   "name": "notion",
+   "cohort": "global",
+   "text_sha256": "4b1bd83be17d7b07f265b9d1b67eebf0abd405d29be7af944bc31aad39ff1b76",
+   "readability": {
+    "fk_grade": 14.8,
+    "flesch_reading_ease": 34.3,
+    "reading_minutes": 20.6,
+    "words": 4897,
+    "prose_sentences": 193,
+    "avg_words_per_sentence": 25.4
+   },
+   "vagueness": {
+    "vague_sentence_fraction": 0.632,
+    "multi_category_fraction": 0.285,
+    "cues_per_1000_words": {
+     "conditionality": 1.2,
+     "generalization": 7.8,
+     "modality": 20.2,
+     "numeric_quantifier": 17.4
+    },
+    "examples": [
+     {
+      "sid": "p030.s2",
+      "categories": {
+       "generalization": [
+        "and other"
+       ],
+       "modality": [
+        "may",
+        "may"
+       ],
+       "numeric_quantifier": [
+        "certain",
+        "other"
+       ]
+      },
+      "text": "If you decide to participate, you may be asked to provide certain information which may include contact information and other information about you."
+     },
+     {
+      "sid": "p033.s1",
+      "categories": {
+       "generalization": [
+        "and other",
+        "and other"
+       ],
+       "modality": [
+        "may"
+       ],
+       "numeric_quantifier": [
+        "other",
+        "other"
+       ]
+      },
+      "text": "Conferences, Trade Shows, and Other Events: We may attend conferences, trade shows, and other events where we collect contact information from individuals who interact with or express an interest in the Services."
+     },
+     {
+      "sid": "p036.s2",
+      "categories": {
+       "generalization": [
+        "and other",
+        "and other"
+       ],
+       "modality": [
+        "may"
+       ],
+       "numeric_quantifier": [
+        "other",
+        "other"
+       ]
+      },
+      "text": "This information may include your Internet protocol (IP) address, user settings, MAC address, cookie identifiers, mobile carrier, mobile advertising and other unique identifiers, details about your browser, operating system or device, location information (including inferred general location based off of your IP address), Internet service provider, pages that you visit before, during and after using the Website or Services, information about the links you click, information about how you interact with the Website or Services, including the frequency and duration of your activities, and other information about how you use the Website or Services."
+     },
+     {
+      "sid": "p037.s1",
+      "categories": {
+       "generalization": [
+        "and other",
+        "or other"
+       ],
+       "modality": [
+        "may"
+       ],
+       "numeric_quantifier": [
+        "other",
+        "other"
+       ]
+      },
+      "text": "Cookies, Pixel Tags/Web Beacons, and Analytics Information: We, as well as third parties that provide content, advertising, or other functionality on the Services, may use cookies, pixel tags, local storage, and other technologies (“Technologies”) to automatically collect information through the Website or Services."
+     },
+     {
+      "sid": "p096.s1",
+      "categories": {
+       "generalization": [
+        "including but not limited to",
+        "or other"
+       ],
+       "modality": [
+        "may",
+        "may"
+       ],
+       "numeric_quantifier": [
+        "other"
+       ]
+      },
+      "text": "All information processed by us may be transferred, processed, and stored anywhere in the world, including but not limited to, the United States or other countries, which may have data protection laws that are different from the laws where you live."
+     }
+    ]
+   },
+   "bert_profile": {
+    "paragraphs": 165,
+    "share": {
+     "First Party Collection/Use": 0.321,
+     "Third Party Sharing/Collection": 0.376,
+     "User Choice/Control": 0.133,
+     "User Access, Edit and Deletion": 0.042,
+     "Data Retention": 0.024,
+     "Data Security": 0.03,
+     "Policy Change": 0.036,
+     "Do Not Track": 0.006,
+     "International and Specific Audiences": 0.061,
+     "Other": 0.485
+    }
+   }
+  },
+  "P10": {
+   "key": "P10_duolingo",
+   "name": "duolingo",
+   "cohort": "global",
+   "text_sha256": "bda945667707dceeeb9df589a2879e958904e15cfd8bea60fa609bc0cc4cd90c",
+   "readability": {
+    "fk_grade": 12.8,
+    "flesch_reading_ease": 41.7,
+    "reading_minutes": 19.9,
+    "words": 4746,
+    "prose_sentences": 219,
+    "avg_words_per_sentence": 21.7
+   },
+   "vagueness": {
+    "vague_sentence_fraction": 0.603,
+    "multi_category_fraction": 0.201,
+    "cues_per_1000_words": {
+     "conditionality": 0.8,
+     "generalization": 6.3,
+     "modality": 20.9,
+     "numeric_quantifier": 18.3
+    },
+    "examples": [
+     {
+      "sid": "p029.s1",
+      "categories": {
+       "generalization": [
+        "such as"
+       ],
+       "modality": [
+        "may"
+       ],
+       "numeric_quantifier": [
+        "some",
+        "other",
+        "other",
+        "other"
+       ]
+      },
+      "text": "If you have submitted your phone number to Duolingo, whether through Contact Sync or some other way (such as adding the phone number to your profile, using it to register, or using it to activate other product features), other Duolingo users who have your phone number in their contacts may be able to locate your Profile using Contact Sync and be recommended your profile to follow."
+     },
+     {
+      "sid": "p033.s1",
+      "categories": {
+       "generalization": [
+        "such as"
+       ],
+       "modality": [
+        "may"
+       ],
+       "numeric_quantifier": [
+        "other",
+        "other",
+        "other",
+        "other"
+       ]
+      },
+      "text": "We may recommend other Duolingo users for you to follow, and for other users to follow you, based on a shared IP address such as other users on the same WiFi network as you, or if other users share your device."
+     },
+     {
+      "sid": "p017.s1",
+      "categories": {
+       "generalization": [
+        "and other"
+       ],
+       "modality": [
+        "may",
+        "may"
+       ],
+       "numeric_quantifier": [
+        "other",
+        "other"
+       ]
+      },
+      "text": "You may be able to submit comments, likes, reactions, and celebrations (“Kudos”) that will supplement other users’ Profiles and other users may be able to submit Kudos that will supplement your Profile."
+     },
+     {
+      "sid": "p022.s1",
+      "categories": {
+       "generalization": [
+        "such as",
+        "or other"
+       ],
+       "modality": [
+        "may"
+       ],
+       "numeric_quantifier": [
+        "other"
+       ]
+      },
+      "text": "When you interact with Video Call or other AI-enabled features, the text and audio you submit may be shared with AI vendors such as OpenAI and Google."
+     },
+     {
+      "sid": "p135.s1",
+      "categories": {
+       "generalization": [
+        "such as"
+       ],
+       "modality": [
+        "can",
+        "can"
+       ],
+       "numeric_quantifier": [
+        "many"
+       ]
+      },
+      "text": "Teachers can email you learning assignments, and can see your learning progress, such as what lessons you studied, how long you spent on a lesson and how many XP you earned."
+     }
+    ]
+   },
+   "bert_profile": {
+    "paragraphs": 168,
+    "share": {
+     "First Party Collection/Use": 0.31,
+     "Third Party Sharing/Collection": 0.107,
+     "User Choice/Control": 0.137,
+     "User Access, Edit and Deletion": 0.048,
+     "Data Retention": 0.024,
+     "Data Security": 0.006,
+     "Policy Change": 0.018,
+     "Do Not Track": 0.006,
+     "International and Specific Audiences": 0.244,
+     "Other": 0.47
+    }
+   }
+  },
+  "P11": {
+   "key": "P11_razorpay",
+   "name": "razorpay",
+   "cohort": "india",
+   "text_sha256": "8c5d095bc8c19a8d9f1222e0e6bbd77832c93a8b6609df94428ac8c742bcb8c0",
+   "readability": {
+    "fk_grade": 15.5,
+    "flesch_reading_ease": 31.7,
+    "reading_minutes": 11.2,
+    "words": 2668,
+    "prose_sentences": 100,
+    "avg_words_per_sentence": 26.7
+   },
+   "vagueness": {
+    "vague_sentence_fraction": 0.59,
+    "multi_category_fraction": 0.22,
+    "cues_per_1000_words": {
+     "conditionality": 1.5,
+     "generalization": 6.7,
+     "modality": 10.1,
+     "numeric_quantifier": 20.6
+    },
+    "examples": [
+     {
+      "sid": "p020.s2",
+      "categories": {
+       "conditionality": [
+        "as required"
+       ],
+       "generalization": [
+        "such as"
+       ],
+       "modality": [
+        "may"
+       ],
+       "numeric_quantifier": [
+        "any",
+        "other"
+       ]
+      },
+      "text": "We may collect and store your Sensitive Personal Data or Information—such as financial information, including credit card details, debit card details, bank account information, and Know Your Customer (\"KYC\") documents as required by RBI regulations—as well as any other applicable information that you choose to save in your Razorpay account."
+     },
+     {
+      "sid": "p043.s1",
+      "categories": {
+       "conditionality": [
+        "as required"
+       ],
+       "generalization": [
+        "such as",
+        "or other"
+       ],
+       "numeric_quantifier": [
+        "any",
+        "other"
+       ]
+      },
+      "text": "We do not share your Personal Information with any third party, except for financial institutions such as banks, the RBI, or other regulatory agencies, as required."
+     },
+     {
+      "sid": "p044.s1",
+      "categories": {
+       "generalization": [
+        "or other"
+       ],
+       "modality": [
+        "may",
+        "may"
+       ],
+       "numeric_quantifier": [
+        "other"
+       ]
+      },
+      "text": "We may share your Personal Information with our parent company, subsidiaries, joint ventures, or other companies under common control (collectively, the \"Affiliates\") that we may have now or in the future."
+     },
+     {
+      "sid": "p067.s1",
+      "categories": {
+       "generalization": [
+        "and other"
+       ],
+       "modality": [
+        "can"
+       ],
+       "numeric_quantifier": [
+        "any",
+        "other"
+       ]
+      },
+      "text": "If you contact us to provide feedback, register a complaint, or ask a question, we will record any Personal Information and other content you provide in your communication so that we can effectively respond."
+     },
+     {
+      "sid": "p069.s1",
+      "categories": {
+       "generalization": [
+        "and other"
+       ],
+       "modality": [
+        "can"
+       ],
+       "numeric_quantifier": [
+        "any",
+        "other"
+       ]
+      },
+      "text": "If you contact us to provide feedback, register a complaint, or ask a question, we will record any Personal Information and other content you provide in your communication so that we can effectively respond."
+     }
+    ]
+   },
+   "bert_profile": {
+    "paragraphs": 75,
+    "share": {
+     "First Party Collection/Use": 0.16,
+     "Third Party Sharing/Collection": 0.2,
+     "User Choice/Control": 0.147,
+     "User Access, Edit and Deletion": 0.04,
+     "Data Retention": 0.04,
+     "Data Security": 0.067,
+     "Policy Change": 0.133,
+     "Do Not Track": 0.0,
+     "International and Specific Audiences": 0.013,
+     "Other": 0.653
+    }
+   }
+  },
+  "P12": {
+   "key": "P12_phonepe",
+   "name": "phonepe",
+   "cohort": "india",
+   "text_sha256": "3e9c49e54dea82e72437ae128669325428f7fe77ab9841c4096d5099ff0d0ec1",
+   "readability": {
+    "fk_grade": 14.1,
+    "flesch_reading_ease": 31.1,
+    "reading_minutes": 20.9,
+    "words": 4979,
+    "prose_sentences": 238,
+    "avg_words_per_sentence": 20.9
+   },
+   "vagueness": {
+    "vague_sentence_fraction": 0.433,
+    "multi_category_fraction": 0.155,
+    "cues_per_1000_words": {
+     "conditionality": 2.4,
+     "generalization": 5.4,
+     "modality": 11.6,
+     "numeric_quantifier": 15.1
+    },
+    "examples": [
+     {
+      "sid": "p097.s2",
+      "categories": {
+       "generalization": [
+        "such as"
+       ],
+       "modality": [
+        "may",
+        "may"
+       ],
+       "numeric_quantifier": [
+        "any",
+        "any",
+        "other"
+       ]
+      },
+      "text": "However, we may retain Personal Information related to you if we believe it may be necessary to prevent fraud or future abuse or if required by law such as in the event of the pendency of any legal/regulatory proceeding or receipt of any legal and/or regulatory direction to that effect or for other legitimate purposes."
+     },
+     {
+      "sid": "p070.s1",
+      "categories": {
+       "conditionality": [
+        "to the extent"
+       ],
+       "modality": [
+        "may",
+        "possible"
+       ],
+       "numeric_quantifier": [
+        "other"
+       ]
+      },
+      "text": "While we may also process your Personal Information for other legitimate business cases, we ensure to take appropriate steps to minimize the processing to the extent possible, making it less intrusive to your privacy."
+     },
+     {
+      "sid": "p073.s9",
+      "categories": {
+       "generalization": [
+        "or other"
+       ],
+       "modality": [
+        "may"
+       ],
+       "numeric_quantifier": [
+        "certain",
+        "other"
+       ]
+      },
+      "text": "Additionally, you may encounter “cookies” or other similar technologies on certain pages of the Platform that are placed by third parties."
+     },
+     {
+      "sid": "p035.s1",
+      "categories": {
+       "generalization": [
+        "such as"
+       ],
+       "modality": [
+        "may"
+       ],
+       "numeric_quantifier": [
+        "various"
+       ]
+      },
+      "text": "Information may be collected at various stages of your usage of the PhonePe Platform such as:"
+     },
+     {
+      "sid": "p038.s2",
+      "categories": {
+       "generalization": [
+        "including but not limited to"
+       ],
+       "modality": [
+        "may"
+       ],
+       "numeric_quantifier": [
+        "other"
+       ]
+      },
+      "text": "Your associated profile information, including but not limited to name, email id, other profile details as may be provided by you, will be common across PhonePe apps"
+     }
+    ]
+   },
+   "bert_profile": {
+    "paragraphs": 219,
+    "share": {
+     "First Party Collection/Use": 0.361,
+     "Third Party Sharing/Collection": 0.119,
+     "User Choice/Control": 0.128,
+     "User Access, Edit and Deletion": 0.014,
+     "Data Retention": 0.018,
+     "Data Security": 0.037,
+     "Policy Change": 0.023,
+     "Do Not Track": 0.0,
+     "International and Specific Audiences": 0.023,
+     "Other": 0.653
+    }
+   }
+  },
+  "P13": {
+   "key": "P13_swiggy",
+   "name": "swiggy",
+   "cohort": "india",
+   "text_sha256": "1663547ad9c7e486ce1bcdb8117a558b096d618a368221f1a495b5ab90ef1599",
+   "readability": {
+    "fk_grade": 15.3,
+    "flesch_reading_ease": 34.0,
+    "reading_minutes": 15.6,
+    "words": 3715,
+    "prose_sentences": 136,
+    "avg_words_per_sentence": 27.3
+   },
+   "vagueness": {
+    "vague_sentence_fraction": 0.669,
+    "multi_category_fraction": 0.316,
+    "cues_per_1000_words": {
+     "conditionality": 1.6,
+     "generalization": 10.5,
+     "modality": 15.6,
+     "numeric_quantifier": 19.9
+    },
+    "examples": [
+     {
+      "sid": "p065.s1",
+      "categories": {
+       "conditionality": [
+        "if applicable"
+       ],
+       "generalization": [
+        "or other"
+       ],
+       "modality": [
+        "may"
+       ],
+       "numeric_quantifier": [
+        "other",
+        "other",
+        "other"
+       ]
+      },
+      "text": "With Other Users: If you are a delivery partner, we may share your name, phone number and/or profile picture (if applicable), tracking details with other users, Merchants or other service providers to provide them the Services."
+     },
+     {
+      "sid": "p087.s1",
+      "categories": {
+       "conditionality": [
+        "as necessary"
+       ],
+       "generalization": [
+        "and other"
+       ],
+       "modality": [
+        "may"
+       ],
+       "numeric_quantifier": [
+        "other"
+       ]
+      },
+      "text": "We may, however, retain and store your personal information in anonymized or aggregated form, for as long as necessary, and use it as permitted under applicable law, including for analytics, improving our products and services, and other business purposes."
+     },
+     {
+      "sid": "p014.s1",
+      "categories": {
+       "generalization": [
+        "such as",
+        "and other",
+        "etc"
+       ],
+       "modality": [
+        "may",
+        "may"
+       ],
+       "numeric_quantifier": [
+        "few",
+        "other"
+       ]
+      },
+      "text": "Your account information: Your full name, email address, address, postal code, password and other information you may provide with your account, such as your gender, mobile phone number etc. For a few Services we may also collect your profile picture."
+     },
+     {
+      "sid": "p021.s1",
+      "categories": {
+       "generalization": [
+        "and other"
+       ],
+       "modality": [
+        "may"
+       ],
+       "numeric_quantifier": [
+        "other",
+        "other"
+       ]
+      },
+      "text": "Stored information and files: Our applications also may access metadata and other information associated with other files stored on your mobile device with your consent."
+     },
+     {
+      "sid": "p038.s2",
+      "categories": {
+       "generalization": [
+        "and other"
+       ],
+       "modality": [
+        "may"
+       ],
+       "numeric_quantifier": [
+        "other",
+        "other"
+       ]
+      },
+      "text": "These entities may use cookies, web beacons, SDKs and other technologies to identify your device when you visit the Platforms and use our Services, as well as when you visit other online sites and services."
+     }
+    ]
+   },
+   "bert_profile": {
+    "paragraphs": 92,
+    "share": {
+     "First Party Collection/Use": 0.467,
+     "Third Party Sharing/Collection": 0.413,
+     "User Choice/Control": 0.098,
+     "User Access, Edit and Deletion": 0.011,
+     "Data Retention": 0.033,
+     "Data Security": 0.065,
+     "Policy Change": 0.033,
+     "Do Not Track": 0.0,
+     "International and Specific Audiences": 0.0,
+     "Other": 0.359
+    }
+   }
+  },
+  "P14": {
+   "key": "P14_zomato",
+   "name": "zomato",
+   "cohort": "india",
+   "text_sha256": "2f16a4a9b47863d8e315bd405dbfb6297069324a47a374ea8878a1ffd120499a",
+   "readability": {
+    "fk_grade": 17.5,
+    "flesch_reading_ease": 21.6,
+    "reading_minutes": 29.0,
+    "words": 6912,
+    "prose_sentences": 237,
+    "avg_words_per_sentence": 29.2
+   },
+   "vagueness": {
+    "vague_sentence_fraction": 0.696,
+    "multi_category_fraction": 0.354,
+    "cues_per_1000_words": {
+     "conditionality": 2.2,
+     "generalization": 11.9,
+     "modality": 16.3,
+     "numeric_quantifier": 18.2
+    },
+    "examples": [
+     {
+      "sid": "p024.s1",
+      "categories": {
+       "generalization": [
+        "and other",
+        "and other",
+        "or other"
+       ],
+       "modality": [
+        "may"
+       ],
+       "numeric_quantifier": [
+        "some",
+        "certain",
+        "other",
+        "other",
+        "other"
+       ]
+      },
+      "text": "Your communications: Communications between you and other users, delivery partners or merchants through our Services, some of which may be recorded for internal purposes; your participation in a survey, poll, sweepstakes, contest or promotion scheme; your request for certain features (e.g., newsletters, updates or other products); your communication with us about employment opportunities posted to the Services; your correspondence with our customer service and other grievance redressal mechanisms."
+     },
+     {
+      "sid": "p051.s1",
+      "categories": {
+       "generalization": [
+        "such as"
+       ],
+       "modality": [
+        "may",
+        "potentially"
+       ],
+       "numeric_quantifier": [
+        "other",
+        "other",
+        "other"
+       ]
+      },
+      "text": "Other Third Parties: We may also obtain information about you from other sources such as business partners (including restaurant, payment, and event partners), marketing and advertising partners, data enrichment services, data brokers, analytics providers, researchers, publicly available sources, affiliates within the Eternal group, and potentially other users (e.g., if they refer you, add you to a reservation/order or upload your contact)."
+     },
+     {
+      "sid": "p059.s1",
+      "categories": {
+       "conditionality": [
+        "if applicable"
+       ],
+       "generalization": [
+        "etc"
+       ],
+       "modality": [
+        "may",
+        "may",
+        "may",
+        "likely"
+       ]
+      },
+      "text": "Marketing, Advertising & Promotions: Send you communications (via email, SMS, phone, WhatsApp, etc.) that we determine may be of interest to you regarding our services or promotions, share your preferences or availed services (if applicable) for marketing/promotional activities, enable us to show you advertisements relevant to your likely interests and administer promotions, contests, and sweepstakes.We may also use your information to contact you about goods and services that may be of interest to you."
+     },
+     {
+      "sid": "p022.s3",
+      "categories": {
+       "generalization": [
+        "such as",
+        "such as"
+       ],
+       "modality": [
+        "may"
+       ],
+       "numeric_quantifier": [
+        "any",
+        "any"
+       ]
+      },
+      "text": "We may also record dietary preferences or restrictions, cuisine preferences, preferred price points, occasion types (e.g., birthday, anniversary) and any data you input or actions you take while interacting with specific features, such as providing travel details (such as train PNR), event booking data, loyalty program participation, or preferences selected within any Service."
+     },
+     {
+      "sid": "p042.s1",
+      "categories": {
+       "generalization": [
+        "and other",
+        "and other"
+       ],
+       "modality": [
+        "may"
+       ],
+       "numeric_quantifier": [
+        "other",
+        "other"
+       ]
+      },
+      "text": "Cookies and Other Electronic Tools: We, and third parties with whom we partner, may use cookies, pixel tags, web beacons, mobile device IDs, \"flash cookies\" and other similar files or technologies to collect and store information in respect to your use of the Services and third party websites."
+     }
+    ]
+   },
+   "bert_profile": {
+    "paragraphs": 149,
+    "share": {
+     "First Party Collection/Use": 0.463,
+     "Third Party Sharing/Collection": 0.322,
+     "User Choice/Control": 0.054,
+     "User Access, Edit and Deletion": 0.027,
+     "Data Retention": 0.074,
+     "Data Security": 0.054,
+     "Policy Change": 0.02,
+     "Do Not Track": 0.0,
+     "International and Specific Audiences": 0.027,
+     "Other": 0.389
+    }
+   }
+  },
+  "P15": {
+   "key": "P15_unacademy",
+   "name": "unacademy",
+   "cohort": "india",
+   "text_sha256": "32a106340f0e4aaab2a661a3aab414d8e974aff8bd3f3d481af39acb6957d9bf",
+   "readability": {
+    "fk_grade": 16.8,
+    "flesch_reading_ease": 28.6,
+    "reading_minutes": 34.1,
+    "words": 8115,
+    "prose_sentences": 268,
+    "avg_words_per_sentence": 30.3
+   },
+   "vagueness": {
+    "vague_sentence_fraction": 0.608,
+    "multi_category_fraction": 0.276,
+    "cues_per_1000_words": {
+     "conditionality": 2.7,
+     "generalization": 5.8,
+     "modality": 13.8,
+     "numeric_quantifier": 17.3
+    },
+    "examples": [
+     {
+      "sid": "p054.s3",
+      "categories": {
+       "conditionality": [
+        "as applicable"
+       ],
+       "generalization": [
+        "or other"
+       ],
+       "modality": [
+        "may"
+       ],
+       "numeric_quantifier": [
+        "any",
+        "other"
+       ]
+      },
+      "text": "Your public profile will only contain Personal Information that are required for Learners or Users to know you (as applicable) viz., your username, a brief description of any content you have made available on the Platform, your educational qualifications, your past associations, your photo, and such similar information that may enable a Learner or other User to know you better."
+     },
+     {
+      "sid": "p085.s1",
+      "categories": {
+       "conditionality": [
+        "when necessary"
+       ],
+       "generalization": [
+        "or other"
+       ],
+       "modality": [
+        "may"
+       ],
+       "numeric_quantifier": [
+        "any",
+        "other"
+       ]
+      },
+      "text": "To establish, exercise, or defend legal claims: We may process any Personal Information identified in this Policy when necessary for establishing, exercising, or defending legal claims, whether in court, administrative, or other proceedings."
+     },
+     {
+      "sid": "p055.s3",
+      "categories": {
+       "generalization": [
+        "or other",
+        "etc"
+       ],
+       "modality": [
+        "may"
+       ],
+       "numeric_quantifier": [
+        "any",
+        "any",
+        "any",
+        "other"
+       ]
+      },
+      "text": "You may also provide us your Personal Information or other information when you respond to surveys, enter any form of contests, tests, events, competitions, webinars, etc., hosted by Unacademy, either on the Platform or otherwise, or when you otherwise communicate with us via form, e-form, email, phone, or otherwise, we store a copy of our communications (including any call recordings or emails, if any, as permitted by applicable law)."
+     },
+     {
+      "sid": "p138.s2",
+      "categories": {
+       "generalization": [
+        "and other",
+        "and other"
+       ],
+       "modality": [
+        "may",
+        "may"
+       ],
+       "numeric_quantifier": [
+        "other",
+        "other"
+       ]
+      },
+      "text": "However, advertisers and other third-parties (including the ad networks, ad-serving companies, and other service providers they may use) may assume that users who interact with or click on a personalised ad or content are part of the group that the ad or content is directed towards."
+     },
+     {
+      "sid": "p054.s1",
+      "categories": {
+       "generalization": [
+        "and other"
+       ],
+       "modality": [
+        "may"
+       ],
+       "numeric_quantifier": [
+        "certain",
+        "any",
+        "other"
+       ]
+      },
+      "text": "Public profile information: If you are an Content Provider, we may also collect certain additional information from you to enable creation of your public profile, if any, on the Platform to help Learners and other Users know you better."
+     }
+    ]
+   },
+   "bert_profile": {
+    "paragraphs": 230,
+    "share": {
+     "First Party Collection/Use": 0.317,
+     "Third Party Sharing/Collection": 0.187,
+     "User Choice/Control": 0.091,
+     "User Access, Edit and Deletion": 0.078,
+     "Data Retention": 0.017,
+     "Data Security": 0.035,
+     "Policy Change": 0.009,
+     "Do Not Track": 0.0,
+     "International and Specific Audiences": 0.078,
+     "Other": 0.613
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,62 @@
+{
+  "eval_set_file": "app350_external_eval.jsonl",
+  "eval_set_sha256": "d509922e73191116bdc44f7e51043517b263ce7773e8357cdb3d61fbf9dd66b6",
+  "n_rows": 662,
+  "stats": {
+    "test_policies_in_split": 52,
+    "policies_with_>=1_evaluable_segment": 51,
+    "segments": {
+      "segments_total": 2430,
+      "excluded_unannotated": 1745,
+      "excluded_sso_only": 23,
+      "segments_evaluated": 662
+    },
+    "positives": {
+      "first_party": 557,
+      "third_party": 185,
+      "both": 80,
+      "first_only": 477,
+      "third_only": 105
+    },
+    "negatives_within_annotated_segments": {
+      "first_party": 105,
+      "third_party": 477
+    },
+    "positives_by_modality": {
+      "first": {
+        "PERFORMED": 536,
+        "NOT_PERFORMED": 18,
+        "NOT_PERFORMED+PERFORMED": 3
+      },
+      "third": {
+        "PERFORMED": 174,
+        "NOT_PERFORMED": 5,
+        "NOT_PERFORMED+PERFORMED": 6
+      }
+    },
+    "segments_per_policy": {
+      "min": 1,
+      "median": 8,
+      "max": 107
+    }
+  },
+  "checks": {
+    "n_test_policies": 52,
+    "test_policies_synthetic_flagged": 0,
+    "test_disjoint_from_train_val": true,
+    "rows_match_combined_test_artifact": true,
+    "n_rows_mine_vs_artifact": [
+      662,
+      662
+    ],
+    "artifact_rows_with_other_labels_set": 0,
+    "artifact_policies_subset_of_test_split": true,
+    "raw_segments_with_html_entities": 0,
+    "raw_segments_with_html_tags": 0,
+    "note_preprocessing": "APP-350 text uses the documented clean_text (tag strip + whitespace). OPP-115 training text additionally went through html.unescape; only matters if entities are present (count above).",
+    "eval_segments_exact_duplicate_of_any_opp115_segment": 1,
+    "eval_segments_exact_duplicate_of_opp115_TRAIN_segment": 1,
+    "test_policy_names_matching_an_opp115_site_name": []
+  },
+  "seed": 42
+}

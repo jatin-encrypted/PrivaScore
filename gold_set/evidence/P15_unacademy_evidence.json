@@ -1,0 +1,5050 @@
+{
+ "policy_id": "P15",
+ "policy_key": "P15_unacademy",
+ "policy_name": "unacademy",
+ "url": "https://unacademy.com/privacy",
+ "scope": "all_users",
+ "cohort": "india",
+ "fetched_at_utc": "2026-11-11T18:47:39+00:00",
+ "text_file": "policies/text/P15_unacademy.txt",
+ "text_sha256": "32a106340f0e4aaab2a661a3aab414d8e974aff8bd3f3d481af39acb6957d9bf",
+ "flag_definitions_sha256": "7c81dc82616e22f95abb8c359f50f76e890fa628b31296c19186e78518da00c7",
+ "segmenter_version": "1",
+ "n_paragraphs": 230,
+ "n_sentences": 395,
+ "sentences": {
+  "p001.s1": {
+   "start": 0,
+   "end": 19,
+   "heading": ""
+  },
+  "p002.s1": {
+   "start": 20,
+   "end": 22,
+   "heading": "A. General Privacy Terms"
+  },
+  "p002.s2": {
+   "start": 23,
+   "end": 44,
+   "heading": "A. General Privacy Terms"
+  },
+  "p003.s1": {
+   "start": 45,
+   "end": 47,
+   "heading": "B. Applicability"
+  },
+  "p003.s2": {
+   "start": 48,
+   "end": 61,
+   "heading": "B. Applicability"
+  },
+  "p004.s1": {
+   "start": 62,
+   "end": 64,
+   "heading": "C. Access"
+  },
+  "p004.s2": {
+   "start": 65,
+   "end": 71,
+   "heading": "C. Access"
+  },
+  "p005.s1": {
+   "start": 72,
+   "end": 74,
+   "heading": "D. Use of the Platform/Services by Children"
+  },
+  "p005.s2": {
+   "start": 75,
+   "end": 115,
+   "heading": "D. Use of the Platform/Services by Children"
+  },
+  "p006.s1": {
+   "start": 116,
+   "end": 118,
+   "heading": "E. Controllers"
+  },
+  "p006.s2": {
+   "start": 119,
+   "end": 130,
+   "heading": "E. Controllers"
+  },
+  "p007.s1": {
+   "start": 131,
+   "end": 133,
+   "heading": "F. Personal Information"
+  },
+  "p007.s2": {
+   "start": 134,
+   "end": 154,
+   "heading": "F. Personal Information"
+  },
+  "p008.s1": {
+   "start": 155,
+   "end": 157,
+   "heading": "G. Information We Collect"
+  },
+  "p008.s2": {
+   "start": 158,
+   "end": 180,
+   "heading": "G. Information We Collect"
+  },
+  "p009.s1": {
+   "start": 181,
+   "end": 183,
+   "heading": "H. Basis of Collection and Processing of Your Personal Information"
+  },
+  "p009.s2": {
+   "start": 184,
+   "end": 247,
+   "heading": "H. Basis of Collection and Processing of Your Personal Information"
+  },
+  "p010.s1": {
+   "start": 248,
+   "end": 250,
+   "heading": "I. How we Use and Share the Information Collected"
+  },
+  "p010.s2": {
+   "start": 251,
+   "end": 297,
+   "heading": "I. How we Use and Share the Information Collected"
+  },
+  "p011.s1": {
+   "start": 298,
+   "end": 300,
+   "heading": "J. Cross-Border Data Transfer"
+  },
+  "p011.s2": {
+   "start": 301,
+   "end": 327,
+   "heading": "J. Cross-Border Data Transfer"
+  },
+  "p012.s1": {
+   "start": 328,
+   "end": 330,
+   "heading": "K. Duration for which your Information is Stored"
+  },
+  "p012.s2": {
+   "start": 331,
+   "end": 376,
+   "heading": "K. Duration for which your Information is Stored"
+  },
+  "p013.s1": {
+   "start": 377,
+   "end": 379,
+   "heading": "L. Your Choices"
+  },
+  "p013.s2": {
+   "start": 380,
+   "end": 392,
+   "heading": "L. Your Choices"
+  },
+  "p014.s1": {
+   "start": 393,
+   "end": 395,
+   "heading": "M. Your Rights"
+  },
+  "p014.s2": {
+   "start": 396,
+   "end": 407,
+   "heading": "M. Your Rights"
+  },
+  "p015.s1": {
+   "start": 408,
+   "end": 410,
+   "heading": "N. Information Security"
+  },
+  "p015.s2": {
+   "start": 411,
+   "end": 431,
+   "heading": "N. Information Security"
+  },
+  "p016.s1": {
+   "start": 432,
+   "end": 434,
+   "heading": "O. Promotional Communications"
+  },
+  "p016.s2": {
+   "start": 435,
+   "end": 461,
+   "heading": "O. Promotional Communications"
+  },
+  "p017.s1": {
+   "start": 462,
+   "end": 464,
+   "heading": "P. Interest-Based Ads"
+  },
+  "p017.s2": {
+   "start": 465,
+   "end": 483,
+   "heading": "P. Interest-Based Ads"
+  },
+  "p018.s1": {
+   "start": 484,
+   "end": 486,
+   "heading": "Q. Modification to Privacy Policy"
+  },
+  "p018.s2": {
+   "start": 487,
+   "end": 517,
+   "heading": "Q. Modification to Privacy Policy"
+  },
+  "p019.s1": {
+   "start": 518,
+   "end": 520,
+   "heading": "R. Privacy Grievances"
+  },
+  "p019.s2": {
+   "start": 521,
+   "end": 539,
+   "heading": "R. Privacy Grievances"
+  },
+  "p020.s1": {
+   "start": 540,
+   "end": 542,
+   "heading": "S. Country Specific Additional Privacy Terms"
+  },
+  "p020.s2": {
+   "start": 543,
+   "end": 584,
+   "heading": "S. Country Specific Additional Privacy Terms"
+  },
+  "p021.s1": {
+   "start": 585,
+   "end": 587,
+   "heading": "T. CCPA NOTICE AT COLLECTION"
+  },
+  "p021.s2": {
+   "start": 588,
+   "end": 613,
+   "heading": "T. CCPA NOTICE AT COLLECTION"
+  },
+  "p022.s1": {
+   "start": 614,
+   "end": 616,
+   "heading": "U. CCPA DATA PRACTICES DURING THE LAST 12 MONTHS"
+  },
+  "p022.s2": {
+   "start": 617,
+   "end": 662,
+   "heading": "U. CCPA DATA PRACTICES DURING THE LAST 12 MONTHS"
+  },
+  "p023.s1": {
+   "start": 663,
+   "end": 665,
+   "heading": "V. CONSUMER RIGHTS AND REQUESTS UNDER THE CCPA"
+  },
+  "p023.s2": {
+   "start": 666,
+   "end": 709,
+   "heading": "V. CONSUMER RIGHTS AND REQUESTS UNDER THE CCPA"
+  },
+  "p024.s1": {
+   "start": 710,
+   "end": 712,
+   "heading": "A. General"
+  },
+  "p024.s2": {
+   "start": 713,
+   "end": 720,
+   "heading": "A. General"
+  },
+  "p025.s1": {
+   "start": 721,
+   "end": 836,
+   "heading": "A. General"
+  },
+  "p025.s2": {
+   "start": 837,
+   "end": 1262,
+   "heading": "A. General"
+  },
+  "p026.s1": {
+   "start": 1263,
+   "end": 1509,
+   "heading": "A. General"
+  },
+  "p026.s2": {
+   "start": 1510,
+   "end": 1715,
+   "heading": "A. General"
+  },
+  "p027.s1": {
+   "start": 1716,
+   "end": 1871,
+   "heading": "A. General"
+  },
+  "p027.s2": {
+   "start": 1872,
+   "end": 1961,
+   "heading": "A. General"
+  },
+  "p027.s3": {
+   "start": 1962,
+   "end": 2462,
+   "heading": "A. General"
+  },
+  "p027.s4": {
+   "start": 2463,
+   "end": 2841,
+   "heading": "A. General"
+  },
+  "p028.s1": {
+   "start": 2842,
+   "end": 3071,
+   "heading": "A. General"
+  },
+  "p029.s1": {
+   "start": 3072,
+   "end": 3167,
+   "heading": "A. General"
+  },
+  "p030.s1": {
+   "start": 3168,
+   "end": 3255,
+   "heading": "A. General"
+  },
+  "p031.s1": {
+   "start": 3256,
+   "end": 3258,
+   "heading": "B. Applicability"
+  },
+  "p031.s2": {
+   "start": 3259,
+   "end": 3272,
+   "heading": "B. Applicability"
+  },
+  "p032.s1": {
+   "start": 3273,
+   "end": 3322,
+   "heading": "B. Applicability"
+  },
+  "p033.s1": {
+   "start": 3323,
+   "end": 3596,
+   "heading": "B. Applicability"
+  },
+  "p033.s2": {
+   "start": 3597,
+   "end": 3677,
+   "heading": "B. Applicability"
+  },
+  "p033.s3": {
+   "start": 3678,
+   "end": 3857,
+   "heading": "B. Applicability"
+  },
+  "p033.s4": {
+   "start": 3858,
+   "end": 3958,
+   "heading": "B. Applicability"
+  },
+  "p034.s1": {
+   "start": 3959,
+   "end": 4263,
+   "heading": "B. Applicability"
+  },
+  "p035.s1": {
+   "start": 4264,
+   "end": 4266,
+   "heading": "C. Access"
+  },
+  "p035.s2": {
+   "start": 4267,
+   "end": 4273,
+   "heading": "C. Access"
+  },
+  "p036.s1": {
+   "start": 4274,
+   "end": 4626,
+   "heading": "C. Access"
+  },
+  "p036.s2": {
+   "start": 4627,
+   "end": 4761,
+   "heading": "C. Access"
+  },
+  "p036.s3": {
+   "start": 4762,
+   "end": 5034,
+   "heading": "C. Access"
+  },
+  "p036.s4": {
+   "start": 5035,
+   "end": 5205,
+   "heading": "C. Access"
+  },
+  "p036.s5": {
+   "start": 5206,
+   "end": 5407,
+   "heading": "C. Access"
+  },
+  "p037.s1": {
+   "start": 5408,
+   "end": 5410,
+   "heading": "D. Use of the Platform/Services by Children"
+  },
+  "p037.s2": {
+   "start": 5411,
+   "end": 5451,
+   "heading": "D. Use of the Platform/Services by Children"
+  },
+  "p038.s1": {
+   "start": 5452,
+   "end": 5597,
+   "heading": "D. Use of the Platform/Services by Children"
+  },
+  "p038.s2": {
+   "start": 5598,
+   "end": 5905,
+   "heading": "D. Use of the Platform/Services by Children"
+  },
+  "p039.s1": {
+   "start": 5906,
+   "end": 6131,
+   "heading": "D. Use of the Platform/Services by Children"
+  },
+  "p039.s2": {
+   "start": 6132,
+   "end": 6296,
+   "heading": "D. Use of the Platform/Services by Children"
+  },
+  "p039.s3": {
+   "start": 6297,
+   "end": 6477,
+   "heading": "D. Use of the Platform/Services by Children"
+  },
+  "p040.s1": {
+   "start": 6478,
+   "end": 6569,
+   "heading": "D. Use of the Platform/Services by Children"
+  },
+  "p040.s2": {
+   "start": 6570,
+   "end": 6741,
+   "heading": "D. Use of the Platform/Services by Children"
+  },
+  "p041.s1": {
+   "start": 6742,
+   "end": 6744,
+   "heading": "E. Controllers"
+  },
+  "p041.s2": {
+   "start": 6745,
+   "end": 6756,
+   "heading": "E. Controllers"
+  },
+  "p042.s1": {
+   "start": 6757,
+   "end": 6933,
+   "heading": "E. Controllers"
+  },
+  "p042.s2": {
+   "start": 6934,
+   "end": 7024,
+   "heading": "E. Controllers"
+  },
+  "p043.s1": {
+   "start": 7025,
+   "end": 7027,
+   "heading": "F. Personal Information"
+  },
+  "p043.s2": {
+   "start": 7028,
+   "end": 7048,
+   "heading": "F. Personal Information"
+  },
+  "p044.s1": {
+   "start": 7049,
+   "end": 7318,
+   "heading": "F. Personal Information"
+  },
+  "p045.s1": {
+   "start": 7319,
+   "end": 8190,
+   "heading": "F. Personal Information"
+  },
+  "p046.s1": {
+   "start": 8191,
+   "end": 8328,
+   "heading": "F. Personal Information"
+  },
+  "p047.s1": {
+   "start": 8329,
+   "end": 8435,
+   "heading": "F. Personal Information"
+  },
+  "p047.s2": {
+   "start": 8436,
+   "end": 8636,
+   "heading": "F. Personal Information"
+  },
+  "p048.s1": {
+   "start": 8637,
+   "end": 8639,
+   "heading": "G. Information We Collect"
+  },
+  "p048.s2": {
+   "start": 8640,
+   "end": 8662,
+   "heading": "G. Information We Collect"
+  },
+  "p049.s1": {
+   "start": 8663,
+   "end": 8842,
+   "heading": "G. Information We Collect"
+  },
+  "p050.s1": {
+   "start": 8843,
+   "end": 8898,
+   "heading": "G. Information We Collect"
+  },
+  "p051.s1": {
+   "start": 8899,
+   "end": 8931,
+   "heading": "G. Information We Collect"
+  },
+  "p052.s1": {
+   "start": 8932,
+   "end": 9068,
+   "heading": "G. Information We Collect"
+  },
+  "p052.s2": {
+   "start": 9069,
+   "end": 9233,
+   "heading": "G. Information We Collect"
+  },
+  "p053.s1": {
+   "start": 9234,
+   "end": 9637,
+   "heading": "G. Information We Collect"
+  },
+  "p053.s2": {
+   "start": 9638,
+   "end": 9800,
+   "heading": "G. Information We Collect"
+  },
+  "p054.s1": {
+   "start": 9801,
+   "end": 10037,
+   "heading": "G. Information We Collect"
+  },
+  "p054.s2": {
+   "start": 10038,
+   "end": 10144,
+   "heading": "G. Information We Collect"
+  },
+  "p054.s3": {
+   "start": 10145,
+   "end": 10526,
+   "heading": "G. Information We Collect"
+  },
+  "p054.s4": {
+   "start": 10527,
+   "end": 10666,
+   "heading": "G. Information We Collect"
+  },
+  "p055.s1": {
+   "start": 10667,
+   "end": 11024,
+   "heading": "G. Information We Collect"
+  },
+  "p055.s2": {
+   "start": 11025,
+   "end": 11162,
+   "heading": "G. Information We Collect"
+  },
+  "p055.s3": {
+   "start": 11163,
+   "end": 11602,
+   "heading": "G. Information We Collect"
+  },
+  "p056.s1": {
+   "start": 11603,
+   "end": 12018,
+   "heading": "G. Information We Collect"
+  },
+  "p057.s1": {
+   "start": 12019,
+   "end": 12056,
+   "heading": "G. Information We Collect"
+  },
+  "p058.s1": {
+   "start": 12057,
+   "end": 12393,
+   "heading": "G. Information We Collect"
+  },
+  "p058.s2": {
+   "start": 12394,
+   "end": 12538,
+   "heading": "G. Information We Collect"
+  },
+  "p059.s1": {
+   "start": 12539,
+   "end": 12614,
+   "heading": "G. Information We Collect"
+  },
+  "p059.s2": {
+   "start": 12615,
+   "end": 12945,
+   "heading": "G. Information We Collect"
+  },
+  "p059.s3": {
+   "start": 12946,
+   "end": 13144,
+   "heading": "G. Information We Collect"
+  },
+  "p060.s1": {
+   "start": 13145,
+   "end": 13275,
+   "heading": "G. Information We Collect"
+  },
+  "p060.s2": {
+   "start": 13276,
+   "end": 13419,
+   "heading": "G. Information We Collect"
+  },
+  "p061.s1": {
+   "start": 13420,
+   "end": 13562,
+   "heading": "G. Information We Collect"
+  },
+  "p061.s2": {
+   "start": 13563,
+   "end": 13731,
+   "heading": "G. Information We Collect"
+  },
+  "p061.s3": {
+   "start": 13732,
+   "end": 13835,
+   "heading": "G. Information We Collect"
+  },
+  "p062.s1": {
+   "start": 13836,
+   "end": 13878,
+   "heading": "G. Information We Collect"
+  },
+  "p063.s1": {
+   "start": 13879,
+   "end": 14119,
+   "heading": "G. Information We Collect"
+  },
+  "p063.s2": {
+   "start": 14120,
+   "end": 14297,
+   "heading": "G. Information We Collect"
+  },
+  "p064.s1": {
+   "start": 14298,
+   "end": 14300,
+   "heading": "H. Basis of Collection and Processing of Your Personal Information"
+  },
+  "p064.s2": {
+   "start": 14301,
+   "end": 14364,
+   "heading": "H. Basis of Collection and Processing of Your Personal Information"
+  },
+  "p065.s1": {
+   "start": 14365,
+   "end": 14386,
+   "heading": "H. Basis of Collection and Processing of Your Personal Information"
+  },
+  "p066.s1": {
+   "start": 14387,
+   "end": 14569,
+   "heading": "H. Basis of Collection and Processing of Your Personal Information"
+  },
+  "p067.s1": {
+   "start": 14570,
+   "end": 14662,
+   "heading": "H. Basis of Collection and Processing of Your Personal Information"
+  },
+  "p067.s2": {
+   "start": 14663,
+   "end": 14951,
+   "heading": "H. Basis of Collection and Processing of Your Personal Information"
+  },
+  "p068.s1": {
+   "start": 14952,
+   "end": 15120,
+   "heading": "H. Basis of Collection and Processing of Your Personal Information"
+  },
+  "p069.s1": {
+   "start": 15121,
+   "end": 15161,
+   "heading": "H. Basis of Collection and Processing of Your Personal Information"
+  },
+  "p070.s1": {
+   "start": 15162,
+   "end": 15320,
+   "heading": "H. Basis of Collection and Processing of Your Personal Information"
+  },
+  "p071.s1": {
+   "start": 15321,
+   "end": 15476,
+   "heading": "H. Basis of Collection and Processing of Your Personal Information"
+  },
+  "p072.s1": {
+   "start": 15477,
+   "end": 15569,
+   "heading": "H. Basis of Collection and Processing of Your Personal Information"
+  },
+  "p073.s1": {
+   "start": 15570,
+   "end": 15798,
+   "heading": "H. Basis of Collection and Processing of Your Personal Information"
+  },
+  "p074.s1": {
+   "start": 15799,
+   "end": 15928,
+   "heading": "H. Basis of Collection and Processing of Your Personal Information"
+  },
+  "p075.s1": {
+   "start": 15929,
+   "end": 15985,
+   "heading": "H. Basis of Collection and Processing of Your Personal Information"
+  },
+  "p076.s1": {
+   "start": 15986,
+   "end": 16036,
+   "heading": "Because it is necessary in the public interest; or"
+  },
+  "p077.s1": {
+   "start": 16037,
+   "end": 16146,
+   "heading": "Because it is necessary in the public interest; or"
+  },
+  "p078.s1": {
+   "start": 16147,
+   "end": 16292,
+   "heading": "Because it is necessary in the public interest; or"
+  },
+  "p079.s1": {
+   "start": 16293,
+   "end": 16465,
+   "heading": "Because it is necessary in the public interest; or"
+  },
+  "p079.s2": {
+   "start": 16466,
+   "end": 16691,
+   "heading": "Because it is necessary in the public interest; or"
+  },
+  "p079.s3": {
+   "start": 16692,
+   "end": 16823,
+   "heading": "Because it is necessary in the public interest; or"
+  },
+  "p079.s4": {
+   "start": 16824,
+   "end": 16937,
+   "heading": "Because it is necessary in the public interest; or"
+  },
+  "p079.s5": {
+   "start": 16938,
+   "end": 17017,
+   "heading": "Because it is necessary in the public interest; or"
+  },
+  "p080.s1": {
+   "start": 17018,
+   "end": 17020,
+   "heading": "I. How we Use and Share the Information Collected"
+  },
+  "p080.s2": {
+   "start": 17021,
+   "end": 17067,
+   "heading": "I. How we Use and Share the Information Collected"
+  },
+  "p081.s1": {
+   "start": 17068,
+   "end": 17124,
+   "heading": "I. How we Use and Share the Information Collected"
+  },
+  "p082.s1": {
+   "start": 17125,
+   "end": 17476,
+   "heading": "I. How we Use and Share the Information Collected"
+  },
+  "p082.s2": {
+   "start": 17477,
+   "end": 17673,
+   "heading": "I. How we Use and Share the Information Collected"
+  },
+  "p083.s1": {
+   "start": 17674,
+   "end": 17944,
+   "heading": "I. How we Use and Share the Information Collected"
+  },
+  "p083.s2": {
+   "start": 17945,
+   "end": 18253,
+   "heading": "I. How we Use and Share the Information Collected"
+  },
+  "p083.s3": {
+   "start": 18254,
+   "end": 18450,
+   "heading": "I. How we Use and Share the Information Collected"
+  },
+  "p084.s1": {
+   "start": 18451,
+   "end": 18694,
+   "heading": "I. How we Use and Share the Information Collected"
+  },
+  "p084.s2": {
+   "start": 18695,
+   "end": 18891,
+   "heading": "I. How we Use and Share the Information Collected"
+  },
+  "p085.s1": {
+   "start": 18892,
+   "end": 19133,
+   "heading": "I. How we Use and Share the Information Collected"
+  },
+  "p085.s2": {
+   "start": 19134,
+   "end": 19300,
+   "heading": "I. How we Use and Share the Information Collected"
+  },
+  "p086.s1": {
+   "start": 19301,
+   "end": 19465,
+   "heading": "I. How we Use and Share the Information Collected"
+  },
+  "p086.s2": {
+   "start": 19466,
+   "end": 19582,
+   "heading": "I. How we Use and Share the Information Collected"
+  },
+  "p087.s1": {
+   "start": 19583,
+   "end": 19668,
+   "heading": "I. How we Use and Share the Information Collected"
+  },
+  "p088.s1": {
+   "start": 19669,
+   "end": 19844,
+   "heading": "I. How we Use and Share the Information Collected"
+  },
+  "p089.s1": {
+   "start": 19845,
+   "end": 19949,
+   "heading": "I. How we Use and Share the Information Collected"
+  },
+  "p089.s2": {
+   "start": 19950,
+   "end": 20074,
+   "heading": "I. How we Use and Share the Information Collected"
+  },
+  "p089.s3": {
+   "start": 20075,
+   "end": 20219,
+   "heading": "I. How we Use and Share the Information Collected"
+  },
+  "p089.s4": {
+   "start": 20220,
+   "end": 20482,
+   "heading": "I. How we Use and Share the Information Collected"
+  },
+  "p090.s1": {
+   "start": 20483,
+   "end": 20827,
+   "heading": "I. How we Use and Share the Information Collected"
+  },
+  "p090.s2": {
+   "start": 20828,
+   "end": 21008,
+   "heading": "I. How we Use and Share the Information Collected"
+  },
+  "p090.s3": {
+   "start": 21009,
+   "end": 21624,
+   "heading": "I. How we Use and Share the Information Collected"
+  },
+  "p091.s1": {
+   "start": 21625,
+   "end": 22051,
+   "heading": "I. How we Use and Share the Information Collected"
+  },
+  "p091.s2": {
+   "start": 22052,
+   "end": 22295,
+   "heading": "I. How we Use and Share the Information Collected"
+  },
+  "p091.s3": {
+   "start": 22296,
+   "end": 22509,
+   "heading": "I. How we Use and Share the Information Collected"
+  },
+  "p092.s1": {
+   "start": 22510,
+   "end": 22793,
+   "heading": "I. How we Use and Share the Information Collected"
+  },
+  "p092.s2": {
+   "start": 22794,
+   "end": 22954,
+   "heading": "I. How we Use and Share the Information Collected"
+  },
+  "p092.s3": {
+   "start": 22955,
+   "end": 23248,
+   "heading": "I. How we Use and Share the Information Collected"
+  },
+  "p093.s1": {
+   "start": 23249,
+   "end": 23366,
+   "heading": "I. How we Use and Share the Information Collected"
+  },
+  "p093.s2": {
+   "start": 23367,
+   "end": 23522,
+   "heading": "I. How we Use and Share the Information Collected"
+  },
+  "p094.s1": {
+   "start": 23523,
+   "end": 23629,
+   "heading": "I. How we Use and Share the Information Collected"
+  },
+  "p095.s1": {
+   "start": 23630,
+   "end": 23768,
+   "heading": "I. How we Use and Share the Information Collected"
+  },
+  "p096.s1": {
+   "start": 23769,
+   "end": 23971,
+   "heading": "I. How we Use and Share the Information Collected"
+  },
+  "p097.s1": {
+   "start": 23972,
+   "end": 24110,
+   "heading": "I. How we Use and Share the Information Collected"
+  },
+  "p098.s1": {
+   "start": 24111,
+   "end": 24440,
+   "heading": "I. How we Use and Share the Information Collected"
+  },
+  "p098.s2": {
+   "start": 24441,
+   "end": 24668,
+   "heading": "I. How we Use and Share the Information Collected"
+  },
+  "p099.s1": {
+   "start": 24669,
+   "end": 24853,
+   "heading": "I. How we Use and Share the Information Collected"
+  },
+  "p100.s1": {
+   "start": 24854,
+   "end": 24949,
+   "heading": "I. How we Use and Share the Information Collected"
+  },
+  "p101.s1": {
+   "start": 24950,
+   "end": 25121,
+   "heading": "I. How we Use and Share the Information Collected"
+  },
+  "p102.s1": {
+   "start": 25122,
+   "end": 25124,
+   "heading": "J. Cross-Border Data Transfer"
+  },
+  "p102.s2": {
+   "start": 25125,
+   "end": 25151,
+   "heading": "J. Cross-Border Data Transfer"
+  },
+  "p103.s1": {
+   "start": 25152,
+   "end": 25343,
+   "heading": "J. Cross-Border Data Transfer"
+  },
+  "p103.s2": {
+   "start": 25344,
+   "end": 25507,
+   "heading": "J. Cross-Border Data Transfer"
+  },
+  "p104.s1": {
+   "start": 25508,
+   "end": 25900,
+   "heading": "J. Cross-Border Data Transfer"
+  },
+  "p105.s1": {
+   "start": 25901,
+   "end": 26055,
+   "heading": "J. Cross-Border Data Transfer"
+  },
+  "p105.s2": {
+   "start": 26056,
+   "end": 26224,
+   "heading": "J. Cross-Border Data Transfer"
+  },
+  "p105.s3": {
+   "start": 26225,
+   "end": 26578,
+   "heading": "J. Cross-Border Data Transfer"
+  },
+  "p106.s1": {
+   "start": 26579,
+   "end": 26862,
+   "heading": "J. Cross-Border Data Transfer"
+  },
+  "p107.s1": {
+   "start": 26863,
+   "end": 26865,
+   "heading": "K. Duration for which your Information is Stored"
+  },
+  "p107.s2": {
+   "start": 26866,
+   "end": 26911,
+   "heading": "K. Duration for which your Information is Stored"
+  },
+  "p108.s1": {
+   "start": 26912,
+   "end": 27071,
+   "heading": "K. Duration for which your Information is Stored"
+  },
+  "p108.s2": {
+   "start": 27072,
+   "end": 27300,
+   "heading": "K. Duration for which your Information is Stored"
+  },
+  "p109.s1": {
+   "start": 27301,
+   "end": 27697,
+   "heading": "K. Duration for which your Information is Stored"
+  },
+  "p109.s2": {
+   "start": 27698,
+   "end": 27814,
+   "heading": "K. Duration for which your Information is Stored"
+  },
+  "p110.s1": {
+   "start": 27815,
+   "end": 28049,
+   "heading": "K. Duration for which your Information is Stored"
+  },
+  "p110.s2": {
+   "start": 28050,
+   "end": 28131,
+   "heading": "K. Duration for which your Information is Stored"
+  },
+  "p111.s1": {
+   "start": 28132,
+   "end": 28134,
+   "heading": "L. Your Choices"
+  },
+  "p111.s2": {
+   "start": 28135,
+   "end": 28147,
+   "heading": "L. Your Choices"
+  },
+  "p112.s1": {
+   "start": 28148,
+   "end": 28312,
+   "heading": "L. Your Choices"
+  },
+  "p112.s2": {
+   "start": 28313,
+   "end": 28455,
+   "heading": "L. Your Choices"
+  },
+  "p113.s1": {
+   "start": 28456,
+   "end": 28683,
+   "heading": "L. Your Choices"
+  },
+  "p113.s2": {
+   "start": 28684,
+   "end": 28860,
+   "heading": "L. Your Choices"
+  },
+  "p114.s1": {
+   "start": 28861,
+   "end": 29086,
+   "heading": "L. Your Choices"
+  },
+  "p114.s2": {
+   "start": 29087,
+   "end": 29244,
+   "heading": "L. Your Choices"
+  },
+  "p115.s1": {
+   "start": 29245,
+   "end": 29247,
+   "heading": "M. Your Rights"
+  },
+  "p115.s2": {
+   "start": 29248,
+   "end": 29259,
+   "heading": "M. Your Rights"
+  },
+  "p116.s1": {
+   "start": 29260,
+   "end": 29328,
+   "heading": "M. Your Rights"
+  },
+  "p116.s2": {
+   "start": 29329,
+   "end": 29508,
+   "heading": "M. Your Rights"
+  },
+  "p116.s3": {
+   "start": 29509,
+   "end": 29596,
+   "heading": "M. Your Rights"
+  },
+  "p117.s1": {
+   "start": 29597,
+   "end": 29726,
+   "heading": "M. Your Rights"
+  },
+  "p117.s2": {
+   "start": 29727,
+   "end": 29958,
+   "heading": "M. Your Rights"
+  },
+  "p118.s1": {
+   "start": 29959,
+   "end": 30128,
+   "heading": "M. Your Rights"
+  },
+  "p119.s1": {
+   "start": 30129,
+   "end": 30261,
+   "heading": "M. Your Rights"
+  },
+  "p119.s2": {
+   "start": 30262,
+   "end": 30376,
+   "heading": "M. Your Rights"
+  },
+  "p120.s1": {
+   "start": 30377,
+   "end": 30525,
+   "heading": "M. Your Rights"
+  },
+  "p121.s1": {
+   "start": 30526,
+   "end": 30705,
+   "heading": "M. Your Rights"
+  },
+  "p121.s2": {
+   "start": 30706,
+   "end": 30961,
+   "heading": "M. Your Rights"
+  },
+  "p122.s1": {
+   "start": 30962,
+   "end": 31128,
+   "heading": "M. Your Rights"
+  },
+  "p122.s2": {
+   "start": 31129,
+   "end": 31447,
+   "heading": "M. Your Rights"
+  },
+  "p123.s1": {
+   "start": 31448,
+   "end": 31450,
+   "heading": "N. Information Security"
+  },
+  "p123.s2": {
+   "start": 31451,
+   "end": 31471,
+   "heading": "N. Information Security"
+  },
+  "p124.s1": {
+   "start": 31472,
+   "end": 31796,
+   "heading": "N. Information Security"
+  },
+  "p125.s1": {
+   "start": 31797,
+   "end": 31973,
+   "heading": "N. Information Security"
+  },
+  "p125.s2": {
+   "start": 31974,
+   "end": 32121,
+   "heading": "N. Information Security"
+  },
+  "p126.s1": {
+   "start": 32122,
+   "end": 32411,
+   "heading": "N. Information Security"
+  },
+  "p127.s1": {
+   "start": 32412,
+   "end": 32836,
+   "heading": "N. Information Security"
+  },
+  "p127.s2": {
+   "start": 32837,
+   "end": 32897,
+   "heading": "N. Information Security"
+  },
+  "p128.s1": {
+   "start": 32898,
+   "end": 33065,
+   "heading": "N. Information Security"
+  },
+  "p129.s1": {
+   "start": 33066,
+   "end": 33255,
+   "heading": "N. Information Security"
+  },
+  "p130.s1": {
+   "start": 33256,
+   "end": 33258,
+   "heading": "O. Promotional Communications"
+  },
+  "p130.s2": {
+   "start": 33259,
+   "end": 33285,
+   "heading": "O. Promotional Communications"
+  },
+  "p131.s1": {
+   "start": 33286,
+   "end": 33558,
+   "heading": "O. Promotional Communications"
+  },
+  "p132.s1": {
+   "start": 33559,
+   "end": 33830,
+   "heading": "O. Promotional Communications"
+  },
+  "p132.s2": {
+   "start": 33831,
+   "end": 34083,
+   "heading": "O. Promotional Communications"
+  },
+  "p133.s1": {
+   "start": 34084,
+   "end": 34228,
+   "heading": "O. Promotional Communications"
+  },
+  "p133.s2": {
+   "start": 34229,
+   "end": 34290,
+   "heading": "O. Promotional Communications"
+  },
+  "p133.s3": {
+   "start": 34291,
+   "end": 34389,
+   "heading": "O. Promotional Communications"
+  },
+  "p133.s4": {
+   "start": 34390,
+   "end": 34611,
+   "heading": "O. Promotional Communications"
+  },
+  "p133.s5": {
+   "start": 34612,
+   "end": 34692,
+   "heading": "O. Promotional Communications"
+  },
+  "p134.s1": {
+   "start": 34693,
+   "end": 34800,
+   "heading": "O. Promotional Communications"
+  },
+  "p134.s2": {
+   "start": 34801,
+   "end": 35026,
+   "heading": "O. Promotional Communications"
+  },
+  "p135.s1": {
+   "start": 35027,
+   "end": 35183,
+   "heading": "O. Promotional Communications"
+  },
+  "p136.s1": {
+   "start": 35184,
+   "end": 35186,
+   "heading": "P. Interest-Based Ads"
+  },
+  "p136.s2": {
+   "start": 35187,
+   "end": 35205,
+   "heading": "P. Interest-Based Ads"
+  },
+  "p137.s1": {
+   "start": 35206,
+   "end": 35370,
+   "heading": "P. Interest-Based Ads"
+  },
+  "p137.s2": {
+   "start": 35371,
+   "end": 35601,
+   "heading": "P. Interest-Based Ads"
+  },
+  "p137.s3": {
+   "start": 35602,
+   "end": 36067,
+   "heading": "P. Interest-Based Ads"
+  },
+  "p138.s1": {
+   "start": 36068,
+   "end": 36186,
+   "heading": "P. Interest-Based Ads"
+  },
+  "p138.s2": {
+   "start": 36187,
+   "end": 36470,
+   "heading": "P. Interest-Based Ads"
+  },
+  "p138.s3": {
+   "start": 36471,
+   "end": 36710,
+   "heading": "P. Interest-Based Ads"
+  },
+  "p139.s1": {
+   "start": 36711,
+   "end": 36855,
+   "heading": "P. Interest-Based Ads"
+  },
+  "p139.s2": {
+   "start": 36856,
+   "end": 36917,
+   "heading": "P. Interest-Based Ads"
+  },
+  "p139.s3": {
+   "start": 36918,
+   "end": 37016,
+   "heading": "P. Interest-Based Ads"
+  },
+  "p139.s4": {
+   "start": 37017,
+   "end": 37238,
+   "heading": "P. Interest-Based Ads"
+  },
+  "p139.s5": {
+   "start": 37239,
+   "end": 37319,
+   "heading": "P. Interest-Based Ads"
+  },
+  "p140.s1": {
+   "start": 37320,
+   "end": 37322,
+   "heading": "Q. Modification to Privacy Policy"
+  },
+  "p140.s2": {
+   "start": 37323,
+   "end": 37353,
+   "heading": "Q. Modification to Privacy Policy"
+  },
+  "p141.s1": {
+   "start": 37354,
+   "end": 37430,
+   "heading": "Q. Modification to Privacy Policy"
+  },
+  "p141.s2": {
+   "start": 37431,
+   "end": 37690,
+   "heading": "Q. Modification to Privacy Policy"
+  },
+  "p141.s3": {
+   "start": 37691,
+   "end": 37802,
+   "heading": "Q. Modification to Privacy Policy"
+  },
+  "p141.s4": {
+   "start": 37803,
+   "end": 38003,
+   "heading": "Q. Modification to Privacy Policy"
+  },
+  "p142.s1": {
+   "start": 38004,
+   "end": 38006,
+   "heading": "R. Privacy Grievances"
+  },
+  "p142.s2": {
+   "start": 38007,
+   "end": 38025,
+   "heading": "R. Privacy Grievances"
+  },
+  "p143.s1": {
+   "start": 38026,
+   "end": 38428,
+   "heading": "R. Privacy Grievances"
+  },
+  "p144.s1": {
+   "start": 38429,
+   "end": 38461,
+   "heading": "Sorting Hat Technologies Pvt Ltd"
+  },
+  "p145.s1": {
+   "start": 38462,
+   "end": 38496,
+   "heading": "Sorting Hat Technologies Pvt Ltd"
+  },
+  "p146.s1": {
+   "start": 38497,
+   "end": 38542,
+   "heading": "Sorting Hat Technologies Pvt Ltd"
+  },
+  "p147.s1": {
+   "start": 38543,
+   "end": 38580,
+   "heading": "Sorting Hat Technologies Pvt Ltd"
+  },
+  "p148.s1": {
+   "start": 38581,
+   "end": 38583,
+   "heading": "S. Country Specific Additional Privacy Terms"
+  },
+  "p148.s2": {
+   "start": 38584,
+   "end": 38625,
+   "heading": "S. Country Specific Additional Privacy Terms"
+  },
+  "p149.s1": {
+   "start": 38626,
+   "end": 38672,
+   "heading": "TERMS APPLICABLE IF YOU ARE AN INDIAN RESIDENT"
+  },
+  "p150.s1": {
+   "start": 38673,
+   "end": 38826,
+   "heading": "TERMS APPLICABLE IF YOU ARE AN INDIAN RESIDENT"
+  },
+  "p150.s2": {
+   "start": 38827,
+   "end": 38924,
+   "heading": "TERMS APPLICABLE IF YOU ARE AN INDIAN RESIDENT"
+  },
+  "p150.s3": {
+   "start": 38925,
+   "end": 39058,
+   "heading": "TERMS APPLICABLE IF YOU ARE AN INDIAN RESIDENT"
+  },
+  "p151.s1": {
+   "start": 39059,
+   "end": 39228,
+   "heading": "TERMS APPLICABLE IF YOU ARE AN INDIAN RESIDENT"
+  },
+  "p152.s1": {
+   "start": 39229,
+   "end": 39361,
+   "heading": "TERMS APPLICABLE IF YOU ARE AN INDIAN RESIDENT"
+  },
+  "p152.s2": {
+   "start": 39362,
+   "end": 39476,
+   "heading": "TERMS APPLICABLE IF YOU ARE AN INDIAN RESIDENT"
+  },
+  "p153.s1": {
+   "start": 39477,
+   "end": 39648,
+   "heading": "TERMS APPLICABLE IF YOU ARE AN INDIAN RESIDENT"
+  },
+  "p154.s1": {
+   "start": 39649,
+   "end": 39797,
+   "heading": "TERMS APPLICABLE IF YOU ARE AN INDIAN RESIDENT"
+  },
+  "p155.s1": {
+   "start": 39798,
+   "end": 39976,
+   "heading": "TERMS APPLICABLE IF YOU ARE AN INDIAN RESIDENT"
+  },
+  "p155.s2": {
+   "start": 39977,
+   "end": 40232,
+   "heading": "TERMS APPLICABLE IF YOU ARE AN INDIAN RESIDENT"
+  },
+  "p156.s1": {
+   "start": 40233,
+   "end": 40357,
+   "heading": "TERMS APPLICABLE IF YOU ARE AN INDIAN RESIDENT"
+  },
+  "p157.s1": {
+   "start": 40358,
+   "end": 40578,
+   "heading": "TERMS APPLICABLE IF YOU ARE AN INDIAN RESIDENT"
+  },
+  "p157.s2": {
+   "start": 40579,
+   "end": 40732,
+   "heading": "TERMS APPLICABLE IF YOU ARE AN INDIAN RESIDENT"
+  },
+  "p158.s1": {
+   "start": 40733,
+   "end": 40973,
+   "heading": "TERMS APPLICABLE IF YOU ARE AN INDIAN RESIDENT"
+  },
+  "p159.s1": {
+   "start": 40974,
+   "end": 41075,
+   "heading": "TERMS APPLICABLE IF YOU ARE AN INDIAN RESIDENT"
+  },
+  "p159.s2": {
+   "start": 41076,
+   "end": 41154,
+   "heading": "TERMS APPLICABLE IF YOU ARE AN INDIAN RESIDENT"
+  },
+  "p160.s1": {
+   "start": 41155,
+   "end": 41262,
+   "heading": "TERMS APPLICABLE IF YOU ARE AN INDIAN RESIDENT"
+  },
+  "p161.s1": {
+   "start": 41263,
+   "end": 41395,
+   "heading": "TERMS APPLICABLE IF YOU ARE AN INDIAN RESIDENT"
+  },
+  "p162.s1": {
+   "start": 41396,
+   "end": 41543,
+   "heading": "TERMS APPLICABLE IF YOU ARE AN INDIAN RESIDENT"
+  },
+  "p163.s1": {
+   "start": 41544,
+   "end": 41720,
+   "heading": "TERMS APPLICABLE IF YOU ARE AN INDIAN RESIDENT"
+  },
+  "p164.s1": {
+   "start": 41721,
+   "end": 41958,
+   "heading": "TERMS APPLICABLE IF YOU ARE AN INDIAN RESIDENT"
+  },
+  "p164.s2": {
+   "start": 41959,
+   "end": 42082,
+   "heading": "TERMS APPLICABLE IF YOU ARE AN INDIAN RESIDENT"
+  },
+  "p164.s3": {
+   "start": 42083,
+   "end": 42184,
+   "heading": "TERMS APPLICABLE IF YOU ARE AN INDIAN RESIDENT"
+  },
+  "p164.s4": {
+   "start": 42185,
+   "end": 42371,
+   "heading": "TERMS APPLICABLE IF YOU ARE AN INDIAN RESIDENT"
+  },
+  "p164.s5": {
+   "start": 42372,
+   "end": 42493,
+   "heading": "TERMS APPLICABLE IF YOU ARE AN INDIAN RESIDENT"
+  },
+  "p165.s1": {
+   "start": 42494,
+   "end": 42748,
+   "heading": "TERMS APPLICABLE IF YOU ARE AN INDIAN RESIDENT"
+  },
+  "p166.s1": {
+   "start": 42749,
+   "end": 42849,
+   "heading": "TERMS APPLICABLE IF YOU ARE AN INDIAN RESIDENT"
+  },
+  "p166.s2": {
+   "start": 42850,
+   "end": 43040,
+   "heading": "TERMS APPLICABLE IF YOU ARE AN INDIAN RESIDENT"
+  },
+  "p167.s1": {
+   "start": 43041,
+   "end": 43096,
+   "heading": "TERMS APPLICABLE IF YOU ARE A CALIFORNIA STATE RESIDENT"
+  },
+  "p168.s1": {
+   "start": 43097,
+   "end": 43226,
+   "heading": "TERMS APPLICABLE IF YOU ARE A CALIFORNIA STATE RESIDENT"
+  },
+  "p169.s1": {
+   "start": 43227,
+   "end": 43292,
+   "heading": "TERMS APPLICABLE IF YOU ARE A CALIFORNIA STATE RESIDENT"
+  },
+  "p170.s1": {
+   "start": 43293,
+   "end": 43402,
+   "heading": "TERMS APPLICABLE IF YOU ARE A CALIFORNIA STATE RESIDENT"
+  },
+  "p171.s1": {
+   "start": 43403,
+   "end": 43484,
+   "heading": "TERMS APPLICABLE IF YOU ARE A CALIFORNIA STATE RESIDENT"
+  },
+  "p172.s1": {
+   "start": 43485,
+   "end": 43540,
+   "heading": "The right to equal services without discrimination; and"
+  },
+  "p173.s1": {
+   "start": 43541,
+   "end": 43595,
+   "heading": "The right to equal services without discrimination; and"
+  },
+  "p174.s1": {
+   "start": 43596,
+   "end": 43752,
+   "heading": "The right to equal services without discrimination; and"
+  },
+  "p175.s1": {
+   "start": 43753,
+   "end": 43755,
+   "heading": "T. CCPA NOTICE AT COLLECTION"
+  },
+  "p175.s2": {
+   "start": 43756,
+   "end": 43781,
+   "heading": "T. CCPA NOTICE AT COLLECTION"
+  },
+  "p176.s1": {
+   "start": 43782,
+   "end": 43927,
+   "heading": "T. CCPA NOTICE AT COLLECTION"
+  },
+  "p177.s1": {
+   "start": 43928,
+   "end": 44069,
+   "heading": "T. CCPA NOTICE AT COLLECTION"
+  },
+  "p177.s2": {
+   "start": 44070,
+   "end": 44253,
+   "heading": "T. CCPA NOTICE AT COLLECTION"
+  },
+  "p178.s1": {
+   "start": 44254,
+   "end": 44437,
+   "heading": "T. CCPA NOTICE AT COLLECTION"
+  },
+  "p178.s2": {
+   "start": 44438,
+   "end": 44625,
+   "heading": "T. CCPA NOTICE AT COLLECTION"
+  },
+  "p179.s1": {
+   "start": 44626,
+   "end": 45031,
+   "heading": "T. CCPA NOTICE AT COLLECTION"
+  },
+  "p179.s2": {
+   "start": 45032,
+   "end": 45189,
+   "heading": "T. CCPA NOTICE AT COLLECTION"
+  },
+  "p180.s1": {
+   "start": 45190,
+   "end": 45238,
+   "heading": "T. CCPA NOTICE AT COLLECTION"
+  },
+  "p180.s2": {
+   "start": 45239,
+   "end": 45355,
+   "heading": "T. CCPA NOTICE AT COLLECTION"
+  },
+  "p180.s3": {
+   "start": 45356,
+   "end": 45405,
+   "heading": "T. CCPA NOTICE AT COLLECTION"
+  },
+  "p181.s1": {
+   "start": 45406,
+   "end": 45565,
+   "heading": "T. CCPA NOTICE AT COLLECTION"
+  },
+  "p181.s2": {
+   "start": 45566,
+   "end": 45714,
+   "heading": "T. CCPA NOTICE AT COLLECTION"
+  },
+  "p182.s1": {
+   "start": 45715,
+   "end": 45842,
+   "heading": "T. CCPA NOTICE AT COLLECTION"
+  },
+  "p182.s2": {
+   "start": 45843,
+   "end": 45964,
+   "heading": "T. CCPA NOTICE AT COLLECTION"
+  },
+  "p183.s1": {
+   "start": 45965,
+   "end": 45967,
+   "heading": "U. CCPA DATA PRACTICES DURING THE LAST 12 MONTHS"
+  },
+  "p183.s2": {
+   "start": 45968,
+   "end": 46013,
+   "heading": "U. CCPA DATA PRACTICES DURING THE LAST 12 MONTHS"
+  },
+  "p184.s1": {
+   "start": 46014,
+   "end": 46176,
+   "heading": "U. CCPA DATA PRACTICES DURING THE LAST 12 MONTHS"
+  },
+  "p185.s1": {
+   "start": 46177,
+   "end": 46188,
+   "heading": "Identifiers"
+  },
+  "p186.s1": {
+   "start": 46189,
+   "end": 46281,
+   "heading": "Characteristics of Personal Information described in the California Customer Records statute"
+  },
+  "p187.s1": {
+   "start": 46282,
+   "end": 46339,
+   "heading": "Internet or other electronic network activity information"
+  },
+  "p188.s1": {
+   "start": 46340,
+   "end": 46356,
+   "heading": "Geolocation data"
+  },
+  "p189.s1": {
+   "start": 46357,
+   "end": 46379,
+   "heading": "Commercial information"
+  },
+  "p190.s1": {
+   "start": 46380,
+   "end": 46449,
+   "heading": "Audio, electronic, visual, thermal, olfactory, or similar information"
+  },
+  "p191.s1": {
+   "start": 46450,
+   "end": 46460,
+   "heading": "Inferences"
+  },
+  "p192.s1": {
+   "start": 46461,
+   "end": 46589,
+   "heading": "Inferences"
+  },
+  "p193.s1": {
+   "start": 46590,
+   "end": 46735,
+   "heading": "Inferences"
+  },
+  "p194.s1": {
+   "start": 46736,
+   "end": 46757,
+   "heading": "Inferences"
+  },
+  "p195.s1": {
+   "start": 46758,
+   "end": 46786,
+   "heading": "Inferences"
+  },
+  "p196.s1": {
+   "start": 46787,
+   "end": 46832,
+   "heading": "Inferences"
+  },
+  "p197.s1": {
+   "start": 46833,
+   "end": 46894,
+   "heading": "Inferences"
+  },
+  "p198.s1": {
+   "start": 46895,
+   "end": 46929,
+   "heading": "Inferences"
+  },
+  "p199.s1": {
+   "start": 46930,
+   "end": 46951,
+   "heading": "Inferences"
+  },
+  "p200.s1": {
+   "start": 46952,
+   "end": 46997,
+   "heading": "Inferences"
+  },
+  "p201.s1": {
+   "start": 46998,
+   "end": 47022,
+   "heading": "Inferences"
+  },
+  "p202.s1": {
+   "start": 47023,
+   "end": 47052,
+   "heading": "Inferences"
+  },
+  "p203.s1": {
+   "start": 47053,
+   "end": 47133,
+   "heading": "Inferences"
+  },
+  "p204.s1": {
+   "start": 47134,
+   "end": 47159,
+   "heading": "Inferences"
+  },
+  "p205.s1": {
+   "start": 47160,
+   "end": 47270,
+   "heading": "Inferences"
+  },
+  "p206.s1": {
+   "start": 47271,
+   "end": 47450,
+   "heading": "Inferences"
+  },
+  "p207.s1": {
+   "start": 47451,
+   "end": 47462,
+   "heading": "Identifiers"
+  },
+  "p208.s1": {
+   "start": 47463,
+   "end": 47555,
+   "heading": "Characteristics of Personal Information described in the California Customer Records statute"
+  },
+  "p209.s1": {
+   "start": 47556,
+   "end": 47613,
+   "heading": "Internet or other electronic network activity information"
+  },
+  "p210.s1": {
+   "start": 47614,
+   "end": 47630,
+   "heading": "Geolocation data"
+  },
+  "p211.s1": {
+   "start": 47631,
+   "end": 47653,
+   "heading": "Commercial information"
+  },
+  "p212.s1": {
+   "start": 47654,
+   "end": 47723,
+   "heading": "Audio, electronic, visual, thermal, olfactory, or similar information"
+  },
+  "p213.s1": {
+   "start": 47724,
+   "end": 47734,
+   "heading": "Inferences"
+  },
+  "p214.s1": {
+   "start": 47735,
+   "end": 48099,
+   "heading": "Inferences"
+  },
+  "p215.s1": {
+   "start": 48100,
+   "end": 48102,
+   "heading": "V. CONSUMER RIGHTS AND REQUESTS UNDER THE CCPA"
+  },
+  "p215.s2": {
+   "start": 48103,
+   "end": 48146,
+   "heading": "V. CONSUMER RIGHTS AND REQUESTS UNDER THE CCPA"
+  },
+  "p216.s1": {
+   "start": 48147,
+   "end": 48458,
+   "heading": "V. CONSUMER RIGHTS AND REQUESTS UNDER THE CCPA"
+  },
+  "p217.s1": {
+   "start": 48459,
+   "end": 48880,
+   "heading": "V. CONSUMER RIGHTS AND REQUESTS UNDER THE CCPA"
+  },
+  "p218.s1": {
+   "start": 48881,
+   "end": 49715,
+   "heading": "V. CONSUMER RIGHTS AND REQUESTS UNDER THE CCPA"
+  },
+  "p218.s2": {
+   "start": 49716,
+   "end": 49806,
+   "heading": "V. CONSUMER RIGHTS AND REQUESTS UNDER THE CCPA"
+  },
+  "p219.s1": {
+   "start": 49807,
+   "end": 49963,
+   "heading": "V. CONSUMER RIGHTS AND REQUESTS UNDER THE CCPA"
+  },
+  "p219.s2": {
+   "start": 49964,
+   "end": 50165,
+   "heading": "V. CONSUMER RIGHTS AND REQUESTS UNDER THE CCPA"
+  },
+  "p219.s3": {
+   "start": 50166,
+   "end": 50261,
+   "heading": "V. CONSUMER RIGHTS AND REQUESTS UNDER THE CCPA"
+  },
+  "p220.s1": {
+   "start": 50262,
+   "end": 50283,
+   "heading": "V. CONSUMER RIGHTS AND REQUESTS UNDER THE CCPA"
+  },
+  "p221.s1": {
+   "start": 50284,
+   "end": 50515,
+   "heading": "V. CONSUMER RIGHTS AND REQUESTS UNDER THE CCPA"
+  },
+  "p221.s2": {
+   "start": 50516,
+   "end": 50739,
+   "heading": "V. CONSUMER RIGHTS AND REQUESTS UNDER THE CCPA"
+  },
+  "p222.s1": {
+   "start": 50740,
+   "end": 50860,
+   "heading": "V. CONSUMER RIGHTS AND REQUESTS UNDER THE CCPA"
+  },
+  "p222.s2": {
+   "start": 50861,
+   "end": 51137,
+   "heading": "V. CONSUMER RIGHTS AND REQUESTS UNDER THE CCPA"
+  },
+  "p222.s3": {
+   "start": 51138,
+   "end": 51377,
+   "heading": "V. CONSUMER RIGHTS AND REQUESTS UNDER THE CCPA"
+  },
+  "p222.s4": {
+   "start": 51378,
+   "end": 51431,
+   "heading": "V. CONSUMER RIGHTS AND REQUESTS UNDER THE CCPA"
+  },
+  "p222.s5": {
+   "start": 51432,
+   "end": 51444,
+   "heading": "V. CONSUMER RIGHTS AND REQUESTS UNDER THE CCPA"
+  },
+  "p223.s1": {
+   "start": 51445,
+   "end": 51573,
+   "heading": "V. CONSUMER RIGHTS AND REQUESTS UNDER THE CCPA"
+  },
+  "p223.s2": {
+   "start": 51574,
+   "end": 51700,
+   "heading": "V. CONSUMER RIGHTS AND REQUESTS UNDER THE CCPA"
+  },
+  "p224.s1": {
+   "start": 51701,
+   "end": 51800,
+   "heading": "V. CONSUMER RIGHTS AND REQUESTS UNDER THE CCPA"
+  },
+  "p224.s2": {
+   "start": 51801,
+   "end": 52057,
+   "heading": "V. CONSUMER RIGHTS AND REQUESTS UNDER THE CCPA"
+  },
+  "p225.s1": {
+   "start": 52058,
+   "end": 52186,
+   "heading": "V. CONSUMER RIGHTS AND REQUESTS UNDER THE CCPA"
+  },
+  "p225.s2": {
+   "start": 52187,
+   "end": 52313,
+   "heading": "V. CONSUMER RIGHTS AND REQUESTS UNDER THE CCPA"
+  },
+  "p226.s1": {
+   "start": 52314,
+   "end": 52413,
+   "heading": "V. CONSUMER RIGHTS AND REQUESTS UNDER THE CCPA"
+  },
+  "p226.s2": {
+   "start": 52414,
+   "end": 52734,
+   "heading": "V. CONSUMER RIGHTS AND REQUESTS UNDER THE CCPA"
+  },
+  "p226.s3": {
+   "start": 52735,
+   "end": 52883,
+   "heading": "V. CONSUMER RIGHTS AND REQUESTS UNDER THE CCPA"
+  },
+  "p227.s1": {
+   "start": 52884,
+   "end": 53158,
+   "heading": "V. CONSUMER RIGHTS AND REQUESTS UNDER THE CCPA"
+  },
+  "p227.s2": {
+   "start": 53159,
+   "end": 53311,
+   "heading": "V. CONSUMER RIGHTS AND REQUESTS UNDER THE CCPA"
+  },
+  "p228.s1": {
+   "start": 53312,
+   "end": 53458,
+   "heading": "V. CONSUMER RIGHTS AND REQUESTS UNDER THE CCPA"
+  },
+  "p228.s2": {
+   "start": 53459,
+   "end": 53624,
+   "heading": "V. CONSUMER RIGHTS AND REQUESTS UNDER THE CCPA"
+  },
+  "p229.s1": {
+   "start": 53625,
+   "end": 53653,
+   "heading": "Privacy Policy – Version 2.1"
+  },
+  "p230.s1": {
+   "start": 53654,
+   "end": 53685,
+   "heading": "Last Updated on 17th March 2022"
+  }
+ },
+ "flags": {
+  "G1": {
+   "question": "What personal data does the company itself collect, and how broad is it?",
+   "search_log": {
+    "we collect": {
+     "regex": "\\bwe (?:may )?(?:collect|receive|obtain|gather|process)\\b",
+     "tier": "core",
+     "sentences_matched": 32
+    },
+    "information/data we collect": {
+     "regex": "\\b(?:information|data) (?:that )?we (?:collect|receive|obtain)\\b",
+     "tier": "core",
+     "sentences_matched": 9
+    },
+    "collected automatically": {
+     "regex": "\\bautomatically (?:collect|receive|log|record)|collected automatically\\b",
+     "tier": "core",
+     "sentences_matched": 3
+    },
+    "you provide": {
+     "regex": "\\b(?:you|users) (?:provide|submit|give|share|upload|enter)\\b",
+     "tier": "core",
+     "sentences_matched": 3
+    },
+    "location": {
+     "regex": "\\b(?:precise |approximate |geo-?)?location\\b|\\bgeolocation\\b|\\bGPS\\b",
+     "tier": "support",
+     "sentences_matched": 10
+    },
+    "device / identifiers": {
+     "regex": "\\bdevice (?:information|data|identifiers?|id)\\b|\\bIP address(?:es)?\\b|\\badvertising (?:id|identifier)s?\\b|\\bIMEI\\b",
+     "tier": "support",
+     "sentences_matched": 5
+    },
+    "content / messages": {
+     "regex": "\\b(?:content|messages?|prompts?|inputs?|uploads?|files|photos|voice|audio|recordings?)\\b",
+     "tier": "support",
+     "sentences_matched": 16
+    },
+    "contacts": {
+     "regex": "\\bcontacts?(?: list| book)?\\b|\\baddress book\\b",
+     "tier": "support",
+     "sentences_matched": 9
+    },
+    "sensitive / biometric / financial": {
+     "regex": "\\bsensitive\\b|\\bbiometric\\b|\\bhealth\\b|\\bfinancial (?:information|data)\\b|\\bcard (?:number|details)\\b|\\bbank account\\b|\\bKYC\\b|\\bAadhaar\\b|\\bPAN\\b",
+     "tier": "support",
+     "sentences_matched": 6
+    },
+    "from other sources": {
+     "regex": "\\b(?:from|via) (?:third[- ]part(?:y|ies)|other sources|partners|data brokers|publicly available sources)\\b",
+     "tier": "support",
+     "sentences_matched": 2
+    },
+    "usage / log data": {
+     "regex": "\\b(?:usage|log|activity|interaction) (?:data|information)\\b|\\blog files?\\b",
+     "tier": "support",
+     "sentences_matched": 8
+    }
+   },
+   "n_candidates": 39,
+   "candidates": [
+    {
+     "sid": "p179.s1",
+     "heading": "T. CCPA NOTICE AT COLLECTION",
+     "core": [
+      "we collect",
+      "collected automatically"
+     ],
+     "support": [
+      "location",
+      "usage / log data"
+     ],
+     "score": 8
+    },
+    {
+     "sid": "p062.s1",
+     "heading": "G. Information We Collect",
+     "core": [
+      "we collect",
+      "information/data we collect"
+     ],
+     "support": [
+      "from other sources"
+     ],
+     "score": 7
+    },
+    {
+     "sid": "p063.s1",
+     "heading": "G. Information We Collect",
+     "core": [
+      "we collect",
+      "information/data we collect"
+     ],
+     "support": [
+      "from other sources"
+     ],
+     "score": 7
+    },
+    {
+     "sid": "p008.s2",
+     "heading": "G. Information We Collect",
+     "core": [
+      "we collect",
+      "information/data we collect"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p042.s2",
+     "heading": "E. Controllers",
+     "core": [
+      "we collect",
+      "information/data we collect"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p048.s2",
+     "heading": "G. Information We Collect",
+     "core": [
+      "we collect",
+      "information/data we collect"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p051.s1",
+     "heading": "G. Information We Collect",
+     "core": [
+      "we collect",
+      "information/data we collect"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p057.s1",
+     "heading": "G. Information We Collect",
+     "core": [
+      "we collect",
+      "information/data we collect"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p089.s2",
+     "heading": "I. How we Use and Share the Information Collected",
+     "core": [
+      "we collect",
+      "information/data we collect"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p216.s1",
+     "heading": "V. CONSUMER RIGHTS AND REQUESTS UNDER THE CCPA",
+     "core": [
+      "we collect",
+      "information/data we collect"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p058.s1",
+     "heading": "G. Information We Collect",
+     "core": [
+      "we collect"
+     ],
+     "support": [
+      "device / identifiers",
+      "usage / log data"
+     ],
+     "score": 5
+    },
+    {
+     "sid": "p180.s1",
+     "heading": "T. CCPA NOTICE AT COLLECTION",
+     "core": [
+      "we collect"
+     ],
+     "support": [
+      "location",
+      "device / identifiers"
+     ],
+     "score": 5
+    },
+    {
+     "sid": "p058.s2",
+     "heading": "G. Information We Collect",
+     "core": [
+      "we collect"
+     ],
+     "support": [
+      "usage / log data"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p059.s1",
+     "heading": "G. Information We Collect",
+     "core": [
+      "we collect"
+     ],
+     "support": [
+      "usage / log data"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p133.s2",
+     "heading": "O. Promotional Communications",
+     "core": [
+      "collected automatically"
+     ],
+     "support": [
+      "device / identifiers"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p139.s2",
+     "heading": "P. Interest-Based Ads",
+     "core": [
+      "collected automatically"
+     ],
+     "support": [
+      "device / identifiers"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p181.s1",
+     "heading": "T. CCPA NOTICE AT COLLECTION",
+     "core": [
+      "we collect"
+     ],
+     "support": [
+      "content / messages"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p025.s2",
+     "heading": "A. General",
+     "core": [
+      "we collect"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p047.s2",
+     "heading": "F. Personal Information",
+     "core": [
+      "you provide"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p050.s1",
+     "heading": "G. Information We Collect",
+     "core": [
+      "we collect"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p053.s2",
+     "heading": "G. Information We Collect",
+     "core": [
+      "we collect"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p054.s4",
+     "heading": "G. Information We Collect",
+     "core": [
+      "you provide"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p060.s2",
+     "heading": "G. Information We Collect",
+     "core": [
+      "we collect"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p061.s1",
+     "heading": "G. Information We Collect",
+     "core": [
+      "we collect"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p063.s2",
+     "heading": "G. Information We Collect",
+     "core": [
+      "we collect"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p066.s1",
+     "heading": "H. Basis of Collection and Processing of Your Personal Information",
+     "core": [
+      "we collect"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p070.s1",
+     "heading": "H. Basis of Collection and Processing of Your Personal Information",
+     "core": [
+      "we collect"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p085.s1",
+     "heading": "I. How we Use and Share the Information Collected",
+     "core": [
+      "we collect"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p086.s1",
+     "heading": "I. How we Use and Share the Information Collected",
+     "core": [
+      "we collect"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p088.s1",
+     "heading": "I. How we Use and Share the Information Collected",
+     "core": [
+      "we collect"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p112.s1",
+     "heading": "L. Your Choices",
+     "core": [
+      "you provide"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p122.s2",
+     "heading": "M. Your Rights",
+     "core": [
+      "we collect"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p166.s1",
+     "heading": "TERMS APPLICABLE IF YOU ARE AN INDIAN RESIDENT",
+     "core": [
+      "we collect"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p174.s1",
+     "heading": "The right to equal services without discrimination; and",
+     "core": [
+      "we collect"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p176.s1",
+     "heading": "T. CCPA NOTICE AT COLLECTION",
+     "core": [
+      "we collect"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p177.s1",
+     "heading": "T. CCPA NOTICE AT COLLECTION",
+     "core": [
+      "we collect"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p178.s1",
+     "heading": "T. CCPA NOTICE AT COLLECTION",
+     "core": [
+      "we collect"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p053.s1",
+     "heading": "G. Information We Collect",
+     "core": [],
+     "support": [
+      "content / messages",
+      "sensitive / biometric / financial"
+     ],
+     "score": 2
+    },
+    {
+     "sid": "p180.s3",
+     "heading": "T. CCPA NOTICE AT COLLECTION",
+     "core": [],
+     "support": [
+      "location",
+      "device / identifiers"
+     ],
+     "score": 2
+    }
+   ]
+  },
+  "G2": {
+   "question": "Does the company sell personal data, or share it with / let third parties collect it for advertising, marketing or cross-site tracking?",
+   "search_log": {
+    "advertis*": {
+     "regex": "\\badvertis(?:e|er|ers|ing|ement|ements)\\b|\\bads\\b",
+     "tier": "core",
+     "sentences_matched": 15
+    },
+    "targeted / interest-based / behavioural ads": {
+     "regex": "\\b(?:targeted|interest[- ]based|personali[sz]ed|behaviou?ral|cross[- ]context(?:ual)?)(?: behaviou?ral)? (?:advertising|ads|marketing)\\b",
+     "tier": "core",
+     "sentences_matched": 7
+    },
+    "sell / sale of data": {
+     "regex": "\\b(?:sell|sells|selling|sold|sale)\\b",
+     "tier": "core",
+     "sentences_matched": 6
+    },
+    "pixel / SDK / tracking tech": {
+     "regex": "\\bpixels?\\b|\\bSDKs?\\b|\\bweb beacons?\\b|\\btracking (?:technolog(?:y|ies)|tools?)\\b|\\btrackers?\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "ad / marketing partners": {
+     "regex": "\\b(?:advertising|ad|marketing) (?:partners?|networks?|platforms?|companies)\\b",
+     "tier": "core",
+     "sentences_matched": 3
+    },
+    "opt-out of sale/ads / GPC": {
+     "regex": "\\bdo not sell\\b|\\bglobal privacy control\\b|\\bopt[- ]out of (?:the )?(?:sale|sharing|targeted|personali[sz]ed|interest)",
+     "tier": "core",
+     "sentences_matched": 2
+    },
+    "cookies": {
+     "regex": "\\bcookies?\\b",
+     "tier": "support",
+     "sentences_matched": 11
+    },
+    "analytics provider": {
+     "regex": "\\banalytics (?:providers?|partners?|services|tools)\\b|\\bGoogle Analytics\\b",
+     "tier": "support",
+     "sentences_matched": 1
+    },
+    "share with third parties": {
+     "regex": "\\bshare\\b.{0,40}\\bthird[- ]part(?:y|ies)\\b|\\bthird[- ]part(?:y|ies)\\b.{0,40}\\b(?:share|disclose|collect)",
+     "tier": "support",
+     "sentences_matched": 4
+    },
+    "marketing": {
+     "regex": "\\bmarketing\\b|\\bpromotional\\b",
+     "tier": "support",
+     "sentences_matched": 12
+    }
+   },
+   "n_candidates": 22,
+   "candidates": [
+    {
+     "sid": "p135.s1",
+     "heading": "O. Promotional Communications",
+     "core": [
+      "sell / sale of data",
+      "opt-out of sale/ads / GPC"
+     ],
+     "support": [
+      "marketing"
+     ],
+     "score": 7
+    },
+    {
+     "sid": "p137.s3",
+     "heading": "P. Interest-Based Ads",
+     "core": [
+      "advertis*",
+      "targeted / interest-based / behavioural ads"
+     ],
+     "support": [
+      "marketing"
+     ],
+     "score": 7
+    },
+    {
+     "sid": "p017.s2",
+     "heading": "P. Interest-Based Ads",
+     "core": [
+      "advertis*",
+      "targeted / interest-based / behavioural ads"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p089.s2",
+     "heading": "I. How we Use and Share the Information Collected",
+     "core": [
+      "sell / sale of data",
+      "opt-out of sale/ads / GPC"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p099.s1",
+     "heading": "I. How we Use and Share the Information Collected",
+     "core": [
+      "advertis*"
+     ],
+     "support": [
+      "cookies",
+      "analytics provider",
+      "share with third parties"
+     ],
+     "score": 6
+    },
+    {
+     "sid": "p133.s1",
+     "heading": "O. Promotional Communications",
+     "core": [
+      "advertis*",
+      "ad / marketing partners"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p136.s2",
+     "heading": "P. Interest-Based Ads",
+     "core": [
+      "advertis*",
+      "targeted / interest-based / behavioural ads"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p137.s1",
+     "heading": "P. Interest-Based Ads",
+     "core": [
+      "advertis*",
+      "targeted / interest-based / behavioural ads"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p137.s2",
+     "heading": "P. Interest-Based Ads",
+     "core": [
+      "advertis*",
+      "targeted / interest-based / behavioural ads"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p138.s1",
+     "heading": "P. Interest-Based Ads",
+     "core": [
+      "advertis*",
+      "targeted / interest-based / behavioural ads"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p138.s2",
+     "heading": "P. Interest-Based Ads",
+     "core": [
+      "advertis*",
+      "ad / marketing partners"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p139.s1",
+     "heading": "P. Interest-Based Ads",
+     "core": [
+      "advertis*",
+      "ad / marketing partners"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p084.s1",
+     "heading": "I. How we Use and Share the Information Collected",
+     "core": [
+      "targeted / interest-based / behavioural ads"
+     ],
+     "support": [
+      "marketing"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p133.s3",
+     "heading": "O. Promotional Communications",
+     "core": [
+      "advertis*"
+     ],
+     "support": [
+      "cookies"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p133.s4",
+     "heading": "O. Promotional Communications",
+     "core": [
+      "advertis*"
+     ],
+     "support": [
+      "cookies"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p139.s3",
+     "heading": "P. Interest-Based Ads",
+     "core": [
+      "advertis*"
+     ],
+     "support": [
+      "cookies"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p139.s4",
+     "heading": "P. Interest-Based Ads",
+     "core": [
+      "advertis*"
+     ],
+     "support": [
+      "cookies"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p218.s1",
+     "heading": "V. CONSUMER RIGHTS AND REQUESTS UNDER THE CCPA",
+     "core": [
+      "sell / sale of data"
+     ],
+     "support": [
+      "share with third parties"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p098.s1",
+     "heading": "I. How we Use and Share the Information Collected",
+     "core": [
+      "sell / sale of data"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p138.s3",
+     "heading": "P. Interest-Based Ads",
+     "core": [
+      "advertis*"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p205.s1",
+     "heading": "Inferences",
+     "core": [
+      "sell / sale of data"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p216.s1",
+     "heading": "V. CONSUMER RIGHTS AND REQUESTS UNDER THE CCPA",
+     "core": [
+      "sell / sale of data"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "G3": {
+   "question": "Does the company build profiles or inferences about users, or make automated decisions about them?",
+   "search_log": {
+    "profiling": {
+     "regex": "\\bprofil(?:e|es|ing)\\b",
+     "tier": "core",
+     "sentences_matched": 7
+    },
+    "automated decision": {
+     "regex": "\\bautomated (?:decision|decision-making|processing|means|systems?)\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "infer / inference": {
+     "regex": "\\binfer(?:s|red|ring|ences?)?\\b",
+     "tier": "core",
+     "sentences_matched": 4
+    },
+    "legal or similarly significant": {
+     "regex": "\\blegal (?:or similarly significant )?effects?\\b|\\bsimilarly significant\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "scoring": {
+     "regex": "\\b(?:risk|credit|fraud) (?:scor(?:e|es|ing)|assessment)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "personalise / recommend": {
+     "regex": "\\bpersonali[sz](?:e|es|ed|ing|ation)\\b|\\brecommend(?:ation|ations|s|ed)?\\b|\\btailor(?:ed)?\\b|\\bcustomi[sz]e\\b",
+     "tier": "support",
+     "sentences_matched": 6
+    },
+    "interests / preferences / segments": {
+     "regex": "\\b(?:interests?|preferences|segments?|demographics?)\\b",
+     "tier": "support",
+     "sentences_matched": 17
+    },
+    "predict / analyse behaviour": {
+     "regex": "\\bpredict(?:ive|ions?)?\\b|\\banaly[sz]e?(?:s|d)? (?:your )?(?:behaviou?r|usage|activity)\\b",
+     "tier": "support",
+     "sentences_matched": 1
+    }
+   },
+   "n_candidates": 12,
+   "candidates": [
+    {
+     "sid": "p165.s1",
+     "heading": "TERMS APPLICABLE IF YOU ARE AN INDIAN RESIDENT",
+     "core": [
+      "profiling",
+      "automated decision",
+      "legal or similarly significant"
+     ],
+     "support": [],
+     "score": 9
+    },
+    {
+     "sid": "p054.s1",
+     "heading": "G. Information We Collect",
+     "core": [
+      "profiling"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p054.s2",
+     "heading": "G. Information We Collect",
+     "core": [
+      "profiling"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p054.s3",
+     "heading": "G. Information We Collect",
+     "core": [
+      "profiling"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p054.s4",
+     "heading": "G. Information We Collect",
+     "core": [
+      "profiling"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p078.s1",
+     "heading": "Because it is necessary in the public interest; or",
+     "core": [
+      "profiling"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p181.s1",
+     "heading": "T. CCPA NOTICE AT COLLECTION",
+     "core": [
+      "profiling"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p182.s1",
+     "heading": "T. CCPA NOTICE AT COLLECTION",
+     "core": [
+      "infer / inference"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p182.s2",
+     "heading": "T. CCPA NOTICE AT COLLECTION",
+     "core": [
+      "infer / inference"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p191.s1",
+     "heading": "Inferences",
+     "core": [
+      "infer / inference"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p213.s1",
+     "heading": "Inferences",
+     "core": [
+      "infer / inference"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p137.s2",
+     "heading": "P. Interest-Based Ads",
+     "core": [],
+     "support": [
+      "personalise / recommend",
+      "interests / preferences / segments"
+     ],
+     "score": 2
+    }
+   ]
+  },
+  "G4": {
+   "question": "How specific is the policy about how long personal data is kept?",
+   "search_log": {
+    "retain / retention": {
+     "regex": "\\bretain(?:s|ed|ing)?\\b|\\bretention\\b",
+     "tier": "core",
+     "sentences_matched": 3
+    },
+    "keep / store for": {
+     "regex": "\\b(?:keep|kept|store|stored|hold)\\b.{0,60}\\b(?:for|until|as long as|period)\\b",
+     "tier": "core",
+     "sentences_matched": 2
+    },
+    "as long as necessary": {
+     "regex": "\\bas long as (?:is )?(?:necessary|needed|required|reasonably)\\b|\\bno longer (?:than|necessary|needed)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "numeric period": {
+     "regex": "\\b\\d+\\s*(?:-\\s*)?(?:days?|weeks?|months?|years?)\\b|\\b(?:thirty|sixty|ninety|one|two|three|five|six|seven|ten|twelve|eighteen|twenty-four)\\s+(?:days?|months?|years?)\\b",
+     "tier": "core",
+     "sentences_matched": 6
+    },
+    "indefinitely": {
+     "regex": "\\bindefinite(?:ly)?\\b|\\bpermanently\\b|\\bforever\\b",
+     "tier": "core",
+     "sentences_matched": 2
+    },
+    "delete after / deletion": {
+     "regex": "\\b(?:delete|deleted|deletion|erase|purge|dispose)\\b",
+     "tier": "support",
+     "sentences_matched": 20
+    },
+    "legal obligation": {
+     "regex": "\\b(?:legal|statutory|regulatory) (?:obligations?|requirements?|purposes)\\b|\\brequired by (?:applicable )?law\\b",
+     "tier": "support",
+     "sentences_matched": 7
+    }
+   },
+   "n_candidates": 14,
+   "candidates": [
+    {
+     "sid": "p108.s2",
+     "heading": "K. Duration for which your Information is Stored",
+     "core": [
+      "retain / retention"
+     ],
+     "support": [
+      "legal obligation"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p121.s2",
+     "heading": "M. Your Rights",
+     "core": [
+      "indefinitely"
+     ],
+     "support": [
+      "delete after / deletion"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p155.s2",
+     "heading": "TERMS APPLICABLE IF YOU ARE AN INDIAN RESIDENT",
+     "core": [
+      "indefinitely"
+     ],
+     "support": [
+      "delete after / deletion"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p022.s2",
+     "heading": "U. CCPA DATA PRACTICES DURING THE LAST 12 MONTHS",
+     "core": [
+      "numeric period"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p025.s2",
+     "heading": "A. General",
+     "core": [
+      "keep / store for"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p055.s1",
+     "heading": "G. Information We Collect",
+     "core": [
+      "keep / store for"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p059.s3",
+     "heading": "G. Information We Collect",
+     "core": [
+      "retain / retention"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p182.s1",
+     "heading": "T. CCPA NOTICE AT COLLECTION",
+     "core": [
+      "retain / retention"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p183.s2",
+     "heading": "U. CCPA DATA PRACTICES DURING THE LAST 12 MONTHS",
+     "core": [
+      "numeric period"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p184.s1",
+     "heading": "U. CCPA DATA PRACTICES DURING THE LAST 12 MONTHS",
+     "core": [
+      "numeric period"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p205.s1",
+     "heading": "Inferences",
+     "core": [
+      "numeric period"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p206.s1",
+     "heading": "Inferences",
+     "core": [
+      "numeric period"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p218.s2",
+     "heading": "V. CONSUMER RIGHTS AND REQUESTS UNDER THE CCPA",
+     "core": [
+      "numeric period"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p222.s1",
+     "heading": "V. CONSUMER RIGHTS AND REQUESTS UNDER THE CCPA",
+     "core": [],
+     "support": [
+      "delete after / deletion",
+      "legal obligation"
+     ],
+     "score": 2
+    }
+   ]
+  },
+  "G5": {
+   "question": "What rights do users have to access, correct and delete their data, and for whom?",
+   "search_log": {
+    "right to / your rights": {
+     "regex": "\\bright(?:s)? (?:to|of)\\b|\\byour (?:privacy )?rights\\b|\\bdata subject\\b|\\bdata principal\\b",
+     "tier": "core",
+     "sentences_matched": 43
+    },
+    "access": {
+     "regex": "\\baccess (?:to )?(?:your|the) (?:personal )?(?:data|information)\\b|\\brequest (?:a copy|access)\\b",
+     "tier": "core",
+     "sentences_matched": 4
+    },
+    "correct / rectify / update": {
+     "regex": "\\b(?:correct|correction|rectif(?:y|ication)|update|amend)\\b",
+     "tier": "core",
+     "sentences_matched": 6
+    },
+    "delete / erase": {
+     "regex": "\\b(?:delete|deletion|erase|erasure|right to be forgotten)\\b",
+     "tier": "core",
+     "sentences_matched": 24
+    },
+    "portability / export": {
+     "regex": "\\bportab(?:le|ility)\\b|\\bexport (?:your )?data\\b|\\bdownload (?:your|a copy)\\b",
+     "tier": "core",
+     "sentences_matched": 2
+    },
+    "object / restrict": {
+     "regex": "\\bobject(?:ion)? to\\b|\\brestrict(?:ion)? (?:of )?(?:the )?processing\\b",
+     "tier": "support",
+     "sentences_matched": 2
+    },
+    "nominate (DPDP)": {
+     "regex": "\\bnominat(?:e|ion)\\b",
+     "tier": "support",
+     "sentences_matched": 0
+    },
+    "jurisdiction limits": {
+     "regex": "\\b(?:EEA|European|UK|California|residents? of|depending on where you live|applicable law)\\b",
+     "tier": "support",
+     "sentences_matched": 20
+    }
+   },
+   "n_candidates": 57,
+   "candidates": [
+    {
+     "sid": "p219.s1",
+     "heading": "V. CONSUMER RIGHTS AND REQUESTS UNDER THE CCPA",
+     "core": [
+      "right to / your rights",
+      "delete / erase"
+     ],
+     "support": [
+      "jurisdiction limits"
+     ],
+     "score": 7
+    },
+    {
+     "sid": "p027.s4",
+     "heading": "A. General",
+     "core": [
+      "right to / your rights",
+      "delete / erase"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p110.s1",
+     "heading": "K. Duration for which your Information is Stored",
+     "core": [
+      "right to / your rights",
+      "delete / erase"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p112.s1",
+     "heading": "L. Your Choices",
+     "core": [
+      "correct / rectify / update",
+      "delete / erase"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p118.s1",
+     "heading": "M. Your Rights",
+     "core": [
+      "right to / your rights",
+      "access"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p119.s1",
+     "heading": "M. Your Rights",
+     "core": [
+      "right to / your rights",
+      "correct / rectify / update"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p119.s2",
+     "heading": "M. Your Rights",
+     "core": [
+      "right to / your rights",
+      "correct / rectify / update"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p120.s1",
+     "heading": "M. Your Rights",
+     "core": [
+      "right to / your rights",
+      "delete / erase"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p121.s1",
+     "heading": "M. Your Rights",
+     "core": [
+      "right to / your rights",
+      "delete / erase"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p151.s1",
+     "heading": "TERMS APPLICABLE IF YOU ARE AN INDIAN RESIDENT",
+     "core": [
+      "right to / your rights",
+      "access"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p152.s1",
+     "heading": "TERMS APPLICABLE IF YOU ARE AN INDIAN RESIDENT",
+     "core": [
+      "right to / your rights",
+      "correct / rectify / update"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p152.s2",
+     "heading": "TERMS APPLICABLE IF YOU ARE AN INDIAN RESIDENT",
+     "core": [
+      "right to / your rights",
+      "correct / rectify / update"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p153.s1",
+     "heading": "TERMS APPLICABLE IF YOU ARE AN INDIAN RESIDENT",
+     "core": [
+      "right to / your rights",
+      "portability / export"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p154.s1",
+     "heading": "TERMS APPLICABLE IF YOU ARE AN INDIAN RESIDENT",
+     "core": [
+      "right to / your rights",
+      "delete / erase"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p155.s1",
+     "heading": "TERMS APPLICABLE IF YOU ARE AN INDIAN RESIDENT",
+     "core": [
+      "right to / your rights",
+      "delete / erase"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p158.s1",
+     "heading": "TERMS APPLICABLE IF YOU ARE AN INDIAN RESIDENT",
+     "core": [
+      "right to / your rights",
+      "access"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p159.s1",
+     "heading": "TERMS APPLICABLE IF YOU ARE AN INDIAN RESIDENT",
+     "core": [
+      "right to / your rights",
+      "correct / rectify / update"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p160.s1",
+     "heading": "TERMS APPLICABLE IF YOU ARE AN INDIAN RESIDENT",
+     "core": [
+      "right to / your rights",
+      "delete / erase"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p163.s1",
+     "heading": "TERMS APPLICABLE IF YOU ARE AN INDIAN RESIDENT",
+     "core": [
+      "right to / your rights",
+      "portability / export"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p169.s1",
+     "heading": "TERMS APPLICABLE IF YOU ARE A CALIFORNIA STATE RESIDENT",
+     "core": [
+      "right to / your rights",
+      "access"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p173.s1",
+     "heading": "The right to equal services without discrimination; and",
+     "core": [
+      "right to / your rights",
+      "delete / erase"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p216.s1",
+     "heading": "V. CONSUMER RIGHTS AND REQUESTS UNDER THE CCPA",
+     "core": [
+      "right to / your rights",
+      "delete / erase"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p157.s1",
+     "heading": "TERMS APPLICABLE IF YOU ARE AN INDIAN RESIDENT",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [
+      "jurisdiction limits"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p161.s1",
+     "heading": "TERMS APPLICABLE IF YOU ARE AN INDIAN RESIDENT",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [
+      "object / restrict"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p162.s1",
+     "heading": "TERMS APPLICABLE IF YOU ARE AN INDIAN RESIDENT",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [
+      "object / restrict"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p164.s4",
+     "heading": "TERMS APPLICABLE IF YOU ARE AN INDIAN RESIDENT",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [
+      "jurisdiction limits"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p168.s1",
+     "heading": "TERMS APPLICABLE IF YOU ARE A CALIFORNIA STATE RESIDENT",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [
+      "jurisdiction limits"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p218.s1",
+     "heading": "V. CONSUMER RIGHTS AND REQUESTS UNDER THE CCPA",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [
+      "jurisdiction limits"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p219.s2",
+     "heading": "V. CONSUMER RIGHTS AND REQUESTS UNDER THE CCPA",
+     "core": [
+      "delete / erase"
+     ],
+     "support": [
+      "jurisdiction limits"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p014.s2",
+     "heading": "M. Your Rights",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p028.s1",
+     "heading": "A. General",
+     "core": [
+      "delete / erase"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p079.s1",
+     "heading": "Because it is necessary in the public interest; or",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p079.s2",
+     "heading": "Because it is necessary in the public interest; or",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p085.s2",
+     "heading": "I. How we Use and Share the Information Collected",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p093.s2",
+     "heading": "I. How we Use and Share the Information Collected",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p108.s1",
+     "heading": "K. Duration for which your Information is Stored",
+     "core": [
+      "delete / erase"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p109.s1",
+     "heading": "K. Duration for which your Information is Stored",
+     "core": [
+      "delete / erase"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p115.s2",
+     "heading": "M. Your Rights",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p116.s3",
+     "heading": "M. Your Rights",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p121.s2",
+     "heading": "M. Your Rights",
+     "core": [
+      "delete / erase"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p122.s1",
+     "heading": "M. Your Rights",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p132.s2",
+     "heading": "O. Promotional Communications",
+     "core": [
+      "delete / erase"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p143.s1",
+     "heading": "R. Privacy Grievances",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p150.s1",
+     "heading": "TERMS APPLICABLE IF YOU ARE AN INDIAN RESIDENT",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p155.s2",
+     "heading": "TERMS APPLICABLE IF YOU ARE AN INDIAN RESIDENT",
+     "core": [
+      "delete / erase"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p164.s1",
+     "heading": "TERMS APPLICABLE IF YOU ARE AN INDIAN RESIDENT",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p164.s2",
+     "heading": "TERMS APPLICABLE IF YOU ARE AN INDIAN RESIDENT",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p165.s1",
+     "heading": "TERMS APPLICABLE IF YOU ARE AN INDIAN RESIDENT",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p170.s1",
+     "heading": "TERMS APPLICABLE IF YOU ARE A CALIFORNIA STATE RESIDENT",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p171.s1",
+     "heading": "TERMS APPLICABLE IF YOU ARE A CALIFORNIA STATE RESIDENT",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p172.s1",
+     "heading": "The right to equal services without discrimination; and",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p219.s3",
+     "heading": "V. CONSUMER RIGHTS AND REQUESTS UNDER THE CCPA",
+     "core": [
+      "delete / erase"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p221.s1",
+     "heading": "V. CONSUMER RIGHTS AND REQUESTS UNDER THE CCPA",
+     "core": [
+      "delete / erase"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p221.s2",
+     "heading": "V. CONSUMER RIGHTS AND REQUESTS UNDER THE CCPA",
+     "core": [
+      "delete / erase"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p222.s1",
+     "heading": "V. CONSUMER RIGHTS AND REQUESTS UNDER THE CCPA",
+     "core": [
+      "delete / erase"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p224.s1",
+     "heading": "V. CONSUMER RIGHTS AND REQUESTS UNDER THE CCPA",
+     "core": [
+      "delete / erase"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p226.s2",
+     "heading": "V. CONSUMER RIGHTS AND REQUESTS UNDER THE CCPA",
+     "core": [
+      "delete / erase"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "G6": {
+   "question": "Is personal data transferred to or stored in other countries, and are safeguards named?",
+   "search_log": {
+    "transfer": {
+     "regex": "\\btransfer(?:s|red|ring)?\\b",
+     "tier": "core",
+     "sentences_matched": 10
+    },
+    "cross-border / international": {
+     "regex": "\\bcross[- ]border\\b|\\binternational(?:ly)?\\b|\\bglobal(?:ly)?\\b|\\bother countries\\b|\\boutside (?:of )?(?:your|the|India)\\b",
+     "tier": "core",
+     "sentences_matched": 7
+    },
+    "stored / processed in a country": {
+     "regex": "\\b(?:stored|processed|hosted|located)\\b.{0,40}\\b(?:in|outside) (?:the )?(?:United States|U\\.S\\.|US|India|EU|Europe|Singapore|China|countr(?:y|ies))\\b",
+     "tier": "core",
+     "sentences_matched": 4
+    },
+    "safeguard mechanisms": {
+     "regex": "\\bstandard contractual clauses\\b|\\bSCCs?\\b|\\badequacy\\b|\\bData Privacy Framework\\b|\\bbinding corporate rules\\b|\\bappropriate safeguards\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "localisation": {
+     "regex": "\\blocali[sz](?:ation|ed)\\b|\\bstored (?:only |exclusively )?(?:in|within) India\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "servers": {
+     "regex": "\\bservers?\\b|\\bdata cent(?:er|re)s?\\b",
+     "tier": "support",
+     "sentences_matched": 6
+    },
+    "jurisdiction": {
+     "regex": "\\bjurisdictions?\\b|\\bdata protection laws?\\b",
+     "tier": "support",
+     "sentences_matched": 5
+    }
+   },
+   "n_candidates": 13,
+   "candidates": [
+    {
+     "sid": "p105.s1",
+     "heading": "J. Cross-Border Data Transfer",
+     "core": [
+      "transfer",
+      "cross-border / international",
+      "stored / processed in a country"
+     ],
+     "support": [],
+     "score": 9
+    },
+    {
+     "sid": "p103.s1",
+     "heading": "J. Cross-Border Data Transfer",
+     "core": [
+      "transfer",
+      "stored / processed in a country"
+     ],
+     "support": [
+      "servers"
+     ],
+     "score": 7
+    },
+    {
+     "sid": "p103.s2",
+     "heading": "J. Cross-Border Data Transfer",
+     "core": [
+      "transfer",
+      "cross-border / international"
+     ],
+     "support": [
+      "servers"
+     ],
+     "score": 7
+    },
+    {
+     "sid": "p106.s1",
+     "heading": "J. Cross-Border Data Transfer",
+     "core": [
+      "transfer",
+      "cross-border / international"
+     ],
+     "support": [
+      "jurisdiction"
+     ],
+     "score": 7
+    },
+    {
+     "sid": "p011.s2",
+     "heading": "J. Cross-Border Data Transfer",
+     "core": [
+      "transfer",
+      "cross-border / international"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p102.s2",
+     "heading": "J. Cross-Border Data Transfer",
+     "core": [
+      "transfer",
+      "cross-border / international"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p105.s2",
+     "heading": "J. Cross-Border Data Transfer",
+     "core": [
+      "transfer",
+      "cross-border / international"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p098.s1",
+     "heading": "I. How we Use and Share the Information Collected",
+     "core": [
+      "transfer"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p105.s3",
+     "heading": "J. Cross-Border Data Transfer",
+     "core": [
+      "stored / processed in a country"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p150.s1",
+     "heading": "TERMS APPLICABLE IF YOU ARE AN INDIAN RESIDENT",
+     "core": [
+      "stored / processed in a country"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p153.s1",
+     "heading": "TERMS APPLICABLE IF YOU ARE AN INDIAN RESIDENT",
+     "core": [
+      "transfer"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p163.s1",
+     "heading": "TERMS APPLICABLE IF YOU ARE AN INDIAN RESIDENT",
+     "core": [
+      "transfer"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p221.s2",
+     "heading": "V. CONSUMER RIGHTS AND REQUESTS UNDER THE CCPA",
+     "core": [
+      "cross-border / international"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "G7": {
+   "question": "What does the policy say about children and minors, and what age threshold and safeguards apply?",
+   "search_log": {
+    "child / children / minor": {
+     "regex": "\\bchild(?:ren)?(?:'s)?\\b|\\bminors?\\b|\\bkids?\\b|\\bteens?(?:agers?)?\\b|\\byouth\\b|\\byoung (?:people|users)\\b",
+     "tier": "core",
+     "sentences_matched": 8
+    },
+    "age threshold": {
+     "regex": "\\bunder (?:the age of )?\\d{1,2}\\b|\\b\\d{1,2} years? (?:of age|old)\\b|\\bage of (?:majority|\\d{1,2})\\b|\\bminimum age\\b|\\bage requirement\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "parent / guardian / consent": {
+     "regex": "\\bparent(?:s|al)?\\b|\\bguardians?\\b|\\bverifiable (?:parental )?consent\\b",
+     "tier": "core",
+     "sentences_matched": 5
+    },
+    "COPPA / age verification": {
+     "regex": "\\bCOPPA\\b|\\bage (?:verification|assurance|estimation|gate)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "knowingly collect": {
+     "regex": "\\bknowingly\\b",
+     "tier": "support",
+     "sentences_matched": 1
+    }
+   },
+   "n_candidates": 9,
+   "candidates": [
+    {
+     "sid": "p039.s1",
+     "heading": "D. Use of the Platform/Services by Children",
+     "core": [
+      "child / children / minor",
+      "parent / guardian / consent"
+     ],
+     "support": [
+      "knowingly collect"
+     ],
+     "score": 7
+    },
+    {
+     "sid": "p038.s2",
+     "heading": "D. Use of the Platform/Services by Children",
+     "core": [
+      "child / children / minor",
+      "parent / guardian / consent"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p039.s2",
+     "heading": "D. Use of the Platform/Services by Children",
+     "core": [
+      "child / children / minor",
+      "parent / guardian / consent"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p039.s3",
+     "heading": "D. Use of the Platform/Services by Children",
+     "core": [
+      "child / children / minor",
+      "parent / guardian / consent"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p005.s2",
+     "heading": "D. Use of the Platform/Services by Children",
+     "core": [
+      "child / children / minor"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p037.s2",
+     "heading": "D. Use of the Platform/Services by Children",
+     "core": [
+      "child / children / minor"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p040.s1",
+     "heading": "D. Use of the Platform/Services by Children",
+     "core": [
+      "child / children / minor"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p040.s2",
+     "heading": "D. Use of the Platform/Services by Children",
+     "core": [
+      "child / children / minor"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p214.s1",
+     "heading": "Inferences",
+     "core": [
+      "parent / guardian / consent"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "AI1": {
+   "question": "Does the company use users' personal data or content to train or improve AI / machine-learning models?",
+   "search_log": {
+    "train / training": {
+     "regex": "\\btrain(?:s|ed|ing)?\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "model(s)": {
+     "regex": "\\b(?:AI |machine[- ]learning |language |foundation |our )?models?\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "machine learning": {
+     "regex": "\\bmachine[- ]learning\\b|\\bML\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "artificial intelligence / AI": {
+     "regex": "\\bartificial intelligence\\b|\\bAI\\b|\\bgenerative\\b|\\bLLMs?\\b|\\blarge language\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "improve / develop services": {
+     "regex": "\\b(?:improve|develop|enhance|build)\\b.{0,30}\\b(?:services?|products?|features?|technolog(?:y|ies)|systems?|algorithms?)\\b",
+     "tier": "support",
+     "sentences_matched": 4
+    },
+    "content / inputs / outputs": {
+     "regex": "\\b(?:content|inputs?|outputs?|prompts?|conversations?|chats?|messages?|posts?|feedback)\\b",
+     "tier": "support",
+     "sentences_matched": 15
+    },
+    "research": {
+     "regex": "\\bresearch\\b",
+     "tier": "support",
+     "sentences_matched": 0
+    }
+   },
+   "n_candidates": 0,
+   "candidates": []
+  },
+  "AI2": {
+   "question": "If personal data is used for AI training, can the user stop it, and how?",
+   "search_log": {
+    "opt out": {
+     "regex": "\\bopt(?:[- ])?out\\b|\\bopt(?:[- ])?in\\b",
+     "tier": "core",
+     "sentences_matched": 4
+    },
+    "turn off / disable": {
+     "regex": "\\bturn(?:ing)? off\\b|\\bdisabl(?:e|ed|ing)\\b|\\btoggle\\b|\\bswitch off\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "choose whether / your choices": {
+     "regex": "\\bchoose (?:whether|if|not to|to stop)\\b|\\byour choices?\\b|\\bcontrol (?:whether|how)\\b|\\b(?:stop|prevent)\\b.{0,40}\\b(?:used|using)\\b",
+     "tier": "core",
+     "sentences_matched": 3
+    },
+    "settings / controls": {
+     "regex": "\\b(?:privacy |data |account )?(?:settings|controls?|preferences)\\b|\\bdashboard\\b",
+     "tier": "support",
+     "sentences_matched": 6
+    },
+    "train / model (co-occurrence)": {
+     "regex": "\\btrain(?:s|ed|ing)?\\b|\\bmodels?\\b|\\bimprove the model\\b",
+     "tier": "support",
+     "sentences_matched": 0
+    },
+    "object / request": {
+     "regex": "\\bobject(?:ion)?\\b|\\bsubmit a request\\b|\\bprivacy (?:portal|request)\\b|\\bcontact us\\b",
+     "tier": "support",
+     "sentences_matched": 8
+    }
+   },
+   "n_candidates": 8,
+   "candidates": [
+    {
+     "sid": "p013.s2",
+     "heading": "L. Your Choices",
+     "core": [
+      "choose whether / your choices"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p027.s4",
+     "heading": "A. General",
+     "core": [
+      "choose whether / your choices"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p090.s3",
+     "heading": "I. How we Use and Share the Information Collected",
+     "core": [
+      "opt out"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p111.s2",
+     "heading": "L. Your Choices",
+     "core": [
+      "choose whether / your choices"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p114.s2",
+     "heading": "L. Your Choices",
+     "core": [
+      "turn off / disable"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p131.s1",
+     "heading": "O. Promotional Communications",
+     "core": [
+      "opt out"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p132.s1",
+     "heading": "O. Promotional Communications",
+     "core": [
+      "opt out"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p171.s1",
+     "heading": "TERMS APPLICABLE IF YOU ARE A CALIFORNIA STATE RESIDENT",
+     "core": [
+      "opt out"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "AI3": {
+   "question": "Can people (employees, contractors, reviewers) read or review users' content?",
+   "search_log": {
+    "human review": {
+     "regex": "\\bhuman (?:review(?:ers?)?|reviewed|oversight|moderators?)\\b|\\bmanual(?:ly)? review(?:ed)?\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "reviewers / annotators / moderators": {
+     "regex": "\\breviewers?\\b|\\bannotators?\\b|\\bmoderat(?:ors?|ion)\\b|\\bcrowd ?workers?\\b|\\braters?\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "staff may access / review content": {
+     "regex": "\\b(?:employees|personnel|staff|contractors|team members|authori[sz]ed (?:personnel|staff|employees))\\b.{0,60}\\b(?:access|review|read|view|see)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "review content / conversations": {
+     "regex": "\\breview(?:s|ed|ing)?\\b.{0,40}\\b(?:content|conversations?|chats?|messages?|inputs?|prompts?|recordings?)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "we may access / review / monitor content": {
+     "regex": "\\bwe (?:may |might |can )?(?:access|review|monitor|read|inspect|view|listen to)\\b.{0,50}\\b(?:content|communications?|conversations?|chats?|messages?|recordings?|files|inputs?)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "flagged / safety / abuse": {
+     "regex": "\\bflagged\\b|\\b(?:trust and )?safety\\b|\\babuse\\b|\\bmisuse\\b|\\bviolat(?:e|es|ion|ions)\\b",
+     "tier": "support",
+     "sentences_matched": 6
+    },
+    "support / feedback": {
+     "regex": "\\bfeedback\\b|\\bsupport (?:requests?|tickets?)\\b|\\bcustomer support\\b",
+     "tier": "support",
+     "sentences_matched": 4
+    }
+   },
+   "n_candidates": 0,
+   "candidates": []
+  },
+  "AI4": {
+   "question": "Does the policy let the company keep, use or share de-identified or aggregated data, and for what?",
+   "search_log": {
+    "de-identified": {
+     "regex": "\\bde-?identif(?:y|ied|ies|ication)\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "anonymised": {
+     "regex": "\\banonymi[sz](?:e|ed|es|ation)\\b|\\banonymous\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "aggregated": {
+     "regex": "\\baggregat(?:e|ed|es|ion)\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "pseudonymised": {
+     "regex": "\\bpseudonymi[sz](?:e|ed|ation)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "no longer identifies": {
+     "regex": "\\b(?:no longer|cannot reasonably|not reasonably) (?:be used to )?identif(?:y|ies)\\b|\\bnon-?personal (?:data|information)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "share / any purpose": {
+     "regex": "\\bany (?:lawful )?purpose\\b|\\bshare\\b|\\bthird[- ]part(?:y|ies)\\b|\\bresearch\\b|\\bimprove\\b",
+     "tier": "support",
+     "sentences_matched": 39
+    }
+   },
+   "n_candidates": 2,
+   "candidates": [
+    {
+     "sid": "p109.s2",
+     "heading": "K. Duration for which your Information is Stored",
+     "core": [
+      "de-identified",
+      "aggregated"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p109.s1",
+     "heading": "K. Duration for which your Information is Stored",
+     "core": [
+      "anonymised"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "AI5": {
+   "question": "Is user content sent to external AI / model providers, or licensed to others for AI training?",
+   "search_log": {
+    "AI / model providers": {
+     "regex": "\\b(?:AI|model|LLM|machine[- ]learning|artificial intelligence) (?:providers?|vendors?|partners?|services?|companies|developers?)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "named AI vendors": {
+     "regex": "\\bOpenAI\\b|\\bChatGPT\\b|\\bAnthropic\\b|\\bClaude\\b|\\bGemini\\b|\\bGoogle AI\\b|\\bAzure OpenAI\\b|\\bLlama\\b|\\bMistral\\b|\\bxAI\\b|\\bGrok\\b|\\bPerplexity\\b|\\bDeepSeek\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "third-party AI / models": {
+     "regex": "\\bthird[- ]party (?:AI|models?|LLMs?|artificial intelligence)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "integrations / connectors / plugins": {
+     "regex": "\\b(?:integrations?|connectors?|plug-?ins?|MCP|GPTs|extensions|(?<!user )agents?)\\b",
+     "tier": "core",
+     "sentences_matched": 4
+    },
+    "license content / data licensing": {
+     "regex": "\\blicen[cs](?:e|es|ing)\\b.{0,60}\\b(?:content|data)\\b|\\bdata licensing\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "sub-processors / service providers": {
+     "regex": "\\bsub-?processors?\\b|\\bservice providers?\\b|\\bvendors?\\b",
+     "tier": "support",
+     "sentences_matched": 6
+    },
+    "AI features": {
+     "regex": "\\bAI(?:-powered)? (?:features?|tools?|assistants?)\\b|\\bgenerative\\b",
+     "tier": "support",
+     "sentences_matched": 0
+    }
+   },
+   "n_candidates": 4,
+   "candidates": [
+    {
+     "sid": "p090.s1",
+     "heading": "I. How we Use and Share the Information Collected",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p226.s1",
+     "heading": "V. CONSUMER RIGHTS AND REQUESTS UNDER THE CCPA",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p226.s2",
+     "heading": "V. CONSUMER RIGHTS AND REQUESTS UNDER THE CCPA",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p226.s3",
+     "heading": "V. CONSUMER RIGHTS AND REQUESTS UNDER THE CCPA",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "DPDP1": {
+   "question": "How does the policy obtain consent: an explicit affirmative action, a general agreement, or browsewrap ('by using you agree')?",
+   "search_log": {
+    "by using / visiting you agree": {
+     "regex": "\\bby (?:using|visiting|accessing|downloading|browsing|continuing|registering|signing up|providing)\\b.{0,120}\\b(?:agree|consent|accept|acknowledge)\\w*",
+     "tier": "core",
+     "sentences_matched": 2
+    },
+    "consent": {
+     "regex": "\\bconsent(?:s|ed|ing)?\\b",
+     "tier": "core",
+     "sentences_matched": 24
+    },
+    "agree / accept": {
+     "regex": "\\b(?:you )?(?:agree|accept|acknowledge)(?:s|d)?\\b",
+     "tier": "core",
+     "sentences_matched": 3
+    },
+    "DPDP / Indian law": {
+     "regex": "\\bDigital Personal Data Protection\\b|\\bDPDP(?:A)?\\b|\\bIT Act\\b|\\bSPDI\\b|\\bInformation Technology\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "legal basis": {
+     "regex": "\\blegal bas(?:is|es)\\b|\\blegitimate interests?\\b|\\bperformance of (?:a|the) contract\\b",
+     "tier": "core",
+     "sentences_matched": 7
+    },
+    "notice / checkbox / sign-up": {
+     "regex": "\\bnotice\\b|\\bcheck ?box\\b|\\bsign[- ]?up\\b|\\bregistration\\b|\\bclick(?:ing)?\\b",
+     "tier": "support",
+     "sentences_matched": 7
+    },
+    "explicit / affirmative / freely": {
+     "regex": "\\bexplicit(?:ly)?\\b|\\baffirmative\\b|\\bfreely\\b|\\bunambiguous\\b|\\binformed\\b",
+     "tier": "support",
+     "sentences_matched": 0
+    }
+   },
+   "n_candidates": 32,
+   "candidates": [
+    {
+     "sid": "p027.s3",
+     "heading": "A. General",
+     "core": [
+      "by using / visiting you agree",
+      "consent"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p082.s2",
+     "heading": "I. How we Use and Share the Information Collected",
+     "core": [
+      "consent",
+      "legal basis"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p083.s3",
+     "heading": "I. How we Use and Share the Information Collected",
+     "core": [
+      "consent",
+      "legal basis"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p084.s2",
+     "heading": "I. How we Use and Share the Information Collected",
+     "core": [
+      "consent",
+      "legal basis"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p105.s2",
+     "heading": "J. Cross-Border Data Transfer",
+     "core": [
+      "by using / visiting you agree",
+      "consent"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p027.s4",
+     "heading": "A. General",
+     "core": [
+      "agree / accept"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p038.s2",
+     "heading": "D. Use of the Platform/Services by Children",
+     "core": [
+      "agree / accept"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p039.s1",
+     "heading": "D. Use of the Platform/Services by Children",
+     "core": [
+      "consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p039.s2",
+     "heading": "D. Use of the Platform/Services by Children",
+     "core": [
+      "consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p039.s3",
+     "heading": "D. Use of the Platform/Services by Children",
+     "core": [
+      "consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p045.s1",
+     "heading": "F. Personal Information",
+     "core": [
+      "DPDP / Indian law"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p056.s1",
+     "heading": "G. Information We Collect",
+     "core": [
+      "consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p067.s1",
+     "heading": "H. Basis of Collection and Processing of Your Personal Information",
+     "core": [
+      "consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p067.s2",
+     "heading": "H. Basis of Collection and Processing of Your Personal Information",
+     "core": [
+      "consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p073.s1",
+     "heading": "H. Basis of Collection and Processing of Your Personal Information",
+     "core": [
+      "legal basis"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p077.s1",
+     "heading": "Because it is necessary in the public interest; or",
+     "core": [
+      "consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p079.s1",
+     "heading": "Because it is necessary in the public interest; or",
+     "core": [
+      "consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p079.s2",
+     "heading": "Because it is necessary in the public interest; or",
+     "core": [
+      "consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p079.s3",
+     "heading": "Because it is necessary in the public interest; or",
+     "core": [
+      "consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p079.s4",
+     "heading": "Because it is necessary in the public interest; or",
+     "core": [
+      "consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p085.s2",
+     "heading": "I. How we Use and Share the Information Collected",
+     "core": [
+      "legal basis"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p086.s2",
+     "heading": "I. How we Use and Share the Information Collected",
+     "core": [
+      "legal basis"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p087.s1",
+     "heading": "I. How we Use and Share the Information Collected",
+     "core": [
+      "consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p089.s3",
+     "heading": "I. How we Use and Share the Information Collected",
+     "core": [
+      "consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p092.s2",
+     "heading": "I. How we Use and Share the Information Collected",
+     "core": [
+      "consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p092.s3",
+     "heading": "I. How we Use and Share the Information Collected",
+     "core": [
+      "consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p100.s1",
+     "heading": "I. How we Use and Share the Information Collected",
+     "core": [
+      "consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p101.s1",
+     "heading": "I. How we Use and Share the Information Collected",
+     "core": [
+      "consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p106.s1",
+     "heading": "J. Cross-Border Data Transfer",
+     "core": [
+      "legal basis"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p114.s1",
+     "heading": "L. Your Choices",
+     "core": [
+      "agree / accept"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p135.s1",
+     "heading": "O. Promotional Communications",
+     "core": [
+      "consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p141.s4",
+     "heading": "Q. Modification to Privacy Policy",
+     "core": [
+      "consent"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "DPDP2": {
+   "question": "Can users withdraw consent, and is it as easy as giving it?",
+   "search_log": {
+    "withdraw / revoke consent": {
+     "regex": "\\bwithdraw(?:s|n|al|ing)?\\b|\\brevok(?:e|es|ed|ing)\\b|\\brevocation\\b",
+     "tier": "core",
+     "sentences_matched": 8
+    },
+    "consent manager": {
+     "regex": "\\bconsent manager\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "opt out / unsubscribe": {
+     "regex": "\\bopt(?:[- ])?out\\b|\\bunsubscrib(?:e|ing)\\b",
+     "tier": "core",
+     "sentences_matched": 3
+    },
+    "settings / dashboard": {
+     "regex": "\\bsettings\\b|\\bdashboard\\b|\\bpreferences\\b|\\bpreference cent(?:er|re)\\b|\\btoggle\\b",
+     "tier": "support",
+     "sentences_matched": 2
+    },
+    "contact / email to withdraw": {
+     "regex": "\\b(?:email|write to|contact)\\b",
+     "tier": "support",
+     "sentences_matched": 27
+    },
+    "delete account": {
+     "regex": "\\b(?:delete|deactivate|close) (?:your )?account\\b",
+     "tier": "support",
+     "sentences_matched": 2
+    },
+    "consent (co-occurrence)": {
+     "regex": "\\bconsent\\b",
+     "tier": "support",
+     "sentences_matched": 22
+    }
+   },
+   "n_candidates": 12,
+   "candidates": [
+    {
+     "sid": "p079.s3",
+     "heading": "Because it is necessary in the public interest; or",
+     "core": [
+      "withdraw / revoke consent"
+     ],
+     "support": [
+      "contact / email to withdraw",
+      "consent (co-occurrence)"
+     ],
+     "score": 5
+    },
+    {
+     "sid": "p079.s1",
+     "heading": "Because it is necessary in the public interest; or",
+     "core": [
+      "withdraw / revoke consent"
+     ],
+     "support": [
+      "consent (co-occurrence)"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p079.s2",
+     "heading": "Because it is necessary in the public interest; or",
+     "core": [
+      "withdraw / revoke consent"
+     ],
+     "support": [
+      "consent (co-occurrence)"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p079.s4",
+     "heading": "Because it is necessary in the public interest; or",
+     "core": [
+      "withdraw / revoke consent"
+     ],
+     "support": [
+      "consent (co-occurrence)"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p090.s3",
+     "heading": "I. How we Use and Share the Information Collected",
+     "core": [
+      "opt out / unsubscribe"
+     ],
+     "support": [
+      "contact / email to withdraw"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p131.s1",
+     "heading": "O. Promotional Communications",
+     "core": [
+      "opt out / unsubscribe"
+     ],
+     "support": [
+      "contact / email to withdraw"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p028.s1",
+     "heading": "A. General",
+     "core": [
+      "withdraw / revoke consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p079.s5",
+     "heading": "Because it is necessary in the public interest; or",
+     "core": [
+      "withdraw / revoke consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p121.s1",
+     "heading": "M. Your Rights",
+     "core": [
+      "withdraw / revoke consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p132.s1",
+     "heading": "O. Promotional Communications",
+     "core": [
+      "opt out / unsubscribe"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p155.s1",
+     "heading": "TERMS APPLICABLE IF YOU ARE AN INDIAN RESIDENT",
+     "core": [
+      "withdraw / revoke consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p039.s2",
+     "heading": "D. Use of the Platform/Services by Children",
+     "core": [],
+     "support": [
+      "contact / email to withdraw",
+      "consent (co-occurrence)"
+     ],
+     "score": 2
+    }
+   ]
+  },
+  "DPDP3": {
+   "question": "Does the policy publish a Grievance Officer or Data Protection Officer with contact details?",
+   "search_log": {
+    "grievance officer": {
+     "regex": "\\bgrievance(?:s)?\\b",
+     "tier": "core",
+     "sentences_matched": 9
+    },
+    "data protection officer / DPO": {
+     "regex": "\\bdata protection officer\\b|\\bDPO\\b|\\bprivacy officer\\b|\\bnodal officer\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "email address": {
+     "regex": "[\\w.+-]+@[\\w-]+\\.[\\w.]+",
+     "tier": "core",
+     "sentences_matched": 9
+    },
+    "Data Protection Board / complaint": {
+     "regex": "\\bData Protection Board\\b|\\b(?:lodge|file|make) a complaint\\b|\\bsupervisory authority\\b",
+     "tier": "core",
+     "sentences_matched": 2
+    },
+    "contact us": {
+     "regex": "\\bcontact us\\b|\\bhow to contact\\b|\\bpostal address\\b|\\baddress\\b",
+     "tier": "support",
+     "sentences_matched": 23
+    },
+    "officer / named person": {
+     "regex": "\\bofficer\\b|\\bMr\\.?\\b|\\bMs\\.?\\b",
+     "tier": "support",
+     "sentences_matched": 1
+    }
+   },
+   "n_candidates": 18,
+   "candidates": [
+    {
+     "sid": "p143.s1",
+     "heading": "R. Privacy Grievances",
+     "core": [
+      "grievance officer",
+      "email address"
+     ],
+     "support": [
+      "contact us",
+      "officer / named person"
+     ],
+     "score": 8
+    },
+    {
+     "sid": "p164.s1",
+     "heading": "TERMS APPLICABLE IF YOU ARE AN INDIAN RESIDENT",
+     "core": [
+      "email address",
+      "Data Protection Board / complaint"
+     ],
+     "support": [
+      "contact us"
+     ],
+     "score": 7
+    },
+    {
+     "sid": "p030.s1",
+     "heading": "A. General",
+     "core": [
+      "email address"
+     ],
+     "support": [
+      "contact us"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p039.s2",
+     "heading": "D. Use of the Platform/Services by Children",
+     "core": [
+      "email address"
+     ],
+     "support": [
+      "contact us"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p117.s2",
+     "heading": "M. Your Rights",
+     "core": [
+      "grievance officer"
+     ],
+     "support": [
+      "contact us"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p122.s2",
+     "heading": "M. Your Rights",
+     "core": [
+      "grievance officer"
+     ],
+     "support": [
+      "contact us"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p150.s3",
+     "heading": "TERMS APPLICABLE IF YOU ARE AN INDIAN RESIDENT",
+     "core": [
+      "grievance officer"
+     ],
+     "support": [
+      "contact us"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p157.s2",
+     "heading": "TERMS APPLICABLE IF YOU ARE AN INDIAN RESIDENT",
+     "core": [
+      "grievance officer"
+     ],
+     "support": [
+      "contact us"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p019.s2",
+     "heading": "R. Privacy Grievances",
+     "core": [
+      "grievance officer"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p040.s2",
+     "heading": "D. Use of the Platform/Services by Children",
+     "core": [
+      "email address"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p079.s3",
+     "heading": "Because it is necessary in the public interest; or",
+     "core": [
+      "grievance officer"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p089.s4",
+     "heading": "I. How we Use and Share the Information Collected",
+     "core": [
+      "grievance officer"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p110.s2",
+     "heading": "K. Duration for which your Information is Stored",
+     "core": [
+      "email address"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p131.s1",
+     "heading": "O. Promotional Communications",
+     "core": [
+      "email address"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p132.s2",
+     "heading": "O. Promotional Communications",
+     "core": [
+      "email address"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p142.s2",
+     "heading": "R. Privacy Grievances",
+     "core": [
+      "grievance officer"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p164.s2",
+     "heading": "TERMS APPLICABLE IF YOU ARE AN INDIAN RESIDENT",
+     "core": [
+      "Data Protection Board / complaint"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p221.s1",
+     "heading": "V. CONSUMER RIGHTS AND REQUESTS UNDER THE CCPA",
+     "core": [
+      "email address"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "DPDP4": {
+   "question": "Is the notice offered in Indian languages (Eighth Schedule) besides English? Record which languages.",
+   "search_log": {
+    "Eighth Schedule": {
+     "regex": "\\beighth schedule\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "language(s) / translation": {
+     "regex": "\\blanguages?\\b|\\btranslat(?:e|ed|ion|ions)\\b|\\bvernacular\\b|\\bregional\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "Indian language names (English)": {
+     "regex": "\\b(?:Hindi|Bengali|Bangla|Tamil|Telugu|Marathi|Gujarati|Kannada|Malayalam|Odia|Oriya|Punjabi|Assamese|Urdu|Konkani|Manipuri|Nepali|Sanskrit|Sindhi|Kashmiri|Maithili|Santali|Dogri|Bodo)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "Indian language names (native script)": {
+     "regex": "हिन्दी|हिंदी|বাংলা|தமிழ்|తెలుగు|मराठी|ગુજરાતી|ಕನ್ನಡ|മലയാളം|ଓଡ଼ିଆ|ਪੰਜਾਬੀ|অসমীয়া|اردو",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "English": {
+     "regex": "\\bEnglish\\b",
+     "tier": "support",
+     "sentences_matched": 0
+    }
+   },
+   "n_candidates": 1,
+   "candidates": [
+    {
+     "sid": "p058.s1",
+     "heading": "G. Information We Collect",
+     "core": [
+      "language(s) / translation"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  }
+ }
+}

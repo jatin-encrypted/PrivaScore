@@ -1,0 +1,33 @@
+==============================================================================
+EVALUATION SET (APP-350, held-out, non-synthetic, annotated segments only)
+==============================================================================
+policies with >=1 evaluable segment : 51 (of 52 held-out test policies)
+segments evaluated                  : 662
+  First Party Collection/Use         positives  557   negatives  105   prevalence 84.1%
+  Third Party Sharing/Collection     positives  185   negatives  477   prevalence 27.9%
+  both categories positive           : 80
+eval-set sha256: d509922e73191116...
+
+TF-IDF regression check on OPP-115 test: macro F1 = 0.7273 (frozen baseline 0.7273) OK
+
+[BERT probabilities not found: reporting TF-IDF only. Run predict_bert_external.py on the GPU machine.]
+
+==============================================================================
+RESULTS @ threshold 0.5   (P = precision, R = recall)
+==============================================================================
+                          | First Party P  R  F1   | Third Party P  R  F1   | Macro F1 (2 cats)
+------------------------------------------------------------------------------
+TF-IDF (OPP-115 only)     | 0.868 0.813 0.840 | 0.621 0.681 0.649 | 0.7446
+------------------------------------------------------------------------------
+reference: all-positive   | 0.841 1.000 0.914 | 0.279 1.000 0.437 | 0.6753   <- floor implied by prevalence, not a model
+
+THRESHOLD-FREE DIAGNOSTIC (no threshold involved; ranking quality of the raw probabilities)
+                          | First Party AUC  AP    | Third Party AUC  AP
+TF-IDF (OPP-115 only)     |        0.715  0.929 |        0.840  0.705
+chance (AUC 0.5 / AP = prevalence)|        0.500  0.841 |        0.500  0.279
+
+confusion counts (TP / FP / FN / TN)
+  TF-IDF (OPP-115 only)   First Party Collection/Use         453 /   69 /  104 /   36
+  TF-IDF (OPP-115 only)   Third Party Sharing/Collection     126 /   77 /   59 /  400
+
+wrote ext/app350_external_results.json

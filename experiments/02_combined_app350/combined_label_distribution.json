@@ -1,0 +1,47 @@
+{
+  "train": {
+    "total_segments": 5308,
+    "label_counts": {
+      "Other": 1193,
+      "First Party Collection/Use": 3384,
+      "Third Party Sharing/Collection": 1460,
+      "User Choice/Control": 418,
+      "Policy Change": 132,
+      "Data Retention": 104,
+      "Data Security": 243,
+      "User Access, Edit and Deletion": 147,
+      "Do Not Track": 23,
+      "International and Specific Audiences": 230
+    }
+  },
+  "validation": {
+    "total_segments": 1176,
+    "label_counts": {
+      "Policy Change": 29,
+      "Other": 301,
+      "First Party Collection/Use": 720,
+      "Data Retention": 25,
+      "International and Specific Audiences": 51,
+      "Third Party Sharing/Collection": 300,
+      "User Choice/Control": 91,
+      "User Access, Edit and Deletion": 34,
+      "Data Security": 85,
+      "Do Not Track": 4
+    }
+  },
+  "test": {
+    "total_segments": 1244,
+    "label_counts": {
+      "Other": 268,
+      "First Party Collection/Use": 819,
+      "User Choice/Control": 123,
+      "Data Retention": 27,
+      "Third Party Sharing/Collection": 390,
+      "International and Specific Audiences": 72,
+      "Data Security": 47,
+      "Do Not Track": 5,
+      "Policy Change": 31,
+      "User Access, Edit and Deletion": 50
+    }
+  }
+}

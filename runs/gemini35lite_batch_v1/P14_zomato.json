@@ -1,0 +1,1134 @@
+{
+ "policy_id": "P14",
+ "policy_name": "zomato",
+ "scope": "all_users",
+ "mode": "batch",
+ "text_sha256": "2f16a4a9b47863d8e315bd405dbfb6297069324a47a374ea8878a1ffd120499a",
+ "n_sentences": 282,
+ "batch_calls": [
+  {
+   "attempt": 1,
+   "flags": [
+    "G1",
+    "G2",
+    "G3",
+    "G4",
+    "G5",
+    "G6",
+    "G7",
+    "AI1",
+    "AI2",
+    "AI4",
+    "AI5",
+    "DPDP1",
+    "DPDP2",
+    "DPDP3",
+    "DPDP4"
+   ],
+   "cached": true,
+   "n_sentences": 156,
+   "raw": "{\"answers\": [{\"flag\": \"G1\", \"presence\": \"Present\", \"state\": \"ED\", \"evidence\": [{\"id\": \"p020.s1\", \"quote\": \"Personal information: Name, address, email address, postal code, password and other information you may provide with your account, such as your gender, mobile phone number, date of birth, anniversary date, user bio, nationality and website.\"}, {\"id\": \"p038.s2\", \"quote\": \"This includes IP address, device type, operating system, browser type and version, unique device identifiers\"}, {\"id\": \"p051.s1\", \"quote\": \"We may also obtain information about you from other sources such as business partners (including restaurant, payment, and event partners), marketing and advertising partners\"}], \"rationale\": \"The company collects a wide range of personal information including account details, device/usage data, and data from third-party sources.\"}, {\"flag\": \"G2\", \"presence\": \"Present\", \"state\": \"CD\", \"evidence\": [{\"id\": \"p042.s1\", \"quote\": \"We, and third parties with whom we partner, may use cookies, pixel tags, web beacons, mobile device IDs, \\\"flash cookies\\\" and other similar files or technologies to collect and store information in respect to your use of the Services and third party websites.\"}, {\"id\": \"p061.s3\", \"quote\": \"We also allow ad networks (e.g., Google Analytics, DoubleClick) to serve tailored ads directly on our Services using their own tracking technologies.\"}, {\"id\": \"p061.s5\", \"quote\": \"Opting out of tailored advertising will not stop ads altogether, only personalization.\"}], \"rationale\": \"The company allows third parties to collect data for tailored advertising but describes opt-out mechanisms for personalization.\"}, {\"flag\": \"G3\", \"presence\": \"Present\", \"state\": \"ED\", \"evidence\": [{\"id\": \"p058.s1\", \"quote\": \"personalize your experience by offering customized content, deals, and other services based on your preferences and interests, generate reports, conduct data analysis, and research user base and usage patterns\"}, {\"id\": \"p065.s4\", \"quote\": \"These AI tools may analyze Personal Data to identify patterns, detect anomalies, and provide personalized recommendations.\"}], \"rationale\": \"The company profiles users to personalize experiences and uses AI tools to analyze data without describing a user control to stop profiling.\"}, {\"flag\": \"G4\", \"presence\": \"Present\", \"state\": \"CD\", \"evidence\": [{\"id\": \"p063.s3\", \"quote\": \"These recordings and associated data may be retained for as long as reasonably necessary to fulfill the purposes outlined above, comply with legal obligations, enforce our agreements, or as otherwise required for our legitimate business needs.\"}], \"rationale\": \"Retention is described using purpose-based criteria rather than concrete time periods for user data and interactions.\"}, {\"flag\": \"G5\", \"presence\": \"Present\", \"state\": \"CD\", \"evidence\": [{\"id\": \"p092.s1\", \"quote\": \"If you would like to permanently delete your account, please use the \\\"Contact Us\\\" link at the bottom of every page (also located here).\"}, {\"id\": \"p096.s2\", \"quote\": \"Your right to review, update, correct, and delete your information is subject to our records retention policies and applicable law, including any statutory retention requirements.\"}], \"rationale\": \"Rights to access, update, and delete are provided but are subject to legal limitations, record retention policies, and deletion via account termination.\"}, {\"flag\": \"G6\", \"presence\": \"Present\", \"state\": \"ED\", \"evidence\": [{\"id\": \"p089.s1\", \"quote\": \"Eternal may process and retain your personal information on its servers in India where its data centers are located, and/or on the servers of its third parties (in or outside India), having contractual relationships with Eternal.\"}], \"rationale\": \"Data may be transferred and stored outside India with third parties, and no specific adequacy decision or standard contractual clause safeguard is named.\"}, {\"flag\": \"G7\", \"presence\": \"Present\", \"state\": \"ED\", \"evidence\": [{\"id\": \"p011.s1\", \"quote\": \"Permissible Age: By using the Services, you represent and warrant that you are either at least 18 years of age or have the express permission of a parent or legal guardian to use the Services.\"}, {\"id\": \"p031.s1\", \"quote\": \"Our Services are generally not directed to or intended for use by individuals under the age of 18 (\\\"Minors\\\"), and we do not knowingly collect personal information from Minors for the purposes of creating an account or for general use of our platform.\"}], \"rationale\": \"The service is restricted to those 18+ or requires parental permission for minors, and protections cover under-18s.\"}, {\"flag\": \"AI1\", \"presence\": \"Present\", \"state\": \"CD\", \"evidence\": [{\"id\": \"p065.s3\", \"quote\": \"We may utilize artificial intelligence (AI) tools and technologies to process Personal Data in order to enhance our services, improve user experience, and ensure the security and integrity of our operations.\"}, {\"id\": \"p065.s4\", \"quote\": \"These AI tools may analyze Personal Data to identify patterns, detect anomalies, and provide personalized recommendations.\"}], \"rationale\": \"The company uses AI tools to process personal data to enhance services and improve user experience, which constitutes training or model usage for specific operational purposes.\"}, {\"flag\": \"AI2\", \"presence\": \"Absent\", \"state\": null, \"evidence\": [], \"rationale\": \"There is no mention of a self-serve opt-out control to stop the use of personal data for AI training.\"}, {\"flag\": \"AI4\", \"presence\": \"Present\", \"state\": \"ED\", \"evidence\": [{\"id\": \"p065.s1\", \"quote\": \"We may anonymize and/or de-identify information collected from you through the Services or via other means, including via the use of third-party web analytic tools as described below.\"}, {\"id\": \"p065.s2\", \"quote\": \"As a result, our use and disclosure of aggregated and/or de-identified information is not restricted by this Privacy Policy, and it may be used and disclosed to others without limitation.\"}], \"rationale\": \"De-identified and aggregated data may be used and disclosed with"
+  }
+ ],
+ "flags": {
+  "G1": {
+   "flag": "G1",
+   "flag_key": "first_party_collection_scope",
+   "search_log": {
+    "we collect": 25,
+    "information/data we collect": 15,
+    "collected automatically": 1,
+    "you provide": 15,
+    "location": 5,
+    "device / identifiers": 5,
+    "content / messages": 25,
+    "contacts": 14,
+    "sensitive / biometric / financial": 3,
+    "from other sources": 6,
+    "usage / log data": 2
+   },
+   "n_candidates": 43,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "ED",
+   "evidence": [
+    {
+     "id": "p020.s1",
+     "quote": "Personal information: Name, address, email address, postal code, password and other information you may provide with your account, such as your gender, mobile phone number, date of birth, anniversary date, user bio, nationality and website.",
+     "status": "exact",
+     "start": 4009,
+     "end": 4249,
+     "heading": "Information You Provide to Us​"
+    },
+    {
+     "id": "p038.s2",
+     "quote": "This includes IP address, device type, operating system, browser type and version, unique device identifiers",
+     "status": "exact",
+     "start": 13059,
+     "end": 13167,
+     "heading": "Information We Collect Through Automatic Data Collection Technologies​"
+    },
+    {
+     "id": "p051.s1",
+     "quote": "We may also obtain information about you from other sources such as business partners (including restaurant, payment, and event partners), marketing and advertising partners",
+     "status": "exact",
+     "start": 18819,
+     "end": 18992,
+     "heading": "Information from Third Parties​"
+    }
+   ],
+   "status": "verified",
+   "rationale": "The company collects a wide range of personal information including account details, device/usage data, and data from third-party sources.",
+   "attempts": 1,
+   "shown": [
+    "p013.s1",
+    "p014.s1",
+    "p015.s2",
+    "p015.s3",
+    "p019.s1",
+    "p020.s1",
+    "p021.s1",
+    "p022.s1",
+    "p035.s1",
+    "p036.s1",
+    "p053.s1",
+    "p053.s2",
+    "p054.s1",
+    "p055.s1",
+    "p055.s3",
+    "p056.s1",
+    "p066.s1",
+    "p066.s2",
+    "p067.s1",
+    "p068.s1",
+    "p068.s2",
+    "p069.s1",
+    "p098.s3",
+    "p099.s1",
+    "p105.s1",
+    "p106.s1",
+    "p118.s2",
+    "p119.s1",
+    "p125.s2",
+    "p125.s3",
+    "p129.s3",
+    "p129.s4",
+    "p135.s1",
+    "p136.s1",
+    "p138.s1",
+    "p139.s1",
+    "p140.s1",
+    "p141.s1",
+    "p142.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": true,
+     "problems": []
+    }
+   ]
+  },
+  "G2": {
+   "flag": "G2",
+   "flag_key": "third_party_advertising_tracking",
+   "search_log": {
+    "advertis*": 15,
+    "targeted / interest-based / behavioural ads": 0,
+    "sell / sale of data": 1,
+    "pixel / SDK / tracking tech": 6,
+    "ad / marketing partners": 2,
+    "opt-out of sale/ads / GPC": 0,
+    "cookies": 7,
+    "analytics provider": 3,
+    "share with third parties": 5,
+    "marketing": 10
+   },
+   "n_candidates": 20,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "CD",
+   "evidence": [
+    {
+     "id": "p042.s1",
+     "quote": "We, and third parties with whom we partner, may use cookies, pixel tags, web beacons, mobile device IDs, \"flash cookies\" and other similar files or technologies to collect and store information in respect to your use of the Services and third party websites.",
+     "status": "exact",
+     "start": 15541,
+     "end": 15799,
+     "heading": "Information We Collect Through Automatic Data Collection Technologies​"
+    },
+    {
+     "id": "p061.s3",
+     "quote": "We also allow ad networks (e.g., Google Analytics, DoubleClick) to serve tailored ads directly on our Services using their own tracking technologies.",
+     "status": "exact",
+     "start": 23239,
+     "end": 23388,
+     "heading": "How we use the information we collect​"
+    },
+    {
+     "id": "p061.s5",
+     "quote": "Opting out of tailored advertising will not stop ads altogether, only personalization.",
+     "status": "exact",
+     "start": 23517,
+     "end": 23603,
+     "heading": "How we use the information we collect​"
+    }
+   ],
+   "status": "verified",
+   "rationale": "The company allows third parties to collect data for tailored advertising but describes opt-out mechanisms for personalization.",
+   "attempts": 1,
+   "shown": [
+    "p017.s1",
+    "p018.s1",
+    "p023.s1",
+    "p024.s1",
+    "p038.s2",
+    "p039.s1",
+    "p042.s1",
+    "p042.s2",
+    "p042.s3",
+    "p042.s4",
+    "p043.s1",
+    "p051.s1",
+    "p052.s1",
+    "p053.s2",
+    "p054.s1",
+    "p059.s1",
+    "p060.s1",
+    "p060.s2",
+    "p060.s4",
+    "p060.s5",
+    "p060.s6",
+    "p061.s1",
+    "p061.s2",
+    "p061.s3",
+    "p061.s4",
+    "p061.s5",
+    "p061.s6",
+    "p071.s1",
+    "p072.s1",
+    "p073.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": true,
+     "problems": []
+    }
+   ]
+  },
+  "G3": {
+   "flag": "G3",
+   "flag_key": "profiling_automated_decisions",
+   "search_log": {
+    "profiling": 4,
+    "automated decision": 0,
+    "infer / inference": 0,
+    "legal or similarly significant": 0,
+    "scoring": 0,
+    "personalise / recommend": 12,
+    "interests / preferences / segments": 12,
+    "predict / analyse behaviour": 0
+   },
+   "n_candidates": 5,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "ED",
+   "evidence": [
+    {
+     "id": "p058.s1",
+     "quote": "personalize your experience by offering customized content, deals, and other services based on your preferences and interests, generate reports, conduct data analysis, and research user base and usage patterns",
+     "status": "exact",
+     "start": 21184,
+     "end": 21393,
+     "heading": "How we use the information we collect​"
+    },
+    {
+     "id": "p065.s4",
+     "quote": "These AI tools may analyze Personal Data to identify patterns, detect anomalies, and provide personalized recommendations.",
+     "status": "exact",
+     "start": 26455,
+     "end": 26577,
+     "heading": "How we use the information we collect​"
+    }
+   ],
+   "status": "verified",
+   "rationale": "The company profiles users to personalize experiences and uses AI tools to analyze data without describing a user control to stop profiling.",
+   "attempts": 1,
+   "shown": [
+    "p020.s2",
+    "p020.s3",
+    "p021.s1",
+    "p022.s1",
+    "p034.s1",
+    "p034.s2",
+    "p049.s1",
+    "p050.s1",
+    "p058.s1",
+    "p059.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": true,
+     "problems": []
+    }
+   ]
+  },
+  "G4": {
+   "flag": "G4",
+   "flag_key": "data_retention_specificity",
+   "search_log": {
+    "retain / retention": 7,
+    "keep / store for": 2,
+    "as long as necessary": 2,
+    "numeric period": 1,
+    "indefinitely": 2,
+    "delete after / deletion": 5,
+    "legal obligation": 7
+   },
+   "n_candidates": 12,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "CD",
+   "evidence": [
+    {
+     "id": "p063.s3",
+     "quote": "These recordings and associated data may be retained for as long as reasonably necessary to fulfill the purposes outlined above, comply with legal obligations, enforce our agreements, or as otherwise required for our legitimate business needs.",
+     "status": "exact",
+     "start": 24852,
+     "end": 25095,
+     "heading": "How we use the information we collect​"
+    }
+   ],
+   "status": "verified",
+   "rationale": "Retention is described using purpose-based criteria rather than concrete time periods for user data and interactions.",
+   "attempts": 1,
+   "shown": [
+    "p009.s2",
+    "p009.s3",
+    "p011.s1",
+    "p011.s2",
+    "p063.s1",
+    "p063.s2",
+    "p063.s3",
+    "p063.s4",
+    "p066.s4",
+    "p066.s5",
+    "p071.s1",
+    "p072.s1",
+    "p073.s2",
+    "p074.s1",
+    "p074.s3",
+    "p074.s4",
+    "p089.s1",
+    "p090.s1",
+    "p092.s1",
+    "p092.s2",
+    "p096.s2",
+    "p097.s1",
+    "p131.s8",
+    "p131.s9"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": true,
+     "problems": []
+    }
+   ]
+  },
+  "G5": {
+   "flag": "G5",
+   "flag_key": "user_rights_access_deletion",
+   "search_log": {
+    "right to / your rights": 7,
+    "access": 1,
+    "correct / rectify / update": 3,
+    "delete / erase": 4,
+    "portability / export": 0,
+    "object / restrict": 0,
+    "nominate (DPDP)": 0,
+    "jurisdiction limits": 2
+   },
+   "n_candidates": 11,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "CD",
+   "evidence": [
+    {
+     "id": "p092.s1",
+     "quote": "If you would like to permanently delete your account, please use the \"Contact Us\" link at the bottom of every page (also located here).",
+     "status": "exact",
+     "start": 35941,
+     "end": 36076,
+     "heading": "Your Information​"
+    },
+    {
+     "id": "p096.s2",
+     "quote": "Your right to review, update, correct, and delete your information is subject to our records retention policies and applicable law, including any statutory retention requirements.",
+     "status": "exact",
+     "start": 37089,
+     "end": 37268,
+     "heading": "Your Information​"
+    }
+   ],
+   "status": "verified",
+   "rationale": "Rights to access, update, and delete are provided but are subject to legal limitations, record retention policies, and deletion via account termination.",
+   "attempts": 1,
+   "shown": [
+    "p034.s3",
+    "p035.s1",
+    "p053.s1",
+    "p053.s2",
+    "p054.s1",
+    "p063.s1",
+    "p063.s2",
+    "p076.s1",
+    "p076.s2",
+    "p092.s1",
+    "p092.s2",
+    "p092.s3",
+    "p092.s4",
+    "p093.s1",
+    "p094.s1",
+    "p096.s2",
+    "p097.s1",
+    "p125.s1",
+    "p125.s2",
+    "p129.s1",
+    "p129.s2"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": true,
+     "problems": []
+    }
+   ]
+  },
+  "G6": {
+   "flag": "G6",
+   "flag_key": "international_data_transfers",
+   "search_log": {
+    "transfer": 1,
+    "cross-border / international": 1,
+    "stored / processed in a country": 0,
+    "safeguard mechanisms": 0,
+    "localisation": 0,
+    "servers": 1,
+    "jurisdiction": 1
+   },
+   "n_candidates": 2,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "ED",
+   "evidence": [
+    {
+     "id": "p089.s1",
+     "quote": "Eternal may process and retain your personal information on its servers in India where its data centers are located, and/or on the servers of its third parties (in or outside India), having contractual relationships with Eternal.",
+     "status": "exact",
+     "start": 35308,
+     "end": 35537,
+     "heading": "Data Storage​"
+    }
+   ],
+   "status": "verified",
+   "rationale": "Data may be transferred and stored outside India with third parties, and no specific adequacy decision or standard contractual clause safeguard is named.",
+   "attempts": 1,
+   "shown": [
+    "p072.s1",
+    "p073.s1",
+    "p089.s1",
+    "p090.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": true,
+     "problems": []
+    }
+   ]
+  },
+  "G7": {
+   "flag": "G7",
+   "flag_key": "childrens_data_safeguards",
+   "search_log": {
+    "child / children / minor": 12,
+    "age threshold": 2,
+    "parent / guardian / consent": 5,
+    "COPPA / age verification": 0,
+    "knowingly collect": 1
+   },
+   "n_candidates": 14,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "ED",
+   "evidence": [
+    {
+     "id": "p011.s1",
+     "quote": "Permissible Age: By using the Services, you represent and warrant that you are either at least 18 years of age or have the express permission of a parent or legal guardian to use the Services.",
+     "status": "exact",
+     "start": 1862,
+     "end": 2054,
+     "heading": "Applicability and Scope​"
+    },
+    {
+     "id": "p031.s1",
+     "quote": "Our Services are generally not directed to or intended for use by individuals under the age of 18 (\"Minors\"), and we do not knowingly collect personal information from Minors for the purposes of creating an account or for general use of our platform.",
+     "status": "exact",
+     "start": 10780,
+     "end": 11030,
+     "heading": "Data of Minors​"
+    }
+   ],
+   "status": "verified",
+   "rationale": "The service is restricted to those 18+ or requires parental permission for minors, and protections cover under-18s.",
+   "attempts": 1,
+   "shown": [
+    "p011.s1",
+    "p011.s2",
+    "p012.s1",
+    "p030.s1",
+    "p031.s1",
+    "p031.s2",
+    "p031.s3",
+    "p031.s4",
+    "p032.s1",
+    "p033.s1",
+    "p034.s1",
+    "p034.s2",
+    "p034.s3",
+    "p035.s1",
+    "p070.s1",
+    "p070.s2",
+    "p137.s1",
+    "p138.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": true,
+     "problems": []
+    }
+   ]
+  },
+  "AI1": {
+   "flag": "AI1",
+   "flag_key": "ai_model_training_on_user_content",
+   "search_log": {
+    "train / training": 3,
+    "model(s)": 2,
+    "machine learning": 0,
+    "artificial intelligence / AI": 10,
+    "improve / develop services": 5,
+    "content / inputs / outputs": 20,
+    "research": 3
+   },
+   "n_candidates": 16,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "CD",
+   "evidence": [
+    {
+     "id": "p065.s3",
+     "quote": "We may utilize artificial intelligence (AI) tools and technologies to process Personal Data in order to enhance our services, improve user experience, and ensure the security and integrity of our operations.",
+     "status": "exact",
+     "start": 26247,
+     "end": 26454,
+     "heading": "How we use the information we collect​"
+    },
+    {
+     "id": "p065.s4",
+     "quote": "These AI tools may analyze Personal Data to identify patterns, detect anomalies, and provide personalized recommendations.",
+     "status": "exact",
+     "start": 26455,
+     "end": 26577,
+     "heading": "How we use the information we collect​"
+    }
+   ],
+   "status": "verified",
+   "rationale": "The company uses AI tools to process personal data to enhance services and improve user experience, which constitutes training or model usage for specific operational purposes.",
+   "attempts": 1,
+   "shown": [
+    "p022.s3",
+    "p023.s1",
+    "p029.s2",
+    "p029.s3",
+    "p042.s2",
+    "p042.s3",
+    "p058.s1",
+    "p059.s1",
+    "p063.s1",
+    "p063.s2",
+    "p065.s3",
+    "p065.s4",
+    "p066.s1",
+    "p105.s1",
+    "p106.s1",
+    "p130.s1",
+    "p131.s1",
+    "p131.s2",
+    "p131.s3",
+    "p131.s4",
+    "p131.s5",
+    "p131.s6",
+    "p131.s7",
+    "p131.s8",
+    "p148.s1",
+    "p149.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": true,
+     "problems": []
+    }
+   ]
+  },
+  "AI2": {
+   "flag": "AI2",
+   "flag_key": "ai_training_opt_out_control",
+   "search_log": {
+    "opt out": 3,
+    "turn off / disable": 0,
+    "choose whether / your choices": 0,
+    "settings / controls": 17,
+    "train / model (co-occurrence)": 5,
+    "object / request": 3
+   },
+   "n_candidates": 5,
+   "mode": "batch",
+   "presence": "Absent",
+   "state": "NS",
+   "evidence": [],
+   "status": "absent_unverifiable",
+   "rationale": "There is no mention of a self-serve opt-out control to stop the use of personal data for AI training.",
+   "attempts": 1,
+   "shown": [
+    "p022.s3",
+    "p023.s1",
+    "p058.s1",
+    "p059.s1",
+    "p061.s6",
+    "p062.s1",
+    "p079.s2",
+    "p080.s1",
+    "p091.s3",
+    "p092.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": true,
+     "problems": []
+    }
+   ]
+  },
+  "AI3": {
+   "flag": "AI3",
+   "flag_key": "ai_human_review_of_chats",
+   "search_log": {
+    "human review": 0,
+    "reviewers / annotators / moderators": 0,
+    "staff may access / review content": 0,
+    "review content / conversations": 0,
+    "we may access / review / monitor content": 0,
+    "flagged / safety / abuse": 8,
+    "support / feedback": 7
+   },
+   "n_candidates": 0,
+   "mode": "batch",
+   "presence": "Absent",
+   "state": "NS",
+   "evidence": [],
+   "status": "no_candidates",
+   "rationale": "no sentence matched the flag's search terms; absence not verified",
+   "attempts": 0,
+   "shown": []
+  },
+  "AI4": {
+   "flag": "AI4",
+   "flag_key": "deidentification_training_carveout",
+   "search_log": {
+    "de-identified": 2,
+    "anonymised": 1,
+    "aggregated": 1,
+    "pseudonymised": 0,
+    "no longer identifies": 0,
+    "share / any purpose": 71
+   },
+   "n_candidates": 2,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "ED",
+   "evidence": [
+    {
+     "id": "p065.s1",
+     "quote": "We may anonymize and/or de-identify information collected from you through the Services or via other means, including via the use of third-party web analytic tools as described below.",
+     "status": "exact",
+     "start": 25875,
+     "end": 26058,
+     "heading": "How we use the information we collect​"
+    },
+    {
+     "id": "p065.s2",
+     "quote": "As a result, our use and disclosure of aggregated and/or de-identified information is not restricted by this Privacy Policy, and it may be used and disclosed to others without limitation.",
+     "status": "exact",
+     "start": 26059,
+     "end": 26246,
+     "heading": "How we use the information we collect​"
+    }
+   ],
+   "status": "verified",
+   "rationale": "De-identified and aggregated data may be used and disclosed without restriction.",
+   "attempts": 1,
+   "shown": [
+    "p065.s1",
+    "p065.s2",
+    "p065.s3"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": true,
+     "problems": []
+    }
+   ]
+  },
+  "AI5": {
+   "flag": "AI5",
+   "flag_key": "third_party_ai_subprocessors",
+   "search_log": {
+    "AI / model providers": 2,
+    "named AI vendors": 0,
+    "third-party AI / models": 0,
+    "integrations / connectors / plugins": 7,
+    "license content / data licensing": 0,
+    "sub-processors / service providers": 14,
+    "AI features": 1
+   },
+   "n_candidates": 8,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "CD",
+   "evidence": [
+    {
+     "id": "p131.s5",
+     "quote": "Nugget leverages third-party Large Language Model (LLM) services via API integrations.",
+     "status": "exact",
+     "start": 46197,
+     "end": 46283,
+     "heading": "Nugget AI​"
+    },
+    {
+     "id": "p131.s6",
+     "quote": "Consequently, data submitted by the Client through the Nugget interface is programmatically transmitted to these external LLM providers for processing necessary to generate responses or perform tasks as directed by the Client's configuration.",
+     "status": "exact",
+     "start": 46284,
+     "end": 46526,
+     "heading": "Nugget AI​"
+    }
+   ],
+   "status": "verified",
+   "rationale": "User content processed via business client integrations is sent to external LLM providers under specified contractual arrangements and configurations.",
+   "attempts": 1,
+   "shown": [
+    "p064.s1",
+    "p064.s2",
+    "p065.s1",
+    "p120.s1",
+    "p121.s1",
+    "p131.s1",
+    "p131.s2",
+    "p131.s3",
+    "p131.s4",
+    "p131.s5",
+    "p131.s6",
+    "p131.s7",
+    "p131.s8"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": true,
+     "problems": []
+    }
+   ]
+  },
+  "DPDP1": {
+   "flag": "DPDP1",
+   "flag_key": "dpdp_unambiguous_affirmative_consent",
+   "search_log": {
+    "by using / visiting you agree": 3,
+    "consent": 14,
+    "agree / accept": 5,
+    "DPDP / Indian law": 0,
+    "legal basis": 0,
+    "notice / checkbox / sign-up": 4,
+    "explicit / affirmative / freely": 4
+   },
+   "n_candidates": 15,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "CD",
+   "evidence": [
+    {
+     "id": "p009.s2",
+     "quote": "By accessing or using Eternal’s Services and/or registering for an account with Eternal or any of its affiliates, you agree to this privacy policy and you provide your informed consent to the collection, use, disclosure, retention, and protection of your personal information as described here.",
+     "status": "exact",
+     "start": 1234,
+     "end": 1528,
+     "heading": "Applicability and Scope​"
+    }
+   ],
+   "status": "verified",
+   "rationale": "Consent is obtained through browsewrap terms and conditions upon accessing or using the services.",
+   "attempts": 1,
+   "shown": [
+    "p009.s2",
+    "p009.s3",
+    "p021.s1",
+    "p022.s1",
+    "p028.s2",
+    "p029.s1",
+    "p029.s2",
+    "p029.s3",
+    "p030.s1",
+    "p033.s1",
+    "p034.s1",
+    "p034.s3",
+    "p035.s1",
+    "p043.s1",
+    "p043.s2",
+    "p060.s6",
+    "p061.s1",
+    "p066.s5",
+    "p067.s1",
+    "p073.s1",
+    "p073.s2",
+    "p081.s1",
+    "p082.s1",
+    "p085.s2",
+    "p086.s1",
+    "p101.s1",
+    "p102.s1",
+    "p129.s6",
+    "p130.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": true,
+     "problems": []
+    }
+   ]
+  },
+  "DPDP2": {
+   "flag": "DPDP2",
+   "flag_key": "dpdp_easy_consent_withdrawal",
+   "search_log": {
+    "withdraw / revoke consent": 0,
+    "consent manager": 0,
+    "opt out / unsubscribe": 4,
+    "settings / dashboard": 11,
+    "contact / email to withdraw": 17,
+    "delete account": 1,
+    "consent (co-occurrence)": 12
+   },
+   "n_candidates": 8,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "CD",
+   "evidence": [
+    {
+     "id": "p092.s1",
+     "quote": "If you would like to permanently delete your account, please use the \"Contact Us\" link at the bottom of every page (also located here).",
+     "status": "exact",
+     "start": 35941,
+     "end": 36076,
+     "heading": "Your Information​"
+    }
+   ],
+   "status": "verified",
+   "rationale": "Consent withdrawal or account deletion requires contacting the company rather than a straightforward self-serve preference toggle.",
+   "attempts": 1,
+   "shown": [
+    "p021.s1",
+    "p022.s1",
+    "p028.s2",
+    "p029.s1",
+    "p059.s1",
+    "p060.s1",
+    "p061.s6",
+    "p062.s1",
+    "p079.s2",
+    "p080.s1",
+    "p091.s2",
+    "p091.s3",
+    "p092.s1",
+    "p092.s2"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": true,
+     "problems": []
+    }
+   ]
+  },
+  "DPDP3": {
+   "flag": "DPDP3",
+   "flag_key": "dpdp_grievance_dpo_contact",
+   "search_log": {
+    "grievance officer": 1,
+    "data protection officer / DPO": 1,
+    "email address": 1,
+    "Data Protection Board / complaint": 0,
+    "contact us": 12,
+    "officer / named person": 1
+   },
+   "n_candidates": 2,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "ED",
+   "evidence": [
+    {
+     "id": "p133.s1",
+     "quote": "If you have any queries relating to the processing/ usage of information provided by you or regarding Eternal’s Privacy Policy, you may email the Data Protection Officer (DPO) at privacy@zomato.com .",
+     "status": "exact",
+     "start": 47059,
+     "end": 47258,
+     "heading": "Contact Us​"
+    }
+   ],
+   "status": "verified",
+   "rationale": "A Data Protection Officer is designated with a direct email contact address provided.",
+   "attempts": 1,
+   "shown": [
+    "p024.s1",
+    "p024.s2",
+    "p133.s1",
+    "p134.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": true,
+     "problems": []
+    }
+   ]
+  },
+  "DPDP4": {
+   "flag": "DPDP4",
+   "flag_key": "dpdp_eighth_schedule_languages",
+   "search_log": {
+    "Eighth Schedule": 0,
+    "language(s) / translation": 2,
+    "Indian language names (English)": 0,
+    "Indian language names (native script)": 0,
+    "English": 0
+   },
+   "n_candidates": 2,
+   "mode": "batch",
+   "presence": "Absent",
+   "state": "NS",
+   "evidence": [],
+   "status": "absent_unverifiable",
+   "rationale": "The policy does not state that it is available in Eighth Schedule Indian languages.",
+   "attempts": 1,
+   "shown": [
+    "p038.s2",
+    "p039.s1",
+    "p131.s5",
+    "p131.s6"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": true,
+     "problems": []
+    }
+   ]
+  }
+ },
+ "scores": {
+  "scoring_version": "1.0",
+  "risk_index": 48.2759,
+  "risk_index_display": 48,
+  "disclosure_quality": 75.0,
+  "disclosure_quality_display": 75,
+  "risk_points": 14.0,
+  "max_risk_points": 29.0,
+  "quality_points": 22.5,
+  "max_quality_points": 30.0,
+  "n_applicable": 15,
+  "n_not_stated": 2,
+  "per_flag": [
+   {
+    "flag": "G1",
+    "state": "ED",
+    "weight": 1.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 1.0,
+    "max_risk_points": 1.0,
+    "quality_points": 2.0
+   },
+   {
+    "flag": "G2",
+    "state": "CD",
+    "weight": 3.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 1.5,
+    "max_risk_points": 3.0,
+    "quality_points": 1.5
+   },
+   {
+    "flag": "G3",
+    "state": "ED",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 2.0,
+    "max_risk_points": 2.0,
+    "quality_points": 2.0
+   },
+   {
+    "flag": "G4",
+    "state": "CD",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 1.0,
+    "max_risk_points": 2.0,
+    "quality_points": 1.5
+   },
+   {
+    "flag": "G5",
+    "state": "CD",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 1.0,
+    "max_risk_points": 2.0,
+    "quality_points": 1.5
+   },
+   {
+    "flag": "G6",
+    "state": "ED",
+    "weight": 1.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 1.0,
+    "max_risk_points": 1.0,
+    "quality_points": 2.0
+   },
+   {
+    "flag": "G7",
+    "state": "ED",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 0.0,
+    "max_risk_points": 2.0,
+    "quality_points": 2.0
+   },
+   {
+    "flag": "AI1",
+    "state": "CD",
+    "weight": 3.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 1.5,
+    "max_risk_points": 3.0,
+    "quality_points": 1.5
+   },
+   {
+    "flag": "AI2",
+    "state": "NS",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 0.0,
+    "max_risk_points": 2.0,
+    "quality_points": 0.0
+   },
+   {
+    "flag": "AI3",
+    "state": "NS",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 0.0,
+    "max_risk_points": 2.0,
+    "quality_points": 0.0
+   },
+   {
+    "flag": "AI4",
+    "state": "ED",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 2.0,
+    "max_risk_points": 2.0,
+    "quality_points": 2.0
+   },
+   {
+    "flag": "AI5",
+    "state": "CD",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 1.0,
+    "max_risk_points": 2.0,
+    "quality_points": 1.5
+   },
+   {
+    "flag": "DPDP1",
+    "state": "CD",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 1.0,
+    "max_risk_points": 2.0,
+    "quality_points": 1.5
+   },
+   {
+    "flag": "DPDP2",
+    "state": "CD",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 1.0,
+    "max_risk_points": 2.0,
+    "quality_points": 1.5
+   },
+   {
+    "flag": "DPDP3",
+    "state": "ED",
+    "weight": 1.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 0.0,
+    "max_risk_points": 1.0,
+    "quality_points": 2.0
+   },
+   {
+    "flag": "DPDP4",
+    "state": "NS",
+    "weight": 0.0,
+    "applicable": false,
+    "reason": "informational flag (weight 0)",
+    "risk_points": 0.0,
+    "max_risk_points": 0.0,
+    "quality_points": 0.0
+   }
+  ],
+  "complete": true,
+  "rejected_flags_scored_as_UN": []
+ },
+ "policy_key": "P14_zomato",
+ "cohort": "india"
+}

@@ -1,0 +1,1039 @@
+{
+ "policy_id": "P12",
+ "policy_name": "phonepe",
+ "scope": "all_users",
+ "mode": "batch",
+ "text_sha256": "3e9c49e54dea82e72437ae128669325428f7fe77ab9841c4096d5099ff0d0ec1",
+ "n_sentences": 332,
+ "batch_calls": [
+  {
+   "attempt": 1,
+   "flags": [
+    "G1",
+    "G2",
+    "G3",
+    "G4",
+    "G5",
+    "G6",
+    "G7",
+    "AI1",
+    "AI2",
+    "AI4",
+    "AI5",
+    "DPDP1",
+    "DPDP2",
+    "DPDP3",
+    "DPDP4"
+   ],
+   "cached": false,
+   "n_sentences": 131,
+   "raw": "{\n  \"answers\": [\n    {\n      \"flag\": \"G1\",\n      \"presence\": \"Present\",\n      \"state\": \"ED\",\n      \"evidence\": [\n        {\n          \"id\": \"p031.s1\",\n          \"quote\": \"your device details such as device identifier, internet bandwidth, mobile device model, browser plug-ins, and cookies or similar technologies that may identify your browser/PhonePe Applications and plug-ins, and time spent, IP address and location\"\n        },\n        {\n          \"id\": \"p032.s1\",\n          \"quote\": \"your Short Messaging Service (SMS(es)) that are stored on your device for the purposes of, including but not limited to, registering you and your device for payments or investment services, OTPs for logins and payments, enhancing your security, bill payments and recharge reminders, and any other legitimate uses with your explicit consent\"\n        },\n        {\n          \"id\": \"p033.s1\",\n          \"quote\": \"your health and lifestyle-related information, including your physical activity, when you opt for health-tracking services\"\n        },\n        {\n          \"id\": \"p034.s1\",\n          \"quote\": \"video, photo, audio, and location, based on your explicit consent through your app permissions (camera, microphone, location) when you opt for a product whose core functionality can be delivered only after accessing your app permissions, or where access is as per regulatory requirements, e.g., video-based KYC, self-inspection of your vehicle, and onboarding\"\n        }\n      ],\n      \"rationale\": \"The company collects extensive personal data beyond basic contact details, including device/usage data, SMS, health/lifestyle data, location, media/audio/video, and financial or KYC data.\"\n    },\n    {\n      \"flag\": \"G2\",\n      \"presence\": \"Present\",\n      \"state\": \"ED\",\n      \"evidence\": [\n        {\n          \"id\": \"p065.s1\",\n          \"quote\": \"to inform you about online and offline offers, products, services, and updates; customizing and improving your experience by marketing, presenting advertising, and offering tailored products and offers\"\n        }\n      ],\n      \"rationale\": \"The policy discloses sharing or processing data for presenting advertising and marketing without describing a first-party opt-out mechanism.\"\n    },\n    {\n      \"flag\": \"G3\",\n      \"presence\": \"Present\",\n      \"state\": \"ED\",\n      \"evidence\": [\n        {\n          \"id\": \"p065.s1\",\n          \"quote\": \"customizing and improving your experience by marketing, presenting advertising, and offering tailored products and offers\"\n        }\n      ],\n      \"rationale\": \"The policy describes profiling or tailoring products and offers for marketing and advertising with no user controls specified.\"\n    },\n    {\n      \"flag\": \"G4\",\n      \"presence\": \"Present\",\n      \"state\": \"CD\",\n      \"evidence\": [\n        {\n          \"id\": \"p097.s1\",\n          \"quote\": \"To the extent applicable, we store Personal Information within India and retain it in accordance with applicable laws and for a period no longer than it is required for the purpose for which it was collected.\"\n        }\n      ],\n      \"rationale\": \"Retention is specified based on purposes and applicable legal requirements rather than concrete numeric time periods.\"\n    },\n    {\n      \"flag\": \"G5\",\n      \"presence\": \"Present\",\n      \"state\": \"ED\",\n      \"evidence\": [\n        {\n          \"id\": \"p112.s1\",\n          \"quote\": \"You can access and review your Personal Information shared by you by placing a request with us.\"\n        },\n        {\n          \"id\": \"p113.s1\",\n          \"quote\": \"In case you wish to delete your account or Personal Information, please use the ‘Help’ section of the PhonePe Platform.\"\n        }\n      ],\n      \"rationale\": \"The policy provides access and deletion/rectification mechanisms for user data.\"\n    },\n    {\n      \"flag\": \"G6\",\n      \"presence\": \"Present\",\n      \"state\": \"ED\",\n      \"evidence\": [\n        {\n          \"id\": \"p068.s1\",\n          \"quote\": \"investigating, preventing, and taking action on illegal or suspected fraud or money laundering activities and conducting forensic audits as part of internal or external audit or investigation by PhonePe or government agencies located within India or outside the Indian jurisdiction\"\n        },\n        {\n          \"id\": \"p093.s1\",\n          \"quote\": \"with the internal investigation department within PhonePe or agencies appointed by PhonePe for investigation purposes located within or outside the Indian jurisdiction\"\n        }\n      ],\n      \"rationale\": \"Data may be transferred or accessed outside Indian jurisdiction without naming specific safeguards.\"\n    },\n    {\n      \"flag\": \"G7\",\n      \"presence\": \"Present\",\n      \"state\": \"ED\",\n      \"evidence\": [\n        {\n          \"id\": \"p117.s1\",\n          \"quote\": \"We do not knowingly solicit or collect Personal Information from children under the age of 18 and use of our Platform is available only to persons who can form a legally binding contract under the Indian Contract Act, 1872.\"\n        },\n        {\n          \"id\": \"p117.s2\",\n          \"quote\": \"If you are under the age of 18 years then you must use the Platform or services under the supervision of your parent, legal guardian, or any responsible adult.\"\n        }\n      ],\n      \"rationale\": \"The policy sets an under-18 protection threshold and requires supervision by an adult for minors.\"\n    },\n    {\n      \"flag\": \"AI1\",\n      \"presence\": \"Absent\",\n      \"state\": null,\n      \"evidence\": [],\n      \"rationale\": \"The provided text mentions AI connectors and processing search queries for LLMs, but does not state that user data or content is used to train AI models.\"\n    },\n    {\n      \"flag\": \"AI2\",\n      \"presence\": \"Absent\",\n      \"state\": null,\n      \"evidence\": [],\n      \"rationale\": \"There is no mention of using data for AI training or an opt-out from such training.\"\n    },\n    {\n      \"flag\": \"AI4\",\n      \"presence\": \"Present\",\n      \"state\": \"ED\",\n      \"evidence\": [\n        {\n          \"id\": \"p059.s1\",\n          \"quote\": \"enhancing yo"
+  }
+ ],
+ "flags": {
+  "G1": {
+   "flag": "G1",
+   "flag_key": "first_party_collection_scope",
+   "search_log": {
+    "we collect": 3,
+    "information/data we collect": 0,
+    "collected automatically": 0,
+    "you provide": 1,
+    "location": 3,
+    "device / identifiers": 2,
+    "content / messages": 6,
+    "contacts": 11,
+    "sensitive / biometric / financial": 30,
+    "from other sources": 1,
+    "usage / log data": 0
+   },
+   "n_candidates": 6,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "ED",
+   "evidence": [
+    {
+     "id": "p031.s1",
+     "quote": "your device details such as device identifier, internet bandwidth, mobile device model, browser plug-ins, and cookies or similar technologies that may identify your browser/PhonePe Applications and plug-ins, and time spent, IP address and location",
+     "status": "exact",
+     "start": 4635,
+     "end": 4882,
+     "heading": "Information Collection"
+    },
+    {
+     "id": "p032.s1",
+     "quote": "your Short Messaging Service (SMS(es)) that are stored on your device for the purposes of, including but not limited to, registering you and your device for payments or investment services, OTPs for logins and payments, enhancing your security, bill payments and recharge reminders, and any other legitimate uses with your explicit consent",
+     "status": "exact",
+     "start": 4883,
+     "end": 5222,
+     "heading": "Information Collection"
+    },
+    {
+     "id": "p033.s1",
+     "quote": "your health and lifestyle-related information, including your physical activity, when you opt for health-tracking services",
+     "status": "exact",
+     "start": 5223,
+     "end": 5345,
+     "heading": "Information Collection"
+    },
+    {
+     "id": "p034.s1",
+     "quote": "video, photo, audio, and location, based on your explicit consent through your app permissions (camera, microphone, location) when you opt for a product whose core functionality can be delivered only after accessing your app permissions, or where access is as per regulatory requirements, e.g., video-based KYC, self-inspection of your vehicle, and onboarding",
+     "status": "exact",
+     "start": 5346,
+     "end": 5705,
+     "heading": "Information Collection"
+    }
+   ],
+   "status": "verified",
+   "rationale": "The company collects extensive personal data beyond basic contact details, including device/usage data, SMS, health/lifestyle data, location, media/audio/video, and financial or KYC data.",
+   "attempts": 1,
+   "shown": [
+    "p025.s1",
+    "p025.s2",
+    "p026.s1",
+    "p031.s1",
+    "p032.s1",
+    "p034.s1",
+    "p035.s1",
+    "p105.s3",
+    "p105.s4",
+    "p107.s1",
+    "p107.s2"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "G2": {
+   "flag": "G2",
+   "flag_key": "third_party_advertising_tracking",
+   "search_log": {
+    "advertis*": 2,
+    "targeted / interest-based / behavioural ads": 0,
+    "sell / sale of data": 1,
+    "pixel / SDK / tracking tech": 0,
+    "ad / marketing partners": 0,
+    "opt-out of sale/ads / GPC": 0,
+    "cookies": 13,
+    "analytics provider": 0,
+    "share with third parties": 2,
+    "marketing": 5
+   },
+   "n_candidates": 4,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "ED",
+   "evidence": [
+    {
+     "id": "p065.s1",
+     "quote": "to inform you about online and offline offers, products, services, and updates; customizing and improving your experience by marketing, presenting advertising, and offering tailored products and offers",
+     "status": "exact",
+     "start": 9743,
+     "end": 9944,
+     "heading": "Purpose and Use of Information"
+    }
+   ],
+   "status": "verified",
+   "rationale": "The policy discloses sharing or processing data for presenting advertising and marketing without describing a first-party opt-out mechanism.",
+   "attempts": 1,
+   "shown": [
+    "p057.s1",
+    "p058.s1",
+    "p065.s1",
+    "p066.s1",
+    "p073.s1",
+    "p073.s2",
+    "p089.s1",
+    "p090.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "G3": {
+   "flag": "G3",
+   "flag_key": "profiling_automated_decisions",
+   "search_log": {
+    "profiling": 1,
+    "automated decision": 0,
+    "infer / inference": 0,
+    "legal or similarly significant": 0,
+    "scoring": 3,
+    "personalise / recommend": 2,
+    "interests / preferences / segments": 2,
+    "predict / analyse behaviour": 1
+   },
+   "n_candidates": 4,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "ED",
+   "evidence": [
+    {
+     "id": "p065.s1",
+     "quote": "customizing and improving your experience by marketing, presenting advertising, and offering tailored products and offers",
+     "status": "exact",
+     "start": 9823,
+     "end": 9944,
+     "heading": "Purpose and Use of Information"
+    }
+   ],
+   "status": "verified",
+   "rationale": "The policy describes profiling or tailoring products and offers for marketing and advertising with no user controls specified.",
+   "attempts": 1,
+   "shown": [
+    "p038.s2",
+    "p039.s1",
+    "p045.s1",
+    "p046.s1",
+    "p086.s2",
+    "p087.s1",
+    "p088.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "G4": {
+   "flag": "G4",
+   "flag_key": "data_retention_specificity",
+   "search_log": {
+    "retain / retention": 7,
+    "keep / store for": 1,
+    "as long as necessary": 1,
+    "numeric period": 2,
+    "indefinitely": 0,
+    "delete after / deletion": 5,
+    "legal obligation": 5
+   },
+   "n_candidates": 10,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "CD",
+   "evidence": [
+    {
+     "id": "p097.s1",
+     "quote": "To the extent applicable, we store Personal Information within India and retain it in accordance with applicable laws and for a period no longer than it is required for the purpose for which it was collected.",
+     "status": "exact",
+     "start": 16897,
+     "end": 17105,
+     "heading": "Storage and Retention"
+    }
+   ],
+   "status": "verified",
+   "rationale": "Retention is specified based on purposes and applicable legal requirements rather than concrete numeric time periods.",
+   "attempts": 1,
+   "shown": [
+    "p008.s1",
+    "p009.s1",
+    "p032.s1",
+    "p033.s1",
+    "p096.s1",
+    "p097.s1",
+    "p097.s2",
+    "p098.s1",
+    "p099.s1",
+    "p112.s4",
+    "p112.s5",
+    "p113.s2",
+    "p114.s1",
+    "p117.s2",
+    "p118.s1",
+    "p158.s1",
+    "p159.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "G5": {
+   "flag": "G5",
+   "flag_key": "user_rights_access_deletion",
+   "search_log": {
+    "right to / your rights": 2,
+    "access": 1,
+    "correct / rectify / update": 2,
+    "delete / erase": 2,
+    "portability / export": 0,
+    "object / restrict": 0,
+    "nominate (DPDP)": 0,
+    "jurisdiction limits": 0
+   },
+   "n_candidates": 7,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "ED",
+   "evidence": [
+    {
+     "id": "p112.s1",
+     "quote": "You can access and review your Personal Information shared by you by placing a request with us.",
+     "status": "exact",
+     "start": 21642,
+     "end": 21737,
+     "heading": "Personal Information Access/Rectification and Consent"
+    },
+    {
+     "id": "p113.s1",
+     "quote": "In case you wish to delete your account or Personal Information, please use the ‘Help’ section of the PhonePe Platform.",
+     "status": "exact",
+     "start": 22254,
+     "end": 22373,
+     "heading": "Personal Information Access/Rectification and Consent"
+    }
+   ],
+   "status": "verified",
+   "rationale": "The policy provides access and deletion/rectification mechanisms for user data.",
+   "attempts": 1,
+   "shown": [
+    "p013.s1",
+    "p014.s1",
+    "p073.s8",
+    "p073.s9",
+    "p089.s1",
+    "p090.s1",
+    "p111.s1",
+    "p112.s1",
+    "p113.s1",
+    "p113.s2",
+    "p114.s2",
+    "p115.s1",
+    "p186.s2",
+    "p186.s3"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "G6": {
+   "flag": "G6",
+   "flag_key": "international_data_transfers",
+   "search_log": {
+    "transfer": 4,
+    "cross-border / international": 2,
+    "stored / processed in a country": 0,
+    "safeguard mechanisms": 0,
+    "localisation": 0,
+    "servers": 3,
+    "jurisdiction": 2
+   },
+   "n_candidates": 6,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "ED",
+   "evidence": [
+    {
+     "id": "p068.s1",
+     "quote": "investigating, preventing, and taking action on illegal or suspected fraud or money laundering activities and conducting forensic audits as part of internal or external audit or investigation by PhonePe or government agencies located within India or outside the Indian jurisdiction",
+     "status": "exact",
+     "start": 10216,
+     "end": 10497,
+     "heading": "Purpose and Use of Information"
+    },
+    {
+     "id": "p093.s1",
+     "quote": "with the internal investigation department within PhonePe or agencies appointed by PhonePe for investigation purposes located within or outside the Indian jurisdiction",
+     "status": "exact",
+     "start": 15826,
+     "end": 15993,
+     "heading": "Information Sharing and Disclosures"
+    }
+   ],
+   "status": "verified",
+   "rationale": "Data may be transferred or accessed outside Indian jurisdiction without naming specific safeguards.",
+   "attempts": 1,
+   "shown": [
+    "p023.s1",
+    "p023.s2",
+    "p068.s1",
+    "p069.s1",
+    "p093.s1",
+    "p094.s1",
+    "p122.s7",
+    "p123.s1",
+    "p132.s1",
+    "p132.s2",
+    "p196.s1",
+    "p197.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "G7": {
+   "flag": "G7",
+   "flag_key": "childrens_data_safeguards",
+   "search_log": {
+    "child / children / minor": 3,
+    "age threshold": 2,
+    "parent / guardian / consent": 1,
+    "COPPA / age verification": 0,
+    "knowingly collect": 1
+   },
+   "n_candidates": 4,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "ED",
+   "evidence": [
+    {
+     "id": "p117.s1",
+     "quote": "We do not knowingly solicit or collect Personal Information from children under the age of 18 and use of our Platform is available only to persons who can form a legally binding contract under the Indian Contract Act, 1872.",
+     "status": "exact",
+     "start": 23178,
+     "end": 23401,
+     "heading": "Children Information"
+    },
+    {
+     "id": "p117.s2",
+     "quote": "If you are under the age of 18 years then you must use the Platform or services under the supervision of your parent, legal guardian, or any responsible adult.",
+     "status": "exact",
+     "start": 23402,
+     "end": 23561,
+     "heading": "Children Information"
+    }
+   ],
+   "status": "verified",
+   "rationale": "The policy sets an under-18 protection threshold and requires supervision by an adult for minors.",
+   "attempts": 1,
+   "shown": [
+    "p014.s1",
+    "p015.s1",
+    "p116.s1",
+    "p117.s1",
+    "p117.s2",
+    "p118.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "AI1": {
+   "flag": "AI1",
+   "flag_key": "ai_model_training_on_user_content",
+   "search_log": {
+    "train / training": 1,
+    "model(s)": 1,
+    "machine learning": 0,
+    "artificial intelligence / AI": 3,
+    "improve / develop services": 0,
+    "content / inputs / outputs": 9,
+    "research": 1
+   },
+   "n_candidates": 5,
+   "mode": "batch",
+   "presence": "Absent",
+   "state": "NS",
+   "evidence": [],
+   "status": "absent_unverifiable",
+   "rationale": "The provided text mentions AI connectors and processing search queries for LLMs, but does not state that user data or content is used to train AI models.",
+   "attempts": 1,
+   "shown": [
+    "p031.s1",
+    "p032.s1",
+    "p067.s1",
+    "p068.s1",
+    "p131.s1",
+    "p131.s2",
+    "p186.s4",
+    "p187.s1",
+    "p210.s1",
+    "p211.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "AI2": {
+   "flag": "AI2",
+   "flag_key": "ai_training_opt_out_control",
+   "presence": "Absent",
+   "state": "NS",
+   "evidence": [],
+   "status": "not_applicable",
+   "attempts": 0,
+   "shown": [],
+   "mode": "batch",
+   "rationale": "not applicable: AI1=NS",
+   "discarded_answer_status": "absent_unverifiable"
+  },
+  "AI3": {
+   "flag": "AI3",
+   "flag_key": "ai_human_review_of_chats",
+   "search_log": {
+    "human review": 0,
+    "reviewers / annotators / moderators": 0,
+    "staff may access / review content": 0,
+    "review content / conversations": 0,
+    "we may access / review / monitor content": 0,
+    "flagged / safety / abuse": 3,
+    "support / feedback": 1
+   },
+   "n_candidates": 0,
+   "mode": "batch",
+   "presence": "Absent",
+   "state": "NS",
+   "evidence": [],
+   "status": "no_candidates",
+   "rationale": "no sentence matched the flag's search terms; absence not verified",
+   "attempts": 0,
+   "shown": []
+  },
+  "AI4": {
+   "flag": "AI4",
+   "flag_key": "deidentification_training_carveout",
+   "search_log": {
+    "de-identified": 0,
+    "anonymised": 0,
+    "aggregated": 1,
+    "pseudonymised": 0,
+    "no longer identifies": 0,
+    "share / any purpose": 18
+   },
+   "n_candidates": 1,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "ED",
+   "evidence": [
+    {
+     "id": "p059.s1",
+     "quote": "enhancing your user experience in various processes/submission of applications/availment of product/service offerings by analysing user behaviour on an aggregated basis",
+     "status": "exact",
+     "start": 8958,
+     "end": 9126,
+     "heading": "Purpose and Use of Information"
+    }
+   ],
+   "status": "verified",
+   "rationale": "The company uses aggregated data to enhance user experience across processes.",
+   "attempts": 1,
+   "shown": [
+    "p059.s1",
+    "p060.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "AI5": {
+   "flag": "AI5",
+   "flag_key": "third_party_ai_subprocessors",
+   "search_log": {
+    "AI / model providers": 0,
+    "named AI vendors": 13,
+    "third-party AI / models": 0,
+    "integrations / connectors / plugins": 38,
+    "license content / data licensing": 0,
+    "sub-processors / service providers": 6,
+    "AI features": 0
+   },
+   "n_candidates": 45,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "CD",
+   "evidence": [
+    {
+     "id": "p122.s1",
+     "quote": "This notice outlines how PhonePe Limited handles your information when you interact with the PhonePe connector in Claude and ChatGPT (the Connector).",
+     "status": "exact",
+     "start": 24252,
+     "end": 24401,
+     "heading": "PhonePe MCP Data Use Policy"
+    },
+    {
+     "id": "p122.s6",
+     "quote": "The Connector processes your search queries for informational purposes only.",
+     "status": "exact",
+     "start": 24909,
+     "end": 24985,
+     "heading": "PhonePe MCP Data Use Policy"
+    },
+    {
+     "id": "p124.s3",
+     "quote": "The PhonePe Connector does not request or require this information to function.",
+     "status": "exact",
+     "start": 25693,
+     "end": 25772,
+     "heading": "PhonePe MCP Data Use Policy"
+    },
+    {
+     "id": "p126.s1",
+     "quote": "PhonePe processes Connector information solely to fulfill your search requests and present interactive search results, retrieve and format relevant product details, resolve navigation requests to PhonePe and comply with applicable legal, regulatory, audit, and statutory requirements.",
+     "status": "exact",
+     "start": 25798,
+     "end": 26082,
+     "heading": "PhonePe MCP Data Use Policy"
+    }
+   ],
+   "status": "verified",
+   "rationale": "User content and queries interact with third-party AI connectors (Claude and ChatGPT), but specific restrictions and limitations on the processing of such data are explicitly described.",
+   "attempts": 1,
+   "shown": [
+    "p016.s1",
+    "p017.s1",
+    "p018.s1",
+    "p031.s1",
+    "p032.s1",
+    "p067.s1",
+    "p068.s1",
+    "p120.s1",
+    "p121.s1",
+    "p122.s1",
+    "p122.s2",
+    "p122.s3",
+    "p122.s4",
+    "p122.s5",
+    "p122.s6",
+    "p122.s7",
+    "p124.s1",
+    "p124.s2",
+    "p124.s3",
+    "p125.s1",
+    "p126.s1",
+    "p127.s1",
+    "p128.s1",
+    "p129.s1",
+    "p130.s1",
+    "p131.s1",
+    "p131.s2",
+    "p134.s1",
+    "p135.s1",
+    "p141.s2",
+    "p142.s1",
+    "p146.s2",
+    "p147.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "DPDP1": {
+   "flag": "DPDP1",
+   "flag_key": "dpdp_unambiguous_affirmative_consent",
+   "search_log": {
+    "by using / visiting you agree": 1,
+    "consent": 10,
+    "agree / accept": 6,
+    "DPDP / Indian law": 1,
+    "legal basis": 0,
+    "notice / checkbox / sign-up": 8,
+    "explicit / affirmative / freely": 3
+   },
+   "n_candidates": 17,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "EE",
+   "evidence": [
+    {
+     "id": "p022.s2",
+     "quote": "By visiting, downloading, using PhonePe Platform, and/or, providing your information or availing our product/services, you expressly agree to be bound by this Privacy Policy (“Policy”) and the applicable service/product terms and conditions.",
+     "status": "exact",
+     "start": 1576,
+     "end": 1817,
+     "heading": "Updated 15 May 2026"
+    }
+   ],
+   "status": "verified",
+   "rationale": "Consent is obtained through browsewrap / general use ('By visiting, downloading, using PhonePe Platform... you expressly agree').",
+   "attempts": 1,
+   "shown": [
+    "p011.s1",
+    "p012.s1",
+    "p013.s1",
+    "p014.s1",
+    "p022.s2",
+    "p022.s3",
+    "p023.s1",
+    "p023.s2",
+    "p023.s4",
+    "p024.s1",
+    "p032.s1",
+    "p033.s1",
+    "p034.s1",
+    "p035.s1",
+    "p095.s4",
+    "p096.s1",
+    "p105.s5",
+    "p106.s1",
+    "p107.s1",
+    "p107.s2",
+    "p107.s3",
+    "p107.s4",
+    "p108.s1",
+    "p111.s1",
+    "p112.s1",
+    "p112.s2",
+    "p112.s3",
+    "p112.s4",
+    "p119.s4",
+    "p119.s5"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "DPDP2": {
+   "flag": "DPDP2",
+   "flag_key": "dpdp_easy_consent_withdrawal",
+   "search_log": {
+    "withdraw / revoke consent": 2,
+    "consent manager": 0,
+    "opt out / unsubscribe": 5,
+    "settings / dashboard": 4,
+    "contact / email to withdraw": 15,
+    "delete account": 1,
+    "consent (co-occurrence)": 10
+   },
+   "n_candidates": 8,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "CD",
+   "evidence": [
+    {
+     "id": "p112.s2",
+     "quote": "In addition, you may at any time revoke consent given to us to store your e-KYC information, collected as part of the Aadhaar-based e-KYC process.",
+     "status": "exact",
+     "start": 21738,
+     "end": 21884,
+     "heading": "Personal Information Access/Rectification and Consent"
+    },
+    {
+     "id": "p112.s5",
+     "quote": "To raise any of the above requests, you may write to us using the contact information provided under the ‘Contact Us’ section of this Policy.",
+     "status": "exact",
+     "start": 22112,
+     "end": 22253,
+     "heading": "Personal Information Access/Rectification and Consent"
+    }
+   ],
+   "status": "verified",
+   "rationale": "Consent withdrawal is available for certain data (e-KYC) by writing to the company rather than a fully self-serve toggle.",
+   "attempts": 1,
+   "shown": [
+    "p012.s1",
+    "p013.s1",
+    "p108.s1",
+    "p109.s1",
+    "p109.s2",
+    "p110.s1",
+    "p111.s1",
+    "p112.s2",
+    "p112.s3",
+    "p112.s4",
+    "p201.s2",
+    "p201.s3"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "DPDP3": {
+   "flag": "DPDP3",
+   "flag_key": "dpdp_grievance_dpo_contact",
+   "search_log": {
+    "grievance officer": 1,
+    "data protection officer / DPO": 1,
+    "email address": 0,
+    "Data Protection Board / complaint": 0,
+    "contact us": 8,
+    "officer / named person": 1
+   },
+   "n_candidates": 2,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "CD",
+   "evidence": [
+    {
+     "id": "p219.s1",
+     "quote": "In case you have any questions, concerns, or complaints regarding the processing of your Personal Information or this Privacy Policy you may write to PhonePe’s Privacy Officer using this link https://support.phonepe.com We are committed to answer your questions within the reasonable time limit.",
+     "status": "exact",
+     "start": 35258,
+     "end": 35553,
+     "heading": "Contact Us"
+    }
+   ],
+   "status": "verified",
+   "rationale": "A Privacy Officer is designated with contact via a support link, but no direct named DPO or separate Grievance Officer details are provided.",
+   "attempts": 1,
+   "shown": [
+    "p092.s1",
+    "p093.s1",
+    "p219.s1",
+    "p219.s2"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "DPDP4": {
+   "flag": "DPDP4",
+   "flag_key": "dpdp_eighth_schedule_languages",
+   "search_log": {
+    "Eighth Schedule": 0,
+    "language(s) / translation": 1,
+    "Indian language names (English)": 0,
+    "Indian language names (native script)": 1,
+    "English": 0
+   },
+   "n_candidates": 2,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "CD",
+   "evidence": [
+    {
+     "id": "p002.s1",
+     "quote": "Englishગુજરાતીதமிழ்తెలుగుमराठीമലയാളംঅসমীয়াবাংলাहिन्दीಕನ್ನಡଓଡ଼ିଆ",
+     "status": "exact",
+     "start": 15,
+     "end": 79,
+     "heading": "Englishગુજરાતીதமிழ்తెలుగుमराठीമലയാളംঅসমীয়াবাংলাहिन्दीಕನ್ನಡଓଡ଼ିଆ"
+    }
+   ],
+   "status": "verified",
+   "rationale": "The notice provides headings or options in multiple Indian languages (Eighth Schedule languages) alongside English.",
+   "attempts": 1,
+   "shown": [
+    "p002.s1",
+    "p003.s1",
+    "p137.s1",
+    "p137.s2"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  }
+ },
+ "scores": {
+  "scoring_version": "1.0",
+  "risk_index": 53.7037,
+  "risk_index_display": 54,
+  "disclosure_quality": 78.5714,
+  "disclosure_quality_display": 79,
+  "risk_points": 14.5,
+  "max_risk_points": 27.0,
+  "quality_points": 22.0,
+  "max_quality_points": 28.0,
+  "n_applicable": 14,
+  "n_not_stated": 2,
+  "per_flag": [
+   {
+    "flag": "G1",
+    "state": "ED",
+    "weight": 1.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 1.0,
+    "max_risk_points": 1.0,
+    "quality_points": 2.0
+   },
+   {
+    "flag": "G2",
+    "state": "ED",
+    "weight": 3.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 3.0,
+    "max_risk_points": 3.0,
+    "quality_points": 2.0
+   },
+   {
+    "flag": "G3",
+    "state": "ED",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 2.0,
+    "max_risk_points": 2.0,
+    "quality_points": 2.0
+   },
+   {
+    "flag": "G4",
+    "state": "CD",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 1.0,
+    "max_risk_points": 2.0,
+    "quality_points": 1.5
+   },
+   {
+    "flag": "G5",
+    "state": "ED",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 0.0,
+    "max_risk_points": 2.0,
+    "quality_points": 2.0
+   },
+   {
+    "flag": "G6",
+    "state": "ED",
+    "weight": 1.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 1.0,
+    "max_risk_points": 1.0,
+    "quality_points": 2.0
+   },
+   {
+    "flag": "G7",
+    "state": "ED",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 0.0,
+    "max_risk_points": 2.0,
+    "quality_points": 2.0
+   },
+   {
+    "flag": "AI1",
+    "state": "NS",
+    "weight": 3.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 0.0,
+    "max_risk_points": 3.0,
+    "quality_points": 0.0
+   },
+   {
+    "flag": "AI2",
+    "state": "NS",
+    "weight": 2.0,
+    "applicable": false,
+    "reason": "not applicable: AI1=NS",
+    "risk_points": 0.0,
+    "max_risk_points": 0.0,
+    "quality_points": 0.0
+   },
+   {
+    "flag": "AI3",
+    "state": "NS",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 0.0,
+    "max_risk_points": 2.0,
+    "quality_points": 0.0
+   },
+   {
+    "flag": "AI4",
+    "state": "ED",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 2.0,
+    "max_risk_points": 2.0,
+    "quality_points": 2.0
+   },
+   {
+    "flag": "AI5",
+    "state": "CD",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 1.0,
+    "max_risk_points": 2.0,
+    "quality_points": 1.5
+   },
+   {
+    "flag": "DPDP1",
+    "state": "EE",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 2.0,
+    "max_risk_points": 2.0,
+    "quality_points": 2.0
+   },
+   {
+    "flag": "DPDP2",
+    "state": "CD",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 1.0,
+    "max_risk_points": 2.0,
+    "quality_points": 1.5
+   },
+   {
+    "flag": "DPDP3",
+    "state": "CD",
+    "weight": 1.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 0.5,
+    "max_risk_points": 1.0,
+    "quality_points": 1.5
+   },
+   {
+    "flag": "DPDP4",
+    "state": "CD",
+    "weight": 0.0,
+    "applicable": false,
+    "reason": "informational flag (weight 0)",
+    "risk_points": 0.0,
+    "max_risk_points": 0.0,
+    "quality_points": 0.0
+   }
+  ],
+  "complete": true,
+  "rejected_flags_scored_as_UN": []
+ },
+ "policy_key": "P12_phonepe",
+ "cohort": "india"
+}

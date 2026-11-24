@@ -1,0 +1,4139 @@
+{
+ "policy_id": "P06",
+ "policy_key": "P06_zoom",
+ "policy_name": "zoom",
+ "url": "https://www.zoom.com/en/trust/privacy/privacy-statement/",
+ "scope": "all_users",
+ "cohort": "global",
+ "fetched_at_utc": "2026-11-11T18:47:25+00:00",
+ "text_file": "policies/text/P06_zoom.txt",
+ "text_sha256": "c4604c11de4704cfa18b36f9d0e06b4191c27232224d9f9efed0f8f5ed374de9",
+ "flag_definitions_sha256": "7c81dc82616e22f95abb8c359f50f76e890fa628b31296c19186e78518da00c7",
+ "segmenter_version": "1",
+ "n_paragraphs": 178,
+ "n_sentences": 294,
+ "sentences": {
+  "p001.s1": {
+   "start": 0,
+   "end": 22,
+   "heading": "Zoom Privacy Statement"
+  },
+  "p002.s1": {
+   "start": 23,
+   "end": 55,
+   "heading": "Last updated: September 17, 2026"
+  },
+  "p003.s1": {
+   "start": 56,
+   "end": 499,
+   "heading": "Last updated: September 17, 2026"
+  },
+  "p003.s2": {
+   "start": 500,
+   "end": 694,
+   "heading": "Last updated: September 17, 2026"
+  },
+  "p003.s3": {
+   "start": 695,
+   "end": 831,
+   "heading": "Last updated: September 17, 2026"
+  },
+  "p004.s1": {
+   "start": 832,
+   "end": 865,
+   "heading": "What Personal Data Do We Receive?"
+  },
+  "p005.s1": {
+   "start": 866,
+   "end": 894,
+   "heading": "How Do We Use Personal Data?"
+  },
+  "p006.s1": {
+   "start": 895,
+   "end": 925,
+   "heading": "How Do We Share Personal Data?"
+  },
+  "p007.s1": {
+   "start": 926,
+   "end": 1037,
+   "heading": "How Do We Share Personal Data?"
+  },
+  "p008.s1": {
+   "start": 1038,
+   "end": 1064,
+   "heading": "Privacy Rights and Choices"
+  },
+  "p009.s1": {
+   "start": 1065,
+   "end": 1073,
+   "heading": "Children"
+  },
+  "p010.s1": {
+   "start": 1074,
+   "end": 1091,
+   "heading": "How to Contact Us"
+  },
+  "p011.s1": {
+   "start": 1092,
+   "end": 1101,
+   "heading": "Retention"
+  },
+  "p012.s1": {
+   "start": 1102,
+   "end": 1147,
+   "heading": "European Data Protection Specific Information"
+  },
+  "p013.s1": {
+   "start": 1148,
+   "end": 1199,
+   "heading": "California & Other U.S. States Notice at Collection"
+  },
+  "p014.s1": {
+   "start": 1200,
+   "end": 1244,
+   "heading": "California & Other U.S. State Privacy Rights"
+  },
+  "p015.s1": {
+   "start": 1245,
+   "end": 1278,
+   "heading": "Changes to This Privacy Statement"
+  },
+  "p016.s1": {
+   "start": 1279,
+   "end": 1312,
+   "heading": "What Personal Data Do We Receive?"
+  },
+  "p017.s1": {
+   "start": 1313,
+   "end": 1470,
+   "heading": "What Personal Data Do We Receive?"
+  },
+  "p017.s2": {
+   "start": 1471,
+   "end": 1625,
+   "heading": "What Personal Data Do We Receive?"
+  },
+  "p018.s1": {
+   "start": 1626,
+   "end": 1865,
+   "heading": "What Personal Data Do We Receive?"
+  },
+  "p019.s1": {
+   "start": 1866,
+   "end": 2273,
+   "heading": "What Personal Data Do We Receive?"
+  },
+  "p020.s1": {
+   "start": 2274,
+   "end": 2553,
+   "heading": "What Personal Data Do We Receive?"
+  },
+  "p021.s1": {
+   "start": 2554,
+   "end": 2799,
+   "heading": "What Personal Data Do We Receive?"
+  },
+  "p022.s1": {
+   "start": 2800,
+   "end": 3060,
+   "heading": "What Personal Data Do We Receive?"
+  },
+  "p023.s1": {
+   "start": 3061,
+   "end": 3539,
+   "heading": "What Personal Data Do We Receive?"
+  },
+  "p024.s1": {
+   "start": 3540,
+   "end": 4176,
+   "heading": "What Personal Data Do We Receive?"
+  },
+  "p024.s2": {
+   "start": 4177,
+   "end": 4358,
+   "heading": "What Personal Data Do We Receive?"
+  },
+  "p024.s3": {
+   "start": 4359,
+   "end": 4551,
+   "heading": "What Personal Data Do We Receive?"
+  },
+  "p025.s1": {
+   "start": 4552,
+   "end": 5436,
+   "heading": "What Personal Data Do We Receive?"
+  },
+  "p025.s2": {
+   "start": 5437,
+   "end": 5723,
+   "heading": "What Personal Data Do We Receive?"
+  },
+  "p025.s3": {
+   "start": 5724,
+   "end": 5829,
+   "heading": "What Personal Data Do We Receive?"
+  },
+  "p026.s1": {
+   "start": 5830,
+   "end": 5989,
+   "heading": "What Personal Data Do We Receive?"
+  },
+  "p026.s2": {
+   "start": 5990,
+   "end": 6129,
+   "heading": "What Personal Data Do We Receive?"
+  },
+  "p026.s3": {
+   "start": 6130,
+   "end": 6310,
+   "heading": "What Personal Data Do We Receive?"
+  },
+  "p026.s4": {
+   "start": 6311,
+   "end": 6634,
+   "heading": "What Personal Data Do We Receive?"
+  },
+  "p026.s5": {
+   "start": 6635,
+   "end": 6819,
+   "heading": "What Personal Data Do We Receive?"
+  },
+  "p026.s6": {
+   "start": 6820,
+   "end": 7024,
+   "heading": "What Personal Data Do We Receive?"
+  },
+  "p026.s7": {
+   "start": 7025,
+   "end": 7191,
+   "heading": "What Personal Data Do We Receive?"
+  },
+  "p027.s1": {
+   "start": 7192,
+   "end": 7422,
+   "heading": "What Personal Data Do We Receive?"
+  },
+  "p027.s2": {
+   "start": 7423,
+   "end": 7681,
+   "heading": "What Personal Data Do We Receive?"
+  },
+  "p027.s3": {
+   "start": 7682,
+   "end": 8046,
+   "heading": "What Personal Data Do We Receive?"
+  },
+  "p028.s1": {
+   "start": 8047,
+   "end": 8334,
+   "heading": "What Personal Data Do We Receive?"
+  },
+  "p029.s1": {
+   "start": 8335,
+   "end": 8629,
+   "heading": "What Personal Data Do We Receive?"
+  },
+  "p029.s2": {
+   "start": 8630,
+   "end": 8812,
+   "heading": "What Personal Data Do We Receive?"
+  },
+  "p030.s1": {
+   "start": 8813,
+   "end": 8907,
+   "heading": "What Personal Data Do We Receive?"
+  },
+  "p030.s2": {
+   "start": 8908,
+   "end": 8987,
+   "heading": "What Personal Data Do We Receive?"
+  },
+  "p031.s1": {
+   "start": 8988,
+   "end": 9016,
+   "heading": "How Do We Use Personal Data?"
+  },
+  "p032.s1": {
+   "start": 9017,
+   "end": 9510,
+   "heading": "How Do We Use Personal Data?"
+  },
+  "p032.s2": {
+   "start": 9511,
+   "end": 9750,
+   "heading": "How Do We Use Personal Data?"
+  },
+  "p033.s1": {
+   "start": 9751,
+   "end": 9863,
+   "heading": "How Do We Use Personal Data?"
+  },
+  "p034.s1": {
+   "start": 9864,
+   "end": 10154,
+   "heading": "How Do We Use Personal Data?"
+  },
+  "p034.s2": {
+   "start": 10155,
+   "end": 10473,
+   "heading": "How Do We Use Personal Data?"
+  },
+  "p034.s3": {
+   "start": 10474,
+   "end": 10761,
+   "heading": "How Do We Use Personal Data?"
+  },
+  "p034.s4": {
+   "start": 10762,
+   "end": 11060,
+   "heading": "How Do We Use Personal Data?"
+  },
+  "p035.s1": {
+   "start": 11061,
+   "end": 11357,
+   "heading": "How Do We Use Personal Data?"
+  },
+  "p035.s2": {
+   "start": 11358,
+   "end": 11495,
+   "heading": "How Do We Use Personal Data?"
+  },
+  "p036.s1": {
+   "start": 11496,
+   "end": 11752,
+   "heading": "How Do We Use Personal Data?"
+  },
+  "p036.s2": {
+   "start": 11753,
+   "end": 11944,
+   "heading": "How Do We Use Personal Data?"
+  },
+  "p036.s3": {
+   "start": 11945,
+   "end": 12118,
+   "heading": "How Do We Use Personal Data?"
+  },
+  "p037.s1": {
+   "start": 12119,
+   "end": 12367,
+   "heading": "How Do We Use Personal Data?"
+  },
+  "p037.s2": {
+   "start": 12368,
+   "end": 12534,
+   "heading": "How Do We Use Personal Data?"
+  },
+  "p038.s1": {
+   "start": 12535,
+   "end": 12711,
+   "heading": "How Do We Use Personal Data?"
+  },
+  "p039.s1": {
+   "start": 12712,
+   "end": 12951,
+   "heading": "How Do We Use Personal Data?"
+  },
+  "p040.s1": {
+   "start": 12952,
+   "end": 13389,
+   "heading": "How Do We Use Personal Data?"
+  },
+  "p040.s2": {
+   "start": 13390,
+   "end": 13613,
+   "heading": "How Do We Use Personal Data?"
+  },
+  "p040.s3": {
+   "start": 13614,
+   "end": 13681,
+   "heading": "How Do We Use Personal Data?"
+  },
+  "p041.s1": {
+   "start": 13682,
+   "end": 13952,
+   "heading": "How Do We Use Personal Data?"
+  },
+  "p041.s2": {
+   "start": 13953,
+   "end": 14321,
+   "heading": "How Do We Use Personal Data?"
+  },
+  "p042.s1": {
+   "start": 14322,
+   "end": 14648,
+   "heading": "How Do We Use Personal Data?"
+  },
+  "p042.s2": {
+   "start": 14649,
+   "end": 14716,
+   "heading": "How Do We Use Personal Data?"
+  },
+  "p043.s1": {
+   "start": 14717,
+   "end": 15142,
+   "heading": "How Do We Use Personal Data?"
+  },
+  "p044.s1": {
+   "start": 15143,
+   "end": 15173,
+   "heading": "How Do We Share Personal Data?"
+  },
+  "p045.s1": {
+   "start": 15174,
+   "end": 15346,
+   "heading": "How Do We Share Personal Data?"
+  },
+  "p046.s1": {
+   "start": 15347,
+   "end": 15629,
+   "heading": "How Do We Share Personal Data?"
+  },
+  "p047.s1": {
+   "start": 15630,
+   "end": 15902,
+   "heading": "How Do We Share Personal Data?"
+  },
+  "p047.s2": {
+   "start": 15903,
+   "end": 16043,
+   "heading": "How Do We Share Personal Data?"
+  },
+  "p047.s3": {
+   "start": 16044,
+   "end": 16285,
+   "heading": "How Do We Share Personal Data?"
+  },
+  "p047.s4": {
+   "start": 16286,
+   "end": 16507,
+   "heading": "How Do We Share Personal Data?"
+  },
+  "p047.s5": {
+   "start": 16508,
+   "end": 16641,
+   "heading": "How Do We Share Personal Data?"
+  },
+  "p048.s1": {
+   "start": 16642,
+   "end": 17251,
+   "heading": "How Do We Share Personal Data?"
+  },
+  "p049.s1": {
+   "start": 17252,
+   "end": 17621,
+   "heading": "How Do We Share Personal Data?"
+  },
+  "p049.s2": {
+   "start": 17622,
+   "end": 17791,
+   "heading": "How Do We Share Personal Data?"
+  },
+  "p049.s3": {
+   "start": 17792,
+   "end": 17938,
+   "heading": "How Do We Share Personal Data?"
+  },
+  "p049.s4": {
+   "start": 17939,
+   "end": 18067,
+   "heading": "How Do We Share Personal Data?"
+  },
+  "p049.s5": {
+   "start": 18068,
+   "end": 18278,
+   "heading": "How Do We Share Personal Data?"
+  },
+  "p050.s1": {
+   "start": 18279,
+   "end": 18664,
+   "heading": "How Do We Share Personal Data?"
+  },
+  "p051.s1": {
+   "start": 18665,
+   "end": 19021,
+   "heading": "How Do We Share Personal Data?"
+  },
+  "p052.s1": {
+   "start": 19022,
+   "end": 19238,
+   "heading": "How Do We Share Personal Data?"
+  },
+  "p053.s1": {
+   "start": 19239,
+   "end": 19350,
+   "heading": "How Do We Share Personal Data?"
+  },
+  "p054.s1": {
+   "start": 19351,
+   "end": 19655,
+   "heading": "How Do We Share Personal Data?"
+  },
+  "p055.s1": {
+   "start": 19656,
+   "end": 19755,
+   "heading": "How Do We Share Personal Data?"
+  },
+  "p055.s2": {
+   "start": 19756,
+   "end": 19915,
+   "heading": "How Do We Share Personal Data?"
+  },
+  "p055.s3": {
+   "start": 19916,
+   "end": 20123,
+   "heading": "How Do We Share Personal Data?"
+  },
+  "p055.s4": {
+   "start": 20124,
+   "end": 20292,
+   "heading": "How Do We Share Personal Data?"
+  },
+  "p055.s5": {
+   "start": 20293,
+   "end": 20566,
+   "heading": "How Do We Share Personal Data?"
+  },
+  "p055.s6": {
+   "start": 20567,
+   "end": 20773,
+   "heading": "How Do We Share Personal Data?"
+  },
+  "p055.s7": {
+   "start": 20774,
+   "end": 20871,
+   "heading": "How Do We Share Personal Data?"
+  },
+  "p055.s8": {
+   "start": 20872,
+   "end": 20920,
+   "heading": "How Do We Share Personal Data?"
+  },
+  "p056.s1": {
+   "start": 20921,
+   "end": 20935,
+   "heading": "How Do We Share Personal Data?"
+  },
+  "p057.s1": {
+   "start": 20936,
+   "end": 21433,
+   "heading": "How Do We Share Personal Data?"
+  },
+  "p058.s1": {
+   "start": 21434,
+   "end": 21618,
+   "heading": "How Do We Share Personal Data?"
+  },
+  "p059.s1": {
+   "start": 21619,
+   "end": 21756,
+   "heading": "How Do We Share Personal Data?"
+  },
+  "p060.s1": {
+   "start": 21757,
+   "end": 22202,
+   "heading": "How Do We Share Personal Data?"
+  },
+  "p060.s2": {
+   "start": 22203,
+   "end": 22538,
+   "heading": "How Do We Share Personal Data?"
+  },
+  "p060.s3": {
+   "start": 22539,
+   "end": 22738,
+   "heading": "How Do We Share Personal Data?"
+  },
+  "p061.s1": {
+   "start": 22739,
+   "end": 22960,
+   "heading": "How Do We Share Personal Data?"
+  },
+  "p062.s1": {
+   "start": 22961,
+   "end": 23016,
+   "heading": "Messages sent to Everyone in a meeting that is recorded"
+  },
+  "p063.s1": {
+   "start": 23017,
+   "end": 23116,
+   "heading": "Messages sent to Everyone in a meeting that is recorded"
+  },
+  "p064.s1": {
+   "start": 23117,
+   "end": 23173,
+   "heading": "Messages sent to panelists in a webinar that is recorded"
+  },
+  "p065.s1": {
+   "start": 23174,
+   "end": 23233,
+   "heading": "Messages sent in dedicated meeting group chats in Team Chat"
+  },
+  "p066.s1": {
+   "start": 23234,
+   "end": 23292,
+   "heading": "Direct messages if the account owner has enabled archiving"
+  },
+  "p067.s1": {
+   "start": 23293,
+   "end": 23482,
+   "heading": "Direct messages if the account owner has enabled archiving"
+  },
+  "p067.s2": {
+   "start": 23483,
+   "end": 23702,
+   "heading": "Direct messages if the account owner has enabled archiving"
+  },
+  "p067.s3": {
+   "start": 23703,
+   "end": 23921,
+   "heading": "Direct messages if the account owner has enabled archiving"
+  },
+  "p068.s1": {
+   "start": 23922,
+   "end": 24179,
+   "heading": "Direct messages if the account owner has enabled archiving"
+  },
+  "p068.s2": {
+   "start": 24180,
+   "end": 24302,
+   "heading": "Direct messages if the account owner has enabled archiving"
+  },
+  "p069.s1": {
+   "start": 24303,
+   "end": 24558,
+   "heading": "Direct messages if the account owner has enabled archiving"
+  },
+  "p069.s2": {
+   "start": 24559,
+   "end": 24802,
+   "heading": "Direct messages if the account owner has enabled archiving"
+  },
+  "p069.s3": {
+   "start": 24803,
+   "end": 25071,
+   "heading": "Direct messages if the account owner has enabled archiving"
+  },
+  "p070.s1": {
+   "start": 25072,
+   "end": 25305,
+   "heading": "Direct messages if the account owner has enabled archiving"
+  },
+  "p070.s2": {
+   "start": 25306,
+   "end": 25716,
+   "heading": "Direct messages if the account owner has enabled archiving"
+  },
+  "p070.s3": {
+   "start": 25717,
+   "end": 25824,
+   "heading": "Direct messages if the account owner has enabled archiving"
+  },
+  "p070.s4": {
+   "start": 25825,
+   "end": 25919,
+   "heading": "Direct messages if the account owner has enabled archiving"
+  },
+  "p071.s1": {
+   "start": 25920,
+   "end": 26140,
+   "heading": "Direct messages if the account owner has enabled archiving"
+  },
+  "p071.s2": {
+   "start": 26141,
+   "end": 26429,
+   "heading": "Direct messages if the account owner has enabled archiving"
+  },
+  "p071.s3": {
+   "start": 26430,
+   "end": 26824,
+   "heading": "Direct messages if the account owner has enabled archiving"
+  },
+  "p071.s4": {
+   "start": 26825,
+   "end": 26935,
+   "heading": "Direct messages if the account owner has enabled archiving"
+  },
+  "p072.s1": {
+   "start": 26936,
+   "end": 27096,
+   "heading": "Direct messages if the account owner has enabled archiving"
+  },
+  "p072.s2": {
+   "start": 27097,
+   "end": 27220,
+   "heading": "Direct messages if the account owner has enabled archiving"
+  },
+  "p072.s3": {
+   "start": 27221,
+   "end": 27407,
+   "heading": "Direct messages if the account owner has enabled archiving"
+  },
+  "p073.s1": {
+   "start": 27408,
+   "end": 27632,
+   "heading": "Direct messages if the account owner has enabled archiving"
+  },
+  "p074.s1": {
+   "start": 27633,
+   "end": 27823,
+   "heading": "Direct messages if the account owner has enabled archiving"
+  },
+  "p075.s1": {
+   "start": 27824,
+   "end": 27846,
+   "heading": "Direct messages if the account owner has enabled archiving"
+  },
+  "p076.s1": {
+   "start": 27847,
+   "end": 28182,
+   "heading": "Direct messages if the account owner has enabled archiving"
+  },
+  "p077.s1": {
+   "start": 28183,
+   "end": 28396,
+   "heading": "Direct messages if the account owner has enabled archiving"
+  },
+  "p078.s1": {
+   "start": 28397,
+   "end": 28875,
+   "heading": "Direct messages if the account owner has enabled archiving"
+  },
+  "p079.s1": {
+   "start": 28876,
+   "end": 29047,
+   "heading": "Direct messages if the account owner has enabled archiving"
+  },
+  "p080.s1": {
+   "start": 29048,
+   "end": 29236,
+   "heading": "Direct messages if the account owner has enabled archiving"
+  },
+  "p081.s1": {
+   "start": 29237,
+   "end": 29437,
+   "heading": "Direct messages if the account owner has enabled archiving"
+  },
+  "p082.s1": {
+   "start": 29438,
+   "end": 29464,
+   "heading": "Privacy Rights and Choices"
+  },
+  "p083.s1": {
+   "start": 29465,
+   "end": 29489,
+   "heading": "Marketing Communications"
+  },
+  "p084.s1": {
+   "start": 29490,
+   "end": 29712,
+   "heading": "Marketing Communications"
+  },
+  "p084.s2": {
+   "start": 29713,
+   "end": 29899,
+   "heading": "Marketing Communications"
+  },
+  "p084.s3": {
+   "start": 29900,
+   "end": 30112,
+   "heading": "Marketing Communications"
+  },
+  "p085.s1": {
+   "start": 30113,
+   "end": 30124,
+   "heading": "Data Rights"
+  },
+  "p086.s1": {
+   "start": 30125,
+   "end": 30335,
+   "heading": "Data Rights"
+  },
+  "p086.s2": {
+   "start": 30336,
+   "end": 30407,
+   "heading": "Data Rights"
+  },
+  "p087.s1": {
+   "start": 30408,
+   "end": 30485,
+   "heading": "Data Rights"
+  },
+  "p088.s1": {
+   "start": 30486,
+   "end": 30588,
+   "heading": "Data Rights"
+  },
+  "p089.s1": {
+   "start": 30589,
+   "end": 30613,
+   "heading": "Data Rights"
+  },
+  "p090.s1": {
+   "start": 30614,
+   "end": 30674,
+   "heading": "Data Rights"
+  },
+  "p091.s1": {
+   "start": 30675,
+   "end": 30773,
+   "heading": "Data Rights"
+  },
+  "p091.s2": {
+   "start": 30774,
+   "end": 30961,
+   "heading": "Data Rights"
+  },
+  "p091.s3": {
+   "start": 30962,
+   "end": 31138,
+   "heading": "Data Rights"
+  },
+  "p092.s1": {
+   "start": 31139,
+   "end": 31147,
+   "heading": "Children"
+  },
+  "p093.s1": {
+   "start": 31148,
+   "end": 31227,
+   "heading": "Children"
+  },
+  "p094.s1": {
+   "start": 31228,
+   "end": 31414,
+   "heading": "Children"
+  },
+  "p095.s1": {
+   "start": 31415,
+   "end": 31432,
+   "heading": "How to Contact Us"
+  },
+  "p096.s1": {
+   "start": 31433,
+   "end": 31476,
+   "heading": "How to Contact Us"
+  },
+  "p096.s2": {
+   "start": 31477,
+   "end": 31606,
+   "heading": "How to Contact Us"
+  },
+  "p097.s1": {
+   "start": 31607,
+   "end": 31667,
+   "heading": "How to Contact Us"
+  },
+  "p098.s1": {
+   "start": 31668,
+   "end": 31693,
+   "heading": "How to Contact Us"
+  },
+  "p099.s1": {
+   "start": 31694,
+   "end": 31728,
+   "heading": "Attention: Data Protection Officer"
+  },
+  "p100.s1": {
+   "start": 31729,
+   "end": 31755,
+   "heading": "55 Almaden Blvd, Suite 600"
+  },
+  "p101.s1": {
+   "start": 31756,
+   "end": 31774,
+   "heading": "San Jose, CA 95113"
+  },
+  "p102.s1": {
+   "start": 31775,
+   "end": 31816,
+   "heading": "San Jose, CA 95113"
+  },
+  "p103.s1": {
+   "start": 31817,
+   "end": 31833,
+   "heading": "Workvivo Limited"
+  },
+  "p104.s1": {
+   "start": 31834,
+   "end": 31867,
+   "heading": "Attention: Zoom EU Representative"
+  },
+  "p105.s1": {
+   "start": 31868,
+   "end": 31892,
+   "heading": "Attention: Zoom EU Representative"
+  },
+  "p106.s1": {
+   "start": 31893,
+   "end": 31904,
+   "heading": "Attention: Zoom EU Representative"
+  },
+  "p107.s1": {
+   "start": 31905,
+   "end": 31909,
+   "heading": "Cork"
+  },
+  "p108.s1": {
+   "start": 31910,
+   "end": 31917,
+   "heading": "T12W832"
+  },
+  "p109.s1": {
+   "start": 31918,
+   "end": 31937,
+   "heading": "Republic of Ireland"
+  },
+  "p110.s1": {
+   "start": 31938,
+   "end": 31960,
+   "heading": "Email: privacy@zoom.us"
+  },
+  "p111.s1": {
+   "start": 31961,
+   "end": 31972,
+   "heading": "Email: privacy@zoom.us"
+  },
+  "p112.s1": {
+   "start": 31973,
+   "end": 32006,
+   "heading": "Attention: Zoom UK Representative"
+  },
+  "p113.s1": {
+   "start": 32007,
+   "end": 32036,
+   "heading": "Attention: Zoom UK Representative"
+  },
+  "p114.s1": {
+   "start": 32037,
+   "end": 32053,
+   "heading": "Attention: Zoom UK Representative"
+  },
+  "p115.s1": {
+   "start": 32054,
+   "end": 32060,
+   "heading": "London"
+  },
+  "p116.s1": {
+   "start": 32061,
+   "end": 32069,
+   "heading": "WC1V 6EA"
+  },
+  "p117.s1": {
+   "start": 32070,
+   "end": 32084,
+   "heading": "United Kingdom"
+  },
+  "p118.s1": {
+   "start": 32085,
+   "end": 32107,
+   "heading": "Email: privacy@zoom.us"
+  },
+  "p119.s1": {
+   "start": 32108,
+   "end": 32191,
+   "heading": "Email: privacy@zoom.us"
+  },
+  "p120.s1": {
+   "start": 32192,
+   "end": 32201,
+   "heading": "Retention"
+  },
+  "p121.s1": {
+   "start": 32202,
+   "end": 32372,
+   "heading": "Retention"
+  },
+  "p122.s1": {
+   "start": 32373,
+   "end": 32448,
+   "heading": "Retention"
+  },
+  "p123.s1": {
+   "start": 32449,
+   "end": 32640,
+   "heading": "Retention"
+  },
+  "p124.s1": {
+   "start": 32641,
+   "end": 32728,
+   "heading": "Retention"
+  },
+  "p125.s1": {
+   "start": 32729,
+   "end": 32915,
+   "heading": "Retention"
+  },
+  "p126.s1": {
+   "start": 32916,
+   "end": 33144,
+   "heading": "Retention"
+  },
+  "p127.s1": {
+   "start": 33145,
+   "end": 33190,
+   "heading": "European Data Protection Specific Information"
+  },
+  "p128.s1": {
+   "start": 33191,
+   "end": 33211,
+   "heading": "Data Subjects Rights"
+  },
+  "p129.s1": {
+   "start": 33212,
+   "end": 33358,
+   "heading": "Data Subjects Rights"
+  },
+  "p130.s1": {
+   "start": 33359,
+   "end": 33588,
+   "heading": "Data Subjects Rights"
+  },
+  "p131.s1": {
+   "start": 33589,
+   "end": 33806,
+   "heading": "Data Subjects Rights"
+  },
+  "p132.s1": {
+   "start": 33807,
+   "end": 33986,
+   "heading": "Data Subjects Rights"
+  },
+  "p133.s1": {
+   "start": 33987,
+   "end": 34098,
+   "heading": "Data Subjects Rights"
+  },
+  "p134.s1": {
+   "start": 34099,
+   "end": 34341,
+   "heading": "Data Subjects Rights"
+  },
+  "p135.s1": {
+   "start": 34342,
+   "end": 34385,
+   "heading": "Data Subjects Rights"
+  },
+  "p135.s2": {
+   "start": 34386,
+   "end": 34569,
+   "heading": "Data Subjects Rights"
+  },
+  "p135.s3": {
+   "start": 34570,
+   "end": 34752,
+   "heading": "Data Subjects Rights"
+  },
+  "p136.s1": {
+   "start": 34753,
+   "end": 34829,
+   "heading": "Data Subjects Rights"
+  },
+  "p136.s2": {
+   "start": 34830,
+   "end": 34904,
+   "heading": "Data Subjects Rights"
+  },
+  "p137.s1": {
+   "start": 34905,
+   "end": 34945,
+   "heading": "Legal Basis for Processing Personal Data"
+  },
+  "p138.s1": {
+   "start": 34946,
+   "end": 35017,
+   "heading": "Legal Basis for Processing Personal Data"
+  },
+  "p138.s2": {
+   "start": 35018,
+   "end": 35284,
+   "heading": "Legal Basis for Processing Personal Data"
+  },
+  "p139.s1": {
+   "start": 35285,
+   "end": 35826,
+   "heading": "Legal Basis for Processing Personal Data"
+  },
+  "p139.s2": {
+   "start": 35827,
+   "end": 35952,
+   "heading": "Legal Basis for Processing Personal Data"
+  },
+  "p140.s1": {
+   "start": 35953,
+   "end": 36192,
+   "heading": "Legal Basis for Processing Personal Data"
+  },
+  "p140.s2": {
+   "start": 36193,
+   "end": 36319,
+   "heading": "Legal Basis for Processing Personal Data"
+  },
+  "p141.s1": {
+   "start": 36320,
+   "end": 36724,
+   "heading": "Legal Basis for Processing Personal Data"
+  },
+  "p141.s2": {
+   "start": 36725,
+   "end": 36908,
+   "heading": "Legal Basis for Processing Personal Data"
+  },
+  "p142.s1": {
+   "start": 36909,
+   "end": 37182,
+   "heading": "Legal Basis for Processing Personal Data"
+  },
+  "p143.s1": {
+   "start": 37183,
+   "end": 38569,
+   "heading": "Legal Basis for Processing Personal Data"
+  },
+  "p144.s1": {
+   "start": 38570,
+   "end": 38598,
+   "heading": "International Data Transfers"
+  },
+  "p145.s1": {
+   "start": 38599,
+   "end": 39023,
+   "heading": "International Data Transfers"
+  },
+  "p146.s1": {
+   "start": 39024,
+   "end": 39329,
+   "heading": "International Data Transfers"
+  },
+  "p146.s2": {
+   "start": 39330,
+   "end": 39442,
+   "heading": "International Data Transfers"
+  },
+  "p147.s1": {
+   "start": 39443,
+   "end": 39624,
+   "heading": "International Data Transfers"
+  },
+  "p147.s2": {
+   "start": 39625,
+   "end": 40020,
+   "heading": "International Data Transfers"
+  },
+  "p147.s3": {
+   "start": 40021,
+   "end": 40093,
+   "heading": "International Data Transfers"
+  },
+  "p148.s1": {
+   "start": 40094,
+   "end": 40307,
+   "heading": "International Data Transfers"
+  },
+  "p148.s2": {
+   "start": 40308,
+   "end": 40658,
+   "heading": "International Data Transfers"
+  },
+  "p148.s3": {
+   "start": 40659,
+   "end": 40916,
+   "heading": "International Data Transfers"
+  },
+  "p148.s4": {
+   "start": 40917,
+   "end": 41083,
+   "heading": "International Data Transfers"
+  },
+  "p148.s5": {
+   "start": 41084,
+   "end": 41228,
+   "heading": "International Data Transfers"
+  },
+  "p149.s1": {
+   "start": 41229,
+   "end": 41444,
+   "heading": "International Data Transfers"
+  },
+  "p149.s2": {
+   "start": 41445,
+   "end": 41695,
+   "heading": "International Data Transfers"
+  },
+  "p150.s1": {
+   "start": 41696,
+   "end": 42283,
+   "heading": "International Data Transfers"
+  },
+  "p150.s2": {
+   "start": 42284,
+   "end": 42376,
+   "heading": "International Data Transfers"
+  },
+  "p151.s1": {
+   "start": 42377,
+   "end": 42490,
+   "heading": "International Data Transfers"
+  },
+  "p151.s2": {
+   "start": 42491,
+   "end": 42714,
+   "heading": "International Data Transfers"
+  },
+  "p152.s1": {
+   "start": 42715,
+   "end": 42920,
+   "heading": "International Data Transfers"
+  },
+  "p152.s2": {
+   "start": 42921,
+   "end": 43079,
+   "heading": "International Data Transfers"
+  },
+  "p153.s1": {
+   "start": 43080,
+   "end": 43299,
+   "heading": "International Data Transfers"
+  },
+  "p154.s1": {
+   "start": 43300,
+   "end": 43351,
+   "heading": "California & Other U.S. States Notice at Collection"
+  },
+  "p155.s1": {
+   "start": 43352,
+   "end": 44529,
+   "heading": "California & Other U.S. States Notice at Collection"
+  },
+  "p156.s1": {
+   "start": 44530,
+   "end": 44787,
+   "heading": "California & Other U.S. States Notice at Collection"
+  },
+  "p156.s2": {
+   "start": 44788,
+   "end": 44856,
+   "heading": "California & Other U.S. States Notice at Collection"
+  },
+  "p156.s3": {
+   "start": 44857,
+   "end": 44934,
+   "heading": "California & Other U.S. States Notice at Collection"
+  },
+  "p157.s1": {
+   "start": 44935,
+   "end": 45431,
+   "heading": "California & Other U.S. States Notice at Collection"
+  },
+  "p157.s2": {
+   "start": 45432,
+   "end": 45642,
+   "heading": "California & Other U.S. States Notice at Collection"
+  },
+  "p158.s1": {
+   "start": 45643,
+   "end": 45945,
+   "heading": "California & Other U.S. States Notice at Collection"
+  },
+  "p158.s2": {
+   "start": 45946,
+   "end": 46050,
+   "heading": "California & Other U.S. States Notice at Collection"
+  },
+  "p159.s1": {
+   "start": 46051,
+   "end": 46235,
+   "heading": "California & Other U.S. States Notice at Collection"
+  },
+  "p159.s2": {
+   "start": 46236,
+   "end": 46312,
+   "heading": "California & Other U.S. States Notice at Collection"
+  },
+  "p160.s1": {
+   "start": 46313,
+   "end": 46357,
+   "heading": "California & Other U.S. State Privacy Rights"
+  },
+  "p161.s1": {
+   "start": 46358,
+   "end": 46537,
+   "heading": "California & Other U.S. State Privacy Rights"
+  },
+  "p162.s1": {
+   "start": 46538,
+   "end": 46927,
+   "heading": "California & Other U.S. State Privacy Rights"
+  },
+  "p163.s1": {
+   "start": 46928,
+   "end": 46977,
+   "heading": "California & Other U.S. State Privacy Rights"
+  },
+  "p164.s1": {
+   "start": 46978,
+   "end": 47032,
+   "heading": "Correct personal data under certain circumstances; and"
+  },
+  "p165.s1": {
+   "start": 47033,
+   "end": 47136,
+   "heading": "Correct personal data under certain circumstances; and"
+  },
+  "p165.s2": {
+   "start": 47137,
+   "end": 47232,
+   "heading": "Correct personal data under certain circumstances; and"
+  },
+  "p165.s3": {
+   "start": 47233,
+   "end": 47320,
+   "heading": "Correct personal data under certain circumstances; and"
+  },
+  "p165.s4": {
+   "start": 47321,
+   "end": 47388,
+   "heading": "Correct personal data under certain circumstances; and"
+  },
+  "p165.s5": {
+   "start": 47389,
+   "end": 47726,
+   "heading": "Correct personal data under certain circumstances; and"
+  },
+  "p165.s6": {
+   "start": 47727,
+   "end": 47947,
+   "heading": "Correct personal data under certain circumstances; and"
+  },
+  "p165.s7": {
+   "start": 47948,
+   "end": 48055,
+   "heading": "Correct personal data under certain circumstances; and"
+  },
+  "p165.s8": {
+   "start": 48056,
+   "end": 48210,
+   "heading": "Correct personal data under certain circumstances; and"
+  },
+  "p165.s9": {
+   "start": 48211,
+   "end": 48492,
+   "heading": "Correct personal data under certain circumstances; and"
+  },
+  "p165.s10": {
+   "start": 48493,
+   "end": 48617,
+   "heading": "Correct personal data under certain circumstances; and"
+  },
+  "p166.s1": {
+   "start": 48618,
+   "end": 48650,
+   "heading": "Correct personal data under certain circumstances; and"
+  },
+  "p166.s2": {
+   "start": 48651,
+   "end": 48708,
+   "heading": "Correct personal data under certain circumstances; and"
+  },
+  "p166.s3": {
+   "start": 48709,
+   "end": 48794,
+   "heading": "Correct personal data under certain circumstances; and"
+  },
+  "p166.s4": {
+   "start": 48795,
+   "end": 48872,
+   "heading": "Correct personal data under certain circumstances; and"
+  },
+  "p167.s1": {
+   "start": 48873,
+   "end": 49006,
+   "heading": "Correct personal data under certain circumstances; and"
+  },
+  "p168.s1": {
+   "start": 49007,
+   "end": 49029,
+   "heading": "Correct personal data under certain circumstances; and"
+  },
+  "p168.s2": {
+   "start": 49030,
+   "end": 49548,
+   "heading": "Correct personal data under certain circumstances; and"
+  },
+  "p168.s3": {
+   "start": 49549,
+   "end": 49801,
+   "heading": "Correct personal data under certain circumstances; and"
+  },
+  "p168.s4": {
+   "start": 49802,
+   "end": 50028,
+   "heading": "Correct personal data under certain circumstances; and"
+  },
+  "p168.s5": {
+   "start": 50029,
+   "end": 50265,
+   "heading": "Correct personal data under certain circumstances; and"
+  },
+  "p168.s6": {
+   "start": 50266,
+   "end": 50328,
+   "heading": "Correct personal data under certain circumstances; and"
+  },
+  "p169.s1": {
+   "start": 50329,
+   "end": 50396,
+   "heading": "Correct personal data under certain circumstances; and"
+  },
+  "p169.s2": {
+   "start": 50397,
+   "end": 50539,
+   "heading": "Correct personal data under certain circumstances; and"
+  },
+  "p170.s1": {
+   "start": 50540,
+   "end": 50756,
+   "heading": "Correct personal data under certain circumstances; and"
+  },
+  "p171.s1": {
+   "start": 50757,
+   "end": 50882,
+   "heading": "Correct personal data under certain circumstances; and"
+  },
+  "p171.s2": {
+   "start": 50883,
+   "end": 50973,
+   "heading": "Correct personal data under certain circumstances; and"
+  },
+  "p171.s3": {
+   "start": 50974,
+   "end": 51123,
+   "heading": "Correct personal data under certain circumstances; and"
+  },
+  "p171.s4": {
+   "start": 51124,
+   "end": 51591,
+   "heading": "Correct personal data under certain circumstances; and"
+  },
+  "p171.s5": {
+   "start": 51592,
+   "end": 51768,
+   "heading": "Correct personal data under certain circumstances; and"
+  },
+  "p171.s6": {
+   "start": 51769,
+   "end": 51947,
+   "heading": "Correct personal data under certain circumstances; and"
+  },
+  "p172.s1": {
+   "start": 51948,
+   "end": 52016,
+   "heading": "Correct personal data under certain circumstances; and"
+  },
+  "p173.s1": {
+   "start": 52017,
+   "end": 52049,
+   "heading": "California’s Shine the Light Law"
+  },
+  "p174.s1": {
+   "start": 52050,
+   "end": 52487,
+   "heading": "California’s Shine the Light Law"
+  },
+  "p174.s2": {
+   "start": 52488,
+   "end": 52553,
+   "heading": "California’s Shine the Light Law"
+  },
+  "p174.s3": {
+   "start": 52554,
+   "end": 52733,
+   "heading": "California’s Shine the Light Law"
+  },
+  "p174.s4": {
+   "start": 52734,
+   "end": 52839,
+   "heading": "California’s Shine the Light Law"
+  },
+  "p174.s5": {
+   "start": 52840,
+   "end": 53039,
+   "heading": "California’s Shine the Light Law"
+  },
+  "p175.s1": {
+   "start": 53040,
+   "end": 53073,
+   "heading": "Changes to This Privacy Statement"
+  },
+  "p176.s1": {
+   "start": 53074,
+   "end": 53332,
+   "heading": "Changes to This Privacy Statement"
+  },
+  "p176.s2": {
+   "start": 53333,
+   "end": 53510,
+   "heading": "Changes to This Privacy Statement"
+  },
+  "p177.s1": {
+   "start": 53511,
+   "end": 53563,
+   "heading": "Changes to This Privacy Statement"
+  },
+  "p178.s1": {
+   "start": 53564,
+   "end": 53758,
+   "heading": "Changes to This Privacy Statement"
+  }
+ },
+ "flags": {
+  "G1": {
+   "question": "What personal data does the company itself collect, and how broad is it?",
+   "search_log": {
+    "we collect": {
+     "regex": "\\bwe (?:may )?(?:collect|receive|obtain|gather|process)\\b",
+     "tier": "core",
+     "sentences_matched": 13
+    },
+    "information/data we collect": {
+     "regex": "\\b(?:information|data) (?:that )?we (?:collect|receive|obtain)\\b",
+     "tier": "core",
+     "sentences_matched": 3
+    },
+    "collected automatically": {
+     "regex": "\\bautomatically (?:collect|receive|log|record)|collected automatically\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "you provide": {
+     "regex": "\\b(?:you|users) (?:provide|submit|give|share|upload|enter)\\b",
+     "tier": "core",
+     "sentences_matched": 6
+    },
+    "location": {
+     "regex": "\\b(?:precise |approximate |geo-?)?location\\b|\\bgeolocation\\b|\\bGPS\\b",
+     "tier": "support",
+     "sentences_matched": 3
+    },
+    "device / identifiers": {
+     "regex": "\\bdevice (?:information|data|identifiers?|id)\\b|\\bIP address(?:es)?\\b|\\badvertising (?:id|identifier)s?\\b|\\bIMEI\\b",
+     "tier": "support",
+     "sentences_matched": 4
+    },
+    "content / messages": {
+     "regex": "\\b(?:content|messages?|prompts?|inputs?|uploads?|files|photos|voice|audio|recordings?)\\b",
+     "tier": "support",
+     "sentences_matched": 58
+    },
+    "contacts": {
+     "regex": "\\bcontacts?(?: list| book)?\\b|\\baddress book\\b",
+     "tier": "support",
+     "sentences_matched": 22
+    },
+    "sensitive / biometric / financial": {
+     "regex": "\\bsensitive\\b|\\bbiometric\\b|\\bhealth\\b|\\bfinancial (?:information|data)\\b|\\bcard (?:number|details)\\b|\\bbank account\\b|\\bKYC\\b|\\bAadhaar\\b|\\bPAN\\b",
+     "tier": "support",
+     "sentences_matched": 6
+    },
+    "from other sources": {
+     "regex": "\\b(?:from|via) (?:third[- ]part(?:y|ies)|other sources|partners|data brokers|publicly available sources)\\b",
+     "tier": "support",
+     "sentences_matched": 8
+    },
+    "usage / log data": {
+     "regex": "\\b(?:usage|log|activity|interaction) (?:data|information)\\b|\\blog files?\\b",
+     "tier": "support",
+     "sentences_matched": 4
+    }
+   },
+   "n_candidates": 31,
+   "candidates": [
+    {
+     "sid": "p155.s1",
+     "heading": "California & Other U.S. States Notice at Collection",
+     "core": [
+      "we collect",
+      "information/data we collect"
+     ],
+     "support": [
+      "device / identifiers",
+      "content / messages",
+      "contacts",
+      "sensitive / biometric / financial",
+      "usage / log data"
+     ],
+     "score": 11
+    },
+    {
+     "sid": "p040.s1",
+     "heading": "How Do We Use Personal Data?",
+     "core": [
+      "we collect",
+      "information/data we collect",
+      "you provide"
+     ],
+     "support": [
+      "from other sources"
+     ],
+     "score": 10
+    },
+    {
+     "sid": "p003.s1",
+     "heading": "Last updated: September 17, 2026",
+     "core": [
+      "we collect",
+      "information/data we collect"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p042.s1",
+     "heading": "How Do We Use Personal Data?",
+     "core": [
+      "you provide"
+     ],
+     "support": [
+      "content / messages",
+      "contacts"
+     ],
+     "score": 5
+    },
+    {
+     "sid": "p034.s3",
+     "heading": "How Do We Use Personal Data?",
+     "core": [
+      "you provide"
+     ],
+     "support": [
+      "content / messages"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p054.s1",
+     "heading": "How Do We Share Personal Data?",
+     "core": [
+      "you provide"
+     ],
+     "support": [
+      "content / messages"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p156.s1",
+     "heading": "California & Other U.S. States Notice at Collection",
+     "core": [
+      "we collect"
+     ],
+     "support": [
+      "from other sources"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p004.s1",
+     "heading": "What Personal Data Do We Receive?",
+     "core": [
+      "we collect"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p016.s1",
+     "heading": "What Personal Data Do We Receive?",
+     "core": [
+      "we collect"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p017.s2",
+     "heading": "What Personal Data Do We Receive?",
+     "core": [
+      "we collect"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p034.s2",
+     "heading": "How Do We Use Personal Data?",
+     "core": [],
+     "support": [
+      "location",
+      "content / messages",
+      "contacts"
+     ],
+     "score": 3
+    },
+    {
+     "sid": "p036.s1",
+     "heading": "How Do We Use Personal Data?",
+     "core": [
+      "you provide"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p057.s1",
+     "heading": "How Do We Share Personal Data?",
+     "core": [],
+     "support": [
+      "device / identifiers",
+      "content / messages",
+      "usage / log data"
+     ],
+     "score": 3
+    },
+    {
+     "sid": "p078.s1",
+     "heading": "Direct messages if the account owner has enabled archiving",
+     "core": [],
+     "support": [
+      "device / identifiers",
+      "content / messages",
+      "contacts"
+     ],
+     "score": 3
+    },
+    {
+     "sid": "p139.s1",
+     "heading": "Legal Basis for Processing Personal Data",
+     "core": [
+      "we collect"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p141.s1",
+     "heading": "Legal Basis for Processing Personal Data",
+     "core": [
+      "we collect"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p142.s1",
+     "heading": "Legal Basis for Processing Personal Data",
+     "core": [
+      "we collect"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p143.s1",
+     "heading": "Legal Basis for Processing Personal Data",
+     "core": [
+      "we collect"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p156.s2",
+     "heading": "California & Other U.S. States Notice at Collection",
+     "core": [
+      "we collect"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p157.s2",
+     "heading": "California & Other U.S. States Notice at Collection",
+     "core": [
+      "we collect"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p171.s5",
+     "heading": "Correct personal data under certain circumstances; and",
+     "core": [
+      "you provide"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p021.s1",
+     "heading": "What Personal Data Do We Receive?",
+     "core": [],
+     "support": [
+      "location",
+      "content / messages"
+     ],
+     "score": 2
+    },
+    {
+     "sid": "p022.s1",
+     "heading": "What Personal Data Do We Receive?",
+     "core": [],
+     "support": [
+      "content / messages",
+      "contacts"
+     ],
+     "score": 2
+    },
+    {
+     "sid": "p023.s1",
+     "heading": "What Personal Data Do We Receive?",
+     "core": [],
+     "support": [
+      "location",
+      "device / identifiers"
+     ],
+     "score": 2
+    },
+    {
+     "sid": "p025.s1",
+     "heading": "What Personal Data Do We Receive?",
+     "core": [],
+     "support": [
+      "content / messages",
+      "usage / log data"
+     ],
+     "score": 2
+    },
+    {
+     "sid": "p027.s1",
+     "heading": "What Personal Data Do We Receive?",
+     "core": [],
+     "support": [
+      "content / messages",
+      "from other sources"
+     ],
+     "score": 2
+    },
+    {
+     "sid": "p029.s1",
+     "heading": "What Personal Data Do We Receive?",
+     "core": [],
+     "support": [
+      "contacts",
+      "from other sources"
+     ],
+     "score": 2
+    },
+    {
+     "sid": "p037.s1",
+     "heading": "How Do We Use Personal Data?",
+     "core": [],
+     "support": [
+      "content / messages",
+      "from other sources"
+     ],
+     "score": 2
+    },
+    {
+     "sid": "p071.s3",
+     "heading": "Direct messages if the account owner has enabled archiving",
+     "core": [],
+     "support": [
+      "content / messages",
+      "from other sources"
+     ],
+     "score": 2
+    },
+    {
+     "sid": "p077.s1",
+     "heading": "Direct messages if the account owner has enabled archiving",
+     "core": [],
+     "support": [
+      "content / messages",
+      "from other sources"
+     ],
+     "score": 2
+    },
+    {
+     "sid": "p168.s2",
+     "heading": "Correct personal data under certain circumstances; and",
+     "core": [],
+     "support": [
+      "content / messages",
+      "sensitive / biometric / financial"
+     ],
+     "score": 2
+    }
+   ]
+  },
+  "G2": {
+   "question": "Does the company sell personal data, or share it with / let third parties collect it for advertising, marketing or cross-site tracking?",
+   "search_log": {
+    "advertis*": {
+     "regex": "\\badvertis(?:e|er|ers|ing|ement|ements)\\b|\\bads\\b",
+     "tier": "core",
+     "sentences_matched": 13
+    },
+    "targeted / interest-based / behavioural ads": {
+     "regex": "\\b(?:targeted|interest[- ]based|personali[sz]ed|behaviou?ral|cross[- ]context(?:ual)?)(?: behaviou?ral)? (?:advertising|ads|marketing)\\b",
+     "tier": "core",
+     "sentences_matched": 6
+    },
+    "sell / sale of data": {
+     "regex": "\\b(?:sell|sells|selling|sold|sale)\\b",
+     "tier": "core",
+     "sentences_matched": 6
+    },
+    "pixel / SDK / tracking tech": {
+     "regex": "\\bpixels?\\b|\\bSDKs?\\b|\\bweb beacons?\\b|\\btracking (?:technolog(?:y|ies)|tools?)\\b|\\btrackers?\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "ad / marketing partners": {
+     "regex": "\\b(?:advertising|ad|marketing) (?:partners?|networks?|platforms?|companies)\\b",
+     "tier": "core",
+     "sentences_matched": 2
+    },
+    "opt-out of sale/ads / GPC": {
+     "regex": "\\bdo not sell\\b|\\bglobal privacy control\\b|\\bopt[- ]out of (?:the )?(?:sale|sharing|targeted|personali[sz]ed|interest)",
+     "tier": "core",
+     "sentences_matched": 2
+    },
+    "cookies": {
+     "regex": "\\bcookies?\\b",
+     "tier": "support",
+     "sentences_matched": 8
+    },
+    "analytics provider": {
+     "regex": "\\banalytics (?:providers?|partners?|services|tools)\\b|\\bGoogle Analytics\\b",
+     "tier": "support",
+     "sentences_matched": 4
+    },
+    "share with third parties": {
+     "regex": "\\bshare\\b.{0,40}\\bthird[- ]part(?:y|ies)\\b|\\bthird[- ]part(?:y|ies)\\b.{0,40}\\b(?:share|disclose|collect)",
+     "tier": "support",
+     "sentences_matched": 7
+    },
+    "marketing": {
+     "regex": "\\bmarketing\\b|\\bpromotional\\b",
+     "tier": "support",
+     "sentences_matched": 11
+    }
+   },
+   "n_candidates": 18,
+   "candidates": [
+    {
+     "sid": "p165.s9",
+     "heading": "Correct personal data under certain circumstances; and",
+     "core": [
+      "advertis*",
+      "targeted / interest-based / behavioural ads",
+      "sell / sale of data",
+      "opt-out of sale/ads / GPC"
+     ],
+     "support": [],
+     "score": 12
+    },
+    {
+     "sid": "p158.s1",
+     "heading": "California & Other U.S. States Notice at Collection",
+     "core": [
+      "advertis*",
+      "targeted / interest-based / behavioural ads",
+      "sell / sale of data"
+     ],
+     "support": [
+      "analytics provider"
+     ],
+     "score": 10
+    },
+    {
+     "sid": "p165.s1",
+     "heading": "Correct personal data under certain circumstances; and",
+     "core": [
+      "advertis*",
+      "targeted / interest-based / behavioural ads",
+      "sell / sale of data"
+     ],
+     "support": [],
+     "score": 9
+    },
+    {
+     "sid": "p049.s1",
+     "heading": "How Do We Share Personal Data?",
+     "core": [
+      "advertis*",
+      "targeted / interest-based / behavioural ads"
+     ],
+     "support": [
+      "analytics provider",
+      "marketing"
+     ],
+     "score": 8
+    },
+    {
+     "sid": "p165.s5",
+     "heading": "Correct personal data under certain circumstances; and",
+     "core": [
+      "advertis*",
+      "targeted / interest-based / behavioural ads"
+     ],
+     "support": [
+      "cookies",
+      "analytics provider"
+     ],
+     "score": 8
+    },
+    {
+     "sid": "p040.s1",
+     "heading": "How Do We Use Personal Data?",
+     "core": [
+      "advertis*",
+      "ad / marketing partners"
+     ],
+     "support": [
+      "marketing"
+     ],
+     "score": 7
+    },
+    {
+     "sid": "p169.s2",
+     "heading": "Correct personal data under certain circumstances; and",
+     "core": [
+      "advertis*",
+      "targeted / interest-based / behavioural ads"
+     ],
+     "support": [
+      "cookies"
+     ],
+     "score": 7
+    },
+    {
+     "sid": "p029.s2",
+     "heading": "What Personal Data Do We Receive?",
+     "core": [
+      "advertis*",
+      "ad / marketing partners"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p165.s2",
+     "heading": "Correct personal data under certain circumstances; and",
+     "core": [
+      "sell / sale of data",
+      "opt-out of sale/ads / GPC"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p140.s1",
+     "heading": "Legal Basis for Processing Personal Data",
+     "core": [
+      "advertis*"
+     ],
+     "support": [
+      "cookies",
+      "analytics provider"
+     ],
+     "score": 5
+    },
+    {
+     "sid": "p049.s4",
+     "heading": "How Do We Share Personal Data?",
+     "core": [
+      "advertis*"
+     ],
+     "support": [
+      "marketing"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p143.s1",
+     "heading": "Legal Basis for Processing Personal Data",
+     "core": [
+      "advertis*"
+     ],
+     "support": [
+      "marketing"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p040.s2",
+     "heading": "How Do We Use Personal Data?",
+     "core": [
+      "advertis*"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p047.s2",
+     "heading": "How Do We Share Personal Data?",
+     "core": [
+      "advertis*"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p051.s1",
+     "heading": "How Do We Share Personal Data?",
+     "core": [
+      "sell / sale of data"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p165.s10",
+     "heading": "Correct personal data under certain circumstances; and",
+     "core": [
+      "sell / sale of data"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p049.s3",
+     "heading": "How Do We Share Personal Data?",
+     "core": [],
+     "support": [
+      "cookies",
+      "share with third parties"
+     ],
+     "score": 2
+    },
+    {
+     "sid": "p174.s1",
+     "heading": "California’s Shine the Light Law",
+     "core": [],
+     "support": [
+      "share with third parties",
+      "marketing"
+     ],
+     "score": 2
+    }
+   ]
+  },
+  "G3": {
+   "question": "Does the company build profiles or inferences about users, or make automated decisions about them?",
+   "search_log": {
+    "profiling": {
+     "regex": "\\bprofil(?:e|es|ing)\\b",
+     "tier": "core",
+     "sentences_matched": 10
+    },
+    "automated decision": {
+     "regex": "\\bautomated (?:decision|decision-making|processing|means|systems?)\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "infer / inference": {
+     "regex": "\\binfer(?:s|red|ring|ences?)?\\b",
+     "tier": "core",
+     "sentences_matched": 3
+    },
+    "legal or similarly significant": {
+     "regex": "\\blegal (?:or similarly significant )?effects?\\b|\\bsimilarly significant\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "scoring": {
+     "regex": "\\b(?:risk|credit|fraud) (?:scor(?:e|es|ing)|assessment)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "personalise / recommend": {
+     "regex": "\\bpersonali[sz](?:e|es|ed|ing|ation)\\b|\\brecommend(?:ation|ations|s|ed)?\\b|\\btailor(?:ed)?\\b|\\bcustomi[sz]e\\b",
+     "tier": "support",
+     "sentences_matched": 4
+    },
+    "interests / preferences / segments": {
+     "regex": "\\b(?:interests?|preferences|segments?|demographics?)\\b",
+     "tier": "support",
+     "sentences_matched": 9
+    },
+    "predict / analyse behaviour": {
+     "regex": "\\bpredict(?:ive|ions?)?\\b|\\banaly[sz]e?(?:s|d)? (?:your )?(?:behaviou?r|usage|activity)\\b",
+     "tier": "support",
+     "sentences_matched": 0
+    }
+   },
+   "n_candidates": 12,
+   "candidates": [
+    {
+     "sid": "p168.s5",
+     "heading": "Correct personal data under certain circumstances; and",
+     "core": [
+      "profiling",
+      "automated decision",
+      "legal or similarly significant"
+     ],
+     "support": [],
+     "score": 9
+    },
+    {
+     "sid": "p155.s1",
+     "heading": "California & Other U.S. States Notice at Collection",
+     "core": [
+      "profiling",
+      "infer / inference"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p021.s1",
+     "heading": "What Personal Data Do We Receive?",
+     "core": [
+      "profiling"
+     ],
+     "support": [
+      "interests / preferences / segments"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p019.s1",
+     "heading": "What Personal Data Do We Receive?",
+     "core": [
+      "profiling"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p023.s1",
+     "heading": "What Personal Data Do We Receive?",
+     "core": [
+      "infer / inference"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p041.s2",
+     "heading": "How Do We Use Personal Data?",
+     "core": [
+      "profiling"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p055.s3",
+     "heading": "How Do We Share Personal Data?",
+     "core": [
+      "profiling"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p070.s1",
+     "heading": "Direct messages if the account owner has enabled archiving",
+     "core": [
+      "profiling"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p078.s1",
+     "heading": "Direct messages if the account owner has enabled archiving",
+     "core": [
+      "profiling"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p168.s4",
+     "heading": "Correct personal data under certain circumstances; and",
+     "core": [
+      "infer / inference"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p168.s6",
+     "heading": "Correct personal data under certain circumstances; and",
+     "core": [
+      "profiling"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p171.s4",
+     "heading": "Correct personal data under certain circumstances; and",
+     "core": [
+      "profiling"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "G4": {
+   "question": "How specific is the policy about how long personal data is kept?",
+   "search_log": {
+    "retain / retention": {
+     "regex": "\\bretain(?:s|ed|ing)?\\b|\\bretention\\b",
+     "tier": "core",
+     "sentences_matched": 8
+    },
+    "keep / store for": {
+     "regex": "\\b(?:keep|kept|store|stored|hold)\\b.{0,60}\\b(?:for|until|as long as|period)\\b",
+     "tier": "core",
+     "sentences_matched": 3
+    },
+    "as long as necessary": {
+     "regex": "\\bas long as (?:is )?(?:necessary|needed|required|reasonably)\\b|\\bno longer (?:than|necessary|needed)\\b",
+     "tier": "core",
+     "sentences_matched": 4
+    },
+    "numeric period": {
+     "regex": "\\b\\d+\\s*(?:-\\s*)?(?:days?|weeks?|months?|years?)\\b|\\b(?:thirty|sixty|ninety|one|two|three|five|six|seven|ten|twelve|eighteen|twenty-four)\\s+(?:days?|months?|years?)\\b",
+     "tier": "core",
+     "sentences_matched": 3
+    },
+    "indefinitely": {
+     "regex": "\\bindefinite(?:ly)?\\b|\\bpermanently\\b|\\bforever\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "delete after / deletion": {
+     "regex": "\\b(?:delete|deleted|deletion|erase|purge|dispose)\\b",
+     "tier": "support",
+     "sentences_matched": 6
+    },
+    "legal obligation": {
+     "regex": "\\b(?:legal|statutory|regulatory) (?:obligations?|requirements?|purposes)\\b|\\brequired by (?:applicable )?law\\b",
+     "tier": "support",
+     "sentences_matched": 12
+    }
+   },
+   "n_candidates": 14,
+   "candidates": [
+    {
+     "sid": "p036.s2",
+     "heading": "How Do We Use Personal Data?",
+     "core": [
+      "as long as necessary",
+      "numeric period"
+     ],
+     "support": [
+      "delete after / deletion"
+     ],
+     "score": 7
+    },
+    {
+     "sid": "p121.s1",
+     "heading": "Retention",
+     "core": [
+      "retain / retention",
+      "as long as necessary"
+     ],
+     "support": [
+      "legal obligation"
+     ],
+     "score": 7
+    },
+    {
+     "sid": "p159.s1",
+     "heading": "California & Other U.S. States Notice at Collection",
+     "core": [
+      "retain / retention",
+      "as long as necessary"
+     ],
+     "support": [
+      "legal obligation"
+     ],
+     "score": 7
+    },
+    {
+     "sid": "p131.s1",
+     "heading": "Data Subjects Rights",
+     "core": [
+      "keep / store for",
+      "as long as necessary"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p125.s1",
+     "heading": "Retention",
+     "core": [
+      "keep / store for"
+     ],
+     "support": [
+      "delete after / deletion",
+      "legal obligation"
+     ],
+     "score": 5
+    },
+    {
+     "sid": "p011.s1",
+     "heading": "Retention",
+     "core": [
+      "retain / retention"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p035.s2",
+     "heading": "How Do We Use Personal Data?",
+     "core": [
+      "retain / retention"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p120.s1",
+     "heading": "Retention",
+     "core": [
+      "retain / retention"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p122.s1",
+     "heading": "Retention",
+     "core": [
+      "retain / retention"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p126.s1",
+     "heading": "Retention",
+     "core": [
+      "retain / retention"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p145.s1",
+     "heading": "International Data Transfers",
+     "core": [
+      "keep / store for"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p159.s2",
+     "heading": "California & Other U.S. States Notice at Collection",
+     "core": [
+      "retain / retention"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p165.s10",
+     "heading": "Correct personal data under certain circumstances; and",
+     "core": [
+      "numeric period"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p170.s1",
+     "heading": "Correct personal data under certain circumstances; and",
+     "core": [
+      "numeric period"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "G5": {
+   "question": "What rights do users have to access, correct and delete their data, and for whom?",
+   "search_log": {
+    "right to / your rights": {
+     "regex": "\\bright(?:s)? (?:to|of)\\b|\\byour (?:privacy )?rights\\b|\\bdata subject\\b|\\bdata principal\\b",
+     "tier": "core",
+     "sentences_matched": 21
+    },
+    "access": {
+     "regex": "\\baccess (?:to )?(?:your|the) (?:personal )?(?:data|information)\\b|\\brequest (?:a copy|access)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "correct / rectify / update": {
+     "regex": "\\b(?:correct|correction|rectif(?:y|ication)|update|amend)\\b",
+     "tier": "core",
+     "sentences_matched": 6
+    },
+    "delete / erase": {
+     "regex": "\\b(?:delete|deletion|erase|erasure|right to be forgotten)\\b",
+     "tier": "core",
+     "sentences_matched": 6
+    },
+    "portability / export": {
+     "regex": "\\bportab(?:le|ility)\\b|\\bexport (?:your )?data\\b|\\bdownload (?:your|a copy)\\b",
+     "tier": "core",
+     "sentences_matched": 2
+    },
+    "object / restrict": {
+     "regex": "\\bobject(?:ion)? to\\b|\\brestrict(?:ion)? (?:of )?(?:the )?processing\\b",
+     "tier": "support",
+     "sentences_matched": 2
+    },
+    "nominate (DPDP)": {
+     "regex": "\\bnominat(?:e|ion)\\b",
+     "tier": "support",
+     "sentences_matched": 0
+    },
+    "jurisdiction limits": {
+     "regex": "\\b(?:EEA|European|UK|California|residents? of|depending on where you live|applicable law)\\b",
+     "tier": "support",
+     "sentences_matched": 38
+    }
+   },
+   "n_candidates": 30,
+   "candidates": [
+    {
+     "sid": "p171.s3",
+     "heading": "Correct personal data under certain circumstances; and",
+     "core": [
+      "right to / your rights",
+      "correct / rectify / update",
+      "delete / erase"
+     ],
+     "support": [],
+     "score": 9
+    },
+    {
+     "sid": "p130.s1",
+     "heading": "Data Subjects Rights",
+     "core": [
+      "right to / your rights",
+      "portability / export"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p131.s1",
+     "heading": "Data Subjects Rights",
+     "core": [
+      "right to / your rights",
+      "delete / erase"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p133.s1",
+     "heading": "Data Subjects Rights",
+     "core": [
+      "right to / your rights",
+      "correct / rectify / update"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p129.s1",
+     "heading": "Data Subjects Rights",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [
+      "jurisdiction limits"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p132.s1",
+     "heading": "Data Subjects Rights",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [
+      "object / restrict"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p134.s1",
+     "heading": "Data Subjects Rights",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [
+      "object / restrict"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p158.s2",
+     "heading": "California & Other U.S. States Notice at Collection",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [
+      "jurisdiction limits"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p161.s1",
+     "heading": "California & Other U.S. State Privacy Rights",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [
+      "jurisdiction limits"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p174.s4",
+     "heading": "California’s Shine the Light Law",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [
+      "jurisdiction limits"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p047.s3",
+     "heading": "How Do We Share Personal Data?",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p088.s1",
+     "heading": "Data Rights",
+     "core": [
+      "correct / rectify / update"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p090.s1",
+     "heading": "Data Rights",
+     "core": [
+      "delete / erase"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p091.s1",
+     "heading": "Data Rights",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p096.s1",
+     "heading": "How to Contact Us",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p124.s1",
+     "heading": "Retention",
+     "core": [
+      "delete / erase"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p125.s1",
+     "heading": "Retention",
+     "core": [
+      "delete / erase"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p135.s1",
+     "heading": "Data Subjects Rights",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p136.s1",
+     "heading": "Data Subjects Rights",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p140.s2",
+     "heading": "Legal Basis for Processing Personal Data",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p162.s1",
+     "heading": "California & Other U.S. State Privacy Rights",
+     "core": [
+      "portability / export"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p163.s1",
+     "heading": "California & Other U.S. State Privacy Rights",
+     "core": [
+      "delete / erase"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p164.s1",
+     "heading": "Correct personal data under certain circumstances; and",
+     "core": [
+      "correct / rectify / update"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p166.s2",
+     "heading": "Correct personal data under certain circumstances; and",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p166.s3",
+     "heading": "Correct personal data under certain circumstances; and",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p167.s1",
+     "heading": "Correct personal data under certain circumstances; and",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p168.s4",
+     "heading": "Correct personal data under certain circumstances; and",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p169.s1",
+     "heading": "Correct personal data under certain circumstances; and",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p176.s1",
+     "heading": "Changes to This Privacy Statement",
+     "core": [
+      "correct / rectify / update"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p177.s1",
+     "heading": "Changes to This Privacy Statement",
+     "core": [
+      "correct / rectify / update"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "G6": {
+   "question": "Is personal data transferred to or stored in other countries, and are safeguards named?",
+   "search_log": {
+    "transfer": {
+     "regex": "\\btransfer(?:s|red|ring)?\\b",
+     "tier": "core",
+     "sentences_matched": 4
+    },
+    "cross-border / international": {
+     "regex": "\\bcross[- ]border\\b|\\binternational(?:ly)?\\b|\\bglobal(?:ly)?\\b|\\bother countries\\b|\\boutside (?:of )?(?:your|the|India)\\b",
+     "tier": "core",
+     "sentences_matched": 6
+    },
+    "stored / processed in a country": {
+     "regex": "\\b(?:stored|processed|hosted|located)\\b.{0,40}\\b(?:in|outside) (?:the )?(?:United States|U\\.S\\.|US|India|EU|Europe|Singapore|China|countr(?:y|ies))\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "safeguard mechanisms": {
+     "regex": "\\bstandard contractual clauses\\b|\\bSCCs?\\b|\\badequacy\\b|\\bData Privacy Framework\\b|\\bbinding corporate rules\\b|\\bappropriate safeguards\\b",
+     "tier": "core",
+     "sentences_matched": 6
+    },
+    "localisation": {
+     "regex": "\\blocali[sz](?:ation|ed)\\b|\\bstored (?:only |exclusively )?(?:in|within) India\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "servers": {
+     "regex": "\\bservers?\\b|\\bdata cent(?:er|re)s?\\b",
+     "tier": "support",
+     "sentences_matched": 2
+    },
+    "jurisdiction": {
+     "regex": "\\bjurisdictions?\\b|\\bdata protection laws?\\b",
+     "tier": "support",
+     "sentences_matched": 3
+    }
+   },
+   "n_candidates": 11,
+   "candidates": [
+    {
+     "sid": "p146.s1",
+     "heading": "International Data Transfers",
+     "core": [
+      "transfer",
+      "cross-border / international",
+      "stored / processed in a country"
+     ],
+     "support": [],
+     "score": 9
+    },
+    {
+     "sid": "p147.s2",
+     "heading": "International Data Transfers",
+     "core": [
+      "transfer",
+      "cross-border / international",
+      "safeguard mechanisms"
+     ],
+     "support": [],
+     "score": 9
+    },
+    {
+     "sid": "p145.s1",
+     "heading": "International Data Transfers",
+     "core": [
+      "transfer",
+      "cross-border / international"
+     ],
+     "support": [
+      "servers"
+     ],
+     "score": 7
+    },
+    {
+     "sid": "p144.s1",
+     "heading": "International Data Transfers",
+     "core": [
+      "transfer",
+      "cross-border / international"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p151.s2",
+     "heading": "International Data Transfers",
+     "core": [
+      "safeguard mechanisms"
+     ],
+     "support": [
+      "jurisdiction"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p054.s1",
+     "heading": "How Do We Share Personal Data?",
+     "core": [
+      "cross-border / international"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p148.s1",
+     "heading": "International Data Transfers",
+     "core": [
+      "safeguard mechanisms"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p148.s2",
+     "heading": "International Data Transfers",
+     "core": [
+      "safeguard mechanisms"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p148.s3",
+     "heading": "International Data Transfers",
+     "core": [
+      "safeguard mechanisms"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p148.s5",
+     "heading": "International Data Transfers",
+     "core": [
+      "safeguard mechanisms"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p165.s9",
+     "heading": "Correct personal data under certain circumstances; and",
+     "core": [
+      "cross-border / international"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "G7": {
+   "question": "What does the policy say about children and minors, and what age threshold and safeguards apply?",
+   "search_log": {
+    "child / children / minor": {
+     "regex": "\\bchild(?:ren)?(?:'s)?\\b|\\bminors?\\b|\\bkids?\\b|\\bteens?(?:agers?)?\\b|\\byouth\\b|\\byoung (?:people|users)\\b",
+     "tier": "core",
+     "sentences_matched": 6
+    },
+    "age threshold": {
+     "regex": "\\bunder (?:the age of )?\\d{1,2}\\b|\\b\\d{1,2} years? (?:of age|old)\\b|\\bage of (?:majority|\\d{1,2})\\b|\\bminimum age\\b|\\bage requirement\\b",
+     "tier": "core",
+     "sentences_matched": 3
+    },
+    "parent / guardian / consent": {
+     "regex": "\\bparent(?:s|al)?\\b|\\bguardians?\\b|\\bverifiable (?:parental )?consent\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "COPPA / age verification": {
+     "regex": "\\bCOPPA\\b|\\bage (?:verification|assurance|estimation|gate)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "knowingly collect": {
+     "regex": "\\bknowingly\\b",
+     "tier": "support",
+     "sentences_matched": 0
+    }
+   },
+   "n_candidates": 7,
+   "candidates": [
+    {
+     "sid": "p093.s1",
+     "heading": "Children",
+     "core": [
+      "child / children / minor",
+      "age threshold"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p094.s1",
+     "heading": "Children",
+     "core": [
+      "child / children / minor",
+      "age threshold"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p009.s1",
+     "heading": "Children",
+     "core": [
+      "child / children / minor"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p092.s1",
+     "heading": "Children",
+     "core": [
+      "child / children / minor"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p142.s1",
+     "heading": "Legal Basis for Processing Personal Data",
+     "core": [
+      "child / children / minor"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p156.s3",
+     "heading": "California & Other U.S. States Notice at Collection",
+     "core": [
+      "child / children / minor"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p165.s10",
+     "heading": "Correct personal data under certain circumstances; and",
+     "core": [
+      "age threshold"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "AI1": {
+   "question": "Does the company use users' personal data or content to train or improve AI / machine-learning models?",
+   "search_log": {
+    "train / training": {
+     "regex": "\\btrain(?:s|ed|ing)?\\b",
+     "tier": "core",
+     "sentences_matched": 2
+    },
+    "model(s)": {
+     "regex": "\\b(?:AI |machine[- ]learning |language |foundation |our )?models?\\b",
+     "tier": "core",
+     "sentences_matched": 2
+    },
+    "machine learning": {
+     "regex": "\\bmachine[- ]learning\\b|\\bML\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "artificial intelligence / AI": {
+     "regex": "\\bartificial intelligence\\b|\\bAI\\b|\\bgenerative\\b|\\bLLMs?\\b|\\blarge language\\b",
+     "tier": "core",
+     "sentences_matched": 4
+    },
+    "improve / develop services": {
+     "regex": "\\b(?:improve|develop|enhance|build)\\b.{0,30}\\b(?:services?|products?|features?|technolog(?:y|ies)|systems?|algorithms?)\\b",
+     "tier": "support",
+     "sentences_matched": 4
+    },
+    "content / inputs / outputs": {
+     "regex": "\\b(?:content|inputs?|outputs?|prompts?|conversations?|chats?|messages?|posts?|feedback)\\b",
+     "tier": "support",
+     "sentences_matched": 58
+    },
+    "research": {
+     "regex": "\\bresearch\\b",
+     "tier": "support",
+     "sentences_matched": 3
+    }
+   },
+   "n_candidates": 7,
+   "candidates": [
+    {
+     "sid": "p032.s2",
+     "heading": "How Do We Use Personal Data?",
+     "core": [
+      "train / training",
+      "model(s)",
+      "artificial intelligence / AI"
+     ],
+     "support": [
+      "content / inputs / outputs"
+     ],
+     "score": 10
+    },
+    {
+     "sid": "p039.s1",
+     "heading": "How Do We Use Personal Data?",
+     "core": [
+      "train / training",
+      "model(s)",
+      "artificial intelligence / AI"
+     ],
+     "support": [
+      "content / inputs / outputs"
+     ],
+     "score": 10
+    },
+    {
+     "sid": "p037.s2",
+     "heading": "How Do We Use Personal Data?",
+     "core": [
+      "machine learning",
+      "artificial intelligence / AI"
+     ],
+     "support": [
+      "content / inputs / outputs"
+     ],
+     "score": 7
+    },
+    {
+     "sid": "p037.s1",
+     "heading": "How Do We Use Personal Data?",
+     "core": [
+      "artificial intelligence / AI"
+     ],
+     "support": [
+      "content / inputs / outputs"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p025.s1",
+     "heading": "What Personal Data Do We Receive?",
+     "core": [],
+     "support": [
+      "improve / develop services",
+      "content / inputs / outputs"
+     ],
+     "score": 2
+    },
+    {
+     "sid": "p038.s1",
+     "heading": "How Do We Use Personal Data?",
+     "core": [],
+     "support": [
+      "improve / develop services",
+      "research"
+     ],
+     "score": 2
+    },
+    {
+     "sid": "p157.s1",
+     "heading": "California & Other U.S. States Notice at Collection",
+     "core": [],
+     "support": [
+      "content / inputs / outputs",
+      "research"
+     ],
+     "score": 2
+    }
+   ]
+  },
+  "AI2": {
+   "question": "If personal data is used for AI training, can the user stop it, and how?",
+   "search_log": {
+    "opt out": {
+     "regex": "\\bopt(?:[- ])?out\\b|\\bopt(?:[- ])?in\\b",
+     "tier": "core",
+     "sentences_matched": 10
+    },
+    "turn off / disable": {
+     "regex": "\\bturn(?:ing)? off\\b|\\bdisabl(?:e|ed|ing)\\b|\\btoggle\\b|\\bswitch off\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "choose whether / your choices": {
+     "regex": "\\bchoose (?:whether|if|not to|to stop)\\b|\\byour choices?\\b|\\bcontrol (?:whether|how)\\b|\\b(?:stop|prevent)\\b.{0,40}\\b(?:used|using)\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "settings / controls": {
+     "regex": "\\b(?:privacy |data |account )?(?:settings|controls?|preferences)\\b|\\bdashboard\\b",
+     "tier": "support",
+     "sentences_matched": 27
+    },
+    "train / model (co-occurrence)": {
+     "regex": "\\btrain(?:s|ed|ing)?\\b|\\bmodels?\\b|\\bimprove the model\\b",
+     "tier": "support",
+     "sentences_matched": 2
+    },
+    "object / request": {
+     "regex": "\\bobject(?:ion)?\\b|\\bsubmit a request\\b|\\bprivacy (?:portal|request)\\b|\\bcontact us\\b",
+     "tier": "support",
+     "sentences_matched": 9
+    }
+   },
+   "n_candidates": 12,
+   "candidates": [
+    {
+     "sid": "p049.s3",
+     "heading": "How Do We Share Personal Data?",
+     "core": [
+      "opt out"
+     ],
+     "support": [
+      "settings / controls"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p076.s1",
+     "heading": "Direct messages if the account owner has enabled archiving",
+     "core": [
+      "choose whether / your choices"
+     ],
+     "support": [
+      "settings / controls"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p165.s6",
+     "heading": "Correct personal data under certain circumstances; and",
+     "core": [
+      "opt out"
+     ],
+     "support": [
+      "settings / controls"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p165.s7",
+     "heading": "Correct personal data under certain circumstances; and",
+     "core": [
+      "opt out"
+     ],
+     "support": [
+      "settings / controls"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p165.s9",
+     "heading": "Correct personal data under certain circumstances; and",
+     "core": [
+      "opt out"
+     ],
+     "support": [
+      "settings / controls"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p036.s3",
+     "heading": "How Do We Use Personal Data?",
+     "core": [
+      "turn off / disable"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p049.s5",
+     "heading": "How Do We Share Personal Data?",
+     "core": [
+      "opt out"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p084.s1",
+     "heading": "Marketing Communications",
+     "core": [
+      "opt out"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p158.s2",
+     "heading": "California & Other U.S. States Notice at Collection",
+     "core": [
+      "opt out"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p165.s1",
+     "heading": "Correct personal data under certain circumstances; and",
+     "core": [
+      "opt out"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p168.s5",
+     "heading": "Correct personal data under certain circumstances; and",
+     "core": [
+      "opt out"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p169.s2",
+     "heading": "Correct personal data under certain circumstances; and",
+     "core": [
+      "opt out"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "AI3": {
+   "question": "Can people (employees, contractors, reviewers) read or review users' content?",
+   "search_log": {
+    "human review": {
+     "regex": "\\bhuman (?:review(?:ers?)?|reviewed|oversight|moderators?)\\b|\\bmanual(?:ly)? review(?:ed)?\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "reviewers / annotators / moderators": {
+     "regex": "\\breviewers?\\b|\\bannotators?\\b|\\bmoderat(?:ors?|ion)\\b|\\bcrowd ?workers?\\b|\\braters?\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "staff may access / review content": {
+     "regex": "\\b(?:employees|personnel|staff|contractors|team members|authori[sz]ed (?:personnel|staff|employees))\\b.{0,60}\\b(?:access|review|read|view|see)\\b",
+     "tier": "core",
+     "sentences_matched": 3
+    },
+    "review content / conversations": {
+     "regex": "\\breview(?:s|ed|ing)?\\b.{0,40}\\b(?:content|conversations?|chats?|messages?|inputs?|prompts?|recordings?)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "we may access / review / monitor content": {
+     "regex": "\\bwe (?:may |might |can )?(?:access|review|monitor|read|inspect|view|listen to)\\b.{0,50}\\b(?:content|communications?|conversations?|chats?|messages?|recordings?|files|inputs?)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "flagged / safety / abuse": {
+     "regex": "\\bflagged\\b|\\b(?:trust and )?safety\\b|\\babuse\\b|\\bmisuse\\b|\\bviolat(?:e|es|ion|ions)\\b",
+     "tier": "support",
+     "sentences_matched": 13
+    },
+    "support / feedback": {
+     "regex": "\\bfeedback\\b|\\bsupport (?:requests?|tickets?)\\b|\\bcustomer support\\b",
+     "tier": "support",
+     "sentences_matched": 6
+    }
+   },
+   "n_candidates": 3,
+   "candidates": [
+    {
+     "sid": "p024.s3",
+     "heading": "What Personal Data Do We Receive?",
+     "core": [
+      "staff may access / review content"
+     ],
+     "support": [
+      "flagged / safety / abuse"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p027.s2",
+     "heading": "What Personal Data Do We Receive?",
+     "core": [
+      "staff may access / review content"
+     ],
+     "support": [
+      "flagged / safety / abuse"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p032.s1",
+     "heading": "How Do We Use Personal Data?",
+     "core": [
+      "staff may access / review content"
+     ],
+     "support": [
+      "flagged / safety / abuse"
+     ],
+     "score": 4
+    }
+   ]
+  },
+  "AI4": {
+   "question": "Does the policy let the company keep, use or share de-identified or aggregated data, and for what?",
+   "search_log": {
+    "de-identified": {
+     "regex": "\\bde-?identif(?:y|ied|ies|ication)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "anonymised": {
+     "regex": "\\banonymi[sz](?:e|ed|es|ation)\\b|\\banonymous\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "aggregated": {
+     "regex": "\\baggregat(?:e|ed|es|ion)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "pseudonymised": {
+     "regex": "\\bpseudonymi[sz](?:e|ed|ation)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "no longer identifies": {
+     "regex": "\\b(?:no longer|cannot reasonably|not reasonably) (?:be used to )?identif(?:y|ies)\\b|\\bnon-?personal (?:data|information)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "share / any purpose": {
+     "regex": "\\bany (?:lawful )?purpose\\b|\\bshare\\b|\\bthird[- ]part(?:y|ies)\\b|\\bresearch\\b|\\bimprove\\b",
+     "tier": "support",
+     "sentences_matched": 57
+    }
+   },
+   "n_candidates": 0,
+   "candidates": []
+  },
+  "AI5": {
+   "question": "Is user content sent to external AI / model providers, or licensed to others for AI training?",
+   "search_log": {
+    "AI / model providers": {
+     "regex": "\\b(?:AI|model|LLM|machine[- ]learning|artificial intelligence) (?:providers?|vendors?|partners?|services?|companies|developers?)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "named AI vendors": {
+     "regex": "\\bOpenAI\\b|\\bChatGPT\\b|\\bAnthropic\\b|\\bClaude\\b|\\bGemini\\b|\\bGoogle AI\\b|\\bAzure OpenAI\\b|\\bLlama\\b|\\bMistral\\b|\\bxAI\\b|\\bGrok\\b|\\bPerplexity\\b|\\bDeepSeek\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "third-party AI / models": {
+     "regex": "\\bthird[- ]party (?:AI|models?|LLMs?|artificial intelligence)\\b",
+     "tier": "core",
+     "sentences_matched": 2
+    },
+    "integrations / connectors / plugins": {
+     "regex": "\\b(?:integrations?|connectors?|plug-?ins?|MCP|GPTs|extensions|(?<!user )agents?)\\b",
+     "tier": "core",
+     "sentences_matched": 9
+    },
+    "license content / data licensing": {
+     "regex": "\\blicen[cs](?:e|es|ing)\\b.{0,60}\\b(?:content|data)\\b|\\bdata licensing\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "sub-processors / service providers": {
+     "regex": "\\bsub-?processors?\\b|\\bservice providers?\\b|\\bvendors?\\b",
+     "tier": "support",
+     "sentences_matched": 4
+    },
+    "AI features": {
+     "regex": "\\bAI(?:-powered)? (?:features?|tools?|assistants?)\\b|\\bgenerative\\b",
+     "tier": "support",
+     "sentences_matched": 0
+    }
+   },
+   "n_candidates": 11,
+   "candidates": [
+    {
+     "sid": "p027.s1",
+     "heading": "What Personal Data Do We Receive?",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p032.s2",
+     "heading": "How Do We Use Personal Data?",
+     "core": [
+      "third-party AI / models"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p037.s1",
+     "heading": "How Do We Use Personal Data?",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p039.s1",
+     "heading": "How Do We Use Personal Data?",
+     "core": [
+      "third-party AI / models"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p052.s1",
+     "heading": "How Do We Share Personal Data?",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p057.s1",
+     "heading": "How Do We Share Personal Data?",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p075.s1",
+     "heading": "Direct messages if the account owner has enabled archiving",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p078.s1",
+     "heading": "Direct messages if the account owner has enabled archiving",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p081.s1",
+     "heading": "Direct messages if the account owner has enabled archiving",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p152.s1",
+     "heading": "International Data Transfers",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p171.s6",
+     "heading": "Correct personal data under certain circumstances; and",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "DPDP1": {
+   "question": "How does the policy obtain consent: an explicit affirmative action, a general agreement, or browsewrap ('by using you agree')?",
+   "search_log": {
+    "by using / visiting you agree": {
+     "regex": "\\bby (?:using|visiting|accessing|downloading|browsing|continuing|registering|signing up|providing)\\b.{0,120}\\b(?:agree|consent|accept|acknowledge)\\w*",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "consent": {
+     "regex": "\\bconsent(?:s|ed|ing)?\\b",
+     "tier": "core",
+     "sentences_matched": 9
+    },
+    "agree / accept": {
+     "regex": "\\b(?:you )?(?:agree|accept|acknowledge)(?:s|d)?\\b",
+     "tier": "core",
+     "sentences_matched": 5
+    },
+    "DPDP / Indian law": {
+     "regex": "\\bDigital Personal Data Protection\\b|\\bDPDP(?:A)?\\b|\\bIT Act\\b|\\bSPDI\\b|\\bInformation Technology\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "legal basis": {
+     "regex": "\\blegal bas(?:is|es)\\b|\\blegitimate interests?\\b|\\bperformance of (?:a|the) contract\\b",
+     "tier": "core",
+     "sentences_matched": 3
+    },
+    "notice / checkbox / sign-up": {
+     "regex": "\\bnotice\\b|\\bcheck ?box\\b|\\bsign[- ]?up\\b|\\bregistration\\b|\\bclick(?:ing)?\\b",
+     "tier": "support",
+     "sentences_matched": 14
+    },
+    "explicit / affirmative / freely": {
+     "regex": "\\bexplicit(?:ly)?\\b|\\baffirmative\\b|\\bfreely\\b|\\bunambiguous\\b|\\binformed\\b",
+     "tier": "support",
+     "sentences_matched": 0
+    }
+   },
+   "n_candidates": 17,
+   "candidates": [
+    {
+     "sid": "p146.s1",
+     "heading": "International Data Transfers",
+     "core": [
+      "by using / visiting you agree",
+      "agree / accept"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p036.s1",
+     "heading": "How Do We Use Personal Data?",
+     "core": [
+      "consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p045.s1",
+     "heading": "How Do We Share Personal Data?",
+     "core": [
+      "consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p049.s4",
+     "heading": "How Do We Share Personal Data?",
+     "core": [
+      "consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p049.s5",
+     "heading": "How Do We Share Personal Data?",
+     "core": [
+      "consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p072.s1",
+     "heading": "Direct messages if the account owner has enabled archiving",
+     "core": [
+      "agree / accept"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p072.s2",
+     "heading": "Direct messages if the account owner has enabled archiving",
+     "core": [
+      "agree / accept"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p084.s3",
+     "heading": "Marketing Communications",
+     "core": [
+      "consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p137.s1",
+     "heading": "Legal Basis for Processing Personal Data",
+     "core": [
+      "legal basis"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p138.s2",
+     "heading": "Legal Basis for Processing Personal Data",
+     "core": [
+      "legal basis"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p140.s1",
+     "heading": "Legal Basis for Processing Personal Data",
+     "core": [
+      "consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p140.s2",
+     "heading": "Legal Basis for Processing Personal Data",
+     "core": [
+      "consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p143.s1",
+     "heading": "Legal Basis for Processing Personal Data",
+     "core": [
+      "legal basis"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p168.s2",
+     "heading": "Correct personal data under certain circumstances; and",
+     "core": [
+      "consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p168.s3",
+     "heading": "Correct personal data under certain circumstances; and",
+     "core": [
+      "consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p170.s1",
+     "heading": "Correct personal data under certain circumstances; and",
+     "core": [
+      "agree / accept"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p174.s5",
+     "heading": "California’s Shine the Light Law",
+     "core": [
+      "agree / accept"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "DPDP2": {
+   "question": "Can users withdraw consent, and is it as easy as giving it?",
+   "search_log": {
+    "withdraw / revoke consent": {
+     "regex": "\\bwithdraw(?:s|n|al|ing)?\\b|\\brevok(?:e|es|ed|ing)\\b|\\brevocation\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "consent manager": {
+     "regex": "\\bconsent manager\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "opt out / unsubscribe": {
+     "regex": "\\bopt(?:[- ])?out\\b|\\bunsubscrib(?:e|ing)\\b",
+     "tier": "core",
+     "sentences_matched": 9
+    },
+    "settings / dashboard": {
+     "regex": "\\bsettings\\b|\\bdashboard\\b|\\bpreferences\\b|\\bpreference cent(?:er|re)\\b|\\btoggle\\b",
+     "tier": "support",
+     "sentences_matched": 22
+    },
+    "contact / email to withdraw": {
+     "regex": "\\b(?:email|write to|contact)\\b",
+     "tier": "support",
+     "sentences_matched": 48
+    },
+    "delete account": {
+     "regex": "\\b(?:delete|deactivate|close) (?:your )?account\\b",
+     "tier": "support",
+     "sentences_matched": 0
+    },
+    "consent (co-occurrence)": {
+     "regex": "\\bconsent\\b",
+     "tier": "support",
+     "sentences_matched": 9
+    }
+   },
+   "n_candidates": 15,
+   "candidates": [
+    {
+     "sid": "p140.s2",
+     "heading": "Legal Basis for Processing Personal Data",
+     "core": [
+      "withdraw / revoke consent"
+     ],
+     "support": [
+      "settings / dashboard",
+      "consent (co-occurrence)"
+     ],
+     "score": 5
+    },
+    {
+     "sid": "p049.s3",
+     "heading": "How Do We Share Personal Data?",
+     "core": [
+      "opt out / unsubscribe"
+     ],
+     "support": [
+      "settings / dashboard"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p084.s1",
+     "heading": "Marketing Communications",
+     "core": [
+      "opt out / unsubscribe"
+     ],
+     "support": [
+      "contact / email to withdraw"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p165.s6",
+     "heading": "Correct personal data under certain circumstances; and",
+     "core": [
+      "opt out / unsubscribe"
+     ],
+     "support": [
+      "settings / dashboard"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p165.s7",
+     "heading": "Correct personal data under certain circumstances; and",
+     "core": [
+      "opt out / unsubscribe"
+     ],
+     "support": [
+      "settings / dashboard"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p158.s2",
+     "heading": "California & Other U.S. States Notice at Collection",
+     "core": [
+      "opt out / unsubscribe"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p165.s1",
+     "heading": "Correct personal data under certain circumstances; and",
+     "core": [
+      "opt out / unsubscribe"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p165.s9",
+     "heading": "Correct personal data under certain circumstances; and",
+     "core": [
+      "opt out / unsubscribe"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p168.s5",
+     "heading": "Correct personal data under certain circumstances; and",
+     "core": [
+      "opt out / unsubscribe"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p169.s2",
+     "heading": "Correct personal data under certain circumstances; and",
+     "core": [
+      "opt out / unsubscribe"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p026.s4",
+     "heading": "What Personal Data Do We Receive?",
+     "core": [],
+     "support": [
+      "settings / dashboard",
+      "contact / email to withdraw"
+     ],
+     "score": 2
+    },
+    {
+     "sid": "p069.s1",
+     "heading": "Direct messages if the account owner has enabled archiving",
+     "core": [],
+     "support": [
+      "settings / dashboard",
+      "contact / email to withdraw"
+     ],
+     "score": 2
+    },
+    {
+     "sid": "p069.s2",
+     "heading": "Direct messages if the account owner has enabled archiving",
+     "core": [],
+     "support": [
+      "settings / dashboard",
+      "contact / email to withdraw"
+     ],
+     "score": 2
+    },
+    {
+     "sid": "p078.s1",
+     "heading": "Direct messages if the account owner has enabled archiving",
+     "core": [],
+     "support": [
+      "settings / dashboard",
+      "contact / email to withdraw"
+     ],
+     "score": 2
+    },
+    {
+     "sid": "p168.s2",
+     "heading": "Correct personal data under certain circumstances; and",
+     "core": [],
+     "support": [
+      "contact / email to withdraw",
+      "consent (co-occurrence)"
+     ],
+     "score": 2
+    }
+   ]
+  },
+  "DPDP3": {
+   "question": "Does the policy publish a Grievance Officer or Data Protection Officer with contact details?",
+   "search_log": {
+    "grievance officer": {
+     "regex": "\\bgrievance(?:s)?\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "data protection officer / DPO": {
+     "regex": "\\bdata protection officer\\b|\\bDPO\\b|\\bprivacy officer\\b|\\bnodal officer\\b",
+     "tier": "core",
+     "sentences_matched": 2
+    },
+    "email address": {
+     "regex": "[\\w.+-]+@[\\w-]+\\.[\\w.]+",
+     "tier": "core",
+     "sentences_matched": 8
+    },
+    "Data Protection Board / complaint": {
+     "regex": "\\bData Protection Board\\b|\\b(?:lodge|file|make) a complaint\\b|\\bsupervisory authority\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "contact us": {
+     "regex": "\\bcontact us\\b|\\bhow to contact\\b|\\bpostal address\\b|\\baddress\\b",
+     "tier": "support",
+     "sentences_matched": 17
+    },
+    "officer / named person": {
+     "regex": "\\bofficer\\b|\\bMr\\.?\\b|\\bMs\\.?\\b",
+     "tier": "support",
+     "sentences_matched": 2
+    }
+   },
+   "n_candidates": 10,
+   "candidates": [
+    {
+     "sid": "p119.s1",
+     "heading": "Email: privacy@zoom.us",
+     "core": [
+      "data protection officer / DPO",
+      "email address"
+     ],
+     "support": [
+      "officer / named person"
+     ],
+     "score": 7
+    },
+    {
+     "sid": "p099.s1",
+     "heading": "Attention: Data Protection Officer",
+     "core": [
+      "data protection officer / DPO"
+     ],
+     "support": [
+      "officer / named person"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p084.s1",
+     "heading": "Marketing Communications",
+     "core": [
+      "email address"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p096.s2",
+     "heading": "How to Contact Us",
+     "core": [
+      "email address"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p110.s1",
+     "heading": "Email: privacy@zoom.us",
+     "core": [
+      "email address"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p118.s1",
+     "heading": "Email: privacy@zoom.us",
+     "core": [
+      "email address"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p136.s1",
+     "heading": "Data Subjects Rights",
+     "core": [
+      "Data Protection Board / complaint"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p149.s2",
+     "heading": "International Data Transfers",
+     "core": [
+      "email address"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p166.s4",
+     "heading": "Correct personal data under certain circumstances; and",
+     "core": [
+      "email address"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p174.s2",
+     "heading": "California’s Shine the Light Law",
+     "core": [
+      "email address"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "DPDP4": {
+   "question": "Is the notice offered in Indian languages (Eighth Schedule) besides English? Record which languages.",
+   "search_log": {
+    "Eighth Schedule": {
+     "regex": "\\beighth schedule\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "language(s) / translation": {
+     "regex": "\\blanguages?\\b|\\btranslat(?:e|ed|ion|ions)\\b|\\bvernacular\\b|\\bregional\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "Indian language names (English)": {
+     "regex": "\\b(?:Hindi|Bengali|Bangla|Tamil|Telugu|Marathi|Gujarati|Kannada|Malayalam|Odia|Oriya|Punjabi|Assamese|Urdu|Konkani|Manipuri|Nepali|Sanskrit|Sindhi|Kashmiri|Maithili|Santali|Dogri|Bodo)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "Indian language names (native script)": {
+     "regex": "हिन्दी|हिंदी|বাংলা|தமிழ்|తెలుగు|मराठी|ગુજરાતી|ಕನ್ನಡ|മലയാളം|ଓଡ଼ିଆ|ਪੰਜਾਬੀ|অসমীয়া|اردو",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "English": {
+     "regex": "\\bEnglish\\b",
+     "tier": "support",
+     "sentences_matched": 0
+    }
+   },
+   "n_candidates": 0,
+   "candidates": []
+  }
+ }
+}

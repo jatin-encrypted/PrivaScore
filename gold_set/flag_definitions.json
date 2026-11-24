@@ -1,0 +1,741 @@
+{
+  "version": "1.4",
+  "notes": "Flag IDs, keys, types and weights are unchanged from privascore_15_policy_gold_set.md. Search terms are case-insensitive Python regexes run on each sentence after quote/dash normalisation. 'core' terms point at the flag directly; 'support' terms are weaker and only surface a sentence when two or more different support terms match. Retrieval is a reading aid: it does not decide labels, and finding no match is not proof of absence. Terms with exclude_self ignore matches of the policy owner's own names (self_names), so a company naming itself is not counted as a third-party AI vendor.",
+  "flags": [
+    {
+      "id": "G1",
+      "key": "first_party_collection_scope",
+      "type": "exposure",
+      "weight": 1,
+      "question": "What personal data does the company itself collect, and how broad is it?",
+      "terms": [
+        {
+          "label": "we collect",
+          "regex": "\\bwe (?:may )?(?:collect|receive|obtain|gather|process)\\b",
+          "tier": "core"
+        },
+        {
+          "label": "information/data we collect",
+          "regex": "\\b(?:information|data) (?:that )?we (?:collect|receive|obtain)\\b",
+          "tier": "core"
+        },
+        {
+          "label": "collected automatically",
+          "regex": "\\bautomatically (?:collect|receive|log|record)|collected automatically\\b",
+          "tier": "core"
+        },
+        {
+          "label": "you provide",
+          "regex": "\\b(?:you|users) (?:provide|submit|give|share|upload|enter)\\b",
+          "tier": "core"
+        },
+        {
+          "label": "location",
+          "regex": "\\b(?:precise |approximate |geo-?)?location\\b|\\bgeolocation\\b|\\bGPS\\b",
+          "tier": "support"
+        },
+        {
+          "label": "device / identifiers",
+          "regex": "\\bdevice (?:information|data|identifiers?|id)\\b|\\bIP address(?:es)?\\b|\\badvertising (?:id|identifier)s?\\b|\\bIMEI\\b",
+          "tier": "support"
+        },
+        {
+          "label": "content / messages",
+          "regex": "\\b(?:content|messages?|prompts?|inputs?|uploads?|files|photos|voice|audio|recordings?)\\b",
+          "tier": "support"
+        },
+        {
+          "label": "contacts",
+          "regex": "\\bcontacts?(?: list| book)?\\b|\\baddress book\\b",
+          "tier": "support"
+        },
+        {
+          "label": "sensitive / biometric / financial",
+          "regex": "\\bsensitive\\b|\\bbiometric\\b|\\bhealth\\b|\\bfinancial (?:information|data)\\b|\\bcard (?:number|details)\\b|\\bbank account\\b|\\bKYC\\b|\\bAadhaar\\b|\\bPAN\\b",
+          "tier": "support"
+        },
+        {
+          "label": "from other sources",
+          "regex": "\\b(?:from|via) (?:third[- ]part(?:y|ies)|other sources|partners|data brokers|publicly available sources)\\b",
+          "tier": "support"
+        },
+        {
+          "label": "usage / log data",
+          "regex": "\\b(?:usage|log|activity|interaction) (?:data|information)\\b|\\blog files?\\b",
+          "tier": "support"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "key": "third_party_advertising_tracking",
+      "type": "exposure",
+      "weight": 3,
+      "question": "Does the company sell personal data, or share it with / let third parties collect it for advertising, marketing or cross-site tracking?",
+      "terms": [
+        {
+          "label": "advertis*",
+          "regex": "\\badvertis(?:e|er|ers|ing|ement|ements)\\b|\\bads\\b",
+          "tier": "core"
+        },
+        {
+          "label": "targeted / interest-based / behavioural ads",
+          "regex": "\\b(?:targeted|interest[- ]based|personali[sz]ed|behaviou?ral|cross[- ]context(?:ual)?)(?: behaviou?ral)? (?:advertising|ads|marketing)\\b",
+          "tier": "core"
+        },
+        {
+          "label": "sell / sale of data",
+          "regex": "\\b(?:sell|sells|selling|sold|sale)\\b",
+          "tier": "core"
+        },
+        {
+          "label": "pixel / SDK / tracking tech",
+          "regex": "\\bpixels?\\b|\\bSDKs?\\b|\\bweb beacons?\\b|\\btracking (?:technolog(?:y|ies)|tools?)\\b|\\btrackers?\\b",
+          "tier": "core"
+        },
+        {
+          "label": "ad / marketing partners",
+          "regex": "\\b(?:advertising|ad|marketing) (?:partners?|networks?|platforms?|companies)\\b",
+          "tier": "core"
+        },
+        {
+          "label": "opt-out of sale/ads / GPC",
+          "regex": "\\bdo not sell\\b|\\bglobal privacy control\\b|\\bopt[- ]out of (?:the )?(?:sale|sharing|targeted|personali[sz]ed|interest)",
+          "tier": "core"
+        },
+        {
+          "label": "cookies",
+          "regex": "\\bcookies?\\b",
+          "tier": "support"
+        },
+        {
+          "label": "analytics provider",
+          "regex": "\\banalytics (?:providers?|partners?|services|tools)\\b|\\bGoogle Analytics\\b",
+          "tier": "support"
+        },
+        {
+          "label": "share with third parties",
+          "regex": "\\bshare\\b.{0,40}\\bthird[- ]part(?:y|ies)\\b|\\bthird[- ]part(?:y|ies)\\b.{0,40}\\b(?:share|disclose|collect)",
+          "tier": "support"
+        },
+        {
+          "label": "marketing",
+          "regex": "\\bmarketing\\b|\\bpromotional\\b",
+          "tier": "support"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "key": "profiling_automated_decisions",
+      "type": "exposure",
+      "weight": 2,
+      "question": "Does the company build profiles or inferences about users, or make automated decisions about them?",
+      "terms": [
+        {
+          "label": "profiling",
+          "regex": "\\bprofil(?:e|es|ing)\\b",
+          "tier": "core"
+        },
+        {
+          "label": "automated decision",
+          "regex": "\\bautomated (?:decision|decision-making|processing|means|systems?)\\b",
+          "tier": "core"
+        },
+        {
+          "label": "infer / inference",
+          "regex": "\\binfer(?:s|red|ring|ences?)?\\b",
+          "tier": "core"
+        },
+        {
+          "label": "legal or similarly significant",
+          "regex": "\\blegal (?:or similarly significant )?effects?\\b|\\bsimilarly significant\\b",
+          "tier": "core"
+        },
+        {
+          "label": "scoring",
+          "regex": "\\b(?:risk|credit|fraud) (?:scor(?:e|es|ing)|assessment)\\b",
+          "tier": "core"
+        },
+        {
+          "label": "personalise / recommend",
+          "regex": "\\bpersonali[sz](?:e|es|ed|ing|ation)\\b|\\brecommend(?:ation|ations|s|ed)?\\b|\\btailor(?:ed)?\\b|\\bcustomi[sz]e\\b",
+          "tier": "support"
+        },
+        {
+          "label": "interests / preferences / segments",
+          "regex": "\\b(?:interests?|preferences|segments?|demographics?)\\b",
+          "tier": "support"
+        },
+        {
+          "label": "predict / analyse behaviour",
+          "regex": "\\bpredict(?:ive|ions?)?\\b|\\banaly[sz]e?(?:s|d)? (?:your )?(?:behaviou?r|usage|activity)\\b",
+          "tier": "support"
+        }
+      ]
+    },
+    {
+      "id": "G4",
+      "key": "data_retention_specificity",
+      "type": "governance",
+      "weight": 2,
+      "question": "How specific is the policy about how long personal data is kept?",
+      "terms": [
+        {
+          "label": "retain / retention",
+          "regex": "\\bretain(?:s|ed|ing)?\\b|\\bretention\\b",
+          "tier": "core"
+        },
+        {
+          "label": "keep / store for",
+          "regex": "\\b(?:keep|kept|store|stored|hold)\\b.{0,60}\\b(?:for|until|as long as|period)\\b",
+          "tier": "core"
+        },
+        {
+          "label": "as long as necessary",
+          "regex": "\\bas long as (?:is )?(?:necessary|needed|required|reasonably)\\b|\\bno longer (?:than|necessary|needed)\\b",
+          "tier": "core"
+        },
+        {
+          "label": "numeric period",
+          "regex": "\\b\\d+\\s*(?:-\\s*)?(?:days?|weeks?|months?|years?)\\b|\\b(?:thirty|sixty|ninety|one|two|three|five|six|seven|ten|twelve|eighteen|twenty-four)\\s+(?:days?|months?|years?)\\b",
+          "tier": "core"
+        },
+        {
+          "label": "indefinitely",
+          "regex": "\\bindefinite(?:ly)?\\b|\\bpermanently\\b|\\bforever\\b",
+          "tier": "core"
+        },
+        {
+          "label": "delete after / deletion",
+          "regex": "\\b(?:delete|deleted|deletion|erase|purge|dispose)\\b",
+          "tier": "support"
+        },
+        {
+          "label": "legal obligation",
+          "regex": "\\b(?:legal|statutory|regulatory) (?:obligations?|requirements?|purposes)\\b|\\brequired by (?:applicable )?law\\b",
+          "tier": "support"
+        }
+      ]
+    },
+    {
+      "id": "G5",
+      "key": "user_rights_access_deletion",
+      "type": "governance",
+      "weight": 2,
+      "question": "What rights do users have to access, correct and delete their data, and for whom?",
+      "terms": [
+        {
+          "label": "right to / your rights",
+          "regex": "\\bright(?:s)? (?:to|of)\\b|\\byour (?:privacy )?rights\\b|\\bdata subject\\b|\\bdata principal\\b",
+          "tier": "core"
+        },
+        {
+          "label": "access",
+          "regex": "\\baccess (?:to )?(?:your|the) (?:personal )?(?:data|information)\\b|\\brequest (?:a copy|access)\\b",
+          "tier": "core"
+        },
+        {
+          "label": "correct / rectify / update",
+          "regex": "\\b(?:correct|correction|rectif(?:y|ication)|update|amend)\\b",
+          "tier": "core"
+        },
+        {
+          "label": "delete / erase",
+          "regex": "\\b(?:delete|deletion|erase|erasure|right to be forgotten)\\b",
+          "tier": "core"
+        },
+        {
+          "label": "portability / export",
+          "regex": "\\bportab(?:le|ility)\\b|\\bexport (?:your )?data\\b|\\bdownload (?:your|a copy)\\b",
+          "tier": "core"
+        },
+        {
+          "label": "object / restrict",
+          "regex": "\\bobject(?:ion)? to\\b|\\brestrict(?:ion)? (?:of )?(?:the )?processing\\b",
+          "tier": "support"
+        },
+        {
+          "label": "nominate (DPDP)",
+          "regex": "\\bnominat(?:e|ion)\\b",
+          "tier": "support"
+        },
+        {
+          "label": "jurisdiction limits",
+          "regex": "\\b(?:EEA|European|UK|California|residents? of|depending on where you live|applicable law)\\b",
+          "tier": "support"
+        }
+      ]
+    },
+    {
+      "id": "G6",
+      "key": "international_data_transfers",
+      "type": "exposure",
+      "weight": 1,
+      "question": "Is personal data transferred to or stored in other countries, and are safeguards named?",
+      "terms": [
+        {
+          "label": "transfer",
+          "regex": "\\btransfer(?:s|red|ring)?\\b",
+          "tier": "core"
+        },
+        {
+          "label": "cross-border / international",
+          "regex": "\\bcross[- ]border\\b|\\binternational(?:ly)?\\b|\\bglobal(?:ly)?\\b|\\bother countries\\b|\\boutside (?:of )?(?:your|the|India)\\b",
+          "tier": "core"
+        },
+        {
+          "label": "stored / processed in a country",
+          "regex": "\\b(?:stored|processed|hosted|located)\\b.{0,40}\\b(?:in|outside) (?:the )?(?:United States|U\\.S\\.|US|India|EU|Europe|Singapore|China|countr(?:y|ies))\\b",
+          "tier": "core"
+        },
+        {
+          "label": "safeguard mechanisms",
+          "regex": "\\bstandard contractual clauses\\b|\\bSCCs?\\b|\\badequacy\\b|\\bData Privacy Framework\\b|\\bbinding corporate rules\\b|\\bappropriate safeguards\\b",
+          "tier": "core"
+        },
+        {
+          "label": "localisation",
+          "regex": "\\blocali[sz](?:ation|ed)\\b|\\bstored (?:only |exclusively )?(?:in|within) India\\b",
+          "tier": "core"
+        },
+        {
+          "label": "servers",
+          "regex": "\\bservers?\\b|\\bdata cent(?:er|re)s?\\b",
+          "tier": "support"
+        },
+        {
+          "label": "jurisdiction",
+          "regex": "\\bjurisdictions?\\b|\\bdata protection laws?\\b",
+          "tier": "support"
+        }
+      ]
+    },
+    {
+      "id": "G7",
+      "key": "childrens_data_safeguards",
+      "type": "governance",
+      "weight": 2,
+      "question": "What does the policy say about children and minors, and what age threshold and safeguards apply?",
+      "terms": [
+        {
+          "label": "child / children / minor",
+          "regex": "\\bchild(?:ren)?(?:'s)?\\b|\\bminors?\\b|\\bkids?\\b|\\bteens?(?:agers?)?\\b|\\byouth\\b|\\byoung (?:people|users)\\b",
+          "tier": "core"
+        },
+        {
+          "label": "age threshold",
+          "regex": "\\bunder (?:the age of )?\\d{1,2}\\b|\\b\\d{1,2} years? (?:of age|old)\\b|\\bage of (?:majority|\\d{1,2})\\b|\\bminimum age\\b|\\bage requirement\\b",
+          "tier": "core"
+        },
+        {
+          "label": "parent / guardian / consent",
+          "regex": "\\bparent(?:s|al)?\\b|\\bguardians?\\b|\\bverifiable (?:parental )?consent\\b",
+          "tier": "core"
+        },
+        {
+          "label": "COPPA / age verification",
+          "regex": "\\bCOPPA\\b|\\bage (?:verification|assurance|estimation|gate)\\b",
+          "tier": "core"
+        },
+        {
+          "label": "knowingly collect",
+          "regex": "\\bknowingly\\b",
+          "tier": "support"
+        }
+      ]
+    },
+    {
+      "id": "AI1",
+      "key": "ai_model_training_on_user_content",
+      "type": "exposure",
+      "weight": 3,
+      "question": "Does the company use users' personal data or content to train or improve AI / machine-learning models?",
+      "terms": [
+        {
+          "label": "train / training",
+          "regex": "\\btrain(?:s|ed|ing)?\\b",
+          "tier": "core"
+        },
+        {
+          "label": "model(s)",
+          "regex": "\\b(?:AI |machine[- ]learning |language |foundation |our )?models?\\b",
+          "tier": "core"
+        },
+        {
+          "label": "machine learning",
+          "regex": "\\bmachine[- ]learning\\b|\\bML\\b",
+          "tier": "core"
+        },
+        {
+          "label": "artificial intelligence / AI",
+          "regex": "\\bartificial intelligence\\b|\\bAI\\b|\\bgenerative\\b|\\bLLMs?\\b|\\blarge language\\b",
+          "tier": "core"
+        },
+        {
+          "label": "improve / develop services",
+          "regex": "\\b(?:improve|develop|enhance|build)\\b.{0,30}\\b(?:services?|products?|features?|technolog(?:y|ies)|systems?|algorithms?)\\b",
+          "tier": "support"
+        },
+        {
+          "label": "content / inputs / outputs",
+          "regex": "\\b(?:content|inputs?|outputs?|prompts?|conversations?|chats?|messages?|posts?|feedback)\\b",
+          "tier": "support"
+        },
+        {
+          "label": "research",
+          "regex": "\\bresearch\\b",
+          "tier": "support"
+        }
+      ]
+    },
+    {
+      "id": "AI2",
+      "key": "ai_training_opt_out_control",
+      "type": "governance",
+      "weight": 2,
+      "question": "If personal data is used for AI training, can the user stop it, and how?",
+      "terms": [
+        {
+          "label": "opt out",
+          "regex": "\\bopt(?:[- ])?out\\b|\\bopt(?:[- ])?in\\b",
+          "tier": "core"
+        },
+        {
+          "label": "turn off / disable",
+          "regex": "\\bturn(?:ing)? off\\b|\\bdisabl(?:e|ed|ing)\\b|\\btoggle\\b|\\bswitch off\\b",
+          "tier": "core"
+        },
+        {
+          "label": "choose whether / your choices",
+          "regex": "\\bchoose (?:whether|if|not to|to stop)\\b|\\byour choices?\\b|\\bcontrol (?:whether|how)\\b|\\b(?:stop|prevent)\\b.{0,40}\\b(?:used|using)\\b",
+          "tier": "core"
+        },
+        {
+          "label": "settings / controls",
+          "regex": "\\b(?:privacy |data |account )?(?:settings|controls?|preferences)\\b|\\bdashboard\\b",
+          "tier": "support"
+        },
+        {
+          "label": "train / model (co-occurrence)",
+          "regex": "\\btrain(?:s|ed|ing)?\\b|\\bmodels?\\b|\\bimprove the model\\b",
+          "tier": "support"
+        },
+        {
+          "label": "object / request",
+          "regex": "\\bobject(?:ion)?\\b|\\bsubmit a request\\b|\\bprivacy (?:portal|request)\\b|\\bcontact us\\b",
+          "tier": "support"
+        }
+      ]
+    },
+    {
+      "id": "AI3",
+      "key": "ai_human_review_of_chats",
+      "type": "exposure",
+      "weight": 2,
+      "question": "Can people (employees, contractors, reviewers) read or review users' content?",
+      "terms": [
+        {
+          "label": "human review",
+          "regex": "\\bhuman (?:review(?:ers?)?|reviewed|oversight|moderators?)\\b|\\bmanual(?:ly)? review(?:ed)?\\b",
+          "tier": "core"
+        },
+        {
+          "label": "reviewers / annotators / moderators",
+          "regex": "\\breviewers?\\b|\\bannotators?\\b|\\bmoderat(?:ors?|ion)\\b|\\bcrowd ?workers?\\b|\\braters?\\b",
+          "tier": "core"
+        },
+        {
+          "label": "staff may access / review content",
+          "regex": "\\b(?:employees|personnel|staff|contractors|team members|authori[sz]ed (?:personnel|staff|employees))\\b.{0,60}\\b(?:access|review|read|view|see)\\b",
+          "tier": "core"
+        },
+        {
+          "label": "review content / conversations",
+          "regex": "\\breview(?:s|ed|ing)?\\b.{0,40}\\b(?:content|conversations?|chats?|messages?|inputs?|prompts?|recordings?)\\b",
+          "tier": "core"
+        },
+        {
+          "label": "we may access / review / monitor content",
+          "regex": "\\bwe (?:may |might |can )?(?:access|review|monitor|read|inspect|view|listen to)\\b.{0,50}\\b(?:content|communications?|conversations?|chats?|messages?|recordings?|files|inputs?)\\b",
+          "tier": "core"
+        },
+        {
+          "label": "flagged / safety / abuse",
+          "regex": "\\bflagged\\b|\\b(?:trust and )?safety\\b|\\babuse\\b|\\bmisuse\\b|\\bviolat(?:e|es|ion|ions)\\b",
+          "tier": "support"
+        },
+        {
+          "label": "support / feedback",
+          "regex": "\\bfeedback\\b|\\bsupport (?:requests?|tickets?)\\b|\\bcustomer support\\b",
+          "tier": "support"
+        }
+      ]
+    },
+    {
+      "id": "AI4",
+      "key": "deidentification_training_carveout",
+      "type": "exposure",
+      "weight": 2,
+      "question": "Does the policy let the company keep, use or share de-identified or aggregated data, and for what?",
+      "terms": [
+        {
+          "label": "de-identified",
+          "regex": "\\bde-?identif(?:y|ied|ies|ication)\\b",
+          "tier": "core"
+        },
+        {
+          "label": "anonymised",
+          "regex": "\\banonymi[sz](?:e|ed|es|ation)\\b|\\banonymous\\b",
+          "tier": "core"
+        },
+        {
+          "label": "aggregated",
+          "regex": "\\baggregat(?:e|ed|es|ion)\\b",
+          "tier": "core"
+        },
+        {
+          "label": "pseudonymised",
+          "regex": "\\bpseudonymi[sz](?:e|ed|ation)\\b",
+          "tier": "core"
+        },
+        {
+          "label": "no longer identifies",
+          "regex": "\\b(?:no longer|cannot reasonably|not reasonably) (?:be used to )?identif(?:y|ies)\\b|\\bnon-?personal (?:data|information)\\b",
+          "tier": "core"
+        },
+        {
+          "label": "share / any purpose",
+          "regex": "\\bany (?:lawful )?purpose\\b|\\bshare\\b|\\bthird[- ]part(?:y|ies)\\b|\\bresearch\\b|\\bimprove\\b",
+          "tier": "support"
+        }
+      ]
+    },
+    {
+      "id": "AI5",
+      "key": "third_party_ai_subprocessors",
+      "type": "exposure",
+      "weight": 2,
+      "question": "Is user content sent to external AI / model providers, or licensed to others for AI training?",
+      "terms": [
+        {
+          "label": "AI / model providers",
+          "regex": "\\b(?:AI|model|LLM|machine[- ]learning|artificial intelligence) (?:providers?|vendors?|partners?|services?|companies|developers?)\\b",
+          "tier": "core"
+        },
+        {
+          "label": "named AI vendors",
+          "regex": "\\bOpenAI\\b|\\bChatGPT\\b|\\bAnthropic\\b|\\bClaude\\b|\\bGemini\\b|\\bGoogle AI\\b|\\bAzure OpenAI\\b|\\bLlama\\b|\\bMistral\\b|\\bxAI\\b|\\bGrok\\b|\\bPerplexity\\b|\\bDeepSeek\\b",
+          "tier": "core",
+          "exclude_self": true
+        },
+        {
+          "label": "third-party AI / models",
+          "regex": "\\bthird[- ]party (?:AI|models?|LLMs?|artificial intelligence)\\b",
+          "tier": "core"
+        },
+        {
+          "label": "integrations / connectors / plugins",
+          "regex": "\\b(?:integrations?|connectors?|plug-?ins?|MCP|GPTs|extensions|(?<!user )agents?)\\b",
+          "tier": "core"
+        },
+        {
+          "label": "license content / data licensing",
+          "regex": "\\blicen[cs](?:e|es|ing)\\b.{0,60}\\b(?:content|data)\\b|\\bdata licensing\\b",
+          "tier": "core"
+        },
+        {
+          "label": "sub-processors / service providers",
+          "regex": "\\bsub-?processors?\\b|\\bservice providers?\\b|\\bvendors?\\b",
+          "tier": "support"
+        },
+        {
+          "label": "AI features",
+          "regex": "\\bAI(?:-powered)? (?:features?|tools?|assistants?)\\b|\\bgenerative\\b",
+          "tier": "support"
+        }
+      ]
+    },
+    {
+      "id": "DPDP1",
+      "key": "dpdp_unambiguous_affirmative_consent",
+      "type": "readiness",
+      "weight": 2,
+      "question": "How does the policy obtain consent: an explicit affirmative action, a general agreement, or browsewrap ('by using you agree')?",
+      "terms": [
+        {
+          "label": "by using / visiting you agree",
+          "regex": "\\bby (?:using|visiting|accessing|downloading|browsing|continuing|registering|signing up|providing)\\b.{0,120}\\b(?:agree|consent|accept|acknowledge)\\w*",
+          "tier": "core"
+        },
+        {
+          "label": "consent",
+          "regex": "\\bconsent(?:s|ed|ing)?\\b",
+          "tier": "core"
+        },
+        {
+          "label": "agree / accept",
+          "regex": "\\b(?:you )?(?:agree|accept|acknowledge)(?:s|d)?\\b",
+          "tier": "core"
+        },
+        {
+          "label": "DPDP / Indian law",
+          "regex": "\\bDigital Personal Data Protection\\b|\\bDPDP(?:A)?\\b|\\bIT Act\\b|\\bSPDI\\b|\\bInformation Technology\\b",
+          "tier": "core"
+        },
+        {
+          "label": "legal basis",
+          "regex": "\\blegal bas(?:is|es)\\b|\\blegitimate interests?\\b|\\bperformance of (?:a|the) contract\\b",
+          "tier": "core"
+        },
+        {
+          "label": "notice / checkbox / sign-up",
+          "regex": "\\bnotice\\b|\\bcheck ?box\\b|\\bsign[- ]?up\\b|\\bregistration\\b|\\bclick(?:ing)?\\b",
+          "tier": "support"
+        },
+        {
+          "label": "explicit / affirmative / freely",
+          "regex": "\\bexplicit(?:ly)?\\b|\\baffirmative\\b|\\bfreely\\b|\\bunambiguous\\b|\\binformed\\b",
+          "tier": "support"
+        }
+      ]
+    },
+    {
+      "id": "DPDP2",
+      "key": "dpdp_easy_consent_withdrawal",
+      "type": "readiness",
+      "weight": 2,
+      "question": "Can users withdraw consent, and is it as easy as giving it?",
+      "terms": [
+        {
+          "label": "withdraw / revoke consent",
+          "regex": "\\bwithdraw(?:s|n|al|ing)?\\b|\\brevok(?:e|es|ed|ing)\\b|\\brevocation\\b",
+          "tier": "core"
+        },
+        {
+          "label": "consent manager",
+          "regex": "\\bconsent manager\\b",
+          "tier": "core"
+        },
+        {
+          "label": "opt out / unsubscribe",
+          "regex": "\\bopt(?:[- ])?out\\b|\\bunsubscrib(?:e|ing)\\b",
+          "tier": "core"
+        },
+        {
+          "label": "settings / dashboard",
+          "regex": "\\bsettings\\b|\\bdashboard\\b|\\bpreferences\\b|\\bpreference cent(?:er|re)\\b|\\btoggle\\b",
+          "tier": "support"
+        },
+        {
+          "label": "contact / email to withdraw",
+          "regex": "\\b(?:email|write to|contact)\\b",
+          "tier": "support"
+        },
+        {
+          "label": "delete account",
+          "regex": "\\b(?:delete|deactivate|close) (?:your )?account\\b",
+          "tier": "support"
+        },
+        {
+          "label": "consent (co-occurrence)",
+          "regex": "\\bconsent\\b",
+          "tier": "support"
+        }
+      ]
+    },
+    {
+      "id": "DPDP3",
+      "key": "dpdp_grievance_dpo_contact",
+      "type": "readiness",
+      "weight": 1,
+      "question": "Does the policy publish a Grievance Officer or Data Protection Officer with contact details?",
+      "terms": [
+        {
+          "label": "grievance officer",
+          "regex": "\\bgrievance(?:s)?\\b",
+          "tier": "core"
+        },
+        {
+          "label": "data protection officer / DPO",
+          "regex": "\\bdata protection officer\\b|\\bDPO\\b|\\bprivacy officer\\b|\\bnodal officer\\b",
+          "tier": "core"
+        },
+        {
+          "label": "email address",
+          "regex": "[\\w.+-]+@[\\w-]+\\.[\\w.]+",
+          "tier": "core"
+        },
+        {
+          "label": "Data Protection Board / complaint",
+          "regex": "\\bData Protection Board\\b|\\b(?:lodge|file|make) a complaint\\b|\\bsupervisory authority\\b",
+          "tier": "core"
+        },
+        {
+          "label": "contact us",
+          "regex": "\\bcontact us\\b|\\bhow to contact\\b|\\bpostal address\\b|\\baddress\\b",
+          "tier": "support"
+        },
+        {
+          "label": "officer / named person",
+          "regex": "\\bofficer\\b|\\bMr\\.?\\b|\\bMs\\.?\\b",
+          "tier": "support"
+        }
+      ]
+    },
+    {
+      "id": "DPDP4",
+      "key": "dpdp_eighth_schedule_languages",
+      "type": "readiness_info",
+      "weight": 0,
+      "question": "Is the notice offered in Indian languages (Eighth Schedule) besides English? Record which languages.",
+      "terms": [
+        {
+          "label": "Eighth Schedule",
+          "regex": "\\beighth schedule\\b",
+          "tier": "core"
+        },
+        {
+          "label": "language(s) / translation",
+          "regex": "\\blanguages?\\b|\\btranslat(?:e|ed|ion|ions)\\b|\\bvernacular\\b|\\bregional\\b",
+          "tier": "core"
+        },
+        {
+          "label": "Indian language names (English)",
+          "regex": "\\b(?:Hindi|Bengali|Bangla|Tamil|Telugu|Marathi|Gujarati|Kannada|Malayalam|Odia|Oriya|Punjabi|Assamese|Urdu|Konkani|Manipuri|Nepali|Sanskrit|Sindhi|Kashmiri|Maithili|Santali|Dogri|Bodo)\\b",
+          "tier": "core"
+        },
+        {
+          "label": "Indian language names (native script)",
+          "regex": "हिन्दी|हिंदी|বাংলা|தமிழ்|తెలుగు|मराठी|ગુજરાતી|ಕನ್ನಡ|മലയാളം|ଓଡ଼ିଆ|ਪੰਜਾਬੀ|অসমীয়া|اردو",
+          "tier": "core"
+        },
+        {
+          "label": "English",
+          "regex": "\\bEnglish\\b",
+          "tier": "support"
+        }
+      ]
+    }
+  ],
+  "self_names": {
+    "openai": [
+      "OpenAI",
+      "ChatGPT"
+    ],
+    "anthropic": [
+      "Anthropic",
+      "Claude"
+    ],
+    "deepseek": [
+      "DeepSeek"
+    ],
+    "perplexity": [
+      "Perplexity"
+    ],
+    "xai": [
+      "xAI",
+      "Grok"
+    ]
+  }
+}

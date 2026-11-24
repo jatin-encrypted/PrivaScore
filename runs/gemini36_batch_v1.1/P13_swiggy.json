@@ -1,0 +1,973 @@
+{
+ "policy_id": "P13",
+ "policy_name": "swiggy",
+ "scope": "all_users",
+ "mode": "batch",
+ "text_sha256": "1663547ad9c7e486ce1bcdb8117a558b096d618a368221f1a495b5ab90ef1599",
+ "n_sentences": 152,
+ "batch_calls": [
+  {
+   "attempt": 1,
+   "flags": [
+    "G1",
+    "G2",
+    "G3",
+    "G4",
+    "G5",
+    "G6",
+    "AI1",
+    "AI2",
+    "AI4",
+    "AI5",
+    "DPDP1",
+    "DPDP2",
+    "DPDP3",
+    "DPDP4"
+   ],
+   "cached": true,
+   "n_sentences": 106,
+   "raw": "{\"answers\": [{\"flag\": \"G1\", \"presence\": \"Present\", \"state\": \"ED\", \"evidence\": [{\"id\": \"p013.s1\", \"quote\": \"In order to improve your app experience and lend stability to our Services to you, we may collect information or employ third party plugins that collect information about the devices you use to access our Services, including the hardware models, operating systems and versions, software, file names and versions, preferred languages, device identifiers, advertising identifiers, device motion information, mobile network information, installed applications on device and phone state.\"}, {\"id\": \"p022.s1\", \"quote\": \"Our applications collect real-time information about the location of your device, as permitted by you.\"}], \"rationale\": \"The policy discloses collection of detailed technical data beyond basic details, including location, device information, and stored files.\"}, {\"flag\": \"G2\", \"presence\": \"Present\", \"state\": \"ED\", \"evidence\": [{\"id\": \"p073.s1\", \"quote\": \"We may work with third parties such as network advertisers to serve advertisements on the Platforms and on third-party websites or other media (e.g., social networking platforms).\"}, {\"id\": \"p077.s1\", \"quote\": \"You cannot opt out of advertising on the Platforms, you may opt out of much interest-based advertising on third party sites and through third party ad networks (including DoubleClick Ad Exchange, Facebook Audience Network and Google AdSense).\"}], \"rationale\": \"The company shares data with network advertisers for targeted advertising and explicitly states users cannot opt out on its platforms, directing them to third-party opt-out pages instead.\"}, {\"flag\": \"G3\", \"presence\": \"Present\", \"state\": \"ED\", \"evidence\": [{\"id\": \"p027.s1\", \"quote\": \"We use the information you provide to us to enhance the functionality and improve the quality of our Services, and to personalize your experience while using our Services.\"}, {\"id\": \"p077.s1\", \"quote\": \"You cannot opt out of advertising on the Platforms, you may opt out of much interest-based advertising on third party sites and through third party ad networks (including DoubleClick Ad Exchange, Facebook Audience Network and Google AdSense).\"}], \"rationale\": \"The company personalises content and serves targeted ads based on user behavior without providing a first-party opt-out control.\"}, {\"flag\": \"G4\", \"presence\": \"Present\", \"state\": \"CD\", \"evidence\": [{\"id\": \"p087.s1\", \"quote\": \"We may, however, retain and store your personal information in anonymized or aggregated form, for as long as necessary, and use it as permitted under applicable law, including for analytics, improving our products and services, and other business purposes.\"}], \"rationale\": \"Retention is described only in generic terms ('as long as necessary') without fixed time periods for account or user data.\"}, {\"flag\": \"G5\", \"presence\": \"Present\", \"state\": \"CD\", \"evidence\": [{\"id\": \"p086.s1\", \"quote\": \"If you wish to withdraw your consent for the use and disclosure of your personal information in the manner provided in this Policy or you want your data to be deleted, please write to us at support@swiggy.in.\"}], \"rationale\": \"The policy explicitly offers a right to deletion and consent withdrawal, but lacks general explicit provisions for user access and correction rights.\"}, {\"flag\": \"G6\", \"presence\": \"Present\", \"state\": \"ED\", \"evidence\": [{\"id\": \"p092.s2\", \"quote\": \"Further, please note that the Platforms store your data with the cloud platform of Amazon Web Services provided by Amazon Web Services, Inc., which may store this data on their servers located outside of India.\"}], \"rationale\": \"The policy discloses that data may be stored on servers outside of India without specifying a formal legal transfer mechanism like SCCs or adequacy decisions.\"}, {\"flag\": \"AI1\", \"presence\": \"Absent\", \"state\": null, \"evidence\": [], \"rationale\": \"The policy does not mention training or improving artificial intelligence or machine learning models on user personal data or content.\"}, {\"flag\": \"AI2\", \"presence\": \"Absent\", \"state\": null, \"evidence\": [], \"rationale\": \"AI model training is not mentioned in the policy, so no opt-out mechanisms for training are described.\"}, {\"flag\": \"AI4\", \"presence\": \"Present\", \"state\": \"ED\", \"evidence\": [{\"id\": \"p056.s2\", \"quote\": \"As a result, our use and disclosure of aggregated and/or de-identified information is not restricted by this Policy, and it may be used and disclosed to others without limitation.\"}], \"rationale\": \"The policy states that use and disclosure of aggregated or de-identified data is completely unrestricted and may be disclosed to others without limitation.\"}, {\"flag\": \"AI5\", \"presence\": \"Present\", \"state\": \"CD\", \"evidence\": [{\"id\": \"p054.s1\", \"quote\": \"To enable AI-assisted features, we may share certain personal data and transaction-related information with third-party AI service providers, including order details, delivery information, preferences, and interaction data, for the purpose of enabling such features.\"}, {\"id\": \"p076.s6\", \"quote\": \"AI providers may only process the data as necessary to execute your instructions.\"}], \"rationale\": \"The policy allows sharing personal data with third-party AI service providers, but restricts them to processing data only as necessary to execute user instructions.\"}, {\"flag\": \"DPDP1\", \"presence\": \"Present\", \"state\": \"EE\", \"evidence\": [{\"id\": \"p007.s1\", \"quote\": \"By using the Platforms and the Services, you agree and consent to the collection, transfer, use, storage, disclosure and sharing of your information as described and collected by us in accordance with this Policy.\"}], \"rationale\": \"The policy relies on browsewrap consent, stating that using the platform constitutes agreement and consent to the policy.\"}, {\"flag\": \"DPDP2\", \"presence\": \"Present\", \"state\": \"CD\", \"evidence\": [{\"id\": \"p086.s1\", \"quote\": \"If you wish to withdraw your consent for the use and disclosure of your personal information in the manner provided in this Policy or you wa"
+  }
+ ],
+ "flags": {
+  "G1": {
+   "flag": "G1",
+   "flag_key": "first_party_collection_scope",
+   "search_log": {
+    "we collect": 8,
+    "information/data we collect": 4,
+    "collected automatically": 0,
+    "you provide": 6,
+    "location": 3,
+    "device / identifiers": 1,
+    "content / messages": 19,
+    "contacts": 3,
+    "sensitive / biometric / financial": 4,
+    "from other sources": 2,
+    "usage / log data": 3
+   },
+   "n_candidates": 16,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "ED",
+   "evidence": [
+    {
+     "id": "p013.s1",
+     "quote": "In order to improve your app experience and lend stability to our Services to you, we may collect information or employ third party plugins that collect information about the devices you use to access our Services, including the hardware models, operating systems and versions, software, file names and versions, preferred languages, device identifiers, advertising identifiers, device motion information, mobile network information, installed applications on device and phone state.",
+     "status": "exact",
+     "start": 2616,
+     "end": 3099,
+     "heading": "INFORMATION WE COLLECT FROM YOU"
+    },
+    {
+     "id": "p022.s1",
+     "quote": "Our applications collect real-time information about the location of your device, as permitted by you.",
+     "status": "exact",
+     "start": 6123,
+     "end": 6225,
+     "heading": "INFORMATION WE COLLECT FROM YOU"
+    }
+   ],
+   "status": "verified",
+   "rationale": "The policy discloses collection of detailed technical data beyond basic details, including location, device information, and stored files.",
+   "attempts": 1,
+   "shown": [
+    "p012.s1",
+    "p013.s1",
+    "p013.s2",
+    "p016.s1",
+    "p017.s1",
+    "p018.s1",
+    "p019.s1",
+    "p020.s1",
+    "p021.s1",
+    "p024.s1",
+    "p025.s1",
+    "p026.s1",
+    "p027.s1",
+    "p027.s2",
+    "p041.s1",
+    "p042.s1",
+    "p042.s2",
+    "p043.s1",
+    "p055.s1",
+    "p056.s1",
+    "p057.s1",
+    "p057.s2",
+    "p059.s1",
+    "p060.s1",
+    "p062.s3",
+    "p062.s4",
+    "p074.s1",
+    "p075.s1",
+    "p081.s1",
+    "p081.s2"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": true,
+     "problems": []
+    }
+   ]
+  },
+  "G2": {
+   "flag": "G2",
+   "flag_key": "third_party_advertising_tracking",
+   "search_log": {
+    "advertis*": 12,
+    "targeted / interest-based / behavioural ads": 2,
+    "sell / sale of data": 1,
+    "pixel / SDK / tracking tech": 6,
+    "ad / marketing partners": 4,
+    "opt-out of sale/ads / GPC": 0,
+    "cookies": 11,
+    "analytics provider": 1,
+    "share with third parties": 2,
+    "marketing": 2
+   },
+   "n_candidates": 19,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "ED",
+   "evidence": [
+    {
+     "id": "p073.s1",
+     "quote": "We may work with third parties such as network advertisers to serve advertisements on the Platforms and on third-party websites or other media (e.g., social networking platforms).",
+     "status": "exact",
+     "start": 17853,
+     "end": 18032,
+     "heading": "DISCLOSURE AND DISTRIBUTION OF YOUR INFORMATION"
+    },
+    {
+     "id": "p077.s1",
+     "quote": "You cannot opt out of advertising on the Platforms, you may opt out of much interest-based advertising on third party sites and through third party ad networks (including DoubleClick Ad Exchange, Facebook Audience Network and Google AdSense).",
+     "status": "exact",
+     "start": 19500,
+     "end": 19742,
+     "heading": "DISCLOSURE AND DISTRIBUTION OF YOUR INFORMATION"
+    }
+   ],
+   "status": "verified",
+   "rationale": "The company shares data with network advertisers for targeted advertising and explicitly states users cannot opt out on its platforms, directing them to third-party opt-out pages instead.",
+   "attempts": 1,
+   "shown": [
+    "p013.s1",
+    "p013.s2",
+    "p015.s2",
+    "p016.s1",
+    "p027.s2",
+    "p028.s1",
+    "p029.s1",
+    "p030.s1",
+    "p030.s2",
+    "p034.s1",
+    "p035.s1",
+    "p036.s1",
+    "p036.s2",
+    "p036.s3",
+    "p037.s1",
+    "p038.s1",
+    "p038.s2",
+    "p039.s1",
+    "p049.s1",
+    "p050.s1",
+    "p060.s1",
+    "p060.s2",
+    "p069.s1",
+    "p070.s1",
+    "p073.s1",
+    "p073.s2",
+    "p074.s1",
+    "p075.s1",
+    "p076.s1",
+    "p077.s1",
+    "p077.s2",
+    "p077.s3",
+    "p077.s4"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": true,
+     "problems": []
+    }
+   ]
+  },
+  "G3": {
+   "flag": "G3",
+   "flag_key": "profiling_automated_decisions",
+   "search_log": {
+    "profiling": 2,
+    "automated decision": 0,
+    "infer / inference": 0,
+    "legal or similarly significant": 0,
+    "scoring": 0,
+    "personalise / recommend": 6,
+    "interests / preferences / segments": 8,
+    "predict / analyse behaviour": 0
+   },
+   "n_candidates": 3,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "ED",
+   "evidence": [
+    {
+     "id": "p027.s1",
+     "quote": "We use the information you provide to us to enhance the functionality and improve the quality of our Services, and to personalize your experience while using our Services.",
+     "status": "exact",
+     "start": 7118,
+     "end": 7289,
+     "heading": "INFORMATION WE COLLECT FROM YOU"
+    },
+    {
+     "id": "p077.s1",
+     "quote": "You cannot opt out of advertising on the Platforms, you may opt out of much interest-based advertising on third party sites and through third party ad networks (including DoubleClick Ad Exchange, Facebook Audience Network and Google AdSense).",
+     "status": "exact",
+     "start": 19500,
+     "end": 19742,
+     "heading": "DISCLOSURE AND DISTRIBUTION OF YOUR INFORMATION"
+    }
+   ],
+   "status": "verified",
+   "rationale": "The company personalises content and serves targeted ads based on user behavior without providing a first-party opt-out control.",
+   "attempts": 1,
+   "shown": [
+    "p014.s1",
+    "p014.s2",
+    "p046.s1",
+    "p047.s1",
+    "p065.s1",
+    "p066.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": true,
+     "problems": []
+    }
+   ]
+  },
+  "G4": {
+   "flag": "G4",
+   "flag_key": "data_retention_specificity",
+   "search_log": {
+    "retain / retention": 1,
+    "keep / store for": 0,
+    "as long as necessary": 1,
+    "numeric period": 0,
+    "indefinitely": 0,
+    "delete after / deletion": 2,
+    "legal obligation": 3
+   },
+   "n_candidates": 1,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "CD",
+   "evidence": [
+    {
+     "id": "p087.s1",
+     "quote": "We may, however, retain and store your personal information in anonymized or aggregated form, for as long as necessary, and use it as permitted under applicable law, including for analytics, improving our products and services, and other business purposes.",
+     "status": "exact",
+     "start": 22371,
+     "end": 22627,
+     "heading": "OPT-OUT/ Withdrawal of Consent"
+    }
+   ],
+   "status": "verified",
+   "rationale": "Retention is described only in generic terms ('as long as necessary') without fixed time periods for account or user data.",
+   "attempts": 1,
+   "shown": [
+    "p087.s1",
+    "p088.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": true,
+     "problems": []
+    }
+   ]
+  },
+  "G5": {
+   "flag": "G5",
+   "flag_key": "user_rights_access_deletion",
+   "search_log": {
+    "right to / your rights": 2,
+    "access": 0,
+    "correct / rectify / update": 1,
+    "delete / erase": 1,
+    "portability / export": 0,
+    "object / restrict": 0,
+    "nominate (DPDP)": 0,
+    "jurisdiction limits": 3
+   },
+   "n_candidates": 4,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "CD",
+   "evidence": [
+    {
+     "id": "p086.s1",
+     "quote": "If you wish to withdraw your consent for the use and disclosure of your personal information in the manner provided in this Policy or you want your data to be deleted, please write to us at support@swiggy.in.",
+     "status": "exact",
+     "start": 21780,
+     "end": 21988,
+     "heading": "OPT-OUT/ Withdrawal of Consent"
+    }
+   ],
+   "status": "verified",
+   "rationale": "The policy explicitly offers a right to deletion and consent withdrawal, but lacks general explicit provisions for user access and correction rights.",
+   "attempts": 1,
+   "shown": [
+    "p009.s1",
+    "p009.s2",
+    "p069.s1",
+    "p070.s1",
+    "p075.s1",
+    "p076.s1",
+    "p077.s4",
+    "p078.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": true,
+     "problems": []
+    }
+   ]
+  },
+  "G6": {
+   "flag": "G6",
+   "flag_key": "international_data_transfers",
+   "search_log": {
+    "transfer": 2,
+    "cross-border / international": 1,
+    "stored / processed in a country": 0,
+    "safeguard mechanisms": 0,
+    "localisation": 0,
+    "servers": 1,
+    "jurisdiction": 0
+   },
+   "n_candidates": 3,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "ED",
+   "evidence": [
+    {
+     "id": "p092.s2",
+     "quote": "Further, please note that the Platforms store your data with the cloud platform of Amazon Web Services provided by Amazon Web Services, Inc., which may store this data on their servers located outside of India.",
+     "status": "exact",
+     "start": 23181,
+     "end": 23391,
+     "heading": "Swiggy Grievance Officer"
+    }
+   ],
+   "status": "verified",
+   "rationale": "The policy discloses that data may be stored on servers outside of India without specifying a formal legal transfer mechanism like SCCs or adequacy decisions.",
+   "attempts": 1,
+   "shown": [
+    "p007.s1",
+    "p007.s2",
+    "p075.s1",
+    "p076.s1",
+    "p092.s2",
+    "p092.s3"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": true,
+     "problems": []
+    }
+   ]
+  },
+  "G7": {
+   "flag": "G7",
+   "flag_key": "childrens_data_safeguards",
+   "search_log": {
+    "child / children / minor": 0,
+    "age threshold": 0,
+    "parent / guardian / consent": 0,
+    "COPPA / age verification": 0,
+    "knowingly collect": 0
+   },
+   "n_candidates": 0,
+   "mode": "batch",
+   "presence": "Absent",
+   "state": "NS",
+   "evidence": [],
+   "status": "no_candidates",
+   "rationale": "no sentence matched the flag's search terms; absence not verified",
+   "attempts": 0,
+   "shown": []
+  },
+  "AI1": {
+   "flag": "AI1",
+   "flag_key": "ai_model_training_on_user_content",
+   "search_log": {
+    "train / training": 0,
+    "model(s)": 1,
+    "machine learning": 0,
+    "artificial intelligence / AI": 7,
+    "improve / develop services": 5,
+    "content / inputs / outputs": 15,
+    "research": 5
+   },
+   "n_candidates": 10,
+   "mode": "batch",
+   "presence": "Absent",
+   "state": "NS",
+   "evidence": [],
+   "status": "absent_unverifiable",
+   "rationale": "The policy does not mention training or improving artificial intelligence or machine learning models on user personal data or content.",
+   "attempts": 1,
+   "shown": [
+    "p013.s1",
+    "p013.s2",
+    "p046.s1",
+    "p047.s1",
+    "p054.s1",
+    "p055.s1",
+    "p060.s2",
+    "p060.s3",
+    "p076.s1",
+    "p076.s2",
+    "p076.s3",
+    "p076.s4",
+    "p076.s5",
+    "p076.s6",
+    "p076.s7"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": true,
+     "problems": []
+    }
+   ]
+  },
+  "AI2": {
+   "flag": "AI2",
+   "flag_key": "ai_training_opt_out_control",
+   "presence": "Absent",
+   "state": "NS",
+   "evidence": [],
+   "status": "not_applicable",
+   "attempts": 0,
+   "shown": [],
+   "mode": "batch",
+   "rationale": "not applicable: AI1=NS",
+   "discarded_answer_status": "absent_unverifiable"
+  },
+  "AI3": {
+   "flag": "AI3",
+   "flag_key": "ai_human_review_of_chats",
+   "search_log": {
+    "human review": 0,
+    "reviewers / annotators / moderators": 0,
+    "staff may access / review content": 0,
+    "review content / conversations": 0,
+    "we may access / review / monitor content": 0,
+    "flagged / safety / abuse": 5,
+    "support / feedback": 1
+   },
+   "n_candidates": 0,
+   "mode": "batch",
+   "presence": "Absent",
+   "state": "NS",
+   "evidence": [],
+   "status": "no_candidates",
+   "rationale": "no sentence matched the flag's search terms; absence not verified",
+   "attempts": 0,
+   "shown": []
+  },
+  "AI4": {
+   "flag": "AI4",
+   "flag_key": "deidentification_training_carveout",
+   "search_log": {
+    "de-identified": 3,
+    "anonymised": 4,
+    "aggregated": 3,
+    "pseudonymised": 0,
+    "no longer identifies": 0,
+    "share / any purpose": 40
+   },
+   "n_candidates": 5,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "ED",
+   "evidence": [
+    {
+     "id": "p056.s2",
+     "quote": "As a result, our use and disclosure of aggregated and/or de-identified information is not restricted by this Policy, and it may be used and disclosed to others without limitation.",
+     "status": "exact",
+     "start": 12612,
+     "end": 12791,
+     "heading": "USES OF YOUR INFORMATION"
+    }
+   ],
+   "status": "verified",
+   "rationale": "The policy states that use and disclosure of aggregated or de-identified data is completely unrestricted and may be disclosed to others without limitation.",
+   "attempts": 1,
+   "shown": [
+    "p051.s1",
+    "p052.s1",
+    "p056.s1",
+    "p056.s2",
+    "p057.s1",
+    "p064.s1",
+    "p065.s1",
+    "p087.s1",
+    "p088.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": true,
+     "problems": []
+    }
+   ]
+  },
+  "AI5": {
+   "flag": "AI5",
+   "flag_key": "third_party_ai_subprocessors",
+   "search_log": {
+    "AI / model providers": 4,
+    "named AI vendors": 2,
+    "third-party AI / models": 2,
+    "integrations / connectors / plugins": 2,
+    "license content / data licensing": 0,
+    "sub-processors / service providers": 11,
+    "AI features": 3
+   },
+   "n_candidates": 7,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "CD",
+   "evidence": [
+    {
+     "id": "p054.s1",
+     "quote": "To enable AI-assisted features, we may share certain personal data and transaction-related information with third-party AI service providers, including order details, delivery information, preferences, and interaction data, for the purpose of enabling such features.",
+     "status": "exact",
+     "start": 12000,
+     "end": 12266,
+     "heading": "USES OF YOUR INFORMATION"
+    },
+    {
+     "id": "p076.s6",
+     "quote": "AI providers may only process the data as necessary to execute your instructions.",
+     "status": "exact",
+     "start": 19323,
+     "end": 19404,
+     "heading": "DISCLOSURE AND DISTRIBUTION OF YOUR INFORMATION"
+    }
+   ],
+   "status": "verified",
+   "rationale": "The policy allows sharing personal data with third-party AI service providers, but restricts them to processing data only as necessary to execute user instructions.",
+   "attempts": 1,
+   "shown": [
+    "p013.s1",
+    "p013.s2",
+    "p013.s3",
+    "p054.s1",
+    "p055.s1",
+    "p076.s2",
+    "p076.s3",
+    "p076.s4",
+    "p076.s5",
+    "p076.s6",
+    "p076.s7"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": true,
+     "problems": []
+    }
+   ]
+  },
+  "DPDP1": {
+   "flag": "DPDP1",
+   "flag_key": "dpdp_unambiguous_affirmative_consent",
+   "search_log": {
+    "by using / visiting you agree": 2,
+    "consent": 10,
+    "agree / accept": 5,
+    "DPDP / Indian law": 0,
+    "legal basis": 0,
+    "notice / checkbox / sign-up": 2,
+    "explicit / affirmative / freely": 1
+   },
+   "n_candidates": 13,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "EE",
+   "evidence": [
+    {
+     "id": "p007.s1",
+     "quote": "By using the Platforms and the Services, you agree and consent to the collection, transfer, use, storage, disclosure and sharing of your information as described and collected by us in accordance with this Policy.",
+     "status": "exact",
+     "start": 849,
+     "end": 1062,
+     "heading": "YOUR CONSENT"
+    }
+   ],
+   "status": "verified",
+   "rationale": "The policy relies on browsewrap consent, stating that using the platform constitutes agreement and consent to the policy.",
+   "attempts": 1,
+   "shown": [
+    "p006.s1",
+    "p007.s1",
+    "p007.s2",
+    "p008.s1",
+    "p009.s2",
+    "p009.s3",
+    "p010.s1",
+    "p021.s1",
+    "p022.s1",
+    "p037.s2",
+    "p038.s1",
+    "p061.s1",
+    "p061.s2",
+    "p075.s1",
+    "p076.s1",
+    "p078.s1",
+    "p079.s1",
+    "p084.s1",
+    "p085.s1",
+    "p086.s1",
+    "p086.s2",
+    "p086.s3",
+    "p087.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": true,
+     "problems": []
+    }
+   ]
+  },
+  "DPDP2": {
+   "flag": "DPDP2",
+   "flag_key": "dpdp_easy_consent_withdrawal",
+   "search_log": {
+    "withdraw / revoke consent": 3,
+    "consent manager": 0,
+    "opt out / unsubscribe": 4,
+    "settings / dashboard": 5,
+    "contact / email to withdraw": 10,
+    "delete account": 0,
+    "consent (co-occurrence)": 9
+   },
+   "n_candidates": 7,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "CD",
+   "evidence": [
+    {
+     "id": "p086.s1",
+     "quote": "If you wish to withdraw your consent for the use and disclosure of your personal information in the manner provided in this Policy or you want your data to be deleted, please write to us at support@swiggy.in.",
+     "status": "exact",
+     "start": 21780,
+     "end": 21988,
+     "heading": "OPT-OUT/ Withdrawal of Consent"
+    }
+   ],
+   "status": "verified",
+   "rationale": "Consent withdrawal requires contacting the company via email rather than using an automated or self-serve setting.",
+   "attempts": 1,
+   "shown": [
+    "p009.s2",
+    "p009.s3",
+    "p077.s1",
+    "p077.s2",
+    "p077.s4",
+    "p078.s1",
+    "p084.s1",
+    "p085.s1",
+    "p085.s2",
+    "p086.s1",
+    "p086.s2",
+    "p086.s3",
+    "p087.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": true,
+     "problems": []
+    }
+   ]
+  },
+  "DPDP3": {
+   "flag": "DPDP3",
+   "flag_key": "dpdp_grievance_dpo_contact",
+   "search_log": {
+    "grievance officer": 5,
+    "data protection officer / DPO": 0,
+    "email address": 3,
+    "Data Protection Board / complaint": 0,
+    "contact us": 6,
+    "officer / named person": 4
+   },
+   "n_candidates": 6,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "ED",
+   "evidence": [
+    {
+     "id": "p089.s1",
+     "quote": "If you have any queries relating to the processing or usage of information provided by you in connection with this Policy, please email us at grievances@swiggy.in or write to our Grievance Officer at the following address:",
+     "status": "exact",
+     "start": 22668,
+     "end": 22890,
+     "heading": "GRIEVANCE OFFICER AND PLATFORM SECURITY"
+    },
+    {
+     "id": "p090.s1",
+     "quote": "Swiggy Grievance Officer",
+     "status": "exact",
+     "start": 22891,
+     "end": 22915,
+     "heading": "Swiggy Grievance Officer"
+    }
+   ],
+   "status": "verified",
+   "rationale": "The company designates a specific Grievance Officer role and provides contact details (email and physical mailing address).",
+   "attempts": 1,
+   "shown": [
+    "p086.s1",
+    "p086.s2",
+    "p088.s1",
+    "p089.s1",
+    "p090.s1",
+    "p091.s1",
+    "p092.s1",
+    "p092.s2",
+    "p092.s5"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": true,
+     "problems": []
+    }
+   ]
+  },
+  "DPDP4": {
+   "flag": "DPDP4",
+   "flag_key": "dpdp_eighth_schedule_languages",
+   "search_log": {
+    "Eighth Schedule": 0,
+    "language(s) / translation": 3,
+    "Indian language names (English)": 0,
+    "Indian language names (native script)": 0,
+    "English": 0
+   },
+   "n_candidates": 3,
+   "mode": "batch",
+   "presence": "Absent",
+   "state": "NS",
+   "evidence": [],
+   "status": "absent_unverifiable",
+   "rationale": "The policy does not mention being available in any Eighth Schedule Indian languages.",
+   "attempts": 1,
+   "shown": [
+    "p013.s1",
+    "p013.s2",
+    "p015.s1",
+    "p015.s2",
+    "p057.s1",
+    "p057.s2"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": true,
+     "problems": []
+    }
+   ]
+  }
+ },
+ "scores": {
+  "scoring_version": "1.0",
+  "risk_index": 55.5556,
+  "risk_index_display": 56,
+  "disclosure_quality": 71.4286,
+  "disclosure_quality_display": 71,
+  "risk_points": 15.0,
+  "max_risk_points": 27.0,
+  "quality_points": 20.0,
+  "max_quality_points": 28.0,
+  "n_applicable": 14,
+  "n_not_stated": 3,
+  "per_flag": [
+   {
+    "flag": "G1",
+    "state": "ED",
+    "weight": 1.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 1.0,
+    "max_risk_points": 1.0,
+    "quality_points": 2.0
+   },
+   {
+    "flag": "G2",
+    "state": "ED",
+    "weight": 3.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 3.0,
+    "max_risk_points": 3.0,
+    "quality_points": 2.0
+   },
+   {
+    "flag": "G3",
+    "state": "ED",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 2.0,
+    "max_risk_points": 2.0,
+    "quality_points": 2.0
+   },
+   {
+    "flag": "G4",
+    "state": "CD",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 1.0,
+    "max_risk_points": 2.0,
+    "quality_points": 1.5
+   },
+   {
+    "flag": "G5",
+    "state": "CD",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 1.0,
+    "max_risk_points": 2.0,
+    "quality_points": 1.5
+   },
+   {
+    "flag": "G6",
+    "state": "ED",
+    "weight": 1.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 1.0,
+    "max_risk_points": 1.0,
+    "quality_points": 2.0
+   },
+   {
+    "flag": "G7",
+    "state": "NS",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 0.0,
+    "max_risk_points": 2.0,
+    "quality_points": 0.0
+   },
+   {
+    "flag": "AI1",
+    "state": "NS",
+    "weight": 3.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 0.0,
+    "max_risk_points": 3.0,
+    "quality_points": 0.0
+   },
+   {
+    "flag": "AI2",
+    "state": "NS",
+    "weight": 2.0,
+    "applicable": false,
+    "reason": "not applicable: AI1=NS",
+    "risk_points": 0.0,
+    "max_risk_points": 0.0,
+    "quality_points": 0.0
+   },
+   {
+    "flag": "AI3",
+    "state": "NS",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 0.0,
+    "max_risk_points": 2.0,
+    "quality_points": 0.0
+   },
+   {
+    "flag": "AI4",
+    "state": "ED",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 2.0,
+    "max_risk_points": 2.0,
+    "quality_points": 2.0
+   },
+   {
+    "flag": "AI5",
+    "state": "CD",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 1.0,
+    "max_risk_points": 2.0,
+    "quality_points": 1.5
+   },
+   {
+    "flag": "DPDP1",
+    "state": "EE",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 2.0,
+    "max_risk_points": 2.0,
+    "quality_points": 2.0
+   },
+   {
+    "flag": "DPDP2",
+    "state": "CD",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 1.0,
+    "max_risk_points": 2.0,
+    "quality_points": 1.5
+   },
+   {
+    "flag": "DPDP3",
+    "state": "ED",
+    "weight": 1.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 0.0,
+    "max_risk_points": 1.0,
+    "quality_points": 2.0
+   },
+   {
+    "flag": "DPDP4",
+    "state": "NS",
+    "weight": 0.0,
+    "applicable": false,
+    "reason": "informational flag (weight 0)",
+    "risk_points": 0.0,
+    "max_risk_points": 0.0,
+    "quality_points": 0.0
+   }
+  ],
+  "complete": true,
+  "rejected_flags_scored_as_UN": []
+ },
+ "policy_key": "P13_swiggy",
+ "cohort": "india"
+}

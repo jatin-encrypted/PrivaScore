@@ -1,0 +1,7824 @@
+{
+ "A_presence": {
+  "strong": {
+   "bert": {
+    "n": 60,
+    "correct": 60,
+    "accuracy": 1.0,
+    "ci95": [
+     0.94,
+     1.0
+    ],
+    "tp": 60,
+    "fp": 0,
+    "fn": 0,
+    "tn": 0
+   },
+   "kw": {
+    "n": 60,
+    "correct": 60,
+    "accuracy": 1.0,
+    "ci95": [
+     0.94,
+     1.0
+    ],
+    "tp": 60,
+    "fp": 0,
+    "fn": 0,
+    "tn": 0
+   },
+   "llm": {
+    "n": 60,
+    "correct": 59,
+    "accuracy": 0.983,
+    "ci95": [
+     0.911,
+     0.997
+    ],
+    "tp": 59,
+    "fp": 0,
+    "fn": 1,
+    "tn": 0
+   }
+  },
+  "medium": {
+   "bert": {
+    "n": 75,
+    "correct": 52,
+    "accuracy": 0.693,
+    "ci95": [
+     0.582,
+     0.786
+    ],
+    "tp": 51,
+    "fp": 22,
+    "fn": 1,
+    "tn": 1
+   },
+   "kw": {
+    "n": 75,
+    "correct": 53,
+    "accuracy": 0.707,
+    "ci95": [
+     0.596,
+     0.798
+    ],
+    "tp": 52,
+    "fp": 22,
+    "fn": 0,
+    "tn": 1
+   },
+   "llm": {
+    "n": 75,
+    "correct": 72,
+    "accuracy": 0.96,
+    "ci95": [
+     0.889,
+     0.986
+    ],
+    "tp": 52,
+    "fp": 3,
+    "fn": 0,
+    "tn": 20
+   }
+  },
+  "weak": {
+   "bert": {
+    "n": 45,
+    "correct": 45,
+    "accuracy": 1.0,
+    "ci95": [
+     0.921,
+     1.0
+    ],
+    "tp": 45,
+    "fp": 0,
+    "fn": 0,
+    "tn": 0
+   },
+   "kw": {
+    "n": 45,
+    "correct": 45,
+    "accuracy": 1.0,
+    "ci95": [
+     0.921,
+     1.0
+    ],
+    "tp": 45,
+    "fp": 0,
+    "fn": 0,
+    "tn": 0
+   },
+   "llm": {
+    "n": 45,
+    "correct": 43,
+    "accuracy": 0.956,
+    "ci95": [
+     0.852,
+     0.988
+    ],
+    "tp": 43,
+    "fp": 0,
+    "fn": 2,
+    "tn": 0
+   }
+  },
+  "all_mapped": {
+   "bert": {
+    "n": 180,
+    "correct": 157,
+    "accuracy": 0.872,
+    "ci95": [
+     0.816,
+     0.913
+    ],
+    "tp": 156,
+    "fp": 22,
+    "fn": 1,
+    "tn": 1
+   },
+   "kw": {
+    "n": 180,
+    "correct": 158,
+    "accuracy": 0.878,
+    "ci95": [
+     0.822,
+     0.918
+    ],
+    "tp": 157,
+    "fp": 22,
+    "fn": 0,
+    "tn": 1
+   },
+   "llm": {
+    "n": 180,
+    "correct": 174,
+    "accuracy": 0.967,
+    "ci95": [
+     0.929,
+     0.985
+    ],
+    "tp": 154,
+    "fp": 3,
+    "fn": 3,
+    "tn": 20
+   }
+  }
+ },
+ "A_presence_by_flag": {
+  "G1": {
+   "bert": {
+    "n": 15,
+    "correct": 15,
+    "accuracy": 1.0,
+    "ci95": [
+     0.796,
+     1.0
+    ],
+    "tp": 15,
+    "fp": 0,
+    "fn": 0,
+    "tn": 0
+   },
+   "kw": {
+    "n": 15,
+    "correct": 15,
+    "accuracy": 1.0,
+    "ci95": [
+     0.796,
+     1.0
+    ],
+    "tp": 15,
+    "fp": 0,
+    "fn": 0,
+    "tn": 0
+   },
+   "llm": {
+    "n": 15,
+    "correct": 15,
+    "accuracy": 1.0,
+    "ci95": [
+     0.796,
+     1.0
+    ],
+    "tp": 15,
+    "fp": 0,
+    "fn": 0,
+    "tn": 0
+   }
+  },
+  "G2": {
+   "bert": {
+    "n": 15,
+    "correct": 15,
+    "accuracy": 1.0,
+    "ci95": [
+     0.796,
+     1.0
+    ],
+    "tp": 15,
+    "fp": 0,
+    "fn": 0,
+    "tn": 0
+   },
+   "kw": {
+    "n": 15,
+    "correct": 15,
+    "accuracy": 1.0,
+    "ci95": [
+     0.796,
+     1.0
+    ],
+    "tp": 15,
+    "fp": 0,
+    "fn": 0,
+    "tn": 0
+   },
+   "llm": {
+    "n": 15,
+    "correct": 14,
+    "accuracy": 0.933,
+    "ci95": [
+     0.702,
+     0.988
+    ],
+    "tp": 14,
+    "fp": 0,
+    "fn": 1,
+    "tn": 0
+   }
+  },
+  "G3": {
+   "bert": {
+    "n": 15,
+    "correct": 15,
+    "accuracy": 1.0,
+    "ci95": [
+     0.796,
+     1.0
+    ],
+    "tp": 15,
+    "fp": 0,
+    "fn": 0,
+    "tn": 0
+   },
+   "kw": {
+    "n": 15,
+    "correct": 15,
+    "accuracy": 1.0,
+    "ci95": [
+     0.796,
+     1.0
+    ],
+    "tp": 15,
+    "fp": 0,
+    "fn": 0,
+    "tn": 0
+   },
+   "llm": {
+    "n": 15,
+    "correct": 13,
+    "accuracy": 0.867,
+    "ci95": [
+     0.621,
+     0.963
+    ],
+    "tp": 13,
+    "fp": 0,
+    "fn": 2,
+    "tn": 0
+   }
+  },
+  "G4": {
+   "bert": {
+    "n": 15,
+    "correct": 15,
+    "accuracy": 1.0,
+    "ci95": [
+     0.796,
+     1.0
+    ],
+    "tp": 15,
+    "fp": 0,
+    "fn": 0,
+    "tn": 0
+   },
+   "kw": {
+    "n": 15,
+    "correct": 15,
+    "accuracy": 1.0,
+    "ci95": [
+     0.796,
+     1.0
+    ],
+    "tp": 15,
+    "fp": 0,
+    "fn": 0,
+    "tn": 0
+   },
+   "llm": {
+    "n": 15,
+    "correct": 15,
+    "accuracy": 1.0,
+    "ci95": [
+     0.796,
+     1.0
+    ],
+    "tp": 15,
+    "fp": 0,
+    "fn": 0,
+    "tn": 0
+   }
+  },
+  "G5": {
+   "bert": {
+    "n": 15,
+    "correct": 15,
+    "accuracy": 1.0,
+    "ci95": [
+     0.796,
+     1.0
+    ],
+    "tp": 15,
+    "fp": 0,
+    "fn": 0,
+    "tn": 0
+   },
+   "kw": {
+    "n": 15,
+    "correct": 15,
+    "accuracy": 1.0,
+    "ci95": [
+     0.796,
+     1.0
+    ],
+    "tp": 15,
+    "fp": 0,
+    "fn": 0,
+    "tn": 0
+   },
+   "llm": {
+    "n": 15,
+    "correct": 15,
+    "accuracy": 1.0,
+    "ci95": [
+     0.796,
+     1.0
+    ],
+    "tp": 15,
+    "fp": 0,
+    "fn": 0,
+    "tn": 0
+   }
+  },
+  "G6": {
+   "bert": {
+    "n": 15,
+    "correct": 13,
+    "accuracy": 0.867,
+    "ci95": [
+     0.621,
+     0.963
+    ],
+    "tp": 13,
+    "fp": 1,
+    "fn": 1,
+    "tn": 0
+   },
+   "kw": {
+    "n": 15,
+    "correct": 14,
+    "accuracy": 0.933,
+    "ci95": [
+     0.702,
+     0.988
+    ],
+    "tp": 14,
+    "fp": 1,
+    "fn": 0,
+    "tn": 0
+   },
+   "llm": {
+    "n": 15,
+    "correct": 15,
+    "accuracy": 1.0,
+    "ci95": [
+     0.796,
+     1.0
+    ],
+    "tp": 14,
+    "fp": 0,
+    "fn": 0,
+    "tn": 1
+   }
+  },
+  "G7": {
+   "bert": {
+    "n": 15,
+    "correct": 13,
+    "accuracy": 0.867,
+    "ci95": [
+     0.621,
+     0.963
+    ],
+    "tp": 12,
+    "fp": 2,
+    "fn": 0,
+    "tn": 1
+   },
+   "kw": {
+    "n": 15,
+    "correct": 13,
+    "accuracy": 0.867,
+    "ci95": [
+     0.621,
+     0.963
+    ],
+    "tp": 12,
+    "fp": 2,
+    "fn": 0,
+    "tn": 1
+   },
+   "llm": {
+    "n": 15,
+    "correct": 15,
+    "accuracy": 1.0,
+    "ci95": [
+     0.796,
+     1.0
+    ],
+    "tp": 12,
+    "fp": 0,
+    "fn": 0,
+    "tn": 3
+   }
+  },
+  "AI2": {
+   "bert": {
+    "n": 15,
+    "correct": 4,
+    "accuracy": 0.267,
+    "ci95": [
+     0.109,
+     0.52
+    ],
+    "tp": 4,
+    "fp": 11,
+    "fn": 0,
+    "tn": 0
+   },
+   "kw": {
+    "n": 15,
+    "correct": 4,
+    "accuracy": 0.267,
+    "ci95": [
+     0.109,
+     0.52
+    ],
+    "tp": 4,
+    "fp": 11,
+    "fn": 0,
+    "tn": 0
+   },
+   "llm": {
+    "n": 15,
+    "correct": 14,
+    "accuracy": 0.933,
+    "ci95": [
+     0.702,
+     0.988
+    ],
+    "tp": 4,
+    "fp": 1,
+    "fn": 0,
+    "tn": 10
+   }
+  },
+  "DPDP2": {
+   "bert": {
+    "n": 15,
+    "correct": 15,
+    "accuracy": 1.0,
+    "ci95": [
+     0.796,
+     1.0
+    ],
+    "tp": 15,
+    "fp": 0,
+    "fn": 0,
+    "tn": 0
+   },
+   "kw": {
+    "n": 15,
+    "correct": 15,
+    "accuracy": 1.0,
+    "ci95": [
+     0.796,
+     1.0
+    ],
+    "tp": 15,
+    "fp": 0,
+    "fn": 0,
+    "tn": 0
+   },
+   "llm": {
+    "n": 15,
+    "correct": 15,
+    "accuracy": 1.0,
+    "ci95": [
+     0.796,
+     1.0
+    ],
+    "tp": 15,
+    "fp": 0,
+    "fn": 0,
+    "tn": 0
+   }
+  },
+  "AI5": {
+   "bert": {
+    "n": 15,
+    "correct": 7,
+    "accuracy": 0.467,
+    "ci95": [
+     0.248,
+     0.699
+    ],
+    "tp": 7,
+    "fp": 8,
+    "fn": 0,
+    "tn": 0
+   },
+   "kw": {
+    "n": 15,
+    "correct": 7,
+    "accuracy": 0.467,
+    "ci95": [
+     0.248,
+     0.699
+    ],
+    "tp": 7,
+    "fp": 8,
+    "fn": 0,
+    "tn": 0
+   },
+   "llm": {
+    "n": 15,
+    "correct": 13,
+    "accuracy": 0.867,
+    "ci95": [
+     0.621,
+     0.963
+    ],
+    "tp": 7,
+    "fp": 2,
+    "fn": 0,
+    "tn": 6
+   }
+  },
+  "DPDP1": {
+   "bert": {
+    "n": 15,
+    "correct": 15,
+    "accuracy": 1.0,
+    "ci95": [
+     0.796,
+     1.0
+    ],
+    "tp": 15,
+    "fp": 0,
+    "fn": 0,
+    "tn": 0
+   },
+   "kw": {
+    "n": 15,
+    "correct": 15,
+    "accuracy": 1.0,
+    "ci95": [
+     0.796,
+     1.0
+    ],
+    "tp": 15,
+    "fp": 0,
+    "fn": 0,
+    "tn": 0
+   },
+   "llm": {
+    "n": 15,
+    "correct": 15,
+    "accuracy": 1.0,
+    "ci95": [
+     0.796,
+     1.0
+    ],
+    "tp": 15,
+    "fp": 0,
+    "fn": 0,
+    "tn": 0
+   }
+  },
+  "DPDP3": {
+   "bert": {
+    "n": 15,
+    "correct": 15,
+    "accuracy": 1.0,
+    "ci95": [
+     0.796,
+     1.0
+    ],
+    "tp": 15,
+    "fp": 0,
+    "fn": 0,
+    "tn": 0
+   },
+   "kw": {
+    "n": 15,
+    "correct": 15,
+    "accuracy": 1.0,
+    "ci95": [
+     0.796,
+     1.0
+    ],
+    "tp": 15,
+    "fp": 0,
+    "fn": 0,
+    "tn": 0
+   },
+   "llm": {
+    "n": 15,
+    "correct": 15,
+    "accuracy": 1.0,
+    "ci95": [
+     0.796,
+     1.0
+    ],
+    "tp": 15,
+    "fp": 0,
+    "fn": 0,
+    "tn": 0
+   }
+  }
+ },
+ "BC_retrieval": {
+  "strong": {
+   "rows": 60,
+   "gold_sentences": 185,
+   "recall_bert": 0.778,
+   "rows_any_bert": 0.983,
+   "recall_kw": 0.816,
+   "rows_any_kw": 0.967,
+   "recall_boost": 0.859,
+   "rows_any_boost": 1.0,
+   "recall_union": 0.957,
+   "rows_any_union": 1.0,
+   "sentences_kw": 1456,
+   "sentences_bert": 3194,
+   "added_boost": 320,
+   "added_union": 2470,
+   "bert_share_of_policy": 0.158,
+   "extra_boost_pct": 22.0,
+   "extra_union_pct": 169.6,
+   "gain_boost_pp": 4.3,
+   "gain_union_pp": 14.1
+  },
+  "medium": {
+   "rows": 52,
+   "gold_sentences": 125,
+   "recall_bert": 0.84,
+   "rows_any_bert": 0.904,
+   "recall_kw": 0.92,
+   "rows_any_kw": 1.0,
+   "recall_boost": 0.928,
+   "rows_any_boost": 1.0,
+   "recall_union": 0.976,
+   "rows_any_union": 1.0,
+   "sentences_kw": 1037,
+   "sentences_bert": 3057,
+   "added_boost": 223,
+   "added_union": 2501,
+   "bert_share_of_policy": 0.121,
+   "extra_boost_pct": 21.5,
+   "extra_union_pct": 241.2,
+   "gain_boost_pp": 0.8,
+   "gain_union_pp": 5.6
+  },
+  "weak": {
+   "rows": 45,
+   "gold_sentences": 100,
+   "recall_bert": 0.62,
+   "rows_any_bert": 0.844,
+   "recall_kw": 0.77,
+   "rows_any_kw": 0.978,
+   "recall_boost": 0.77,
+   "rows_any_boost": 0.978,
+   "recall_union": 0.89,
+   "rows_any_union": 1.0,
+   "sentences_kw": 803,
+   "sentences_bert": 5162,
+   "added_boost": 186,
+   "added_union": 4770,
+   "bert_share_of_policy": 0.341,
+   "extra_boost_pct": 23.2,
+   "extra_union_pct": 594.0,
+   "gain_boost_pp": 0.0,
+   "gain_union_pp": 12.0
+  },
+  "all_mapped": {
+   "rows": 157,
+   "gold_sentences": 410,
+   "recall_bert": 0.759,
+   "rows_any_bert": 0.917,
+   "recall_kw": 0.837,
+   "rows_any_kw": 0.981,
+   "recall_boost": 0.859,
+   "rows_any_boost": 0.994,
+   "recall_union": 0.946,
+   "rows_any_union": 1.0,
+   "sentences_kw": 3296,
+   "sentences_bert": 11413,
+   "added_boost": 729,
+   "added_union": 9741,
+   "bert_share_of_policy": 0.188,
+   "extra_boost_pct": 22.1,
+   "extra_union_pct": 295.5,
+   "gain_boost_pp": 2.2,
+   "gain_union_pp": 10.9
+  }
+ },
+ "BC_retrieval_by_flag": {
+  "G1": {
+   "rows": 15,
+   "gold_sentences": 51,
+   "recall_bert": 0.961,
+   "rows_any_bert": 1.0,
+   "recall_kw": 0.588,
+   "rows_any_kw": 0.933,
+   "recall_boost": 0.667,
+   "rows_any_boost": 1.0,
+   "recall_union": 0.98,
+   "rows_any_union": 1.0,
+   "sentences_kw": 504,
+   "sentences_bert": 1683,
+   "added_boost": 119,
+   "added_union": 1349,
+   "bert_share_of_policy": 0.333,
+   "extra_boost_pct": 23.6,
+   "extra_union_pct": 267.7,
+   "gain_boost_pp": 7.9,
+   "gain_union_pp": 39.2
+  },
+  "G2": {
+   "rows": 15,
+   "gold_sentences": 48,
+   "recall_bert": 0.667,
+   "rows_any_bert": 0.933,
+   "recall_kw": 0.938,
+   "rows_any_kw": 1.0,
+   "recall_boost": 0.938,
+   "rows_any_boost": 1.0,
+   "recall_union": 0.938,
+   "rows_any_union": 1.0,
+   "sentences_kw": 320,
+   "sentences_bert": 1053,
+   "added_boost": 74,
+   "added_union": 890,
+   "bert_share_of_policy": 0.209,
+   "extra_boost_pct": 23.1,
+   "extra_union_pct": 278.1,
+   "gain_boost_pp": 0.0,
+   "gain_union_pp": 0.0
+  },
+  "G3": {
+   "rows": 15,
+   "gold_sentences": 40,
+   "recall_bert": 0.55,
+   "rows_any_bert": 0.933,
+   "recall_kw": 0.55,
+   "rows_any_kw": 0.933,
+   "recall_boost": 0.55,
+   "rows_any_boost": 0.933,
+   "recall_union": 0.8,
+   "rows_any_union": 1.0,
+   "sentences_kw": 206,
+   "sentences_bert": 1683,
+   "added_boost": 46,
+   "added_union": 1566,
+   "bert_share_of_policy": 0.333,
+   "extra_boost_pct": 22.3,
+   "extra_union_pct": 760.2,
+   "gain_boost_pp": 0.0,
+   "gain_union_pp": 25.0
+  },
+  "G4": {
+   "rows": 15,
+   "gold_sentences": 31,
+   "recall_bert": 0.935,
+   "rows_any_bert": 1.0,
+   "recall_kw": 0.935,
+   "rows_any_kw": 1.0,
+   "recall_boost": 0.935,
+   "rows_any_boost": 1.0,
+   "recall_union": 0.968,
+   "rows_any_union": 1.0,
+   "sentences_kw": 226,
+   "sentences_bert": 199,
+   "added_boost": 39,
+   "added_union": 102,
+   "bert_share_of_policy": 0.039,
+   "extra_boost_pct": 17.3,
+   "extra_union_pct": 45.1,
+   "gain_boost_pp": 0.0,
+   "gain_union_pp": 3.3
+  },
+  "G5": {
+   "rows": 15,
+   "gold_sentences": 55,
+   "recall_bert": 0.618,
+   "rows_any_bert": 1.0,
+   "recall_kw": 0.855,
+   "rows_any_kw": 0.933,
+   "recall_boost": 0.927,
+   "rows_any_boost": 1.0,
+   "recall_union": 0.945,
+   "rows_any_union": 1.0,
+   "sentences_kw": 406,
+   "sentences_bert": 259,
+   "added_boost": 88,
+   "added_union": 129,
+   "bert_share_of_policy": 0.051,
+   "extra_boost_pct": 21.7,
+   "extra_union_pct": 31.8,
+   "gain_boost_pp": 7.2,
+   "gain_union_pp": 9.0
+  },
+  "G6": {
+   "rows": 14,
+   "gold_sentences": 32,
+   "recall_bert": 0.875,
+   "rows_any_bert": 0.857,
+   "recall_kw": 0.969,
+   "rows_any_kw": 1.0,
+   "recall_boost": 0.969,
+   "rows_any_boost": 1.0,
+   "recall_union": 0.969,
+   "rows_any_union": 1.0,
+   "sentences_kw": 223,
+   "sentences_bert": 394,
+   "added_boost": 48,
+   "added_union": 309,
+   "bert_share_of_policy": 0.078,
+   "extra_boost_pct": 21.5,
+   "extra_union_pct": 138.6,
+   "gain_boost_pp": 0.0,
+   "gain_union_pp": 0.0
+  },
+  "G7": {
+   "rows": 12,
+   "gold_sentences": 29,
+   "recall_bert": 0.966,
+   "rows_any_bert": 1.0,
+   "recall_kw": 1.0,
+   "rows_any_kw": 1.0,
+   "recall_boost": 1.0,
+   "rows_any_boost": 1.0,
+   "recall_union": 1.0,
+   "rows_any_union": 1.0,
+   "sentences_kw": 156,
+   "sentences_bert": 394,
+   "added_boost": 31,
+   "added_union": 292,
+   "bert_share_of_policy": 0.078,
+   "extra_boost_pct": 19.9,
+   "extra_union_pct": 187.2,
+   "gain_boost_pp": 0.0,
+   "gain_union_pp": 0.0
+  },
+  "AI2": {
+   "rows": 4,
+   "gold_sentences": 8,
+   "recall_bert": 0.625,
+   "rows_any_bert": 0.75,
+   "recall_kw": 0.625,
+   "rows_any_kw": 1.0,
+   "recall_boost": 0.625,
+   "rows_any_boost": 1.0,
+   "recall_union": 0.875,
+   "rows_any_union": 1.0,
+   "sentences_kw": 228,
+   "sentences_bert": 608,
+   "added_boost": 48,
+   "added_union": 466,
+   "bert_share_of_policy": 0.12,
+   "extra_boost_pct": 21.1,
+   "extra_union_pct": 204.4,
+   "gain_boost_pp": 0.0,
+   "gain_union_pp": 25.0
+  },
+  "DPDP2": {
+   "rows": 15,
+   "gold_sentences": 37,
+   "recall_bert": 0.838,
+   "rows_any_bert": 1.0,
+   "recall_kw": 0.892,
+   "rows_any_kw": 1.0,
+   "recall_boost": 0.892,
+   "rows_any_boost": 1.0,
+   "recall_union": 0.973,
+   "rows_any_union": 1.0,
+   "sentences_kw": 241,
+   "sentences_bert": 608,
+   "added_boost": 55,
+   "added_union": 455,
+   "bert_share_of_policy": 0.12,
+   "extra_boost_pct": 22.8,
+   "extra_union_pct": 188.8,
+   "gain_boost_pp": 0.0,
+   "gain_union_pp": 8.1
+  },
+  "AI5": {
+   "rows": 7,
+   "gold_sentences": 19,
+   "recall_bert": 0.684,
+   "rows_any_bert": 0.714,
+   "recall_kw": 0.895,
+   "rows_any_kw": 1.0,
+   "recall_boost": 0.947,
+   "rows_any_boost": 1.0,
+   "recall_union": 1.0,
+   "rows_any_union": 1.0,
+   "sentences_kw": 189,
+   "sentences_bert": 1053,
+   "added_boost": 41,
+   "added_union": 979,
+   "bert_share_of_policy": 0.209,
+   "extra_boost_pct": 21.7,
+   "extra_union_pct": 518.0,
+   "gain_boost_pp": 5.2,
+   "gain_union_pp": 10.5
+  },
+  "DPDP1": {
+   "rows": 15,
+   "gold_sentences": 30,
+   "recall_bert": 0.367,
+   "rows_any_bert": 0.6,
+   "recall_kw": 0.9,
+   "rows_any_kw": 1.0,
+   "recall_boost": 0.9,
+   "rows_any_boost": 1.0,
+   "recall_union": 0.9,
+   "rows_any_union": 1.0,
+   "sentences_kw": 400,
+   "sentences_bert": 608,
+   "added_boost": 95,
+   "added_union": 497,
+   "bert_share_of_policy": 0.12,
+   "extra_boost_pct": 23.8,
+   "extra_union_pct": 124.2,
+   "gain_boost_pp": 0.0,
+   "gain_union_pp": 0.0
+  },
+  "DPDP3": {
+   "rows": 15,
+   "gold_sentences": 30,
+   "recall_bert": 0.967,
+   "rows_any_bert": 1.0,
+   "recall_kw": 0.933,
+   "rows_any_kw": 1.0,
+   "recall_boost": 0.933,
+   "rows_any_boost": 1.0,
+   "recall_union": 1.0,
+   "rows_any_union": 1.0,
+   "sentences_kw": 197,
+   "sentences_bert": 2871,
+   "added_boost": 45,
+   "added_union": 2707,
+   "bert_share_of_policy": 0.569,
+   "extra_boost_pct": 22.8,
+   "extra_union_pct": 1374.1,
+   "gain_boost_pp": 0.0,
+   "gain_union_pp": 6.7
+  }
+ },
+ "decision": {
+  "rule": ">= 5.0 pp recall gain on G1,G2,G4,G5 with <= 25% extra sentences",
+  "gain_pp": 4.3,
+  "extra_pct": 22.0,
+  "gain_ok": false,
+  "size_ok": true,
+  "outcome": "STANDALONE profiler (do not integrate as booster)"
+ },
+ "sanity_gate": {
+  "n": 582,
+  "stored_macro_f1": 0.7785,
+  "rescored_macro_f1": 0.7785,
+  "device": "mps",
+  "checkpoint": "checkpoint-1134",
+  "max_abs_prob_diff_vs_stored": 0.0009941458702087402,
+  "label_flips_vs_stored": 0,
+  "passed": true
+ },
+ "category_profiles": {
+  "P01": {
+   "name": "openai",
+   "paragraphs": 142,
+   "First Party Collection/Use": 0.415,
+   "Third Party Sharing/Collection": 0.19,
+   "User Choice/Control": 0.113,
+   "User Access, Edit and Deletion": 0.077,
+   "Data Retention": 0.07,
+   "Data Security": 0.021,
+   "Policy Change": 0.021,
+   "Do Not Track": 0.0,
+   "International and Specific Audiences": 0.063,
+   "Other": 0.437
+  },
+  "P02": {
+   "name": "anthropic",
+   "paragraphs": 263,
+   "First Party Collection/Use": 0.243,
+   "Third Party Sharing/Collection": 0.137,
+   "User Choice/Control": 0.057,
+   "User Access, Edit and Deletion": 0.03,
+   "Data Retention": 0.011,
+   "Data Security": 0.027,
+   "Policy Change": 0.015,
+   "Do Not Track": 0.0,
+   "International and Specific Audiences": 0.084,
+   "Other": 0.688
+  },
+  "P03": {
+   "name": "deepseek",
+   "paragraphs": 169,
+   "First Party Collection/Use": 0.308,
+   "Third Party Sharing/Collection": 0.195,
+   "User Choice/Control": 0.107,
+   "User Access, Edit and Deletion": 0.053,
+   "Data Retention": 0.047,
+   "Data Security": 0.03,
+   "Policy Change": 0.012,
+   "Do Not Track": 0.0,
+   "International and Specific Audiences": 0.041,
+   "Other": 0.527
+  },
+  "P04": {
+   "name": "perplexity",
+   "paragraphs": 239,
+   "First Party Collection/Use": 0.331,
+   "Third Party Sharing/Collection": 0.142,
+   "User Choice/Control": 0.088,
+   "User Access, Edit and Deletion": 0.033,
+   "Data Retention": 0.021,
+   "Data Security": 0.008,
+   "Policy Change": 0.013,
+   "Do Not Track": 0.004,
+   "International and Specific Audiences": 0.029,
+   "Other": 0.607
+  },
+  "P05": {
+   "name": "xai",
+   "paragraphs": 115,
+   "First Party Collection/Use": 0.461,
+   "Third Party Sharing/Collection": 0.226,
+   "User Choice/Control": 0.061,
+   "User Access, Edit and Deletion": 0.052,
+   "Data Retention": 0.035,
+   "Data Security": 0.035,
+   "Policy Change": 0.026,
+   "Do Not Track": 0.009,
+   "International and Specific Audiences": 0.061,
+   "Other": 0.4
+  },
+  "P06": {
+   "name": "zoom",
+   "paragraphs": 178,
+   "First Party Collection/Use": 0.365,
+   "Third Party Sharing/Collection": 0.315,
+   "User Choice/Control": 0.107,
+   "User Access, Edit and Deletion": 0.039,
+   "Data Retention": 0.022,
+   "Data Security": 0.022,
+   "Policy Change": 0.028,
+   "Do Not Track": 0.0,
+   "International and Specific Audiences": 0.146,
+   "Other": 0.494
+  },
+  "P07": {
+   "name": "spotify",
+   "paragraphs": 628,
+   "First Party Collection/Use": 0.253,
+   "Third Party Sharing/Collection": 0.134,
+   "User Choice/Control": 0.062,
+   "User Access, Edit and Deletion": 0.022,
+   "Data Retention": 0.021,
+   "Data Security": 0.011,
+   "Policy Change": 0.008,
+   "Do Not Track": 0.0,
+   "International and Specific Audiences": 0.014,
+   "Other": 0.704
+  },
+  "P08": {
+   "name": "reddit",
+   "paragraphs": 544,
+   "First Party Collection/Use": 0.289,
+   "Third Party Sharing/Collection": 0.081,
+   "User Choice/Control": 0.031,
+   "User Access, Edit and Deletion": 0.026,
+   "Data Retention": 0.009,
+   "Data Security": 0.011,
+   "Policy Change": 0.006,
+   "Do Not Track": 0.002,
+   "International and Specific Audiences": 0.042,
+   "Other": 0.794
+  },
+  "P09": {
+   "name": "notion",
+   "paragraphs": 165,
+   "First Party Collection/Use": 0.321,
+   "Third Party Sharing/Collection": 0.376,
+   "User Choice/Control": 0.133,
+   "User Access, Edit and Deletion": 0.042,
+   "Data Retention": 0.024,
+   "Data Security": 0.03,
+   "Policy Change": 0.036,
+   "Do Not Track": 0.006,
+   "International and Specific Audiences": 0.061,
+   "Other": 0.485
+  },
+  "P10": {
+   "name": "duolingo",
+   "paragraphs": 168,
+   "First Party Collection/Use": 0.31,
+   "Third Party Sharing/Collection": 0.107,
+   "User Choice/Control": 0.137,
+   "User Access, Edit and Deletion": 0.048,
+   "Data Retention": 0.024,
+   "Data Security": 0.006,
+   "Policy Change": 0.018,
+   "Do Not Track": 0.006,
+   "International and Specific Audiences": 0.244,
+   "Other": 0.47
+  },
+  "P11": {
+   "name": "razorpay",
+   "paragraphs": 75,
+   "First Party Collection/Use": 0.16,
+   "Third Party Sharing/Collection": 0.2,
+   "User Choice/Control": 0.147,
+   "User Access, Edit and Deletion": 0.04,
+   "Data Retention": 0.04,
+   "Data Security": 0.067,
+   "Policy Change": 0.133,
+   "Do Not Track": 0.0,
+   "International and Specific Audiences": 0.013,
+   "Other": 0.653
+  },
+  "P12": {
+   "name": "phonepe",
+   "paragraphs": 219,
+   "First Party Collection/Use": 0.361,
+   "Third Party Sharing/Collection": 0.119,
+   "User Choice/Control": 0.128,
+   "User Access, Edit and Deletion": 0.014,
+   "Data Retention": 0.018,
+   "Data Security": 0.037,
+   "Policy Change": 0.023,
+   "Do Not Track": 0.0,
+   "International and Specific Audiences": 0.023,
+   "Other": 0.653
+  },
+  "P13": {
+   "name": "swiggy",
+   "paragraphs": 92,
+   "First Party Collection/Use": 0.467,
+   "Third Party Sharing/Collection": 0.413,
+   "User Choice/Control": 0.098,
+   "User Access, Edit and Deletion": 0.011,
+   "Data Retention": 0.033,
+   "Data Security": 0.065,
+   "Policy Change": 0.033,
+   "Do Not Track": 0.0,
+   "International and Specific Audiences": 0.0,
+   "Other": 0.359
+  },
+  "P14": {
+   "name": "zomato",
+   "paragraphs": 149,
+   "First Party Collection/Use": 0.463,
+   "Third Party Sharing/Collection": 0.322,
+   "User Choice/Control": 0.054,
+   "User Access, Edit and Deletion": 0.027,
+   "Data Retention": 0.074,
+   "Data Security": 0.054,
+   "Policy Change": 0.02,
+   "Do Not Track": 0.0,
+   "International and Specific Audiences": 0.027,
+   "Other": 0.389
+  },
+  "P15": {
+   "name": "unacademy",
+   "paragraphs": 230,
+   "First Party Collection/Use": 0.317,
+   "Third Party Sharing/Collection": 0.187,
+   "User Choice/Control": 0.091,
+   "User Access, Edit and Deletion": 0.078,
+   "Data Retention": 0.017,
+   "Data Security": 0.035,
+   "Policy Change": 0.009,
+   "Do Not Track": 0.0,
+   "International and Specific Audiences": 0.078,
+   "Other": 0.613
+  }
+ },
+ "gold_labels_sha256": "880e97c489df43c2e06d75743ae9562a9d33fbda8b022060c788fde7baeccf2b",
+ "llm_run": "gemini35lite_batch_v1.1",
+ "mapping": {
+  "G1": {
+   "category": "First Party Collection/Use",
+   "fit": "strong"
+  },
+  "G2": {
+   "category": "Third Party Sharing/Collection",
+   "fit": "strong"
+  },
+  "G3": {
+   "category": "First Party Collection/Use",
+   "fit": "weak"
+  },
+  "G4": {
+   "category": "Data Retention",
+   "fit": "strong"
+  },
+  "G5": {
+   "category": "User Access, Edit and Deletion",
+   "fit": "strong"
+  },
+  "G6": {
+   "category": "International and Specific Audiences",
+   "fit": "medium"
+  },
+  "G7": {
+   "category": "International and Specific Audiences",
+   "fit": "medium"
+  },
+  "AI2": {
+   "category": "User Choice/Control",
+   "fit": "medium"
+  },
+  "DPDP2": {
+   "category": "User Choice/Control",
+   "fit": "medium"
+  },
+  "AI5": {
+   "category": "Third Party Sharing/Collection",
+   "fit": "medium"
+  },
+  "DPDP1": {
+   "category": "User Choice/Control",
+   "fit": "weak"
+  },
+  "DPDP3": {
+   "category": "Other",
+   "fit": "weak"
+  }
+ },
+ "unmapped": [
+  "AI1",
+  "AI3",
+  "AI4",
+  "DPDP4"
+ ],
+ "rows": [
+  {
+   "policy_id": "P01",
+   "flag": "G1",
+   "fit": "strong",
+   "category": "First Party Collection/Use",
+   "gold_presence": "Present",
+   "gold_state": "ED",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 216,
+   "n_bert": 75,
+   "n_kw": 33,
+   "n_boost_added": 8,
+   "n_union_added": 53,
+   "gold_evidence": [
+    "p014.s1",
+    "p020.s1",
+    "p024.s1"
+   ],
+   "found_bert": [
+    "p014.s1",
+    "p020.s1",
+    "p024.s1"
+   ],
+   "found_kw": [
+    "p014.s1",
+    "p020.s1",
+    "p024.s1"
+   ],
+   "found_boost": [
+    "p014.s1",
+    "p020.s1",
+    "p024.s1"
+   ],
+   "found_union": [
+    "p014.s1",
+    "p020.s1",
+    "p024.s1"
+   ],
+   "max_prob": 0.991
+  },
+  {
+   "policy_id": "P01",
+   "flag": "G2",
+   "fit": "strong",
+   "category": "Third Party Sharing/Collection",
+   "gold_presence": "Present",
+   "gold_state": "EE",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 216,
+   "n_bert": 34,
+   "n_kw": 2,
+   "n_boost_added": 0,
+   "n_union_added": 32,
+   "gold_evidence": [
+    "p124.s1"
+   ],
+   "found_bert": [
+    "p124.s1"
+   ],
+   "found_kw": [
+    "p124.s1"
+   ],
+   "found_boost": [
+    "p124.s1"
+   ],
+   "found_union": [
+    "p124.s1"
+   ],
+   "max_prob": 0.989
+  },
+  {
+   "policy_id": "P01",
+   "flag": "G3",
+   "fit": "weak",
+   "category": "First Party Collection/Use",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 216,
+   "n_bert": 75,
+   "n_kw": 6,
+   "n_boost_added": 1,
+   "n_union_added": 70,
+   "gold_evidence": [
+    "p030.s1",
+    "p064.s1",
+    "p124.s2"
+   ],
+   "found_bert": [
+    "p030.s1",
+    "p064.s1",
+    "p124.s2"
+   ],
+   "found_kw": [
+    "p124.s2"
+   ],
+   "found_boost": [
+    "p124.s2"
+   ],
+   "found_union": [
+    "p030.s1",
+    "p064.s1",
+    "p124.s2"
+   ],
+   "max_prob": 0.991
+  },
+  {
+   "policy_id": "P01",
+   "flag": "G4",
+   "fit": "strong",
+   "category": "Data Retention",
+   "gold_presence": "Present",
+   "gold_state": "ED",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 216,
+   "n_bert": 17,
+   "n_kw": 21,
+   "n_boost_added": 4,
+   "n_union_added": 4,
+   "gold_evidence": [
+    "p050.s2",
+    "p049.s3",
+    "p048.s1"
+   ],
+   "found_bert": [
+    "p050.s2",
+    "p049.s3",
+    "p048.s1"
+   ],
+   "found_kw": [
+    "p050.s2",
+    "p049.s3",
+    "p048.s1"
+   ],
+   "found_boost": [
+    "p050.s2",
+    "p049.s3",
+    "p048.s1"
+   ],
+   "found_union": [
+    "p050.s2",
+    "p049.s3",
+    "p048.s1"
+   ],
+   "max_prob": 0.967
+  },
+  {
+   "policy_id": "P01",
+   "flag": "G5",
+   "fit": "strong",
+   "category": "User Access, Edit and Deletion",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 216,
+   "n_bert": 23,
+   "n_kw": 34,
+   "n_boost_added": 8,
+   "n_union_added": 11,
+   "gold_evidence": [
+    "p073.s1",
+    "p074.s1",
+    "p049.s2",
+    "p065.s1"
+   ],
+   "found_bert": [
+    "p049.s2"
+   ],
+   "found_kw": [
+    "p073.s1",
+    "p074.s1",
+    "p049.s2"
+   ],
+   "found_boost": [
+    "p073.s1",
+    "p074.s1",
+    "p049.s2"
+   ],
+   "found_union": [
+    "p073.s1",
+    "p074.s1",
+    "p049.s2"
+   ],
+   "max_prob": 0.977
+  },
+  {
+   "policy_id": "P01",
+   "flag": "G6",
+   "fit": "medium",
+   "category": "International and Specific Audiences",
+   "gold_presence": "Present",
+   "gold_state": "ED",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 216,
+   "n_bert": 20,
+   "n_kw": 7,
+   "n_boost_added": 1,
+   "n_union_added": 18,
+   "gold_evidence": [
+    "p084.s1",
+    "p084.s2"
+   ],
+   "found_bert": [
+    "p084.s1",
+    "p084.s2"
+   ],
+   "found_kw": [
+    "p084.s1",
+    "p084.s2"
+   ],
+   "found_boost": [
+    "p084.s1",
+    "p084.s2"
+   ],
+   "found_union": [
+    "p084.s1",
+    "p084.s2"
+   ],
+   "max_prob": 0.959
+  },
+  {
+   "policy_id": "P01",
+   "flag": "G7",
+   "fit": "medium",
+   "category": "International and Specific Audiences",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 216,
+   "n_bert": 20,
+   "n_kw": 12,
+   "n_boost_added": 3,
+   "n_union_added": 11,
+   "gold_evidence": [
+    "p086.s1",
+    "p086.s5",
+    "p044.s1"
+   ],
+   "found_bert": [
+    "p086.s1",
+    "p086.s5",
+    "p044.s1"
+   ],
+   "found_kw": [
+    "p086.s1",
+    "p086.s5",
+    "p044.s1"
+   ],
+   "found_boost": [
+    "p086.s1",
+    "p086.s5",
+    "p044.s1"
+   ],
+   "found_union": [
+    "p086.s1",
+    "p086.s5",
+    "p044.s1"
+   ],
+   "max_prob": 0.959
+  },
+  {
+   "policy_id": "P01",
+   "flag": "AI2",
+   "fit": "medium",
+   "category": "User Choice/Control",
+   "gold_presence": "Present",
+   "gold_state": "ED",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 216,
+   "n_bert": 27,
+   "n_kw": 8,
+   "n_boost_added": 2,
+   "n_union_added": 23,
+   "gold_evidence": [
+    "p063.s1",
+    "p062.s2",
+    "p067.s1"
+   ],
+   "found_bert": [
+    "p063.s1",
+    "p062.s2"
+   ],
+   "found_kw": [
+    "p063.s1"
+   ],
+   "found_boost": [
+    "p063.s1"
+   ],
+   "found_union": [
+    "p063.s1",
+    "p062.s2"
+   ],
+   "max_prob": 0.973
+  },
+  {
+   "policy_id": "P01",
+   "flag": "DPDP2",
+   "fit": "medium",
+   "category": "User Choice/Control",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 216,
+   "n_bert": 27,
+   "n_kw": 6,
+   "n_boost_added": 1,
+   "n_union_added": 24,
+   "gold_evidence": [
+    "p079.s1",
+    "p081.s1",
+    "p070.s1"
+   ],
+   "found_bert": [
+    "p079.s1",
+    "p081.s1",
+    "p070.s1"
+   ],
+   "found_kw": [
+    "p079.s1",
+    "p070.s1"
+   ],
+   "found_boost": [
+    "p079.s1",
+    "p070.s1"
+   ],
+   "found_union": [
+    "p079.s1",
+    "p081.s1",
+    "p070.s1"
+   ],
+   "max_prob": 0.973
+  },
+  {
+   "policy_id": "P01",
+   "flag": "AI5",
+   "fit": "medium",
+   "category": "Third Party Sharing/Collection",
+   "gold_presence": "Absent",
+   "gold_state": "NS",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Absent",
+   "n_policy_sentences": 216,
+   "n_bert": 34,
+   "n_kw": 5,
+   "n_boost_added": 1,
+   "n_union_added": 34,
+   "gold_evidence": [],
+   "found_bert": [],
+   "found_kw": [],
+   "found_boost": [],
+   "found_union": [],
+   "max_prob": 0.989
+  },
+  {
+   "policy_id": "P01",
+   "flag": "DPDP1",
+   "fit": "weak",
+   "category": "User Choice/Control",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 216,
+   "n_bert": 27,
+   "n_kw": 4,
+   "n_boost_added": 1,
+   "n_union_added": 26,
+   "gold_evidence": [
+    "p079.s1",
+    "p073.s1"
+   ],
+   "found_bert": [
+    "p079.s1"
+   ],
+   "found_kw": [
+    "p079.s1"
+   ],
+   "found_boost": [
+    "p079.s1"
+   ],
+   "found_union": [
+    "p079.s1"
+   ],
+   "max_prob": 0.973
+  },
+  {
+   "policy_id": "P01",
+   "flag": "DPDP3",
+   "fit": "weak",
+   "category": "Other",
+   "gold_presence": "Present",
+   "gold_state": "ED",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 216,
+   "n_bert": 104,
+   "n_kw": 14,
+   "n_boost_added": 3,
+   "n_union_added": 93,
+   "gold_evidence": [
+    "p081.s2"
+   ],
+   "found_bert": [
+    "p081.s2"
+   ],
+   "found_kw": [
+    "p081.s2"
+   ],
+   "found_boost": [
+    "p081.s2"
+   ],
+   "found_union": [
+    "p081.s2"
+   ],
+   "max_prob": 0.957
+  },
+  {
+   "policy_id": "P02",
+   "flag": "G1",
+   "fit": "strong",
+   "category": "First Party Collection/Use",
+   "gold_presence": "Present",
+   "gold_state": "ED",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 388,
+   "n_bert": 89,
+   "n_kw": 36,
+   "n_boost_added": 9,
+   "n_union_added": 66,
+   "gold_evidence": [
+    "p013.s2",
+    "p016.s1",
+    "p021.s2"
+   ],
+   "found_bert": [
+    "p013.s2",
+    "p016.s1",
+    "p021.s2"
+   ],
+   "found_kw": [
+    "p013.s2",
+    "p016.s1"
+   ],
+   "found_boost": [
+    "p013.s2",
+    "p016.s1"
+   ],
+   "found_union": [
+    "p013.s2",
+    "p016.s1",
+    "p021.s2"
+   ],
+   "max_prob": 0.99
+  },
+  {
+   "policy_id": "P02",
+   "flag": "G2",
+   "fit": "strong",
+   "category": "Third Party Sharing/Collection",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 388,
+   "n_bert": 58,
+   "n_kw": 7,
+   "n_boost_added": 1,
+   "n_union_added": 55,
+   "gold_evidence": [
+    "p077.s1",
+    "p077.s2"
+   ],
+   "found_bert": [
+    "p077.s1",
+    "p077.s2"
+   ],
+   "found_kw": [
+    "p077.s1",
+    "p077.s2"
+   ],
+   "found_boost": [
+    "p077.s1",
+    "p077.s2"
+   ],
+   "found_union": [
+    "p077.s1",
+    "p077.s2"
+   ],
+   "max_prob": 0.985
+  },
+  {
+   "policy_id": "P02",
+   "flag": "G3",
+   "fit": "weak",
+   "category": "First Party Collection/Use",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 388,
+   "n_bert": 89,
+   "n_kw": 10,
+   "n_boost_added": 2,
+   "n_union_added": 86,
+   "gold_evidence": [
+    "p038.s1",
+    "p076.s1",
+    "p073.s1"
+   ],
+   "found_bert": [
+    "p038.s1"
+   ],
+   "found_kw": [
+    "p038.s1",
+    "p076.s1",
+    "p073.s1"
+   ],
+   "found_boost": [
+    "p038.s1",
+    "p076.s1",
+    "p073.s1"
+   ],
+   "found_union": [
+    "p038.s1",
+    "p076.s1",
+    "p073.s1"
+   ],
+   "max_prob": 0.99
+  },
+  {
+   "policy_id": "P02",
+   "flag": "G4",
+   "fit": "strong",
+   "category": "Data Retention",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 388,
+   "n_bert": 4,
+   "n_kw": 15,
+   "n_boost_added": 1,
+   "n_union_added": 1,
+   "gold_evidence": [
+    "p071.s2",
+    "p086.s1"
+   ],
+   "found_bert": [
+    "p086.s1"
+   ],
+   "found_kw": [
+    "p071.s2",
+    "p086.s1"
+   ],
+   "found_boost": [
+    "p071.s2",
+    "p086.s1"
+   ],
+   "found_union": [
+    "p071.s2",
+    "p086.s1"
+   ],
+   "max_prob": 0.883
+  },
+  {
+   "policy_id": "P02",
+   "flag": "G5",
+   "fit": "strong",
+   "category": "User Access, Edit and Deletion",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 388,
+   "n_bert": 18,
+   "n_kw": 34,
+   "n_boost_added": 6,
+   "n_union_added": 6,
+   "gold_evidence": [
+    "p066.s1",
+    "p070.s1",
+    "p071.s1",
+    "p072.s1"
+   ],
+   "found_bert": [
+    "p071.s1",
+    "p072.s1"
+   ],
+   "found_kw": [
+    "p070.s1",
+    "p071.s1",
+    "p072.s1"
+   ],
+   "found_boost": [
+    "p070.s1",
+    "p071.s1",
+    "p072.s1"
+   ],
+   "found_union": [
+    "p070.s1",
+    "p071.s1",
+    "p072.s1"
+   ],
+   "max_prob": 0.979
+  },
+  {
+   "policy_id": "P02",
+   "flag": "G6",
+   "fit": "medium",
+   "category": "International and Specific Audiences",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 388,
+   "n_bert": 57,
+   "n_kw": 28,
+   "n_boost_added": 7,
+   "n_union_added": 37,
+   "gold_evidence": [
+    "p080.s1",
+    "p081.s1",
+    "p083.s3"
+   ],
+   "found_bert": [
+    "p080.s1",
+    "p081.s1",
+    "p083.s3"
+   ],
+   "found_kw": [
+    "p080.s1",
+    "p081.s1",
+    "p083.s3"
+   ],
+   "found_boost": [
+    "p080.s1",
+    "p081.s1",
+    "p083.s3"
+   ],
+   "found_union": [
+    "p080.s1",
+    "p081.s1",
+    "p083.s3"
+   ],
+   "max_prob": 0.974
+  },
+  {
+   "policy_id": "P02",
+   "flag": "G7",
+   "fit": "medium",
+   "category": "International and Specific Audiences",
+   "gold_presence": "Present",
+   "gold_state": "ED",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 388,
+   "n_bert": 57,
+   "n_kw": 5,
+   "n_boost_added": 1,
+   "n_union_added": 54,
+   "gold_evidence": [
+    "p097.s1",
+    "p097.s2"
+   ],
+   "found_bert": [
+    "p097.s1",
+    "p097.s2"
+   ],
+   "found_kw": [
+    "p097.s1",
+    "p097.s2"
+   ],
+   "found_boost": [
+    "p097.s1",
+    "p097.s2"
+   ],
+   "found_union": [
+    "p097.s1",
+    "p097.s2"
+   ],
+   "max_prob": 0.974
+  },
+  {
+   "policy_id": "P02",
+   "flag": "AI2",
+   "fit": "medium",
+   "category": "User Choice/Control",
+   "gold_presence": "Present",
+   "gold_state": "ED",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 388,
+   "n_bert": 38,
+   "n_kw": 15,
+   "n_boost_added": 3,
+   "n_union_added": 34,
+   "gold_evidence": [
+    "p047.s1",
+    "p047.s2"
+   ],
+   "found_bert": [],
+   "found_kw": [
+    "p047.s1",
+    "p047.s2"
+   ],
+   "found_boost": [
+    "p047.s1",
+    "p047.s2"
+   ],
+   "found_union": [
+    "p047.s1",
+    "p047.s2"
+   ],
+   "max_prob": 0.98
+  },
+  {
+   "policy_id": "P02",
+   "flag": "DPDP2",
+   "fit": "medium",
+   "category": "User Choice/Control",
+   "gold_presence": "Present",
+   "gold_state": "ED",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 388,
+   "n_bert": 38,
+   "n_kw": 22,
+   "n_boost_added": 5,
+   "n_union_added": 26,
+   "gold_evidence": [
+    "p075.s1",
+    "p075.s2"
+   ],
+   "found_bert": [
+    "p075.s1",
+    "p075.s2"
+   ],
+   "found_kw": [
+    "p075.s1",
+    "p075.s2"
+   ],
+   "found_boost": [
+    "p075.s1",
+    "p075.s2"
+   ],
+   "found_union": [
+    "p075.s1",
+    "p075.s2"
+   ],
+   "max_prob": 0.98
+  },
+  {
+   "policy_id": "P02",
+   "flag": "AI5",
+   "fit": "medium",
+   "category": "Third Party Sharing/Collection",
+   "gold_presence": "Absent",
+   "gold_state": "NS",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Absent",
+   "n_policy_sentences": 388,
+   "n_bert": 58,
+   "n_kw": 15,
+   "n_boost_added": 3,
+   "n_union_added": 54,
+   "gold_evidence": [],
+   "found_bert": [],
+   "found_kw": [],
+   "found_boost": [],
+   "found_union": [],
+   "max_prob": 0.985
+  },
+  {
+   "policy_id": "P02",
+   "flag": "DPDP1",
+   "fit": "weak",
+   "category": "User Choice/Control",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 388,
+   "n_bert": 38,
+   "n_kw": 33,
+   "n_boost_added": 8,
+   "n_union_added": 31,
+   "gold_evidence": [
+    "p048.s1",
+    "p133.s1"
+   ],
+   "found_bert": [
+    "p133.s1"
+   ],
+   "found_kw": [
+    "p048.s1",
+    "p133.s1"
+   ],
+   "found_boost": [
+    "p048.s1",
+    "p133.s1"
+   ],
+   "found_union": [
+    "p048.s1",
+    "p133.s1"
+   ],
+   "max_prob": 0.98
+  },
+  {
+   "policy_id": "P02",
+   "flag": "DPDP3",
+   "fit": "weak",
+   "category": "Other",
+   "gold_presence": "Present",
+   "gold_state": "ED",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 388,
+   "n_bert": 263,
+   "n_kw": 20,
+   "n_boost_added": 5,
+   "n_union_added": 244,
+   "gold_evidence": [
+    "p105.s1"
+   ],
+   "found_bert": [
+    "p105.s1"
+   ],
+   "found_kw": [
+    "p105.s1"
+   ],
+   "found_boost": [
+    "p105.s1"
+   ],
+   "found_union": [
+    "p105.s1"
+   ],
+   "max_prob": 0.974
+  },
+  {
+   "policy_id": "P03",
+   "flag": "G1",
+   "fit": "strong",
+   "category": "First Party Collection/Use",
+   "gold_presence": "Present",
+   "gold_state": "ED",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 242,
+   "n_bert": 87,
+   "n_kw": 37,
+   "n_boost_added": 9,
+   "n_union_added": 58,
+   "gold_evidence": [
+    "p013.s2",
+    "p017.s3",
+    "p019.s2"
+   ],
+   "found_bert": [
+    "p013.s2",
+    "p017.s3",
+    "p019.s2"
+   ],
+   "found_kw": [
+    "p013.s2",
+    "p017.s3",
+    "p019.s2"
+   ],
+   "found_boost": [
+    "p013.s2",
+    "p017.s3",
+    "p019.s2"
+   ],
+   "found_union": [
+    "p013.s2",
+    "p017.s3",
+    "p019.s2"
+   ],
+   "max_prob": 0.99
+  },
+  {
+   "policy_id": "P03",
+   "flag": "G2",
+   "fit": "strong",
+   "category": "Third Party Sharing/Collection",
+   "gold_presence": "Present",
+   "gold_state": "EE",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 242,
+   "n_bert": 49,
+   "n_kw": 7,
+   "n_boost_added": 1,
+   "n_union_added": 47,
+   "gold_evidence": [
+    "p071.s2",
+    "p020.s2"
+   ],
+   "found_bert": [],
+   "found_kw": [
+    "p071.s2",
+    "p020.s2"
+   ],
+   "found_boost": [
+    "p071.s2",
+    "p020.s2"
+   ],
+   "found_union": [
+    "p071.s2",
+    "p020.s2"
+   ],
+   "max_prob": 0.98
+  },
+  {
+   "policy_id": "P03",
+   "flag": "G3",
+   "fit": "weak",
+   "category": "First Party Collection/Use",
+   "gold_presence": "Present",
+   "gold_state": "EE",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 242,
+   "n_bert": 87,
+   "n_kw": 9,
+   "n_boost_added": 2,
+   "n_union_added": 86,
+   "gold_evidence": [
+    "p036.s1",
+    "p071.s2"
+   ],
+   "found_bert": [],
+   "found_kw": [
+    "p036.s1",
+    "p071.s2"
+   ],
+   "found_boost": [
+    "p036.s1",
+    "p071.s2"
+   ],
+   "found_union": [
+    "p036.s1",
+    "p071.s2"
+   ],
+   "max_prob": 0.99
+  },
+  {
+   "policy_id": "P03",
+   "flag": "G4",
+   "fit": "strong",
+   "category": "Data Retention",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 242,
+   "n_bert": 13,
+   "n_kw": 8,
+   "n_boost_added": 2,
+   "n_union_added": 8,
+   "gold_evidence": [
+    "p081.s1",
+    "p082.s1"
+   ],
+   "found_bert": [
+    "p081.s1",
+    "p082.s1"
+   ],
+   "found_kw": [
+    "p081.s1",
+    "p082.s1"
+   ],
+   "found_boost": [
+    "p081.s1",
+    "p082.s1"
+   ],
+   "found_union": [
+    "p081.s1",
+    "p082.s1"
+   ],
+   "max_prob": 0.967
+  },
+  {
+   "policy_id": "P03",
+   "flag": "G5",
+   "fit": "strong",
+   "category": "User Access, Edit and Deletion",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 242,
+   "n_bert": 13,
+   "n_kw": 32,
+   "n_boost_added": 8,
+   "n_union_added": 10,
+   "gold_evidence": [
+    "p060.s1",
+    "p067.s1",
+    "p068.s1",
+    "p069.s1",
+    "p074.s3"
+   ],
+   "found_bert": [
+    "p074.s3"
+   ],
+   "found_kw": [
+    "p060.s1",
+    "p067.s1",
+    "p068.s1",
+    "p069.s1"
+   ],
+   "found_boost": [
+    "p060.s1",
+    "p067.s1",
+    "p068.s1",
+    "p069.s1",
+    "p074.s3"
+   ],
+   "found_union": [
+    "p060.s1",
+    "p067.s1",
+    "p068.s1",
+    "p069.s1",
+    "p074.s3"
+   ],
+   "max_prob": 0.985
+  },
+  {
+   "policy_id": "P03",
+   "flag": "G6",
+   "fit": "medium",
+   "category": "International and Specific Audiences",
+   "gold_presence": "Present",
+   "gold_state": "ED",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 242,
+   "n_bert": 12,
+   "n_kw": 10,
+   "n_boost_added": 2,
+   "n_union_added": 7,
+   "gold_evidence": [
+    "p085.s2",
+    "p085.s1",
+    "p086.s1"
+   ],
+   "found_bert": [
+    "p085.s2",
+    "p085.s1"
+   ],
+   "found_kw": [
+    "p085.s2",
+    "p085.s1",
+    "p086.s1"
+   ],
+   "found_boost": [
+    "p085.s2",
+    "p085.s1",
+    "p086.s1"
+   ],
+   "found_union": [
+    "p085.s2",
+    "p085.s1",
+    "p086.s1"
+   ],
+   "max_prob": 0.979
+  },
+  {
+   "policy_id": "P03",
+   "flag": "G7",
+   "fit": "medium",
+   "category": "International and Specific Audiences",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 242,
+   "n_bert": 12,
+   "n_kw": 9,
+   "n_boost_added": 2,
+   "n_union_added": 7,
+   "gold_evidence": [
+    "p088.s1",
+    "p112.s2"
+   ],
+   "found_bert": [
+    "p088.s1",
+    "p112.s2"
+   ],
+   "found_kw": [
+    "p088.s1",
+    "p112.s2"
+   ],
+   "found_boost": [
+    "p088.s1",
+    "p112.s2"
+   ],
+   "found_union": [
+    "p088.s1",
+    "p112.s2"
+   ],
+   "max_prob": 0.979
+  },
+  {
+   "policy_id": "P03",
+   "flag": "AI2",
+   "fit": "medium",
+   "category": "User Choice/Control",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 242,
+   "n_bert": 31,
+   "n_kw": 7,
+   "n_boost_added": 1,
+   "n_union_added": 25,
+   "gold_evidence": [
+    "p072.s1",
+    "p061.s1"
+   ],
+   "found_bert": [
+    "p072.s1",
+    "p061.s1"
+   ],
+   "found_kw": [
+    "p072.s1"
+   ],
+   "found_boost": [
+    "p072.s1"
+   ],
+   "found_union": [
+    "p072.s1",
+    "p061.s1"
+   ],
+   "max_prob": 0.96
+  },
+  {
+   "policy_id": "P03",
+   "flag": "DPDP2",
+   "fit": "medium",
+   "category": "User Choice/Control",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 242,
+   "n_bert": 31,
+   "n_kw": 6,
+   "n_boost_added": 1,
+   "n_union_added": 26,
+   "gold_evidence": [
+    "p156.s1",
+    "p163.s1"
+   ],
+   "found_bert": [
+    "p156.s1"
+   ],
+   "found_kw": [
+    "p156.s1"
+   ],
+   "found_boost": [
+    "p156.s1"
+   ],
+   "found_union": [
+    "p156.s1"
+   ],
+   "max_prob": 0.96
+  },
+  {
+   "policy_id": "P03",
+   "flag": "AI5",
+   "fit": "medium",
+   "category": "Third Party Sharing/Collection",
+   "gold_presence": "Absent",
+   "gold_state": "NS",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Absent",
+   "n_policy_sentences": 242,
+   "n_bert": 49,
+   "n_kw": 2,
+   "n_boost_added": 0,
+   "n_union_added": 49,
+   "gold_evidence": [],
+   "found_bert": [],
+   "found_kw": [],
+   "found_boost": [],
+   "found_union": [],
+   "max_prob": 0.98
+  },
+  {
+   "policy_id": "P03",
+   "flag": "DPDP1",
+   "fit": "weak",
+   "category": "User Choice/Control",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 242,
+   "n_bert": 31,
+   "n_kw": 33,
+   "n_boost_added": 8,
+   "n_union_added": 23,
+   "gold_evidence": [
+    "p097.s2",
+    "p019.s3"
+   ],
+   "found_bert": [],
+   "found_kw": [
+    "p097.s2",
+    "p019.s3"
+   ],
+   "found_boost": [
+    "p097.s2",
+    "p019.s3"
+   ],
+   "found_union": [
+    "p097.s2",
+    "p019.s3"
+   ],
+   "max_prob": 0.96
+  },
+  {
+   "policy_id": "P03",
+   "flag": "DPDP3",
+   "fit": "weak",
+   "category": "Other",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 242,
+   "n_bert": 107,
+   "n_kw": 17,
+   "n_boost_added": 4,
+   "n_union_added": 93,
+   "gold_evidence": [
+    "p092.s1",
+    "p164.s1"
+   ],
+   "found_bert": [
+    "p092.s1",
+    "p164.s1"
+   ],
+   "found_kw": [
+    "p092.s1",
+    "p164.s1"
+   ],
+   "found_boost": [
+    "p092.s1",
+    "p164.s1"
+   ],
+   "found_union": [
+    "p092.s1",
+    "p164.s1"
+   ],
+   "max_prob": 0.97
+  },
+  {
+   "policy_id": "P04",
+   "flag": "G1",
+   "fit": "strong",
+   "category": "First Party Collection/Use",
+   "gold_presence": "Present",
+   "gold_state": "ED",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 385,
+   "n_bert": 131,
+   "n_kw": 39,
+   "n_boost_added": 9,
+   "n_union_added": 104,
+   "gold_evidence": [
+    "p078.s1",
+    "p079.s1",
+    "p084.s1"
+   ],
+   "found_bert": [
+    "p078.s1",
+    "p079.s1",
+    "p084.s1"
+   ],
+   "found_kw": [
+    "p078.s1",
+    "p079.s1",
+    "p084.s1"
+   ],
+   "found_boost": [
+    "p078.s1",
+    "p079.s1",
+    "p084.s1"
+   ],
+   "found_union": [
+    "p078.s1",
+    "p079.s1",
+    "p084.s1"
+   ],
+   "max_prob": 0.995
+  },
+  {
+   "policy_id": "P04",
+   "flag": "G2",
+   "fit": "strong",
+   "category": "Third Party Sharing/Collection",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 385,
+   "n_bert": 80,
+   "n_kw": 35,
+   "n_boost_added": 8,
+   "n_union_added": 74,
+   "gold_evidence": [
+    "p069.s1",
+    "p069.s3",
+    "p191.s3",
+    "p192.s2"
+   ],
+   "found_bert": [
+    "p069.s1",
+    "p069.s3"
+   ],
+   "found_kw": [
+    "p069.s1",
+    "p069.s3",
+    "p191.s3",
+    "p192.s2"
+   ],
+   "found_boost": [
+    "p069.s1",
+    "p069.s3",
+    "p191.s3",
+    "p192.s2"
+   ],
+   "found_union": [
+    "p069.s1",
+    "p069.s3",
+    "p191.s3",
+    "p192.s2"
+   ],
+   "max_prob": 0.992
+  },
+  {
+   "policy_id": "P04",
+   "flag": "G3",
+   "fit": "weak",
+   "category": "First Party Collection/Use",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 385,
+   "n_bert": 131,
+   "n_kw": 12,
+   "n_boost_added": 3,
+   "n_union_added": 127,
+   "gold_evidence": [
+    "p082.s2",
+    "p069.s3",
+    "p170.s1",
+    "p191.s3"
+   ],
+   "found_bert": [
+    "p082.s2"
+   ],
+   "found_kw": [
+    "p082.s2",
+    "p069.s3",
+    "p170.s1"
+   ],
+   "found_boost": [
+    "p082.s2",
+    "p069.s3",
+    "p170.s1"
+   ],
+   "found_union": [
+    "p082.s2",
+    "p069.s3",
+    "p170.s1"
+   ],
+   "max_prob": 0.995
+  },
+  {
+   "policy_id": "P04",
+   "flag": "G4",
+   "fit": "strong",
+   "category": "Data Retention",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 385,
+   "n_bert": 18,
+   "n_kw": 8,
+   "n_boost_added": 2,
+   "n_union_added": 14,
+   "gold_evidence": [
+    "p206.s1",
+    "p206.s3"
+   ],
+   "found_bert": [
+    "p206.s1",
+    "p206.s3"
+   ],
+   "found_kw": [
+    "p206.s1",
+    "p206.s3"
+   ],
+   "found_boost": [
+    "p206.s1",
+    "p206.s3"
+   ],
+   "found_union": [
+    "p206.s1",
+    "p206.s3"
+   ],
+   "max_prob": 0.92
+  },
+  {
+   "policy_id": "P04",
+   "flag": "G5",
+   "fit": "strong",
+   "category": "User Access, Edit and Deletion",
+   "gold_presence": "Present",
+   "gold_state": "ED",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 385,
+   "n_bert": 14,
+   "n_kw": 29,
+   "n_boost_added": 3,
+   "n_union_added": 3,
+   "gold_evidence": [
+    "p218.s1",
+    "p189.s3",
+    "p190.s2",
+    "p187.s2"
+   ],
+   "found_bert": [
+    "p218.s1",
+    "p189.s3",
+    "p190.s2"
+   ],
+   "found_kw": [
+    "p218.s1",
+    "p189.s3",
+    "p190.s2",
+    "p187.s2"
+   ],
+   "found_boost": [
+    "p218.s1",
+    "p189.s3",
+    "p190.s2",
+    "p187.s2"
+   ],
+   "found_union": [
+    "p218.s1",
+    "p189.s3",
+    "p190.s2",
+    "p187.s2"
+   ],
+   "max_prob": 0.984
+  },
+  {
+   "policy_id": "P04",
+   "flag": "G6",
+   "fit": "medium",
+   "category": "International and Specific Audiences",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 385,
+   "n_bert": 16,
+   "n_kw": 15,
+   "n_boost_added": 3,
+   "n_union_added": 12,
+   "gold_evidence": [
+    "p208.s4",
+    "p208.s6"
+   ],
+   "found_bert": [
+    "p208.s4",
+    "p208.s6"
+   ],
+   "found_kw": [
+    "p208.s4",
+    "p208.s6"
+   ],
+   "found_boost": [
+    "p208.s4",
+    "p208.s6"
+   ],
+   "found_union": [
+    "p208.s4",
+    "p208.s6"
+   ],
+   "max_prob": 0.963
+  },
+  {
+   "policy_id": "P04",
+   "flag": "G7",
+   "fit": "medium",
+   "category": "International and Specific Audiences",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 385,
+   "n_bert": 16,
+   "n_kw": 6,
+   "n_boost_added": 1,
+   "n_union_added": 13,
+   "gold_evidence": [
+    "p214.s1",
+    "p214.s2"
+   ],
+   "found_bert": [
+    "p214.s1",
+    "p214.s2"
+   ],
+   "found_kw": [
+    "p214.s1",
+    "p214.s2"
+   ],
+   "found_boost": [
+    "p214.s1",
+    "p214.s2"
+   ],
+   "found_union": [
+    "p214.s1",
+    "p214.s2"
+   ],
+   "max_prob": 0.963
+  },
+  {
+   "policy_id": "P04",
+   "flag": "AI2",
+   "fit": "medium",
+   "category": "User Choice/Control",
+   "gold_presence": "Absent",
+   "gold_state": "NS",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Absent",
+   "n_policy_sentences": 385,
+   "n_bert": 57,
+   "n_kw": 18,
+   "n_boost_added": 4,
+   "n_union_added": 40,
+   "gold_evidence": [],
+   "found_bert": [],
+   "found_kw": [],
+   "found_boost": [],
+   "found_union": [],
+   "max_prob": 0.969
+  },
+  {
+   "policy_id": "P04",
+   "flag": "DPDP2",
+   "fit": "medium",
+   "category": "User Choice/Control",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 385,
+   "n_bert": 57,
+   "n_kw": 17,
+   "n_boost_added": 4,
+   "n_union_added": 41,
+   "gold_evidence": [
+    "p197.s2",
+    "p191.s3"
+   ],
+   "found_bert": [
+    "p197.s2",
+    "p191.s3"
+   ],
+   "found_kw": [
+    "p197.s2",
+    "p191.s3"
+   ],
+   "found_boost": [
+    "p197.s2",
+    "p191.s3"
+   ],
+   "found_union": [
+    "p197.s2",
+    "p191.s3"
+   ],
+   "max_prob": 0.969
+  },
+  {
+   "policy_id": "P04",
+   "flag": "AI5",
+   "fit": "medium",
+   "category": "Third Party Sharing/Collection",
+   "gold_presence": "Absent",
+   "gold_state": "NS",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 385,
+   "n_bert": 80,
+   "n_kw": 6,
+   "n_boost_added": 1,
+   "n_union_added": 75,
+   "gold_evidence": [],
+   "found_bert": [],
+   "found_kw": [],
+   "found_boost": [],
+   "found_union": [],
+   "max_prob": 0.992
+  },
+  {
+   "policy_id": "P04",
+   "flag": "DPDP1",
+   "fit": "weak",
+   "category": "User Choice/Control",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 385,
+   "n_bert": 57,
+   "n_kw": 38,
+   "n_boost_added": 9,
+   "n_union_added": 55,
+   "gold_evidence": [
+    "p110.s4",
+    "p086.s1"
+   ],
+   "found_bert": [],
+   "found_kw": [
+    "p110.s4"
+   ],
+   "found_boost": [
+    "p110.s4"
+   ],
+   "found_union": [
+    "p110.s4"
+   ],
+   "max_prob": 0.969
+  },
+  {
+   "policy_id": "P04",
+   "flag": "DPDP3",
+   "fit": "weak",
+   "category": "Other",
+   "gold_presence": "Present",
+   "gold_state": "ED",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 385,
+   "n_bert": 208,
+   "n_kw": 5,
+   "n_boost_added": 1,
+   "n_union_added": 203,
+   "gold_evidence": [
+    "p237.s2",
+    "p234.s1"
+   ],
+   "found_bert": [
+    "p237.s2",
+    "p234.s1"
+   ],
+   "found_kw": [
+    "p237.s2",
+    "p234.s1"
+   ],
+   "found_boost": [
+    "p237.s2",
+    "p234.s1"
+   ],
+   "found_union": [
+    "p237.s2",
+    "p234.s1"
+   ],
+   "max_prob": 0.962
+  },
+  {
+   "policy_id": "P05",
+   "flag": "G1",
+   "fit": "strong",
+   "category": "First Party Collection/Use",
+   "gold_presence": "Present",
+   "gold_state": "ED",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 188,
+   "n_bert": 84,
+   "n_kw": 34,
+   "n_boost_added": 8,
+   "n_union_added": 57,
+   "gold_evidence": [
+    "p011.s1",
+    "p024.s1",
+    "p036.s1"
+   ],
+   "found_bert": [
+    "p011.s1",
+    "p024.s1",
+    "p036.s1"
+   ],
+   "found_kw": [
+    "p011.s1"
+   ],
+   "found_boost": [
+    "p011.s1",
+    "p024.s1"
+   ],
+   "found_union": [
+    "p011.s1",
+    "p024.s1",
+    "p036.s1"
+   ],
+   "max_prob": 0.991
+  },
+  {
+   "policy_id": "P05",
+   "flag": "G2",
+   "fit": "strong",
+   "category": "Third Party Sharing/Collection",
+   "gold_presence": "Present",
+   "gold_state": "ED",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 188,
+   "n_bert": 34,
+   "n_kw": 4,
+   "n_boost_added": 1,
+   "n_union_added": 31,
+   "gold_evidence": [
+    "p052.s2",
+    "p054.s1"
+   ],
+   "found_bert": [
+    "p054.s1"
+   ],
+   "found_kw": [
+    "p054.s1"
+   ],
+   "found_boost": [
+    "p054.s1"
+   ],
+   "found_union": [
+    "p054.s1"
+   ],
+   "max_prob": 0.974
+  },
+  {
+   "policy_id": "P05",
+   "flag": "G3",
+   "fit": "weak",
+   "category": "First Party Collection/Use",
+   "gold_presence": "Present",
+   "gold_state": "ED",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Absent",
+   "n_policy_sentences": 188,
+   "n_bert": 84,
+   "n_kw": 4,
+   "n_boost_added": 1,
+   "n_union_added": 81,
+   "gold_evidence": [
+    "p054.s1"
+   ],
+   "found_bert": [
+    "p054.s1"
+   ],
+   "found_kw": [],
+   "found_boost": [],
+   "found_union": [
+    "p054.s1"
+   ],
+   "max_prob": 0.991
+  },
+  {
+   "policy_id": "P05",
+   "flag": "G4",
+   "fit": "strong",
+   "category": "Data Retention",
+   "gold_presence": "Present",
+   "gold_state": "ED",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 188,
+   "n_bert": 9,
+   "n_kw": 14,
+   "n_boost_added": 0,
+   "n_union_added": 0,
+   "gold_evidence": [
+    "p082.s3",
+    "p082.s2"
+   ],
+   "found_bert": [
+    "p082.s3",
+    "p082.s2"
+   ],
+   "found_kw": [
+    "p082.s3",
+    "p082.s2"
+   ],
+   "found_boost": [
+    "p082.s3",
+    "p082.s2"
+   ],
+   "found_union": [
+    "p082.s3",
+    "p082.s2"
+   ],
+   "max_prob": 0.964
+  },
+  {
+   "policy_id": "P05",
+   "flag": "G5",
+   "fit": "strong",
+   "category": "User Access, Edit and Deletion",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 188,
+   "n_bert": 13,
+   "n_kw": 24,
+   "n_boost_added": 5,
+   "n_union_added": 5,
+   "gold_evidence": [
+    "p090.s1",
+    "p091.s1",
+    "p082.s3"
+   ],
+   "found_bert": [
+    "p091.s1",
+    "p082.s3"
+   ],
+   "found_kw": [
+    "p091.s1",
+    "p082.s3"
+   ],
+   "found_boost": [
+    "p091.s1",
+    "p082.s3"
+   ],
+   "found_union": [
+    "p091.s1",
+    "p082.s3"
+   ],
+   "max_prob": 0.982
+  },
+  {
+   "policy_id": "P05",
+   "flag": "G6",
+   "fit": "medium",
+   "category": "International and Specific Audiences",
+   "gold_presence": "Absent",
+   "gold_state": "NS",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Absent",
+   "n_policy_sentences": 188,
+   "n_bert": 16,
+   "n_kw": 23,
+   "n_boost_added": 5,
+   "n_union_added": 16,
+   "gold_evidence": [],
+   "found_bert": [],
+   "found_kw": [],
+   "found_boost": [],
+   "found_union": [],
+   "max_prob": 0.973
+  },
+  {
+   "policy_id": "P05",
+   "flag": "G7",
+   "fit": "medium",
+   "category": "International and Specific Audiences",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 188,
+   "n_bert": 16,
+   "n_kw": 12,
+   "n_boost_added": 3,
+   "n_union_added": 6,
+   "gold_evidence": [
+    "p088.s1",
+    "p088.s3"
+   ],
+   "found_bert": [
+    "p088.s1",
+    "p088.s3"
+   ],
+   "found_kw": [
+    "p088.s1",
+    "p088.s3"
+   ],
+   "found_boost": [
+    "p088.s1",
+    "p088.s3"
+   ],
+   "found_union": [
+    "p088.s1",
+    "p088.s3"
+   ],
+   "max_prob": 0.973
+  },
+  {
+   "policy_id": "P05",
+   "flag": "AI2",
+   "fit": "medium",
+   "category": "User Choice/Control",
+   "gold_presence": "Absent",
+   "gold_state": "NS",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Absent",
+   "n_policy_sentences": 188,
+   "n_bert": 15,
+   "n_kw": 2,
+   "n_boost_added": 0,
+   "n_union_added": 15,
+   "gold_evidence": [],
+   "found_bert": [],
+   "found_kw": [],
+   "found_boost": [],
+   "found_union": [],
+   "max_prob": 0.97
+  },
+  {
+   "policy_id": "P05",
+   "flag": "DPDP2",
+   "fit": "medium",
+   "category": "User Choice/Control",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 188,
+   "n_bert": 15,
+   "n_kw": 3,
+   "n_boost_added": 0,
+   "n_union_added": 13,
+   "gold_evidence": [
+    "p092.s1"
+   ],
+   "found_bert": [
+    "p092.s1"
+   ],
+   "found_kw": [
+    "p092.s1"
+   ],
+   "found_boost": [
+    "p092.s1"
+   ],
+   "found_union": [
+    "p092.s1"
+   ],
+   "max_prob": 0.97
+  },
+  {
+   "policy_id": "P05",
+   "flag": "AI5",
+   "fit": "medium",
+   "category": "Third Party Sharing/Collection",
+   "gold_presence": "Absent",
+   "gold_state": "NS",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Absent",
+   "n_policy_sentences": 188,
+   "n_bert": 34,
+   "n_kw": 9,
+   "n_boost_added": 2,
+   "n_union_added": 31,
+   "gold_evidence": [],
+   "found_bert": [],
+   "found_kw": [],
+   "found_boost": [],
+   "found_union": [],
+   "max_prob": 0.974
+  },
+  {
+   "policy_id": "P05",
+   "flag": "DPDP1",
+   "fit": "weak",
+   "category": "User Choice/Control",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 188,
+   "n_bert": 15,
+   "n_kw": 7,
+   "n_boost_added": 1,
+   "n_union_added": 12,
+   "gold_evidence": [
+    "p092.s1",
+    "p040.s3",
+    "p077.s1"
+   ],
+   "found_bert": [
+    "p092.s1",
+    "p040.s3"
+   ],
+   "found_kw": [
+    "p092.s1",
+    "p040.s3"
+   ],
+   "found_boost": [
+    "p092.s1",
+    "p040.s3"
+   ],
+   "found_union": [
+    "p092.s1",
+    "p040.s3"
+   ],
+   "max_prob": 0.97
+  },
+  {
+   "policy_id": "P05",
+   "flag": "DPDP3",
+   "fit": "weak",
+   "category": "Other",
+   "gold_presence": "Present",
+   "gold_state": "ED",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 188,
+   "n_bert": 80,
+   "n_kw": 4,
+   "n_boost_added": 1,
+   "n_union_added": 76,
+   "gold_evidence": [
+    "p115.s1"
+   ],
+   "found_bert": [
+    "p115.s1"
+   ],
+   "found_kw": [
+    "p115.s1"
+   ],
+   "found_boost": [
+    "p115.s1"
+   ],
+   "found_union": [
+    "p115.s1"
+   ],
+   "max_prob": 0.965
+  },
+  {
+   "policy_id": "P06",
+   "flag": "G1",
+   "fit": "strong",
+   "category": "First Party Collection/Use",
+   "gold_presence": "Present",
+   "gold_state": "ED",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 294,
+   "n_bert": 113,
+   "n_kw": 36,
+   "n_boost_added": 9,
+   "n_union_added": 83,
+   "gold_evidence": [
+    "p019.s1",
+    "p023.s1",
+    "p024.s1"
+   ],
+   "found_bert": [
+    "p019.s1",
+    "p023.s1",
+    "p024.s1"
+   ],
+   "found_kw": [],
+   "found_boost": [
+    "p024.s1"
+   ],
+   "found_union": [
+    "p019.s1",
+    "p023.s1",
+    "p024.s1"
+   ],
+   "max_prob": 0.987
+  },
+  {
+   "policy_id": "P06",
+   "flag": "G2",
+   "fit": "strong",
+   "category": "Third Party Sharing/Collection",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 294,
+   "n_bert": 119,
+   "n_kw": 32,
+   "n_boost_added": 8,
+   "n_union_added": 94,
+   "gold_evidence": [
+    "p049.s1",
+    "p158.s1",
+    "p049.s3",
+    "p165.s6"
+   ],
+   "found_bert": [
+    "p049.s1",
+    "p158.s1",
+    "p049.s3",
+    "p165.s6"
+   ],
+   "found_kw": [
+    "p049.s1",
+    "p158.s1",
+    "p049.s3",
+    "p165.s6"
+   ],
+   "found_boost": [
+    "p049.s1",
+    "p158.s1",
+    "p049.s3",
+    "p165.s6"
+   ],
+   "found_union": [
+    "p049.s1",
+    "p158.s1",
+    "p049.s3",
+    "p165.s6"
+   ],
+   "max_prob": 0.989
+  },
+  {
+   "policy_id": "P06",
+   "flag": "G3",
+   "fit": "weak",
+   "category": "First Party Collection/Use",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 294,
+   "n_bert": 113,
+   "n_kw": 22,
+   "n_boost_added": 5,
+   "n_union_added": 94,
+   "gold_evidence": [
+    "p040.s1",
+    "p168.s5"
+   ],
+   "found_bert": [
+    "p040.s1",
+    "p168.s5"
+   ],
+   "found_kw": [
+    "p168.s5"
+   ],
+   "found_boost": [
+    "p168.s5"
+   ],
+   "found_union": [
+    "p040.s1",
+    "p168.s5"
+   ],
+   "max_prob": 0.987
+  },
+  {
+   "policy_id": "P06",
+   "flag": "G4",
+   "fit": "strong",
+   "category": "Data Retention",
+   "gold_presence": "Present",
+   "gold_state": "ED",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 294,
+   "n_bert": 8,
+   "n_kw": 24,
+   "n_boost_added": 1,
+   "n_union_added": 1,
+   "gold_evidence": [
+    "p036.s2",
+    "p121.s1"
+   ],
+   "found_bert": [
+    "p036.s2",
+    "p121.s1"
+   ],
+   "found_kw": [
+    "p036.s2",
+    "p121.s1"
+   ],
+   "found_boost": [
+    "p036.s2",
+    "p121.s1"
+   ],
+   "found_union": [
+    "p036.s2",
+    "p121.s1"
+   ],
+   "max_prob": 0.922
+  },
+  {
+   "policy_id": "P06",
+   "flag": "G5",
+   "fit": "strong",
+   "category": "User Access, Edit and Deletion",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 294,
+   "n_bert": 19,
+   "n_kw": 32,
+   "n_boost_added": 8,
+   "n_union_added": 9,
+   "gold_evidence": [
+    "p129.s1",
+    "p130.s1",
+    "p131.s1",
+    "p133.s1",
+    "p171.s3"
+   ],
+   "found_bert": [
+    "p171.s3"
+   ],
+   "found_kw": [
+    "p129.s1",
+    "p130.s1",
+    "p131.s1",
+    "p133.s1",
+    "p171.s3"
+   ],
+   "found_boost": [
+    "p129.s1",
+    "p130.s1",
+    "p131.s1",
+    "p133.s1",
+    "p171.s3"
+   ],
+   "found_union": [
+    "p129.s1",
+    "p130.s1",
+    "p131.s1",
+    "p133.s1",
+    "p171.s3"
+   ],
+   "max_prob": 0.987
+  },
+  {
+   "policy_id": "P06",
+   "flag": "G6",
+   "fit": "medium",
+   "category": "International and Specific Audiences",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 294,
+   "n_bert": 60,
+   "n_kw": 18,
+   "n_boost_added": 4,
+   "n_union_added": 48,
+   "gold_evidence": [
+    "p145.s1",
+    "p146.s1",
+    "p147.s2",
+    "p151.s2"
+   ],
+   "found_bert": [
+    "p145.s1",
+    "p146.s1",
+    "p147.s2",
+    "p151.s2"
+   ],
+   "found_kw": [
+    "p145.s1",
+    "p146.s1",
+    "p147.s2",
+    "p151.s2"
+   ],
+   "found_boost": [
+    "p145.s1",
+    "p146.s1",
+    "p147.s2",
+    "p151.s2"
+   ],
+   "found_union": [
+    "p145.s1",
+    "p146.s1",
+    "p147.s2",
+    "p151.s2"
+   ],
+   "max_prob": 0.98
+  },
+  {
+   "policy_id": "P06",
+   "flag": "G7",
+   "fit": "medium",
+   "category": "International and Specific Audiences",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 294,
+   "n_bert": 60,
+   "n_kw": 12,
+   "n_boost_added": 3,
+   "n_union_added": 54,
+   "gold_evidence": [
+    "p093.s1",
+    "p094.s1"
+   ],
+   "found_bert": [
+    "p093.s1",
+    "p094.s1"
+   ],
+   "found_kw": [
+    "p093.s1",
+    "p094.s1"
+   ],
+   "found_boost": [
+    "p093.s1",
+    "p094.s1"
+   ],
+   "found_union": [
+    "p093.s1",
+    "p094.s1"
+   ],
+   "max_prob": 0.98
+  },
+  {
+   "policy_id": "P06",
+   "flag": "AI2",
+   "fit": "medium",
+   "category": "User Choice/Control",
+   "gold_presence": "Absent",
+   "gold_state": "NS",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Absent",
+   "n_policy_sentences": 294,
+   "n_bert": 60,
+   "n_kw": 23,
+   "n_boost_added": 5,
+   "n_union_added": 41,
+   "gold_evidence": [],
+   "found_bert": [],
+   "found_kw": [],
+   "found_boost": [],
+   "found_union": [],
+   "max_prob": 0.97
+  },
+  {
+   "policy_id": "P06",
+   "flag": "DPDP2",
+   "fit": "medium",
+   "category": "User Choice/Control",
+   "gold_presence": "Present",
+   "gold_state": "ED",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 294,
+   "n_bert": 60,
+   "n_kw": 28,
+   "n_boost_added": 7,
+   "n_union_added": 42,
+   "gold_evidence": [
+    "p140.s2",
+    "p165.s6",
+    "p084.s1"
+   ],
+   "found_bert": [
+    "p140.s2",
+    "p165.s6",
+    "p084.s1"
+   ],
+   "found_kw": [
+    "p140.s2",
+    "p165.s6",
+    "p084.s1"
+   ],
+   "found_boost": [
+    "p140.s2",
+    "p165.s6",
+    "p084.s1"
+   ],
+   "found_union": [
+    "p140.s2",
+    "p165.s6",
+    "p084.s1"
+   ],
+   "max_prob": 0.97
+  },
+  {
+   "policy_id": "P06",
+   "flag": "AI5",
+   "fit": "medium",
+   "category": "Third Party Sharing/Collection",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 294,
+   "n_bert": 119,
+   "n_kw": 22,
+   "n_boost_added": 5,
+   "n_union_added": 110,
+   "gold_evidence": [
+    "p037.s2",
+    "p032.s2"
+   ],
+   "found_bert": [],
+   "found_kw": [
+    "p037.s2",
+    "p032.s2"
+   ],
+   "found_boost": [
+    "p037.s2",
+    "p032.s2"
+   ],
+   "found_union": [
+    "p037.s2",
+    "p032.s2"
+   ],
+   "max_prob": 0.989
+  },
+  {
+   "policy_id": "P06",
+   "flag": "DPDP1",
+   "fit": "weak",
+   "category": "User Choice/Control",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 294,
+   "n_bert": 60,
+   "n_kw": 30,
+   "n_boost_added": 7,
+   "n_union_added": 50,
+   "gold_evidence": [
+    "p045.s1",
+    "p036.s1",
+    "p146.s1"
+   ],
+   "found_bert": [
+    "p036.s1"
+   ],
+   "found_kw": [
+    "p045.s1",
+    "p036.s1",
+    "p146.s1"
+   ],
+   "found_boost": [
+    "p045.s1",
+    "p036.s1",
+    "p146.s1"
+   ],
+   "found_union": [
+    "p045.s1",
+    "p036.s1",
+    "p146.s1"
+   ],
+   "max_prob": 0.97
+  },
+  {
+   "policy_id": "P06",
+   "flag": "DPDP3",
+   "fit": "weak",
+   "category": "Other",
+   "gold_presence": "Present",
+   "gold_state": "ED",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 294,
+   "n_bert": 126,
+   "n_kw": 19,
+   "n_boost_added": 4,
+   "n_union_added": 109,
+   "gold_evidence": [
+    "p119.s1",
+    "p099.s1"
+   ],
+   "found_bert": [
+    "p119.s1",
+    "p099.s1"
+   ],
+   "found_kw": [
+    "p119.s1",
+    "p099.s1"
+   ],
+   "found_boost": [
+    "p119.s1",
+    "p099.s1"
+   ],
+   "found_union": [
+    "p119.s1",
+    "p099.s1"
+   ],
+   "max_prob": 0.958
+  },
+  {
+   "policy_id": "P07",
+   "flag": "G1",
+   "fit": "strong",
+   "category": "First Party Collection/Use",
+   "gold_presence": "Present",
+   "gold_state": "ED",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 756,
+   "n_bert": 208,
+   "n_kw": 39,
+   "n_boost_added": 9,
+   "n_union_added": 190,
+   "gold_evidence": [
+    "p126.s1",
+    "p175.s1",
+    "p171.s1",
+    "p272.s1"
+   ],
+   "found_bert": [
+    "p175.s1",
+    "p171.s1",
+    "p272.s1"
+   ],
+   "found_kw": [
+    "p126.s1",
+    "p272.s1"
+   ],
+   "found_boost": [
+    "p126.s1",
+    "p272.s1"
+   ],
+   "found_union": [
+    "p126.s1",
+    "p175.s1",
+    "p171.s1",
+    "p272.s1"
+   ],
+   "max_prob": 0.986
+  },
+  {
+   "policy_id": "P07",
+   "flag": "G2",
+   "fit": "strong",
+   "category": "Third Party Sharing/Collection",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 756,
+   "n_bert": 109,
+   "n_kw": 29,
+   "n_boost_added": 7,
+   "n_union_added": 101,
+   "gold_evidence": [
+    "p119.s2",
+    "p120.s1",
+    "p272.s1",
+    "p122.s1"
+   ],
+   "found_bert": [
+    "p120.s1",
+    "p272.s1"
+   ],
+   "found_kw": [
+    "p119.s2",
+    "p120.s1",
+    "p272.s1",
+    "p122.s1"
+   ],
+   "found_boost": [
+    "p119.s2",
+    "p120.s1",
+    "p272.s1",
+    "p122.s1"
+   ],
+   "found_union": [
+    "p119.s2",
+    "p120.s1",
+    "p272.s1",
+    "p122.s1"
+   ],
+   "max_prob": 0.986
+  },
+  {
+   "policy_id": "P07",
+   "flag": "G3",
+   "fit": "weak",
+   "category": "First Party Collection/Use",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 756,
+   "n_bert": 208,
+   "n_kw": 29,
+   "n_boost_added": 7,
+   "n_union_added": 192,
+   "gold_evidence": [
+    "p175.s1",
+    "p341.s1",
+    "p122.s1",
+    "p106.s1"
+   ],
+   "found_bert": [
+    "p175.s1",
+    "p341.s1"
+   ],
+   "found_kw": [
+    "p175.s1",
+    "p106.s1"
+   ],
+   "found_boost": [
+    "p175.s1",
+    "p106.s1"
+   ],
+   "found_union": [
+    "p175.s1",
+    "p341.s1",
+    "p106.s1"
+   ],
+   "max_prob": 0.986
+  },
+  {
+   "policy_id": "P07",
+   "flag": "G4",
+   "fit": "strong",
+   "category": "Data Retention",
+   "gold_presence": "Present",
+   "gold_state": "ED",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 756,
+   "n_bert": 25,
+   "n_kw": 27,
+   "n_boost_added": 6,
+   "n_union_added": 8,
+   "gold_evidence": [
+    "p584.s2",
+    "p586.s1",
+    "p574.s1"
+   ],
+   "found_bert": [
+    "p584.s2",
+    "p586.s1",
+    "p574.s1"
+   ],
+   "found_kw": [
+    "p584.s2",
+    "p586.s1",
+    "p574.s1"
+   ],
+   "found_boost": [
+    "p584.s2",
+    "p586.s1",
+    "p574.s1"
+   ],
+   "found_union": [
+    "p584.s2",
+    "p586.s1",
+    "p574.s1"
+   ],
+   "max_prob": 0.952
+  },
+  {
+   "policy_id": "P07",
+   "flag": "G5",
+   "fit": "strong",
+   "category": "User Access, Edit and Deletion",
+   "gold_presence": "Present",
+   "gold_state": "ED",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 756,
+   "n_bert": 20,
+   "n_kw": 35,
+   "n_boost_added": 8,
+   "n_union_added": 11,
+   "gold_evidence": [
+    "p043.s1",
+    "p102.s1",
+    "p581.s1",
+    "p066.s1"
+   ],
+   "found_bert": [
+    "p581.s1",
+    "p066.s1"
+   ],
+   "found_kw": [
+    "p043.s1",
+    "p102.s1",
+    "p581.s1",
+    "p066.s1"
+   ],
+   "found_boost": [
+    "p043.s1",
+    "p102.s1",
+    "p581.s1",
+    "p066.s1"
+   ],
+   "found_union": [
+    "p043.s1",
+    "p102.s1",
+    "p581.s1",
+    "p066.s1"
+   ],
+   "max_prob": 0.986
+  },
+  {
+   "policy_id": "P07",
+   "flag": "G6",
+   "fit": "medium",
+   "category": "International and Specific Audiences",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 756,
+   "n_bert": 21,
+   "n_kw": 16,
+   "n_boost_added": 4,
+   "n_union_added": 14,
+   "gold_evidence": [
+    "p594.s1",
+    "p595.s1"
+   ],
+   "found_bert": [
+    "p594.s1",
+    "p595.s1"
+   ],
+   "found_kw": [
+    "p594.s1",
+    "p595.s1"
+   ],
+   "found_boost": [
+    "p594.s1",
+    "p595.s1"
+   ],
+   "found_union": [
+    "p594.s1",
+    "p595.s1"
+   ],
+   "max_prob": 0.975
+  },
+  {
+   "policy_id": "P07",
+   "flag": "G7",
+   "fit": "medium",
+   "category": "International and Specific Audiences",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 756,
+   "n_bert": 21,
+   "n_kw": 20,
+   "n_boost_added": 5,
+   "n_union_added": 10,
+   "gold_evidence": [
+    "p614.s1",
+    "p615.s3",
+    "p616.s1"
+   ],
+   "found_bert": [
+    "p614.s1",
+    "p615.s3",
+    "p616.s1"
+   ],
+   "found_kw": [
+    "p614.s1",
+    "p615.s3",
+    "p616.s1"
+   ],
+   "found_boost": [
+    "p614.s1",
+    "p615.s3",
+    "p616.s1"
+   ],
+   "found_union": [
+    "p614.s1",
+    "p615.s3",
+    "p616.s1"
+   ],
+   "max_prob": 0.975
+  },
+  {
+   "policy_id": "P07",
+   "flag": "AI2",
+   "fit": "medium",
+   "category": "User Choice/Control",
+   "gold_presence": "Absent",
+   "gold_state": "NS",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Absent",
+   "n_policy_sentences": 756,
+   "n_bert": 55,
+   "n_kw": 7,
+   "n_boost_added": 1,
+   "n_union_added": 50,
+   "gold_evidence": [],
+   "found_bert": [],
+   "found_kw": [],
+   "found_boost": [],
+   "found_union": [],
+   "max_prob": 0.975
+  },
+  {
+   "policy_id": "P07",
+   "flag": "DPDP2",
+   "fit": "medium",
+   "category": "User Choice/Control",
+   "gold_presence": "Present",
+   "gold_state": "ED",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 756,
+   "n_bert": 55,
+   "n_kw": 13,
+   "n_boost_added": 3,
+   "n_union_added": 49,
+   "gold_evidence": [
+    "p109.s1",
+    "p111.s1",
+    "p112.s1",
+    "p495.s2"
+   ],
+   "found_bert": [
+    "p109.s1",
+    "p111.s1",
+    "p495.s2"
+   ],
+   "found_kw": [
+    "p109.s1",
+    "p111.s1",
+    "p112.s1",
+    "p495.s2"
+   ],
+   "found_boost": [
+    "p109.s1",
+    "p111.s1",
+    "p112.s1",
+    "p495.s2"
+   ],
+   "found_union": [
+    "p109.s1",
+    "p111.s1",
+    "p112.s1",
+    "p495.s2"
+   ],
+   "max_prob": 0.975
+  },
+  {
+   "policy_id": "P07",
+   "flag": "AI5",
+   "fit": "medium",
+   "category": "Third Party Sharing/Collection",
+   "gold_presence": "Absent",
+   "gold_state": "NS",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Absent",
+   "n_policy_sentences": 756,
+   "n_bert": 109,
+   "n_kw": 6,
+   "n_boost_added": 1,
+   "n_union_added": 106,
+   "gold_evidence": [],
+   "found_bert": [],
+   "found_kw": [],
+   "found_boost": [],
+   "found_union": [],
+   "max_prob": 0.986
+  },
+  {
+   "policy_id": "P07",
+   "flag": "DPDP1",
+   "fit": "weak",
+   "category": "User Choice/Control",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 756,
+   "n_bert": 55,
+   "n_kw": 34,
+   "n_boost_added": 8,
+   "n_union_added": 47,
+   "gold_evidence": [
+    "p044.s1",
+    "p044.s2"
+   ],
+   "found_bert": [],
+   "found_kw": [
+    "p044.s1",
+    "p044.s2"
+   ],
+   "found_boost": [
+    "p044.s1",
+    "p044.s2"
+   ],
+   "found_union": [
+    "p044.s1",
+    "p044.s2"
+   ],
+   "max_prob": 0.975
+  },
+  {
+   "policy_id": "P07",
+   "flag": "DPDP3",
+   "fit": "weak",
+   "category": "Other",
+   "gold_presence": "Present",
+   "gold_state": "ED",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 756,
+   "n_bert": 512,
+   "n_kw": 6,
+   "n_boost_added": 1,
+   "n_union_added": 506,
+   "gold_evidence": [
+    "p624.s1",
+    "p625.s1",
+    "p626.s1"
+   ],
+   "found_bert": [
+    "p624.s1",
+    "p625.s1",
+    "p626.s1"
+   ],
+   "found_kw": [
+    "p624.s1",
+    "p625.s1",
+    "p626.s1"
+   ],
+   "found_boost": [
+    "p624.s1",
+    "p625.s1",
+    "p626.s1"
+   ],
+   "found_union": [
+    "p624.s1",
+    "p625.s1",
+    "p626.s1"
+   ],
+   "max_prob": 0.966
+  },
+  {
+   "policy_id": "P08",
+   "flag": "G1",
+   "fit": "strong",
+   "category": "First Party Collection/Use",
+   "gold_presence": "Present",
+   "gold_state": "ED",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 698,
+   "n_bert": 216,
+   "n_kw": 40,
+   "n_boost_added": 10,
+   "n_union_added": 192,
+   "gold_evidence": [
+    "p103.s1",
+    "p106.s1",
+    "p111.s1",
+    "p121.s2"
+   ],
+   "found_bert": [
+    "p103.s1",
+    "p111.s1",
+    "p121.s2"
+   ],
+   "found_kw": [
+    "p103.s1"
+   ],
+   "found_boost": [
+    "p103.s1"
+   ],
+   "found_union": [
+    "p103.s1",
+    "p111.s1",
+    "p121.s2"
+   ],
+   "max_prob": 0.992
+  },
+  {
+   "policy_id": "P08",
+   "flag": "G2",
+   "fit": "strong",
+   "category": "Third Party Sharing/Collection",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 698,
+   "n_bert": 95,
+   "n_kw": 37,
+   "n_boost_added": 9,
+   "n_union_added": 81,
+   "gold_evidence": [
+    "p154.s1",
+    "p167.s4",
+    "p186.s1",
+    "p489.s3"
+   ],
+   "found_bert": [
+    "p154.s1",
+    "p167.s4"
+   ],
+   "found_kw": [
+    "p154.s1",
+    "p167.s4",
+    "p186.s1",
+    "p489.s3"
+   ],
+   "found_boost": [
+    "p154.s1",
+    "p167.s4",
+    "p186.s1",
+    "p489.s3"
+   ],
+   "found_union": [
+    "p154.s1",
+    "p167.s4",
+    "p186.s1",
+    "p489.s3"
+   ],
+   "max_prob": 0.991
+  },
+  {
+   "policy_id": "P08",
+   "flag": "G3",
+   "fit": "weak",
+   "category": "First Party Collection/Use",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 698,
+   "n_bert": 216,
+   "n_kw": 31,
+   "n_boost_added": 7,
+   "n_union_added": 202,
+   "gold_evidence": [
+    "p125.s2",
+    "p137.s4",
+    "p489.s7"
+   ],
+   "found_bert": [
+    "p125.s2",
+    "p137.s4"
+   ],
+   "found_kw": [
+    "p489.s7"
+   ],
+   "found_boost": [
+    "p489.s7"
+   ],
+   "found_union": [
+    "p125.s2",
+    "p137.s4",
+    "p489.s7"
+   ],
+   "max_prob": 0.992
+  },
+  {
+   "policy_id": "P08",
+   "flag": "G4",
+   "fit": "strong",
+   "category": "Data Retention",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 698,
+   "n_bert": 17,
+   "n_kw": 13,
+   "n_boost_added": 3,
+   "n_union_added": 10,
+   "gold_evidence": [
+    "p121.s3",
+    "p176.s1",
+    "p182.s5"
+   ],
+   "found_bert": [
+    "p121.s3",
+    "p176.s1",
+    "p182.s5"
+   ],
+   "found_kw": [
+    "p121.s3",
+    "p176.s1",
+    "p182.s5"
+   ],
+   "found_boost": [
+    "p121.s3",
+    "p176.s1",
+    "p182.s5"
+   ],
+   "found_union": [
+    "p121.s3",
+    "p176.s1",
+    "p182.s5"
+   ],
+   "max_prob": 0.971
+  },
+  {
+   "policy_id": "P08",
+   "flag": "G5",
+   "fit": "strong",
+   "category": "User Access, Edit and Deletion",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 698,
+   "n_bert": 41,
+   "n_kw": 38,
+   "n_boost_added": 9,
+   "n_union_added": 24,
+   "gold_evidence": [
+    "p092.s2",
+    "p178.s2",
+    "p490.s1"
+   ],
+   "found_bert": [
+    "p092.s2",
+    "p490.s1"
+   ],
+   "found_kw": [
+    "p092.s2",
+    "p178.s2",
+    "p490.s1"
+   ],
+   "found_boost": [
+    "p092.s2",
+    "p178.s2",
+    "p490.s1"
+   ],
+   "found_union": [
+    "p092.s2",
+    "p178.s2",
+    "p490.s1"
+   ],
+   "max_prob": 0.971
+  },
+  {
+   "policy_id": "P08",
+   "flag": "G6",
+   "fit": "medium",
+   "category": "International and Specific Audiences",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 698,
+   "n_bert": 49,
+   "n_kw": 20,
+   "n_boost_added": 5,
+   "n_union_added": 37,
+   "gold_evidence": [
+    "p203.s2",
+    "p204.s1",
+    "p513.s1"
+   ],
+   "found_bert": [
+    "p203.s2",
+    "p204.s1",
+    "p513.s1"
+   ],
+   "found_kw": [
+    "p203.s2",
+    "p204.s1",
+    "p513.s1"
+   ],
+   "found_boost": [
+    "p203.s2",
+    "p204.s1",
+    "p513.s1"
+   ],
+   "found_union": [
+    "p203.s2",
+    "p204.s1",
+    "p513.s1"
+   ],
+   "max_prob": 0.981
+  },
+  {
+   "policy_id": "P08",
+   "flag": "G7",
+   "fit": "medium",
+   "category": "International and Specific Audiences",
+   "gold_presence": "Absent",
+   "gold_state": "NS",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Absent",
+   "n_policy_sentences": 698,
+   "n_bert": 49,
+   "n_kw": 6,
+   "n_boost_added": 1,
+   "n_union_added": 47,
+   "gold_evidence": [],
+   "found_bert": [],
+   "found_kw": [],
+   "found_boost": [],
+   "found_union": [],
+   "max_prob": 0.981
+  },
+  {
+   "policy_id": "P08",
+   "flag": "AI2",
+   "fit": "medium",
+   "category": "User Choice/Control",
+   "gold_presence": "Absent",
+   "gold_state": "NS",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Absent",
+   "n_policy_sentences": 698,
+   "n_bert": 49,
+   "n_kw": 30,
+   "n_boost_added": 7,
+   "n_union_added": 32,
+   "gold_evidence": [],
+   "found_bert": [],
+   "found_kw": [],
+   "found_boost": [],
+   "found_union": [],
+   "max_prob": 0.971
+  },
+  {
+   "policy_id": "P08",
+   "flag": "DPDP2",
+   "fit": "medium",
+   "category": "User Choice/Control",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 698,
+   "n_bert": 49,
+   "n_kw": 30,
+   "n_boost_added": 7,
+   "n_union_added": 34,
+   "gold_evidence": [
+    "p178.s2",
+    "p489.s3",
+    "p184.s1"
+   ],
+   "found_bert": [
+    "p178.s2"
+   ],
+   "found_kw": [
+    "p178.s2",
+    "p489.s3",
+    "p184.s1"
+   ],
+   "found_boost": [
+    "p178.s2",
+    "p489.s3",
+    "p184.s1"
+   ],
+   "found_union": [
+    "p178.s2",
+    "p489.s3",
+    "p184.s1"
+   ],
+   "max_prob": 0.971
+  },
+  {
+   "policy_id": "P08",
+   "flag": "AI5",
+   "fit": "medium",
+   "category": "Third Party Sharing/Collection",
+   "gold_presence": "Unclear",
+   "gold_state": "UN",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 698,
+   "n_bert": 95,
+   "n_kw": 28,
+   "n_boost_added": 7,
+   "n_union_added": 88,
+   "gold_evidence": [
+    "p100.s2",
+    "p100.s4",
+    "p097.s2"
+   ],
+   "found_bert": [
+    "p100.s2",
+    "p100.s4",
+    "p097.s2"
+   ],
+   "found_kw": [
+    "p100.s4",
+    "p097.s2"
+   ],
+   "found_boost": [
+    "p100.s2",
+    "p100.s4",
+    "p097.s2"
+   ],
+   "found_union": [
+    "p100.s2",
+    "p100.s4",
+    "p097.s2"
+   ],
+   "max_prob": 0.991
+  },
+  {
+   "policy_id": "P08",
+   "flag": "DPDP1",
+   "fit": "weak",
+   "category": "User Choice/Control",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 698,
+   "n_bert": 49,
+   "n_kw": 38,
+   "n_boost_added": 9,
+   "n_union_added": 41,
+   "gold_evidence": [
+    "p165.s2",
+    "p379.s1",
+    "p519.s5"
+   ],
+   "found_bert": [],
+   "found_kw": [
+    "p165.s2",
+    "p379.s1",
+    "p519.s5"
+   ],
+   "found_boost": [
+    "p165.s2",
+    "p379.s1",
+    "p519.s5"
+   ],
+   "found_union": [
+    "p165.s2",
+    "p379.s1",
+    "p519.s5"
+   ],
+   "max_prob": 0.971
+  },
+  {
+   "policy_id": "P08",
+   "flag": "DPDP3",
+   "fit": "weak",
+   "category": "Other",
+   "gold_presence": "Present",
+   "gold_state": "ED",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 698,
+   "n_bert": 494,
+   "n_kw": 22,
+   "n_boost_added": 5,
+   "n_union_added": 474,
+   "gold_evidence": [
+    "p517.s1",
+    "p526.s1"
+   ],
+   "found_bert": [
+    "p517.s1",
+    "p526.s1"
+   ],
+   "found_kw": [
+    "p517.s1",
+    "p526.s1"
+   ],
+   "found_boost": [
+    "p517.s1",
+    "p526.s1"
+   ],
+   "found_union": [
+    "p517.s1",
+    "p526.s1"
+   ],
+   "max_prob": 0.964
+  },
+  {
+   "policy_id": "P09",
+   "flag": "G1",
+   "fit": "strong",
+   "category": "First Party Collection/Use",
+   "gold_presence": "Present",
+   "gold_state": "ED",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 287,
+   "n_bert": 88,
+   "n_kw": 35,
+   "n_boost_added": 8,
+   "n_union_added": 67,
+   "gold_evidence": [
+    "p025.s1",
+    "p027.s1",
+    "p036.s2"
+   ],
+   "found_bert": [
+    "p025.s1",
+    "p027.s1",
+    "p036.s2"
+   ],
+   "found_kw": [
+    "p025.s1",
+    "p027.s1"
+   ],
+   "found_boost": [
+    "p025.s1",
+    "p027.s1"
+   ],
+   "found_union": [
+    "p025.s1",
+    "p027.s1",
+    "p036.s2"
+   ],
+   "max_prob": 0.987
+  },
+  {
+   "policy_id": "P09",
+   "flag": "G2",
+   "fit": "strong",
+   "category": "Third Party Sharing/Collection",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 287,
+   "n_bert": 106,
+   "n_kw": 32,
+   "n_boost_added": 8,
+   "n_union_added": 84,
+   "gold_evidence": [
+    "p088.s2",
+    "p112.s1",
+    "p113.s1",
+    "p154.s1"
+   ],
+   "found_bert": [
+    "p088.s2",
+    "p112.s1",
+    "p113.s1",
+    "p154.s1"
+   ],
+   "found_kw": [
+    "p088.s2",
+    "p112.s1",
+    "p113.s1",
+    "p154.s1"
+   ],
+   "found_boost": [
+    "p088.s2",
+    "p112.s1",
+    "p113.s1",
+    "p154.s1"
+   ],
+   "found_union": [
+    "p088.s2",
+    "p112.s1",
+    "p113.s1",
+    "p154.s1"
+   ],
+   "max_prob": 0.991
+  },
+  {
+   "policy_id": "P09",
+   "flag": "G3",
+   "fit": "weak",
+   "category": "First Party Collection/Use",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 287,
+   "n_bert": 88,
+   "n_kw": 13,
+   "n_boost_added": 3,
+   "n_union_added": 79,
+   "gold_evidence": [
+    "p151.s1",
+    "p039.s2",
+    "p154.s1"
+   ],
+   "found_bert": [
+    "p151.s1"
+   ],
+   "found_kw": [
+    "p151.s1"
+   ],
+   "found_boost": [
+    "p151.s1"
+   ],
+   "found_union": [
+    "p151.s1"
+   ],
+   "max_prob": 0.987
+  },
+  {
+   "policy_id": "P09",
+   "flag": "G4",
+   "fit": "strong",
+   "category": "Data Retention",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 287,
+   "n_bert": 11,
+   "n_kw": 11,
+   "n_boost_added": 2,
+   "n_union_added": 9,
+   "gold_evidence": [
+    "p116.s1"
+   ],
+   "found_bert": [
+    "p116.s1"
+   ],
+   "found_kw": [
+    "p116.s1"
+   ],
+   "found_boost": [
+    "p116.s1"
+   ],
+   "found_union": [
+    "p116.s1"
+   ],
+   "max_prob": 0.898
+  },
+  {
+   "policy_id": "P09",
+   "flag": "G5",
+   "fit": "strong",
+   "category": "User Access, Edit and Deletion",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 287,
+   "n_bert": 21,
+   "n_kw": 36,
+   "n_boost_added": 9,
+   "n_union_added": 13,
+   "gold_evidence": [
+    "p104.s1",
+    "p105.s1",
+    "p106.s1",
+    "p107.s1"
+   ],
+   "found_bert": [
+    "p106.s1",
+    "p107.s1"
+   ],
+   "found_kw": [
+    "p104.s1",
+    "p105.s1",
+    "p106.s1",
+    "p107.s1"
+   ],
+   "found_boost": [
+    "p104.s1",
+    "p105.s1",
+    "p106.s1",
+    "p107.s1"
+   ],
+   "found_union": [
+    "p104.s1",
+    "p105.s1",
+    "p106.s1",
+    "p107.s1"
+   ],
+   "max_prob": 0.931
+  },
+  {
+   "policy_id": "P09",
+   "flag": "G6",
+   "fit": "medium",
+   "category": "International and Specific Audiences",
+   "gold_presence": "Present",
+   "gold_state": "ED",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 287,
+   "n_bert": 19,
+   "n_kw": 16,
+   "n_boost_added": 4,
+   "n_union_added": 17,
+   "gold_evidence": [
+    "p096.s1",
+    "p096.s2"
+   ],
+   "found_bert": [
+    "p096.s1",
+    "p096.s2"
+   ],
+   "found_kw": [
+    "p096.s1",
+    "p096.s2"
+   ],
+   "found_boost": [
+    "p096.s1",
+    "p096.s2"
+   ],
+   "found_union": [
+    "p096.s1",
+    "p096.s2"
+   ],
+   "max_prob": 0.979
+  },
+  {
+   "policy_id": "P09",
+   "flag": "G7",
+   "fit": "medium",
+   "category": "International and Specific Audiences",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 287,
+   "n_bert": 19,
+   "n_kw": 6,
+   "n_boost_added": 1,
+   "n_union_added": 15,
+   "gold_evidence": [
+    "p123.s1",
+    "p123.s2"
+   ],
+   "found_bert": [
+    "p123.s1",
+    "p123.s2"
+   ],
+   "found_kw": [
+    "p123.s1",
+    "p123.s2"
+   ],
+   "found_boost": [
+    "p123.s1",
+    "p123.s2"
+   ],
+   "found_union": [
+    "p123.s1",
+    "p123.s2"
+   ],
+   "max_prob": 0.979
+  },
+  {
+   "policy_id": "P09",
+   "flag": "AI2",
+   "fit": "medium",
+   "category": "User Choice/Control",
+   "gold_presence": "Absent",
+   "gold_state": "NS",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Absent",
+   "n_policy_sentences": 287,
+   "n_bert": 64,
+   "n_kw": 35,
+   "n_boost_added": 8,
+   "n_union_added": 37,
+   "gold_evidence": [],
+   "found_bert": [],
+   "found_kw": [],
+   "found_boost": [],
+   "found_union": [],
+   "max_prob": 0.979
+  },
+  {
+   "policy_id": "P09",
+   "flag": "DPDP2",
+   "fit": "medium",
+   "category": "User Choice/Control",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 287,
+   "n_bert": 64,
+   "n_kw": 32,
+   "n_boost_added": 8,
+   "n_union_added": 38,
+   "gold_evidence": [
+    "p098.s2",
+    "p099.s1"
+   ],
+   "found_bert": [
+    "p098.s2",
+    "p099.s1"
+   ],
+   "found_kw": [
+    "p098.s2",
+    "p099.s1"
+   ],
+   "found_boost": [
+    "p098.s2",
+    "p099.s1"
+   ],
+   "found_union": [
+    "p098.s2",
+    "p099.s1"
+   ],
+   "max_prob": 0.979
+  },
+  {
+   "policy_id": "P09",
+   "flag": "AI5",
+   "fit": "medium",
+   "category": "Third Party Sharing/Collection",
+   "gold_presence": "Absent",
+   "gold_state": "NS",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 287,
+   "n_bert": 106,
+   "n_kw": 6,
+   "n_boost_added": 1,
+   "n_union_added": 103,
+   "gold_evidence": [],
+   "found_bert": [],
+   "found_kw": [],
+   "found_boost": [],
+   "found_union": [],
+   "max_prob": 0.991
+  },
+  {
+   "policy_id": "P09",
+   "flag": "DPDP1",
+   "fit": "weak",
+   "category": "User Choice/Control",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 287,
+   "n_bert": 64,
+   "n_kw": 32,
+   "n_boost_added": 8,
+   "n_union_added": 59,
+   "gold_evidence": [
+    "p071.s1",
+    "p057.s1",
+    "p119.s1"
+   ],
+   "found_bert": [],
+   "found_kw": [
+    "p071.s1",
+    "p057.s1",
+    "p119.s1"
+   ],
+   "found_boost": [
+    "p071.s1",
+    "p057.s1",
+    "p119.s1"
+   ],
+   "found_union": [
+    "p071.s1",
+    "p057.s1",
+    "p119.s1"
+   ],
+   "max_prob": 0.979
+  },
+  {
+   "policy_id": "P09",
+   "flag": "DPDP3",
+   "fit": "weak",
+   "category": "Other",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 287,
+   "n_bert": 141,
+   "n_kw": 11,
+   "n_boost_added": 2,
+   "n_union_added": 132,
+   "gold_evidence": [
+    "p154.s2",
+    "p069.s5"
+   ],
+   "found_bert": [
+    "p154.s2"
+   ],
+   "found_kw": [
+    "p154.s2",
+    "p069.s5"
+   ],
+   "found_boost": [
+    "p154.s2",
+    "p069.s5"
+   ],
+   "found_union": [
+    "p154.s2",
+    "p069.s5"
+   ],
+   "max_prob": 0.96
+  },
+  {
+   "policy_id": "P10",
+   "flag": "G1",
+   "fit": "strong",
+   "category": "First Party Collection/Use",
+   "gold_presence": "Present",
+   "gold_state": "ED",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 292,
+   "n_bert": 108,
+   "n_kw": 30,
+   "n_boost_added": 7,
+   "n_union_added": 86,
+   "gold_evidence": [
+    "p022.s3",
+    "p027.s2",
+    "p033.s1"
+   ],
+   "found_bert": [
+    "p022.s3",
+    "p027.s2",
+    "p033.s1"
+   ],
+   "found_kw": [
+    "p022.s3",
+    "p033.s1"
+   ],
+   "found_boost": [
+    "p022.s3",
+    "p033.s1"
+   ],
+   "found_union": [
+    "p022.s3",
+    "p027.s2",
+    "p033.s1"
+   ],
+   "max_prob": 0.988
+  },
+  {
+   "policy_id": "P10",
+   "flag": "G2",
+   "fit": "strong",
+   "category": "Third Party Sharing/Collection",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 292,
+   "n_bert": 44,
+   "n_kw": 23,
+   "n_boost_added": 5,
+   "n_union_added": 37,
+   "gold_evidence": [
+    "p042.s2",
+    "p063.s1",
+    "p063.s2",
+    "p064.s1"
+   ],
+   "found_bert": [
+    "p063.s1",
+    "p063.s2"
+   ],
+   "found_kw": [
+    "p042.s2",
+    "p063.s1",
+    "p063.s2",
+    "p064.s1"
+   ],
+   "found_boost": [
+    "p042.s2",
+    "p063.s1",
+    "p063.s2",
+    "p064.s1"
+   ],
+   "found_union": [
+    "p042.s2",
+    "p063.s1",
+    "p063.s2",
+    "p064.s1"
+   ],
+   "max_prob": 0.992
+  },
+  {
+   "policy_id": "P10",
+   "flag": "G3",
+   "fit": "weak",
+   "category": "First Party Collection/Use",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 292,
+   "n_bert": 108,
+   "n_kw": 25,
+   "n_boost_added": 6,
+   "n_union_added": 94,
+   "gold_evidence": [
+    "p020.s1",
+    "p048.s2",
+    "p064.s1"
+   ],
+   "found_bert": [
+    "p020.s1",
+    "p048.s2"
+   ],
+   "found_kw": [
+    "p048.s2"
+   ],
+   "found_boost": [
+    "p048.s2"
+   ],
+   "found_union": [
+    "p020.s1",
+    "p048.s2"
+   ],
+   "max_prob": 0.988
+  },
+  {
+   "policy_id": "P10",
+   "flag": "G4",
+   "fit": "strong",
+   "category": "Data Retention",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 292,
+   "n_bert": 9,
+   "n_kw": 14,
+   "n_boost_added": 3,
+   "n_union_added": 3,
+   "gold_evidence": [
+    "p086.s1",
+    "p086.s2",
+    "p086.s3"
+   ],
+   "found_bert": [
+    "p086.s1",
+    "p086.s2",
+    "p086.s3"
+   ],
+   "found_kw": [
+    "p086.s1",
+    "p086.s2",
+    "p086.s3"
+   ],
+   "found_boost": [
+    "p086.s1",
+    "p086.s2",
+    "p086.s3"
+   ],
+   "found_union": [
+    "p086.s1",
+    "p086.s2",
+    "p086.s3"
+   ],
+   "max_prob": 0.962
+  },
+  {
+   "policy_id": "P10",
+   "flag": "G5",
+   "fit": "strong",
+   "category": "User Access, Edit and Deletion",
+   "gold_presence": "Present",
+   "gold_state": "ED",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 292,
+   "n_bert": 15,
+   "n_kw": 27,
+   "n_boost_added": 6,
+   "n_union_added": 6,
+   "gold_evidence": [
+    "p069.s1",
+    "p071.s1",
+    "p077.s1",
+    "p078.s1",
+    "p082.s2"
+   ],
+   "found_bert": [
+    "p071.s1",
+    "p077.s1",
+    "p078.s1",
+    "p082.s2"
+   ],
+   "found_kw": [
+    "p069.s1",
+    "p077.s1",
+    "p078.s1",
+    "p082.s2"
+   ],
+   "found_boost": [
+    "p069.s1",
+    "p071.s1",
+    "p077.s1",
+    "p078.s1",
+    "p082.s2"
+   ],
+   "found_union": [
+    "p069.s1",
+    "p071.s1",
+    "p077.s1",
+    "p078.s1",
+    "p082.s2"
+   ],
+   "max_prob": 0.96
+  },
+  {
+   "policy_id": "P10",
+   "flag": "G6",
+   "fit": "medium",
+   "category": "International and Specific Audiences",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 292,
+   "n_bert": 72,
+   "n_kw": 19,
+   "n_boost_added": 4,
+   "n_union_added": 62,
+   "gold_evidence": [
+    "p144.s1",
+    "p144.s2",
+    "p150.s1"
+   ],
+   "found_bert": [
+    "p144.s1",
+    "p144.s2",
+    "p150.s1"
+   ],
+   "found_kw": [
+    "p144.s1",
+    "p144.s2",
+    "p150.s1"
+   ],
+   "found_boost": [
+    "p144.s1",
+    "p144.s2",
+    "p150.s1"
+   ],
+   "found_union": [
+    "p144.s1",
+    "p144.s2",
+    "p150.s1"
+   ],
+   "max_prob": 0.987
+  },
+  {
+   "policy_id": "P10",
+   "flag": "G7",
+   "fit": "medium",
+   "category": "International and Specific Audiences",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 292,
+   "n_bert": 72,
+   "n_kw": 29,
+   "n_boost_added": 7,
+   "n_union_added": 46,
+   "gold_evidence": [
+    "p088.s3",
+    "p091.s2",
+    "p128.s1"
+   ],
+   "found_bert": [
+    "p088.s3",
+    "p091.s2",
+    "p128.s1"
+   ],
+   "found_kw": [
+    "p088.s3",
+    "p091.s2",
+    "p128.s1"
+   ],
+   "found_boost": [
+    "p088.s3",
+    "p091.s2",
+    "p128.s1"
+   ],
+   "found_union": [
+    "p088.s3",
+    "p091.s2",
+    "p128.s1"
+   ],
+   "max_prob": 0.987
+  },
+  {
+   "policy_id": "P10",
+   "flag": "AI2",
+   "fit": "medium",
+   "category": "User Choice/Control",
+   "gold_presence": "Present",
+   "gold_state": "ED",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 292,
+   "n_bert": 38,
+   "n_kw": 34,
+   "n_boost_added": 8,
+   "n_union_added": 23,
+   "gold_evidence": [
+    "p025.s5"
+   ],
+   "found_bert": [
+    "p025.s5"
+   ],
+   "found_kw": [
+    "p025.s5"
+   ],
+   "found_boost": [
+    "p025.s5"
+   ],
+   "found_union": [
+    "p025.s5"
+   ],
+   "max_prob": 0.975
+  },
+  {
+   "policy_id": "P10",
+   "flag": "DPDP2",
+   "fit": "medium",
+   "category": "User Choice/Control",
+   "gold_presence": "Present",
+   "gold_state": "ED",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 292,
+   "n_bert": 38,
+   "n_kw": 18,
+   "n_boost_added": 4,
+   "n_union_added": 27,
+   "gold_evidence": [
+    "p080.s1",
+    "p082.s1",
+    "p135.s2"
+   ],
+   "found_bert": [
+    "p080.s1",
+    "p135.s2"
+   ],
+   "found_kw": [
+    "p080.s1",
+    "p082.s1",
+    "p135.s2"
+   ],
+   "found_boost": [
+    "p080.s1",
+    "p082.s1",
+    "p135.s2"
+   ],
+   "found_union": [
+    "p080.s1",
+    "p082.s1",
+    "p135.s2"
+   ],
+   "max_prob": 0.975
+  },
+  {
+   "policy_id": "P10",
+   "flag": "AI5",
+   "fit": "medium",
+   "category": "Third Party Sharing/Collection",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 292,
+   "n_bert": 44,
+   "n_kw": 10,
+   "n_boost_added": 2,
+   "n_union_added": 36,
+   "gold_evidence": [
+    "p022.s1",
+    "p022.s2"
+   ],
+   "found_bert": [
+    "p022.s1",
+    "p022.s2"
+   ],
+   "found_kw": [
+    "p022.s1",
+    "p022.s2"
+   ],
+   "found_boost": [
+    "p022.s1",
+    "p022.s2"
+   ],
+   "found_union": [
+    "p022.s1",
+    "p022.s2"
+   ],
+   "max_prob": 0.992
+  },
+  {
+   "policy_id": "P10",
+   "flag": "DPDP1",
+   "fit": "weak",
+   "category": "User Choice/Control",
+   "gold_presence": "Present",
+   "gold_state": "EE",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 292,
+   "n_bert": 38,
+   "n_kw": 16,
+   "n_boost_added": 4,
+   "n_union_added": 35,
+   "gold_evidence": [
+    "p004.s3"
+   ],
+   "found_bert": [],
+   "found_kw": [
+    "p004.s3"
+   ],
+   "found_boost": [
+    "p004.s3"
+   ],
+   "found_union": [
+    "p004.s3"
+   ],
+   "max_prob": 0.975
+  },
+  {
+   "policy_id": "P10",
+   "flag": "DPDP3",
+   "fit": "weak",
+   "category": "Other",
+   "gold_presence": "Present",
+   "gold_state": "ED",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 292,
+   "n_bert": 128,
+   "n_kw": 16,
+   "n_boost_added": 4,
+   "n_union_added": 117,
+   "gold_evidence": [
+    "p166.s1"
+   ],
+   "found_bert": [
+    "p166.s1"
+   ],
+   "found_kw": [
+    "p166.s1"
+   ],
+   "found_boost": [
+    "p166.s1"
+   ],
+   "found_union": [
+    "p166.s1"
+   ],
+   "max_prob": 0.969
+  },
+  {
+   "policy_id": "P11",
+   "flag": "G1",
+   "fit": "strong",
+   "category": "First Party Collection/Use",
+   "gold_presence": "Present",
+   "gold_state": "ED",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 142,
+   "n_bert": 29,
+   "n_kw": 30,
+   "n_boost_added": 7,
+   "n_union_added": 15,
+   "gold_evidence": [
+    "p020.s1",
+    "p025.s1",
+    "p033.s1"
+   ],
+   "found_bert": [
+    "p020.s1",
+    "p025.s1",
+    "p033.s1"
+   ],
+   "found_kw": [
+    "p033.s1"
+   ],
+   "found_boost": [
+    "p020.s1",
+    "p033.s1"
+   ],
+   "found_union": [
+    "p020.s1",
+    "p025.s1",
+    "p033.s1"
+   ],
+   "max_prob": 0.983
+  },
+  {
+   "policy_id": "P11",
+   "flag": "G2",
+   "fit": "strong",
+   "category": "Third Party Sharing/Collection",
+   "gold_presence": "Present",
+   "gold_state": "ED",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 142,
+   "n_bert": 35,
+   "n_kw": 10,
+   "n_boost_added": 2,
+   "n_union_added": 29,
+   "gold_evidence": [
+    "p038.s1",
+    "p038.s2",
+    "p039.s1",
+    "p022.s1"
+   ],
+   "found_bert": [
+    "p038.s1",
+    "p038.s2",
+    "p022.s1"
+   ],
+   "found_kw": [
+    "p038.s1",
+    "p038.s2",
+    "p039.s1",
+    "p022.s1"
+   ],
+   "found_boost": [
+    "p038.s1",
+    "p038.s2",
+    "p039.s1",
+    "p022.s1"
+   ],
+   "found_union": [
+    "p038.s1",
+    "p038.s2",
+    "p039.s1",
+    "p022.s1"
+   ],
+   "max_prob": 0.99
+  },
+  {
+   "policy_id": "P11",
+   "flag": "G3",
+   "fit": "weak",
+   "category": "First Party Collection/Use",
+   "gold_presence": "Present",
+   "gold_state": "ED",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Absent",
+   "n_policy_sentences": 142,
+   "n_bert": 29,
+   "n_kw": 2,
+   "n_boost_added": 0,
+   "n_union_added": 27,
+   "gold_evidence": [
+    "p017.s1"
+   ],
+   "found_bert": [
+    "p017.s1"
+   ],
+   "found_kw": [
+    "p017.s1"
+   ],
+   "found_boost": [
+    "p017.s1"
+   ],
+   "found_union": [
+    "p017.s1"
+   ],
+   "max_prob": 0.983
+  },
+  {
+   "policy_id": "P11",
+   "flag": "G4",
+   "fit": "strong",
+   "category": "Data Retention",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 142,
+   "n_bert": 6,
+   "n_kw": 2,
+   "n_boost_added": 0,
+   "n_union_added": 5,
+   "gold_evidence": [
+    "p018.s2"
+   ],
+   "found_bert": [
+    "p018.s2"
+   ],
+   "found_kw": [
+    "p018.s2"
+   ],
+   "found_boost": [
+    "p018.s2"
+   ],
+   "found_union": [
+    "p018.s2"
+   ],
+   "max_prob": 0.954
+  },
+  {
+   "policy_id": "P11",
+   "flag": "G5",
+   "fit": "strong",
+   "category": "User Access, Edit and Deletion",
+   "gold_presence": "Present",
+   "gold_state": "ED",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 142,
+   "n_bert": 5,
+   "n_kw": 12,
+   "n_boost_added": 1,
+   "n_union_added": 1,
+   "gold_evidence": [
+    "p062.s1",
+    "p023.s1",
+    "p023.s2",
+    "p053.s1"
+   ],
+   "found_bert": [
+    "p062.s1",
+    "p023.s1",
+    "p023.s2",
+    "p053.s1"
+   ],
+   "found_kw": [
+    "p062.s1",
+    "p023.s1",
+    "p023.s2"
+   ],
+   "found_boost": [
+    "p062.s1",
+    "p023.s1",
+    "p023.s2",
+    "p053.s1"
+   ],
+   "found_union": [
+    "p062.s1",
+    "p023.s1",
+    "p023.s2",
+    "p053.s1"
+   ],
+   "max_prob": 0.981
+  },
+  {
+   "policy_id": "P11",
+   "flag": "G6",
+   "fit": "medium",
+   "category": "International and Specific Audiences",
+   "gold_presence": "Unclear",
+   "gold_state": "UN",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 142,
+   "n_bert": 1,
+   "n_kw": 8,
+   "n_boost_added": 0,
+   "n_union_added": 0,
+   "gold_evidence": [
+    "p051.s1"
+   ],
+   "found_bert": [
+    "p051.s1"
+   ],
+   "found_kw": [
+    "p051.s1"
+   ],
+   "found_boost": [
+    "p051.s1"
+   ],
+   "found_union": [
+    "p051.s1"
+   ],
+   "max_prob": 0.95
+  },
+  {
+   "policy_id": "P11",
+   "flag": "G7",
+   "fit": "medium",
+   "category": "International and Specific Audiences",
+   "gold_presence": "Absent",
+   "gold_state": "NS",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Absent",
+   "n_policy_sentences": 142,
+   "n_bert": 1,
+   "n_kw": 2,
+   "n_boost_added": 0,
+   "n_union_added": 1,
+   "gold_evidence": [],
+   "found_bert": [],
+   "found_kw": [],
+   "found_boost": [],
+   "found_union": [],
+   "max_prob": 0.95
+  },
+  {
+   "policy_id": "P11",
+   "flag": "AI2",
+   "fit": "medium",
+   "category": "User Choice/Control",
+   "gold_presence": "Absent",
+   "gold_state": "NS",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Absent",
+   "n_policy_sentences": 142,
+   "n_bert": 29,
+   "n_kw": 7,
+   "n_boost_added": 1,
+   "n_union_added": 24,
+   "gold_evidence": [],
+   "found_bert": [],
+   "found_kw": [],
+   "found_boost": [],
+   "found_union": [],
+   "max_prob": 0.979
+  },
+  {
+   "policy_id": "P11",
+   "flag": "DPDP2",
+   "fit": "medium",
+   "category": "User Choice/Control",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 142,
+   "n_bert": 29,
+   "n_kw": 8,
+   "n_boost_added": 2,
+   "n_union_added": 25,
+   "gold_evidence": [
+    "p062.s1",
+    "p053.s1",
+    "p021.s2"
+   ],
+   "found_bert": [
+    "p053.s1",
+    "p021.s2"
+   ],
+   "found_kw": [
+    "p062.s1",
+    "p021.s2"
+   ],
+   "found_boost": [
+    "p062.s1",
+    "p021.s2"
+   ],
+   "found_union": [
+    "p062.s1",
+    "p053.s1",
+    "p021.s2"
+   ],
+   "max_prob": 0.979
+  },
+  {
+   "policy_id": "P11",
+   "flag": "AI5",
+   "fit": "medium",
+   "category": "Third Party Sharing/Collection",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 142,
+   "n_bert": 35,
+   "n_kw": 17,
+   "n_boost_added": 4,
+   "n_union_added": 29,
+   "gold_evidence": [
+    "p028.s1",
+    "p029.s1",
+    "p030.s1"
+   ],
+   "found_bert": [
+    "p029.s1",
+    "p030.s1"
+   ],
+   "found_kw": [
+    "p028.s1",
+    "p029.s1"
+   ],
+   "found_boost": [
+    "p028.s1",
+    "p029.s1"
+   ],
+   "found_union": [
+    "p028.s1",
+    "p029.s1",
+    "p030.s1"
+   ],
+   "max_prob": 0.99
+  },
+  {
+   "policy_id": "P11",
+   "flag": "DPDP1",
+   "fit": "weak",
+   "category": "User Choice/Control",
+   "gold_presence": "Present",
+   "gold_state": "EE",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 142,
+   "n_bert": 29,
+   "n_kw": 21,
+   "n_boost_added": 5,
+   "n_union_added": 22,
+   "gold_evidence": [
+    "p013.s1"
+   ],
+   "found_bert": [
+    "p013.s1"
+   ],
+   "found_kw": [
+    "p013.s1"
+   ],
+   "found_boost": [
+    "p013.s1"
+   ],
+   "found_union": [
+    "p013.s1"
+   ],
+   "max_prob": 0.979
+  },
+  {
+   "policy_id": "P11",
+   "flag": "DPDP3",
+   "fit": "weak",
+   "category": "Other",
+   "gold_presence": "Present",
+   "gold_state": "ED",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 142,
+   "n_bert": 83,
+   "n_kw": 12,
+   "n_boost_added": 3,
+   "n_union_added": 74,
+   "gold_evidence": [
+    "p072.s1",
+    "p072.s2",
+    "p074.s1",
+    "p075.s1",
+    "p068.s1"
+   ],
+   "found_bert": [
+    "p072.s1",
+    "p072.s2",
+    "p074.s1",
+    "p075.s1",
+    "p068.s1"
+   ],
+   "found_kw": [
+    "p072.s1",
+    "p074.s1",
+    "p075.s1",
+    "p068.s1"
+   ],
+   "found_boost": [
+    "p072.s1",
+    "p074.s1",
+    "p075.s1",
+    "p068.s1"
+   ],
+   "found_union": [
+    "p072.s1",
+    "p072.s2",
+    "p074.s1",
+    "p075.s1",
+    "p068.s1"
+   ],
+   "max_prob": 0.966
+  },
+  {
+   "policy_id": "P12",
+   "flag": "G1",
+   "fit": "strong",
+   "category": "First Party Collection/Use",
+   "gold_presence": "Present",
+   "gold_state": "ED",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 332,
+   "n_bert": 142,
+   "n_kw": 11,
+   "n_boost_added": 2,
+   "n_union_added": 133,
+   "gold_evidence": [
+    "p031.s1",
+    "p032.s1",
+    "p034.s1",
+    "p045.s1"
+   ],
+   "found_bert": [
+    "p031.s1",
+    "p032.s1",
+    "p034.s1",
+    "p045.s1"
+   ],
+   "found_kw": [
+    "p031.s1",
+    "p032.s1",
+    "p034.s1"
+   ],
+   "found_boost": [
+    "p031.s1",
+    "p032.s1",
+    "p034.s1"
+   ],
+   "found_union": [
+    "p031.s1",
+    "p032.s1",
+    "p034.s1",
+    "p045.s1"
+   ],
+   "max_prob": 0.985
+  },
+  {
+   "policy_id": "P12",
+   "flag": "G2",
+   "fit": "strong",
+   "category": "Third Party Sharing/Collection",
+   "gold_presence": "Unclear",
+   "gold_state": "UN",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Absent",
+   "n_policy_sentences": 332,
+   "n_bert": 40,
+   "n_kw": 8,
+   "n_boost_added": 2,
+   "n_union_added": 35,
+   "gold_evidence": [
+    "p065.s1",
+    "p073.s1",
+    "p087.s1"
+   ],
+   "found_bert": [
+    "p073.s1"
+   ],
+   "found_kw": [
+    "p065.s1",
+    "p073.s1"
+   ],
+   "found_boost": [
+    "p065.s1",
+    "p073.s1"
+   ],
+   "found_union": [
+    "p065.s1",
+    "p073.s1"
+   ],
+   "max_prob": 0.982
+  },
+  {
+   "policy_id": "P12",
+   "flag": "G3",
+   "fit": "weak",
+   "category": "First Party Collection/Use",
+   "gold_presence": "Present",
+   "gold_state": "ED",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 332,
+   "n_bert": 142,
+   "n_kw": 7,
+   "n_boost_added": 1,
+   "n_union_added": 139,
+   "gold_evidence": [
+    "p065.s1",
+    "p045.s1",
+    "p086.s2"
+   ],
+   "found_bert": [
+    "p065.s1",
+    "p045.s1"
+   ],
+   "found_kw": [
+    "p045.s1",
+    "p086.s2"
+   ],
+   "found_boost": [
+    "p045.s1",
+    "p086.s2"
+   ],
+   "found_union": [
+    "p065.s1",
+    "p045.s1",
+    "p086.s2"
+   ],
+   "max_prob": 0.985
+  },
+  {
+   "policy_id": "P12",
+   "flag": "G4",
+   "fit": "strong",
+   "category": "Data Retention",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 332,
+   "n_bert": 10,
+   "n_kw": 17,
+   "n_boost_added": 4,
+   "n_union_added": 4,
+   "gold_evidence": [
+    "p097.s1",
+    "p098.s1"
+   ],
+   "found_bert": [
+    "p097.s1",
+    "p098.s1"
+   ],
+   "found_kw": [
+    "p097.s1",
+    "p098.s1"
+   ],
+   "found_boost": [
+    "p097.s1",
+    "p098.s1"
+   ],
+   "found_union": [
+    "p097.s1",
+    "p098.s1"
+   ],
+   "max_prob": 0.956
+  },
+  {
+   "policy_id": "P12",
+   "flag": "G5",
+   "fit": "strong",
+   "category": "User Access, Edit and Deletion",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 332,
+   "n_bert": 8,
+   "n_kw": 14,
+   "n_boost_added": 3,
+   "n_union_added": 5,
+   "gold_evidence": [
+    "p112.s1",
+    "p113.s1",
+    "p112.s5"
+   ],
+   "found_bert": [
+    "p112.s1",
+    "p113.s1",
+    "p112.s5"
+   ],
+   "found_kw": [
+    "p112.s1",
+    "p113.s1"
+   ],
+   "found_boost": [
+    "p112.s1",
+    "p113.s1"
+   ],
+   "found_union": [
+    "p112.s1",
+    "p113.s1",
+    "p112.s5"
+   ],
+   "max_prob": 0.977
+  },
+  {
+   "policy_id": "P12",
+   "flag": "G6",
+   "fit": "medium",
+   "category": "International and Specific Audiences",
+   "gold_presence": "Present",
+   "gold_state": "ED",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 332,
+   "n_bert": 6,
+   "n_kw": 12,
+   "n_boost_added": 3,
+   "n_union_added": 5,
+   "gold_evidence": [
+    "p097.s1",
+    "p093.s1"
+   ],
+   "found_bert": [
+    "p093.s1"
+   ],
+   "found_kw": [
+    "p093.s1"
+   ],
+   "found_boost": [
+    "p093.s1"
+   ],
+   "found_union": [
+    "p093.s1"
+   ],
+   "max_prob": 0.952
+  },
+  {
+   "policy_id": "P12",
+   "flag": "G7",
+   "fit": "medium",
+   "category": "International and Specific Audiences",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 332,
+   "n_bert": 6,
+   "n_kw": 6,
+   "n_boost_added": 1,
+   "n_union_added": 2,
+   "gold_evidence": [
+    "p117.s1",
+    "p117.s2"
+   ],
+   "found_bert": [
+    "p117.s1",
+    "p117.s2"
+   ],
+   "found_kw": [
+    "p117.s1",
+    "p117.s2"
+   ],
+   "found_boost": [
+    "p117.s1",
+    "p117.s2"
+   ],
+   "found_union": [
+    "p117.s1",
+    "p117.s2"
+   ],
+   "max_prob": 0.952
+  },
+  {
+   "policy_id": "P12",
+   "flag": "AI2",
+   "fit": "medium",
+   "category": "User Choice/Control",
+   "gold_presence": "Absent",
+   "gold_state": "NS",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Absent",
+   "n_policy_sentences": 332,
+   "n_bert": 66,
+   "n_kw": 7,
+   "n_boost_added": 1,
+   "n_union_added": 61,
+   "gold_evidence": [],
+   "found_bert": [],
+   "found_kw": [],
+   "found_boost": [],
+   "found_union": [],
+   "max_prob": 0.965
+  },
+  {
+   "policy_id": "P12",
+   "flag": "DPDP2",
+   "fit": "medium",
+   "category": "User Choice/Control",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 332,
+   "n_bert": 66,
+   "n_kw": 12,
+   "n_boost_added": 3,
+   "n_union_added": 56,
+   "gold_evidence": [
+    "p112.s2",
+    "p112.s5",
+    "p109.s2"
+   ],
+   "found_bert": [
+    "p112.s2",
+    "p112.s5",
+    "p109.s2"
+   ],
+   "found_kw": [
+    "p112.s2",
+    "p109.s2"
+   ],
+   "found_boost": [
+    "p112.s2",
+    "p109.s2"
+   ],
+   "found_union": [
+    "p112.s2",
+    "p112.s5",
+    "p109.s2"
+   ],
+   "max_prob": 0.965
+  },
+  {
+   "policy_id": "P12",
+   "flag": "AI5",
+   "fit": "medium",
+   "category": "Third Party Sharing/Collection",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 332,
+   "n_bert": 40,
+   "n_kw": 33,
+   "n_boost_added": 8,
+   "n_union_added": 38,
+   "gold_evidence": [
+    "p122.s1",
+    "p122.s6",
+    "p126.s1"
+   ],
+   "found_bert": [],
+   "found_kw": [
+    "p122.s1",
+    "p122.s6",
+    "p126.s1"
+   ],
+   "found_boost": [
+    "p122.s1",
+    "p122.s6",
+    "p126.s1"
+   ],
+   "found_union": [
+    "p122.s1",
+    "p122.s6",
+    "p126.s1"
+   ],
+   "max_prob": 0.982
+  },
+  {
+   "policy_id": "P12",
+   "flag": "DPDP1",
+   "fit": "weak",
+   "category": "User Choice/Control",
+   "gold_presence": "Present",
+   "gold_state": "EE",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 332,
+   "n_bert": 66,
+   "n_kw": 30,
+   "n_boost_added": 7,
+   "n_union_added": 50,
+   "gold_evidence": [
+    "p107.s2"
+   ],
+   "found_bert": [
+    "p107.s2"
+   ],
+   "found_kw": [
+    "p107.s2"
+   ],
+   "found_boost": [
+    "p107.s2"
+   ],
+   "found_union": [
+    "p107.s2"
+   ],
+   "max_prob": 0.965
+  },
+  {
+   "policy_id": "P12",
+   "flag": "DPDP3",
+   "fit": "weak",
+   "category": "Other",
+   "gold_presence": "Present",
+   "gold_state": "ED",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 332,
+   "n_bert": 213,
+   "n_kw": 4,
+   "n_boost_added": 1,
+   "n_union_added": 209,
+   "gold_evidence": [
+    "p219.s1"
+   ],
+   "found_bert": [
+    "p219.s1"
+   ],
+   "found_kw": [
+    "p219.s1"
+   ],
+   "found_boost": [
+    "p219.s1"
+   ],
+   "found_union": [
+    "p219.s1"
+   ],
+   "max_prob": 0.977
+  },
+  {
+   "policy_id": "P13",
+   "flag": "G1",
+   "fit": "strong",
+   "category": "First Party Collection/Use",
+   "gold_presence": "Present",
+   "gold_state": "ED",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 152,
+   "n_bert": 57,
+   "n_kw": 30,
+   "n_boost_added": 7,
+   "n_union_added": 35,
+   "gold_evidence": [
+    "p014.s1",
+    "p017.s1",
+    "p020.s1",
+    "p021.s1"
+   ],
+   "found_bert": [
+    "p014.s1",
+    "p017.s1",
+    "p020.s1",
+    "p021.s1"
+   ],
+   "found_kw": [
+    "p017.s1",
+    "p020.s1",
+    "p021.s1"
+   ],
+   "found_boost": [
+    "p014.s1",
+    "p017.s1",
+    "p020.s1",
+    "p021.s1"
+   ],
+   "found_union": [
+    "p014.s1",
+    "p017.s1",
+    "p020.s1",
+    "p021.s1"
+   ],
+   "max_prob": 0.985
+  },
+  {
+   "policy_id": "P13",
+   "flag": "G2",
+   "fit": "strong",
+   "category": "Third Party Sharing/Collection",
+   "gold_presence": "Present",
+   "gold_state": "ED",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 152,
+   "n_bert": 69,
+   "n_kw": 33,
+   "n_boost_added": 8,
+   "n_union_added": 53,
+   "gold_evidence": [
+    "p073.s1",
+    "p073.s2",
+    "p077.s1"
+   ],
+   "found_bert": [
+    "p073.s1",
+    "p073.s2"
+   ],
+   "found_kw": [
+    "p073.s1",
+    "p073.s2",
+    "p077.s1"
+   ],
+   "found_boost": [
+    "p073.s1",
+    "p073.s2",
+    "p077.s1"
+   ],
+   "found_union": [
+    "p073.s1",
+    "p073.s2",
+    "p077.s1"
+   ],
+   "max_prob": 0.986
+  },
+  {
+   "policy_id": "P13",
+   "flag": "G3",
+   "fit": "weak",
+   "category": "First Party Collection/Use",
+   "gold_presence": "Present",
+   "gold_state": "ED",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 152,
+   "n_bert": 57,
+   "n_kw": 6,
+   "n_boost_added": 1,
+   "n_union_added": 53,
+   "gold_evidence": [
+    "p046.s1",
+    "p073.s2",
+    "p077.s3"
+   ],
+   "found_bert": [
+    "p046.s1"
+   ],
+   "found_kw": [
+    "p046.s1"
+   ],
+   "found_boost": [
+    "p046.s1"
+   ],
+   "found_union": [
+    "p046.s1"
+   ],
+   "max_prob": 0.985
+  },
+  {
+   "policy_id": "P13",
+   "flag": "G4",
+   "fit": "strong",
+   "category": "Data Retention",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 152,
+   "n_bert": 5,
+   "n_kw": 2,
+   "n_boost_added": 0,
+   "n_union_added": 4,
+   "gold_evidence": [
+    "p086.s2",
+    "p087.s1"
+   ],
+   "found_bert": [
+    "p087.s1"
+   ],
+   "found_kw": [
+    "p087.s1"
+   ],
+   "found_boost": [
+    "p087.s1"
+   ],
+   "found_union": [
+    "p087.s1"
+   ],
+   "max_prob": 0.957
+  },
+  {
+   "policy_id": "P13",
+   "flag": "G5",
+   "fit": "strong",
+   "category": "User Access, Edit and Deletion",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 152,
+   "n_bert": 3,
+   "n_kw": 8,
+   "n_boost_added": 2,
+   "n_union_added": 3,
+   "gold_evidence": [
+    "p086.s1"
+   ],
+   "found_bert": [
+    "p086.s1"
+   ],
+   "found_kw": [],
+   "found_boost": [
+    "p086.s1"
+   ],
+   "found_union": [
+    "p086.s1"
+   ],
+   "max_prob": 0.91
+  },
+  {
+   "policy_id": "P13",
+   "flag": "G6",
+   "fit": "medium",
+   "category": "International and Specific Audiences",
+   "gold_presence": "Present",
+   "gold_state": "ED",
+   "bert_addressed": false,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 152,
+   "n_bert": 0,
+   "n_kw": 6,
+   "n_boost_added": 0,
+   "n_union_added": 0,
+   "gold_evidence": [
+    "p092.s2"
+   ],
+   "found_bert": [],
+   "found_kw": [
+    "p092.s2"
+   ],
+   "found_boost": [
+    "p092.s2"
+   ],
+   "found_union": [
+    "p092.s2"
+   ],
+   "max_prob": 0.334
+  },
+  {
+   "policy_id": "P13",
+   "flag": "G7",
+   "fit": "medium",
+   "category": "International and Specific Audiences",
+   "gold_presence": "Absent",
+   "gold_state": "NS",
+   "bert_addressed": false,
+   "kw_addressed": false,
+   "llm_presence": "Absent",
+   "n_policy_sentences": 152,
+   "n_bert": 0,
+   "n_kw": 0,
+   "n_boost_added": 0,
+   "n_union_added": 0,
+   "gold_evidence": [],
+   "found_bert": [],
+   "found_kw": [],
+   "found_boost": [],
+   "found_union": [],
+   "max_prob": 0.334
+  },
+  {
+   "policy_id": "P13",
+   "flag": "AI2",
+   "fit": "medium",
+   "category": "User Choice/Control",
+   "gold_presence": "Absent",
+   "gold_state": "NS",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 152,
+   "n_bert": 17,
+   "n_kw": 10,
+   "n_boost_added": 2,
+   "n_union_added": 9,
+   "gold_evidence": [],
+   "found_bert": [],
+   "found_kw": [],
+   "found_boost": [],
+   "found_union": [],
+   "max_prob": 0.98
+  },
+  {
+   "policy_id": "P13",
+   "flag": "DPDP2",
+   "fit": "medium",
+   "category": "User Choice/Control",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 152,
+   "n_bert": 17,
+   "n_kw": 13,
+   "n_boost_added": 3,
+   "n_union_added": 7,
+   "gold_evidence": [
+    "p086.s1",
+    "p086.s2"
+   ],
+   "found_bert": [
+    "p086.s1",
+    "p086.s2"
+   ],
+   "found_kw": [
+    "p086.s1",
+    "p086.s2"
+   ],
+   "found_boost": [
+    "p086.s1",
+    "p086.s2"
+   ],
+   "found_union": [
+    "p086.s1",
+    "p086.s2"
+   ],
+   "max_prob": 0.98
+  },
+  {
+   "policy_id": "P13",
+   "flag": "AI5",
+   "fit": "medium",
+   "category": "Third Party Sharing/Collection",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 152,
+   "n_bert": 69,
+   "n_kw": 11,
+   "n_boost_added": 2,
+   "n_union_added": 59,
+   "gold_evidence": [
+    "p054.s1",
+    "p076.s6",
+    "p076.s5"
+   ],
+   "found_bert": [
+    "p054.s1",
+    "p076.s6",
+    "p076.s5"
+   ],
+   "found_kw": [
+    "p054.s1",
+    "p076.s6",
+    "p076.s5"
+   ],
+   "found_boost": [
+    "p054.s1",
+    "p076.s6",
+    "p076.s5"
+   ],
+   "found_union": [
+    "p054.s1",
+    "p076.s6",
+    "p076.s5"
+   ],
+   "max_prob": 0.986
+  },
+  {
+   "policy_id": "P13",
+   "flag": "DPDP1",
+   "fit": "weak",
+   "category": "User Choice/Control",
+   "gold_presence": "Present",
+   "gold_state": "EE",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 152,
+   "n_bert": 17,
+   "n_kw": 23,
+   "n_boost_added": 5,
+   "n_union_added": 6,
+   "gold_evidence": [
+    "p007.s1",
+    "p007.s2"
+   ],
+   "found_bert": [
+    "p007.s1",
+    "p007.s2"
+   ],
+   "found_kw": [
+    "p007.s1",
+    "p007.s2"
+   ],
+   "found_boost": [
+    "p007.s1",
+    "p007.s2"
+   ],
+   "found_union": [
+    "p007.s1",
+    "p007.s2"
+   ],
+   "max_prob": 0.98
+  },
+  {
+   "policy_id": "P13",
+   "flag": "DPDP3",
+   "fit": "weak",
+   "category": "Other",
+   "gold_presence": "Present",
+   "gold_state": "ED",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 152,
+   "n_bert": 63,
+   "n_kw": 9,
+   "n_boost_added": 2,
+   "n_union_added": 54,
+   "gold_evidence": [
+    "p089.s1",
+    "p090.s1",
+    "p091.s1"
+   ],
+   "found_bert": [
+    "p089.s1",
+    "p090.s1",
+    "p091.s1"
+   ],
+   "found_kw": [
+    "p089.s1",
+    "p090.s1",
+    "p091.s1"
+   ],
+   "found_boost": [
+    "p089.s1",
+    "p090.s1",
+    "p091.s1"
+   ],
+   "found_union": [
+    "p089.s1",
+    "p090.s1",
+    "p091.s1"
+   ],
+   "max_prob": 0.963
+  },
+  {
+   "policy_id": "P14",
+   "flag": "G1",
+   "fit": "strong",
+   "category": "First Party Collection/Use",
+   "gold_presence": "Present",
+   "gold_state": "ED",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 282,
+   "n_bert": 139,
+   "n_kw": 39,
+   "n_boost_added": 9,
+   "n_union_added": 115,
+   "gold_evidence": [
+    "p021.s1",
+    "p022.s3",
+    "p038.s2",
+    "p051.s1"
+   ],
+   "found_bert": [
+    "p021.s1",
+    "p022.s3",
+    "p038.s2",
+    "p051.s1"
+   ],
+   "found_kw": [
+    "p021.s1"
+   ],
+   "found_boost": [
+    "p021.s1"
+   ],
+   "found_union": [
+    "p021.s1",
+    "p022.s3",
+    "p038.s2",
+    "p051.s1"
+   ],
+   "max_prob": 0.992
+  },
+  {
+   "policy_id": "P14",
+   "flag": "G2",
+   "fit": "strong",
+   "category": "Third Party Sharing/Collection",
+   "gold_presence": "Present",
+   "gold_state": "ED",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 282,
+   "n_bert": 107,
+   "n_kw": 30,
+   "n_boost_added": 7,
+   "n_union_added": 88,
+   "gold_evidence": [
+    "p061.s1",
+    "p061.s3",
+    "p061.s5"
+   ],
+   "found_bert": [
+    "p061.s1",
+    "p061.s3",
+    "p061.s5"
+   ],
+   "found_kw": [
+    "p061.s1",
+    "p061.s3",
+    "p061.s5"
+   ],
+   "found_boost": [
+    "p061.s1",
+    "p061.s3",
+    "p061.s5"
+   ],
+   "found_union": [
+    "p061.s1",
+    "p061.s3",
+    "p061.s5"
+   ],
+   "max_prob": 0.989
+  },
+  {
+   "policy_id": "P14",
+   "flag": "G3",
+   "fit": "weak",
+   "category": "First Party Collection/Use",
+   "gold_presence": "Present",
+   "gold_state": "ED",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 282,
+   "n_bert": 139,
+   "n_kw": 10,
+   "n_boost_added": 2,
+   "n_union_added": 132,
+   "gold_evidence": [
+    "p058.s1",
+    "p053.s2",
+    "p061.s5"
+   ],
+   "found_bert": [
+    "p058.s1",
+    "p053.s2"
+   ],
+   "found_kw": [
+    "p058.s1"
+   ],
+   "found_boost": [
+    "p058.s1"
+   ],
+   "found_union": [
+    "p058.s1",
+    "p053.s2"
+   ],
+   "max_prob": 0.992
+  },
+  {
+   "policy_id": "P14",
+   "flag": "G4",
+   "fit": "strong",
+   "category": "Data Retention",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 282,
+   "n_bert": 38,
+   "n_kw": 24,
+   "n_boost_added": 6,
+   "n_union_added": 26,
+   "gold_evidence": [
+    "p063.s3",
+    "p092.s4"
+   ],
+   "found_bert": [
+    "p063.s3",
+    "p092.s4"
+   ],
+   "found_kw": [
+    "p063.s3"
+   ],
+   "found_boost": [
+    "p063.s3"
+   ],
+   "found_union": [
+    "p063.s3",
+    "p092.s4"
+   ],
+   "max_prob": 0.969
+  },
+  {
+   "policy_id": "P14",
+   "flag": "G5",
+   "fit": "strong",
+   "category": "User Access, Edit and Deletion",
+   "gold_presence": "Present",
+   "gold_state": "ED",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 282,
+   "n_bert": 12,
+   "n_kw": 21,
+   "n_boost_added": 5,
+   "n_union_added": 6,
+   "gold_evidence": [
+    "p096.s2",
+    "p092.s1"
+   ],
+   "found_bert": [
+    "p096.s2",
+    "p092.s1"
+   ],
+   "found_kw": [
+    "p096.s2",
+    "p092.s1"
+   ],
+   "found_boost": [
+    "p096.s2",
+    "p092.s1"
+   ],
+   "found_union": [
+    "p096.s2",
+    "p092.s1"
+   ],
+   "max_prob": 0.981
+  },
+  {
+   "policy_id": "P14",
+   "flag": "G6",
+   "fit": "medium",
+   "category": "International and Specific Audiences",
+   "gold_presence": "Present",
+   "gold_state": "ED",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 282,
+   "n_bert": 10,
+   "n_kw": 4,
+   "n_boost_added": 1,
+   "n_union_added": 10,
+   "gold_evidence": [
+    "p089.s1"
+   ],
+   "found_bert": [],
+   "found_kw": [
+    "p089.s1"
+   ],
+   "found_boost": [
+    "p089.s1"
+   ],
+   "found_union": [
+    "p089.s1"
+   ],
+   "max_prob": 0.968
+  },
+  {
+   "policy_id": "P14",
+   "flag": "G7",
+   "fit": "medium",
+   "category": "International and Specific Audiences",
+   "gold_presence": "Present",
+   "gold_state": "ED",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 282,
+   "n_bert": 10,
+   "n_kw": 18,
+   "n_boost_added": 0,
+   "n_union_added": 0,
+   "gold_evidence": [
+    "p031.s1",
+    "p033.s1",
+    "p034.s1"
+   ],
+   "found_bert": [
+    "p031.s1",
+    "p034.s1"
+   ],
+   "found_kw": [
+    "p031.s1",
+    "p033.s1",
+    "p034.s1"
+   ],
+   "found_boost": [
+    "p031.s1",
+    "p033.s1",
+    "p034.s1"
+   ],
+   "found_union": [
+    "p031.s1",
+    "p033.s1",
+    "p034.s1"
+   ],
+   "max_prob": 0.968
+  },
+  {
+   "policy_id": "P14",
+   "flag": "AI2",
+   "fit": "medium",
+   "category": "User Choice/Control",
+   "gold_presence": "Absent",
+   "gold_state": "NS",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Absent",
+   "n_policy_sentences": 282,
+   "n_bert": 19,
+   "n_kw": 10,
+   "n_boost_added": 2,
+   "n_union_added": 17,
+   "gold_evidence": [],
+   "found_bert": [],
+   "found_kw": [],
+   "found_boost": [],
+   "found_union": [],
+   "max_prob": 0.967
+  },
+  {
+   "policy_id": "P14",
+   "flag": "DPDP2",
+   "fit": "medium",
+   "category": "User Choice/Control",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 282,
+   "n_bert": 19,
+   "n_kw": 14,
+   "n_boost_added": 3,
+   "n_union_added": 14,
+   "gold_evidence": [
+    "p091.s2",
+    "p079.s2"
+   ],
+   "found_bert": [
+    "p091.s2",
+    "p079.s2"
+   ],
+   "found_kw": [
+    "p091.s2",
+    "p079.s2"
+   ],
+   "found_boost": [
+    "p091.s2",
+    "p079.s2"
+   ],
+   "found_union": [
+    "p091.s2",
+    "p079.s2"
+   ],
+   "max_prob": 0.967
+  },
+  {
+   "policy_id": "P14",
+   "flag": "AI5",
+   "fit": "medium",
+   "category": "Third Party Sharing/Collection",
+   "gold_presence": "Present",
+   "gold_state": "ED",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 282,
+   "n_bert": 107,
+   "n_kw": 13,
+   "n_boost_added": 3,
+   "n_union_added": 95,
+   "gold_evidence": [
+    "p131.s5",
+    "p131.s6",
+    "p131.s7"
+   ],
+   "found_bert": [
+    "p131.s5",
+    "p131.s6",
+    "p131.s7"
+   ],
+   "found_kw": [
+    "p131.s5",
+    "p131.s6",
+    "p131.s7"
+   ],
+   "found_boost": [
+    "p131.s5",
+    "p131.s6",
+    "p131.s7"
+   ],
+   "found_union": [
+    "p131.s5",
+    "p131.s6",
+    "p131.s7"
+   ],
+   "max_prob": 0.989
+  },
+  {
+   "policy_id": "P14",
+   "flag": "DPDP1",
+   "fit": "weak",
+   "category": "User Choice/Control",
+   "gold_presence": "Present",
+   "gold_state": "EE",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 282,
+   "n_bert": 19,
+   "n_kw": 29,
+   "n_boost_added": 7,
+   "n_union_added": 9,
+   "gold_evidence": [
+    "p009.s2"
+   ],
+   "found_bert": [
+    "p009.s2"
+   ],
+   "found_kw": [
+    "p009.s2"
+   ],
+   "found_boost": [
+    "p009.s2"
+   ],
+   "found_union": [
+    "p009.s2"
+   ],
+   "max_prob": 0.967
+  },
+  {
+   "policy_id": "P14",
+   "flag": "DPDP3",
+   "fit": "weak",
+   "category": "Other",
+   "gold_presence": "Present",
+   "gold_state": "ED",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 282,
+   "n_bert": 104,
+   "n_kw": 4,
+   "n_boost_added": 1,
+   "n_union_added": 102,
+   "gold_evidence": [
+    "p133.s1"
+   ],
+   "found_bert": [
+    "p133.s1"
+   ],
+   "found_kw": [
+    "p133.s1"
+   ],
+   "found_boost": [
+    "p133.s1"
+   ],
+   "found_union": [
+    "p133.s1"
+   ],
+   "max_prob": 0.97
+  },
+  {
+   "policy_id": "P15",
+   "flag": "G1",
+   "fit": "strong",
+   "category": "First Party Collection/Use",
+   "gold_presence": "Present",
+   "gold_state": "ED",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 395,
+   "n_bert": 117,
+   "n_kw": 35,
+   "n_boost_added": 8,
+   "n_union_added": 95,
+   "gold_evidence": [
+    "p058.s1",
+    "p179.s1",
+    "p063.s1",
+    "p054.s1"
+   ],
+   "found_bert": [
+    "p058.s1",
+    "p179.s1",
+    "p063.s1",
+    "p054.s1"
+   ],
+   "found_kw": [
+    "p058.s1",
+    "p179.s1",
+    "p063.s1"
+   ],
+   "found_boost": [
+    "p058.s1",
+    "p179.s1",
+    "p063.s1"
+   ],
+   "found_union": [
+    "p058.s1",
+    "p179.s1",
+    "p063.s1",
+    "p054.s1"
+   ],
+   "max_prob": 0.991
+  },
+  {
+   "policy_id": "P15",
+   "flag": "G2",
+   "fit": "strong",
+   "category": "Third Party Sharing/Collection",
+   "gold_presence": "Present",
+   "gold_state": "ED",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 395,
+   "n_bert": 74,
+   "n_kw": 31,
+   "n_boost_added": 7,
+   "n_union_added": 49,
+   "gold_evidence": [
+    "p099.s1",
+    "p089.s2",
+    "p138.s1",
+    "p114.s2"
+   ],
+   "found_bert": [
+    "p099.s1",
+    "p089.s2",
+    "p138.s1"
+   ],
+   "found_kw": [
+    "p099.s1",
+    "p089.s2",
+    "p138.s1"
+   ],
+   "found_boost": [
+    "p099.s1",
+    "p089.s2",
+    "p138.s1"
+   ],
+   "found_union": [
+    "p099.s1",
+    "p089.s2",
+    "p138.s1"
+   ],
+   "max_prob": 0.992
+  },
+  {
+   "policy_id": "P15",
+   "flag": "G3",
+   "fit": "weak",
+   "category": "First Party Collection/Use",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 395,
+   "n_bert": 117,
+   "n_kw": 20,
+   "n_boost_added": 5,
+   "n_union_added": 104,
+   "gold_evidence": [
+    "p137.s2",
+    "p165.s1"
+   ],
+   "found_bert": [
+    "p137.s2"
+   ],
+   "found_kw": [
+    "p137.s2",
+    "p165.s1"
+   ],
+   "found_boost": [
+    "p137.s2",
+    "p165.s1"
+   ],
+   "found_union": [
+    "p137.s2",
+    "p165.s1"
+   ],
+   "max_prob": 0.991
+  },
+  {
+   "policy_id": "P15",
+   "flag": "G4",
+   "fit": "strong",
+   "category": "Data Retention",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 395,
+   "n_bert": 9,
+   "n_kw": 26,
+   "n_boost_added": 5,
+   "n_union_added": 5,
+   "gold_evidence": [
+    "p108.s2"
+   ],
+   "found_bert": [
+    "p108.s2"
+   ],
+   "found_kw": [
+    "p108.s2"
+   ],
+   "found_boost": [
+    "p108.s2"
+   ],
+   "found_union": [
+    "p108.s2"
+   ],
+   "max_prob": 0.955
+  },
+  {
+   "policy_id": "P15",
+   "flag": "G5",
+   "fit": "strong",
+   "category": "User Access, Edit and Deletion",
+   "gold_presence": "Present",
+   "gold_state": "ED",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 395,
+   "n_bert": 34,
+   "n_kw": 30,
+   "n_boost_added": 7,
+   "n_union_added": 16,
+   "gold_evidence": [
+    "p110.s1",
+    "p118.s1",
+    "p119.s1",
+    "p121.s1"
+   ],
+   "found_bert": [
+    "p110.s1",
+    "p118.s1",
+    "p119.s1",
+    "p121.s1"
+   ],
+   "found_kw": [
+    "p110.s1",
+    "p118.s1",
+    "p119.s1",
+    "p121.s1"
+   ],
+   "found_boost": [
+    "p110.s1",
+    "p118.s1",
+    "p119.s1",
+    "p121.s1"
+   ],
+   "found_union": [
+    "p110.s1",
+    "p118.s1",
+    "p119.s1",
+    "p121.s1"
+   ],
+   "max_prob": 0.966
+  },
+  {
+   "policy_id": "P15",
+   "flag": "G6",
+   "fit": "medium",
+   "category": "International and Specific Audiences",
+   "gold_presence": "Present",
+   "gold_state": "ED",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 395,
+   "n_bert": 35,
+   "n_kw": 21,
+   "n_boost_added": 5,
+   "n_union_added": 26,
+   "gold_evidence": [
+    "p103.s1",
+    "p103.s2",
+    "p106.s1"
+   ],
+   "found_bert": [
+    "p103.s1",
+    "p103.s2",
+    "p106.s1"
+   ],
+   "found_kw": [
+    "p103.s1",
+    "p103.s2",
+    "p106.s1"
+   ],
+   "found_boost": [
+    "p103.s1",
+    "p103.s2",
+    "p106.s1"
+   ],
+   "found_union": [
+    "p103.s1",
+    "p103.s2",
+    "p106.s1"
+   ],
+   "max_prob": 0.99
+  },
+  {
+   "policy_id": "P15",
+   "flag": "G7",
+   "fit": "medium",
+   "category": "International and Specific Audiences",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 395,
+   "n_bert": 35,
+   "n_kw": 13,
+   "n_boost_added": 3,
+   "n_union_added": 26,
+   "gold_evidence": [
+    "p038.s2",
+    "p039.s1",
+    "p039.s3"
+   ],
+   "found_bert": [
+    "p038.s2",
+    "p039.s1",
+    "p039.s3"
+   ],
+   "found_kw": [
+    "p038.s2",
+    "p039.s1",
+    "p039.s3"
+   ],
+   "found_boost": [
+    "p038.s2",
+    "p039.s1",
+    "p039.s3"
+   ],
+   "found_union": [
+    "p038.s2",
+    "p039.s1",
+    "p039.s3"
+   ],
+   "max_prob": 0.99
+  },
+  {
+   "policy_id": "P15",
+   "flag": "AI2",
+   "fit": "medium",
+   "category": "User Choice/Control",
+   "gold_presence": "Absent",
+   "gold_state": "NS",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Absent",
+   "n_policy_sentences": 395,
+   "n_bert": 43,
+   "n_kw": 15,
+   "n_boost_added": 3,
+   "n_union_added": 35,
+   "gold_evidence": [],
+   "found_bert": [],
+   "found_kw": [],
+   "found_boost": [],
+   "found_union": [],
+   "max_prob": 0.978
+  },
+  {
+   "policy_id": "P15",
+   "flag": "DPDP2",
+   "fit": "medium",
+   "category": "User Choice/Control",
+   "gold_presence": "Present",
+   "gold_state": "CD",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 395,
+   "n_bert": 43,
+   "n_kw": 19,
+   "n_boost_added": 4,
+   "n_union_added": 33,
+   "gold_evidence": [
+    "p079.s1",
+    "p079.s3"
+   ],
+   "found_bert": [
+    "p079.s1",
+    "p079.s3"
+   ],
+   "found_kw": [
+    "p079.s1",
+    "p079.s3"
+   ],
+   "found_boost": [
+    "p079.s1",
+    "p079.s3"
+   ],
+   "found_union": [
+    "p079.s1",
+    "p079.s3"
+   ],
+   "max_prob": 0.978
+  },
+  {
+   "policy_id": "P15",
+   "flag": "AI5",
+   "fit": "medium",
+   "category": "Third Party Sharing/Collection",
+   "gold_presence": "Absent",
+   "gold_state": "NS",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Absent",
+   "n_policy_sentences": 395,
+   "n_bert": 74,
+   "n_kw": 6,
+   "n_boost_added": 1,
+   "n_union_added": 72,
+   "gold_evidence": [],
+   "found_bert": [],
+   "found_kw": [],
+   "found_boost": [],
+   "found_union": [],
+   "max_prob": 0.992
+  },
+  {
+   "policy_id": "P15",
+   "flag": "DPDP1",
+   "fit": "weak",
+   "category": "User Choice/Control",
+   "gold_presence": "Present",
+   "gold_state": "EE",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 395,
+   "n_bert": 43,
+   "n_kw": 32,
+   "n_boost_added": 8,
+   "n_union_added": 31,
+   "gold_evidence": [
+    "p027.s3",
+    "p105.s2"
+   ],
+   "found_bert": [
+    "p027.s3"
+   ],
+   "found_kw": [
+    "p027.s3",
+    "p105.s2"
+   ],
+   "found_boost": [
+    "p027.s3",
+    "p105.s2"
+   ],
+   "found_union": [
+    "p027.s3",
+    "p105.s2"
+   ],
+   "max_prob": 0.978
+  },
+  {
+   "policy_id": "P15",
+   "flag": "DPDP3",
+   "fit": "weak",
+   "category": "Other",
+   "gold_presence": "Present",
+   "gold_state": "ED",
+   "bert_addressed": true,
+   "kw_addressed": true,
+   "llm_presence": "Present",
+   "n_policy_sentences": 395,
+   "n_bert": 245,
+   "n_kw": 34,
+   "n_boost_added": 8,
+   "n_union_added": 221,
+   "gold_evidence": [
+    "p143.s1",
+    "p144.s1",
+    "p147.s1"
+   ],
+   "found_bert": [
+    "p143.s1",
+    "p144.s1",
+    "p147.s1"
+   ],
+   "found_kw": [
+    "p143.s1",
+    "p144.s1"
+   ],
+   "found_boost": [
+    "p143.s1",
+    "p144.s1"
+   ],
+   "found_union": [
+    "p143.s1",
+    "p144.s1",
+    "p147.s1"
+   ],
+   "max_prob": 0.967
+  }
+ ]
+}

@@ -1,0 +1,3330 @@
+{
+ "policy_id": "P03",
+ "policy_key": "P03_deepseek",
+ "policy_name": "deepseek",
+ "url": "https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html",
+ "scope": "consumer",
+ "cohort": "ai",
+ "fetched_at_utc": "2026-11-11T18:47:19+00:00",
+ "text_file": "policies/text/P03_deepseek.txt",
+ "text_sha256": "7580bab746cfc4fdad2695bd97764d9ba6caf4606409857208c2eb045cf91ec2",
+ "flag_definitions_sha256": "7c81dc82616e22f95abb8c359f50f76e890fa628b31296c19186e78518da00c7",
+ "segmenter_version": "1",
+ "n_paragraphs": 169,
+ "n_sentences": 242,
+ "sentences": {
+  "p001.s1": {
+   "start": 0,
+   "end": 23,
+   "heading": "DeepSeek Privacy Policy"
+  },
+  "p002.s1": {
+   "start": 24,
+   "end": 49,
+   "heading": "Last Update: Feb 10, 2026"
+  },
+  "p003.s1": {
+   "start": 50,
+   "end": 70,
+   "heading": "Welcome to DeepSeek!"
+  },
+  "p004.s1": {
+   "start": 71,
+   "end": 83,
+   "heading": "Introduction"
+  },
+  "p005.s1": {
+   "start": 84,
+   "end": 419,
+   "heading": "Introduction"
+  },
+  "p005.s2": {
+   "start": 420,
+   "end": 481,
+   "heading": "Introduction"
+  },
+  "p006.s1": {
+   "start": 482,
+   "end": 648,
+   "heading": "Introduction"
+  },
+  "p006.s2": {
+   "start": 649,
+   "end": 796,
+   "heading": "Introduction"
+  },
+  "p007.s1": {
+   "start": 797,
+   "end": 1031,
+   "heading": "Introduction"
+  },
+  "p007.s2": {
+   "start": 1032,
+   "end": 1213,
+   "heading": "Introduction"
+  },
+  "p007.s3": {
+   "start": 1214,
+   "end": 1362,
+   "heading": "Introduction"
+  },
+  "p008.s1": {
+   "start": 1363,
+   "end": 1392,
+   "heading": "What Personal Data We Collect"
+  },
+  "p009.s1": {
+   "start": 1393,
+   "end": 1541,
+   "heading": "What Personal Data We Collect"
+  },
+  "p009.s2": {
+   "start": 1542,
+   "end": 1572,
+   "heading": "What Personal Data We Collect"
+  },
+  "p010.s1": {
+   "start": 1573,
+   "end": 1598,
+   "heading": "Personal Data You Provide"
+  },
+  "p011.s1": {
+   "start": 1599,
+   "end": 1753,
+   "heading": "Personal Data You Provide"
+  },
+  "p012.s1": {
+   "start": 1754,
+   "end": 1776,
+   "heading": "Personal Data You Provide"
+  },
+  "p012.s2": {
+   "start": 1777,
+   "end": 1975,
+   "heading": "Personal Data You Provide"
+  },
+  "p013.s1": {
+   "start": 1976,
+   "end": 1987,
+   "heading": "Personal Data You Provide"
+  },
+  "p013.s2": {
+   "start": 1988,
+   "end": 2200,
+   "heading": "Personal Data You Provide"
+  },
+  "p013.s3": {
+   "start": 2201,
+   "end": 2256,
+   "heading": "Personal Data You Provide"
+  },
+  "p013.s4": {
+   "start": 2257,
+   "end": 2489,
+   "heading": "Personal Data You Provide"
+  },
+  "p014.s1": {
+   "start": 2490,
+   "end": 2524,
+   "heading": "Personal Data You Provide"
+  },
+  "p014.s2": {
+   "start": 2525,
+   "end": 2794,
+   "heading": "Personal Data You Provide"
+  },
+  "p015.s1": {
+   "start": 2795,
+   "end": 2832,
+   "heading": "Automatically Collected Personal Data"
+  },
+  "p016.s1": {
+   "start": 2833,
+   "end": 3039,
+   "heading": "Automatically Collected Personal Data"
+  },
+  "p017.s1": {
+   "start": 3040,
+   "end": 3073,
+   "heading": "Automatically Collected Personal Data"
+  },
+  "p017.s2": {
+   "start": 3074,
+   "end": 3166,
+   "heading": "Automatically Collected Personal Data"
+  },
+  "p017.s3": {
+   "start": 3167,
+   "end": 3283,
+   "heading": "Automatically Collected Personal Data"
+  },
+  "p017.s4": {
+   "start": 3284,
+   "end": 3405,
+   "heading": "Automatically Collected Personal Data"
+  },
+  "p017.s5": {
+   "start": 3406,
+   "end": 3458,
+   "heading": "Automatically Collected Personal Data"
+  },
+  "p017.s6": {
+   "start": 3459,
+   "end": 3663,
+   "heading": "Automatically Collected Personal Data"
+  },
+  "p018.s1": {
+   "start": 3664,
+   "end": 3682,
+   "heading": "Automatically Collected Personal Data"
+  },
+  "p018.s2": {
+   "start": 3683,
+   "end": 3798,
+   "heading": "Automatically Collected Personal Data"
+  },
+  "p019.s1": {
+   "start": 3799,
+   "end": 3822,
+   "heading": "Automatically Collected Personal Data"
+  },
+  "p019.s2": {
+   "start": 3823,
+   "end": 4179,
+   "heading": "Automatically Collected Personal Data"
+  },
+  "p019.s3": {
+   "start": 4180,
+   "end": 4286,
+   "heading": "Automatically Collected Personal Data"
+  },
+  "p020.s1": {
+   "start": 4287,
+   "end": 4318,
+   "heading": "Automatically Collected Personal Data"
+  },
+  "p020.s2": {
+   "start": 4319,
+   "end": 4407,
+   "heading": "Automatically Collected Personal Data"
+  },
+  "p020.s3": {
+   "start": 4408,
+   "end": 4507,
+   "heading": "Automatically Collected Personal Data"
+  },
+  "p020.s4": {
+   "start": 4508,
+   "end": 4591,
+   "heading": "Automatically Collected Personal Data"
+  },
+  "p020.s5": {
+   "start": 4592,
+   "end": 4662,
+   "heading": "Automatically Collected Personal Data"
+  },
+  "p021.s1": {
+   "start": 4663,
+   "end": 4685,
+   "heading": "Automatically Collected Personal Data"
+  },
+  "p021.s2": {
+   "start": 4686,
+   "end": 4891,
+   "heading": "Automatically Collected Personal Data"
+  },
+  "p022.s1": {
+   "start": 4892,
+   "end": 5004,
+   "heading": "Automatically Collected Personal Data"
+  },
+  "p023.s1": {
+   "start": 5005,
+   "end": 5037,
+   "heading": "Personal Data from Other Sources"
+  },
+  "p024.s1": {
+   "start": 5038,
+   "end": 5132,
+   "heading": "Personal Data from Other Sources"
+  },
+  "p025.s1": {
+   "start": 5133,
+   "end": 5169,
+   "heading": "Personal Data from Other Sources"
+  },
+  "p025.s2": {
+   "start": 5170,
+   "end": 5418,
+   "heading": "Personal Data from Other Sources"
+  },
+  "p026.s1": {
+   "start": 5419,
+   "end": 5442,
+   "heading": "Personal Data from Other Sources"
+  },
+  "p026.s2": {
+   "start": 5443,
+   "end": 5598,
+   "heading": "Personal Data from Other Sources"
+  },
+  "p027.s1": {
+   "start": 5599,
+   "end": 5620,
+   "heading": "Personal Data from Other Sources"
+  },
+  "p027.s2": {
+   "start": 5621,
+   "end": 5728,
+   "heading": "Personal Data from Other Sources"
+  },
+  "p028.s1": {
+   "start": 5729,
+   "end": 6031,
+   "heading": "Personal Data from Other Sources"
+  },
+  "p028.s2": {
+   "start": 6032,
+   "end": 6163,
+   "heading": "Personal Data from Other Sources"
+  },
+  "p029.s1": {
+   "start": 6164,
+   "end": 6193,
+   "heading": "How We Use Your Personal Data"
+  },
+  "p030.s1": {
+   "start": 6194,
+   "end": 6313,
+   "heading": "How We Use Your Personal Data"
+  },
+  "p031.s1": {
+   "start": 6314,
+   "end": 6413,
+   "heading": "How We Use Your Personal Data"
+  },
+  "p031.s2": {
+   "start": 6414,
+   "end": 6558,
+   "heading": "How We Use Your Personal Data"
+  },
+  "p032.s1": {
+   "start": 6559,
+   "end": 6687,
+   "heading": "How We Use Your Personal Data"
+  },
+  "p032.s2": {
+   "start": 6688,
+   "end": 6833,
+   "heading": "How We Use Your Personal Data"
+  },
+  "p033.s1": {
+   "start": 6834,
+   "end": 7013,
+   "heading": "How We Use Your Personal Data"
+  },
+  "p034.s1": {
+   "start": 7014,
+   "end": 7237,
+   "heading": "How We Use Your Personal Data"
+  },
+  "p035.s1": {
+   "start": 7238,
+   "end": 7397,
+   "heading": "How We Use Your Personal Data"
+  },
+  "p035.s2": {
+   "start": 7398,
+   "end": 7594,
+   "heading": "How We Use Your Personal Data"
+  },
+  "p036.s1": {
+   "start": 7595,
+   "end": 7790,
+   "heading": "How We Use Your Personal Data"
+  },
+  "p037.s1": {
+   "start": 7791,
+   "end": 7822,
+   "heading": "How We Share Your Personal Data"
+  },
+  "p038.s1": {
+   "start": 7823,
+   "end": 7840,
+   "heading": "Service Providers"
+  },
+  "p039.s1": {
+   "start": 7841,
+   "end": 7958,
+   "heading": "Service Providers"
+  },
+  "p039.s2": {
+   "start": 7959,
+   "end": 8154,
+   "heading": "Service Providers"
+  },
+  "p039.s3": {
+   "start": 8155,
+   "end": 8167,
+   "heading": "Service Providers"
+  },
+  "p040.s1": {
+   "start": 8168,
+   "end": 8258,
+   "heading": "Service Providers"
+  },
+  "p041.s1": {
+   "start": 8259,
+   "end": 8349,
+   "heading": "Service Providers"
+  },
+  "p042.s1": {
+   "start": 8350,
+   "end": 8472,
+   "heading": "Service Providers"
+  },
+  "p043.s1": {
+   "start": 8473,
+   "end": 8525,
+   "heading": "Service Providers"
+  },
+  "p044.s1": {
+   "start": 8526,
+   "end": 8634,
+   "heading": "Service Providers"
+  },
+  "p045.s1": {
+   "start": 8635,
+   "end": 8776,
+   "heading": "Service Providers"
+  },
+  "p046.s1": {
+   "start": 8777,
+   "end": 8796,
+   "heading": "Our Corporate Group"
+  },
+  "p047.s1": {
+   "start": 8797,
+   "end": 8871,
+   "heading": "Our Corporate Group"
+  },
+  "p047.s2": {
+   "start": 8872,
+   "end": 9210,
+   "heading": "Our Corporate Group"
+  },
+  "p048.s1": {
+   "start": 9211,
+   "end": 9230,
+   "heading": "Other Third Parties"
+  },
+  "p049.s1": {
+   "start": 9231,
+   "end": 9344,
+   "heading": "Other Third Parties"
+  },
+  "p050.s1": {
+   "start": 9345,
+   "end": 9380,
+   "heading": "Other Third Parties"
+  },
+  "p050.s2": {
+   "start": 9381,
+   "end": 9619,
+   "heading": "Other Third Parties"
+  },
+  "p051.s1": {
+   "start": 9620,
+   "end": 9672,
+   "heading": "Other Third Parties"
+  },
+  "p051.s2": {
+   "start": 9673,
+   "end": 9917,
+   "heading": "Other Third Parties"
+  },
+  "p052.s1": {
+   "start": 9918,
+   "end": 10094,
+   "heading": "Other Third Parties"
+  },
+  "p053.s1": {
+   "start": 10095,
+   "end": 10242,
+   "heading": "Other Third Parties"
+  },
+  "p053.s2": {
+   "start": 10243,
+   "end": 10410,
+   "heading": "Other Third Parties"
+  },
+  "p054.s1": {
+   "start": 10411,
+   "end": 10539,
+   "heading": "Other Third Parties"
+  },
+  "p055.s1": {
+   "start": 10540,
+   "end": 10652,
+   "heading": "Other Third Parties"
+  },
+  "p056.s1": {
+   "start": 10653,
+   "end": 10670,
+   "heading": "With Your Consent"
+  },
+  "p057.s1": {
+   "start": 10671,
+   "end": 10817,
+   "heading": "With Your Consent"
+  },
+  "p057.s2": {
+   "start": 10818,
+   "end": 11038,
+   "heading": "With Your Consent"
+  },
+  "p057.s3": {
+   "start": 11039,
+   "end": 11167,
+   "heading": "With Your Consent"
+  },
+  "p057.s4": {
+   "start": 11168,
+   "end": 11371,
+   "heading": "With Your Consent"
+  },
+  "p057.s5": {
+   "start": 11372,
+   "end": 11839,
+   "heading": "With Your Consent"
+  },
+  "p058.s1": {
+   "start": 11840,
+   "end": 11860,
+   "heading": "With Your Consent"
+  },
+  "p058.s2": {
+   "start": 11861,
+   "end": 11980,
+   "heading": "With Your Consent"
+  },
+  "p058.s3": {
+   "start": 11981,
+   "end": 12148,
+   "heading": "With Your Consent"
+  },
+  "p059.s1": {
+   "start": 12149,
+   "end": 12160,
+   "heading": "Your Rights"
+  },
+  "p060.s1": {
+   "start": 12161,
+   "end": 12326,
+   "heading": "Your Rights"
+  },
+  "p061.s1": {
+   "start": 12327,
+   "end": 12439,
+   "heading": "Your Rights"
+  },
+  "p062.s1": {
+   "start": 12440,
+   "end": 12609,
+   "heading": "Your Rights"
+  },
+  "p063.s1": {
+   "start": 12610,
+   "end": 12703,
+   "heading": "Your Rights"
+  },
+  "p063.s2": {
+   "start": 12704,
+   "end": 12860,
+   "heading": "Your Rights"
+  },
+  "p064.s1": {
+   "start": 12861,
+   "end": 12944,
+   "heading": "Your Rights"
+  },
+  "p065.s1": {
+   "start": 12945,
+   "end": 12997,
+   "heading": "Your Rights"
+  },
+  "p066.s1": {
+   "start": 12998,
+   "end": 13062,
+   "heading": "Your Rights"
+  },
+  "p067.s1": {
+   "start": 13063,
+   "end": 13102,
+   "heading": "Your Rights"
+  },
+  "p068.s1": {
+   "start": 13103,
+   "end": 13159,
+   "heading": "Your Rights"
+  },
+  "p069.s1": {
+   "start": 13160,
+   "end": 13250,
+   "heading": "Your Rights"
+  },
+  "p070.s1": {
+   "start": 13251,
+   "end": 13527,
+   "heading": "Your Rights"
+  },
+  "p071.s1": {
+   "start": 13528,
+   "end": 13712,
+   "heading": "Your Rights"
+  },
+  "p071.s2": {
+   "start": 13713,
+   "end": 13968,
+   "heading": "Your Rights"
+  },
+  "p072.s1": {
+   "start": 13969,
+   "end": 14073,
+   "heading": "Your Rights"
+  },
+  "p073.s1": {
+   "start": 14074,
+   "end": 14086,
+   "heading": "Your Choices"
+  },
+  "p074.s1": {
+   "start": 14087,
+   "end": 14167,
+   "heading": "Your Choices"
+  },
+  "p074.s2": {
+   "start": 14168,
+   "end": 14214,
+   "heading": "Your Choices"
+  },
+  "p074.s3": {
+   "start": 14215,
+   "end": 14307,
+   "heading": "Your Choices"
+  },
+  "p075.s1": {
+   "start": 14308,
+   "end": 14474,
+   "heading": "Your Choices"
+  },
+  "p076.s1": {
+   "start": 14475,
+   "end": 14634,
+   "heading": "Your Choices"
+  },
+  "p076.s2": {
+   "start": 14635,
+   "end": 14726,
+   "heading": "Your Choices"
+  },
+  "p077.s1": {
+   "start": 14727,
+   "end": 14814,
+   "heading": "Your Choices"
+  },
+  "p077.s2": {
+   "start": 14815,
+   "end": 15133,
+   "heading": "Your Choices"
+  },
+  "p078.s1": {
+   "start": 15134,
+   "end": 15168,
+   "heading": "The Security of Your Personal Data"
+  },
+  "p079.s1": {
+   "start": 15169,
+   "end": 15223,
+   "heading": "The Security of Your Personal Data"
+  },
+  "p079.s2": {
+   "start": 15224,
+   "end": 15433,
+   "heading": "The Security of Your Personal Data"
+  },
+  "p079.s3": {
+   "start": 15434,
+   "end": 15525,
+   "heading": "The Security of Your Personal Data"
+  },
+  "p079.s4": {
+   "start": 15526,
+   "end": 15604,
+   "heading": "The Security of Your Personal Data"
+  },
+  "p079.s5": {
+   "start": 15605,
+   "end": 15664,
+   "heading": "The Security of Your Personal Data"
+  },
+  "p079.s6": {
+   "start": 15665,
+   "end": 15777,
+   "heading": "The Security of Your Personal Data"
+  },
+  "p079.s7": {
+   "start": 15778,
+   "end": 15928,
+   "heading": "The Security of Your Personal Data"
+  },
+  "p080.s1": {
+   "start": 15929,
+   "end": 15967,
+   "heading": "How Long Do We Keep Your Personal Data"
+  },
+  "p081.s1": {
+   "start": 15968,
+   "end": 16099,
+   "heading": "How Long Do We Keep Your Personal Data"
+  },
+  "p081.s2": {
+   "start": 16100,
+   "end": 16395,
+   "heading": "How Long Do We Keep Your Personal Data"
+  },
+  "p082.s1": {
+   "start": 16396,
+   "end": 16725,
+   "heading": "How Long Do We Keep Your Personal Data"
+  },
+  "p082.s2": {
+   "start": 16726,
+   "end": 16814,
+   "heading": "How Long Do We Keep Your Personal Data"
+  },
+  "p082.s3": {
+   "start": 16815,
+   "end": 16941,
+   "heading": "How Long Do We Keep Your Personal Data"
+  },
+  "p083.s1": {
+   "start": 16942,
+   "end": 17193,
+   "heading": "How Long Do We Keep Your Personal Data"
+  },
+  "p084.s1": {
+   "start": 17194,
+   "end": 17227,
+   "heading": "Where We Store Your Personal Data"
+  },
+  "p085.s1": {
+   "start": 17228,
+   "end": 17338,
+   "heading": "Where We Store Your Personal Data"
+  },
+  "p085.s2": {
+   "start": 17339,
+   "end": 17461,
+   "heading": "Where We Store Your Personal Data"
+  },
+  "p086.s1": {
+   "start": 17462,
+   "end": 17728,
+   "heading": "Where We Store Your Personal Data"
+  },
+  "p087.s1": {
+   "start": 17729,
+   "end": 17763,
+   "heading": "Personal Data relating to Children"
+  },
+  "p088.s1": {
+   "start": 17764,
+   "end": 17864,
+   "heading": "Personal Data relating to Children"
+  },
+  "p088.s2": {
+   "start": 17865,
+   "end": 18073,
+   "heading": "Personal Data relating to Children"
+  },
+  "p088.s3": {
+   "start": 18074,
+   "end": 18196,
+   "heading": "Personal Data relating to Children"
+  },
+  "p089.s1": {
+   "start": 18197,
+   "end": 18219,
+   "heading": "Privacy Policy Updates"
+  },
+  "p090.s1": {
+   "start": 18220,
+   "end": 18291,
+   "heading": "Privacy Policy Updates"
+  },
+  "p090.s2": {
+   "start": 18292,
+   "end": 18512,
+   "heading": "Privacy Policy Updates"
+  },
+  "p090.s3": {
+   "start": 18513,
+   "end": 18637,
+   "heading": "Privacy Policy Updates"
+  },
+  "p091.s1": {
+   "start": 18638,
+   "end": 18648,
+   "heading": "Contact Us"
+  },
+  "p092.s1": {
+   "start": 18649,
+   "end": 18792,
+   "heading": "Contact Us"
+  },
+  "p093.s1": {
+   "start": 18793,
+   "end": 18836,
+   "heading": "Supplemental Clause - Jurisdiction-Specific"
+  },
+  "p094.s1": {
+   "start": 18837,
+   "end": 18888,
+   "heading": "European Economic Area (“EEA”), Switzerland, and UK"
+  },
+  "p095.s1": {
+   "start": 18889,
+   "end": 19015,
+   "heading": "European Economic Area (“EEA”), Switzerland, and UK"
+  },
+  "p096.s1": {
+   "start": 19016,
+   "end": 19043,
+   "heading": "European Economic Area (“EEA”), Switzerland, and UK"
+  },
+  "p097.s1": {
+   "start": 19044,
+   "end": 19095,
+   "heading": "European Economic Area (“EEA”), Switzerland, and UK"
+  },
+  "p097.s2": {
+   "start": 19096,
+   "end": 19212,
+   "heading": "European Economic Area (“EEA”), Switzerland, and UK"
+  },
+  "p098.s1": {
+   "start": 19213,
+   "end": 19308,
+   "heading": "European Economic Area (“EEA”), Switzerland, and UK"
+  },
+  "p098.s2": {
+   "start": 19309,
+   "end": 19434,
+   "heading": "European Economic Area (“EEA”), Switzerland, and UK"
+  },
+  "p099.s1": {
+   "start": 19435,
+   "end": 19456,
+   "heading": "Purpose of processing"
+  },
+  "p100.s1": {
+   "start": 19457,
+   "end": 19481,
+   "heading": "Personal Data categories"
+  },
+  "p101.s1": {
+   "start": 19482,
+   "end": 19493,
+   "heading": "Legal bases"
+  },
+  "p102.s1": {
+   "start": 19494,
+   "end": 19593,
+   "heading": "Legal bases"
+  },
+  "p102.s2": {
+   "start": 19594,
+   "end": 19738,
+   "heading": "Legal bases"
+  },
+  "p103.s1": {
+   "start": 19739,
+   "end": 19760,
+   "heading": "Account Personal Data"
+  },
+  "p104.s1": {
+   "start": 19761,
+   "end": 19771,
+   "heading": "User Input"
+  },
+  "p105.s1": {
+   "start": 19772,
+   "end": 19805,
+   "heading": "Personal Data When You Contact Us"
+  },
+  "p106.s1": {
+   "start": 19806,
+   "end": 19838,
+   "heading": "Device and Network Personal Data"
+  },
+  "p107.s1": {
+   "start": 19839,
+   "end": 19856,
+   "heading": "Log Personal Data"
+  },
+  "p108.s1": {
+   "start": 19857,
+   "end": 19879,
+   "heading": "Location Personal Data"
+  },
+  "p109.s1": {
+   "start": 19880,
+   "end": 19887,
+   "heading": "Cookies"
+  },
+  "p110.s1": {
+   "start": 19888,
+   "end": 19965,
+   "heading": "Cookies"
+  },
+  "p110.s2": {
+   "start": 19966,
+   "end": 20052,
+   "heading": "Cookies"
+  },
+  "p111.s1": {
+   "start": 20053,
+   "end": 20166,
+   "heading": "Cookies"
+  },
+  "p112.s1": {
+   "start": 20167,
+   "end": 20188,
+   "heading": "Cookies"
+  },
+  "p112.s2": {
+   "start": 20189,
+   "end": 20511,
+   "heading": "Cookies"
+  },
+  "p113.s1": {
+   "start": 20512,
+   "end": 20640,
+   "heading": "Cookies"
+  },
+  "p113.s2": {
+   "start": 20641,
+   "end": 20786,
+   "heading": "Cookies"
+  },
+  "p114.s1": {
+   "start": 20787,
+   "end": 20808,
+   "heading": "Account Personal Data"
+  },
+  "p115.s1": {
+   "start": 20809,
+   "end": 20819,
+   "heading": "User Input"
+  },
+  "p116.s1": {
+   "start": 20820,
+   "end": 20853,
+   "heading": "Personal Data When You Contact Us"
+  },
+  "p117.s1": {
+   "start": 20854,
+   "end": 20886,
+   "heading": "Device and Network Personal Data"
+  },
+  "p118.s1": {
+   "start": 20887,
+   "end": 20904,
+   "heading": "Log Personal Data"
+  },
+  "p119.s1": {
+   "start": 20905,
+   "end": 20927,
+   "heading": "Location Personal Data"
+  },
+  "p120.s1": {
+   "start": 20928,
+   "end": 20935,
+   "heading": "Cookies"
+  },
+  "p121.s1": {
+   "start": 20936,
+   "end": 21194,
+   "heading": "Cookies"
+  },
+  "p122.s1": {
+   "start": 21195,
+   "end": 21300,
+   "heading": "Cookies"
+  },
+  "p123.s1": {
+   "start": 21301,
+   "end": 21460,
+   "heading": "Cookies"
+  },
+  "p123.s2": {
+   "start": 21461,
+   "end": 21603,
+   "heading": "Cookies"
+  },
+  "p124.s1": {
+   "start": 21604,
+   "end": 21625,
+   "heading": "Account Personal Data"
+  },
+  "p125.s1": {
+   "start": 21626,
+   "end": 21636,
+   "heading": "User Input"
+  },
+  "p126.s1": {
+   "start": 21637,
+   "end": 21670,
+   "heading": "Personal Data When You Contact Us"
+  },
+  "p127.s1": {
+   "start": 21671,
+   "end": 21703,
+   "heading": "Device and Network Personal Data"
+  },
+  "p128.s1": {
+   "start": 21704,
+   "end": 21721,
+   "heading": "Log Personal Data"
+  },
+  "p129.s1": {
+   "start": 21722,
+   "end": 21744,
+   "heading": "Location Personal Data"
+  },
+  "p130.s1": {
+   "start": 21745,
+   "end": 21752,
+   "heading": "Cookies"
+  },
+  "p131.s1": {
+   "start": 21753,
+   "end": 21791,
+   "heading": "Cookies"
+  },
+  "p131.s2": {
+   "start": 21792,
+   "end": 22147,
+   "heading": "Cookies"
+  },
+  "p132.s1": {
+   "start": 22148,
+   "end": 22401,
+   "heading": "Cookies"
+  },
+  "p133.s1": {
+   "start": 22402,
+   "end": 22558,
+   "heading": "Cookies"
+  },
+  "p134.s1": {
+   "start": 22559,
+   "end": 22580,
+   "heading": "Account Personal Data"
+  },
+  "p135.s1": {
+   "start": 22581,
+   "end": 22614,
+   "heading": "Personal Data When You Contact Us"
+  },
+  "p136.s1": {
+   "start": 22615,
+   "end": 22637,
+   "heading": "Location Personal Data"
+  },
+  "p137.s1": {
+   "start": 22638,
+   "end": 22715,
+   "heading": "Location Personal Data"
+  },
+  "p138.s1": {
+   "start": 22716,
+   "end": 22825,
+   "heading": "Location Personal Data"
+  },
+  "p139.s1": {
+   "start": 22826,
+   "end": 23049,
+   "heading": "Location Personal Data"
+  },
+  "p140.s1": {
+   "start": 23050,
+   "end": 23071,
+   "heading": "Account Personal Data"
+  },
+  "p141.s1": {
+   "start": 23072,
+   "end": 23082,
+   "heading": "User Input"
+  },
+  "p142.s1": {
+   "start": 23083,
+   "end": 23116,
+   "heading": "Personal Data When You Contact Us"
+  },
+  "p143.s1": {
+   "start": 23117,
+   "end": 23149,
+   "heading": "Device and Network Personal Data"
+  },
+  "p144.s1": {
+   "start": 23150,
+   "end": 23167,
+   "heading": "Log Personal Data"
+  },
+  "p145.s1": {
+   "start": 23168,
+   "end": 23190,
+   "heading": "Location Personal Data"
+  },
+  "p146.s1": {
+   "start": 23191,
+   "end": 23198,
+   "heading": "Cookies"
+  },
+  "p147.s1": {
+   "start": 23199,
+   "end": 23396,
+   "heading": "Cookies"
+  },
+  "p148.s1": {
+   "start": 23397,
+   "end": 23469,
+   "heading": "Cookies"
+  },
+  "p149.s1": {
+   "start": 23470,
+   "end": 23482,
+   "heading": "Data storage"
+  },
+  "p150.s1": {
+   "start": 23483,
+   "end": 23593,
+   "heading": "Data storage"
+  },
+  "p150.s2": {
+   "start": 23594,
+   "end": 23716,
+   "heading": "Data storage"
+  },
+  "p151.s1": {
+   "start": 23717,
+   "end": 23728,
+   "heading": "Your rights"
+  },
+  "p152.s1": {
+   "start": 23729,
+   "end": 23759,
+   "heading": "Your rights"
+  },
+  "p153.s1": {
+   "start": 23760,
+   "end": 23910,
+   "heading": "Your rights"
+  },
+  "p154.s1": {
+   "start": 23911,
+   "end": 24041,
+   "heading": "Your rights"
+  },
+  "p155.s1": {
+   "start": 24042,
+   "end": 24449,
+   "heading": "Your rights"
+  },
+  "p156.s1": {
+   "start": 24450,
+   "end": 24685,
+   "heading": "Your rights"
+  },
+  "p157.s1": {
+   "start": 24686,
+   "end": 24990,
+   "heading": "Your rights"
+  },
+  "p158.s1": {
+   "start": 24991,
+   "end": 25191,
+   "heading": "Your rights"
+  },
+  "p158.s2": {
+   "start": 25192,
+   "end": 25431,
+   "heading": "Your rights"
+  },
+  "p159.s1": {
+   "start": 25432,
+   "end": 25892,
+   "heading": "Your rights"
+  },
+  "p160.s1": {
+   "start": 25893,
+   "end": 25980,
+   "heading": "Your rights"
+  },
+  "p161.s1": {
+   "start": 25981,
+   "end": 26055,
+   "heading": "Your rights"
+  },
+  "p162.s1": {
+   "start": 26056,
+   "end": 26211,
+   "heading": "Your rights"
+  },
+  "p163.s1": {
+   "start": 26212,
+   "end": 26312,
+   "heading": "Your rights"
+  },
+  "p164.s1": {
+   "start": 26313,
+   "end": 26519,
+   "heading": "Your rights"
+  },
+  "p165.s1": {
+   "start": 26520,
+   "end": 26540,
+   "heading": "Your rights"
+  },
+  "p166.s1": {
+   "start": 26541,
+   "end": 26561,
+   "heading": "Your rights"
+  },
+  "p167.s1": {
+   "start": 26562,
+   "end": 26784,
+   "heading": "Your rights"
+  },
+  "p167.s2": {
+   "start": 26785,
+   "end": 26931,
+   "heading": "Your rights"
+  },
+  "p168.s1": {
+   "start": 26932,
+   "end": 26951,
+   "heading": "Your rights"
+  },
+  "p169.s1": {
+   "start": 26952,
+   "end": 26971,
+   "heading": "Your rights"
+  }
+ },
+ "flags": {
+  "G1": {
+   "question": "What personal data does the company itself collect, and how broad is it?",
+   "search_log": {
+    "we collect": {
+     "regex": "\\bwe (?:may )?(?:collect|receive|obtain|gather|process)\\b",
+     "tier": "core",
+     "sentences_matched": 21
+    },
+    "information/data we collect": {
+     "regex": "\\b(?:information|data) (?:that )?we (?:collect|receive|obtain)\\b",
+     "tier": "core",
+     "sentences_matched": 5
+    },
+    "collected automatically": {
+     "regex": "\\bautomatically (?:collect|receive|log|record)|collected automatically\\b",
+     "tier": "core",
+     "sentences_matched": 6
+    },
+    "you provide": {
+     "regex": "\\b(?:you|users) (?:provide|submit|give|share|upload|enter)\\b",
+     "tier": "core",
+     "sentences_matched": 7
+    },
+    "location": {
+     "regex": "\\b(?:precise |approximate |geo-?)?location\\b|\\bgeolocation\\b|\\bGPS\\b",
+     "tier": "support",
+     "sentences_matched": 9
+    },
+    "device / identifiers": {
+     "regex": "\\bdevice (?:information|data|identifiers?|id)\\b|\\bIP address(?:es)?\\b|\\badvertising (?:id|identifier)s?\\b|\\bIMEI\\b",
+     "tier": "support",
+     "sentences_matched": 6
+    },
+    "content / messages": {
+     "regex": "\\b(?:content|messages?|prompts?|inputs?|uploads?|files|photos|voice|audio|recordings?)\\b",
+     "tier": "support",
+     "sentences_matched": 20
+    },
+    "contacts": {
+     "regex": "\\bcontacts?(?: list| book)?\\b|\\baddress book\\b",
+     "tier": "support",
+     "sentences_matched": 14
+    },
+    "sensitive / biometric / financial": {
+     "regex": "\\bsensitive\\b|\\bbiometric\\b|\\bhealth\\b|\\bfinancial (?:information|data)\\b|\\bcard (?:number|details)\\b|\\bbank account\\b|\\bKYC\\b|\\bAadhaar\\b|\\bPAN\\b",
+     "tier": "support",
+     "sentences_matched": 5
+    },
+    "from other sources": {
+     "regex": "\\b(?:from|via) (?:third[- ]part(?:y|ies)|other sources|partners|data brokers|publicly available sources)\\b",
+     "tier": "support",
+     "sentences_matched": 5
+    },
+    "usage / log data": {
+     "regex": "\\b(?:usage|log|activity|interaction) (?:data|information)\\b|\\blog files?\\b",
+     "tier": "support",
+     "sentences_matched": 0
+    }
+   },
+   "n_candidates": 31,
+   "candidates": [
+    {
+     "sid": "p009.s1",
+     "heading": "What Personal Data We Collect",
+     "core": [
+      "we collect",
+      "collected automatically",
+      "you provide"
+     ],
+     "support": [
+      "from other sources"
+     ],
+     "score": 10
+    },
+    {
+     "sid": "p047.s2",
+     "heading": "Our Corporate Group",
+     "core": [
+      "collected automatically",
+      "you provide"
+     ],
+     "support": [
+      "content / messages",
+      "from other sources"
+     ],
+     "score": 8
+    },
+    {
+     "sid": "p013.s2",
+     "heading": "Personal Data You Provide",
+     "core": [
+      "we collect",
+      "you provide"
+     ],
+     "support": [
+      "content / messages"
+     ],
+     "score": 7
+    },
+    {
+     "sid": "p039.s2",
+     "heading": "Service Providers",
+     "core": [
+      "collected automatically",
+      "you provide"
+     ],
+     "support": [
+      "from other sources"
+     ],
+     "score": 7
+    },
+    {
+     "sid": "p008.s1",
+     "heading": "What Personal Data We Collect",
+     "core": [
+      "we collect",
+      "information/data we collect"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p012.s2",
+     "heading": "Personal Data You Provide",
+     "core": [
+      "we collect",
+      "you provide"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p051.s2",
+     "heading": "Other Third Parties",
+     "core": [
+      "we collect",
+      "information/data we collect"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p085.s1",
+     "heading": "Where We Store Your Personal Data",
+     "core": [
+      "we collect",
+      "information/data we collect"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p112.s2",
+     "heading": "Cookies",
+     "core": [
+      "we collect",
+      "information/data we collect"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p150.s1",
+     "heading": "Data storage",
+     "core": [
+      "we collect",
+      "information/data we collect"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p019.s2",
+     "heading": "Automatically Collected Personal Data",
+     "core": [
+      "collected automatically"
+     ],
+     "support": [
+      "location",
+      "device / identifiers"
+     ],
+     "score": 5
+    },
+    {
+     "sid": "p014.s2",
+     "heading": "Personal Data You Provide",
+     "core": [
+      "we collect"
+     ],
+     "support": [
+      "contacts"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p016.s1",
+     "heading": "Automatically Collected Personal Data",
+     "core": [
+      "collected automatically"
+     ],
+     "support": [
+      "device / identifiers"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p024.s1",
+     "heading": "Personal Data from Other Sources",
+     "core": [
+      "we collect"
+     ],
+     "support": [
+      "from other sources"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p010.s1",
+     "heading": "Personal Data You Provide",
+     "core": [
+      "you provide"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p015.s1",
+     "heading": "Automatically Collected Personal Data",
+     "core": [
+      "collected automatically"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p017.s2",
+     "heading": "Automatically Collected Personal Data",
+     "core": [
+      "we collect"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p018.s2",
+     "heading": "Automatically Collected Personal Data",
+     "core": [
+      "we collect"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p021.s2",
+     "heading": "Automatically Collected Personal Data",
+     "core": [
+      "we collect"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p025.s2",
+     "heading": "Personal Data from Other Sources",
+     "core": [
+      "we collect"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p026.s2",
+     "heading": "Personal Data from Other Sources",
+     "core": [
+      "we collect"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p027.s2",
+     "heading": "Personal Data from Other Sources",
+     "core": [
+      "we collect"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p057.s4",
+     "heading": "With Your Consent",
+     "core": [
+      "you provide"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p062.s1",
+     "heading": "Your Rights",
+     "core": [
+      "we collect"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p066.s1",
+     "heading": "Your Rights",
+     "core": [
+      "we collect"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p082.s1",
+     "heading": "How Long Do We Keep Your Personal Data",
+     "core": [
+      "we collect"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p098.s1",
+     "heading": "European Economic Area (“EEA”), Switzerland, and UK",
+     "core": [
+      "we collect"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p153.s1",
+     "heading": "Your rights",
+     "core": [
+      "we collect"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p011.s1",
+     "heading": "Personal Data You Provide",
+     "core": [],
+     "support": [
+      "content / messages",
+      "contacts"
+     ],
+     "score": 2
+    },
+    {
+     "sid": "p028.s1",
+     "heading": "Personal Data from Other Sources",
+     "core": [],
+     "support": [
+      "location",
+      "sensitive / biometric / financial"
+     ],
+     "score": 2
+    },
+    {
+     "sid": "p057.s5",
+     "heading": "With Your Consent",
+     "core": [],
+     "support": [
+      "content / messages",
+      "sensitive / biometric / financial"
+     ],
+     "score": 2
+    }
+   ]
+  },
+  "G2": {
+   "question": "Does the company sell personal data, or share it with / let third parties collect it for advertising, marketing or cross-site tracking?",
+   "search_log": {
+    "advertis*": {
+     "regex": "\\badvertis(?:e|er|ers|ing|ement|ements)\\b|\\bads\\b",
+     "tier": "core",
+     "sentences_matched": 2
+    },
+    "targeted / interest-based / behavioural ads": {
+     "regex": "\\b(?:targeted|interest[- ]based|personali[sz]ed|behaviou?ral|cross[- ]context(?:ual)?)(?: behaviou?ral)? (?:advertising|ads|marketing)\\b",
+     "tier": "core",
+     "sentences_matched": 2
+    },
+    "sell / sale of data": {
+     "regex": "\\b(?:sell|sells|selling|sold|sale)\\b",
+     "tier": "core",
+     "sentences_matched": 3
+    },
+    "pixel / SDK / tracking tech": {
+     "regex": "\\bpixels?\\b|\\bSDKs?\\b|\\bweb beacons?\\b|\\btracking (?:technolog(?:y|ies)|tools?)\\b|\\btrackers?\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "ad / marketing partners": {
+     "regex": "\\b(?:advertising|ad|marketing) (?:partners?|networks?|platforms?|companies)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "opt-out of sale/ads / GPC": {
+     "regex": "\\bdo not sell\\b|\\bglobal privacy control\\b|\\bopt[- ]out of (?:the )?(?:sale|sharing|targeted|personali[sz]ed|interest)",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "cookies": {
+     "regex": "\\bcookies?\\b",
+     "tier": "support",
+     "sentences_matched": 11
+    },
+    "analytics provider": {
+     "regex": "\\banalytics (?:providers?|partners?|services|tools)\\b|\\bGoogle Analytics\\b",
+     "tier": "support",
+     "sentences_matched": 1
+    },
+    "share with third parties": {
+     "regex": "\\bshare\\b.{0,40}\\bthird[- ]part(?:y|ies)\\b|\\bthird[- ]part(?:y|ies)\\b.{0,40}\\b(?:share|disclose|collect)",
+     "tier": "support",
+     "sentences_matched": 2
+    },
+    "marketing": {
+     "regex": "\\bmarketing\\b|\\bpromotional\\b",
+     "tier": "support",
+     "sentences_matched": 1
+    }
+   },
+   "n_candidates": 4,
+   "candidates": [
+    {
+     "sid": "p071.s1",
+     "heading": "Your Rights",
+     "core": [
+      "advertis*",
+      "targeted / interest-based / behavioural ads",
+      "sell / sale of data"
+     ],
+     "support": [],
+     "score": 9
+    },
+    {
+     "sid": "p071.s2",
+     "heading": "Your Rights",
+     "core": [
+      "advertis*",
+      "targeted / interest-based / behavioural ads",
+      "sell / sale of data"
+     ],
+     "support": [],
+     "score": 9
+    },
+    {
+     "sid": "p020.s2",
+     "heading": "Automatically Collected Personal Data",
+     "core": [
+      "pixel / SDK / tracking tech"
+     ],
+     "support": [
+      "cookies"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p050.s2",
+     "heading": "Other Third Parties",
+     "core": [
+      "sell / sale of data"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "G3": {
+   "question": "Does the company build profiles or inferences about users, or make automated decisions about them?",
+   "search_log": {
+    "profiling": {
+     "regex": "\\bprofil(?:e|es|ing)\\b",
+     "tier": "core",
+     "sentences_matched": 4
+    },
+    "automated decision": {
+     "regex": "\\bautomated (?:decision|decision-making|processing|means|systems?)\\b",
+     "tier": "core",
+     "sentences_matched": 3
+    },
+    "infer / inference": {
+     "regex": "\\binfer(?:s|red|ring|ences?)?\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "legal or similarly significant": {
+     "regex": "\\blegal (?:or similarly significant )?effects?\\b|\\bsimilarly significant\\b",
+     "tier": "core",
+     "sentences_matched": 3
+    },
+    "scoring": {
+     "regex": "\\b(?:risk|credit|fraud) (?:scor(?:e|es|ing)|assessment)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "personalise / recommend": {
+     "regex": "\\bpersonali[sz](?:e|es|ed|ing|ation)\\b|\\brecommend(?:ation|ations|s|ed)?\\b|\\btailor(?:ed)?\\b|\\bcustomi[sz]e\\b",
+     "tier": "support",
+     "sentences_matched": 3
+    },
+    "interests / preferences / segments": {
+     "regex": "\\b(?:interests?|preferences|segments?|demographics?)\\b",
+     "tier": "support",
+     "sentences_matched": 10
+    },
+    "predict / analyse behaviour": {
+     "regex": "\\bpredict(?:ive|ions?)?\\b|\\banaly[sz]e?(?:s|d)? (?:your )?(?:behaviou?r|usage|activity)\\b",
+     "tier": "support",
+     "sentences_matched": 0
+    }
+   },
+   "n_candidates": 5,
+   "candidates": [
+    {
+     "sid": "p036.s1",
+     "heading": "How We Use Your Personal Data",
+     "core": [
+      "profiling",
+      "automated decision",
+      "legal or similarly significant"
+     ],
+     "support": [],
+     "score": 9
+    },
+    {
+     "sid": "p071.s2",
+     "heading": "Your Rights",
+     "core": [
+      "profiling",
+      "automated decision",
+      "legal or similarly significant"
+     ],
+     "support": [],
+     "score": 9
+    },
+    {
+     "sid": "p157.s1",
+     "heading": "Your rights",
+     "core": [
+      "profiling",
+      "legal or similarly significant"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p071.s1",
+     "heading": "Your Rights",
+     "core": [
+      "profiling"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p155.s1",
+     "heading": "Your rights",
+     "core": [
+      "automated decision"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "G4": {
+   "question": "How specific is the policy about how long personal data is kept?",
+   "search_log": {
+    "retain / retention": {
+     "regex": "\\bretain(?:s|ed|ing)?\\b|\\bretention\\b",
+     "tier": "core",
+     "sentences_matched": 5
+    },
+    "keep / store for": {
+     "regex": "\\b(?:keep|kept|store|stored|hold)\\b.{0,60}\\b(?:for|until|as long as|period)\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "as long as necessary": {
+     "regex": "\\bas long as (?:is )?(?:necessary|needed|required|reasonably)\\b|\\bno longer (?:than|necessary|needed)\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "numeric period": {
+     "regex": "\\b\\d+\\s*(?:-\\s*)?(?:days?|weeks?|months?|years?)\\b|\\b(?:thirty|sixty|ninety|one|two|three|five|six|seven|ten|twelve|eighteen|twenty-four)\\s+(?:days?|months?|years?)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "indefinitely": {
+     "regex": "\\bindefinite(?:ly)?\\b|\\bpermanently\\b|\\bforever\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "delete after / deletion": {
+     "regex": "\\b(?:delete|deleted|deletion|erase|purge|dispose)\\b",
+     "tier": "support",
+     "sentences_matched": 5
+    },
+    "legal obligation": {
+     "regex": "\\b(?:legal|statutory|regulatory) (?:obligations?|requirements?|purposes)\\b|\\brequired by (?:applicable )?law\\b",
+     "tier": "support",
+     "sentences_matched": 9
+    }
+   },
+   "n_candidates": 5,
+   "candidates": [
+    {
+     "sid": "p082.s1",
+     "heading": "How Long Do We Keep Your Personal Data",
+     "core": [
+      "retain / retention",
+      "keep / store for"
+     ],
+     "support": [
+      "legal obligation"
+     ],
+     "score": 7
+    },
+    {
+     "sid": "p081.s1",
+     "heading": "How Long Do We Keep Your Personal Data",
+     "core": [
+      "retain / retention",
+      "as long as necessary"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p081.s2",
+     "heading": "How Long Do We Keep Your Personal Data",
+     "core": [
+      "retain / retention"
+     ],
+     "support": [
+      "legal obligation"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p159.s1",
+     "heading": "Your rights",
+     "core": [
+      "retain / retention"
+     ],
+     "support": [
+      "delete after / deletion"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p153.s1",
+     "heading": "Your rights",
+     "core": [
+      "retain / retention"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "G5": {
+   "question": "What rights do users have to access, correct and delete their data, and for whom?",
+   "search_log": {
+    "right to / your rights": {
+     "regex": "\\bright(?:s)? (?:to|of)\\b|\\byour (?:privacy )?rights\\b|\\bdata subject\\b|\\bdata principal\\b",
+     "tier": "core",
+     "sentences_matched": 23
+    },
+    "access": {
+     "regex": "\\baccess (?:to )?(?:your|the) (?:personal )?(?:data|information)\\b|\\brequest (?:a copy|access)\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "correct / rectify / update": {
+     "regex": "\\b(?:correct|correction|rectif(?:y|ication)|update|amend)\\b",
+     "tier": "core",
+     "sentences_matched": 6
+    },
+    "delete / erase": {
+     "regex": "\\b(?:delete|deletion|erase|erasure|right to be forgotten)\\b",
+     "tier": "core",
+     "sentences_matched": 6
+    },
+    "portability / export": {
+     "regex": "\\bportab(?:le|ility)\\b|\\bexport (?:your )?data\\b|\\bdownload (?:your|a copy)\\b",
+     "tier": "core",
+     "sentences_matched": 2
+    },
+    "object / restrict": {
+     "regex": "\\bobject(?:ion)? to\\b|\\brestrict(?:ion)? (?:of )?(?:the )?processing\\b",
+     "tier": "support",
+     "sentences_matched": 5
+    },
+    "nominate (DPDP)": {
+     "regex": "\\bnominat(?:e|ion)\\b",
+     "tier": "support",
+     "sentences_matched": 0
+    },
+    "jurisdiction limits": {
+     "regex": "\\b(?:EEA|European|UK|California|residents? of|depending on where you live|applicable law)\\b",
+     "tier": "support",
+     "sentences_matched": 14
+    }
+   },
+   "n_candidates": 30,
+   "candidates": [
+    {
+     "sid": "p154.s1",
+     "heading": "Your rights",
+     "core": [
+      "right to / your rights",
+      "correct / rectify / update",
+      "delete / erase"
+     ],
+     "support": [
+      "object / restrict"
+     ],
+     "score": 10
+    },
+    {
+     "sid": "p159.s1",
+     "heading": "Your rights",
+     "core": [
+      "right to / your rights",
+      "delete / erase"
+     ],
+     "support": [
+      "object / restrict"
+     ],
+     "score": 7
+    },
+    {
+     "sid": "p067.s1",
+     "heading": "Your Rights",
+     "core": [
+      "right to / your rights",
+      "access"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p068.s1",
+     "heading": "Your Rights",
+     "core": [
+      "right to / your rights",
+      "correct / rectify / update"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p069.s1",
+     "heading": "Your Rights",
+     "core": [
+      "right to / your rights",
+      "delete / erase"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p070.s1",
+     "heading": "Your Rights",
+     "core": [
+      "right to / your rights",
+      "portability / export"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p155.s1",
+     "heading": "Your rights",
+     "core": [
+      "right to / your rights",
+      "portability / export"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p063.s2",
+     "heading": "Your Rights",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [
+      "jurisdiction limits"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p077.s2",
+     "heading": "Your Choices",
+     "core": [
+      "correct / rectify / update"
+     ],
+     "support": [
+      "jurisdiction limits"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p088.s2",
+     "heading": "Personal Data relating to Children",
+     "core": [
+      "delete / erase"
+     ],
+     "support": [
+      "jurisdiction limits"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p090.s2",
+     "heading": "Privacy Policy Updates",
+     "core": [
+      "correct / rectify / update"
+     ],
+     "support": [
+      "jurisdiction limits"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p158.s1",
+     "heading": "Your rights",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [
+      "object / restrict"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p160.s1",
+     "heading": "Your rights",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [
+      "object / restrict"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p002.s1",
+     "heading": "Last Update: Feb 10, 2026",
+     "core": [
+      "correct / rectify / update"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p059.s1",
+     "heading": "Your Rights",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p061.s1",
+     "heading": "Your Rights",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p063.s1",
+     "heading": "Your Rights",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p066.s1",
+     "heading": "Your Rights",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p071.s1",
+     "heading": "Your Rights",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p072.s1",
+     "heading": "Your Rights",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p074.s3",
+     "heading": "Your Choices",
+     "core": [
+      "delete / erase"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p075.s1",
+     "heading": "Your Choices",
+     "core": [
+      "delete / erase"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p090.s1",
+     "heading": "Privacy Policy Updates",
+     "core": [
+      "correct / rectify / update"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p151.s1",
+     "heading": "Your rights",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p153.s1",
+     "heading": "Your rights",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p156.s1",
+     "heading": "Your rights",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p161.s1",
+     "heading": "Your rights",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p163.s1",
+     "heading": "Your rights",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p164.s1",
+     "heading": "Your rights",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p167.s1",
+     "heading": "Your rights",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "G6": {
+   "question": "Is personal data transferred to or stored in other countries, and are safeguards named?",
+   "search_log": {
+    "transfer": {
+     "regex": "\\btransfer(?:s|red|ring)?\\b",
+     "tier": "core",
+     "sentences_matched": 2
+    },
+    "cross-border / international": {
+     "regex": "\\bcross[- ]border\\b|\\binternational(?:ly)?\\b|\\bglobal(?:ly)?\\b|\\bother countries\\b|\\boutside (?:of )?(?:your|the|India)\\b",
+     "tier": "core",
+     "sentences_matched": 3
+    },
+    "stored / processed in a country": {
+     "regex": "\\b(?:stored|processed|hosted|located)\\b.{0,40}\\b(?:in|outside) (?:the )?(?:United States|U\\.S\\.|US|India|EU|Europe|Singapore|China|countr(?:y|ies))\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "safeguard mechanisms": {
+     "regex": "\\bstandard contractual clauses\\b|\\bSCCs?\\b|\\badequacy\\b|\\bData Privacy Framework\\b|\\bbinding corporate rules\\b|\\bappropriate safeguards\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "localisation": {
+     "regex": "\\blocali[sz](?:ation|ed)\\b|\\bstored (?:only |exclusively )?(?:in|within) India\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "servers": {
+     "regex": "\\bservers?\\b|\\bdata cent(?:er|re)s?\\b",
+     "tier": "support",
+     "sentences_matched": 2
+    },
+    "jurisdiction": {
+     "regex": "\\bjurisdictions?\\b|\\bdata protection laws?\\b",
+     "tier": "support",
+     "sentences_matched": 4
+    }
+   },
+   "n_candidates": 5,
+   "candidates": [
+    {
+     "sid": "p086.s1",
+     "heading": "Where We Store Your Personal Data",
+     "core": [
+      "transfer",
+      "safeguard mechanisms"
+     ],
+     "support": [
+      "jurisdiction"
+     ],
+     "score": 7
+    },
+    {
+     "sid": "p085.s1",
+     "heading": "Where We Store Your Personal Data",
+     "core": [
+      "cross-border / international"
+     ],
+     "support": [
+      "servers"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p150.s1",
+     "heading": "Data storage",
+     "core": [
+      "cross-border / international"
+     ],
+     "support": [
+      "servers"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p052.s1",
+     "heading": "Other Third Parties",
+     "core": [
+      "cross-border / international"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p070.s1",
+     "heading": "Your Rights",
+     "core": [
+      "transfer"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "G7": {
+   "question": "What does the policy say about children and minors, and what age threshold and safeguards apply?",
+   "search_log": {
+    "child / children / minor": {
+     "regex": "\\bchild(?:ren)?(?:'s)?\\b|\\bminors?\\b|\\bkids?\\b|\\bteens?(?:agers?)?\\b|\\byouth\\b|\\byoung (?:people|users)\\b",
+     "tier": "core",
+     "sentences_matched": 5
+    },
+    "age threshold": {
+     "regex": "\\bunder (?:the age of )?\\d{1,2}\\b|\\b\\d{1,2} years? (?:of age|old)\\b|\\bage of (?:majority|\\d{1,2})\\b|\\bminimum age\\b|\\bage requirement\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "parent / guardian / consent": {
+     "regex": "\\bparent(?:s|al)?\\b|\\bguardians?\\b|\\bverifiable (?:parental )?consent\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "COPPA / age verification": {
+     "regex": "\\bCOPPA\\b|\\bage (?:verification|assurance|estimation|gate)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "knowingly collect": {
+     "regex": "\\bknowingly\\b",
+     "tier": "support",
+     "sentences_matched": 1
+    }
+   },
+   "n_candidates": 6,
+   "candidates": [
+    {
+     "sid": "p088.s1",
+     "heading": "Personal Data relating to Children",
+     "core": [
+      "child / children / minor"
+     ],
+     "support": [
+      "knowingly collect"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p028.s1",
+     "heading": "Personal Data from Other Sources",
+     "core": [
+      "child / children / minor"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p087.s1",
+     "heading": "Personal Data relating to Children",
+     "core": [
+      "child / children / minor"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p088.s2",
+     "heading": "Personal Data relating to Children",
+     "core": [
+      "child / children / minor"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p088.s3",
+     "heading": "Personal Data relating to Children",
+     "core": [
+      "child / children / minor"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p112.s2",
+     "heading": "Cookies",
+     "core": [
+      "age threshold"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "AI1": {
+   "question": "Does the company use users' personal data or content to train or improve AI / machine-learning models?",
+   "search_log": {
+    "train / training": {
+     "regex": "\\btrain(?:s|ed|ing)?\\b",
+     "tier": "core",
+     "sentences_matched": 8
+    },
+    "model(s)": {
+     "regex": "\\b(?:AI |machine[- ]learning |language |foundation |our )?models?\\b",
+     "tier": "core",
+     "sentences_matched": 10
+    },
+    "machine learning": {
+     "regex": "\\bmachine[- ]learning\\b|\\bML\\b",
+     "tier": "core",
+     "sentences_matched": 2
+    },
+    "artificial intelligence / AI": {
+     "regex": "\\bartificial intelligence\\b|\\bAI\\b|\\bgenerative\\b|\\bLLMs?\\b|\\blarge language\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "improve / develop services": {
+     "regex": "\\b(?:improve|develop|enhance|build)\\b.{0,30}\\b(?:services?|products?|features?|technolog(?:y|ies)|systems?|algorithms?)\\b",
+     "tier": "support",
+     "sentences_matched": 4
+    },
+    "content / inputs / outputs": {
+     "regex": "\\b(?:content|inputs?|outputs?|prompts?|conversations?|chats?|messages?|posts?|feedback)\\b",
+     "tier": "support",
+     "sentences_matched": 28
+    },
+    "research": {
+     "regex": "\\bresearch\\b",
+     "tier": "support",
+     "sentences_matched": 4
+    }
+   },
+   "n_candidates": 13,
+   "candidates": [
+    {
+     "sid": "p032.s1",
+     "heading": "How We Use Your Personal Data",
+     "core": [
+      "train / training",
+      "model(s)",
+      "machine learning"
+     ],
+     "support": [
+      "improve / develop services"
+     ],
+     "score": 10
+    },
+    {
+     "sid": "p113.s1",
+     "heading": "Cookies",
+     "core": [
+      "train / training",
+      "model(s)",
+      "machine learning"
+     ],
+     "support": [
+      "improve / develop services"
+     ],
+     "score": 10
+    },
+    {
+     "sid": "p047.s2",
+     "heading": "Our Corporate Group",
+     "core": [
+      "train / training",
+      "model(s)"
+     ],
+     "support": [
+      "content / inputs / outputs",
+      "research"
+     ],
+     "score": 8
+    },
+    {
+     "sid": "p007.s3",
+     "heading": "Introduction",
+     "core": [
+      "train / training",
+      "model(s)"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p027.s2",
+     "heading": "Personal Data from Other Sources",
+     "core": [
+      "train / training",
+      "model(s)"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p072.s1",
+     "heading": "Your Rights",
+     "core": [
+      "train / training",
+      "model(s)"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p013.s2",
+     "heading": "Personal Data You Provide",
+     "core": [
+      "model(s)"
+     ],
+     "support": [
+      "content / inputs / outputs"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p077.s1",
+     "heading": "Your Choices",
+     "core": [
+      "model(s)"
+     ],
+     "support": [
+      "content / inputs / outputs"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p077.s2",
+     "heading": "Your Choices",
+     "core": [
+      "model(s)"
+     ],
+     "support": [
+      "content / inputs / outputs"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p006.s1",
+     "heading": "Introduction",
+     "core": [
+      "artificial intelligence / AI"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p017.s3",
+     "heading": "Automatically Collected Personal Data",
+     "core": [
+      "model(s)"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p032.s2",
+     "heading": "How We Use Your Personal Data",
+     "core": [
+      "train / training"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p113.s2",
+     "heading": "Cookies",
+     "core": [
+      "train / training"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "AI2": {
+   "question": "If personal data is used for AI training, can the user stop it, and how?",
+   "search_log": {
+    "opt out": {
+     "regex": "\\bopt(?:[- ])?out\\b|\\bopt(?:[- ])?in\\b",
+     "tier": "core",
+     "sentences_matched": 2
+    },
+    "turn off / disable": {
+     "regex": "\\bturn(?:ing)? off\\b|\\bdisabl(?:e|ed|ing)\\b|\\btoggle\\b|\\bswitch off\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "choose whether / your choices": {
+     "regex": "\\bchoose (?:whether|if|not to|to stop)\\b|\\byour choices?\\b|\\bcontrol (?:whether|how)\\b|\\b(?:stop|prevent)\\b.{0,40}\\b(?:used|using)\\b",
+     "tier": "core",
+     "sentences_matched": 2
+    },
+    "settings / controls": {
+     "regex": "\\b(?:privacy |data |account )?(?:settings|controls?|preferences)\\b|\\bdashboard\\b",
+     "tier": "support",
+     "sentences_matched": 4
+    },
+    "train / model (co-occurrence)": {
+     "regex": "\\btrain(?:s|ed|ing)?\\b|\\bmodels?\\b|\\bimprove the model\\b",
+     "tier": "support",
+     "sentences_matched": 12
+    },
+    "object / request": {
+     "regex": "\\bobject(?:ion)?\\b|\\bsubmit a request\\b|\\bprivacy (?:portal|request)\\b|\\bcontact us\\b",
+     "tier": "support",
+     "sentences_matched": 17
+    }
+   },
+   "n_candidates": 4,
+   "candidates": [
+    {
+     "sid": "p072.s1",
+     "heading": "Your Rights",
+     "core": [
+      "opt out"
+     ],
+     "support": [
+      "train / model (co-occurrence)"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p071.s1",
+     "heading": "Your Rights",
+     "core": [
+      "opt out"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p073.s1",
+     "heading": "Your Choices",
+     "core": [
+      "choose whether / your choices"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p098.s2",
+     "heading": "European Economic Area (“EEA”), Switzerland, and UK",
+     "core": [
+      "choose whether / your choices"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "AI3": {
+   "question": "Can people (employees, contractors, reviewers) read or review users' content?",
+   "search_log": {
+    "human review": {
+     "regex": "\\bhuman (?:review(?:ers?)?|reviewed|oversight|moderators?)\\b|\\bmanual(?:ly)? review(?:ed)?\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "reviewers / annotators / moderators": {
+     "regex": "\\breviewers?\\b|\\bannotators?\\b|\\bmoderat(?:ors?|ion)\\b|\\bcrowd ?workers?\\b|\\braters?\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "staff may access / review content": {
+     "regex": "\\b(?:employees|personnel|staff|contractors|team members|authori[sz]ed (?:personnel|staff|employees))\\b.{0,60}\\b(?:access|review|read|view|see)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "review content / conversations": {
+     "regex": "\\breview(?:s|ed|ing)?\\b.{0,40}\\b(?:content|conversations?|chats?|messages?|inputs?|prompts?|recordings?)\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "we may access / review / monitor content": {
+     "regex": "\\bwe (?:may |might |can )?(?:access|review|monitor|read|inspect|view|listen to)\\b.{0,50}\\b(?:content|communications?|conversations?|chats?|messages?|recordings?|files|inputs?)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "flagged / safety / abuse": {
+     "regex": "\\bflagged\\b|\\b(?:trust and )?safety\\b|\\babuse\\b|\\bmisuse\\b|\\bviolat(?:e|es|ion|ions)\\b",
+     "tier": "support",
+     "sentences_matched": 13
+    },
+    "support / feedback": {
+     "regex": "\\bfeedback\\b|\\bsupport (?:requests?|tickets?)\\b|\\bcustomer support\\b",
+     "tier": "support",
+     "sentences_matched": 5
+    }
+   },
+   "n_candidates": 2,
+   "candidates": [
+    {
+     "sid": "p057.s5",
+     "heading": "With Your Consent",
+     "core": [
+      "review content / conversations"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p014.s2",
+     "heading": "Personal Data You Provide",
+     "core": [],
+     "support": [
+      "flagged / safety / abuse",
+      "support / feedback"
+     ],
+     "score": 2
+    }
+   ]
+  },
+  "AI4": {
+   "question": "Does the policy let the company keep, use or share de-identified or aggregated data, and for what?",
+   "search_log": {
+    "de-identified": {
+     "regex": "\\bde-?identif(?:y|ied|ies|ication)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "anonymised": {
+     "regex": "\\banonymi[sz](?:e|ed|es|ation)\\b|\\banonymous\\b",
+     "tier": "core",
+     "sentences_matched": 2
+    },
+    "aggregated": {
+     "regex": "\\baggregat(?:e|ed|es|ion)\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "pseudonymised": {
+     "regex": "\\bpseudonymi[sz](?:e|ed|ation)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "no longer identifies": {
+     "regex": "\\b(?:no longer|cannot reasonably|not reasonably) (?:be used to )?identif(?:y|ies)\\b|\\bnon-?personal (?:data|information)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "share / any purpose": {
+     "regex": "\\bany (?:lawful )?purpose\\b|\\bshare\\b|\\bthird[- ]part(?:y|ies)\\b|\\bresearch\\b|\\bimprove\\b",
+     "tier": "support",
+     "sentences_matched": 28
+    }
+   },
+   "n_candidates": 2,
+   "candidates": [
+    {
+     "sid": "p121.s1",
+     "heading": "Cookies",
+     "core": [
+      "anonymised",
+      "aggregated"
+     ],
+     "support": [
+      "share / any purpose"
+     ],
+     "score": 7
+    },
+    {
+     "sid": "p083.s1",
+     "heading": "How Long Do We Keep Your Personal Data",
+     "core": [
+      "anonymised"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "AI5": {
+   "question": "Is user content sent to external AI / model providers, or licensed to others for AI training?",
+   "search_log": {
+    "AI / model providers": {
+     "regex": "\\b(?:AI|model|LLM|machine[- ]learning|artificial intelligence) (?:providers?|vendors?|partners?|services?|companies|developers?)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "named AI vendors": {
+     "regex": "\\bOpenAI\\b|\\bChatGPT\\b|\\bAnthropic\\b|\\bClaude\\b|\\bGemini\\b|\\bGoogle AI\\b|\\bAzure OpenAI\\b|\\bLlama\\b|\\bMistral\\b|\\bxAI\\b|\\bGrok\\b|\\bPerplexity\\b|\\bDeepSeek\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "third-party AI / models": {
+     "regex": "\\bthird[- ]party (?:AI|models?|LLMs?|artificial intelligence)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "integrations / connectors / plugins": {
+     "regex": "\\b(?:integrations?|connectors?|plug-?ins?|MCP|GPTs|extensions|(?<!user )agents?)\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "license content / data licensing": {
+     "regex": "\\blicen[cs](?:e|es|ing)\\b.{0,60}\\b(?:content|data)\\b|\\bdata licensing\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "sub-processors / service providers": {
+     "regex": "\\bsub-?processors?\\b|\\bservice providers?\\b|\\bvendors?\\b",
+     "tier": "support",
+     "sentences_matched": 6
+    },
+    "AI features": {
+     "regex": "\\bAI(?:-powered)? (?:features?|tools?|assistants?)\\b|\\bgenerative\\b",
+     "tier": "support",
+     "sentences_matched": 0
+    }
+   },
+   "n_candidates": 1,
+   "candidates": [
+    {
+     "sid": "p061.s1",
+     "heading": "Your Rights",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "DPDP1": {
+   "question": "How does the policy obtain consent: an explicit affirmative action, a general agreement, or browsewrap ('by using you agree')?",
+   "search_log": {
+    "by using / visiting you agree": {
+     "regex": "\\bby (?:using|visiting|accessing|downloading|browsing|continuing|registering|signing up|providing)\\b.{0,120}\\b(?:agree|consent|accept|acknowledge)\\w*",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "consent": {
+     "regex": "\\bconsent(?:s|ed|ing)?\\b",
+     "tier": "core",
+     "sentences_matched": 9
+    },
+    "agree / accept": {
+     "regex": "\\b(?:you )?(?:agree|accept|acknowledge)(?:s|d)?\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "DPDP / Indian law": {
+     "regex": "\\bDigital Personal Data Protection\\b|\\bDPDP(?:A)?\\b|\\bIT Act\\b|\\bSPDI\\b|\\bInformation Technology\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "legal basis": {
+     "regex": "\\blegal bas(?:is|es)\\b|\\blegitimate interests?\\b|\\bperformance of (?:a|the) contract\\b",
+     "tier": "core",
+     "sentences_matched": 14
+    },
+    "notice / checkbox / sign-up": {
+     "regex": "\\bnotice\\b|\\bcheck ?box\\b|\\bsign[- ]?up\\b|\\bregistration\\b|\\bclick(?:ing)?\\b",
+     "tier": "support",
+     "sentences_matched": 7
+    },
+    "explicit / affirmative / freely": {
+     "regex": "\\bexplicit(?:ly)?\\b|\\baffirmative\\b|\\bfreely\\b|\\bunambiguous\\b|\\binformed\\b",
+     "tier": "support",
+     "sentences_matched": 4
+    }
+   },
+   "n_candidates": 21,
+   "candidates": [
+    {
+     "sid": "p155.s1",
+     "heading": "Your rights",
+     "core": [
+      "consent",
+      "legal basis"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p157.s1",
+     "heading": "Your rights",
+     "core": [
+      "consent",
+      "legal basis"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p019.s3",
+     "heading": "Automatically Collected Personal Data",
+     "core": [
+      "consent"
+     ],
+     "support": [
+      "explicit / affirmative / freely"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p057.s5",
+     "heading": "With Your Consent",
+     "core": [
+      "consent"
+     ],
+     "support": [
+      "explicit / affirmative / freely"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p056.s1",
+     "heading": "With Your Consent",
+     "core": [
+      "consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p096.s1",
+     "heading": "European Economic Area (“EEA”), Switzerland, and UK",
+     "core": [
+      "legal basis"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p097.s2",
+     "heading": "European Economic Area (“EEA”), Switzerland, and UK",
+     "core": [
+      "legal basis"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p101.s1",
+     "heading": "Legal bases",
+     "core": [
+      "legal basis"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p110.s1",
+     "heading": "Cookies",
+     "core": [
+      "legal basis"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p111.s1",
+     "heading": "Cookies",
+     "core": [
+      "consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p112.s1",
+     "heading": "Cookies",
+     "core": [
+      "legal basis"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p112.s2",
+     "heading": "Cookies",
+     "core": [
+      "legal basis"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p121.s1",
+     "heading": "Cookies",
+     "core": [
+      "legal basis"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p122.s1",
+     "heading": "Cookies",
+     "core": [
+      "consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p132.s1",
+     "heading": "Cookies",
+     "core": [
+      "legal basis"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p137.s1",
+     "heading": "Location Personal Data",
+     "core": [
+      "legal basis"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p138.s1",
+     "heading": "Location Personal Data",
+     "core": [
+      "consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p148.s1",
+     "heading": "Cookies",
+     "core": [
+      "legal basis"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p156.s1",
+     "heading": "Your rights",
+     "core": [
+      "consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p158.s1",
+     "heading": "Your rights",
+     "core": [
+      "legal basis"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p158.s2",
+     "heading": "Your rights",
+     "core": [
+      "legal basis"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "DPDP2": {
+   "question": "Can users withdraw consent, and is it as easy as giving it?",
+   "search_log": {
+    "withdraw / revoke consent": {
+     "regex": "\\bwithdraw(?:s|n|al|ing)?\\b|\\brevok(?:e|es|ed|ing)\\b|\\brevocation\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "consent manager": {
+     "regex": "\\bconsent manager\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "opt out / unsubscribe": {
+     "regex": "\\bopt(?:[- ])?out\\b|\\bunsubscrib(?:e|ing)\\b",
+     "tier": "core",
+     "sentences_matched": 2
+    },
+    "settings / dashboard": {
+     "regex": "\\bsettings\\b|\\bdashboard\\b|\\bpreferences\\b|\\bpreference cent(?:er|re)\\b|\\btoggle\\b",
+     "tier": "support",
+     "sentences_matched": 3
+    },
+    "contact / email to withdraw": {
+     "regex": "\\b(?:email|write to|contact)\\b",
+     "tier": "support",
+     "sentences_matched": 18
+    },
+    "delete account": {
+     "regex": "\\b(?:delete|deactivate|close) (?:your )?account\\b",
+     "tier": "support",
+     "sentences_matched": 1
+    },
+    "consent (co-occurrence)": {
+     "regex": "\\bconsent\\b",
+     "tier": "support",
+     "sentences_matched": 9
+    }
+   },
+   "n_candidates": 3,
+   "candidates": [
+    {
+     "sid": "p156.s1",
+     "heading": "Your rights",
+     "core": [
+      "withdraw / revoke consent"
+     ],
+     "support": [
+      "consent (co-occurrence)"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p071.s1",
+     "heading": "Your Rights",
+     "core": [
+      "opt out / unsubscribe"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p072.s1",
+     "heading": "Your Rights",
+     "core": [
+      "opt out / unsubscribe"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "DPDP3": {
+   "question": "Does the policy publish a Grievance Officer or Data Protection Officer with contact details?",
+   "search_log": {
+    "grievance officer": {
+     "regex": "\\bgrievance(?:s)?\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "data protection officer / DPO": {
+     "regex": "\\bdata protection officer\\b|\\bDPO\\b|\\bprivacy officer\\b|\\bnodal officer\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "email address": {
+     "regex": "[\\w.+-]+@[\\w-]+\\.[\\w.]+",
+     "tier": "core",
+     "sentences_matched": 8
+    },
+    "Data Protection Board / complaint": {
+     "regex": "\\bData Protection Board\\b|\\b(?:lodge|file|make) a complaint\\b|\\bsupervisory authority\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "contact us": {
+     "regex": "\\bcontact us\\b|\\bhow to contact\\b|\\bpostal address\\b|\\baddress\\b",
+     "tier": "support",
+     "sentences_matched": 19
+    },
+    "officer / named person": {
+     "regex": "\\bofficer\\b|\\bMr\\.?\\b|\\bMs\\.?\\b",
+     "tier": "support",
+     "sentences_matched": 0
+    }
+   },
+   "n_candidates": 9,
+   "candidates": [
+    {
+     "sid": "p006.s2",
+     "heading": "Introduction",
+     "core": [
+      "email address"
+     ],
+     "support": [
+      "contact us"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p088.s3",
+     "heading": "Personal Data relating to Children",
+     "core": [
+      "email address"
+     ],
+     "support": [
+      "contact us"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p092.s1",
+     "heading": "Contact Us",
+     "core": [
+      "email address"
+     ],
+     "support": [
+      "contact us"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p061.s1",
+     "heading": "Your Rights",
+     "core": [
+      "email address"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p063.s1",
+     "heading": "Your Rights",
+     "core": [
+      "email address"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p063.s2",
+     "heading": "Your Rights",
+     "core": [
+      "Data Protection Board / complaint"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p077.s2",
+     "heading": "Your Choices",
+     "core": [
+      "email address"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p163.s1",
+     "heading": "Your rights",
+     "core": [
+      "email address"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p167.s1",
+     "heading": "Your rights",
+     "core": [
+      "email address"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "DPDP4": {
+   "question": "Is the notice offered in Indian languages (Eighth Schedule) besides English? Record which languages.",
+   "search_log": {
+    "Eighth Schedule": {
+     "regex": "\\beighth schedule\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "language(s) / translation": {
+     "regex": "\\blanguages?\\b|\\btranslat(?:e|ed|ion|ions)\\b|\\bvernacular\\b|\\bregional\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "Indian language names (English)": {
+     "regex": "\\b(?:Hindi|Bengali|Bangla|Tamil|Telugu|Marathi|Gujarati|Kannada|Malayalam|Odia|Oriya|Punjabi|Assamese|Urdu|Konkani|Manipuri|Nepali|Sanskrit|Sindhi|Kashmiri|Maithili|Santali|Dogri|Bodo)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "Indian language names (native script)": {
+     "regex": "हिन्दी|हिंदी|বাংলা|தமிழ்|తెలుగు|मराठी|ગુજરાતી|ಕನ್ನಡ|മലയാളം|ଓଡ଼ିଆ|ਪੰਜਾਬੀ|অসমীয়া|اردو",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "English": {
+     "regex": "\\bEnglish\\b",
+     "tier": "support",
+     "sentences_matched": 0
+    }
+   },
+   "n_candidates": 1,
+   "candidates": [
+    {
+     "sid": "p017.s3",
+     "heading": "Automatically Collected Personal Data",
+     "core": [
+      "language(s) / translation"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,29 @@
+{
+  "eval_set_sha256": "d509922e73191116bdc44f7e51043517b263ce7773e8357cdb3d61fbf9dd66b6",
+  "n_rows": 662,
+  "max_length": 256,
+  "tokenizer": "bert-base-uncased",
+  "opp115_sanity": {
+    "42": {
+      "stored": 0.759124222581997,
+      "rescored": 0.759124222581997
+    },
+    "43": {
+      "stored": 0.7619801126712734,
+      "rescored": 0.7619801126712734
+    },
+    "44": {
+      "stored": 0.7785101512224789,
+      "rescored": 0.7785101512224789
+    }
+  },
+  "checkpoints": {
+    "42": "/content/drive/MyDrive/PrivaScore/bert_runs/seed_42/checkpoints/checkpoint-972",
+    "43": "/content/drive/MyDrive/PrivaScore/bert_runs/seed_43/checkpoints/checkpoint-1134",
+    "44": "/content/drive/MyDrive/PrivaScore/bert_runs/seed_44/checkpoints/checkpoint-1134"
+  },
+  "versions": {
+    "torch": "2.14.1+cu130",
+    "transformers": "5.22.1"
+  }
+}

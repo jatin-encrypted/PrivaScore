@@ -1,0 +1,1363 @@
+{
+ "run": "runs/gemini35lite_batch_v1",
+ "gold": "gold_set/annotations/labels_A1_resolved.json",
+ "gold_labels": 240,
+ "pred_labels": 240,
+ "evaluated_pairs": 240,
+ "headline_pairs": 210,
+ "headline_excludes": [
+  "DPDP4",
+  "G1"
+ ],
+ "state_accuracy": {
+  "n": 210,
+  "correct": 151,
+  "accuracy": 0.719047619047619,
+  "ci95": [
+   0.6547413066961123,
+   0.7754836822676815
+  ]
+ },
+ "presence_accuracy": {
+  "n": 210,
+  "correct": 195,
+  "accuracy": 0.9285714285714286,
+  "ci95": [
+   0.8855054345225578,
+   0.9562391091022562
+  ]
+ },
+ "state_accuracy_all_flags": {
+  "n": 240,
+  "correct": 179,
+  "accuracy": 0.7458333333333333,
+  "ci95": [
+   0.6871742693124718,
+   0.7967464398692264
+  ]
+ },
+ "macro_f1_states": 0.7444423049493653,
+ "per_state": {
+  "ED": {
+   "support": 65,
+   "precision": 0.6551724137931034,
+   "recall": 0.5846153846153846,
+   "f1": 0.6178861788617886
+  },
+  "CD": {
+   "support": 92,
+   "precision": 0.6851851851851852,
+   "recall": 0.8043478260869565,
+   "f1": 0.74
+  },
+  "EE": {
+   "support": 10,
+   "precision": 0.875,
+   "recall": 0.7,
+   "f1": 0.7777777777777777
+  },
+  "NS": {
+   "support": 40,
+   "precision": 0.8888888888888888,
+   "recall": 0.8,
+   "f1": 0.8421052631578948
+  },
+  "UN": {
+   "support": 3,
+   "precision": null,
+   "recall": 0.0,
+   "f1": null
+  }
+ },
+ "confusion": {
+  "CD": {
+   "CD": 74,
+   "ED": 16,
+   "EE": 1,
+   "NS": 1
+  },
+  "ED": {
+   "CD": 24,
+   "ED": 38,
+   "NS": 3
+  },
+  "NS": {
+   "NS": 32,
+   "CD": 5,
+   "ED": 3
+  },
+  "EE": {
+   "EE": 7,
+   "CD": 3
+  },
+  "UN": {
+   "ED": 1,
+   "CD": 2
+  }
+ },
+ "per_flag": {
+  "G1": {
+   "n": 15,
+   "correct": 15,
+   "accuracy": 1.0,
+   "ci95": [
+    0.7961107336956521,
+    1.0
+   ]
+  },
+  "G2": {
+   "n": 15,
+   "correct": 8,
+   "accuracy": 0.5333333333333333,
+   "ci95": [
+    0.3011663015105079,
+    0.7519077474025356
+   ]
+  },
+  "G3": {
+   "n": 15,
+   "correct": 10,
+   "accuracy": 0.6666666666666666,
+   "ci95": [
+    0.4171312515121298,
+    0.8482389930530875
+   ]
+  },
+  "G4": {
+   "n": 15,
+   "correct": 13,
+   "accuracy": 0.8666666666666667,
+   "ci95": [
+    0.6211750079348376,
+    0.9626395301086408
+   ]
+  },
+  "G5": {
+   "n": 15,
+   "correct": 11,
+   "accuracy": 0.7333333333333333,
+   "ci95": [
+    0.48049110342313245,
+    0.8910272389681717
+   ]
+  },
+  "G6": {
+   "n": 15,
+   "correct": 12,
+   "accuracy": 0.8,
+   "ci95": [
+    0.5481406466534955,
+    0.9295257935638959
+   ]
+  },
+  "G7": {
+   "n": 15,
+   "correct": 7,
+   "accuracy": 0.4666666666666667,
+   "ci95": [
+    0.24809225259746442,
+    0.6988336984894922
+   ]
+  },
+  "AI1": {
+   "n": 15,
+   "correct": 9,
+   "accuracy": 0.6,
+   "ci95": [
+    0.357464427565077,
+    0.8017577191740534
+   ]
+  },
+  "AI2": {
+   "n": 15,
+   "correct": 13,
+   "accuracy": 0.8666666666666667,
+   "ci95": [
+    0.6211750079348376,
+    0.9626395301086408
+   ]
+  },
+  "AI3": {
+   "n": 15,
+   "correct": 11,
+   "accuracy": 0.7333333333333333,
+   "ci95": [
+    0.48049110342313245,
+    0.8910272389681717
+   ]
+  },
+  "AI4": {
+   "n": 15,
+   "correct": 12,
+   "accuracy": 0.8,
+   "ci95": [
+    0.5481406466534955,
+    0.9295257935638959
+   ]
+  },
+  "AI5": {
+   "n": 15,
+   "correct": 11,
+   "accuracy": 0.7333333333333333,
+   "ci95": [
+    0.48049110342313245,
+    0.8910272389681717
+   ]
+  },
+  "DPDP1": {
+   "n": 15,
+   "correct": 12,
+   "accuracy": 0.8,
+   "ci95": [
+    0.5481406466534955,
+    0.9295257935638959
+   ]
+  },
+  "DPDP2": {
+   "n": 15,
+   "correct": 13,
+   "accuracy": 0.8666666666666667,
+   "ci95": [
+    0.6211750079348376,
+    0.9626395301086408
+   ]
+  },
+  "DPDP3": {
+   "n": 15,
+   "correct": 9,
+   "accuracy": 0.6,
+   "ci95": [
+    0.357464427565077,
+    0.8017577191740534
+   ]
+  },
+  "DPDP4": {
+   "n": 15,
+   "correct": 13,
+   "accuracy": 0.8666666666666667,
+   "ci95": [
+    0.6211750079348376,
+    0.9626395301086408
+   ]
+  }
+ },
+ "per_cohort": {
+  "ai": {
+   "n": 70,
+   "correct": 54,
+   "accuracy": 0.7714285714285715,
+   "ci95": [
+    0.6604944698154658,
+    0.8541205981137232
+   ]
+  },
+  "global": {
+   "n": 70,
+   "correct": 48,
+   "accuracy": 0.6857142857142857,
+   "ci95": [
+    0.5697264161245474,
+    0.7823786303533187
+   ]
+  },
+  "india": {
+   "n": 70,
+   "correct": 49,
+   "accuracy": 0.7,
+   "ci95": [
+    0.584554617438188,
+    0.7946354326148984
+   ]
+  }
+ },
+ "false_not_stated": {
+  "n_gold_present_or_unclear": 170,
+  "predicted_absent": 4
+ },
+ "false_present": {
+  "n_gold_absent": 40,
+  "predicted_present": 8
+ },
+ "rejected": 0,
+ "status_counts": {
+  "verified": 191,
+  "no_candidates": 17,
+  "absent_unverifiable": 25,
+  "not_applicable": 5,
+  "verified_partial": 2
+ },
+ "evidence_agreement": {
+  "both_present": 180,
+  "overlap": 165,
+  "rate": 0.9166666666666666
+ },
+ "scores": {
+  "policies": [
+   {
+    "policy_id": "P01",
+    "gold_risk": 36.206896551724135,
+    "pred_risk": 37.93103448275862,
+    "gold_quality": 76.66666666666667,
+    "pred_quality": 75.0
+   },
+   {
+    "policy_id": "P02",
+    "gold_risk": 39.6551724137931,
+    "pred_risk": 43.10344827586207,
+    "gold_quality": 80.0,
+    "pred_quality": 85.0
+   },
+   {
+    "policy_id": "P03",
+    "gold_risk": 37.93103448275862,
+    "pred_risk": 56.89655172413793,
+    "gold_quality": 71.66666666666667,
+    "pred_quality": 78.33333333333333
+   },
+   {
+    "policy_id": "P04",
+    "gold_risk": 44.827586206896555,
+    "pred_risk": 53.44827586206897,
+    "gold_quality": 68.33333333333333,
+    "pred_quality": 70.0
+   },
+   {
+    "policy_id": "P05",
+    "gold_risk": 48.275862068965516,
+    "pred_risk": 46.55172413793103,
+    "gold_quality": 65.0,
+    "pred_quality": 73.33333333333333
+   },
+   {
+    "policy_id": "P06",
+    "gold_risk": 33.333333333333336,
+    "pred_risk": 35.18518518518518,
+    "gold_quality": 78.57142857142857,
+    "pred_quality": 76.78571428571429
+   },
+   {
+    "policy_id": "P07",
+    "gold_risk": 37.93103448275862,
+    "pred_risk": 32.758620689655174,
+    "gold_quality": 71.66666666666667,
+    "pred_quality": 70.0
+   },
+   {
+    "policy_id": "P08",
+    "gold_risk": 48.148148148148145,
+    "pred_risk": 56.89655172413793,
+    "gold_quality": 67.85714285714286,
+    "pred_quality": 78.33333333333333
+   },
+   {
+    "policy_id": "P09",
+    "gold_risk": 44.44444444444444,
+    "pred_risk": 50.0,
+    "gold_quality": 64.28571428571429,
+    "pred_quality": 70.0
+   },
+   {
+    "policy_id": "P10",
+    "gold_risk": 46.55172413793103,
+    "pred_risk": 60.3448275862069,
+    "gold_quality": 86.66666666666667,
+    "pred_quality": 83.33333333333333
+   },
+   {
+    "policy_id": "P11",
+    "gold_risk": 53.7037037037037,
+    "pred_risk": 33.333333333333336,
+    "gold_quality": 73.21428571428571,
+    "pred_quality": 64.28571428571429
+   },
+   {
+    "policy_id": "P12",
+    "gold_risk": 50.0,
+    "pred_risk": 44.44444444444444,
+    "gold_quality": 69.64285714285714,
+    "pred_quality": 71.42857142857143
+   },
+   {
+    "policy_id": "P13",
+    "gold_risk": 55.55555555555556,
+    "pred_risk": 42.592592592592595,
+    "gold_quality": 71.42857142857143,
+    "pred_quality": 62.5
+   },
+   {
+    "policy_id": "P14",
+    "gold_risk": 62.96296296296296,
+    "pred_risk": 48.275862068965516,
+    "gold_quality": 89.28571428571429,
+    "pred_quality": 75.0
+   },
+   {
+    "policy_id": "P15",
+    "gold_risk": 44.44444444444444,
+    "pred_risk": 42.592592592592595,
+    "gold_quality": 69.64285714285714,
+    "pred_quality": 69.64285714285714
+   }
+  ],
+  "risk_mad": 8.335461898680288,
+  "quality_mad": 5.349206349206349,
+  "risk_rank_tau": 0.14563106796116504
+ },
+ "disagreements": [
+  {
+   "policy_id": "P01",
+   "flag": "AI2",
+   "cohort": "ai",
+   "gold": "ED",
+   "pred": "CD",
+   "status": "verified",
+   "gold_ids": [
+    "p062.s2",
+    "p063.s1",
+    "p067.s1"
+   ],
+   "pred_ids": [
+    "p036.s2",
+    "p063.s1"
+   ]
+  },
+  {
+   "policy_id": "P01",
+   "flag": "DPDP3",
+   "cohort": "ai",
+   "gold": "ED",
+   "pred": "CD",
+   "status": "verified",
+   "gold_ids": [
+    "p081.s2"
+   ],
+   "pred_ids": [
+    "p081.s2"
+   ]
+  },
+  {
+   "policy_id": "P01",
+   "flag": "G7",
+   "cohort": "ai",
+   "gold": "CD",
+   "pred": "ED",
+   "status": "verified",
+   "gold_ids": [
+    "p044.s1",
+    "p086.s1",
+    "p086.s5"
+   ],
+   "pred_ids": [
+    "p086.s1",
+    "p086.s5"
+   ]
+  },
+  {
+   "policy_id": "P02",
+   "flag": "AI5",
+   "cohort": "ai",
+   "gold": "NS",
+   "pred": "CD",
+   "status": "verified",
+   "gold_ids": [
+    "p056.s1",
+    "p059.s1"
+   ],
+   "pred_ids": [
+    "p056.s1",
+    "p060.s1"
+   ]
+  },
+  {
+   "policy_id": "P02",
+   "flag": "DPDP4",
+   "cohort": "ai",
+   "gold": "NS",
+   "pred": "EE",
+   "status": "verified",
+   "gold_ids": [],
+   "pred_ids": [
+    "p004.s1"
+   ]
+  },
+  {
+   "policy_id": "P03",
+   "flag": "AI1",
+   "cohort": "ai",
+   "gold": "CD",
+   "pred": "ED",
+   "status": "verified",
+   "gold_ids": [
+    "p032.s1",
+    "p072.s1"
+   ],
+   "pred_ids": [
+    "p032.s1",
+    "p113.s1"
+   ]
+  },
+  {
+   "policy_id": "P03",
+   "flag": "AI3",
+   "cohort": "ai",
+   "gold": "NS",
+   "pred": "ED",
+   "status": "verified",
+   "gold_ids": [],
+   "pred_ids": [
+    "p047.s2"
+   ]
+  },
+  {
+   "policy_id": "P03",
+   "flag": "AI4",
+   "cohort": "ai",
+   "gold": "CD",
+   "pred": "ED",
+   "status": "verified",
+   "gold_ids": [
+    "p083.s1",
+    "p121.s1"
+   ],
+   "pred_ids": [
+    "p083.s1",
+    "p121.s1"
+   ]
+  },
+  {
+   "policy_id": "P03",
+   "flag": "G2",
+   "cohort": "ai",
+   "gold": "EE",
+   "pred": "CD",
+   "status": "verified",
+   "gold_ids": [
+    "p020.s2",
+    "p071.s2"
+   ],
+   "pred_ids": [
+    "p071.s1",
+    "p071.s2"
+   ]
+  },
+  {
+   "policy_id": "P03",
+   "flag": "G6",
+   "cohort": "ai",
+   "gold": "ED",
+   "pred": "CD",
+   "status": "verified",
+   "gold_ids": [
+    "p085.s1",
+    "p085.s2",
+    "p086.s1"
+   ],
+   "pred_ids": [
+    "p085.s1",
+    "p085.s2",
+    "p086.s1"
+   ]
+  },
+  {
+   "policy_id": "P04",
+   "flag": "AI5",
+   "cohort": "ai",
+   "gold": "NS",
+   "pred": "CD",
+   "status": "verified",
+   "gold_ids": [
+    "p184.s6"
+   ],
+   "pred_ids": [
+    "p184.s6"
+   ]
+  },
+  {
+   "policy_id": "P04",
+   "flag": "DPDP3",
+   "cohort": "ai",
+   "gold": "ED",
+   "pred": "CD",
+   "status": "verified",
+   "gold_ids": [
+    "p234.s1",
+    "p237.s2"
+   ],
+   "pred_ids": [
+    "p235.s1",
+    "p237.s2"
+   ]
+  },
+  {
+   "policy_id": "P04",
+   "flag": "G5",
+   "cohort": "ai",
+   "gold": "ED",
+   "pred": "CD",
+   "status": "verified",
+   "gold_ids": [
+    "p187.s2",
+    "p189.s3",
+    "p190.s2",
+    "p218.s1"
+   ],
+   "pred_ids": [
+    "p187.s2",
+    "p190.s2"
+   ]
+  },
+  {
+   "policy_id": "P05",
+   "flag": "AI4",
+   "cohort": "ai",
+   "gold": "CD",
+   "pred": "ED",
+   "status": "verified",
+   "gold_ids": [
+    "p068.s1",
+    "p068.s2"
+   ],
+   "pred_ids": [
+    "p068.s1"
+   ]
+  },
+  {
+   "policy_id": "P05",
+   "flag": "G2",
+   "cohort": "ai",
+   "gold": "ED",
+   "pred": "CD",
+   "status": "verified",
+   "gold_ids": [
+    "p052.s2",
+    "p054.s1",
+    "p057.s1"
+   ],
+   "pred_ids": [
+    "p052.s1",
+    "p054.s1"
+   ]
+  },
+  {
+   "policy_id": "P05",
+   "flag": "G6",
+   "cohort": "ai",
+   "gold": "NS",
+   "pred": "ED",
+   "status": "verified",
+   "gold_ids": [
+    "p008.s1"
+   ],
+   "pred_ids": [
+    "p008.s1",
+    "p109.s1"
+   ]
+  },
+  {
+   "policy_id": "P05",
+   "flag": "G7",
+   "cohort": "ai",
+   "gold": "CD",
+   "pred": "ED",
+   "status": "verified",
+   "gold_ids": [
+    "p088.s1",
+    "p088.s3"
+   ],
+   "pred_ids": [
+    "p088.s1",
+    "p088.s3"
+   ]
+  },
+  {
+   "policy_id": "P06",
+   "flag": "DPDP3",
+   "cohort": "global",
+   "gold": "ED",
+   "pred": "CD",
+   "status": "verified",
+   "gold_ids": [
+    "p099.s1",
+    "p119.s1"
+   ],
+   "pred_ids": [
+    "p099.s1",
+    "p110.s1"
+   ]
+  },
+  {
+   "policy_id": "P06",
+   "flag": "G4",
+   "cohort": "global",
+   "gold": "ED",
+   "pred": "CD",
+   "status": "verified",
+   "gold_ids": [
+    "p036.s2",
+    "p121.s1"
+   ],
+   "pred_ids": [
+    "p036.s2",
+    "p121.s1"
+   ]
+  },
+  {
+   "policy_id": "P06",
+   "flag": "G7",
+   "cohort": "global",
+   "gold": "CD",
+   "pred": "ED",
+   "status": "verified",
+   "gold_ids": [
+    "p093.s1",
+    "p094.s1"
+   ],
+   "pred_ids": [
+    "p093.s1",
+    "p165.s10"
+   ]
+  },
+  {
+   "policy_id": "P07",
+   "flag": "AI1",
+   "cohort": "global",
+   "gold": "ED",
+   "pred": "CD",
+   "status": "verified",
+   "gold_ids": [
+    "p171.s1",
+    "p340.s2",
+    "p341.s1"
+   ],
+   "pred_ids": [
+    "p340.s2",
+    "p343.s1"
+   ]
+  },
+  {
+   "policy_id": "P07",
+   "flag": "G5",
+   "cohort": "global",
+   "gold": "ED",
+   "pred": "CD",
+   "status": "verified",
+   "gold_ids": [
+    "p043.s1",
+    "p066.s1",
+    "p102.s1",
+    "p581.s1"
+   ],
+   "pred_ids": [
+    "p059.s1",
+    "p065.s1",
+    "p068.s1",
+    "p075.s1"
+   ]
+  },
+  {
+   "policy_id": "P07",
+   "flag": "G7",
+   "cohort": "global",
+   "gold": "CD",
+   "pred": "ED",
+   "status": "verified",
+   "gold_ids": [
+    "p614.s1",
+    "p615.s3",
+    "p616.s1"
+   ],
+   "pred_ids": [
+    "p614.s1",
+    "p616.s1"
+   ]
+  },
+  {
+   "policy_id": "P08",
+   "flag": "AI1",
+   "cohort": "global",
+   "gold": "NS",
+   "pred": "ED",
+   "status": "verified",
+   "gold_ids": [
+    "p158.s1"
+   ],
+   "pred_ids": [
+    "p167.s4"
+   ]
+  },
+  {
+   "policy_id": "P08",
+   "flag": "AI3",
+   "cohort": "global",
+   "gold": "ED",
+   "pred": "CD",
+   "status": "verified",
+   "gold_ids": [
+    "p100.s1",
+    "p111.s1"
+   ],
+   "pred_ids": [
+    "p100.s1",
+    "p174.s3"
+   ]
+  },
+  {
+   "policy_id": "P08",
+   "flag": "AI5",
+   "cohort": "global",
+   "gold": "UN",
+   "pred": "ED",
+   "status": "verified",
+   "gold_ids": [
+    "p097.s2",
+    "p100.s2",
+    "p100.s4"
+   ],
+   "pred_ids": [
+    "p097.s2",
+    "p167.s4"
+   ]
+  },
+  {
+   "policy_id": "P08",
+   "flag": "DPDP2",
+   "cohort": "global",
+   "gold": "CD",
+   "pred": "ED",
+   "status": "verified",
+   "gold_ids": [
+    "p178.s2",
+    "p184.s1",
+    "p489.s3"
+   ],
+   "pred_ids": [
+    "p182.s1",
+    "p211.s1"
+   ]
+  },
+  {
+   "policy_id": "P08",
+   "flag": "DPDP3",
+   "cohort": "global",
+   "gold": "ED",
+   "pred": "CD",
+   "status": "verified",
+   "gold_ids": [
+    "p517.s1",
+    "p526.s1"
+   ],
+   "pred_ids": [
+    "p517.s1"
+   ]
+  },
+  {
+   "policy_id": "P08",
+   "flag": "G7",
+   "cohort": "global",
+   "gold": "NS",
+   "pred": "CD",
+   "status": "verified",
+   "gold_ids": [
+    "p489.s5"
+   ],
+   "pred_ids": [
+    "p489.s5"
+   ]
+  },
+  {
+   "policy_id": "P09",
+   "flag": "AI1",
+   "cohort": "global",
+   "gold": "NS",
+   "pred": "CD",
+   "status": "verified",
+   "gold_ids": [
+    "p045.s4"
+   ],
+   "pred_ids": [
+    "p045.s4"
+   ]
+  },
+  {
+   "policy_id": "P09",
+   "flag": "DPDP1",
+   "cohort": "global",
+   "gold": "CD",
+   "pred": "EE",
+   "status": "verified",
+   "gold_ids": [
+    "p057.s1",
+    "p071.s1",
+    "p119.s1"
+   ],
+   "pred_ids": [
+    "p161.s3"
+   ]
+  },
+  {
+   "policy_id": "P09",
+   "flag": "G3",
+   "cohort": "global",
+   "gold": "CD",
+   "pred": "ED",
+   "status": "verified",
+   "gold_ids": [
+    "p039.s2",
+    "p151.s1",
+    "p154.s1"
+   ],
+   "pred_ids": [
+    "p151.s1"
+   ]
+  },
+  {
+   "policy_id": "P09",
+   "flag": "G7",
+   "cohort": "global",
+   "gold": "CD",
+   "pred": "ED",
+   "status": "verified",
+   "gold_ids": [
+    "p123.s1",
+    "p123.s2"
+   ],
+   "pred_ids": [
+    "p123.s1",
+    "p123.s2"
+   ]
+  },
+  {
+   "policy_id": "P10",
+   "flag": "AI1",
+   "cohort": "global",
+   "gold": "CD",
+   "pred": "ED",
+   "status": "verified",
+   "gold_ids": [
+    "p022.s3",
+    "p025.s5"
+   ],
+   "pred_ids": [
+    "p022.s3"
+   ]
+  },
+  {
+   "policy_id": "P10",
+   "flag": "AI2",
+   "cohort": "global",
+   "gold": "ED",
+   "pred": "CD",
+   "status": "verified",
+   "gold_ids": [
+    "p025.s5"
+   ],
+   "pred_ids": [
+    "p025.s5"
+   ]
+  },
+  {
+   "policy_id": "P10",
+   "flag": "DPDP2",
+   "cohort": "global",
+   "gold": "ED",
+   "pred": "CD",
+   "status": "verified",
+   "gold_ids": [
+    "p080.s1",
+    "p082.s1",
+    "p135.s2"
+   ],
+   "pred_ids": [
+    "p080.s1",
+    "p082.s3"
+   ]
+  },
+  {
+   "policy_id": "P10",
+   "flag": "DPDP3",
+   "cohort": "global",
+   "gold": "ED",
+   "pred": "CD",
+   "status": "verified",
+   "gold_ids": [
+    "p166.s1"
+   ],
+   "pred_ids": [
+    "p166.s1"
+   ]
+  },
+  {
+   "policy_id": "P10",
+   "flag": "DPDP4",
+   "cohort": "global",
+   "gold": "NS",
+   "pred": "EE",
+   "status": "verified",
+   "gold_ids": [],
+   "pred_ids": [
+    "p015.s1"
+   ]
+  },
+  {
+   "policy_id": "P10",
+   "flag": "G5",
+   "cohort": "global",
+   "gold": "ED",
+   "pred": "CD",
+   "status": "verified",
+   "gold_ids": [
+    "p069.s1",
+    "p071.s1",
+    "p077.s1",
+    "p078.s1",
+    "p082.s2"
+   ],
+   "pred_ids": [
+    "p077.s1",
+    "p078.s1",
+    "p082.s2"
+   ]
+  },
+  {
+   "policy_id": "P10",
+   "flag": "G7",
+   "cohort": "global",
+   "gold": "CD",
+   "pred": "ED",
+   "status": "verified",
+   "gold_ids": [
+    "p088.s3",
+    "p091.s2",
+    "p128.s1"
+   ],
+   "pred_ids": [
+    "p088.s3",
+    "p095.s1"
+   ]
+  },
+  {
+   "policy_id": "P11",
+   "flag": "AI3",
+   "cohort": "india",
+   "gold": "CD",
+   "pred": "NS",
+   "status": "no_candidates",
+   "gold_ids": [
+    "p055.s3"
+   ],
+   "pred_ids": []
+  },
+  {
+   "policy_id": "P11",
+   "flag": "G2",
+   "cohort": "india",
+   "gold": "ED",
+   "pred": "CD",
+   "status": "verified",
+   "gold_ids": [
+    "p022.s1",
+    "p038.s1",
+    "p038.s2",
+    "p039.s1"
+   ],
+   "pred_ids": [
+    "p038.s1",
+    "p039.s1"
+   ]
+  },
+  {
+   "policy_id": "P11",
+   "flag": "G3",
+   "cohort": "india",
+   "gold": "ED",
+   "pred": "NS",
+   "status": "absent_unverifiable",
+   "gold_ids": [
+    "p017.s1"
+   ],
+   "pred_ids": []
+  },
+  {
+   "policy_id": "P11",
+   "flag": "G4",
+   "cohort": "india",
+   "gold": "CD",
+   "pred": "ED",
+   "status": "verified",
+   "gold_ids": [
+    "p018.s2"
+   ],
+   "pred_ids": [
+    "p018.s2"
+   ]
+  },
+  {
+   "policy_id": "P11",
+   "flag": "G6",
+   "cohort": "india",
+   "gold": "UN",
+   "pred": "CD",
+   "status": "verified",
+   "gold_ids": [
+    "p051.s1"
+   ],
+   "pred_ids": [
+    "p051.s1"
+   ]
+  },
+  {
+   "policy_id": "P12",
+   "flag": "DPDP3",
+   "cohort": "india",
+   "gold": "ED",
+   "pred": "CD",
+   "status": "verified",
+   "gold_ids": [
+    "p219.s1"
+   ],
+   "pred_ids": [
+    "p219.s1"
+   ]
+  },
+  {
+   "policy_id": "P12",
+   "flag": "G2",
+   "cohort": "india",
+   "gold": "UN",
+   "pred": "CD",
+   "status": "verified",
+   "gold_ids": [
+    "p065.s1",
+    "p073.s1",
+    "p087.s1"
+   ],
+   "pred_ids": [
+    "p065.s1",
+    "p109.s1",
+    "p109.s2"
+   ]
+  },
+  {
+   "policy_id": "P12",
+   "flag": "G3",
+   "cohort": "india",
+   "gold": "ED",
+   "pred": "CD",
+   "status": "verified",
+   "gold_ids": [
+    "p045.s1",
+    "p065.s1",
+    "p086.s2"
+   ],
+   "pred_ids": [
+    "p065.s1",
+    "p086.s2"
+   ]
+  },
+  {
+   "policy_id": "P12",
+   "flag": "G7",
+   "cohort": "india",
+   "gold": "CD",
+   "pred": "ED",
+   "status": "verified",
+   "gold_ids": [
+    "p117.s1",
+    "p117.s2"
+   ],
+   "pred_ids": [
+    "p117.s1",
+    "p117.s2"
+   ]
+  },
+  {
+   "policy_id": "P13",
+   "flag": "G2",
+   "cohort": "india",
+   "gold": "ED",
+   "pred": "CD",
+   "status": "verified",
+   "gold_ids": [
+    "p073.s1",
+    "p073.s2",
+    "p077.s1"
+   ],
+   "pred_ids": [
+    "p073.s1",
+    "p077.s1"
+   ]
+  },
+  {
+   "policy_id": "P13",
+   "flag": "G3",
+   "cohort": "india",
+   "gold": "ED",
+   "pred": "NS",
+   "status": "absent_unverifiable",
+   "gold_ids": [
+    "p046.s1",
+    "p073.s2",
+    "p077.s3"
+   ],
+   "pred_ids": []
+  },
+  {
+   "policy_id": "P14",
+   "flag": "AI1",
+   "cohort": "india",
+   "gold": "NS",
+   "pred": "CD",
+   "status": "verified",
+   "gold_ids": [
+    "p065.s3"
+   ],
+   "pred_ids": [
+    "p065.s3",
+    "p065.s4"
+   ]
+  },
+  {
+   "policy_id": "P14",
+   "flag": "AI3",
+   "cohort": "india",
+   "gold": "ED",
+   "pred": "NS",
+   "status": "no_candidates",
+   "gold_ids": [
+    "p063.s1",
+    "p063.s2"
+   ],
+   "pred_ids": []
+  },
+  {
+   "policy_id": "P14",
+   "flag": "AI5",
+   "cohort": "india",
+   "gold": "ED",
+   "pred": "CD",
+   "status": "verified",
+   "gold_ids": [
+    "p131.s5",
+    "p131.s6",
+    "p131.s7"
+   ],
+   "pred_ids": [
+    "p131.s5",
+    "p131.s6"
+   ]
+  },
+  {
+   "policy_id": "P14",
+   "flag": "DPDP1",
+   "cohort": "india",
+   "gold": "EE",
+   "pred": "CD",
+   "status": "verified",
+   "gold_ids": [
+    "p009.s2"
+   ],
+   "pred_ids": [
+    "p009.s2"
+   ]
+  },
+  {
+   "policy_id": "P14",
+   "flag": "G2",
+   "cohort": "india",
+   "gold": "ED",
+   "pred": "CD",
+   "status": "verified",
+   "gold_ids": [
+    "p061.s1",
+    "p061.s3",
+    "p061.s5"
+   ],
+   "pred_ids": [
+    "p042.s1",
+    "p061.s3",
+    "p061.s5"
+   ]
+  },
+  {
+   "policy_id": "P14",
+   "flag": "G5",
+   "cohort": "india",
+   "gold": "ED",
+   "pred": "CD",
+   "status": "verified",
+   "gold_ids": [
+    "p092.s1",
+    "p096.s2"
+   ],
+   "pred_ids": [
+    "p092.s1",
+    "p096.s2"
+   ]
+  },
+  {
+   "policy_id": "P15",
+   "flag": "AI4",
+   "cohort": "india",
+   "gold": "CD",
+   "pred": "ED",
+   "status": "verified",
+   "gold_ids": [
+    "p109.s1",
+    "p109.s2"
+   ],
+   "pred_ids": [
+    "p109.s1",
+    "p109.s2"
+   ]
+  },
+  {
+   "policy_id": "P15",
+   "flag": "DPDP1",
+   "cohort": "india",
+   "gold": "EE",
+   "pred": "CD",
+   "status": "verified",
+   "gold_ids": [
+    "p027.s3",
+    "p105.s2"
+   ],
+   "pred_ids": [
+    "p027.s3"
+   ]
+  },
+  {
+   "policy_id": "P15",
+   "flag": "G2",
+   "cohort": "india",
+   "gold": "ED",
+   "pred": "CD",
+   "status": "verified",
+   "gold_ids": [
+    "p089.s2",
+    "p099.s1",
+    "p114.s2",
+    "p138.s1"
+   ],
+   "pred_ids": [
+    "p089.s2",
+    "p099.s1"
+   ]
+  },
+  {
+   "policy_id": "P15",
+   "flag": "G3",
+   "cohort": "india",
+   "gold": "CD",
+   "pred": "ED",
+   "status": "verified",
+   "gold_ids": [
+    "p137.s2",
+    "p165.s1"
+   ],
+   "pred_ids": [
+    "p078.s1",
+    "p182.s1"
+   ]
+  }
+ ]
+}

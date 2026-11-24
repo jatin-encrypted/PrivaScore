@@ -1,0 +1,829 @@
+{
+ "run": "runs/gemini36_batch_v1.1",
+ "gold": "gold_set/annotations/labels_A1_resolved.json",
+ "gold_labels": 240,
+ "pred_labels": 240,
+ "evaluated_pairs": 240,
+ "headline_pairs": 210,
+ "headline_excludes": [
+  "DPDP4",
+  "G1"
+ ],
+ "state_accuracy": {
+  "n": 210,
+  "correct": 183,
+  "accuracy": 0.8714285714285714,
+  "ci95": [
+   0.819398464815287,
+   0.9101134729928851
+  ]
+ },
+ "presence_accuracy": {
+  "n": 210,
+  "correct": 201,
+  "accuracy": 0.9571428571428572,
+  "ci95": [
+   0.9205691228738756,
+   0.9772917236592593
+  ]
+ },
+ "state_accuracy_all_flags": {
+  "n": 240,
+  "correct": 213,
+  "accuracy": 0.8875,
+  "ci95": [
+   0.8412671310762568,
+   0.9215231393287928
+  ]
+ },
+ "macro_f1_states": 0.8092324706923246,
+ "per_state": {
+  "ED": {
+   "support": 65,
+   "precision": 0.8194444444444444,
+   "recall": 0.9076923076923077,
+   "f1": 0.8613138686131386
+  },
+  "CD": {
+   "support": 92,
+   "precision": 0.8863636363636364,
+   "recall": 0.8478260869565217,
+   "f1": 0.8666666666666666
+  },
+  "EE": {
+   "support": 10,
+   "precision": 0.8333333333333334,
+   "recall": 1.0,
+   "f1": 0.9090909090909091
+  },
+  "NS": {
+   "support": 40,
+   "precision": 0.9459459459459459,
+   "recall": 0.875,
+   "f1": 0.9090909090909091
+  },
+  "UN": {
+   "support": 3,
+   "precision": 1.0,
+   "recall": 0.3333333333333333,
+   "f1": 0.5
+  }
+ },
+ "confusion": {
+  "CD": {
+   "CD": 78,
+   "ED": 11,
+   "EE": 2,
+   "NS": 1
+  },
+  "ED": {
+   "ED": 59,
+   "CD": 5,
+   "NS": 1
+  },
+  "NS": {
+   "NS": 35,
+   "CD": 4,
+   "ED": 1
+  },
+  "EE": {
+   "EE": 10
+  },
+  "UN": {
+   "CD": 1,
+   "UN": 1,
+   "ED": 1
+  }
+ },
+ "per_flag": {
+  "G1": {
+   "n": 15,
+   "correct": 15,
+   "accuracy": 1.0,
+   "ci95": [
+    0.7961107336956521,
+    1.0
+   ]
+  },
+  "G2": {
+   "n": 15,
+   "correct": 14,
+   "accuracy": 0.9333333333333333,
+   "ci95": [
+    0.70182922447576,
+    0.9881334113938052
+   ]
+  },
+  "G3": {
+   "n": 15,
+   "correct": 13,
+   "accuracy": 0.8666666666666667,
+   "ci95": [
+    0.6211750079348376,
+    0.9626395301086408
+   ]
+  },
+  "G4": {
+   "n": 15,
+   "correct": 15,
+   "accuracy": 1.0,
+   "ci95": [
+    0.7961107336956521,
+    1.0
+   ]
+  },
+  "G5": {
+   "n": 15,
+   "correct": 12,
+   "accuracy": 0.8,
+   "ci95": [
+    0.5481406466534955,
+    0.9295257935638959
+   ]
+  },
+  "G6": {
+   "n": 15,
+   "correct": 15,
+   "accuracy": 1.0,
+   "ci95": [
+    0.7961107336956521,
+    1.0
+   ]
+  },
+  "G7": {
+   "n": 15,
+   "correct": 13,
+   "accuracy": 0.8666666666666667,
+   "ci95": [
+    0.6211750079348376,
+    0.9626395301086408
+   ]
+  },
+  "AI1": {
+   "n": 15,
+   "correct": 11,
+   "accuracy": 0.7333333333333333,
+   "ci95": [
+    0.48049110342313245,
+    0.8910272389681717
+   ]
+  },
+  "AI2": {
+   "n": 15,
+   "correct": 15,
+   "accuracy": 1.0,
+   "ci95": [
+    0.7961107336956521,
+    1.0
+   ]
+  },
+  "AI3": {
+   "n": 15,
+   "correct": 11,
+   "accuracy": 0.7333333333333333,
+   "ci95": [
+    0.48049110342313245,
+    0.8910272389681717
+   ]
+  },
+  "AI4": {
+   "n": 15,
+   "correct": 13,
+   "accuracy": 0.8666666666666667,
+   "ci95": [
+    0.6211750079348376,
+    0.9626395301086408
+   ]
+  },
+  "AI5": {
+   "n": 15,
+   "correct": 12,
+   "accuracy": 0.8,
+   "ci95": [
+    0.5481406466534955,
+    0.9295257935638959
+   ]
+  },
+  "DPDP1": {
+   "n": 15,
+   "correct": 12,
+   "accuracy": 0.8,
+   "ci95": [
+    0.5481406466534955,
+    0.9295257935638959
+   ]
+  },
+  "DPDP2": {
+   "n": 15,
+   "correct": 12,
+   "accuracy": 0.8,
+   "ci95": [
+    0.5481406466534955,
+    0.9295257935638959
+   ]
+  },
+  "DPDP3": {
+   "n": 15,
+   "correct": 15,
+   "accuracy": 1.0,
+   "ci95": [
+    0.7961107336956521,
+    1.0
+   ]
+  },
+  "DPDP4": {
+   "n": 15,
+   "correct": 15,
+   "accuracy": 1.0,
+   "ci95": [
+    0.7961107336956521,
+    1.0
+   ]
+  }
+ },
+ "per_cohort": {
+  "ai": {
+   "n": 70,
+   "correct": 60,
+   "accuracy": 0.8571428571428571,
+   "ci95": [
+    0.7566136529849488,
+    0.9205114363955629
+   ]
+  },
+  "global": {
+   "n": 70,
+   "correct": 61,
+   "accuracy": 0.8714285714285714,
+   "ci95": [
+    0.7733503128681549,
+    0.9308597800875773
+   ]
+  },
+  "india": {
+   "n": 70,
+   "correct": 62,
+   "accuracy": 0.8857142857142857,
+   "ci95": [
+    0.7903556803979788,
+    0.9409394161329739
+   ]
+  }
+ },
+ "false_not_stated": {
+  "n_gold_present_or_unclear": 170,
+  "predicted_absent": 2
+ },
+ "false_present": {
+  "n_gold_absent": 40,
+  "predicted_present": 5
+ },
+ "rejected": 0,
+ "status_counts": {
+  "verified": 190,
+  "no_candidates": 17,
+  "absent_unverifiable": 27,
+  "not_applicable": 6
+ },
+ "evidence_agreement": {
+  "both_present": 182,
+  "overlap": 163,
+  "rate": 0.8956043956043956
+ },
+ "scores": {
+  "policies": [
+   {
+    "policy_id": "P01",
+    "gold_risk": 36.206896551724135,
+    "pred_risk": 32.758620689655174,
+    "gold_quality": 76.66666666666667,
+    "pred_quality": 78.33333333333333
+   },
+   {
+    "policy_id": "P02",
+    "gold_risk": 39.6551724137931,
+    "pred_risk": 43.10344827586207,
+    "gold_quality": 80.0,
+    "pred_quality": 88.33333333333333
+   },
+   {
+    "policy_id": "P03",
+    "gold_risk": 37.93103448275862,
+    "pred_risk": 41.37931034482759,
+    "gold_quality": 71.66666666666667,
+    "pred_quality": 76.66666666666667
+   },
+   {
+    "policy_id": "P04",
+    "gold_risk": 44.827586206896555,
+    "pred_risk": 50.0,
+    "gold_quality": 68.33333333333333,
+    "pred_quality": 71.66666666666667
+   },
+   {
+    "policy_id": "P05",
+    "gold_risk": 48.275862068965516,
+    "pred_risk": 46.55172413793103,
+    "gold_quality": 65.0,
+    "pred_quality": 65.0
+   },
+   {
+    "policy_id": "P06",
+    "gold_risk": 33.333333333333336,
+    "pred_risk": 33.333333333333336,
+    "gold_quality": 78.57142857142857,
+    "pred_quality": 78.57142857142857
+   },
+   {
+    "policy_id": "P07",
+    "gold_risk": 37.93103448275862,
+    "pred_risk": 34.48275862068966,
+    "gold_quality": 71.66666666666667,
+    "pred_quality": 73.33333333333333
+   },
+   {
+    "policy_id": "P08",
+    "gold_risk": 48.148148148148145,
+    "pred_risk": 40.74074074074074,
+    "gold_quality": 67.85714285714286,
+    "pred_quality": 75.0
+   },
+   {
+    "policy_id": "P09",
+    "gold_risk": 44.44444444444444,
+    "pred_risk": 50.0,
+    "gold_quality": 64.28571428571429,
+    "pred_quality": 66.66666666666667
+   },
+   {
+    "policy_id": "P10",
+    "gold_risk": 46.55172413793103,
+    "pred_risk": 50.0,
+    "gold_quality": 86.66666666666667,
+    "pred_quality": 85.0
+   },
+   {
+    "policy_id": "P11",
+    "gold_risk": 53.7037037037037,
+    "pred_risk": 50.0,
+    "gold_quality": 73.21428571428571,
+    "pred_quality": 67.85714285714286
+   },
+   {
+    "policy_id": "P12",
+    "gold_risk": 50.0,
+    "pred_risk": 51.851851851851855,
+    "gold_quality": 69.64285714285714,
+    "pred_quality": 76.78571428571429
+   },
+   {
+    "policy_id": "P13",
+    "gold_risk": 55.55555555555556,
+    "pred_risk": 55.55555555555556,
+    "gold_quality": 71.42857142857143,
+    "pred_quality": 71.42857142857143
+   },
+   {
+    "policy_id": "P14",
+    "gold_risk": 62.96296296296296,
+    "pred_risk": 56.89655172413793,
+    "gold_quality": 89.28571428571429,
+    "pred_quality": 81.66666666666667
+   },
+   {
+    "policy_id": "P15",
+    "gold_risk": 44.44444444444444,
+    "pred_risk": 48.148148148148145,
+    "gold_quality": 69.64285714285714,
+    "pred_quality": 75.0
+   }
+  ],
+  "risk_mad": 3.4951042997020005,
+  "quality_mad": 3.7777777777777772,
+  "risk_rank_tau": 0.7229140250771396
+ },
+ "disagreements": [
+  {
+   "policy_id": "P01",
+   "flag": "DPDP2",
+   "cohort": "ai",
+   "gold": "CD",
+   "pred": "ED",
+   "status": "verified",
+   "gold_ids": [
+    "p070.s1",
+    "p079.s1",
+    "p081.s1"
+   ],
+   "pred_ids": [
+    "p079.s1",
+    "p081.s1"
+   ]
+  },
+  {
+   "policy_id": "P02",
+   "flag": "AI5",
+   "cohort": "ai",
+   "gold": "NS",
+   "pred": "CD",
+   "status": "verified",
+   "gold_ids": [
+    "p056.s1",
+    "p059.s1"
+   ],
+   "pred_ids": [
+    "p056.s1"
+   ]
+  },
+  {
+   "policy_id": "P02",
+   "flag": "G3",
+   "cohort": "ai",
+   "gold": "CD",
+   "pred": "ED",
+   "status": "verified",
+   "gold_ids": [
+    "p038.s1",
+    "p073.s1",
+    "p076.s1"
+   ],
+   "pred_ids": [
+    "p038.s1"
+   ]
+  },
+  {
+   "policy_id": "P02",
+   "flag": "G5",
+   "cohort": "ai",
+   "gold": "CD",
+   "pred": "ED",
+   "status": "verified",
+   "gold_ids": [
+    "p066.s1",
+    "p070.s1",
+    "p071.s1",
+    "p072.s1"
+   ],
+   "pred_ids": [
+    "p070.s1",
+    "p071.s1",
+    "p072.s1"
+   ]
+  },
+  {
+   "policy_id": "P03",
+   "flag": "AI3",
+   "cohort": "ai",
+   "gold": "NS",
+   "pred": "CD",
+   "status": "verified",
+   "gold_ids": [],
+   "pred_ids": [
+    "p014.s2"
+   ]
+  },
+  {
+   "policy_id": "P04",
+   "flag": "AI1",
+   "cohort": "ai",
+   "gold": "ED",
+   "pred": "CD",
+   "status": "verified",
+   "gold_ids": [
+    "p033.s2",
+    "p088.s1",
+    "p091.s1"
+   ],
+   "pred_ids": [
+    "p033.s2",
+    "p091.s1"
+   ]
+  },
+  {
+   "policy_id": "P04",
+   "flag": "AI5",
+   "cohort": "ai",
+   "gold": "NS",
+   "pred": "ED",
+   "status": "verified",
+   "gold_ids": [
+    "p184.s6"
+   ],
+   "pred_ids": [
+    "p184.s6"
+   ]
+  },
+  {
+   "policy_id": "P04",
+   "flag": "G5",
+   "cohort": "ai",
+   "gold": "ED",
+   "pred": "CD",
+   "status": "verified",
+   "gold_ids": [
+    "p187.s2",
+    "p189.s3",
+    "p190.s2",
+    "p218.s1"
+   ],
+   "pred_ids": [
+    "p186.s1",
+    "p224.s1"
+   ]
+  },
+  {
+   "policy_id": "P05",
+   "flag": "AI1",
+   "cohort": "ai",
+   "gold": "ED",
+   "pred": "CD",
+   "status": "verified",
+   "gold_ids": [
+    "p008.s4",
+    "p064.s1"
+   ],
+   "pred_ids": [
+    "p058.s1",
+    "p064.s1"
+   ]
+  },
+  {
+   "policy_id": "P05",
+   "flag": "AI4",
+   "cohort": "ai",
+   "gold": "CD",
+   "pred": "ED",
+   "status": "verified",
+   "gold_ids": [
+    "p068.s1",
+    "p068.s2"
+   ],
+   "pred_ids": [
+    "p068.s1"
+   ]
+  },
+  {
+   "policy_id": "P07",
+   "flag": "DPDP1",
+   "cohort": "global",
+   "gold": "CD",
+   "pred": "ED",
+   "status": "verified",
+   "gold_ids": [
+    "p044.s1",
+    "p044.s2"
+   ],
+   "pred_ids": [
+    "p291.s1"
+   ]
+  },
+  {
+   "policy_id": "P08",
+   "flag": "AI3",
+   "cohort": "global",
+   "gold": "ED",
+   "pred": "CD",
+   "status": "verified",
+   "gold_ids": [
+    "p100.s1",
+    "p111.s1"
+   ],
+   "pred_ids": [
+    "p174.s3"
+   ]
+  },
+  {
+   "policy_id": "P08",
+   "flag": "AI5",
+   "cohort": "global",
+   "gold": "UN",
+   "pred": "CD",
+   "status": "verified",
+   "gold_ids": [
+    "p097.s2",
+    "p100.s2",
+    "p100.s4"
+   ],
+   "pred_ids": [
+    "p167.s4"
+   ]
+  },
+  {
+   "policy_id": "P08",
+   "flag": "DPDP1",
+   "cohort": "global",
+   "gold": "CD",
+   "pred": "EE",
+   "status": "verified",
+   "gold_ids": [
+    "p165.s2",
+    "p379.s1",
+    "p519.s5"
+   ],
+   "pred_ids": [
+    "p519.s5"
+   ]
+  },
+  {
+   "policy_id": "P08",
+   "flag": "DPDP2",
+   "cohort": "global",
+   "gold": "CD",
+   "pred": "ED",
+   "status": "verified",
+   "gold_ids": [
+    "p178.s2",
+    "p184.s1",
+    "p489.s3"
+   ],
+   "pred_ids": [
+    "p186.s1",
+    "p186.s2"
+   ]
+  },
+  {
+   "policy_id": "P08",
+   "flag": "G5",
+   "cohort": "global",
+   "gold": "CD",
+   "pred": "ED",
+   "status": "verified",
+   "gold_ids": [
+    "p092.s2",
+    "p178.s2",
+    "p490.s1"
+   ],
+   "pred_ids": [
+    "p092.s2",
+    "p180.s1",
+    "p182.s1"
+   ]
+  },
+  {
+   "policy_id": "P09",
+   "flag": "AI1",
+   "cohort": "global",
+   "gold": "NS",
+   "pred": "CD",
+   "status": "verified",
+   "gold_ids": [
+    "p045.s4"
+   ],
+   "pred_ids": [
+    "p045.s4"
+   ]
+  },
+  {
+   "policy_id": "P09",
+   "flag": "DPDP1",
+   "cohort": "global",
+   "gold": "CD",
+   "pred": "EE",
+   "status": "verified",
+   "gold_ids": [
+    "p057.s1",
+    "p071.s1",
+    "p119.s1"
+   ],
+   "pred_ids": [
+    "p161.s3"
+   ]
+  },
+  {
+   "policy_id": "P10",
+   "flag": "DPDP2",
+   "cohort": "global",
+   "gold": "ED",
+   "pred": "CD",
+   "status": "verified",
+   "gold_ids": [
+    "p080.s1",
+    "p082.s1",
+    "p135.s2"
+   ],
+   "pred_ids": [
+    "p080.s1",
+    "p082.s3"
+   ]
+  },
+  {
+   "policy_id": "P11",
+   "flag": "AI3",
+   "cohort": "india",
+   "gold": "CD",
+   "pred": "NS",
+   "status": "no_candidates",
+   "gold_ids": [
+    "p055.s3"
+   ],
+   "pred_ids": []
+  },
+  {
+   "policy_id": "P12",
+   "flag": "G2",
+   "cohort": "india",
+   "gold": "UN",
+   "pred": "ED",
+   "status": "verified",
+   "gold_ids": [
+    "p065.s1",
+    "p073.s1",
+    "p087.s1"
+   ],
+   "pred_ids": [
+    "p073.s8",
+    "p073.s9",
+    "p087.s1"
+   ]
+  },
+  {
+   "policy_id": "P12",
+   "flag": "G7",
+   "cohort": "india",
+   "gold": "CD",
+   "pred": "ED",
+   "status": "verified",
+   "gold_ids": [
+    "p117.s1",
+    "p117.s2"
+   ],
+   "pred_ids": [
+    "p117.s1",
+    "p117.s2"
+   ]
+  },
+  {
+   "policy_id": "P14",
+   "flag": "AI1",
+   "cohort": "india",
+   "gold": "NS",
+   "pred": "CD",
+   "status": "verified",
+   "gold_ids": [
+    "p065.s3"
+   ],
+   "pred_ids": [
+    "p065.s3"
+   ]
+  },
+  {
+   "policy_id": "P14",
+   "flag": "AI3",
+   "cohort": "india",
+   "gold": "ED",
+   "pred": "NS",
+   "status": "no_candidates",
+   "gold_ids": [
+    "p063.s1",
+    "p063.s2"
+   ],
+   "pred_ids": []
+  },
+  {
+   "policy_id": "P15",
+   "flag": "AI4",
+   "cohort": "india",
+   "gold": "CD",
+   "pred": "ED",
+   "status": "verified",
+   "gold_ids": [
+    "p109.s1",
+    "p109.s2"
+   ],
+   "pred_ids": [
+    "p109.s1"
+   ]
+  },
+  {
+   "policy_id": "P15",
+   "flag": "G3",
+   "cohort": "india",
+   "gold": "CD",
+   "pred": "ED",
+   "status": "verified",
+   "gold_ids": [
+    "p137.s2",
+    "p165.s1"
+   ],
+   "pred_ids": [
+    "p182.s1"
+   ]
+  },
+  {
+   "policy_id": "P15",
+   "flag": "G7",
+   "cohort": "india",
+   "gold": "CD",
+   "pred": "ED",
+   "status": "verified",
+   "gold_ids": [
+    "p038.s2",
+    "p039.s1",
+    "p039.s3"
+   ],
+   "pred_ids": [
+    "p038.s2"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1136 @@
+{
+ "policy_id": "P07",
+ "policy_name": "spotify",
+ "scope": "all_users",
+ "mode": "batch",
+ "text_sha256": "ea050ce111fb7761f4d28179bbdffdf7b2e0d5082ee4766496daf7e9c98a3716",
+ "n_sentences": 756,
+ "batch_calls": [
+  {
+   "attempt": 1,
+   "flags": [
+    "G1",
+    "G2",
+    "G3",
+    "G4",
+    "G5",
+    "G6",
+    "G7",
+    "AI1",
+    "AI2",
+    "AI4",
+    "AI5",
+    "DPDP1",
+    "DPDP2",
+    "DPDP3",
+    "DPDP4"
+   ],
+   "cached": false,
+   "n_sentences": 236,
+   "raw": "{\n  \"answers\": [\n    {\n      \"flag\": \"G1\",\n      \"presence\": \"Present\",\n      \"state\": \"ED\",\n      \"evidence\": [\n        {\n          \"id\": \"p171.s1\",\n          \"quote\": \"prompts in AI powered features\"\n        },\n        {\n          \"id\": \"p207.s1\",\n          \"quote\": \"If voice features are available in your market and you’ve chosen to use a voice feature, we collect and process voice data.\"\n        }\n      ],\n      \"rationale\": \"The company collects personal data beyond basic contact details, including user prompts in AI features and voice data.\"\n    },\n    {\n      \"flag\": \"G2\",\n      \"presence\": \"Present\",\n      \"state\": \"CD\",\n      \"evidence\": [\n        {\n          \"id\": \"p122.s1\",\n          \"quote\": \"You can control tailored advertising through the 'Tailored Ads' setting.\"\n        }\n      ],\n      \"rationale\": \"The company shares data for tailored advertising but provides a first-party setting to control it.\"\n    },\n    {\n      \"flag\": \"G3\",\n      \"presence\": \"Present\",\n      \"state\": \"ED\",\n      \"evidence\": [\n        {\n          \"id\": \"p175.s1\",\n          \"quote\": \"inferences (i.e., our understanding) of your age, interests and preferences based on your usage of the Spotify Service\"\n        }\n      ],\n      \"rationale\": \"The company creates inferences and profiles based on user activity, and no user control specifically to stop all profiling is described.\"\n    },\n    {\n      \"flag\": \"G4\",\n      \"presence\": \"Present\",\n      \"state\": \"ED\",\n      \"evidence\": [\n        {\n          \"id\": \"p584.s2\",\n          \"quote\": \"For example, personal data you may input as part of search queries is deleted after 90 days.\"\n        }\n      ],\n      \"rationale\": \"The policy specifies a concrete retention period for a category of user-provided data (search queries deleted after 90 days).\"\n    },\n    {\n      \"flag\": \"G5\",\n      \"presence\": \"Present\",\n      \"state\": \"ED\",\n      \"evidence\": [\n        {\n          \"id\": \"p059.s1\",\n          \"quote\": \"Request access to the personal data we process about you.\"\n        },\n        {\n          \"id\": \"p064.s1\",\n          \"quote\": \"Rectification\"\n        },\n        {\n          \"id\": \"p067.s1\",\n          \"quote\": \"Erasure\"\n        }\n      ],\n      \"rationale\": \"The company offers access, rectification, and erasure rights to users.\"\n    },\n    {\n      \"flag\": \"G6\",\n      \"presence\": \"Present\",\n      \"state\": \"CD\",\n      \"evidence\": [\n        {\n          \"id\": \"p595.s1\",\n          \"quote\": \"Transfers of personal data to other countries outside of the EU/EEA are protected by Standard Contractual Clauses ('SCCs') as the appropriate safeguard.\"\n        }\n      ],\n      \"rationale\": \"Data is transferred internationally, and specific mechanisms such as Standard Contractual Clauses are named as safeguards.\"\n    },\n    {\n      \"flag\": \"G7\",\n      \"presence\": \"Present\",\n      \"state\": \"ED\",\n      \"evidence\": [\n        {\n          \"id\": \"p614.s1\",\n          \"quote\": \"The Spotify Service (outside of Managed Accounts or Spotify Kids) that is tied to this privacy policy has a minimum age limit in each country or region (the \\\"Age Limit\\\").\"\n        },\n        {\n          \"id\": \"p616.s1\",\n          \"quote\": \"We do not knowingly collect or use personal data from children under the applicable Age Limit outside of Managed Accounts or Spotify Kids.\"\n        }\n      ],\n      \"rationale\": \"The policy establishes age thresholds and restrictions on collecting data from children below the age limit.\"\n    },\n    {\n      \"flag\": \"AI1\",\n      \"presence\": \"Present\",\n      \"state\": \"ED\",\n      \"evidence\": [\n        {\n          \"id\": \"p340.s2\",\n          \"quote\": \"This includes development and training of algorithmic and machine learning models, which help us to keep our service safe and enhance our users’ experience.\"\n        }\n      ],\n      \"rationale\": \"The company uses user data to train machine learning and algorithmic models without providing an opt-out specifically for AI training.\"\n    },\n    {\n      \"flag\": \"AI2\",\n      \"presence\": \"Absent\",\n      \"state\": null,\n      \"evidence\": [],\n      \"rationale\": \"No specific self-serve control or mechanism to opt out of AI training is described in the policy.\"\n    },\n    {\n      \"flag\": \"AI4\",\n      \"presence\": \"Present\",\n      \"state\": \"ED\",\n      \"evidence\": [\n        {\n          \"id\": \"p544.s1\",\n          \"quote\": \"For activities such as statistical analysis and academic study, but only in a pseudonymised format.\"\n        },\n        {\n          \"id\": \"p586.s4\",\n          \"quote\": \"When your Spotify account is deleted, this category of your data is deleted or de-identified.\"\n        }\n      ],\n      \"rationale\": \"The policy states that data may be de-identified or pseudonymized and used for activities like statistical analysis.\"\n    },\n    {\n      \"flag\": \"AI5\",\n      \"presence\": \"Absent\",\n      \"state\": null,\n      \"evidence\": [],\n      \"rationale\": \"The text does not mention sharing user content with third-party AI or model providers.\"\n    },\n    {\n      \"flag\": \"DPDP1\",\n      \"presence\": \"Present\",\n      \"state\": \"CD\",\n      \"evidence\": [\n        {\n          \"id\": \"p291.s1\",\n          \"quote\": \"Consent: When Spotify asks you to actively indicate your agreement to Spotify's use of your personal data for a certain purpose.\"\n        }\n      ],\n      \"rationale\": \"Consent is described as actively indicating agreement, but general registration and terms acceptance mechanisms are part of processing.\"\n    },\n    {\n      \"flag\": \"DPDP2\",\n      \"presence\": \"Present\",\n      \"state\": \"ED\",\n      \"evidence\": [\n        {\n          \"id\": \"p112.s1\",\n          \"quote\": \"adjust the relevant control on Spotify\"\n        },\n        {\n          \"id\": \"p495.s2\",\n          \"quote\": \"You’ll always have the option to change your mind and withdraw your consent at any time.\"\n        }\n      ],\n      \"rationale\": \"Users can withdraw consent using built-in controls on the service.\"\n    },\n    {\n      \"flag\": \"DPDP3\",\n      \"presence\": \"Present\",\n      \"state\": \"ED\",\n  "
+  }
+ ],
+ "flags": {
+  "G1": {
+   "flag": "G1",
+   "flag_key": "first_party_collection_scope",
+   "search_log": {
+    "we collect": 24,
+    "information/data we collect": 5,
+    "collected automatically": 0,
+    "you provide": 3,
+    "location": 11,
+    "device / identifiers": 6,
+    "content / messages": 55,
+    "contacts": 15,
+    "sensitive / biometric / financial": 2,
+    "from other sources": 1,
+    "usage / log data": 34
+   },
+   "n_candidates": 28,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "ED",
+   "evidence": [
+    {
+     "id": "p171.s1",
+     "quote": "prompts in AI powered features",
+     "status": "exact",
+     "start": 11572,
+     "end": 11602,
+     "heading": "Information about how you use Spotify"
+    },
+    {
+     "id": "p207.s1",
+     "quote": "If voice features are available in your market and you’ve chosen to use a voice feature, we collect and process voice data.",
+     "status": "exact",
+     "start": 13717,
+     "end": 13840,
+     "heading": "Voice Data"
+    }
+   ],
+   "status": "verified",
+   "rationale": "The company collects personal data beyond basic contact details, including user prompts in AI features and voice data.",
+   "attempts": 1,
+   "shown": [
+    "p005.s2",
+    "p006.s1",
+    "p016.s1",
+    "p016.s2",
+    "p032.s2",
+    "p032.s3",
+    "p053.s1",
+    "p054.s1",
+    "p059.s1",
+    "p060.s1",
+    "p063.s2",
+    "p064.s1",
+    "p071.s1",
+    "p072.s1",
+    "p082.s2",
+    "p083.s1",
+    "p125.s2",
+    "p126.s1",
+    "p126.s2",
+    "p144.s1",
+    "p145.s1",
+    "p145.s2",
+    "p146.s1",
+    "p176.s1",
+    "p177.s1",
+    "p207.s1",
+    "p207.s2",
+    "p209.s1",
+    "p209.s2",
+    "p211.s1",
+    "p211.s2",
+    "p228.s1",
+    "p229.s1",
+    "p231.s1",
+    "p231.s2",
+    "p272.s1",
+    "p273.s1",
+    "p284.s2",
+    "p285.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "G2": {
+   "flag": "G2",
+   "flag_key": "third_party_advertising_tracking",
+   "search_log": {
+    "advertis*": 28,
+    "targeted / interest-based / behavioural ads": 1,
+    "sell / sale of data": 2,
+    "pixel / SDK / tracking tech": 0,
+    "ad / marketing partners": 6,
+    "opt-out of sale/ads / GPC": 0,
+    "cookies": 4,
+    "analytics provider": 0,
+    "share with third parties": 3,
+    "marketing": 12
+   },
+   "n_candidates": 31,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "CD",
+   "evidence": [
+    {
+     "id": "p122.s1",
+     "quote": "You can control tailored advertising through the 'Tailored Ads' setting.",
+     "status": "exact",
+     "start": 8631,
+     "end": 8703,
+     "heading": "What is tailored advertising?"
+    }
+   ],
+   "status": "verified",
+   "rationale": "The company shares data for tailored advertising but provides a first-party setting to control it.",
+   "attempts": 1,
+   "shown": [
+    "p097.s1",
+    "p098.s1",
+    "p099.s2",
+    "p100.s1",
+    "p117.s1",
+    "p118.s1",
+    "p119.s1",
+    "p119.s2",
+    "p120.s1",
+    "p120.s2",
+    "p121.s1",
+    "p122.s1",
+    "p123.s1",
+    "p123.s2",
+    "p271.s1",
+    "p272.s1",
+    "p273.s1",
+    "p274.s1",
+    "p352.s1",
+    "p353.s1",
+    "p358.s1",
+    "p359.s1",
+    "p520.s1",
+    "p521.s1",
+    "p524.s1",
+    "p525.s1",
+    "p526.s1",
+    "p534.s1",
+    "p535.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "G3": {
+   "flag": "G3",
+   "flag_key": "profiling_automated_decisions",
+   "search_log": {
+    "profiling": 11,
+    "automated decision": 3,
+    "infer / inference": 2,
+    "legal or similarly significant": 1,
+    "scoring": 0,
+    "personalise / recommend": 24,
+    "interests / preferences / segments": 30,
+    "predict / analyse behaviour": 1
+   },
+   "n_candidates": 16,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "ED",
+   "evidence": [
+    {
+     "id": "p175.s1",
+     "quote": "inferences (i.e., our understanding) of your age, interests and preferences based on your usage of the Spotify Service",
+     "status": "exact",
+     "start": 11733,
+     "end": 11851,
+     "heading": "Information about how you use Spotify"
+    }
+   ],
+   "status": "verified",
+   "rationale": "The company creates inferences and profiles based on user activity, and no user control specifically to stop all profiling is described.",
+   "attempts": 1,
+   "shown": [
+    "p038.s1",
+    "p039.s1",
+    "p066.s1",
+    "p067.s1",
+    "p105.s1",
+    "p106.s1",
+    "p107.s1",
+    "p108.s1",
+    "p175.s1",
+    "p176.s1",
+    "p272.s1",
+    "p273.s1",
+    "p359.s1",
+    "p360.s1",
+    "p454.s1",
+    "p455.s1",
+    "p456.s1",
+    "p458.s1",
+    "p459.s1",
+    "p460.s1",
+    "p461.s1",
+    "p485.s1",
+    "p485.s2",
+    "p491.s1",
+    "p491.s2",
+    "p582.s1",
+    "p582.s2",
+    "p586.s2",
+    "p586.s3"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "G4": {
+   "flag": "G4",
+   "flag_key": "data_retention_specificity",
+   "search_log": {
+    "retain / retention": 9,
+    "keep / store for": 7,
+    "as long as necessary": 1,
+    "numeric period": 1,
+    "indefinitely": 1,
+    "delete after / deletion": 17,
+    "legal obligation": 8
+   },
+   "n_candidates": 17,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "ED",
+   "evidence": [
+    {
+     "id": "p584.s2",
+     "quote": "For example, personal data you may input as part of search queries is deleted after 90 days.",
+     "status": "exact",
+     "start": 36124,
+     "end": 36216,
+     "heading": "6. Data retention"
+    }
+   ],
+   "status": "verified",
+   "rationale": "The policy specifies a concrete retention period for a category of user-provided data (search queries deleted after 90 days).",
+   "attempts": 1,
+   "shown": [
+    "p008.s2",
+    "p009.s1",
+    "p091.s1",
+    "p092.s1",
+    "p573.s2",
+    "p574.s1",
+    "p575.s1",
+    "p579.s1",
+    "p580.s1",
+    "p581.s1",
+    "p582.s2",
+    "p583.s1",
+    "p584.s1",
+    "p584.s2",
+    "p585.s1",
+    "p586.s1",
+    "p586.s2",
+    "p586.s3",
+    "p586.s4",
+    "p587.s1",
+    "p588.s1",
+    "p588.s2",
+    "p588.s3",
+    "p588.s4",
+    "p588.s5",
+    "p602.s1",
+    "p602.s2"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "G5": {
+   "flag": "G5",
+   "flag_key": "user_rights_access_deletion",
+   "search_log": {
+    "right to / your rights": 10,
+    "access": 3,
+    "correct / rectify / update": 4,
+    "delete / erase": 12,
+    "portability / export": 4,
+    "object / restrict": 3,
+    "nominate (DPDP)": 0,
+    "jurisdiction limits": 3
+   },
+   "n_candidates": 30,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "ED",
+   "evidence": [
+    {
+     "id": "p059.s1",
+     "quote": "Request access to the personal data we process about you.",
+     "status": "exact",
+     "start": 3900,
+     "end": 3957,
+     "heading": "Access"
+    },
+    {
+     "id": "p064.s1",
+     "quote": "Rectification",
+     "status": "exact",
+     "start": 4325,
+     "end": 4338,
+     "heading": "Rectification"
+    },
+    {
+     "id": "p067.s1",
+     "quote": "Erasure",
+     "status": "exact",
+     "start": 4513,
+     "end": 4520,
+     "heading": "Erasure"
+    }
+   ],
+   "status": "verified",
+   "rationale": "The company offers access, rectification, and erasure rights to users.",
+   "attempts": 1,
+   "shown": [
+    "p028.s3",
+    "p029.s1",
+    "p043.s1",
+    "p043.s2",
+    "p046.s1",
+    "p047.s1",
+    "p050.s1",
+    "p051.s1",
+    "p059.s1",
+    "p060.s1",
+    "p061.s1",
+    "p062.s1",
+    "p063.s1",
+    "p063.s2",
+    "p064.s1",
+    "p065.s1",
+    "p066.s1",
+    "p067.s1",
+    "p068.s1",
+    "p069.s1",
+    "p070.s1",
+    "p075.s1",
+    "p076.s1",
+    "p080.s1",
+    "p081.s1",
+    "p082.s1",
+    "p082.s2",
+    "p083.s1",
+    "p084.s1",
+    "p102.s1",
+    "p103.s1",
+    "p104.s1",
+    "p105.s1",
+    "p581.s1",
+    "p581.s2"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "G6": {
+   "flag": "G6",
+   "flag_key": "international_data_transfers",
+   "search_log": {
+    "transfer": 7,
+    "cross-border / international": 4,
+    "stored / processed in a country": 0,
+    "safeguard mechanisms": 3,
+    "localisation": 0,
+    "servers": 0,
+    "jurisdiction": 2
+   },
+   "n_candidates": 9,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "CD",
+   "evidence": [
+    {
+     "id": "p595.s1",
+     "quote": "Transfers of personal data to other countries outside of the EU/EEA are protected by Standard Contractual Clauses ('SCCs') as the appropriate safeguard.",
+     "status": "exact",
+     "start": 38063,
+     "end": 38215,
+     "heading": "7. Transfer to other countries"
+    }
+   ],
+   "status": "verified",
+   "rationale": "Data is transferred internationally, and specific mechanisms such as Standard Contractual Clauses are named as safeguards.",
+   "attempts": 1,
+   "shown": [
+    "p009.s2",
+    "p010.s1",
+    "p567.s1",
+    "p568.s1",
+    "p592.s2",
+    "p593.s1",
+    "p593.s2",
+    "p594.s1",
+    "p594.s2",
+    "p595.s1",
+    "p595.s2",
+    "p595.s3",
+    "p596.s1",
+    "p597.s1",
+    "p598.s1",
+    "p599.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "G7": {
+   "flag": "G7",
+   "flag_key": "childrens_data_safeguards",
+   "search_log": {
+    "child / children / minor": 10,
+    "age threshold": 2,
+    "parent / guardian / consent": 4,
+    "COPPA / age verification": 2,
+    "knowingly collect": 1
+   },
+   "n_candidates": 14,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "ED",
+   "evidence": [
+    {
+     "id": "p614.s1",
+     "quote": "The Spotify Service (outside of Managed Accounts or Spotify Kids) that is tied to this privacy policy has a minimum age limit in each country or region (the \"Age Limit\").",
+     "status": "exact",
+     "start": 40368,
+     "end": 40538,
+     "heading": "9. Children"
+    },
+    {
+     "id": "p616.s1",
+     "quote": "We do not knowingly collect or use personal data from children under the applicable Age Limit outside of Managed Accounts or Spotify Kids.",
+     "status": "exact",
+     "start": 40903,
+     "end": 41041,
+     "heading": "9. Children"
+    }
+   ],
+   "status": "verified",
+   "rationale": "The policy establishes age thresholds and restrictions on collecting data from children below the age limit.",
+   "attempts": 1,
+   "shown": [
+    "p011.s2",
+    "p012.s1",
+    "p211.s1",
+    "p211.s2",
+    "p213.s1",
+    "p214.s1",
+    "p369.s1",
+    "p370.s1",
+    "p612.s2",
+    "p613.s1",
+    "p614.s1",
+    "p615.s1",
+    "p615.s2",
+    "p615.s3",
+    "p616.s1",
+    "p616.s2",
+    "p616.s3",
+    "p616.s4",
+    "p617.s1",
+    "p618.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "AI1": {
+   "flag": "AI1",
+   "flag_key": "ai_model_training_on_user_content",
+   "search_log": {
+    "train / training": 1,
+    "model(s)": 1,
+    "machine learning": 1,
+    "artificial intelligence / AI": 2,
+    "improve / develop services": 7,
+    "content / inputs / outputs": 39,
+    "research": 12
+   },
+   "n_candidates": 3,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "ED",
+   "evidence": [
+    {
+     "id": "p340.s2",
+     "quote": "This includes development and training of algorithmic and machine learning models, which help us to keep our service safe and enhance our users’ experience.",
+     "status": "exact",
+     "start": 22466,
+     "end": 22622,
+     "heading": "Customer Service Data"
+    }
+   ],
+   "status": "verified",
+   "rationale": "The company uses user data to train machine learning and algorithmic models without providing an opt-out specifically for AI training.",
+   "attempts": 1,
+   "shown": [
+    "p171.s1",
+    "p172.s1",
+    "p340.s2",
+    "p341.s1",
+    "p343.s1",
+    "p344.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "AI2": {
+   "flag": "AI2",
+   "flag_key": "ai_training_opt_out_control",
+   "search_log": {
+    "opt out": 0,
+    "turn off / disable": 2,
+    "choose whether / your choices": 3,
+    "settings / controls": 29,
+    "train / model (co-occurrence)": 1,
+    "object / request": 18
+   },
+   "n_candidates": 5,
+   "mode": "batch",
+   "presence": "Absent",
+   "state": "NS",
+   "evidence": [],
+   "status": "absent_unverifiable",
+   "rationale": "No specific self-serve control or mechanism to opt out of AI training is described in the policy.",
+   "attempts": 1,
+   "shown": [
+    "p037.s1",
+    "p038.s1",
+    "p039.s1",
+    "p040.s1",
+    "p041.s1",
+    "p099.s1",
+    "p099.s2"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "AI3": {
+   "flag": "AI3",
+   "flag_key": "ai_human_review_of_chats",
+   "search_log": {
+    "human review": 0,
+    "reviewers / annotators / moderators": 0,
+    "staff may access / review content": 0,
+    "review content / conversations": 0,
+    "we may access / review / monitor content": 0,
+    "flagged / safety / abuse": 4,
+    "support / feedback": 2
+   },
+   "n_candidates": 0,
+   "mode": "batch",
+   "presence": "Absent",
+   "state": "NS",
+   "evidence": [],
+   "status": "no_candidates",
+   "rationale": "no sentence matched the flag's search terms; absence not verified",
+   "attempts": 0,
+   "shown": []
+  },
+  "AI4": {
+   "flag": "AI4",
+   "flag_key": "deidentification_training_carveout",
+   "search_log": {
+    "de-identified": 1,
+    "anonymised": 0,
+    "aggregated": 1,
+    "pseudonymised": 5,
+    "no longer identifies": 0,
+    "share / any purpose": 68
+   },
+   "n_candidates": 7,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "ED",
+   "evidence": [
+    {
+     "id": "p544.s1",
+     "quote": "For activities such as statistical analysis and academic study, but only in a pseudonymised format.",
+     "status": "exact",
+     "start": 32904,
+     "end": 33003,
+     "heading": "Usage Data"
+    },
+    {
+     "id": "p586.s4",
+     "quote": "When your Spotify account is deleted, this category of your data is deleted or de-identified.",
+     "status": "exact",
+     "start": 36655,
+     "end": 36748,
+     "heading": "6. Data retention"
+    }
+   ],
+   "status": "verified",
+   "rationale": "The policy states that data may be de-identified or pseudonymized and used for activities like statistical analysis.",
+   "attempts": 1,
+   "shown": [
+    "p381.s1",
+    "p382.s1",
+    "p383.s1",
+    "p418.s1",
+    "p419.s1",
+    "p544.s1",
+    "p545.s1",
+    "p586.s4",
+    "p587.s1",
+    "p597.s1",
+    "p598.s1",
+    "p602.s1",
+    "p602.s2"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "AI5": {
+   "flag": "AI5",
+   "flag_key": "third_party_ai_subprocessors",
+   "search_log": {
+    "AI / model providers": 0,
+    "named AI vendors": 0,
+    "third-party AI / models": 0,
+    "integrations / connectors / plugins": 3,
+    "license content / data licensing": 0,
+    "sub-processors / service providers": 2,
+    "AI features": 0
+   },
+   "n_candidates": 3,
+   "mode": "batch",
+   "presence": "Absent",
+   "state": "NS",
+   "evidence": [],
+   "status": "absent_unverifiable",
+   "rationale": "The text does not mention sharing user content with third-party AI or model providers.",
+   "attempts": 1,
+   "shown": [
+    "p194.s1",
+    "p195.s1",
+    "p240.s2",
+    "p241.s1",
+    "p619.s1",
+    "p619.s2"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "DPDP1": {
+   "flag": "DPDP1",
+   "flag_key": "dpdp_unambiguous_affirmative_consent",
+   "search_log": {
+    "by using / visiting you agree": 0,
+    "consent": 19,
+    "agree / accept": 0,
+    "DPDP / Indian law": 0,
+    "legal basis": 34,
+    "notice / checkbox / sign-up": 8,
+    "explicit / affirmative / freely": 5
+   },
+   "n_candidates": 50,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "CD",
+   "evidence": [
+    {
+     "id": "p291.s1",
+     "quote": "Consent: When Spotify asks you to actively indicate your agreement to Spotify's use of your personal data for a certain purpose.",
+     "status": "exact",
+     "start": 20269,
+     "end": 20397,
+     "heading": "4. Our purpose for using your personal data"
+    }
+   ],
+   "status": "verified",
+   "rationale": "Consent is described as actively indicating agreement, but general registration and terms acceptance mechanisms are part of processing.",
+   "attempts": 1,
+   "shown": [
+    "p044.s1",
+    "p044.s2",
+    "p045.s1",
+    "p047.s1",
+    "p048.s1",
+    "p071.s1",
+    "p072.s1",
+    "p096.s1",
+    "p097.s1",
+    "p103.s1",
+    "p103.s2",
+    "p108.s1",
+    "p109.s1",
+    "p110.s1",
+    "p111.s1",
+    "p112.s1",
+    "p211.s1",
+    "p211.s2",
+    "p283.s1",
+    "p284.s1",
+    "p286.s1",
+    "p287.s1",
+    "p288.s1",
+    "p290.s1",
+    "p290.s2",
+    "p291.s1",
+    "p292.s1",
+    "p294.s1",
+    "p295.s1",
+    "p301.s1",
+    "p302.s1",
+    "p310.s1",
+    "p311.s1",
+    "p312.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "DPDP2": {
+   "flag": "DPDP2",
+   "flag_key": "dpdp_easy_consent_withdrawal",
+   "search_log": {
+    "withdraw / revoke consent": 5,
+    "consent manager": 0,
+    "opt out / unsubscribe": 0,
+    "settings / dashboard": 10,
+    "contact / email to withdraw": 20,
+    "delete account": 0,
+    "consent (co-occurrence)": 19
+   },
+   "n_candidates": 7,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "ED",
+   "evidence": [
+    {
+     "id": "p112.s1",
+     "quote": "adjust the relevant control on Spotify",
+     "status": "exact",
+     "start": 7854,
+     "end": 7892,
+     "heading": "Withdrawal of consent"
+    },
+    {
+     "id": "p495.s2",
+     "quote": "You’ll always have the option to change your mind and withdraw your consent at any time.",
+     "status": "exact",
+     "start": 30363,
+     "end": 30451,
+     "heading": "User Data"
+    }
+   ],
+   "status": "verified",
+   "rationale": "Users can withdraw consent using built-in controls on the service.",
+   "attempts": 1,
+   "shown": [
+    "p071.s1",
+    "p072.s1",
+    "p108.s1",
+    "p109.s1",
+    "p110.s1",
+    "p111.s1",
+    "p112.s1",
+    "p272.s1",
+    "p273.s1",
+    "p353.s1",
+    "p354.s1",
+    "p495.s2",
+    "p496.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "DPDP3": {
+   "flag": "DPDP3",
+   "flag_key": "dpdp_grievance_dpo_contact",
+   "search_log": {
+    "grievance officer": 1,
+    "data protection officer / DPO": 2,
+    "email address": 1,
+    "Data Protection Board / complaint": 1,
+    "contact us": 26,
+    "officer / named person": 2
+   },
+   "n_candidates": 4,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "ED",
+   "evidence": [
+    {
+     "id": "p624.s1",
+     "quote": "For any questions or concerns about this Policy, contact our Grievance Officer/Data Protection Officer any one of these ways:",
+     "status": "exact",
+     "start": 42213,
+     "end": 42338,
+     "heading": "12. How to contact us"
+    },
+    {
+     "id": "p625.s1",
+     "quote": "email us at: privacy@spotify.com",
+     "status": "exact",
+     "start": 42339,
+     "end": 42371,
+     "heading": "12. How to contact us"
+    }
+   ],
+   "status": "verified",
+   "rationale": "A Grievance Officer/Data Protection Officer is designated with direct contact details.",
+   "attempts": 1,
+   "shown": [
+    "p114.s1",
+    "p115.s1",
+    "p624.s1",
+    "p625.s1",
+    "p626.s1",
+    "p627.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "DPDP4": {
+   "flag": "DPDP4",
+   "flag_key": "dpdp_eighth_schedule_languages",
+   "search_log": {
+    "Eighth Schedule": 0,
+    "language(s) / translation": 2,
+    "Indian language names (English)": 0,
+    "Indian language names (native script)": 0,
+    "English": 0
+   },
+   "n_candidates": 2,
+   "mode": "batch",
+   "presence": "Absent",
+   "state": "NS",
+   "evidence": [],
+   "status": "absent_unverifiable",
+   "rationale": "There is no mention of the notice being available in Eighth Schedule Indian languages.",
+   "attempts": 1,
+   "shown": [
+    "p188.s1",
+    "p189.s1",
+    "p197.s2",
+    "p198.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  }
+ },
+ "scores": {
+  "scoring_version": "1.0",
+  "risk_index": 37.931,
+  "risk_index_display": 38,
+  "disclosure_quality": 75.0,
+  "disclosure_quality_display": 75,
+  "risk_points": 11.0,
+  "max_risk_points": 29.0,
+  "quality_points": 22.5,
+  "max_quality_points": 30.0,
+  "n_applicable": 15,
+  "n_not_stated": 3,
+  "per_flag": [
+   {
+    "flag": "G1",
+    "state": "ED",
+    "weight": 1.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 1.0,
+    "max_risk_points": 1.0,
+    "quality_points": 2.0
+   },
+   {
+    "flag": "G2",
+    "state": "CD",
+    "weight": 3.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 1.5,
+    "max_risk_points": 3.0,
+    "quality_points": 1.5
+   },
+   {
+    "flag": "G3",
+    "state": "ED",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 2.0,
+    "max_risk_points": 2.0,
+    "quality_points": 2.0
+   },
+   {
+    "flag": "G4",
+    "state": "ED",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 0.0,
+    "max_risk_points": 2.0,
+    "quality_points": 2.0
+   },
+   {
+    "flag": "G5",
+    "state": "ED",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 0.0,
+    "max_risk_points": 2.0,
+    "quality_points": 2.0
+   },
+   {
+    "flag": "G6",
+    "state": "CD",
+    "weight": 1.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 0.5,
+    "max_risk_points": 1.0,
+    "quality_points": 1.5
+   },
+   {
+    "flag": "G7",
+    "state": "ED",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 0.0,
+    "max_risk_points": 2.0,
+    "quality_points": 2.0
+   },
+   {
+    "flag": "AI1",
+    "state": "ED",
+    "weight": 3.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 3.0,
+    "max_risk_points": 3.0,
+    "quality_points": 2.0
+   },
+   {
+    "flag": "AI2",
+    "state": "NS",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 0.0,
+    "max_risk_points": 2.0,
+    "quality_points": 0.0
+   },
+   {
+    "flag": "AI3",
+    "state": "NS",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 0.0,
+    "max_risk_points": 2.0,
+    "quality_points": 0.0
+   },
+   {
+    "flag": "AI4",
+    "state": "ED",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 2.0,
+    "max_risk_points": 2.0,
+    "quality_points": 2.0
+   },
+   {
+    "flag": "AI5",
+    "state": "NS",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 0.0,
+    "max_risk_points": 2.0,
+    "quality_points": 0.0
+   },
+   {
+    "flag": "DPDP1",
+    "state": "CD",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 1.0,
+    "max_risk_points": 2.0,
+    "quality_points": 1.5
+   },
+   {
+    "flag": "DPDP2",
+    "state": "ED",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 0.0,
+    "max_risk_points": 2.0,
+    "quality_points": 2.0
+   },
+   {
+    "flag": "DPDP3",
+    "state": "ED",
+    "weight": 1.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 0.0,
+    "max_risk_points": 1.0,
+    "quality_points": 2.0
+   },
+   {
+    "flag": "DPDP4",
+    "state": "NS",
+    "weight": 0.0,
+    "applicable": false,
+    "reason": "informational flag (weight 0)",
+    "risk_points": 0.0,
+    "max_risk_points": 0.0,
+    "quality_points": 0.0
+   }
+  ],
+  "complete": true,
+  "rejected_flags_scored_as_UN": []
+ },
+ "policy_key": "P07_spotify",
+ "cohort": "global"
+}

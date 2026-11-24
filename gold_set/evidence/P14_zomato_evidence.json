@@ -1,0 +1,3748 @@
+{
+ "policy_id": "P14",
+ "policy_key": "P14_zomato",
+ "policy_name": "zomato",
+ "url": "https://www.zomato.com/policies/privacy/",
+ "scope": "all_users",
+ "cohort": "india",
+ "fetched_at_utc": "2026-11-11T18:47:38+00:00",
+ "text_file": "policies/text/P14_zomato.txt",
+ "text_sha256": "2f16a4a9b47863d8e315bd405dbfb6297069324a47a374ea8878a1ffd120499a",
+ "flag_definitions_sha256": "7c81dc82616e22f95abb8c359f50f76e890fa628b31296c19186e78518da00c7",
+ "segmenter_version": "1",
+ "n_paragraphs": 149,
+ "n_sentences": 282,
+ "sentences": {
+  "p001.s1": {
+   "start": 0,
+   "end": 12,
+   "heading": "On this page"
+  },
+  "p002.s1": {
+   "start": 13,
+   "end": 43,
+   "heading": "On this page"
+  },
+  "p003.s1": {
+   "start": 44,
+   "end": 68,
+   "heading": "Applicability and Scope​"
+  },
+  "p004.s1": {
+   "start": 69,
+   "end": 259,
+   "heading": "Applicability and Scope​"
+  },
+  "p004.s2": {
+   "start": 260,
+   "end": 282,
+   "heading": "Applicability and Scope​"
+  },
+  "p005.s1": {
+   "start": 283,
+   "end": 461,
+   "heading": "Applicability and Scope​"
+  },
+  "p006.s1": {
+   "start": 462,
+   "end": 555,
+   "heading": "Applicability and Scope​"
+  },
+  "p007.s1": {
+   "start": 556,
+   "end": 738,
+   "heading": "Applicability and Scope​"
+  },
+  "p008.s1": {
+   "start": 739,
+   "end": 996,
+   "heading": "Applicability and Scope​"
+  },
+  "p008.s2": {
+   "start": 997,
+   "end": 1110,
+   "heading": "Applicability and Scope​"
+  },
+  "p009.s1": {
+   "start": 1111,
+   "end": 1233,
+   "heading": "Applicability and Scope​"
+  },
+  "p009.s2": {
+   "start": 1234,
+   "end": 1528,
+   "heading": "Applicability and Scope​"
+  },
+  "p009.s3": {
+   "start": 1529,
+   "end": 1650,
+   "heading": "Applicability and Scope​"
+  },
+  "p010.s1": {
+   "start": 1651,
+   "end": 1861,
+   "heading": "Applicability and Scope​"
+  },
+  "p011.s1": {
+   "start": 1862,
+   "end": 2054,
+   "heading": "Applicability and Scope​"
+  },
+  "p011.s2": {
+   "start": 2055,
+   "end": 2229,
+   "heading": "Applicability and Scope​"
+  },
+  "p012.s1": {
+   "start": 2230,
+   "end": 2416,
+   "heading": "Applicability and Scope​"
+  },
+  "p012.s2": {
+   "start": 2417,
+   "end": 2688,
+   "heading": "Applicability and Scope​"
+  },
+  "p013.s1": {
+   "start": 2689,
+   "end": 2734,
+   "heading": "The information we collect and how we use it​"
+  },
+  "p014.s1": {
+   "start": 2735,
+   "end": 2858,
+   "heading": "The information we collect and how we use it​"
+  },
+  "p015.s1": {
+   "start": 2859,
+   "end": 2954,
+   "heading": "The information we collect and how we use it​"
+  },
+  "p015.s2": {
+   "start": 2955,
+   "end": 3199,
+   "heading": "The information we collect and how we use it​"
+  },
+  "p015.s3": {
+   "start": 3200,
+   "end": 3253,
+   "heading": "The information we collect and how we use it​"
+  },
+  "p016.s1": {
+   "start": 3254,
+   "end": 3422,
+   "heading": "The information we collect and how we use it​"
+  },
+  "p016.s2": {
+   "start": 3423,
+   "end": 3647,
+   "heading": "The information we collect and how we use it​"
+  },
+  "p017.s1": {
+   "start": 3648,
+   "end": 3910,
+   "heading": "The information we collect and how we use it​"
+  },
+  "p018.s1": {
+   "start": 3911,
+   "end": 3941,
+   "heading": "Information You Provide to Us​"
+  },
+  "p019.s1": {
+   "start": 3942,
+   "end": 4008,
+   "heading": "Information You Provide to Us​"
+  },
+  "p020.s1": {
+   "start": 4009,
+   "end": 4249,
+   "heading": "Information You Provide to Us​"
+  },
+  "p020.s2": {
+   "start": 4250,
+   "end": 4354,
+   "heading": "Information You Provide to Us​"
+  },
+  "p020.s3": {
+   "start": 4355,
+   "end": 4472,
+   "heading": "Information You Provide to Us​"
+  },
+  "p020.s4": {
+   "start": 4473,
+   "end": 4583,
+   "heading": "Information You Provide to Us​"
+  },
+  "p021.s1": {
+   "start": 4584,
+   "end": 5204,
+   "heading": "Information You Provide to Us​"
+  },
+  "p022.s1": {
+   "start": 5205,
+   "end": 5344,
+   "heading": "Information You Provide to Us​"
+  },
+  "p022.s2": {
+   "start": 5345,
+   "end": 5727,
+   "heading": "Information You Provide to Us​"
+  },
+  "p022.s3": {
+   "start": 5728,
+   "end": 6107,
+   "heading": "Information You Provide to Us​"
+  },
+  "p023.s1": {
+   "start": 6108,
+   "end": 6270,
+   "heading": "Information You Provide to Us​"
+  },
+  "p024.s1": {
+   "start": 6271,
+   "end": 6773,
+   "heading": "Information You Provide to Us​"
+  },
+  "p024.s2": {
+   "start": 6774,
+   "end": 7022,
+   "heading": "Information You Provide to Us​"
+  },
+  "p024.s3": {
+   "start": 7023,
+   "end": 7207,
+   "heading": "Information You Provide to Us​"
+  },
+  "p024.s4": {
+   "start": 7208,
+   "end": 7267,
+   "heading": "Information You Provide to Us​"
+  },
+  "p025.s1": {
+   "start": 7268,
+   "end": 7615,
+   "heading": "Information You Provide to Us​"
+  },
+  "p025.s2": {
+   "start": 7616,
+   "end": 7774,
+   "heading": "Information You Provide to Us​"
+  },
+  "p025.s3": {
+   "start": 7775,
+   "end": 7949,
+   "heading": "Information You Provide to Us​"
+  },
+  "p026.s1": {
+   "start": 7950,
+   "end": 8271,
+   "heading": "Information You Provide to Us​"
+  },
+  "p026.s2": {
+   "start": 8272,
+   "end": 8396,
+   "heading": "Information You Provide to Us​"
+  },
+  "p026.s3": {
+   "start": 8397,
+   "end": 8557,
+   "heading": "Information You Provide to Us​"
+  },
+  "p026.s4": {
+   "start": 8558,
+   "end": 8650,
+   "heading": "Information You Provide to Us​"
+  },
+  "p027.s1": {
+   "start": 8651,
+   "end": 8823,
+   "heading": "Information You Provide to Us​"
+  },
+  "p027.s2": {
+   "start": 8824,
+   "end": 8908,
+   "heading": "Information You Provide to Us​"
+  },
+  "p027.s3": {
+   "start": 8909,
+   "end": 9006,
+   "heading": "Information You Provide to Us​"
+  },
+  "p027.s4": {
+   "start": 9007,
+   "end": 9105,
+   "heading": "Information You Provide to Us​"
+  },
+  "p028.s1": {
+   "start": 9106,
+   "end": 9360,
+   "heading": "Information You Provide to Us​"
+  },
+  "p028.s2": {
+   "start": 9361,
+   "end": 10049,
+   "heading": "Information You Provide to Us​"
+  },
+  "p029.s1": {
+   "start": 10050,
+   "end": 10328,
+   "heading": "Information You Provide to Us​"
+  },
+  "p029.s2": {
+   "start": 10329,
+   "end": 10575,
+   "heading": "Information You Provide to Us​"
+  },
+  "p029.s3": {
+   "start": 10576,
+   "end": 10763,
+   "heading": "Information You Provide to Us​"
+  },
+  "p030.s1": {
+   "start": 10764,
+   "end": 10779,
+   "heading": "Data of Minors​"
+  },
+  "p031.s1": {
+   "start": 10780,
+   "end": 11030,
+   "heading": "Data of Minors​"
+  },
+  "p031.s2": {
+   "start": 11031,
+   "end": 11133,
+   "heading": "Data of Minors​"
+  },
+  "p031.s3": {
+   "start": 11134,
+   "end": 11369,
+   "heading": "Data of Minors​"
+  },
+  "p031.s4": {
+   "start": 11370,
+   "end": 11464,
+   "heading": "Data of Minors​"
+  },
+  "p032.s1": {
+   "start": 11465,
+   "end": 11519,
+   "heading": "You are the parent or legal guardian of the Minor; and"
+  },
+  "p033.s1": {
+   "start": 11520,
+   "end": 11683,
+   "heading": "You are the parent or legal guardian of the Minor; and"
+  },
+  "p034.s1": {
+   "start": 11684,
+   "end": 11887,
+   "heading": "You are the parent or legal guardian of the Minor; and"
+  },
+  "p034.s2": {
+   "start": 11888,
+   "end": 11954,
+   "heading": "You are the parent or legal guardian of the Minor; and"
+  },
+  "p034.s3": {
+   "start": 11955,
+   "end": 12151,
+   "heading": "You are the parent or legal guardian of the Minor; and"
+  },
+  "p035.s1": {
+   "start": 12152,
+   "end": 12222,
+   "heading": "Information We Collect Through Automatic Data Collection Technologies​"
+  },
+  "p036.s1": {
+   "start": 12223,
+   "end": 12460,
+   "heading": "Information We Collect Through Automatic Data Collection Technologies​"
+  },
+  "p037.s1": {
+   "start": 12461,
+   "end": 12841,
+   "heading": "Information We Collect Through Automatic Data Collection Technologies​"
+  },
+  "p037.s2": {
+   "start": 12842,
+   "end": 12937,
+   "heading": "Information We Collect Through Automatic Data Collection Technologies​"
+  },
+  "p038.s1": {
+   "start": 12938,
+   "end": 13058,
+   "heading": "Information We Collect Through Automatic Data Collection Technologies​"
+  },
+  "p038.s2": {
+   "start": 13059,
+   "end": 13434,
+   "heading": "Information We Collect Through Automatic Data Collection Technologies​"
+  },
+  "p039.s1": {
+   "start": 13435,
+   "end": 13790,
+   "heading": "Information We Collect Through Automatic Data Collection Technologies​"
+  },
+  "p039.s2": {
+   "start": 13791,
+   "end": 13922,
+   "heading": "Information We Collect Through Automatic Data Collection Technologies​"
+  },
+  "p039.s3": {
+   "start": 13923,
+   "end": 14104,
+   "heading": "Information We Collect Through Automatic Data Collection Technologies​"
+  },
+  "p039.s4": {
+   "start": 14105,
+   "end": 14185,
+   "heading": "Information We Collect Through Automatic Data Collection Technologies​"
+  },
+  "p039.s5": {
+   "start": 14186,
+   "end": 14238,
+   "heading": "Information We Collect Through Automatic Data Collection Technologies​"
+  },
+  "p039.s6": {
+   "start": 14239,
+   "end": 14384,
+   "heading": "Information We Collect Through Automatic Data Collection Technologies​"
+  },
+  "p039.s7": {
+   "start": 14385,
+   "end": 14499,
+   "heading": "Information We Collect Through Automatic Data Collection Technologies​"
+  },
+  "p040.s1": {
+   "start": 14500,
+   "end": 14736,
+   "heading": "Information We Collect Through Automatic Data Collection Technologies​"
+  },
+  "p040.s2": {
+   "start": 14737,
+   "end": 14822,
+   "heading": "Information We Collect Through Automatic Data Collection Technologies​"
+  },
+  "p041.s1": {
+   "start": 14823,
+   "end": 15334,
+   "heading": "Information We Collect Through Automatic Data Collection Technologies​"
+  },
+  "p041.s2": {
+   "start": 15335,
+   "end": 15504,
+   "heading": "Information We Collect Through Automatic Data Collection Technologies​"
+  },
+  "p042.s1": {
+   "start": 15505,
+   "end": 15799,
+   "heading": "Information We Collect Through Automatic Data Collection Technologies​"
+  },
+  "p042.s2": {
+   "start": 15800,
+   "end": 16056,
+   "heading": "Information We Collect Through Automatic Data Collection Technologies​"
+  },
+  "p042.s3": {
+   "start": 16057,
+   "end": 16151,
+   "heading": "Information We Collect Through Automatic Data Collection Technologies​"
+  },
+  "p042.s4": {
+   "start": 16152,
+   "end": 16291,
+   "heading": "Information We Collect Through Automatic Data Collection Technologies​"
+  },
+  "p043.s1": {
+   "start": 16292,
+   "end": 16450,
+   "heading": "Information We Collect Through Automatic Data Collection Technologies​"
+  },
+  "p043.s2": {
+   "start": 16451,
+   "end": 16773,
+   "heading": "Information We Collect Through Automatic Data Collection Technologies​"
+  },
+  "p043.s3": {
+   "start": 16774,
+   "end": 16902,
+   "heading": "Information We Collect Through Automatic Data Collection Technologies​"
+  },
+  "p044.s1": {
+   "start": 16903,
+   "end": 16990,
+   "heading": "Information We Collect Through Automatic Data Collection Technologies​"
+  },
+  "p044.s2": {
+   "start": 16991,
+   "end": 17121,
+   "heading": "Information We Collect Through Automatic Data Collection Technologies​"
+  },
+  "p044.s3": {
+   "start": 17122,
+   "end": 17269,
+   "heading": "Information We Collect Through Automatic Data Collection Technologies​"
+  },
+  "p044.s4": {
+   "start": 17270,
+   "end": 17355,
+   "heading": "Information We Collect Through Automatic Data Collection Technologies​"
+  },
+  "p044.s5": {
+   "start": 17356,
+   "end": 17475,
+   "heading": "Information We Collect Through Automatic Data Collection Technologies​"
+  },
+  "p044.s6": {
+   "start": 17476,
+   "end": 17613,
+   "heading": "Information We Collect Through Automatic Data Collection Technologies​"
+  },
+  "p045.s1": {
+   "start": 17614,
+   "end": 17760,
+   "heading": "Information We Collect Through Automatic Data Collection Technologies​"
+  },
+  "p046.s1": {
+   "start": 17761,
+   "end": 17792,
+   "heading": "Information from Third Parties​"
+  },
+  "p047.s1": {
+   "start": 17793,
+   "end": 17870,
+   "heading": "Information from Third Parties​"
+  },
+  "p048.s1": {
+   "start": 17871,
+   "end": 18317,
+   "heading": "Information from Third Parties​"
+  },
+  "p049.s1": {
+   "start": 18318,
+   "end": 18624,
+   "heading": "Information from Third Parties​"
+  },
+  "p050.s1": {
+   "start": 18625,
+   "end": 18797,
+   "heading": "Information from Third Parties​"
+  },
+  "p051.s1": {
+   "start": 18798,
+   "end": 19242,
+   "heading": "Information from Third Parties​"
+  },
+  "p052.s1": {
+   "start": 19243,
+   "end": 19265,
+   "heading": "Information from Third Parties​"
+  },
+  "p053.s1": {
+   "start": 19266,
+   "end": 19458,
+   "heading": "Information from Third Parties​"
+  },
+  "p053.s2": {
+   "start": 19459,
+   "end": 19687,
+   "heading": "Information from Third Parties​"
+  },
+  "p054.s1": {
+   "start": 19688,
+   "end": 19726,
+   "heading": "How we use the information we collect​"
+  },
+  "p055.s1": {
+   "start": 19727,
+   "end": 19803,
+   "heading": "How we use the information we collect​"
+  },
+  "p055.s2": {
+   "start": 19804,
+   "end": 19931,
+   "heading": "How we use the information we collect​"
+  },
+  "p055.s3": {
+   "start": 19932,
+   "end": 20025,
+   "heading": "How we use the information we collect​"
+  },
+  "p056.s1": {
+   "start": 20026,
+   "end": 20247,
+   "heading": "How we use the information we collect​"
+  },
+  "p056.s2": {
+   "start": 20248,
+   "end": 20287,
+   "heading": "How we use the information we collect​"
+  },
+  "p056.s3": {
+   "start": 20288,
+   "end": 20628,
+   "heading": "How we use the information we collect​"
+  },
+  "p057.s1": {
+   "start": 20629,
+   "end": 21022,
+   "heading": "How we use the information we collect​"
+  },
+  "p058.s1": {
+   "start": 21023,
+   "end": 21447,
+   "heading": "How we use the information we collect​"
+  },
+  "p059.s1": {
+   "start": 21448,
+   "end": 21956,
+   "heading": "How we use the information we collect​"
+  },
+  "p060.s1": {
+   "start": 21957,
+   "end": 22118,
+   "heading": "How we use the information we collect​"
+  },
+  "p060.s2": {
+   "start": 22119,
+   "end": 22239,
+   "heading": "How we use the information we collect​"
+  },
+  "p060.s3": {
+   "start": 22240,
+   "end": 22423,
+   "heading": "How we use the information we collect​"
+  },
+  "p060.s4": {
+   "start": 22424,
+   "end": 22538,
+   "heading": "How we use the information we collect​"
+  },
+  "p060.s5": {
+   "start": 22539,
+   "end": 22699,
+   "heading": "How we use the information we collect​"
+  },
+  "p060.s6": {
+   "start": 22700,
+   "end": 22919,
+   "heading": "How we use the information we collect​"
+  },
+  "p061.s1": {
+   "start": 22920,
+   "end": 23107,
+   "heading": "How we use the information we collect​"
+  },
+  "p061.s2": {
+   "start": 23108,
+   "end": 23238,
+   "heading": "How we use the information we collect​"
+  },
+  "p061.s3": {
+   "start": 23239,
+   "end": 23388,
+   "heading": "How we use the information we collect​"
+  },
+  "p061.s4": {
+   "start": 23389,
+   "end": 23516,
+   "heading": "How we use the information we collect​"
+  },
+  "p061.s5": {
+   "start": 23517,
+   "end": 23603,
+   "heading": "How we use the information we collect​"
+  },
+  "p061.s6": {
+   "start": 23604,
+   "end": 23690,
+   "heading": "How we use the information we collect​"
+  },
+  "p062.s1": {
+   "start": 23691,
+   "end": 23909,
+   "heading": "How we use the information we collect​"
+  },
+  "p062.s2": {
+   "start": 23910,
+   "end": 24185,
+   "heading": "How we use the information we collect​"
+  },
+  "p063.s1": {
+   "start": 24186,
+   "end": 24548,
+   "heading": "How we use the information we collect​"
+  },
+  "p063.s2": {
+   "start": 24549,
+   "end": 24851,
+   "heading": "How we use the information we collect​"
+  },
+  "p063.s3": {
+   "start": 24852,
+   "end": 25095,
+   "heading": "How we use the information we collect​"
+  },
+  "p063.s4": {
+   "start": 25096,
+   "end": 25227,
+   "heading": "How we use the information we collect​"
+  },
+  "p064.s1": {
+   "start": 25228,
+   "end": 25503,
+   "heading": "How we use the information we collect​"
+  },
+  "p064.s2": {
+   "start": 25504,
+   "end": 25853,
+   "heading": "How we use the information we collect​"
+  },
+  "p065.s1": {
+   "start": 25854,
+   "end": 26058,
+   "heading": "How we use the information we collect​"
+  },
+  "p065.s2": {
+   "start": 26059,
+   "end": 26246,
+   "heading": "How we use the information we collect​"
+  },
+  "p065.s3": {
+   "start": 26247,
+   "end": 26454,
+   "heading": "How we use the information we collect​"
+  },
+  "p065.s4": {
+   "start": 26455,
+   "end": 26577,
+   "heading": "How we use the information we collect​"
+  },
+  "p066.s1": {
+   "start": 26578,
+   "end": 26917,
+   "heading": "How we use the information we collect​"
+  },
+  "p066.s2": {
+   "start": 26918,
+   "end": 27319,
+   "heading": "How we use the information we collect​"
+  },
+  "p066.s3": {
+   "start": 27320,
+   "end": 27553,
+   "heading": "How we use the information we collect​"
+  },
+  "p066.s4": {
+   "start": 27554,
+   "end": 27842,
+   "heading": "How we use the information we collect​"
+  },
+  "p066.s5": {
+   "start": 27843,
+   "end": 28025,
+   "heading": "How we use the information we collect​"
+  },
+  "p067.s1": {
+   "start": 28026,
+   "end": 28066,
+   "heading": "How we share the information we collect​"
+  },
+  "p068.s1": {
+   "start": 28067,
+   "end": 28204,
+   "heading": "How we share the information we collect​"
+  },
+  "p068.s2": {
+   "start": 28205,
+   "end": 28359,
+   "heading": "How we share the information we collect​"
+  },
+  "p069.s1": {
+   "start": 28360,
+   "end": 28391,
+   "heading": "General Information Disclosures"
+  },
+  "p070.s1": {
+   "start": 28392,
+   "end": 28529,
+   "heading": "General Information Disclosures"
+  },
+  "p070.s2": {
+   "start": 28530,
+   "end": 28637,
+   "heading": "General Information Disclosures"
+  },
+  "p071.s1": {
+   "start": 28638,
+   "end": 28854,
+   "heading": "General Information Disclosures"
+  },
+  "p072.s1": {
+   "start": 28855,
+   "end": 29247,
+   "heading": "General Information Disclosures"
+  },
+  "p073.s1": {
+   "start": 29248,
+   "end": 29388,
+   "heading": "General Information Disclosures"
+  },
+  "p073.s2": {
+   "start": 29389,
+   "end": 29542,
+   "heading": "General Information Disclosures"
+  },
+  "p074.s1": {
+   "start": 29543,
+   "end": 30020,
+   "heading": "General Information Disclosures"
+  },
+  "p074.s2": {
+   "start": 30021,
+   "end": 30119,
+   "heading": "General Information Disclosures"
+  },
+  "p074.s3": {
+   "start": 30120,
+   "end": 30344,
+   "heading": "General Information Disclosures"
+  },
+  "p074.s4": {
+   "start": 30345,
+   "end": 30450,
+   "heading": "General Information Disclosures"
+  },
+  "p075.s1": {
+   "start": 30451,
+   "end": 30466,
+   "heading": "General Information Disclosures"
+  },
+  "p075.s2": {
+   "start": 30467,
+   "end": 30690,
+   "heading": "General Information Disclosures"
+  },
+  "p075.s3": {
+   "start": 30691,
+   "end": 30937,
+   "heading": "General Information Disclosures"
+  },
+  "p076.s1": {
+   "start": 30938,
+   "end": 31356,
+   "heading": "General Information Disclosures"
+  },
+  "p076.s2": {
+   "start": 31357,
+   "end": 31634,
+   "heading": "General Information Disclosures"
+  },
+  "p077.s1": {
+   "start": 31635,
+   "end": 31963,
+   "heading": "General Information Disclosures"
+  },
+  "p077.s2": {
+   "start": 31964,
+   "end": 32049,
+   "heading": "General Information Disclosures"
+  },
+  "p078.s1": {
+   "start": 32050,
+   "end": 32159,
+   "heading": "General Information Disclosures"
+  },
+  "p079.s1": {
+   "start": 32160,
+   "end": 32310,
+   "heading": "General Information Disclosures"
+  },
+  "p079.s2": {
+   "start": 32311,
+   "end": 32595,
+   "heading": "General Information Disclosures"
+  },
+  "p080.s1": {
+   "start": 32596,
+   "end": 32745,
+   "heading": "General Information Disclosures"
+  },
+  "p080.s2": {
+   "start": 32746,
+   "end": 32885,
+   "heading": "General Information Disclosures"
+  },
+  "p081.s1": {
+   "start": 32886,
+   "end": 33030,
+   "heading": "General Information Disclosures"
+  },
+  "p082.s1": {
+   "start": 33031,
+   "end": 33066,
+   "heading": "Information Shared with Merchants:​"
+  },
+  "p083.s1": {
+   "start": 33067,
+   "end": 33381,
+   "heading": "Information Shared with Merchants:​"
+  },
+  "p083.s2": {
+   "start": 33382,
+   "end": 33489,
+   "heading": "Information Shared with Merchants:​"
+  },
+  "p084.s1": {
+   "start": 33490,
+   "end": 33613,
+   "heading": "Information Shared with Merchants:​"
+  },
+  "p084.s2": {
+   "start": 33614,
+   "end": 33820,
+   "heading": "Information Shared with Merchants:​"
+  },
+  "p084.s3": {
+   "start": 33821,
+   "end": 33967,
+   "heading": "Information Shared with Merchants:​"
+  },
+  "p084.s4": {
+   "start": 33968,
+   "end": 34103,
+   "heading": "Information Shared with Merchants:​"
+  },
+  "p085.s1": {
+   "start": 34104,
+   "end": 34328,
+   "heading": "Information Shared with Merchants:​"
+  },
+  "p085.s2": {
+   "start": 34329,
+   "end": 34707,
+   "heading": "Information Shared with Merchants:​"
+  },
+  "p086.s1": {
+   "start": 34708,
+   "end": 34892,
+   "heading": "Information Shared with Merchants:​"
+  },
+  "p087.s1": {
+   "start": 34893,
+   "end": 35127,
+   "heading": "Information Shared with Merchants:​"
+  },
+  "p087.s2": {
+   "start": 35128,
+   "end": 35293,
+   "heading": "Information Shared with Merchants:​"
+  },
+  "p088.s1": {
+   "start": 35294,
+   "end": 35307,
+   "heading": "Data Storage​"
+  },
+  "p089.s1": {
+   "start": 35308,
+   "end": 35537,
+   "heading": "Data Storage​"
+  },
+  "p090.s1": {
+   "start": 35538,
+   "end": 35555,
+   "heading": "Your Information​"
+  },
+  "p091.s1": {
+   "start": 35556,
+   "end": 35659,
+   "heading": "Your Information​"
+  },
+  "p091.s2": {
+   "start": 35660,
+   "end": 35787,
+   "heading": "Your Information​"
+  },
+  "p091.s3": {
+   "start": 35788,
+   "end": 35930,
+   "heading": "Your Information​"
+  },
+  "p092.s1": {
+   "start": 35931,
+   "end": 36076,
+   "heading": "Your Information​"
+  },
+  "p092.s2": {
+   "start": 36077,
+   "end": 36203,
+   "heading": "Your Information​"
+  },
+  "p092.s3": {
+   "start": 36204,
+   "end": 36364,
+   "heading": "Your Information​"
+  },
+  "p092.s4": {
+   "start": 36365,
+   "end": 36581,
+   "heading": "Your Information​"
+  },
+  "p093.s1": {
+   "start": 36582,
+   "end": 36713,
+   "heading": "Your Information​"
+  },
+  "p094.s1": {
+   "start": 36714,
+   "end": 36769,
+   "heading": "Your Information​"
+  },
+  "p095.s1": {
+   "start": 36770,
+   "end": 36854,
+   "heading": "Your Information​"
+  },
+  "p096.s1": {
+   "start": 36855,
+   "end": 37088,
+   "heading": "Your Information​"
+  },
+  "p096.s2": {
+   "start": 37089,
+   "end": 37268,
+   "heading": "Your Information​"
+  },
+  "p097.s1": {
+   "start": 37269,
+   "end": 37312,
+   "heading": "Information Pertaining to Service Partners​"
+  },
+  "p098.s1": {
+   "start": 37313,
+   "end": 37616,
+   "heading": "Information Pertaining to Service Partners​"
+  },
+  "p098.s2": {
+   "start": 37617,
+   "end": 37762,
+   "heading": "Information Pertaining to Service Partners​"
+  },
+  "p098.s3": {
+   "start": 37763,
+   "end": 38044,
+   "heading": "Information Pertaining to Service Partners​"
+  },
+  "p099.s1": {
+   "start": 38045,
+   "end": 38047,
+   "heading": "Information Pertaining to Service Partners​"
+  },
+  "p099.s2": {
+   "start": 38048,
+   "end": 38213,
+   "heading": "Information Pertaining to Service Partners​"
+  },
+  "p100.s1": {
+   "start": 38214,
+   "end": 38499,
+   "heading": "Information Pertaining to Service Partners​"
+  },
+  "p101.s1": {
+   "start": 38500,
+   "end": 38859,
+   "heading": "Information Pertaining to Service Partners​"
+  },
+  "p102.s1": {
+   "start": 38860,
+   "end": 39054,
+   "heading": "Information Pertaining to Service Partners​"
+  },
+  "p103.s1": {
+   "start": 39055,
+   "end": 39295,
+   "heading": "Information Pertaining to Service Partners​"
+  },
+  "p104.s1": {
+   "start": 39296,
+   "end": 39564,
+   "heading": "Information Pertaining to Service Partners​"
+  },
+  "p105.s1": {
+   "start": 39565,
+   "end": 40041,
+   "heading": "Information Pertaining to Service Partners​"
+  },
+  "p106.s1": {
+   "start": 40042,
+   "end": 40044,
+   "heading": "Information Pertaining to Service Partners​"
+  },
+  "p106.s2": {
+   "start": 40045,
+   "end": 40183,
+   "heading": "Information Pertaining to Service Partners​"
+  },
+  "p107.s1": {
+   "start": 40184,
+   "end": 40304,
+   "heading": "Information Pertaining to Service Partners​"
+  },
+  "p108.s1": {
+   "start": 40305,
+   "end": 40475,
+   "heading": "Information Pertaining to Service Partners​"
+  },
+  "p109.s1": {
+   "start": 40476,
+   "end": 40566,
+   "heading": "Information Pertaining to Service Partners​"
+  },
+  "p110.s1": {
+   "start": 40567,
+   "end": 40688,
+   "heading": "Information Pertaining to Service Partners​"
+  },
+  "p111.s1": {
+   "start": 40689,
+   "end": 40867,
+   "heading": "Information Pertaining to Service Partners​"
+  },
+  "p112.s1": {
+   "start": 40868,
+   "end": 40987,
+   "heading": "Information Pertaining to Service Partners​"
+  },
+  "p113.s1": {
+   "start": 40988,
+   "end": 41192,
+   "heading": "Information Pertaining to Service Partners​"
+  },
+  "p114.s1": {
+   "start": 41193,
+   "end": 41389,
+   "heading": "Information Pertaining to Service Partners​"
+  },
+  "p115.s1": {
+   "start": 41390,
+   "end": 41466,
+   "heading": "Information Pertaining to Service Partners​"
+  },
+  "p116.s1": {
+   "start": 41467,
+   "end": 41558,
+   "heading": "Information Pertaining to Service Partners​"
+  },
+  "p117.s1": {
+   "start": 41559,
+   "end": 41731,
+   "heading": "Information Pertaining to Service Partners​"
+  },
+  "p118.s1": {
+   "start": 41732,
+   "end": 41734,
+   "heading": "Information Pertaining to Service Partners​"
+  },
+  "p118.s2": {
+   "start": 41735,
+   "end": 41914,
+   "heading": "Information Pertaining to Service Partners​"
+  },
+  "p119.s1": {
+   "start": 41915,
+   "end": 42102,
+   "heading": "Information Pertaining to Service Partners​"
+  },
+  "p120.s1": {
+   "start": 42103,
+   "end": 42295,
+   "heading": "Information Pertaining to Service Partners​"
+  },
+  "p121.s1": {
+   "start": 42296,
+   "end": 42558,
+   "heading": "Information Pertaining to Service Partners​"
+  },
+  "p122.s1": {
+   "start": 42559,
+   "end": 42690,
+   "heading": "Information Pertaining to Service Partners​"
+  },
+  "p123.s1": {
+   "start": 42691,
+   "end": 42879,
+   "heading": "Information Pertaining to Service Partners​"
+  },
+  "p124.s1": {
+   "start": 42880,
+   "end": 42922,
+   "heading": "Security: How we protect your information​"
+  },
+  "p125.s1": {
+   "start": 42923,
+   "end": 43103,
+   "heading": "Security: How we protect your information​"
+  },
+  "p125.s2": {
+   "start": 43104,
+   "end": 43245,
+   "heading": "Security: How we protect your information​"
+  },
+  "p125.s3": {
+   "start": 43246,
+   "end": 43395,
+   "heading": "Security: How we protect your information​"
+  },
+  "p125.s4": {
+   "start": 43396,
+   "end": 43618,
+   "heading": "Security: How we protect your information​"
+  },
+  "p126.s1": {
+   "start": 43619,
+   "end": 43794,
+   "heading": "Security: How we protect your information​"
+  },
+  "p126.s2": {
+   "start": 43795,
+   "end": 43866,
+   "heading": "Security: How we protect your information​"
+  },
+  "p126.s3": {
+   "start": 43867,
+   "end": 43982,
+   "heading": "Security: How we protect your information​"
+  },
+  "p126.s4": {
+   "start": 43983,
+   "end": 44204,
+   "heading": "Security: How we protect your information​"
+  },
+  "p127.s1": {
+   "start": 44205,
+   "end": 44219,
+   "heading": "Miscellaneous​"
+  },
+  "p128.s1": {
+   "start": 44220,
+   "end": 44307,
+   "heading": "Miscellaneous​"
+  },
+  "p128.s2": {
+   "start": 44308,
+   "end": 44438,
+   "heading": "Miscellaneous​"
+  },
+  "p128.s3": {
+   "start": 44439,
+   "end": 44586,
+   "heading": "Miscellaneous​"
+  },
+  "p128.s4": {
+   "start": 44587,
+   "end": 44672,
+   "heading": "Miscellaneous​"
+  },
+  "p128.s5": {
+   "start": 44673,
+   "end": 44792,
+   "heading": "Miscellaneous​"
+  },
+  "p128.s6": {
+   "start": 44793,
+   "end": 44930,
+   "heading": "Miscellaneous​"
+  },
+  "p129.s1": {
+   "start": 44931,
+   "end": 45151,
+   "heading": "Miscellaneous​"
+  },
+  "p129.s2": {
+   "start": 45152,
+   "end": 45215,
+   "heading": "Miscellaneous​"
+  },
+  "p129.s3": {
+   "start": 45216,
+   "end": 45326,
+   "heading": "Miscellaneous​"
+  },
+  "p129.s4": {
+   "start": 45327,
+   "end": 45454,
+   "heading": "Miscellaneous​"
+  },
+  "p129.s5": {
+   "start": 45455,
+   "end": 45491,
+   "heading": "Miscellaneous​"
+  },
+  "p129.s6": {
+   "start": 45492,
+   "end": 45644,
+   "heading": "Miscellaneous​"
+  },
+  "p130.s1": {
+   "start": 45645,
+   "end": 45655,
+   "heading": "Nugget AI​"
+  },
+  "p131.s1": {
+   "start": 45656,
+   "end": 45751,
+   "heading": "Nugget AI​"
+  },
+  "p131.s2": {
+   "start": 45752,
+   "end": 45822,
+   "heading": "Nugget AI​"
+  },
+  "p131.s3": {
+   "start": 45823,
+   "end": 46077,
+   "heading": "Nugget AI​"
+  },
+  "p131.s4": {
+   "start": 46078,
+   "end": 46196,
+   "heading": "Nugget AI​"
+  },
+  "p131.s5": {
+   "start": 46197,
+   "end": 46283,
+   "heading": "Nugget AI​"
+  },
+  "p131.s6": {
+   "start": 46284,
+   "end": 46526,
+   "heading": "Nugget AI​"
+  },
+  "p131.s7": {
+   "start": 46527,
+   "end": 46704,
+   "heading": "Nugget AI​"
+  },
+  "p131.s8": {
+   "start": 46705,
+   "end": 46934,
+   "heading": "Nugget AI​"
+  },
+  "p131.s9": {
+   "start": 46935,
+   "end": 47046,
+   "heading": "Nugget AI​"
+  },
+  "p132.s1": {
+   "start": 47047,
+   "end": 47058,
+   "heading": "Contact Us​"
+  },
+  "p133.s1": {
+   "start": 47059,
+   "end": 47258,
+   "heading": "Contact Us​"
+  },
+  "p134.s1": {
+   "start": 47259,
+   "end": 47282,
+   "heading": "Applicability and Scope"
+  },
+  "p135.s1": {
+   "start": 47283,
+   "end": 47327,
+   "heading": "The information we collect and how we use it"
+  },
+  "p136.s1": {
+   "start": 47328,
+   "end": 47357,
+   "heading": "Information You Provide to Us"
+  },
+  "p137.s1": {
+   "start": 47358,
+   "end": 47372,
+   "heading": "Data of Minors"
+  },
+  "p138.s1": {
+   "start": 47373,
+   "end": 47442,
+   "heading": "Information We Collect Through Automatic Data Collection Technologies"
+  },
+  "p139.s1": {
+   "start": 47443,
+   "end": 47473,
+   "heading": "Information from Third Parties"
+  },
+  "p140.s1": {
+   "start": 47474,
+   "end": 47511,
+   "heading": "How we use the information we collect"
+  },
+  "p141.s1": {
+   "start": 47512,
+   "end": 47551,
+   "heading": "How we share the information we collect"
+  },
+  "p142.s1": {
+   "start": 47552,
+   "end": 47586,
+   "heading": "How we share the information we collect"
+  },
+  "p143.s1": {
+   "start": 47587,
+   "end": 47599,
+   "heading": "Data Storage"
+  },
+  "p144.s1": {
+   "start": 47600,
+   "end": 47616,
+   "heading": "Your Information"
+  },
+  "p145.s1": {
+   "start": 47617,
+   "end": 47659,
+   "heading": "Information Pertaining to Service Partners"
+  },
+  "p146.s1": {
+   "start": 47660,
+   "end": 47701,
+   "heading": "Security: How we protect your information"
+  },
+  "p147.s1": {
+   "start": 47702,
+   "end": 47715,
+   "heading": "Miscellaneous"
+  },
+  "p148.s1": {
+   "start": 47716,
+   "end": 47725,
+   "heading": "Nugget AI"
+  },
+  "p149.s1": {
+   "start": 47726,
+   "end": 47736,
+   "heading": "Contact Us"
+  }
+ },
+ "flags": {
+  "G1": {
+   "question": "What personal data does the company itself collect, and how broad is it?",
+   "search_log": {
+    "we collect": {
+     "regex": "\\bwe (?:may )?(?:collect|receive|obtain|gather|process)\\b",
+     "tier": "core",
+     "sentences_matched": 25
+    },
+    "information/data we collect": {
+     "regex": "\\b(?:information|data) (?:that )?we (?:collect|receive|obtain)\\b",
+     "tier": "core",
+     "sentences_matched": 15
+    },
+    "collected automatically": {
+     "regex": "\\bautomatically (?:collect|receive|log|record)|collected automatically\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "you provide": {
+     "regex": "\\b(?:you|users) (?:provide|submit|give|share|upload|enter)\\b",
+     "tier": "core",
+     "sentences_matched": 15
+    },
+    "location": {
+     "regex": "\\b(?:precise |approximate |geo-?)?location\\b|\\bgeolocation\\b|\\bGPS\\b",
+     "tier": "support",
+     "sentences_matched": 5
+    },
+    "device / identifiers": {
+     "regex": "\\bdevice (?:information|data|identifiers?|id)\\b|\\bIP address(?:es)?\\b|\\badvertising (?:id|identifier)s?\\b|\\bIMEI\\b",
+     "tier": "support",
+     "sentences_matched": 5
+    },
+    "content / messages": {
+     "regex": "\\b(?:content|messages?|prompts?|inputs?|uploads?|files|photos|voice|audio|recordings?)\\b",
+     "tier": "support",
+     "sentences_matched": 25
+    },
+    "contacts": {
+     "regex": "\\bcontacts?(?: list| book)?\\b|\\baddress book\\b",
+     "tier": "support",
+     "sentences_matched": 14
+    },
+    "sensitive / biometric / financial": {
+     "regex": "\\bsensitive\\b|\\bbiometric\\b|\\bhealth\\b|\\bfinancial (?:information|data)\\b|\\bcard (?:number|details)\\b|\\bbank account\\b|\\bKYC\\b|\\bAadhaar\\b|\\bPAN\\b",
+     "tier": "support",
+     "sentences_matched": 3
+    },
+    "from other sources": {
+     "regex": "\\b(?:from|via) (?:third[- ]part(?:y|ies)|other sources|partners|data brokers|publicly available sources)\\b",
+     "tier": "support",
+     "sentences_matched": 6
+    },
+    "usage / log data": {
+     "regex": "\\b(?:usage|log|activity|interaction) (?:data|information)\\b|\\blog files?\\b",
+     "tier": "support",
+     "sentences_matched": 2
+    }
+   },
+   "n_candidates": 43,
+   "candidates": [
+    {
+     "sid": "p068.s2",
+     "heading": "How we share the information we collect​",
+     "core": [
+      "we collect",
+      "information/data we collect",
+      "you provide"
+     ],
+     "support": [],
+     "score": 9
+    },
+    {
+     "sid": "p066.s1",
+     "heading": "How we use the information we collect​",
+     "core": [
+      "we collect",
+      "you provide"
+     ],
+     "support": [
+      "contacts"
+     ],
+     "score": 7
+    },
+    {
+     "sid": "p013.s1",
+     "heading": "The information we collect and how we use it​",
+     "core": [
+      "we collect",
+      "information/data we collect"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p019.s1",
+     "heading": "Information You Provide to Us​",
+     "core": [
+      "we collect",
+      "information/data we collect"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p035.s1",
+     "heading": "Information We Collect Through Automatic Data Collection Technologies​",
+     "core": [
+      "we collect",
+      "information/data we collect"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p053.s1",
+     "heading": "Information from Third Parties​",
+     "core": [
+      "we collect",
+      "information/data we collect"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p054.s1",
+     "heading": "How we use the information we collect​",
+     "core": [
+      "we collect",
+      "information/data we collect"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p055.s3",
+     "heading": "How we use the information we collect​",
+     "core": [
+      "we collect",
+      "information/data we collect"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p067.s1",
+     "heading": "How we share the information we collect​",
+     "core": [
+      "we collect",
+      "information/data we collect"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p098.s3",
+     "heading": "Information Pertaining to Service Partners​",
+     "core": [
+      "we collect",
+      "you provide"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p118.s2",
+     "heading": "Information Pertaining to Service Partners​",
+     "core": [
+      "we collect",
+      "information/data we collect"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p125.s2",
+     "heading": "Security: How we protect your information​",
+     "core": [
+      "we collect",
+      "information/data we collect"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p129.s3",
+     "heading": "Miscellaneous​",
+     "core": [
+      "we collect",
+      "information/data we collect"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p135.s1",
+     "heading": "The information we collect and how we use it",
+     "core": [
+      "we collect",
+      "information/data we collect"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p138.s1",
+     "heading": "Information We Collect Through Automatic Data Collection Technologies",
+     "core": [
+      "we collect",
+      "information/data we collect"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p140.s1",
+     "heading": "How we use the information we collect",
+     "core": [
+      "we collect",
+      "information/data we collect"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p141.s1",
+     "heading": "How we share the information we collect",
+     "core": [
+      "we collect",
+      "information/data we collect"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p021.s1",
+     "heading": "Information You Provide to Us​",
+     "core": [
+      "you provide"
+     ],
+     "support": [
+      "content / messages",
+      "contacts"
+     ],
+     "score": 5
+    },
+    {
+     "sid": "p105.s1",
+     "heading": "Information Pertaining to Service Partners​",
+     "core": [
+      "you provide"
+     ],
+     "support": [
+      "device / identifiers",
+      "usage / log data"
+     ],
+     "score": 5
+    },
+    {
+     "sid": "p015.s2",
+     "heading": "The information we collect and how we use it​",
+     "core": [
+      "you provide"
+     ],
+     "support": [
+      "from other sources"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p017.s1",
+     "heading": "The information we collect and how we use it​",
+     "core": [
+      "we collect"
+     ],
+     "support": [
+      "from other sources"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p027.s1",
+     "heading": "Information You Provide to Us​",
+     "core": [
+      "we collect"
+     ],
+     "support": [
+      "content / messages"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p041.s1",
+     "heading": "Information We Collect Through Automatic Data Collection Technologies​",
+     "core": [
+      "we collect"
+     ],
+     "support": [
+      "location"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p119.s1",
+     "heading": "Information Pertaining to Service Partners​",
+     "core": [
+      "you provide"
+     ],
+     "support": [
+      "location"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p008.s1",
+     "heading": "Applicability and Scope​",
+     "core": [
+      "you provide"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p009.s2",
+     "heading": "Applicability and Scope​",
+     "core": [
+      "you provide"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p018.s1",
+     "heading": "Information You Provide to Us​",
+     "core": [
+      "you provide"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p025.s1",
+     "heading": "Information You Provide to Us​",
+     "core": [
+      "we collect"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p029.s2",
+     "heading": "Information You Provide to Us​",
+     "core": [
+      "you provide"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p033.s1",
+     "heading": "You are the parent or legal guardian of the Minor; and",
+     "core": [
+      "you provide"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p034.s2",
+     "heading": "You are the parent or legal guardian of the Minor; and",
+     "core": [
+      "you provide"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p036.s1",
+     "heading": "Information We Collect Through Automatic Data Collection Technologies​",
+     "core": [
+      "collected automatically"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p040.s1",
+     "heading": "Information We Collect Through Automatic Data Collection Technologies​",
+     "core": [
+      "we collect"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p051.s1",
+     "heading": "Information from Third Parties​",
+     "core": [],
+     "support": [
+      "content / messages",
+      "contacts",
+      "from other sources"
+     ],
+     "score": 3
+    },
+    {
+     "sid": "p092.s2",
+     "heading": "Your Information​",
+     "core": [
+      "you provide"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p099.s2",
+     "heading": "Information Pertaining to Service Partners​",
+     "core": [
+      "we collect"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p125.s3",
+     "heading": "Security: How we protect your information​",
+     "core": [
+      "we collect"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p126.s4",
+     "heading": "Security: How we protect your information​",
+     "core": [
+      "we collect"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p136.s1",
+     "heading": "Information You Provide to Us",
+     "core": [
+      "you provide"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p037.s1",
+     "heading": "Information We Collect Through Automatic Data Collection Technologies​",
+     "core": [],
+     "support": [
+      "content / messages",
+      "usage / log data"
+     ],
+     "score": 2
+    },
+    {
+     "sid": "p039.s7",
+     "heading": "Information We Collect Through Automatic Data Collection Technologies​",
+     "core": [],
+     "support": [
+      "content / messages",
+      "contacts"
+     ],
+     "score": 2
+    },
+    {
+     "sid": "p041.s2",
+     "heading": "Information We Collect Through Automatic Data Collection Technologies​",
+     "core": [],
+     "support": [
+      "location",
+      "device / identifiers"
+     ],
+     "score": 2
+    },
+    {
+     "sid": "p100.s1",
+     "heading": "Information Pertaining to Service Partners​",
+     "core": [],
+     "support": [
+      "contacts",
+      "sensitive / biometric / financial"
+     ],
+     "score": 2
+    }
+   ]
+  },
+  "G2": {
+   "question": "Does the company sell personal data, or share it with / let third parties collect it for advertising, marketing or cross-site tracking?",
+   "search_log": {
+    "advertis*": {
+     "regex": "\\badvertis(?:e|er|ers|ing|ement|ements)\\b|\\bads\\b",
+     "tier": "core",
+     "sentences_matched": 15
+    },
+    "targeted / interest-based / behavioural ads": {
+     "regex": "\\b(?:targeted|interest[- ]based|personali[sz]ed|behaviou?ral|cross[- ]context(?:ual)?)(?: behaviou?ral)? (?:advertising|ads|marketing)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "sell / sale of data": {
+     "regex": "\\b(?:sell|sells|selling|sold|sale)\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "pixel / SDK / tracking tech": {
+     "regex": "\\bpixels?\\b|\\bSDKs?\\b|\\bweb beacons?\\b|\\btracking (?:technolog(?:y|ies)|tools?)\\b|\\btrackers?\\b",
+     "tier": "core",
+     "sentences_matched": 6
+    },
+    "ad / marketing partners": {
+     "regex": "\\b(?:advertising|ad|marketing) (?:partners?|networks?|platforms?|companies)\\b",
+     "tier": "core",
+     "sentences_matched": 2
+    },
+    "opt-out of sale/ads / GPC": {
+     "regex": "\\bdo not sell\\b|\\bglobal privacy control\\b|\\bopt[- ]out of (?:the )?(?:sale|sharing|targeted|personali[sz]ed|interest)",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "cookies": {
+     "regex": "\\bcookies?\\b",
+     "tier": "support",
+     "sentences_matched": 7
+    },
+    "analytics provider": {
+     "regex": "\\banalytics (?:providers?|partners?|services|tools)\\b|\\bGoogle Analytics\\b",
+     "tier": "support",
+     "sentences_matched": 3
+    },
+    "share with third parties": {
+     "regex": "\\bshare\\b.{0,40}\\bthird[- ]part(?:y|ies)\\b|\\bthird[- ]part(?:y|ies)\\b.{0,40}\\b(?:share|disclose|collect)",
+     "tier": "support",
+     "sentences_matched": 5
+    },
+    "marketing": {
+     "regex": "\\bmarketing\\b|\\bpromotional\\b",
+     "tier": "support",
+     "sentences_matched": 10
+    }
+   },
+   "n_candidates": 20,
+   "candidates": [
+    {
+     "sid": "p061.s3",
+     "heading": "How we use the information we collect​",
+     "core": [
+      "advertis*",
+      "pixel / SDK / tracking tech",
+      "ad / marketing partners"
+     ],
+     "support": [
+      "analytics provider"
+     ],
+     "score": 10
+    },
+    {
+     "sid": "p051.s1",
+     "heading": "Information from Third Parties​",
+     "core": [
+      "advertis*",
+      "ad / marketing partners"
+     ],
+     "support": [
+      "analytics provider",
+      "marketing"
+     ],
+     "score": 8
+    },
+    {
+     "sid": "p061.s1",
+     "heading": "How we use the information we collect​",
+     "core": [
+      "advertis*",
+      "pixel / SDK / tracking tech"
+     ],
+     "support": [
+      "cookies"
+     ],
+     "score": 7
+    },
+    {
+     "sid": "p017.s1",
+     "heading": "The information we collect and how we use it​",
+     "core": [
+      "pixel / SDK / tracking tech"
+     ],
+     "support": [
+      "cookies"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p042.s1",
+     "heading": "Information We Collect Through Automatic Data Collection Technologies​",
+     "core": [
+      "pixel / SDK / tracking tech"
+     ],
+     "support": [
+      "cookies"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p059.s1",
+     "heading": "How we use the information we collect​",
+     "core": [
+      "advertis*"
+     ],
+     "support": [
+      "marketing"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p060.s1",
+     "heading": "How we use the information we collect​",
+     "core": [
+      "advertis*"
+     ],
+     "support": [
+      "analytics provider"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p023.s1",
+     "heading": "Information You Provide to Us​",
+     "core": [
+      "advertis*"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p038.s2",
+     "heading": "Information We Collect Through Automatic Data Collection Technologies​",
+     "core": [
+      "advertis*"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p042.s2",
+     "heading": "Information We Collect Through Automatic Data Collection Technologies​",
+     "core": [
+      "advertis*"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p042.s3",
+     "heading": "Information We Collect Through Automatic Data Collection Technologies​",
+     "core": [
+      "pixel / SDK / tracking tech"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p042.s4",
+     "heading": "Information We Collect Through Automatic Data Collection Technologies​",
+     "core": [
+      "pixel / SDK / tracking tech"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p053.s2",
+     "heading": "Information from Third Parties​",
+     "core": [
+      "advertis*"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p060.s4",
+     "heading": "How we use the information we collect​",
+     "core": [
+      "advertis*"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p060.s5",
+     "heading": "How we use the information we collect​",
+     "core": [
+      "advertis*"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p060.s6",
+     "heading": "How we use the information we collect​",
+     "core": [
+      "advertis*"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p061.s2",
+     "heading": "How we use the information we collect​",
+     "core": [
+      "advertis*"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p061.s5",
+     "heading": "How we use the information we collect​",
+     "core": [
+      "advertis*"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p071.s1",
+     "heading": "General Information Disclosures",
+     "core": [
+      "advertis*"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p072.s1",
+     "heading": "General Information Disclosures",
+     "core": [
+      "sell / sale of data"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "G3": {
+   "question": "Does the company build profiles or inferences about users, or make automated decisions about them?",
+   "search_log": {
+    "profiling": {
+     "regex": "\\bprofil(?:e|es|ing)\\b",
+     "tier": "core",
+     "sentences_matched": 4
+    },
+    "automated decision": {
+     "regex": "\\bautomated (?:decision|decision-making|processing|means|systems?)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "infer / inference": {
+     "regex": "\\binfer(?:s|red|ring|ences?)?\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "legal or similarly significant": {
+     "regex": "\\blegal (?:or similarly significant )?effects?\\b|\\bsimilarly significant\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "scoring": {
+     "regex": "\\b(?:risk|credit|fraud) (?:scor(?:e|es|ing)|assessment)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "personalise / recommend": {
+     "regex": "\\bpersonali[sz](?:e|es|ed|ing|ation)\\b|\\brecommend(?:ation|ations|s|ed)?\\b|\\btailor(?:ed)?\\b|\\bcustomi[sz]e\\b",
+     "tier": "support",
+     "sentences_matched": 12
+    },
+    "interests / preferences / segments": {
+     "regex": "\\b(?:interests?|preferences|segments?|demographics?)\\b",
+     "tier": "support",
+     "sentences_matched": 12
+    },
+    "predict / analyse behaviour": {
+     "regex": "\\bpredict(?:ive|ions?)?\\b|\\banaly[sz]e?(?:s|d)? (?:your )?(?:behaviou?r|usage|activity)\\b",
+     "tier": "support",
+     "sentences_matched": 0
+    }
+   },
+   "n_candidates": 5,
+   "candidates": [
+    {
+     "sid": "p020.s2",
+     "heading": "Information You Provide to Us​",
+     "core": [
+      "profiling"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p021.s1",
+     "heading": "Information You Provide to Us​",
+     "core": [
+      "profiling"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p034.s1",
+     "heading": "You are the parent or legal guardian of the Minor; and",
+     "core": [
+      "profiling"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p049.s1",
+     "heading": "Information from Third Parties​",
+     "core": [
+      "profiling"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p058.s1",
+     "heading": "How we use the information we collect​",
+     "core": [],
+     "support": [
+      "personalise / recommend",
+      "interests / preferences / segments"
+     ],
+     "score": 2
+    }
+   ]
+  },
+  "G4": {
+   "question": "How specific is the policy about how long personal data is kept?",
+   "search_log": {
+    "retain / retention": {
+     "regex": "\\bretain(?:s|ed|ing)?\\b|\\bretention\\b",
+     "tier": "core",
+     "sentences_matched": 7
+    },
+    "keep / store for": {
+     "regex": "\\b(?:keep|kept|store|stored|hold)\\b.{0,60}\\b(?:for|until|as long as|period)\\b",
+     "tier": "core",
+     "sentences_matched": 2
+    },
+    "as long as necessary": {
+     "regex": "\\bas long as (?:is )?(?:necessary|needed|required|reasonably)\\b|\\bno longer (?:than|necessary|needed)\\b",
+     "tier": "core",
+     "sentences_matched": 2
+    },
+    "numeric period": {
+     "regex": "\\b\\d+\\s*(?:-\\s*)?(?:days?|weeks?|months?|years?)\\b|\\b(?:thirty|sixty|ninety|one|two|three|five|six|seven|ten|twelve|eighteen|twenty-four)\\s+(?:days?|months?|years?)\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "indefinitely": {
+     "regex": "\\bindefinite(?:ly)?\\b|\\bpermanently\\b|\\bforever\\b",
+     "tier": "core",
+     "sentences_matched": 2
+    },
+    "delete after / deletion": {
+     "regex": "\\b(?:delete|deleted|deletion|erase|purge|dispose)\\b",
+     "tier": "support",
+     "sentences_matched": 5
+    },
+    "legal obligation": {
+     "regex": "\\b(?:legal|statutory|regulatory) (?:obligations?|requirements?|purposes)\\b|\\brequired by (?:applicable )?law\\b",
+     "tier": "support",
+     "sentences_matched": 7
+    }
+   },
+   "n_candidates": 12,
+   "candidates": [
+    {
+     "sid": "p063.s3",
+     "heading": "How we use the information we collect​",
+     "core": [
+      "retain / retention",
+      "as long as necessary"
+     ],
+     "support": [
+      "legal obligation"
+     ],
+     "score": 7
+    },
+    {
+     "sid": "p066.s4",
+     "heading": "How we use the information we collect​",
+     "core": [
+      "retain / retention",
+      "as long as necessary"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p092.s1",
+     "heading": "Your Information​",
+     "core": [
+      "indefinitely"
+     ],
+     "support": [
+      "delete after / deletion"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p096.s2",
+     "heading": "Your Information​",
+     "core": [
+      "retain / retention"
+     ],
+     "support": [
+      "delete after / deletion"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p009.s2",
+     "heading": "Applicability and Scope​",
+     "core": [
+      "retain / retention"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p011.s1",
+     "heading": "Applicability and Scope​",
+     "core": [
+      "numeric period"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p063.s1",
+     "heading": "How we use the information we collect​",
+     "core": [
+      "retain / retention"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p071.s1",
+     "heading": "General Information Disclosures",
+     "core": [
+      "keep / store for"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p073.s2",
+     "heading": "General Information Disclosures",
+     "core": [
+      "keep / store for"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p074.s3",
+     "heading": "General Information Disclosures",
+     "core": [
+      "indefinitely"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p089.s1",
+     "heading": "Data Storage​",
+     "core": [
+      "retain / retention"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p131.s8",
+     "heading": "Nugget AI​",
+     "core": [
+      "retain / retention"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "G5": {
+   "question": "What rights do users have to access, correct and delete their data, and for whom?",
+   "search_log": {
+    "right to / your rights": {
+     "regex": "\\bright(?:s)? (?:to|of)\\b|\\byour (?:privacy )?rights\\b|\\bdata subject\\b|\\bdata principal\\b",
+     "tier": "core",
+     "sentences_matched": 7
+    },
+    "access": {
+     "regex": "\\baccess (?:to )?(?:your|the) (?:personal )?(?:data|information)\\b|\\brequest (?:a copy|access)\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "correct / rectify / update": {
+     "regex": "\\b(?:correct|correction|rectif(?:y|ication)|update|amend)\\b",
+     "tier": "core",
+     "sentences_matched": 3
+    },
+    "delete / erase": {
+     "regex": "\\b(?:delete|deletion|erase|erasure|right to be forgotten)\\b",
+     "tier": "core",
+     "sentences_matched": 4
+    },
+    "portability / export": {
+     "regex": "\\bportab(?:le|ility)\\b|\\bexport (?:your )?data\\b|\\bdownload (?:your|a copy)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "object / restrict": {
+     "regex": "\\bobject(?:ion)? to\\b|\\brestrict(?:ion)? (?:of )?(?:the )?processing\\b",
+     "tier": "support",
+     "sentences_matched": 0
+    },
+    "nominate (DPDP)": {
+     "regex": "\\bnominat(?:e|ion)\\b",
+     "tier": "support",
+     "sentences_matched": 0
+    },
+    "jurisdiction limits": {
+     "regex": "\\b(?:EEA|European|UK|California|residents? of|depending on where you live|applicable law)\\b",
+     "tier": "support",
+     "sentences_matched": 2
+    }
+   },
+   "n_candidates": 11,
+   "candidates": [
+    {
+     "sid": "p096.s2",
+     "heading": "Your Information​",
+     "core": [
+      "right to / your rights",
+      "correct / rectify / update",
+      "delete / erase"
+     ],
+     "support": [
+      "jurisdiction limits"
+     ],
+     "score": 10
+    },
+    {
+     "sid": "p034.s3",
+     "heading": "You are the parent or legal guardian of the Minor; and",
+     "core": [
+      "right to / your rights",
+      "delete / erase"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p129.s1",
+     "heading": "Miscellaneous​",
+     "core": [
+      "right to / your rights",
+      "correct / rectify / update"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p053.s1",
+     "heading": "Information from Third Parties​",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p053.s2",
+     "heading": "Information from Third Parties​",
+     "core": [
+      "correct / rectify / update"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p063.s1",
+     "heading": "How we use the information we collect​",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p076.s1",
+     "heading": "General Information Disclosures",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p092.s1",
+     "heading": "Your Information​",
+     "core": [
+      "delete / erase"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p092.s3",
+     "heading": "Your Information​",
+     "core": [
+      "delete / erase"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p093.s1",
+     "heading": "Your Information​",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p125.s1",
+     "heading": "Security: How we protect your information​",
+     "core": [
+      "access"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "G6": {
+   "question": "Is personal data transferred to or stored in other countries, and are safeguards named?",
+   "search_log": {
+    "transfer": {
+     "regex": "\\btransfer(?:s|red|ring)?\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "cross-border / international": {
+     "regex": "\\bcross[- ]border\\b|\\binternational(?:ly)?\\b|\\bglobal(?:ly)?\\b|\\bother countries\\b|\\boutside (?:of )?(?:your|the|India)\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "stored / processed in a country": {
+     "regex": "\\b(?:stored|processed|hosted|located)\\b.{0,40}\\b(?:in|outside) (?:the )?(?:United States|U\\.S\\.|US|India|EU|Europe|Singapore|China|countr(?:y|ies))\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "safeguard mechanisms": {
+     "regex": "\\bstandard contractual clauses\\b|\\bSCCs?\\b|\\badequacy\\b|\\bData Privacy Framework\\b|\\bbinding corporate rules\\b|\\bappropriate safeguards\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "localisation": {
+     "regex": "\\blocali[sz](?:ation|ed)\\b|\\bstored (?:only |exclusively )?(?:in|within) India\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "servers": {
+     "regex": "\\bservers?\\b|\\bdata cent(?:er|re)s?\\b",
+     "tier": "support",
+     "sentences_matched": 1
+    },
+    "jurisdiction": {
+     "regex": "\\bjurisdictions?\\b|\\bdata protection laws?\\b",
+     "tier": "support",
+     "sentences_matched": 1
+    }
+   },
+   "n_candidates": 2,
+   "candidates": [
+    {
+     "sid": "p089.s1",
+     "heading": "Data Storage​",
+     "core": [
+      "cross-border / international"
+     ],
+     "support": [
+      "servers"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p072.s1",
+     "heading": "General Information Disclosures",
+     "core": [
+      "transfer"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "G7": {
+   "question": "What does the policy say about children and minors, and what age threshold and safeguards apply?",
+   "search_log": {
+    "child / children / minor": {
+     "regex": "\\bchild(?:ren)?(?:'s)?\\b|\\bminors?\\b|\\bkids?\\b|\\bteens?(?:agers?)?\\b|\\byouth\\b|\\byoung (?:people|users)\\b",
+     "tier": "core",
+     "sentences_matched": 12
+    },
+    "age threshold": {
+     "regex": "\\bunder (?:the age of )?\\d{1,2}\\b|\\b\\d{1,2} years? (?:of age|old)\\b|\\bage of (?:majority|\\d{1,2})\\b|\\bminimum age\\b|\\bage requirement\\b",
+     "tier": "core",
+     "sentences_matched": 2
+    },
+    "parent / guardian / consent": {
+     "regex": "\\bparent(?:s|al)?\\b|\\bguardians?\\b|\\bverifiable (?:parental )?consent\\b",
+     "tier": "core",
+     "sentences_matched": 5
+    },
+    "COPPA / age verification": {
+     "regex": "\\bCOPPA\\b|\\bage (?:verification|assurance|estimation|gate)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "knowingly collect": {
+     "regex": "\\bknowingly\\b",
+     "tier": "support",
+     "sentences_matched": 1
+    }
+   },
+   "n_candidates": 14,
+   "candidates": [
+    {
+     "sid": "p031.s1",
+     "heading": "Data of Minors​",
+     "core": [
+      "child / children / minor",
+      "age threshold"
+     ],
+     "support": [
+      "knowingly collect"
+     ],
+     "score": 7
+    },
+    {
+     "sid": "p011.s1",
+     "heading": "Applicability and Scope​",
+     "core": [
+      "age threshold",
+      "parent / guardian / consent"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p011.s2",
+     "heading": "Applicability and Scope​",
+     "core": [
+      "child / children / minor",
+      "parent / guardian / consent"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p032.s1",
+     "heading": "You are the parent or legal guardian of the Minor; and",
+     "core": [
+      "child / children / minor",
+      "parent / guardian / consent"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p034.s3",
+     "heading": "You are the parent or legal guardian of the Minor; and",
+     "core": [
+      "child / children / minor",
+      "parent / guardian / consent"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p030.s1",
+     "heading": "Data of Minors​",
+     "core": [
+      "child / children / minor"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p031.s2",
+     "heading": "Data of Minors​",
+     "core": [
+      "child / children / minor"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p031.s3",
+     "heading": "Data of Minors​",
+     "core": [
+      "child / children / minor"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p031.s4",
+     "heading": "Data of Minors​",
+     "core": [
+      "child / children / minor"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p033.s1",
+     "heading": "You are the parent or legal guardian of the Minor; and",
+     "core": [
+      "child / children / minor"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p034.s1",
+     "heading": "You are the parent or legal guardian of the Minor; and",
+     "core": [
+      "child / children / minor"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p034.s2",
+     "heading": "You are the parent or legal guardian of the Minor; and",
+     "core": [
+      "child / children / minor"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p070.s1",
+     "heading": "General Information Disclosures",
+     "core": [
+      "parent / guardian / consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p137.s1",
+     "heading": "Data of Minors",
+     "core": [
+      "child / children / minor"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "AI1": {
+   "question": "Does the company use users' personal data or content to train or improve AI / machine-learning models?",
+   "search_log": {
+    "train / training": {
+     "regex": "\\btrain(?:s|ed|ing)?\\b",
+     "tier": "core",
+     "sentences_matched": 3
+    },
+    "model(s)": {
+     "regex": "\\b(?:AI |machine[- ]learning |language |foundation |our )?models?\\b",
+     "tier": "core",
+     "sentences_matched": 2
+    },
+    "machine learning": {
+     "regex": "\\bmachine[- ]learning\\b|\\bML\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "artificial intelligence / AI": {
+     "regex": "\\bartificial intelligence\\b|\\bAI\\b|\\bgenerative\\b|\\bLLMs?\\b|\\blarge language\\b",
+     "tier": "core",
+     "sentences_matched": 10
+    },
+    "improve / develop services": {
+     "regex": "\\b(?:improve|develop|enhance|build)\\b.{0,30}\\b(?:services?|products?|features?|technolog(?:y|ies)|systems?|algorithms?)\\b",
+     "tier": "support",
+     "sentences_matched": 5
+    },
+    "content / inputs / outputs": {
+     "regex": "\\b(?:content|inputs?|outputs?|prompts?|conversations?|chats?|messages?|posts?|feedback)\\b",
+     "tier": "support",
+     "sentences_matched": 20
+    },
+    "research": {
+     "regex": "\\bresearch\\b",
+     "tier": "support",
+     "sentences_matched": 3
+    }
+   },
+   "n_candidates": 16,
+   "candidates": [
+    {
+     "sid": "p058.s1",
+     "heading": "How we use the information we collect​",
+     "core": [
+      "train / training"
+     ],
+     "support": [
+      "improve / develop services",
+      "content / inputs / outputs",
+      "research"
+     ],
+     "score": 6
+    },
+    {
+     "sid": "p131.s5",
+     "heading": "Nugget AI​",
+     "core": [
+      "model(s)",
+      "artificial intelligence / AI"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p022.s3",
+     "heading": "Information You Provide to Us​",
+     "core": [
+      "train / training"
+     ],
+     "support": [
+      "content / inputs / outputs"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p065.s3",
+     "heading": "How we use the information we collect​",
+     "core": [
+      "artificial intelligence / AI"
+     ],
+     "support": [
+      "improve / develop services"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p105.s1",
+     "heading": "Information Pertaining to Service Partners​",
+     "core": [
+      "model(s)"
+     ],
+     "support": [
+      "content / inputs / outputs"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p063.s1",
+     "heading": "How we use the information we collect​",
+     "core": [
+      "train / training"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p065.s4",
+     "heading": "How we use the information we collect​",
+     "core": [
+      "artificial intelligence / AI"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p130.s1",
+     "heading": "Nugget AI​",
+     "core": [
+      "artificial intelligence / AI"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p131.s1",
+     "heading": "Nugget AI​",
+     "core": [
+      "artificial intelligence / AI"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p131.s3",
+     "heading": "Nugget AI​",
+     "core": [
+      "artificial intelligence / AI"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p131.s4",
+     "heading": "Nugget AI​",
+     "core": [
+      "artificial intelligence / AI"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p131.s6",
+     "heading": "Nugget AI​",
+     "core": [
+      "artificial intelligence / AI"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p131.s7",
+     "heading": "Nugget AI​",
+     "core": [
+      "artificial intelligence / AI"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p148.s1",
+     "heading": "Nugget AI",
+     "core": [
+      "artificial intelligence / AI"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p029.s2",
+     "heading": "Information You Provide to Us​",
+     "core": [],
+     "support": [
+      "content / inputs / outputs",
+      "research"
+     ],
+     "score": 2
+    },
+    {
+     "sid": "p042.s2",
+     "heading": "Information We Collect Through Automatic Data Collection Technologies​",
+     "core": [],
+     "support": [
+      "content / inputs / outputs",
+      "research"
+     ],
+     "score": 2
+    }
+   ]
+  },
+  "AI2": {
+   "question": "If personal data is used for AI training, can the user stop it, and how?",
+   "search_log": {
+    "opt out": {
+     "regex": "\\bopt(?:[- ])?out\\b|\\bopt(?:[- ])?in\\b",
+     "tier": "core",
+     "sentences_matched": 3
+    },
+    "turn off / disable": {
+     "regex": "\\bturn(?:ing)? off\\b|\\bdisabl(?:e|ed|ing)\\b|\\btoggle\\b|\\bswitch off\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "choose whether / your choices": {
+     "regex": "\\bchoose (?:whether|if|not to|to stop)\\b|\\byour choices?\\b|\\bcontrol (?:whether|how)\\b|\\b(?:stop|prevent)\\b.{0,40}\\b(?:used|using)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "settings / controls": {
+     "regex": "\\b(?:privacy |data |account )?(?:settings|controls?|preferences)\\b|\\bdashboard\\b",
+     "tier": "support",
+     "sentences_matched": 17
+    },
+    "train / model (co-occurrence)": {
+     "regex": "\\btrain(?:s|ed|ing)?\\b|\\bmodels?\\b|\\bimprove the model\\b",
+     "tier": "support",
+     "sentences_matched": 5
+    },
+    "object / request": {
+     "regex": "\\bobject(?:ion)?\\b|\\bsubmit a request\\b|\\bprivacy (?:portal|request)\\b|\\bcontact us\\b",
+     "tier": "support",
+     "sentences_matched": 3
+    }
+   },
+   "n_candidates": 5,
+   "candidates": [
+    {
+     "sid": "p079.s2",
+     "heading": "General Information Disclosures",
+     "core": [
+      "opt out"
+     ],
+     "support": [
+      "settings / controls"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p061.s6",
+     "heading": "How we use the information we collect​",
+     "core": [
+      "opt out"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p091.s3",
+     "heading": "Your Information​",
+     "core": [
+      "opt out"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p022.s3",
+     "heading": "Information You Provide to Us​",
+     "core": [],
+     "support": [
+      "settings / controls",
+      "train / model (co-occurrence)"
+     ],
+     "score": 2
+    },
+    {
+     "sid": "p058.s1",
+     "heading": "How we use the information we collect​",
+     "core": [],
+     "support": [
+      "settings / controls",
+      "train / model (co-occurrence)"
+     ],
+     "score": 2
+    }
+   ]
+  },
+  "AI3": {
+   "question": "Can people (employees, contractors, reviewers) read or review users' content?",
+   "search_log": {
+    "human review": {
+     "regex": "\\bhuman (?:review(?:ers?)?|reviewed|oversight|moderators?)\\b|\\bmanual(?:ly)? review(?:ed)?\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "reviewers / annotators / moderators": {
+     "regex": "\\breviewers?\\b|\\bannotators?\\b|\\bmoderat(?:ors?|ion)\\b|\\bcrowd ?workers?\\b|\\braters?\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "staff may access / review content": {
+     "regex": "\\b(?:employees|personnel|staff|contractors|team members|authori[sz]ed (?:personnel|staff|employees))\\b.{0,60}\\b(?:access|review|read|view|see)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "review content / conversations": {
+     "regex": "\\breview(?:s|ed|ing)?\\b.{0,40}\\b(?:content|conversations?|chats?|messages?|inputs?|prompts?|recordings?)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "we may access / review / monitor content": {
+     "regex": "\\bwe (?:may |might |can )?(?:access|review|monitor|read|inspect|view|listen to)\\b.{0,50}\\b(?:content|communications?|conversations?|chats?|messages?|recordings?|files|inputs?)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "flagged / safety / abuse": {
+     "regex": "\\bflagged\\b|\\b(?:trust and )?safety\\b|\\babuse\\b|\\bmisuse\\b|\\bviolat(?:e|es|ion|ions)\\b",
+     "tier": "support",
+     "sentences_matched": 8
+    },
+    "support / feedback": {
+     "regex": "\\bfeedback\\b|\\bsupport (?:requests?|tickets?)\\b|\\bcustomer support\\b",
+     "tier": "support",
+     "sentences_matched": 7
+    }
+   },
+   "n_candidates": 0,
+   "candidates": []
+  },
+  "AI4": {
+   "question": "Does the policy let the company keep, use or share de-identified or aggregated data, and for what?",
+   "search_log": {
+    "de-identified": {
+     "regex": "\\bde-?identif(?:y|ied|ies|ication)\\b",
+     "tier": "core",
+     "sentences_matched": 2
+    },
+    "anonymised": {
+     "regex": "\\banonymi[sz](?:e|ed|es|ation)\\b|\\banonymous\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "aggregated": {
+     "regex": "\\baggregat(?:e|ed|es|ion)\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "pseudonymised": {
+     "regex": "\\bpseudonymi[sz](?:e|ed|ation)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "no longer identifies": {
+     "regex": "\\b(?:no longer|cannot reasonably|not reasonably) (?:be used to )?identif(?:y|ies)\\b|\\bnon-?personal (?:data|information)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "share / any purpose": {
+     "regex": "\\bany (?:lawful )?purpose\\b|\\bshare\\b|\\bthird[- ]part(?:y|ies)\\b|\\bresearch\\b|\\bimprove\\b",
+     "tier": "support",
+     "sentences_matched": 71
+    }
+   },
+   "n_candidates": 2,
+   "candidates": [
+    {
+     "sid": "p065.s1",
+     "heading": "How we use the information we collect​",
+     "core": [
+      "de-identified",
+      "anonymised"
+     ],
+     "support": [
+      "share / any purpose"
+     ],
+     "score": 7
+    },
+    {
+     "sid": "p065.s2",
+     "heading": "How we use the information we collect​",
+     "core": [
+      "de-identified",
+      "aggregated"
+     ],
+     "support": [],
+     "score": 6
+    }
+   ]
+  },
+  "AI5": {
+   "question": "Is user content sent to external AI / model providers, or licensed to others for AI training?",
+   "search_log": {
+    "AI / model providers": {
+     "regex": "\\b(?:AI|model|LLM|machine[- ]learning|artificial intelligence) (?:providers?|vendors?|partners?|services?|companies|developers?)\\b",
+     "tier": "core",
+     "sentences_matched": 2
+    },
+    "named AI vendors": {
+     "regex": "\\bOpenAI\\b|\\bChatGPT\\b|\\bAnthropic\\b|\\bClaude\\b|\\bGemini\\b|\\bGoogle AI\\b|\\bAzure OpenAI\\b|\\bLlama\\b|\\bMistral\\b|\\bxAI\\b|\\bGrok\\b|\\bPerplexity\\b|\\bDeepSeek\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "third-party AI / models": {
+     "regex": "\\bthird[- ]party (?:AI|models?|LLMs?|artificial intelligence)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "integrations / connectors / plugins": {
+     "regex": "\\b(?:integrations?|connectors?|plug-?ins?|MCP|GPTs|extensions|(?<!user )agents?)\\b",
+     "tier": "core",
+     "sentences_matched": 7
+    },
+    "license content / data licensing": {
+     "regex": "\\blicen[cs](?:e|es|ing)\\b.{0,60}\\b(?:content|data)\\b|\\bdata licensing\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "sub-processors / service providers": {
+     "regex": "\\bsub-?processors?\\b|\\bservice providers?\\b|\\bvendors?\\b",
+     "tier": "support",
+     "sentences_matched": 14
+    },
+    "AI features": {
+     "regex": "\\bAI(?:-powered)? (?:features?|tools?|assistants?)\\b|\\bgenerative\\b",
+     "tier": "support",
+     "sentences_matched": 1
+    }
+   },
+   "n_candidates": 8,
+   "candidates": [
+    {
+     "sid": "p131.s7",
+     "heading": "Nugget AI​",
+     "core": [
+      "AI / model providers",
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p064.s1",
+     "heading": "How we use the information we collect​",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p064.s2",
+     "heading": "How we use the information we collect​",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p120.s1",
+     "heading": "Information Pertaining to Service Partners​",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p131.s1",
+     "heading": "Nugget AI​",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p131.s3",
+     "heading": "Nugget AI​",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p131.s5",
+     "heading": "Nugget AI​",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p131.s6",
+     "heading": "Nugget AI​",
+     "core": [
+      "AI / model providers"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "DPDP1": {
+   "question": "How does the policy obtain consent: an explicit affirmative action, a general agreement, or browsewrap ('by using you agree')?",
+   "search_log": {
+    "by using / visiting you agree": {
+     "regex": "\\bby (?:using|visiting|accessing|downloading|browsing|continuing|registering|signing up|providing)\\b.{0,120}\\b(?:agree|consent|accept|acknowledge)\\w*",
+     "tier": "core",
+     "sentences_matched": 3
+    },
+    "consent": {
+     "regex": "\\bconsent(?:s|ed|ing)?\\b",
+     "tier": "core",
+     "sentences_matched": 14
+    },
+    "agree / accept": {
+     "regex": "\\b(?:you )?(?:agree|accept|acknowledge)(?:s|d)?\\b",
+     "tier": "core",
+     "sentences_matched": 5
+    },
+    "DPDP / Indian law": {
+     "regex": "\\bDigital Personal Data Protection\\b|\\bDPDP(?:A)?\\b|\\bIT Act\\b|\\bSPDI\\b|\\bInformation Technology\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "legal basis": {
+     "regex": "\\blegal bas(?:is|es)\\b|\\blegitimate interests?\\b|\\bperformance of (?:a|the) contract\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "notice / checkbox / sign-up": {
+     "regex": "\\bnotice\\b|\\bcheck ?box\\b|\\bsign[- ]?up\\b|\\bregistration\\b|\\bclick(?:ing)?\\b",
+     "tier": "support",
+     "sentences_matched": 4
+    },
+    "explicit / affirmative / freely": {
+     "regex": "\\bexplicit(?:ly)?\\b|\\baffirmative\\b|\\bfreely\\b|\\bunambiguous\\b|\\binformed\\b",
+     "tier": "support",
+     "sentences_matched": 4
+    }
+   },
+   "n_candidates": 15,
+   "candidates": [
+    {
+     "sid": "p009.s2",
+     "heading": "Applicability and Scope​",
+     "core": [
+      "by using / visiting you agree",
+      "consent",
+      "agree / accept"
+     ],
+     "support": [
+      "explicit / affirmative / freely"
+     ],
+     "score": 10
+    },
+    {
+     "sid": "p028.s2",
+     "heading": "Information You Provide to Us​",
+     "core": [
+      "by using / visiting you agree",
+      "consent",
+      "agree / accept"
+     ],
+     "support": [
+      "explicit / affirmative / freely"
+     ],
+     "score": 10
+    },
+    {
+     "sid": "p043.s1",
+     "heading": "Information We Collect Through Automatic Data Collection Technologies​",
+     "core": [
+      "by using / visiting you agree",
+      "consent",
+      "agree / accept"
+     ],
+     "support": [],
+     "score": 9
+    },
+    {
+     "sid": "p085.s2",
+     "heading": "Information Shared with Merchants:​",
+     "core": [
+      "consent",
+      "agree / accept"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p029.s3",
+     "heading": "Information You Provide to Us​",
+     "core": [
+      "consent"
+     ],
+     "support": [
+      "explicit / affirmative / freely"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p033.s1",
+     "heading": "You are the parent or legal guardian of the Minor; and",
+     "core": [
+      "consent"
+     ],
+     "support": [
+      "explicit / affirmative / freely"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p060.s6",
+     "heading": "How we use the information we collect​",
+     "core": [
+      "consent"
+     ],
+     "support": [
+      "notice / checkbox / sign-up"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p021.s1",
+     "heading": "Information You Provide to Us​",
+     "core": [
+      "consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p029.s1",
+     "heading": "Information You Provide to Us​",
+     "core": [
+      "consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p034.s3",
+     "heading": "You are the parent or legal guardian of the Minor; and",
+     "core": [
+      "consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p066.s5",
+     "heading": "How we use the information we collect​",
+     "core": [
+      "agree / accept"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p073.s1",
+     "heading": "General Information Disclosures",
+     "core": [
+      "consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p081.s1",
+     "heading": "General Information Disclosures",
+     "core": [
+      "consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p101.s1",
+     "heading": "Information Pertaining to Service Partners​",
+     "core": [
+      "consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p129.s6",
+     "heading": "Miscellaneous​",
+     "core": [
+      "consent"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "DPDP2": {
+   "question": "Can users withdraw consent, and is it as easy as giving it?",
+   "search_log": {
+    "withdraw / revoke consent": {
+     "regex": "\\bwithdraw(?:s|n|al|ing)?\\b|\\brevok(?:e|es|ed|ing)\\b|\\brevocation\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "consent manager": {
+     "regex": "\\bconsent manager\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "opt out / unsubscribe": {
+     "regex": "\\bopt(?:[- ])?out\\b|\\bunsubscrib(?:e|ing)\\b",
+     "tier": "core",
+     "sentences_matched": 4
+    },
+    "settings / dashboard": {
+     "regex": "\\bsettings\\b|\\bdashboard\\b|\\bpreferences\\b|\\bpreference cent(?:er|re)\\b|\\btoggle\\b",
+     "tier": "support",
+     "sentences_matched": 11
+    },
+    "contact / email to withdraw": {
+     "regex": "\\b(?:email|write to|contact)\\b",
+     "tier": "support",
+     "sentences_matched": 17
+    },
+    "delete account": {
+     "regex": "\\b(?:delete|deactivate|close) (?:your )?account\\b",
+     "tier": "support",
+     "sentences_matched": 1
+    },
+    "consent (co-occurrence)": {
+     "regex": "\\bconsent\\b",
+     "tier": "support",
+     "sentences_matched": 12
+    }
+   },
+   "n_candidates": 8,
+   "candidates": [
+    {
+     "sid": "p079.s2",
+     "heading": "General Information Disclosures",
+     "core": [
+      "opt out / unsubscribe"
+     ],
+     "support": [
+      "settings / dashboard",
+      "contact / email to withdraw"
+     ],
+     "score": 5
+    },
+    {
+     "sid": "p091.s2",
+     "heading": "Your Information​",
+     "core": [
+      "opt out / unsubscribe"
+     ],
+     "support": [
+      "settings / dashboard",
+      "contact / email to withdraw"
+     ],
+     "score": 5
+    },
+    {
+     "sid": "p061.s6",
+     "heading": "How we use the information we collect​",
+     "core": [
+      "opt out / unsubscribe"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p091.s3",
+     "heading": "Your Information​",
+     "core": [
+      "opt out / unsubscribe"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p021.s1",
+     "heading": "Information You Provide to Us​",
+     "core": [],
+     "support": [
+      "contact / email to withdraw",
+      "consent (co-occurrence)"
+     ],
+     "score": 2
+    },
+    {
+     "sid": "p028.s2",
+     "heading": "Information You Provide to Us​",
+     "core": [],
+     "support": [
+      "contact / email to withdraw",
+      "consent (co-occurrence)"
+     ],
+     "score": 2
+    },
+    {
+     "sid": "p059.s1",
+     "heading": "How we use the information we collect​",
+     "core": [],
+     "support": [
+      "settings / dashboard",
+      "contact / email to withdraw"
+     ],
+     "score": 2
+    },
+    {
+     "sid": "p092.s1",
+     "heading": "Your Information​",
+     "core": [],
+     "support": [
+      "contact / email to withdraw",
+      "delete account"
+     ],
+     "score": 2
+    }
+   ]
+  },
+  "DPDP3": {
+   "question": "Does the policy publish a Grievance Officer or Data Protection Officer with contact details?",
+   "search_log": {
+    "grievance officer": {
+     "regex": "\\bgrievance(?:s)?\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "data protection officer / DPO": {
+     "regex": "\\bdata protection officer\\b|\\bDPO\\b|\\bprivacy officer\\b|\\bnodal officer\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "email address": {
+     "regex": "[\\w.+-]+@[\\w-]+\\.[\\w.]+",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "Data Protection Board / complaint": {
+     "regex": "\\bData Protection Board\\b|\\b(?:lodge|file|make) a complaint\\b|\\bsupervisory authority\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "contact us": {
+     "regex": "\\bcontact us\\b|\\bhow to contact\\b|\\bpostal address\\b|\\baddress\\b",
+     "tier": "support",
+     "sentences_matched": 12
+    },
+    "officer / named person": {
+     "regex": "\\bofficer\\b|\\bMr\\.?\\b|\\bMs\\.?\\b",
+     "tier": "support",
+     "sentences_matched": 1
+    }
+   },
+   "n_candidates": 2,
+   "candidates": [
+    {
+     "sid": "p133.s1",
+     "heading": "Contact Us​",
+     "core": [
+      "data protection officer / DPO",
+      "email address"
+     ],
+     "support": [
+      "officer / named person"
+     ],
+     "score": 7
+    },
+    {
+     "sid": "p024.s1",
+     "heading": "Information You Provide to Us​",
+     "core": [
+      "grievance officer"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "DPDP4": {
+   "question": "Is the notice offered in Indian languages (Eighth Schedule) besides English? Record which languages.",
+   "search_log": {
+    "Eighth Schedule": {
+     "regex": "\\beighth schedule\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "language(s) / translation": {
+     "regex": "\\blanguages?\\b|\\btranslat(?:e|ed|ion|ions)\\b|\\bvernacular\\b|\\bregional\\b",
+     "tier": "core",
+     "sentences_matched": 2
+    },
+    "Indian language names (English)": {
+     "regex": "\\b(?:Hindi|Bengali|Bangla|Tamil|Telugu|Marathi|Gujarati|Kannada|Malayalam|Odia|Oriya|Punjabi|Assamese|Urdu|Konkani|Manipuri|Nepali|Sanskrit|Sindhi|Kashmiri|Maithili|Santali|Dogri|Bodo)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "Indian language names (native script)": {
+     "regex": "हिन्दी|हिंदी|বাংলা|தமிழ்|తెలుగు|मराठी|ગુજરાતી|ಕನ್ನಡ|മലയാളം|ଓଡ଼ିଆ|ਪੰਜਾਬੀ|অসমীয়া|اردو",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "English": {
+     "regex": "\\bEnglish\\b",
+     "tier": "support",
+     "sentences_matched": 0
+    }
+   },
+   "n_candidates": 2,
+   "candidates": [
+    {
+     "sid": "p038.s2",
+     "heading": "Information We Collect Through Automatic Data Collection Technologies​",
+     "core": [
+      "language(s) / translation"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p131.s5",
+     "heading": "Nugget AI​",
+     "core": [
+      "language(s) / translation"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  }
+ }
+}

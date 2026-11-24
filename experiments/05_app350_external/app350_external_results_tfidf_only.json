@@ -1,0 +1,77 @@
+{
+  "eval_set_sha256": "d509922e73191116bdc44f7e51043517b263ce7773e8357cdb3d61fbf9dd66b6",
+  "n_policies": 51,
+  "n_segments": 662,
+  "positives": {
+    "First Party Collection/Use": 557,
+    "Third Party Sharing/Collection": 185
+  },
+  "negatives": {
+    "First Party Collection/Use": 105,
+    "Third Party Sharing/Collection": 477
+  },
+  "threshold": 0.5,
+  "systems": {
+    "TF-IDF (OPP-115 only)": {
+      "per_category": {
+        "First Party Collection/Use": {
+          "precision": 0.867816091954023,
+          "recall": 0.8132854578096947,
+          "f1": 0.839666357738647,
+          "tp": 453,
+          "fp": 69,
+          "fn": 104,
+          "tn": 36
+        },
+        "Third Party Sharing/Collection": {
+          "precision": 0.6206896551724138,
+          "recall": 0.6810810810810811,
+          "f1": 0.6494845360824743,
+          "tp": 126,
+          "fp": 77,
+          "fn": 59,
+          "tn": 400
+        }
+      },
+      "macro_f1": 0.7445754469105605,
+      "macro_precision": 0.7442528735632183,
+      "macro_recall": 0.7471832694453879,
+      "threshold_free": {
+        "First Party Collection/Use": {
+          "roc_auc": 0.7154997007779773,
+          "average_precision": 0.9285076146447666
+        },
+        "Third Party Sharing/Collection": {
+          "roc_auc": 0.8403535611082781,
+          "average_precision": 0.7048788441865586
+        }
+      }
+    }
+  },
+  "reference_all_positive": {
+    "per_category": {
+      "First Party Collection/Use": {
+        "precision": 0.8413897280966768,
+        "recall": 1.0,
+        "f1": 0.9138638228055784,
+        "tp": 557,
+        "fp": 105,
+        "fn": 0,
+        "tn": 0
+      },
+      "Third Party Sharing/Collection": {
+        "precision": 0.2794561933534743,
+        "recall": 1.0,
+        "f1": 0.43683589138134593,
+        "tp": 185,
+        "fp": 477,
+        "fn": 0,
+        "tn": 0
+      }
+    },
+    "macro_f1": 0.6753498570934622,
+    "macro_precision": 0.5604229607250756,
+    "macro_recall": 1.0
+  },
+  "tfidf_opp115_regression_f1": 0.7272903266184089
+}

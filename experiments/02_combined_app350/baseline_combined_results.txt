@@ -1,0 +1,71 @@
+train=5308  val=1176  test=1244
+
+=== train (sanity check) (n=5308) ===
+macro F1: 0.8254   micro F1: 0.8673   macro P: 0.7265   macro R: 0.9726
+
+=== validation (n=1176) ===
+macro F1: 0.6518   micro F1: 0.7464   macro P: 0.6141   macro R: 0.7074
+
+=== test — COMBINED (all sources) (n=1244) ===
+macro F1: 0.6429   micro F1: 0.7208   macro P: 0.6228   macro R: 0.6814
+
+=== test — OPP-115 rows only (n=582) ===
+macro F1: 0.7006   micro F1: 0.7129   macro P: 0.7443   macro R: 0.6700
+
+=== test — APP-350 rows only (n=662) ===
+macro F1: 0.1606   micro F1: 0.7306   macro P: 0.1612   macro R: 0.1606
+
+=== Per-class report (combined test set) ===
+                                      precision    recall  f1-score   support
+
+          First Party Collection/Use       0.90      0.80      0.85       819
+      Third Party Sharing/Collection       0.78      0.74      0.76       390
+                 User Choice/Control       0.37      0.55      0.44       123
+      User Access, Edit and Deletion       0.50      0.66      0.57        50
+                      Data Retention       0.37      0.41      0.39        27
+                       Data Security       0.47      0.74      0.57        47
+                       Policy Change       0.67      0.77      0.72        31
+                        Do Not Track       1.00      0.80      0.89         5
+International and Specific Audiences       0.66      0.64      0.65        72
+                               Other       0.53      0.69      0.60       268
+
+                           micro avg       0.70      0.74      0.72      1832
+                           macro avg       0.62      0.68      0.64      1832
+                        weighted avg       0.74      0.74      0.73      1832
+                         samples avg       0.75      0.80      0.74      1832
+
+
+=== Per-class report (OPP-115 rows of test set only) ===
+                                      precision    recall  f1-score   support
+
+          First Party Collection/Use       0.83      0.71      0.76       262
+      Third Party Sharing/Collection       0.89      0.72      0.80       205
+                 User Choice/Control       0.62      0.55      0.58       123
+      User Access, Edit and Deletion       0.69      0.66      0.67        50
+                      Data Retention       0.50      0.41      0.45        27
+                       Data Security       0.57      0.74      0.65        47
+                       Policy Change       0.75      0.77      0.76        31
+                        Do Not Track       1.00      0.80      0.89         5
+International and Specific Audiences       0.90      0.64      0.75        72
+                               Other       0.69      0.69      0.69       268
+
+                           micro avg       0.75      0.68      0.71      1090
+                           macro avg       0.74      0.67      0.70      1090
+                        weighted avg       0.76      0.68      0.71      1090
+                         samples avg       0.78      0.75      0.72      1090
+
+
+============================================================
+COMPARISON
+============================================================
+Experiment                    Train F1    Val F1   Test F1
+OPP-115 only                    0.9022    0.7251    0.7273
+OPP-115 + APP-350 (combined)    0.8254    0.6518    0.6429
+
+Combined test macro F1 broken down by which rows: OPP-115-only=0.7006  APP-350-only=0.1606
+
+Remember: OPP-115's 8 categories APP-350 can't touch (Retention, Security,
+User Choice, Policy Change, DNT, Int'l Audiences, Other, User Access) are
+*included* in both the combined-test and OPP-115-only-rows numbers above -
+so if those numbers moved, it's because the classifier's shared parameters
+changed, not because APP-350 taught it anything new about those categories.

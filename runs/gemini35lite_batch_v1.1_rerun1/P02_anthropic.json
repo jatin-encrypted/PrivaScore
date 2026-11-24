@@ -1,0 +1,1225 @@
+{
+ "policy_id": "P02",
+ "policy_name": "anthropic",
+ "scope": "consumer",
+ "mode": "batch",
+ "text_sha256": "b0e0ce0a4df6fa4b0a674f412a8d8e60b0ef420e8cdaa948dd2c2918692cffef",
+ "n_sentences": 388,
+ "batch_calls": [
+  {
+   "attempt": 1,
+   "flags": [
+    "G1",
+    "G2",
+    "G3",
+    "G4",
+    "G5",
+    "G6",
+    "G7",
+    "AI1",
+    "AI2",
+    "AI3",
+    "AI4",
+    "AI5",
+    "DPDP1",
+    "DPDP2",
+    "DPDP3",
+    "DPDP4"
+   ],
+   "cached": false,
+   "n_sentences": 198,
+   "raw": "{\"answers\": [\n  {\n    \"flag\": \"G1\",\n    \"presence\": \"Present\",\n    \"state\": \"ED\",\n    \"evidence\": [\n      {\n        \"id\": \"p011.s1\",\n        \"quote\": \"Identity and Contact Data: Anthropic collects identifiers, including your name, email address, and phone number when you sign up for an Anthropic account, or to receive information on our Services.\"\n      },\n      {\n        \"id\": \"p021.s2\",\n        \"quote\": \"This includes information such as your device type, operating system information, browser information and web page referers, mobile network, connection information, mobile operator or internet service provider (ISP), time zone setting, IP address (including information about the location of the device derived from your IP address), identifiers (including device or advertising identifiers, probabilistic identifiers, and other unique personal or online identifiers), and device location.\"\n      },\n      {\n        \"id\": \"p022.s1\",\n        \"quote\": \"Usage Information: We collect information about your use of the Services, such as the dates and times of access, browsing history, search, information about the links you click and about third-party applications, services, and content you integrate or interact with, pages you view, and other information about how you use the Services, and technology on the devices you use to access the Services.\"\n      }\n    ],\n    \"rationale\": \"The company collects a broad range of personal data beyond basic account details, including technical information, device data, location data, and usage information.\"\n  },\n  {\n    \"flag\": \"G2\",\n    \"presence\": \"Present\",\n    \"state\": \"CD\",\n    \"evidence\": [\n      {\n        \"id\": \"p077.s1\",\n        \"quote\": \"Anthropic does not “sell” your personal data as that term is defined by applicable laws and regulations.\"\n      },\n      {\n        \"id\": \"p077.s2\",\n        \"quote\": \"You can opt-out of sharing your personal data for targeted advertising to promote our products and services, and we will honor global privacy controls.\"\n      }\n    ],\n    \"rationale\": \"The company denies selling personal data and provides a first-party opt-out mechanism for targeted advertising along with honoring global privacy controls.\"\n  },\n  {\n    \"flag\": \"G3\",\n    \"presence\": \"Present\",\n    \"state\": \"CD\",\n    \"evidence\": [\n      {\n        \"id\": \"p038.s1\",\n        \"quote\": \"To provide you with service updates, communications, and to provide tailored recommendations about our Services that may be of interest to you;\"\n      },\n      {\n        \"id\": \"p076.s1\",\n        \"quote\": \"Anthropic does not engage in decision making based solely on automated processing or profiling in a manner which produces a legal effect (i.e., impacts your legal rights) or significantly affects you in a similar way (e.g., significantly affects your financial circumstances or ability to access essential goods or services).\"\n      }\n    ],\n    \"rationale\": \"The company provides tailored recommendations for services but explicitly states it does not engage in solely automated decision making or profiling that produces legal or similarly significant effects.\"\n  },\n  {\n    \"flag\": \"G4\",\n    \"presence\": \"Present\",\n    \"state\": \"CD\",\n    \"evidence\": [\n      {\n        \"id\": \"p071.s2\",\n        \"quote\": \"You also are able to delete individual conversations, which will be removed immediately from your conversation history and automatically deleted from our back-end within 30 days.\"\n      },\n      {\n        \"id\": \"p086.s1\",\n        \"quote\": \"Anthropic retains your personal data for as long as reasonably necessary for the purposes and criteria outlined in this Privacy Policy and explained further in our privacy center.\"\n      }\n    ],\n    \"rationale\": \"Retention is generally described using purpose-based criteria ('as long as reasonably necessary'), although a specific automatic deletion timeline is provided for deleted conversations.\"\n  },\n  {\n    \"flag\": \"G5\",\n    \"presence\": \"Present\",\n    \"state\": \"CD\",\n    \"evidence\": [\n      {\n        \"id\": \"p069.s1\",\n        \"quote\": \"Right to know: the right to know what personal data Anthropic processes about you, including the categories of personal data, the categories of sources from which it is collected, the business or commercial purposes for collection, and the categories of third parties to whom we disclose it.\"\n      },\n      {\n        \"id\": \"p070.s1\",\n        \"quote\": \"Access & data portability: the right to request a copy of the personal data Anthropic processes about you, subject to certain exceptions and conditions.\"\n      },\n      {\n        \"id\": \"p071.s1\",\n        \"quote\": \"Deletion: the right to request that we delete personal data collected from you when you use our Services, subject to certain exceptions.\"\n      },\n      {\n        \"id\": \"p072.s1\",\n        \"quote\": \"Correction: the right to request that we correct inaccurate personal data Anthropic retains about you, subject to certain exceptions.\"\n      }\n    ],\n    \"rationale\": \"Access, correction, and deletion rights are offered, but subject to certain exceptions and conditions, and with specific notes on technical limitations regarding model outputs.\"\n  },\n  {\n    \"flag\": \"G6\",\n    \"presence\": \"Present\",\n    \"state\": \"CD\",\n    \"evidence\": [\n      {\n        \"id\": \"p080.s1\",\n        \"quote\": \"Anthropic is a global company, and when you access our Services, your personal data is transferred to our servers in the US, or to other countries outside the European Economic Area (“EEA”) and the UK for the purposes outlined in Section 2 of this Privacy Policy, for example to provide you with the Service, or to train our models, or to conduct research.\"\n      },\n      {\n        \"id\": \"p082.s1\",\n        \"quote\": \"Adequacy decisions: These are decisions from the European Commission under Article 45 GDPR (or equivalent decisions under other laws) where they recognize that a country outside of the EEA offers an adequate level of data protection.\"\n      },\n      {\n        \"id\": \"p083.s1\",\n    "
+  }
+ ],
+ "flags": {
+  "G1": {
+   "flag": "G1",
+   "flag_key": "first_party_collection_scope",
+   "search_log": {
+    "we collect": 15,
+    "information/data we collect": 2,
+    "collected automatically": 0,
+    "you provide": 6,
+    "location": 2,
+    "device / identifiers": 1,
+    "content / messages": 35,
+    "contacts": 24,
+    "sensitive / biometric / financial": 5,
+    "from other sources": 4,
+    "usage / log data": 3
+   },
+   "n_candidates": 24,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "ED",
+   "evidence": [
+    {
+     "id": "p011.s1",
+     "quote": "Identity and Contact Data: Anthropic collects identifiers, including your name, email address, and phone number when you sign up for an Anthropic account, or to receive information on our Services.",
+     "status": "exact",
+     "start": 1540,
+     "end": 1737,
+     "heading": "Personal data you provide to us directly"
+    },
+    {
+     "id": "p021.s2",
+     "quote": "This includes information such as your device type, operating system information, browser information and web page referers, mobile network, connection information, mobile operator or internet service provider (ISP), time zone setting, IP address (including information about the location of the device derived from your IP address), identifiers (including device or advertising identifiers, probabilistic identifiers, and other unique personal or online identifiers), and device location.",
+     "status": "exact",
+     "start": 4932,
+     "end": 5421,
+     "heading": "Personal data we receive automatically from your use of the Services"
+    },
+    {
+     "id": "p022.s1",
+     "quote": "Usage Information: We collect information about your use of the Services, such as the dates and times of access, browsing history, search, information about the links you click and about third-party applications, services, and content you integrate or interact with, pages you view, and other information about how you use the Services, and technology on the devices you use to access the Services.",
+     "status": "exact",
+     "start": 5422,
+     "end": 5820,
+     "heading": "Personal data we receive automatically from your use of the Services"
+    }
+   ],
+   "status": "verified",
+   "rationale": "The company collects a broad range of personal data beyond basic account details, including technical information, device data, location data, and usage information.",
+   "attempts": 1,
+   "shown": [
+    "p003.s1",
+    "p003.s2",
+    "p003.s3",
+    "p009.s1",
+    "p010.s1",
+    "p011.s1",
+    "p013.s2",
+    "p013.s3",
+    "p015.s1",
+    "p015.s2",
+    "p016.s1",
+    "p017.s1",
+    "p018.s1",
+    "p019.s1",
+    "p020.s1",
+    "p022.s1",
+    "p023.s1",
+    "p023.s2",
+    "p023.s3",
+    "p024.s1",
+    "p025.s1",
+    "p026.s1",
+    "p028.s1",
+    "p029.s1",
+    "p033.s1",
+    "p034.s1",
+    "p060.s4",
+    "p060.s5",
+    "p067.s2",
+    "p067.s3",
+    "p089.s2",
+    "p089.s3",
+    "p090.s1",
+    "p091.s1",
+    "p241.s2",
+    "p242.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "G2": {
+   "flag": "G2",
+   "flag_key": "third_party_advertising_tracking",
+   "search_log": {
+    "advertis*": 2,
+    "targeted / interest-based / behavioural ads": 1,
+    "sell / sale of data": 2,
+    "pixel / SDK / tracking tech": 0,
+    "ad / marketing partners": 0,
+    "opt-out of sale/ads / GPC": 1,
+    "cookies": 2,
+    "analytics provider": 0,
+    "share with third parties": 1,
+    "marketing": 4
+   },
+   "n_candidates": 4,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "CD",
+   "evidence": [
+    {
+     "id": "p077.s1",
+     "quote": "Anthropic does not “sell” your personal data as that term is defined by applicable laws and regulations.",
+     "status": "exact",
+     "start": 18667,
+     "end": 18771,
+     "heading": "4. Rights and Choices"
+    },
+    {
+     "id": "p077.s2",
+     "quote": "You can opt-out of sharing your personal data for targeted advertising to promote our products and services, and we will honor global privacy controls.",
+     "status": "exact",
+     "start": 18772,
+     "end": 18923,
+     "heading": "4. Rights and Choices"
+    }
+   ],
+   "status": "verified",
+   "rationale": "The company denies selling personal data and provides a first-party opt-out mechanism for targeted advertising along with honoring global privacy controls.",
+   "attempts": 1,
+   "shown": [
+    "p021.s2",
+    "p022.s1",
+    "p077.s1",
+    "p077.s2",
+    "p077.s3",
+    "p097.s1",
+    "p097.s2"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "G3": {
+   "flag": "G3",
+   "flag_key": "profiling_automated_decisions",
+   "search_log": {
+    "profiling": 2,
+    "automated decision": 2,
+    "infer / inference": 0,
+    "legal or similarly significant": 1,
+    "scoring": 0,
+    "personalise / recommend": 3,
+    "interests / preferences / segments": 24,
+    "predict / analyse behaviour": 0
+   },
+   "n_candidates": 5,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "CD",
+   "evidence": [
+    {
+     "id": "p038.s1",
+     "quote": "To provide you with service updates, communications, and to provide tailored recommendations about our Services that may be of interest to you;",
+     "status": "exact",
+     "start": 8134,
+     "end": 8277,
+     "heading": "2. Uses of Personal Data Permitted Under Applicable Data Protection Laws"
+    },
+    {
+     "id": "p076.s1",
+     "quote": "Anthropic does not engage in decision making based solely on automated processing or profiling in a manner which produces a legal effect (i.e., impacts your legal rights) or significantly affects you in a similar way (e.g., significantly affects your financial circumstances or ability to access essential goods or services).",
+     "status": "exact",
+     "start": 18275,
+     "end": 18600,
+     "heading": "4. Rights and Choices"
+    }
+   ],
+   "status": "verified",
+   "rationale": "The company provides tailored recommendations for services but explicitly states it does not engage in solely automated decision making or profiling that produces legal or similarly significant effects.",
+   "attempts": 1,
+   "shown": [
+    "p038.s1",
+    "p039.s1",
+    "p073.s1",
+    "p073.s2",
+    "p076.s1",
+    "p077.s1",
+    "p127.s1",
+    "p128.s1",
+    "p235.s1",
+    "p236.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "G4": {
+   "flag": "G4",
+   "flag_key": "data_retention_specificity",
+   "search_log": {
+    "retain / retention": 6,
+    "keep / store for": 0,
+    "as long as necessary": 1,
+    "numeric period": 3,
+    "indefinitely": 0,
+    "delete after / deletion": 5,
+    "legal obligation": 9
+   },
+   "n_candidates": 8,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "CD",
+   "evidence": [
+    {
+     "id": "p071.s2",
+     "quote": "You also are able to delete individual conversations, which will be removed immediately from your conversation history and automatically deleted from our back-end within 30 days.",
+     "status": "exact",
+     "start": 16509,
+     "end": 16687,
+     "heading": "4. Rights and Choices"
+    },
+    {
+     "id": "p086.s1",
+     "quote": "Anthropic retains your personal data for as long as reasonably necessary for the purposes and criteria outlined in this Privacy Policy and explained further in our privacy center.",
+     "status": "exact",
+     "start": 21078,
+     "end": 21257,
+     "heading": "6. Data Retention, Data Lifecycle, and Security Controls"
+    }
+   ],
+   "status": "verified",
+   "rationale": "Retention is generally described using purpose-based criteria ('as long as reasonably necessary'), although a specific automatic deletion timeline is provided for deleted conversations.",
+   "attempts": 1,
+   "shown": [
+    "p068.s2",
+    "p068.s3",
+    "p071.s2",
+    "p071.s3",
+    "p072.s1",
+    "p072.s2",
+    "p085.s2",
+    "p086.s1",
+    "p087.s1",
+    "p236.s2",
+    "p237.s1",
+    "p244.s1",
+    "p245.s1",
+    "p255.s1",
+    "p256.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "G5": {
+   "flag": "G5",
+   "flag_key": "user_rights_access_deletion",
+   "search_log": {
+    "right to / your rights": 31,
+    "access": 2,
+    "correct / rectify / update": 7,
+    "delete / erase": 7,
+    "portability / export": 3,
+    "object / restrict": 1,
+    "nominate (DPDP)": 0,
+    "jurisdiction limits": 21
+   },
+   "n_candidates": 43,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "CD",
+   "evidence": [
+    {
+     "id": "p069.s1",
+     "quote": "Right to know: the right to know what personal data Anthropic processes about you, including the categories of personal data, the categories of sources from which it is collected, the business or commercial purposes for collection, and the categories of third parties to whom we disclose it.",
+     "status": "exact",
+     "start": 15834,
+     "end": 16125,
+     "heading": "4. Rights and Choices"
+    },
+    {
+     "id": "p070.s1",
+     "quote": "Access & data portability: the right to request a copy of the personal data Anthropic processes about you, subject to certain exceptions and conditions.",
+     "status": "exact",
+     "start": 16126,
+     "end": 16278,
+     "heading": "4. Rights and Choices"
+    },
+    {
+     "id": "p071.s1",
+     "quote": "Deletion: the right to request that we delete personal data collected from you when you use our Services, subject to certain exceptions.",
+     "status": "exact",
+     "start": 16372,
+     "end": 16508,
+     "heading": "4. Rights and Choices"
+    },
+    {
+     "id": "p072.s1",
+     "quote": "Correction: the right to request that we correct inaccurate personal data Anthropic retains about you, subject to certain exceptions.",
+     "status": "exact",
+     "start": 16705,
+     "end": 16838,
+     "heading": "4. Rights and Choices"
+    }
+   ],
+   "status": "verified",
+   "rationale": "Access, correction, and deletion rights are offered, but subject to certain exceptions and conditions, and with specific notes on technical limitations regarding model outputs.",
+   "attempts": 1,
+   "shown": [
+    "p005.s1",
+    "p005.s2",
+    "p006.s1",
+    "p041.s1",
+    "p042.s1",
+    "p061.s1",
+    "p061.s2",
+    "p067.s1",
+    "p067.s2",
+    "p067.s3",
+    "p068.s1",
+    "p068.s4",
+    "p068.s5",
+    "p069.s1",
+    "p070.s1",
+    "p070.s2",
+    "p071.s1",
+    "p071.s2",
+    "p071.s3",
+    "p072.s1",
+    "p072.s2",
+    "p072.s3",
+    "p073.s1",
+    "p073.s2",
+    "p106.s3",
+    "p106.s4",
+    "p226.s3",
+    "p227.s1",
+    "p229.s2",
+    "p230.s1",
+    "p230.s2",
+    "p231.s1",
+    "p231.s2",
+    "p232.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "G6": {
+   "flag": "G6",
+   "flag_key": "international_data_transfers",
+   "search_log": {
+    "transfer": 25,
+    "cross-border / international": 12,
+    "stored / processed in a country": 1,
+    "safeguard mechanisms": 8,
+    "localisation": 0,
+    "servers": 1,
+    "jurisdiction": 10
+   },
+   "n_candidates": 32,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "CD",
+   "evidence": [
+    {
+     "id": "p080.s1",
+     "quote": "Anthropic is a global company, and when you access our Services, your personal data is transferred to our servers in the US, or to other countries outside the European Economic Area (“EEA”) and the UK for the purposes outlined in Section 2 of this Privacy Policy, for example to provide you with the Service, or to train our models, or to conduct research.",
+     "status": "exact",
+     "start": 19095,
+     "end": 19451,
+     "heading": "5. Data Transfers"
+    },
+    {
+     "id": "p082.s1",
+     "quote": "Adequacy decisions: These are decisions from the European Commission under Article 45 GDPR (or equivalent decisions under other laws) where they recognize that a country outside of the EEA offers an adequate level of data protection.",
+     "status": "exact",
+     "start": 19835,
+     "end": 20068,
+     "heading": "5. Data Transfers"
+    },
+    {
+     "id": "p083.s1",
+     "quote": "Standard contractual clauses: The European Commission has approved contractual clauses under Article 46 GDPR that allows companies in the EEA to transfer data outside the EEA.",
+     "status": "exact",
+     "start": 20305,
+     "end": 20480,
+     "heading": "5. Data Transfers"
+    }
+   ],
+   "status": "verified",
+   "rationale": "Data is transferred internationally (such as to the US), and specific legal safeguards like adequacy decisions and standard contractual clauses are named.",
+   "attempts": 1,
+   "shown": [
+    "p013.s5",
+    "p014.s1",
+    "p055.s1",
+    "p056.s1",
+    "p077.s2",
+    "p077.s3",
+    "p079.s2",
+    "p080.s1",
+    "p080.s2",
+    "p080.s3",
+    "p081.s1",
+    "p082.s1",
+    "p082.s2",
+    "p083.s1",
+    "p083.s2",
+    "p083.s3",
+    "p084.s1",
+    "p084.s2",
+    "p085.s1",
+    "p221.s2",
+    "p221.s3",
+    "p237.s1",
+    "p237.s2",
+    "p237.s3",
+    "p237.s4",
+    "p237.s5",
+    "p237.s6",
+    "p237.s7"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "G7": {
+   "flag": "G7",
+   "flag_key": "childrens_data_safeguards",
+   "search_log": {
+    "child / children / minor": 4,
+    "age threshold": 2,
+    "parent / guardian / consent": 0,
+    "COPPA / age verification": 0,
+    "knowingly collect": 1
+   },
+   "n_candidates": 4,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "ED",
+   "evidence": [
+    {
+     "id": "p097.s1",
+     "quote": "Our Services are not directed towards, and we do not knowingly collect, use, disclose, sell, or share any information from children under the age of 18.",
+     "status": "exact",
+     "start": 23040,
+     "end": 23192,
+     "heading": "7. Children"
+    }
+   ],
+   "status": "verified",
+   "rationale": "The service is restricted to individuals 18 and older, providing protections covering under-18s.",
+   "attempts": 1,
+   "shown": [
+    "p096.s2",
+    "p097.s1",
+    "p097.s2",
+    "p097.s3",
+    "p098.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "AI1": {
+   "flag": "AI1",
+   "flag_key": "ai_model_training_on_user_content",
+   "search_log": {
+    "train / training": 15,
+    "model(s)": 18,
+    "machine learning": 0,
+    "artificial intelligence / AI": 12,
+    "improve / develop services": 4,
+    "content / inputs / outputs": 47,
+    "research": 14
+   },
+   "n_candidates": 22,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "CD",
+   "evidence": [
+    {
+     "id": "p045.s1",
+     "quote": "To improve the Services and conduct research, including training our models and conducting broader research on AI-related topics such as the societal impacts of AI; and",
+     "status": "exact",
+     "start": 8919,
+     "end": 9087,
+     "heading": "2. Uses of Personal Data Permitted Under Applicable Data Protection Laws"
+    },
+    {
+     "id": "p047.s1",
+     "quote": "We may use your Inputs and Outputs to train and improve Anthropic AI models, unless you opt out through your account settings.",
+     "status": "exact",
+     "start": 9182,
+     "end": 9308,
+     "heading": "2. Uses of Personal Data Permitted Under Applicable Data Protection Laws"
+    }
+   ],
+   "status": "verified",
+   "rationale": "The company uses user inputs and outputs to train AI models, but allows users to opt out through account settings.",
+   "attempts": 1,
+   "shown": [
+    "p002.s1",
+    "p003.s1",
+    "p004.s1",
+    "p005.s1",
+    "p025.s1",
+    "p026.s1",
+    "p026.s2",
+    "p027.s1",
+    "p033.s1",
+    "p034.s1",
+    "p045.s1",
+    "p046.s1",
+    "p047.s1",
+    "p047.s2",
+    "p048.s1",
+    "p062.s1",
+    "p063.s1",
+    "p072.s3",
+    "p073.s1",
+    "p080.s1",
+    "p080.s2",
+    "p089.s2",
+    "p089.s3",
+    "p090.s1",
+    "p091.s1",
+    "p091.s2",
+    "p188.s1",
+    "p189.s1",
+    "p196.s2",
+    "p197.s1",
+    "p198.s1",
+    "p199.s1",
+    "p206.s2",
+    "p207.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "AI2": {
+   "flag": "AI2",
+   "flag_key": "ai_training_opt_out_control",
+   "search_log": {
+    "opt out": 6,
+    "turn off / disable": 1,
+    "choose whether / your choices": 1,
+    "settings / controls": 9,
+    "train / model (co-occurrence)": 19,
+    "object / request": 8
+   },
+   "n_candidates": 8,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "ED",
+   "evidence": [
+    {
+     "id": "p047.s1",
+     "quote": "We may use your Inputs and Outputs to train and improve Anthropic AI models, unless you opt out through your account settings.",
+     "status": "exact",
+     "start": 9182,
+     "end": 9308,
+     "heading": "2. Uses of Personal Data Permitted Under Applicable Data Protection Laws"
+    }
+   ],
+   "status": "verified",
+   "rationale": "Users can stop the use of their data for AI training via a self-serve toggle in their account settings.",
+   "attempts": 1,
+   "shown": [
+    "p024.s3",
+    "p025.s1",
+    "p029.s1",
+    "p030.s1",
+    "p033.s1",
+    "p034.s1",
+    "p047.s1",
+    "p047.s2",
+    "p048.s1",
+    "p059.s1",
+    "p060.s1",
+    "p073.s3",
+    "p074.s1",
+    "p077.s2",
+    "p077.s3"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "AI3": {
+   "flag": "AI3",
+   "flag_key": "ai_human_review_of_chats",
+   "search_log": {
+    "human review": 0,
+    "reviewers / annotators / moderators": 1,
+    "staff may access / review content": 0,
+    "review content / conversations": 0,
+    "we may access / review / monitor content": 0,
+    "flagged / safety / abuse": 17,
+    "support / feedback": 14
+   },
+   "n_candidates": 2,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "CD",
+   "evidence": [
+    {
+     "id": "p047.s2",
+     "quote": "Even if you opt-out, we will use Inputs and Outputs for model improvement when: (i) your conversations are flagged for safety review to improve our ability to detect harmful content, enforce our policies, or advance AI safety research, or (ii) you've explicitly reported the materials to us (for example via our feedback mechanisms).",
+     "status": "exact",
+     "start": 9309,
+     "end": 9642,
+     "heading": "2. Uses of Personal Data Permitted Under Applicable Data Protection Laws"
+    }
+   ],
+   "status": "verified",
+   "rationale": "Human access to review content occurs for specific triggers such as safety flags or user feedback.",
+   "attempts": 1,
+   "shown": [
+    "p029.s1",
+    "p030.s1",
+    "p047.s2",
+    "p048.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "AI4": {
+   "flag": "AI4",
+   "flag_key": "deidentification_training_carveout",
+   "search_log": {
+    "de-identified": 5,
+    "anonymised": 5,
+    "aggregated": 6,
+    "pseudonymised": 0,
+    "no longer identifies": 0,
+    "share / any purpose": 51
+   },
+   "n_candidates": 11,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "ED",
+   "evidence": [
+    {
+     "id": "p089.s2",
+     "quote": "For example, we may process personal data in an aggregated or de-identified form to analyze and improve the effectiveness of our Services including to conduct analytics, conduct research, study user behavior, and train our AI models as permitted under applicable laws.",
+     "status": "exact",
+     "start": 21666,
+     "end": 21934,
+     "heading": "Aggregated or De-Identified Information"
+    }
+   ],
+   "status": "verified",
+   "rationale": "De-identified or aggregated data may be used for analytics, research, and training AI models.",
+   "attempts": 1,
+   "shown": [
+    "p015.s2",
+    "p016.s1",
+    "p062.s1",
+    "p063.s1",
+    "p087.s1",
+    "p088.s1",
+    "p089.s1",
+    "p089.s2",
+    "p089.s3",
+    "p092.s1",
+    "p092.s2",
+    "p093.s1",
+    "p094.s1",
+    "p230.s1",
+    "p230.s2",
+    "p231.s1",
+    "p236.s2",
+    "p237.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "AI5": {
+   "flag": "AI5",
+   "flag_key": "third_party_ai_subprocessors",
+   "search_log": {
+    "AI / model providers": 0,
+    "named AI vendors": 0,
+    "third-party AI / models": 0,
+    "integrations / connectors / plugins": 8,
+    "license content / data licensing": 0,
+    "sub-processors / service providers": 5,
+    "AI features": 1
+   },
+   "n_candidates": 8,
+   "mode": "batch",
+   "presence": "Absent",
+   "state": "NS",
+   "evidence": [],
+   "status": "absent_unverifiable",
+   "rationale": "The provided sentences do not discuss sharing user content with third-party AI model providers or licensing it for others' AI training.",
+   "attempts": 1,
+   "shown": [
+    "p056.s1",
+    "p056.s2",
+    "p059.s1",
+    "p060.s1",
+    "p060.s2",
+    "p060.s3",
+    "p060.s4",
+    "p060.s5",
+    "p061.s1",
+    "p067.s1",
+    "p067.s2",
+    "p075.s2",
+    "p075.s3",
+    "p124.s1",
+    "p125.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "DPDP1": {
+   "flag": "DPDP1",
+   "flag_key": "dpdp_unambiguous_affirmative_consent",
+   "search_log": {
+    "by using / visiting you agree": 1,
+    "consent": 16,
+    "agree / accept": 2,
+    "DPDP / Indian law": 0,
+    "legal basis": 25,
+    "notice / checkbox / sign-up": 4,
+    "explicit / affirmative / freely": 2
+   },
+   "n_candidates": 43,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "CD",
+   "evidence": [
+    {
+     "id": "p048.s1",
+     "quote": "Please see Section 10 below for details of our legal bases for processing your personal data.",
+     "status": "exact",
+     "start": 9643,
+     "end": 9736,
+     "heading": "2. Uses of Personal Data Permitted Under Applicable Data Protection Laws"
+    },
+    {
+     "id": "p075.s1",
+     "quote": "Where Anthropic’s processing of your personal data is based on consent, you have the right to withdraw your consent.",
+     "status": "exact",
+     "start": 17916,
+     "end": 18032,
+     "heading": "4. Rights and Choices"
+    }
+   ],
+   "status": "verified",
+   "rationale": "Consent is mentioned as one of the legal bases along with legitimate interests and contract performance, rather than exclusively standalone itemised consent.",
+   "attempts": 1,
+   "shown": [
+    "p048.s1",
+    "p049.s1",
+    "p063.s1",
+    "p064.s1",
+    "p073.s1",
+    "p073.s2",
+    "p075.s1",
+    "p075.s2",
+    "p075.s3",
+    "p076.s1",
+    "p107.s2",
+    "p108.s1",
+    "p110.s1",
+    "p111.s1",
+    "p124.s1",
+    "p125.s1",
+    "p126.s1",
+    "p127.s1",
+    "p133.s1",
+    "p134.s1",
+    "p135.s1",
+    "p136.s1",
+    "p153.s1",
+    "p154.s1",
+    "p155.s1",
+    "p157.s1",
+    "p157.s2",
+    "p166.s1",
+    "p167.s1",
+    "p220.s5",
+    "p221.s1",
+    "p221.s2",
+    "p221.s3"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "DPDP2": {
+   "flag": "DPDP2",
+   "flag_key": "dpdp_easy_consent_withdrawal",
+   "search_log": {
+    "withdraw / revoke consent": 6,
+    "consent manager": 0,
+    "opt out / unsubscribe": 6,
+    "settings / dashboard": 4,
+    "contact / email to withdraw": 28,
+    "delete account": 0,
+    "consent (co-occurrence)": 16
+   },
+   "n_candidates": 13,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "ED",
+   "evidence": [
+    {
+     "id": "p075.s2",
+     "quote": "For example, you can disconnect your health app integration and withdraw your consent in your settings.",
+     "status": "exact",
+     "start": 18033,
+     "end": 18136,
+     "heading": "4. Rights and Choices"
+    }
+   ],
+   "status": "verified",
+   "rationale": "Users can withdraw consent directly through self-serve options in their settings.",
+   "attempts": 1,
+   "shown": [
+    "p024.s3",
+    "p025.s1",
+    "p029.s1",
+    "p030.s1",
+    "p047.s1",
+    "p047.s2",
+    "p048.s1",
+    "p073.s3",
+    "p074.s1",
+    "p075.s1",
+    "p075.s2",
+    "p075.s3",
+    "p076.s1",
+    "p077.s2",
+    "p077.s3",
+    "p133.s1",
+    "p134.s1",
+    "p220.s5",
+    "p221.s1",
+    "p234.s1",
+    "p234.s2",
+    "p234.s3"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "DPDP3": {
+   "flag": "DPDP3",
+   "flag_key": "dpdp_grievance_dpo_contact",
+   "search_log": {
+    "grievance officer": 0,
+    "data protection officer / DPO": 2,
+    "email address": 7,
+    "Data Protection Board / complaint": 5,
+    "contact us": 11,
+    "officer / named person": 2
+   },
+   "n_candidates": 12,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "ED",
+   "evidence": [
+    {
+     "id": "p105.s1",
+     "quote": "You can email us at privacy@anthropic.com and contact our Data Protection Officer at dpo@anthropic.com.",
+     "status": "exact",
+     "start": 24585,
+     "end": 24688,
+     "heading": "9. Contact Information"
+    }
+   ],
+   "status": "verified",
+   "rationale": "A Data Protection Officer with direct contact details (dpo@anthropic.com) is designated and published.",
+   "attempts": 1,
+   "shown": [
+    "p068.s4",
+    "p068.s5",
+    "p097.s3",
+    "p098.s1",
+    "p105.s1",
+    "p106.s1",
+    "p106.s2",
+    "p106.s3",
+    "p106.s4",
+    "p106.s5",
+    "p107.s1",
+    "p222.s2",
+    "p223.s1",
+    "p237.s6",
+    "p237.s7",
+    "p251.s1",
+    "p252.s1",
+    "p257.s3",
+    "p257.s4",
+    "p263.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "DPDP4": {
+   "flag": "DPDP4",
+   "flag_key": "dpdp_eighth_schedule_languages",
+   "search_log": {
+    "Eighth Schedule": 0,
+    "language(s) / translation": 5,
+    "Indian language names (English)": 0,
+    "Indian language names (native script)": 0,
+    "English": 0
+   },
+   "n_candidates": 5,
+   "mode": "batch",
+   "presence": "Absent",
+   "state": "NS",
+   "evidence": [],
+   "status": "absent_unverifiable",
+   "rationale": "There is no mention of the notice being available in Indian languages (Eighth Schedule).",
+   "attempts": 1,
+   "shown": [
+    "p004.s1",
+    "p005.s1",
+    "p006.s1",
+    "p007.s1",
+    "p033.s1",
+    "p034.s1",
+    "p072.s3",
+    "p073.s1",
+    "p217.s2",
+    "p218.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  }
+ },
+ "scores": {
+  "scoring_version": "1.0",
+  "risk_index": 39.6552,
+  "risk_index_display": 40,
+  "disclosure_quality": 80.0,
+  "disclosure_quality_display": 80,
+  "risk_points": 11.5,
+  "max_risk_points": 29.0,
+  "quality_points": 24.0,
+  "max_quality_points": 30.0,
+  "n_applicable": 15,
+  "n_not_stated": 1,
+  "per_flag": [
+   {
+    "flag": "G1",
+    "state": "ED",
+    "weight": 1.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 1.0,
+    "max_risk_points": 1.0,
+    "quality_points": 2.0
+   },
+   {
+    "flag": "G2",
+    "state": "CD",
+    "weight": 3.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 1.5,
+    "max_risk_points": 3.0,
+    "quality_points": 1.5
+   },
+   {
+    "flag": "G3",
+    "state": "CD",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 1.0,
+    "max_risk_points": 2.0,
+    "quality_points": 1.5
+   },
+   {
+    "flag": "G4",
+    "state": "CD",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 1.0,
+    "max_risk_points": 2.0,
+    "quality_points": 1.5
+   },
+   {
+    "flag": "G5",
+    "state": "CD",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 1.0,
+    "max_risk_points": 2.0,
+    "quality_points": 1.5
+   },
+   {
+    "flag": "G6",
+    "state": "CD",
+    "weight": 1.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 0.5,
+    "max_risk_points": 1.0,
+    "quality_points": 1.5
+   },
+   {
+    "flag": "G7",
+    "state": "ED",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 0.0,
+    "max_risk_points": 2.0,
+    "quality_points": 2.0
+   },
+   {
+    "flag": "AI1",
+    "state": "CD",
+    "weight": 3.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 1.5,
+    "max_risk_points": 3.0,
+    "quality_points": 1.5
+   },
+   {
+    "flag": "AI2",
+    "state": "ED",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 0.0,
+    "max_risk_points": 2.0,
+    "quality_points": 2.0
+   },
+   {
+    "flag": "AI3",
+    "state": "CD",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 1.0,
+    "max_risk_points": 2.0,
+    "quality_points": 1.5
+   },
+   {
+    "flag": "AI4",
+    "state": "ED",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 2.0,
+    "max_risk_points": 2.0,
+    "quality_points": 2.0
+   },
+   {
+    "flag": "AI5",
+    "state": "NS",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 0.0,
+    "max_risk_points": 2.0,
+    "quality_points": 0.0
+   },
+   {
+    "flag": "DPDP1",
+    "state": "CD",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 1.0,
+    "max_risk_points": 2.0,
+    "quality_points": 1.5
+   },
+   {
+    "flag": "DPDP2",
+    "state": "ED",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 0.0,
+    "max_risk_points": 2.0,
+    "quality_points": 2.0
+   },
+   {
+    "flag": "DPDP3",
+    "state": "ED",
+    "weight": 1.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 0.0,
+    "max_risk_points": 1.0,
+    "quality_points": 2.0
+   },
+   {
+    "flag": "DPDP4",
+    "state": "NS",
+    "weight": 0.0,
+    "applicable": false,
+    "reason": "informational flag (weight 0)",
+    "risk_points": 0.0,
+    "max_risk_points": 0.0,
+    "quality_points": 0.0
+   }
+  ],
+  "complete": true,
+  "rejected_flags_scored_as_UN": []
+ },
+ "policy_key": "P02_anthropic",
+ "cohort": "ai"
+}

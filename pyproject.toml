@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "privascore"
+version = "0.1.0"
+description = "NLP-based privacy policy risk assessment (LNMIIT mini project)"
+requires-python = ">=3.11"
+dependencies = [
+    "requests>=2.31",
+    "rapidfuzz>=3.0",
+]
+
+[project.optional-dependencies]
+# Tested with: torch 2.15, transformers 5.23, scikit-learn 1.9.1, numpy 2.5, PyYAML 6.0.
+fetch = ["beautifulsoup4>=4.12", "lxml>=5.0", "playwright>=1.40"]
+bert = ["numpy", "scikit-learn", "torch", "transformers"]   # privascore.bert, bert_eval, metrics
+experiments = ["numpy", "scikit-learn", "pyyaml"]            # CPU scripts in experiments/
+dev = ["pytest>=8.0", "numpy"]
+
+[tool.setuptools]
+packages = ["privascore", "privascore.llm"]
+
+[tool.setuptools.package-data]
+privascore = ["*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

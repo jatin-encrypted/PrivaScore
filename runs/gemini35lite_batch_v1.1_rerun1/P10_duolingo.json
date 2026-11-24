@@ -1,0 +1,1231 @@
+{
+ "policy_id": "P10",
+ "policy_name": "duolingo",
+ "scope": "all_users",
+ "mode": "batch",
+ "text_sha256": "bda945667707dceeeb9df589a2879e958904e15cfd8bea60fa609bc0cc4cd90c",
+ "n_sentences": 292,
+ "batch_calls": [
+  {
+   "attempt": 1,
+   "flags": [
+    "G1",
+    "G2",
+    "G3",
+    "G4",
+    "G5",
+    "G6",
+    "G7",
+    "AI1",
+    "AI2",
+    "AI3",
+    "AI4",
+    "AI5",
+    "DPDP1",
+    "DPDP2",
+    "DPDP3",
+    "DPDP4"
+   ],
+   "cached": false,
+   "n_sentences": 188,
+   "raw": "{\"answers\": [\n  {\n    \"flag\": \"G1\",\n    \"presence\": \"Present\",\n    \"state\": \"ED\",\n    \"evidence\": [\n      {\n        \"id\": \"p008.s1\",\n        \"quote\": \"When you use the Service, Duolingo may collect the following personal information about you.\"\n      },\n      {\n        \"id\": \"p032.s1\",\n        \"quote\": \"When you use the Service, we may generate data about your use of the Service, which may include your browser and device data, log data, and IP address.\"\n      }\n    ],\n    \"rationale\": \"The policy states that Duolingo collects personal information including device and usage data, logs, and IP addresses.\"\n  },\n  {\n    \"flag\": \"G2\",\n    \"presence\": \"Present\",\n    \"state\": \"CD\",\n    \"evidence\": [\n      {\n        \"id\": \"p063.s1\",\n        \"quote\": \"Duolingo may process and share your personal information for the purpose of providing you with personalized advertising.\"\n      },\n      {\n        \"id\": \"p064.s1\",\n        \"quote\": \"You can opt out of personalized advertising within the app Settings.\"\n      }\n    ],\n    \"rationale\": \"Duolingo shares data for personalized advertising but provides a first-party setting to opt out within the app.\"\n  },\n  {\n    \"flag\": \"G3\",\n    \"presence\": \"Present\",\n    \"state\": \"ED\",\n    \"evidence\": [\n      {\n        \"id\": \"p020.s1\",\n        \"quote\": \"Duolingo uses Artificial Intelligence (“AI”) to help create lessons, matches, and other content within the app, based on users’ learning activity.\"\n      }\n    ],\n    \"rationale\": \"The policy describes profiling and AI usage to adapt lessons based on learning activity without a general user-control mechanism described for this specific profiling.\"\n  },\n  {\n    \"flag\": \"G4\",\n    \"presence\": \"Present\",\n    \"state\": \"CD\",\n    \"evidence\": [\n      {\n        \"id\": \"p086.s1\",\n        \"quote\": \"To ensure your account stays operational, Duolingo will generally retain your personal information until your account is deleted.\"\n      },\n      {\n        \"id\": \"p086.s2\",\n        \"quote\": \"However, Duolingo may retain certain information longer if necessary to provide our Service, defend our legitimate interests or those of third parties, comply with legal requirements\"\n      }\n    ],\n    \"rationale\": \"Retention is generally tied to account deletion and purpose-based criteria rather than a specific concrete timeline for all personal data.\"\n  },\n  {\n    \"flag\": \"G5\",\n    \"presence\": \"Present\",\n    \"state\": \"CD\",\n    \"evidence\": [\n      {\n        \"id\": \"p077.s1\",\n        \"quote\": \"Request that we delete any personal information we have collected from you.\"\n      },\n      {\n        \"id\": \"p078.s1\",\n        \"quote\": \"Request that we correct any inaccurate personal information about you.\"\n      },\n      {\n        \"id\": \"p082.s2\",\n        \"quote\": \"You may request to access or erase your personal information and delete your account at the Duolingo Data Vault.\"\n      }\n    ],\n    \"rationale\": \"Users are offered rights to access, correct, and delete data, but these rights are subject to limitations and exceptions stated in the policy.\"\n  },\n  {\n    \"flag\": \"G6\",\n    \"presence\": \"Present\",\n    \"state\": \"CD\",\n    \"evidence\": [\n      {\n        \"id\": \"p144.s2\",\n        \"quote\": \"Duolingo may transfer the data of users outside the United States to the United States.\"\n      },\n      {\n        \"id\": \"p146.s1\",\n        \"quote\": \"Duolingo complies with the EU-U.S. Data Privacy Framework (EU-U.S. DPF), the UK Extension to the EU-U.S. DPF, and the Swiss-U.S. Data Privacy Framework (Swiss-U.S. DPF) as set forth by the U.S. Department of Commerce.\"\n      }\n    ],\n    \"rationale\": \"Data is transferred to the United States and specific adequacy/framework mechanisms like the Data Privacy Framework are named.\"\n  },\n  {\n    \"flag\": \"G7\",\n    \"presence\": \"Present\",\n    \"state\": \"ED\",\n    \"evidence\": [\n      {\n        \"id\": \"p088.s3\",\n        \"quote\": \"Duolingo treats Child Users (meaning users under the age of 13 in the United States or another age of digital consent in their country) differently to ensure their parents are in control and we only collect the bare minimum information we need to make Duolingo work.\"\n      },\n      {\n        \"id\": \"p096.s1\",\n        \"quote\": \"Third-party behavioral tracking is disabled.\"\n      }\n    ],\n    \"rationale\": \"The policy provides specific protections and restrictions, such as disabling behavioral tracking and limiting data collection, for child users under the age of digital consent.\"\n  },\n  {\n    \"flag\": \"AI1\",\n    \"presence\": \"Present\",\n    \"state\": \"ED\",\n    \"evidence\": [\n      {\n        \"id\": \"p022.s3\",\n        \"quote\": \"Additionally, Duolingo may generate, record, and store audio recordings or transcripts of the text and audio you submit, and use these recordings or transcripts for product improvement and personalization purposes, including training and running Duolingo’s own artificial intelligence models.\"\n      }\n    ],\n    \"rationale\": \"Duolingo uses user text and audio transcripts to train its own artificial intelligence models.\"\n  },\n  {\n    \"flag\": \"AI2\",\n    \"presence\": \"Present\",\n    \"state\": \"CD\",\n    \"evidence\": [\n      {\n        \"id\": \"p025.s5\",\n        \"quote\": \"You may also choose not to share your audio with us for product improvement purposes within the app Settings.\"\n      }\n    ],\n    \"rationale\": \"Users can opt out of sharing audio for product improvement purposes, including training, via app settings.\"\n  },\n  {\n    \"flag\": \"AI3\",\n    \"presence\": \"Present\",\n    \"state\": \"CD\",\n    \"evidence\": [\n      {\n        \"id\": \"p018.s1\",\n        \"quote\": \"Duolingo may scan or review any Public Profile Information, or share your Public Profile Information with a third-party content moderation service provider, to ensure compliance with our Community Guidelines.\"\n      }\n    ],\n    \"rationale\": \"Human or automated review is limited to ensuring compliance with Community Guidelines rather than routine general review of all user chats for model training.\"\n  },\n  {\n    \"flag\": \"AI4\",\n    \"presence\": \"Present\",\n    \""
+  },
+  {
+   "attempt": 2,
+   "flags": [
+    "G2"
+   ],
+   "cached": false,
+   "n_sentences": 23,
+   "raw": "{\"answers\": [{\"flag\": \"G2\", \"presence\": \"Present\", \"state\": \"CD\", \"evidence\": [{\"id\": \"p063.s1\", \"quote\": \"Duolingo may process and share your personal information for the purpose of providing you with personalized advertising.\"}, {\"id\": \"p064.s1\", \"quote\": \"You can opt out of receiving personalized advertising within the app Settings.\"}], \"rationale\": \"The company shares personal data with third parties for personalized advertising, but provides a first-party opt-out mechanism within the app settings.\"}]}"
+  }
+ ],
+ "flags": {
+  "G1": {
+   "flag": "G1",
+   "flag_key": "first_party_collection_scope",
+   "search_log": {
+    "we collect": 4,
+    "information/data we collect": 2,
+    "collected automatically": 0,
+    "you provide": 9,
+    "location": 0,
+    "device / identifiers": 7,
+    "content / messages": 21,
+    "contacts": 15,
+    "sensitive / biometric / financial": 3,
+    "from other sources": 0,
+    "usage / log data": 2
+   },
+   "n_candidates": 16,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "ED",
+   "evidence": [
+    {
+     "id": "p008.s1",
+     "quote": "When you use the Service, Duolingo may collect the following personal information about you.",
+     "status": "exact",
+     "start": 913,
+     "end": 1005,
+     "heading": "Information We Collect"
+    },
+    {
+     "id": "p032.s1",
+     "quote": "When you use the Service, we may generate data about your use of the Service, which may include your browser and device data, log data, and IP address.",
+     "status": "exact",
+     "start": 7783,
+     "end": 7934,
+     "heading": "Information We Collect"
+    }
+   ],
+   "status": "verified",
+   "rationale": "The policy states that Duolingo collects personal information including device and usage data, logs, and IP addresses.",
+   "attempts": 1,
+   "shown": [
+    "p004.s1",
+    "p004.s2",
+    "p007.s1",
+    "p008.s1",
+    "p014.s2",
+    "p014.s3",
+    "p017.s2",
+    "p017.s3",
+    "p018.s1",
+    "p022.s1",
+    "p022.s2",
+    "p022.s3",
+    "p022.s4",
+    "p031.s2",
+    "p032.s1",
+    "p032.s2",
+    "p033.s1",
+    "p033.s2",
+    "p045.s1",
+    "p046.s1",
+    "p048.s2",
+    "p049.s1",
+    "p052.s1",
+    "p053.s1",
+    "p091.s2",
+    "p091.s3",
+    "p134.s2",
+    "p134.s3",
+    "p140.s2",
+    "p140.s3"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "G2": {
+   "flag": "G2",
+   "flag_key": "third_party_advertising_tracking",
+   "search_log": {
+    "advertis*": 12,
+    "targeted / interest-based / behavioural ads": 8,
+    "sell / sale of data": 0,
+    "pixel / SDK / tracking tech": 0,
+    "ad / marketing partners": 1,
+    "opt-out of sale/ads / GPC": 1,
+    "cookies": 9,
+    "analytics provider": 5,
+    "share with third parties": 4,
+    "marketing": 2
+   },
+   "n_candidates": 15,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "CD",
+   "evidence": [
+    {
+     "id": "p063.s1",
+     "quote": "Duolingo may process and share your personal information for the purpose of providing you with personalized advertising.",
+     "status": "exact",
+     "start": 13781,
+     "end": 13901,
+     "heading": "How We Process Your Information"
+    },
+    {
+     "id": "p064.s1",
+     "quote": "You can opt out of receiving personalized advertising within the app Settings.",
+     "status": "exact",
+     "start": 14465,
+     "end": 14543,
+     "heading": "How We Process Your Information"
+    }
+   ],
+   "status": "verified",
+   "rationale": "The company shares personal data with third parties for personalized advertising, but provides a first-party opt-out mechanism within the app settings.",
+   "attempts": 2,
+   "shown": [
+    "p042.s2",
+    "p043.s1",
+    "p044.s2",
+    "p044.s3",
+    "p049.s1",
+    "p049.s2",
+    "p062.s2",
+    "p063.s1",
+    "p063.s2",
+    "p063.s3",
+    "p064.s1",
+    "p064.s2",
+    "p064.s3",
+    "p065.s1",
+    "p065.s2",
+    "p073.s1",
+    "p074.s1",
+    "p095.s1",
+    "p096.s1",
+    "p122.s1",
+    "p123.s1",
+    "p140.s5",
+    "p141.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": [
+      "quote for p064.s1 failed verification (not_found): quote not found in the policy text; closest policy text: 'u can opt out of receiving personalized advertising within the app S'"
+     ]
+    },
+    {
+     "attempt": 2,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "G3": {
+   "flag": "G3",
+   "flag_key": "profiling_automated_decisions",
+   "search_log": {
+    "profiling": 25,
+    "automated decision": 0,
+    "infer / inference": 0,
+    "legal or similarly significant": 0,
+    "scoring": 0,
+    "personalise / recommend": 17,
+    "interests / preferences / segments": 4,
+    "predict / analyse behaviour": 1
+   },
+   "n_candidates": 26,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "ED",
+   "evidence": [
+    {
+     "id": "p020.s1",
+     "quote": "Duolingo uses Artificial Intelligence (“AI”) to help create lessons, matches, and other content within the app, based on users’ learning activity.",
+     "status": "exact",
+     "start": 3682,
+     "end": 3828,
+     "heading": "Information We Collect"
+    }
+   ],
+   "status": "verified",
+   "rationale": "The policy describes profiling and AI usage to adapt lessons based on learning activity without a general user-control mechanism described for this specific profiling.",
+   "attempts": 1,
+   "shown": [
+    "p013.s2",
+    "p014.s1",
+    "p014.s2",
+    "p014.s3",
+    "p014.s4",
+    "p015.s1",
+    "p015.s2",
+    "p015.s3",
+    "p016.s1",
+    "p016.s2",
+    "p016.s3",
+    "p016.s4",
+    "p017.s1",
+    "p017.s2",
+    "p017.s3",
+    "p018.s1",
+    "p018.s2",
+    "p019.s1",
+    "p029.s1",
+    "p030.s1",
+    "p038.s1",
+    "p039.s1",
+    "p040.s1",
+    "p048.s2",
+    "p049.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "G4": {
+   "flag": "G4",
+   "flag_key": "data_retention_specificity",
+   "search_log": {
+    "retain / retention": 7,
+    "keep / store for": 2,
+    "as long as necessary": 0,
+    "numeric period": 0,
+    "indefinitely": 1,
+    "delete after / deletion": 10,
+    "legal obligation": 3
+   },
+   "n_candidates": 9,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "CD",
+   "evidence": [
+    {
+     "id": "p086.s1",
+     "quote": "To ensure your account stays operational, Duolingo will generally retain your personal information until your account is deleted.",
+     "status": "exact",
+     "start": 17455,
+     "end": 17584,
+     "heading": "Data Retention"
+    },
+    {
+     "id": "p086.s2",
+     "quote": "However, Duolingo may retain certain information longer if necessary to provide our Service, defend our legitimate interests or those of third parties, comply with legal requirements",
+     "status": "exact",
+     "start": 17585,
+     "end": 17767,
+     "heading": "Data Retention"
+    }
+   ],
+   "status": "verified",
+   "rationale": "Retention is generally tied to account deletion and purpose-based criteria rather than a specific concrete timeline for all personal data.",
+   "attempts": 1,
+   "shown": [
+    "p023.s3",
+    "p024.s1",
+    "p027.s2",
+    "p028.s1",
+    "p033.s2",
+    "p034.s1",
+    "p035.s1",
+    "p085.s1",
+    "p086.s1",
+    "p086.s2",
+    "p086.s3",
+    "p087.s1",
+    "p130.s2",
+    "p130.s3"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "G5": {
+   "flag": "G5",
+   "flag_key": "user_rights_access_deletion",
+   "search_log": {
+    "right to / your rights": 4,
+    "access": 1,
+    "correct / rectify / update": 3,
+    "delete / erase": 8,
+    "portability / export": 0,
+    "object / restrict": 1,
+    "nominate (DPDP)": 0,
+    "jurisdiction limits": 11
+   },
+   "n_candidates": 16,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "CD",
+   "evidence": [
+    {
+     "id": "p077.s1",
+     "quote": "Request that we delete any personal information we have collected from you.",
+     "status": "exact",
+     "start": 16135,
+     "end": 16210,
+     "heading": "Your Data Subject Rights"
+    },
+    {
+     "id": "p078.s1",
+     "quote": "Request that we correct any inaccurate personal information about you.",
+     "status": "exact",
+     "start": 16211,
+     "end": 16281,
+     "heading": "Your Data Subject Rights"
+    },
+    {
+     "id": "p082.s2",
+     "quote": "You may request to access or erase your personal information and delete your account at the Duolingo Data Vault.",
+     "status": "exact",
+     "start": 16674,
+     "end": 16786,
+     "heading": "Your Data Subject Rights"
+    }
+   ],
+   "status": "verified",
+   "rationale": "Users are offered rights to access, correct, and delete data, but these rights are subject to limitations and exceptions stated in the policy.",
+   "attempts": 1,
+   "shown": [
+    "p017.s3",
+    "p018.s1",
+    "p018.s2",
+    "p019.s1",
+    "p030.s2",
+    "p031.s1",
+    "p068.s1",
+    "p069.s1",
+    "p076.s1",
+    "p077.s1",
+    "p078.s1",
+    "p079.s1",
+    "p081.s1",
+    "p082.s1",
+    "p082.s2",
+    "p082.s3",
+    "p083.s1",
+    "p084.s1",
+    "p084.s2",
+    "p091.s3",
+    "p092.s1",
+    "p128.s2",
+    "p128.s3",
+    "p135.s2",
+    "p136.s1",
+    "p142.s1",
+    "p142.s2"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "G6": {
+   "flag": "G6",
+   "flag_key": "international_data_transfers",
+   "search_log": {
+    "transfer": 5,
+    "cross-border / international": 1,
+    "stored / processed in a country": 0,
+    "safeguard mechanisms": 6,
+    "localisation": 0,
+    "servers": 0,
+    "jurisdiction": 7
+   },
+   "n_candidates": 11,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "CD",
+   "evidence": [
+    {
+     "id": "p144.s2",
+     "quote": "Duolingo may transfer the data of users outside the United States to the United States.",
+     "status": "exact",
+     "start": 25969,
+     "end": 26056,
+     "heading": "Data Transfer"
+    },
+    {
+     "id": "p146.s1",
+     "quote": "Duolingo complies with the EU-U.S. Data Privacy Framework (EU-U.S. DPF), the UK Extension to the EU-U.S. DPF, and the Swiss-U.S. Data Privacy Framework (Swiss-U.S. DPF) as set forth by the U.S. Department of Commerce.",
+     "status": "exact",
+     "start": 26089,
+     "end": 26306,
+     "heading": "Data Transfer"
+    }
+   ],
+   "status": "verified",
+   "rationale": "Data is transferred to the United States and specific adequacy/framework mechanisms like the Data Privacy Framework are named.",
+   "attempts": 1,
+   "shown": [
+    "p064.s2",
+    "p064.s3",
+    "p079.s1",
+    "p080.s1",
+    "p143.s1",
+    "p144.s1",
+    "p144.s2",
+    "p145.s1",
+    "p145.s2",
+    "p146.s1",
+    "p146.s2",
+    "p146.s3",
+    "p146.s4",
+    "p146.s5",
+    "p147.s1",
+    "p149.s1",
+    "p149.s2",
+    "p150.s1",
+    "p150.s2"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "G7": {
+   "flag": "G7",
+   "flag_key": "childrens_data_safeguards",
+   "search_log": {
+    "child / children / minor": 36,
+    "age threshold": 4,
+    "parent / guardian / consent": 8,
+    "COPPA / age verification": 2,
+    "knowingly collect": 0
+   },
+   "n_candidates": 41,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "ED",
+   "evidence": [
+    {
+     "id": "p088.s3",
+     "quote": "Duolingo treats Child Users (meaning users under the age of 13 in the United States or another age of digital consent in their country) differently to ensure their parents are in control and we only collect the bare minimum information we need to make Duolingo work.",
+     "status": "exact",
+     "start": 18186,
+     "end": 18452,
+     "heading": "Child Users"
+    },
+    {
+     "id": "p096.s1",
+     "quote": "Third-party behavioral tracking is disabled.",
+     "status": "exact",
+     "start": 19419,
+     "end": 19463,
+     "heading": "Child Users"
+    }
+   ],
+   "status": "verified",
+   "rationale": "The policy provides specific protections and restrictions, such as disabling behavioral tracking and limiting data collection, for child users under the age of digital consent.",
+   "attempts": 1,
+   "shown": [
+    "p036.s3",
+    "p037.s1",
+    "p087.s1",
+    "p088.s1",
+    "p088.s2",
+    "p088.s3",
+    "p089.s1",
+    "p090.s1",
+    "p090.s2",
+    "p091.s1",
+    "p091.s2",
+    "p091.s3",
+    "p092.s1",
+    "p093.s1",
+    "p094.s1",
+    "p099.s1",
+    "p100.s1",
+    "p101.s1",
+    "p102.s1",
+    "p103.s1",
+    "p104.s1",
+    "p105.s1",
+    "p106.s1",
+    "p126.s1",
+    "p126.s2",
+    "p128.s1",
+    "p128.s2",
+    "p130.s1",
+    "p130.s2"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "AI1": {
+   "flag": "AI1",
+   "flag_key": "ai_model_training_on_user_content",
+   "search_log": {
+    "train / training": 2,
+    "model(s)": 2,
+    "machine learning": 0,
+    "artificial intelligence / AI": 13,
+    "improve / develop services": 4,
+    "content / inputs / outputs": 16,
+    "research": 5
+   },
+   "n_candidates": 15,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "ED",
+   "evidence": [
+    {
+     "id": "p022.s3",
+     "quote": "Additionally, Duolingo may generate, record, and store audio recordings or transcripts of the text and audio you submit, and use these recordings or transcripts for product improvement and personalization purposes, including training and running Duolingo’s own artificial intelligence models.",
+     "status": "exact",
+     "start": 4590,
+     "end": 4882,
+     "heading": "Information We Collect"
+    }
+   ],
+   "status": "verified",
+   "rationale": "Duolingo uses user text and audio transcripts to train its own artificial intelligence models.",
+   "attempts": 1,
+   "shown": [
+    "p019.s2",
+    "p020.s1",
+    "p020.s2",
+    "p021.s1",
+    "p021.s2",
+    "p022.s1",
+    "p022.s2",
+    "p022.s3",
+    "p022.s4",
+    "p023.s1",
+    "p023.s2",
+    "p023.s3",
+    "p024.s1",
+    "p048.s2",
+    "p049.s1",
+    "p049.s2",
+    "p050.s1",
+    "p063.s3",
+    "p064.s1",
+    "p067.s1",
+    "p067.s2"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "AI2": {
+   "flag": "AI2",
+   "flag_key": "ai_training_opt_out_control",
+   "search_log": {
+    "opt out": 6,
+    "turn off / disable": 11,
+    "choose whether / your choices": 2,
+    "settings / controls": 14,
+    "train / model (co-occurrence)": 2,
+    "object / request": 3
+   },
+   "n_candidates": 19,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "CD",
+   "evidence": [
+    {
+     "id": "p025.s5",
+     "quote": "You may also choose not to share your audio with us for product improvement purposes within the app Settings.",
+     "status": "exact",
+     "start": 5895,
+     "end": 6004,
+     "heading": "Information We Collect"
+    }
+   ],
+   "status": "verified",
+   "rationale": "Users can opt out of sharing audio for product improvement purposes, including training, via app settings.",
+   "attempts": 1,
+   "shown": [
+    "p025.s5",
+    "p025.s6",
+    "p030.s1",
+    "p030.s2",
+    "p036.s2",
+    "p036.s3",
+    "p037.s1",
+    "p044.s5",
+    "p045.s1",
+    "p058.s1",
+    "p059.s1",
+    "p064.s1",
+    "p064.s2",
+    "p064.s3",
+    "p065.s1",
+    "p073.s1",
+    "p074.s1",
+    "p082.s1",
+    "p082.s2",
+    "p096.s1",
+    "p097.s1",
+    "p098.s1",
+    "p099.s1",
+    "p102.s1",
+    "p103.s1",
+    "p111.s1",
+    "p112.s1",
+    "p117.s1",
+    "p118.s1",
+    "p123.s1",
+    "p124.s1",
+    "p125.s1",
+    "p131.s1",
+    "p131.s2"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "AI3": {
+   "flag": "AI3",
+   "flag_key": "ai_human_review_of_chats",
+   "search_log": {
+    "human review": 0,
+    "reviewers / annotators / moderators": 2,
+    "staff may access / review content": 0,
+    "review content / conversations": 0,
+    "we may access / review / monitor content": 0,
+    "flagged / safety / abuse": 4,
+    "support / feedback": 1
+   },
+   "n_candidates": 2,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "CD",
+   "evidence": [
+    {
+     "id": "p018.s1",
+     "quote": "Duolingo may scan or review any Public Profile Information, or share your Public Profile Information with a third-party content moderation service provider, to ensure compliance with our Community Guidelines.",
+     "status": "exact",
+     "start": 3321,
+     "end": 3529,
+     "heading": "Information We Collect"
+    }
+   ],
+   "status": "verified",
+   "rationale": "Human or automated review is limited to ensuring compliance with Community Guidelines rather than routine general review of all user chats for model training.",
+   "attempts": 1,
+   "shown": [
+    "p018.s1",
+    "p018.s2",
+    "p049.s2",
+    "p050.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "AI4": {
+   "flag": "AI4",
+   "flag_key": "deidentification_training_carveout",
+   "search_log": {
+    "de-identified": 1,
+    "anonymised": 3,
+    "aggregated": 0,
+    "pseudonymised": 0,
+    "no longer identifies": 0,
+    "share / any purpose": 39
+   },
+   "n_candidates": 3,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "ED",
+   "evidence": [
+    {
+     "id": "p067.s1",
+     "quote": "Duolingo may anonymize your personal information, and use this de-identified data for any purpose, such as better understanding learning trends and training artificial intelligence models.",
+     "status": "exact",
+     "start": 15142,
+     "end": 15330,
+     "heading": "How We Process Your Information"
+    }
+   ],
+   "status": "verified",
+   "rationale": "De-identified or anonymized data may be used for any purpose, including training artificial intelligence models.",
+   "attempts": 1,
+   "shown": [
+    "p066.s2",
+    "p067.s1",
+    "p067.s2",
+    "p086.s3",
+    "p087.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "AI5": {
+   "flag": "AI5",
+   "flag_key": "third_party_ai_subprocessors",
+   "search_log": {
+    "AI / model providers": 3,
+    "named AI vendors": 1,
+    "third-party AI / models": 0,
+    "integrations / connectors / plugins": 3,
+    "license content / data licensing": 0,
+    "sub-processors / service providers": 7,
+    "AI features": 3
+   },
+   "n_candidates": 6,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "CD",
+   "evidence": [
+    {
+     "id": "p022.s1",
+     "quote": "When you interact with Video Call or other AI-enabled features, the text and audio you submit may be shared with AI vendors such as OpenAI and Google.",
+     "status": "exact",
+     "start": 4311,
+     "end": 4461,
+     "heading": "Information We Collect"
+    },
+    {
+     "id": "p022.s2",
+     "quote": "Duolingo’s agreements with these AI vendors mean they are not permitted to use any personal information for their own purposes.",
+     "status": "exact",
+     "start": 4462,
+     "end": 4589,
+     "heading": "Information We Collect"
+    }
+   ],
+   "status": "verified",
+   "rationale": "User content is shared with third-party AI providers, but those providers are contractually restricted from using personal information for their own purposes.",
+   "attempts": 1,
+   "shown": [
+    "p022.s1",
+    "p022.s2",
+    "p022.s3",
+    "p023.s3",
+    "p024.s1",
+    "p061.s3",
+    "p062.s1",
+    "p149.s1",
+    "p149.s2",
+    "p150.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "DPDP1": {
+   "flag": "DPDP1",
+   "flag_key": "dpdp_unambiguous_affirmative_consent",
+   "search_log": {
+    "by using / visiting you agree": 1,
+    "consent": 4,
+    "agree / accept": 3,
+    "DPDP / Indian law": 0,
+    "legal basis": 2,
+    "notice / checkbox / sign-up": 4,
+    "explicit / affirmative / freely": 0
+   },
+   "n_candidates": 8,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "CD",
+   "evidence": [
+    {
+     "id": "p004.s3",
+     "quote": "By using the Service, you agree with Duolingo’s collection, use, and sharing of your personal information in accordance with the terms of this Privacy Policy.",
+     "status": "exact",
+     "start": 314,
+     "end": 472,
+     "heading": "General"
+    },
+    {
+     "id": "p046.s1",
+     "quote": "Duolingo may process your personal information according to the following legal bases: to provide products or services you request, to promote Duolingo’s legitimate interests, to comply with legal obligations, and with your consent.",
+     "status": "exact",
+     "start": 11136,
+     "end": 11368,
+     "heading": "How We Process Your Information"
+    }
+   ],
+   "status": "verified",
+   "rationale": "Consent is largely framed through general agreement to terms via use of the service alongside other legal bases.",
+   "attempts": 1,
+   "shown": [
+    "p004.s3",
+    "p005.s1",
+    "p041.s4",
+    "p041.s5",
+    "p046.s1",
+    "p046.s2",
+    "p080.s1",
+    "p081.s1",
+    "p086.s2",
+    "p086.s3",
+    "p088.s3",
+    "p089.s1",
+    "p134.s4",
+    "p134.s5",
+    "p135.s2",
+    "p136.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "DPDP2": {
+   "flag": "DPDP2",
+   "flag_key": "dpdp_easy_consent_withdrawal",
+   "search_log": {
+    "withdraw / revoke consent": 2,
+    "consent manager": 0,
+    "opt out / unsubscribe": 6,
+    "settings / dashboard": 14,
+    "contact / email to withdraw": 31,
+    "delete account": 1,
+    "consent (co-occurrence)": 4
+   },
+   "n_candidates": 9,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "CD",
+   "evidence": [
+    {
+     "id": "p080.s1",
+     "quote": "Withdraw any consent you previously gave us to process your personal information.",
+     "status": "exact",
+     "start": 16413,
+     "end": 16494,
+     "heading": "Your Data Subject Rights"
+    },
+    {
+     "id": "p082.s1",
+     "quote": "You may update or correct your information, and exercise certain opt-out rights, in your Settings page.",
+     "status": "exact",
+     "start": 16570,
+     "end": 16673,
+     "heading": "Your Data Subject Rights"
+    }
+   ],
+   "status": "verified",
+   "rationale": "Users can withdraw consent and exercise opt-outs in settings, though certain withdrawals may require specific requests or account closure.",
+   "attempts": 1,
+   "shown": [
+    "p030.s1",
+    "p030.s2",
+    "p044.s5",
+    "p045.s1",
+    "p058.s1",
+    "p059.s1",
+    "p064.s1",
+    "p064.s2",
+    "p073.s1",
+    "p074.s1",
+    "p080.s1",
+    "p081.s1",
+    "p082.s1",
+    "p082.s2",
+    "p132.s2",
+    "p132.s3",
+    "p135.s2",
+    "p136.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "DPDP3": {
+   "flag": "DPDP3",
+   "flag_key": "dpdp_grievance_dpo_contact",
+   "search_log": {
+    "grievance officer": 0,
+    "data protection officer / DPO": 1,
+    "email address": 7,
+    "Data Protection Board / complaint": 2,
+    "contact us": 20,
+    "officer / named person": 1
+   },
+   "n_candidates": 9,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "CD",
+   "evidence": [
+    {
+     "id": "p082.s3",
+     "quote": "To make another privacy-related request, please send an email to privacy@duolingo.com.",
+     "status": "exact",
+     "start": 16787,
+     "end": 16873,
+     "heading": "Your Data Subject Rights"
+    },
+    {
+     "id": "p166.s1",
+     "quote": "For all data privacy inquiries and any questions or concerns you have about this Privacy Policy, please contact our Data Protection Officer at privacy@duolingo.com.",
+     "status": "exact",
+     "start": 30293,
+     "end": 30457,
+     "heading": "United Kingdom"
+    }
+   ],
+   "status": "verified",
+   "rationale": "A Data Protection Officer role is designated with a contact email address, though it uses a generic inbox rather than a named individual.",
+   "attempts": 1,
+   "shown": [
+    "p082.s3",
+    "p083.s1",
+    "p084.s1",
+    "p084.s2",
+    "p085.s1",
+    "p126.s1",
+    "p126.s2",
+    "p127.s1",
+    "p128.s3",
+    "p129.s1",
+    "p132.s2",
+    "p132.s3",
+    "p147.s2",
+    "p148.s1",
+    "p166.s1",
+    "p167.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "DPDP4": {
+   "flag": "DPDP4",
+   "flag_key": "dpdp_eighth_schedule_languages",
+   "search_log": {
+    "Eighth Schedule": 0,
+    "language(s) / translation": 2,
+    "Indian language names (English)": 0,
+    "Indian language names (native script)": 0,
+    "English": 1
+   },
+   "n_candidates": 2,
+   "mode": "batch",
+   "presence": "Absent",
+   "state": "NS",
+   "evidence": [],
+   "status": "absent_unverifiable",
+   "rationale": "The policy text does not mention availability in Indian languages under the Eighth Schedule.",
+   "attempts": 1,
+   "shown": [
+    "p015.s1",
+    "p015.s2",
+    "p021.s1",
+    "p021.s2"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  }
+ },
+ "scores": {
+  "scoring_version": "1.0",
+  "risk_index": 60.3448,
+  "risk_index_display": 60,
+  "disclosure_quality": 83.3333,
+  "disclosure_quality_display": 83,
+  "risk_points": 17.5,
+  "max_risk_points": 29.0,
+  "quality_points": 25.0,
+  "max_quality_points": 30.0,
+  "n_applicable": 15,
+  "n_not_stated": 0,
+  "per_flag": [
+   {
+    "flag": "G1",
+    "state": "ED",
+    "weight": 1.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 1.0,
+    "max_risk_points": 1.0,
+    "quality_points": 2.0
+   },
+   {
+    "flag": "G2",
+    "state": "CD",
+    "weight": 3.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 1.5,
+    "max_risk_points": 3.0,
+    "quality_points": 1.5
+   },
+   {
+    "flag": "G3",
+    "state": "ED",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 2.0,
+    "max_risk_points": 2.0,
+    "quality_points": 2.0
+   },
+   {
+    "flag": "G4",
+    "state": "CD",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 1.0,
+    "max_risk_points": 2.0,
+    "quality_points": 1.5
+   },
+   {
+    "flag": "G5",
+    "state": "CD",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 1.0,
+    "max_risk_points": 2.0,
+    "quality_points": 1.5
+   },
+   {
+    "flag": "G6",
+    "state": "CD",
+    "weight": 1.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 0.5,
+    "max_risk_points": 1.0,
+    "quality_points": 1.5
+   },
+   {
+    "flag": "G7",
+    "state": "ED",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 0.0,
+    "max_risk_points": 2.0,
+    "quality_points": 2.0
+   },
+   {
+    "flag": "AI1",
+    "state": "ED",
+    "weight": 3.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 3.0,
+    "max_risk_points": 3.0,
+    "quality_points": 2.0
+   },
+   {
+    "flag": "AI2",
+    "state": "CD",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 1.0,
+    "max_risk_points": 2.0,
+    "quality_points": 1.5
+   },
+   {
+    "flag": "AI3",
+    "state": "CD",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 1.0,
+    "max_risk_points": 2.0,
+    "quality_points": 1.5
+   },
+   {
+    "flag": "AI4",
+    "state": "ED",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 2.0,
+    "max_risk_points": 2.0,
+    "quality_points": 2.0
+   },
+   {
+    "flag": "AI5",
+    "state": "CD",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 1.0,
+    "max_risk_points": 2.0,
+    "quality_points": 1.5
+   },
+   {
+    "flag": "DPDP1",
+    "state": "CD",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 1.0,
+    "max_risk_points": 2.0,
+    "quality_points": 1.5
+   },
+   {
+    "flag": "DPDP2",
+    "state": "CD",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 1.0,
+    "max_risk_points": 2.0,
+    "quality_points": 1.5
+   },
+   {
+    "flag": "DPDP3",
+    "state": "CD",
+    "weight": 1.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 0.5,
+    "max_risk_points": 1.0,
+    "quality_points": 1.5
+   },
+   {
+    "flag": "DPDP4",
+    "state": "NS",
+    "weight": 0.0,
+    "applicable": false,
+    "reason": "informational flag (weight 0)",
+    "risk_points": 0.0,
+    "max_risk_points": 0.0,
+    "quality_points": 0.0
+   }
+  ],
+  "complete": true,
+  "rejected_flags_scored_as_UN": []
+ },
+ "policy_key": "P10_duolingo",
+ "cohort": "global"
+}

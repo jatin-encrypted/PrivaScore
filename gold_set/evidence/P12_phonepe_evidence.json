@@ -1,0 +1,3546 @@
+{
+ "policy_id": "P12",
+ "policy_key": "P12_phonepe",
+ "policy_name": "phonepe",
+ "url": "https://www.phonepe.com/privacy-policy/",
+ "scope": "all_users",
+ "cohort": "india",
+ "fetched_at_utc": "2026-11-11T18:47:35+00:00",
+ "text_file": "policies/text/P12_phonepe.txt",
+ "text_sha256": "3e9c49e54dea82e72437ae128669325428f7fe77ab9841c4096d5099ff0d0ec1",
+ "flag_definitions_sha256": "7c81dc82616e22f95abb8c359f50f76e890fa628b31296c19186e78518da00c7",
+ "segmenter_version": "1",
+ "n_paragraphs": 219,
+ "n_sentences": 332,
+ "sentences": {
+  "p001.s1": {
+   "start": 0,
+   "end": 14,
+   "heading": "Privacy policy"
+  },
+  "p002.s1": {
+   "start": 15,
+   "end": 79,
+   "heading": "Englishગુજરાતીதமிழ்తెలుగుमराठीമലയാളംঅসমীয়াবাংলাहिन्दीಕನ್ನಡଓଡ଼ିଆ"
+  },
+  "p003.s1": {
+   "start": 80,
+   "end": 94,
+   "heading": "Privacy policy"
+  },
+  "p004.s1": {
+   "start": 95,
+   "end": 117,
+   "heading": "Information Collection"
+  },
+  "p005.s1": {
+   "start": 118,
+   "end": 148,
+   "heading": "Purpose and Use of Information"
+  },
+  "p006.s1": {
+   "start": 149,
+   "end": 180,
+   "heading": "Cookies or Similar Technologies"
+  },
+  "p007.s1": {
+   "start": 181,
+   "end": 216,
+   "heading": "Information Sharing and Disclosures"
+  },
+  "p008.s1": {
+   "start": 217,
+   "end": 238,
+   "heading": "Storage and Retention"
+  },
+  "p009.s1": {
+   "start": 239,
+   "end": 268,
+   "heading": "Reasonable Security Practices"
+  },
+  "p010.s1": {
+   "start": 269,
+   "end": 312,
+   "heading": "Third-Party Products, Services, or Websites"
+  },
+  "p011.s1": {
+   "start": 313,
+   "end": 325,
+   "heading": "Your Consent"
+  },
+  "p012.s1": {
+   "start": 326,
+   "end": 340,
+   "heading": "Choice/Opt-out"
+  },
+  "p013.s1": {
+   "start": 341,
+   "end": 394,
+   "heading": "Personal Information Access/Rectification and Consent"
+  },
+  "p014.s1": {
+   "start": 395,
+   "end": 415,
+   "heading": "Children Information"
+  },
+  "p015.s1": {
+   "start": 416,
+   "end": 433,
+   "heading": "Changes to Policy"
+  },
+  "p016.s1": {
+   "start": 434,
+   "end": 461,
+   "heading": "PhonePe MCP Data Use Policy"
+  },
+  "p017.s1": {
+   "start": 462,
+   "end": 487,
+   "heading": "PhonePe MCP Documentation"
+  },
+  "p018.s1": {
+   "start": 488,
+   "end": 498,
+   "heading": "Contact Us"
+  },
+  "p019.s1": {
+   "start": 499,
+   "end": 513,
+   "heading": "Privacy policy"
+  },
+  "p020.s1": {
+   "start": 514,
+   "end": 533,
+   "heading": "Updated 15 May 2026"
+  },
+  "p021.s1": {
+   "start": 534,
+   "end": 1226,
+   "heading": "Updated 15 May 2026"
+  },
+  "p022.s1": {
+   "start": 1227,
+   "end": 1575,
+   "heading": "Updated 15 May 2026"
+  },
+  "p022.s2": {
+   "start": 1576,
+   "end": 1817,
+   "heading": "Updated 15 May 2026"
+  },
+  "p022.s3": {
+   "start": 1818,
+   "end": 1981,
+   "heading": "Updated 15 May 2026"
+  },
+  "p023.s1": {
+   "start": 1982,
+   "end": 2484,
+   "heading": "Updated 15 May 2026"
+  },
+  "p023.s2": {
+   "start": 2485,
+   "end": 2893,
+   "heading": "Updated 15 May 2026"
+  },
+  "p023.s3": {
+   "start": 2894,
+   "end": 2975,
+   "heading": "Updated 15 May 2026"
+  },
+  "p023.s4": {
+   "start": 2976,
+   "end": 3063,
+   "heading": "Updated 15 May 2026"
+  },
+  "p024.s1": {
+   "start": 3064,
+   "end": 3086,
+   "heading": "Information Collection"
+  },
+  "p025.s1": {
+   "start": 3087,
+   "end": 3234,
+   "heading": "Information Collection"
+  },
+  "p025.s2": {
+   "start": 3235,
+   "end": 3485,
+   "heading": "Information Collection"
+  },
+  "p026.s1": {
+   "start": 3486,
+   "end": 3589,
+   "heading": "Information Collection"
+  },
+  "p027.s1": {
+   "start": 3590,
+   "end": 3738,
+   "heading": "Information Collection"
+  },
+  "p028.s1": {
+   "start": 3739,
+   "end": 3948,
+   "heading": "Information Collection"
+  },
+  "p029.s1": {
+   "start": 3949,
+   "end": 4107,
+   "heading": "Information Collection"
+  },
+  "p029.s2": {
+   "start": 4108,
+   "end": 4254,
+   "heading": "Information Collection"
+  },
+  "p030.s1": {
+   "start": 4255,
+   "end": 4634,
+   "heading": "Information Collection"
+  },
+  "p031.s1": {
+   "start": 4635,
+   "end": 4882,
+   "heading": "Information Collection"
+  },
+  "p032.s1": {
+   "start": 4883,
+   "end": 5222,
+   "heading": "Information Collection"
+  },
+  "p033.s1": {
+   "start": 5223,
+   "end": 5345,
+   "heading": "Information Collection"
+  },
+  "p034.s1": {
+   "start": 5346,
+   "end": 5705,
+   "heading": "Information Collection"
+  },
+  "p035.s1": {
+   "start": 5706,
+   "end": 5799,
+   "heading": "Information Collection"
+  },
+  "p036.s1": {
+   "start": 5800,
+   "end": 5825,
+   "heading": "Information Collection"
+  },
+  "p037.s1": {
+   "start": 5826,
+   "end": 5981,
+   "heading": "Information Collection"
+  },
+  "p038.s1": {
+   "start": 5982,
+   "end": 6017,
+   "heading": "Information Collection"
+  },
+  "p038.s2": {
+   "start": 6018,
+   "end": 6183,
+   "heading": "Information Collection"
+  },
+  "p039.s1": {
+   "start": 6184,
+   "end": 6241,
+   "heading": "Information Collection"
+  },
+  "p040.s1": {
+   "start": 6242,
+   "end": 6402,
+   "heading": "Information Collection"
+  },
+  "p041.s1": {
+   "start": 6403,
+   "end": 6466,
+   "heading": "Information Collection"
+  },
+  "p042.s1": {
+   "start": 6467,
+   "end": 6575,
+   "heading": "Information Collection"
+  },
+  "p043.s1": {
+   "start": 6576,
+   "end": 6772,
+   "heading": "Information Collection"
+  },
+  "p044.s1": {
+   "start": 6773,
+   "end": 7086,
+   "heading": "Information Collection"
+  },
+  "p045.s1": {
+   "start": 7087,
+   "end": 7208,
+   "heading": "Information Collection"
+  },
+  "p046.s1": {
+   "start": 7209,
+   "end": 7236,
+   "heading": "Information Collection"
+  },
+  "p047.s1": {
+   "start": 7237,
+   "end": 7478,
+   "heading": "Information Collection"
+  },
+  "p048.s1": {
+   "start": 7479,
+   "end": 7661,
+   "heading": "Information Collection"
+  },
+  "p049.s1": {
+   "start": 7662,
+   "end": 7692,
+   "heading": "Purpose and Use of Information"
+  },
+  "p050.s1": {
+   "start": 7693,
+   "end": 7766,
+   "heading": "Purpose and Use of Information"
+  },
+  "p051.s1": {
+   "start": 7767,
+   "end": 7847,
+   "heading": "Purpose and Use of Information"
+  },
+  "p052.s1": {
+   "start": 7848,
+   "end": 8041,
+   "heading": "Purpose and Use of Information"
+  },
+  "p053.s1": {
+   "start": 8042,
+   "end": 8070,
+   "heading": "Purpose and Use of Information"
+  },
+  "p054.s1": {
+   "start": 8071,
+   "end": 8248,
+   "heading": "Purpose and Use of Information"
+  },
+  "p055.s1": {
+   "start": 8249,
+   "end": 8497,
+   "heading": "Purpose and Use of Information"
+  },
+  "p056.s1": {
+   "start": 8498,
+   "end": 8657,
+   "heading": "Purpose and Use of Information"
+  },
+  "p057.s1": {
+   "start": 8658,
+   "end": 8810,
+   "heading": "Purpose and Use of Information"
+  },
+  "p058.s1": {
+   "start": 8811,
+   "end": 8957,
+   "heading": "Purpose and Use of Information"
+  },
+  "p059.s1": {
+   "start": 8958,
+   "end": 9126,
+   "heading": "Purpose and Use of Information"
+  },
+  "p060.s1": {
+   "start": 9127,
+   "end": 9221,
+   "heading": "Purpose and Use of Information"
+  },
+  "p061.s1": {
+   "start": 9222,
+   "end": 9367,
+   "heading": "Purpose and Use of Information"
+  },
+  "p062.s1": {
+   "start": 9368,
+   "end": 9508,
+   "heading": "Purpose and Use of Information"
+  },
+  "p063.s1": {
+   "start": 9509,
+   "end": 9709,
+   "heading": "Purpose and Use of Information"
+  },
+  "p064.s1": {
+   "start": 9710,
+   "end": 9742,
+   "heading": "Purpose and Use of Information"
+  },
+  "p065.s1": {
+   "start": 9743,
+   "end": 9944,
+   "heading": "Purpose and Use of Information"
+  },
+  "p066.s1": {
+   "start": 9945,
+   "end": 10051,
+   "heading": "Purpose and Use of Information"
+  },
+  "p067.s1": {
+   "start": 10052,
+   "end": 10172,
+   "heading": "Purpose and Use of Information"
+  },
+  "p068.s1": {
+   "start": 10173,
+   "end": 10497,
+   "heading": "Purpose and Use of Information"
+  },
+  "p069.s1": {
+   "start": 10498,
+   "end": 10538,
+   "heading": "Purpose and Use of Information"
+  },
+  "p070.s1": {
+   "start": 10539,
+   "end": 10756,
+   "heading": "Purpose and Use of Information"
+  },
+  "p071.s1": {
+   "start": 10757,
+   "end": 10949,
+   "heading": "Purpose and Use of Information"
+  },
+  "p072.s1": {
+   "start": 10950,
+   "end": 10981,
+   "heading": "Cookies or Similar Technologies"
+  },
+  "p073.s1": {
+   "start": 10982,
+   "end": 11187,
+   "heading": "Cookies or Similar Technologies"
+  },
+  "p073.s2": {
+   "start": 11188,
+   "end": 11296,
+   "heading": "Cookies or Similar Technologies"
+  },
+  "p073.s3": {
+   "start": 11297,
+   "end": 11353,
+   "heading": "Cookies or Similar Technologies"
+  },
+  "p073.s4": {
+   "start": 11354,
+   "end": 11458,
+   "heading": "Cookies or Similar Technologies"
+  },
+  "p073.s5": {
+   "start": 11459,
+   "end": 11548,
+   "heading": "Cookies or Similar Technologies"
+  },
+  "p073.s6": {
+   "start": 11549,
+   "end": 11653,
+   "heading": "Cookies or Similar Technologies"
+  },
+  "p073.s7": {
+   "start": 11654,
+   "end": 11794,
+   "heading": "Cookies or Similar Technologies"
+  },
+  "p073.s8": {
+   "start": 11795,
+   "end": 12066,
+   "heading": "Cookies or Similar Technologies"
+  },
+  "p073.s9": {
+   "start": 12067,
+   "end": 12205,
+   "heading": "Cookies or Similar Technologies"
+  },
+  "p073.s10": {
+   "start": 12206,
+   "end": 12260,
+   "heading": "Cookies or Similar Technologies"
+  },
+  "p074.s1": {
+   "start": 12261,
+   "end": 12296,
+   "heading": "Information Sharing and Disclosures"
+  },
+  "p075.s1": {
+   "start": 12297,
+   "end": 12450,
+   "heading": "Information Sharing and Disclosures"
+  },
+  "p076.s1": {
+   "start": 12451,
+   "end": 12887,
+   "heading": "Information Sharing and Disclosures"
+  },
+  "p077.s1": {
+   "start": 12888,
+   "end": 13020,
+   "heading": "Information Sharing and Disclosures"
+  },
+  "p078.s1": {
+   "start": 13021,
+   "end": 13215,
+   "heading": "Information Sharing and Disclosures"
+  },
+  "p079.s1": {
+   "start": 13216,
+   "end": 13387,
+   "heading": "Information Sharing and Disclosures"
+  },
+  "p080.s1": {
+   "start": 13388,
+   "end": 13555,
+   "heading": "Information Sharing and Disclosures"
+  },
+  "p081.s1": {
+   "start": 13556,
+   "end": 13764,
+   "heading": "Information Sharing and Disclosures"
+  },
+  "p082.s1": {
+   "start": 13765,
+   "end": 13937,
+   "heading": "Information Sharing and Disclosures"
+  },
+  "p083.s1": {
+   "start": 13938,
+   "end": 14142,
+   "heading": "Information Sharing and Disclosures"
+  },
+  "p084.s1": {
+   "start": 14143,
+   "end": 14422,
+   "heading": "Information Sharing and Disclosures"
+  },
+  "p084.s2": {
+   "start": 14423,
+   "end": 14682,
+   "heading": "Information Sharing and Disclosures"
+  },
+  "p085.s1": {
+   "start": 14683,
+   "end": 14846,
+   "heading": "Information Sharing and Disclosures"
+  },
+  "p086.s1": {
+   "start": 14847,
+   "end": 14953,
+   "heading": "Information Sharing and Disclosures"
+  },
+  "p086.s2": {
+   "start": 14954,
+   "end": 15137,
+   "heading": "Information Sharing and Disclosures"
+  },
+  "p087.s1": {
+   "start": 15138,
+   "end": 15298,
+   "heading": "Information Sharing and Disclosures"
+  },
+  "p088.s1": {
+   "start": 15299,
+   "end": 15335,
+   "heading": "Information Sharing and Disclosures"
+  },
+  "p089.s1": {
+   "start": 15336,
+   "end": 15526,
+   "heading": "Information Sharing and Disclosures"
+  },
+  "p090.s1": {
+   "start": 15527,
+   "end": 15695,
+   "heading": "Information Sharing and Disclosures"
+  },
+  "p091.s1": {
+   "start": 15696,
+   "end": 15774,
+   "heading": "Information Sharing and Disclosures"
+  },
+  "p092.s1": {
+   "start": 15775,
+   "end": 15825,
+   "heading": "Information Sharing and Disclosures"
+  },
+  "p093.s1": {
+   "start": 15826,
+   "end": 15993,
+   "heading": "Information Sharing and Disclosures"
+  },
+  "p094.s1": {
+   "start": 15994,
+   "end": 16179,
+   "heading": "Information Sharing and Disclosures"
+  },
+  "p095.s1": {
+   "start": 16180,
+   "end": 16341,
+   "heading": "Information Sharing and Disclosures"
+  },
+  "p095.s2": {
+   "start": 16342,
+   "end": 16499,
+   "heading": "Information Sharing and Disclosures"
+  },
+  "p095.s3": {
+   "start": 16500,
+   "end": 16744,
+   "heading": "Information Sharing and Disclosures"
+  },
+  "p095.s4": {
+   "start": 16745,
+   "end": 16874,
+   "heading": "Information Sharing and Disclosures"
+  },
+  "p096.s1": {
+   "start": 16875,
+   "end": 16896,
+   "heading": "Storage and Retention"
+  },
+  "p097.s1": {
+   "start": 16897,
+   "end": 17105,
+   "heading": "Storage and Retention"
+  },
+  "p097.s2": {
+   "start": 17106,
+   "end": 17426,
+   "heading": "Storage and Retention"
+  },
+  "p098.s1": {
+   "start": 17427,
+   "end": 17546,
+   "heading": "Storage and Retention"
+  },
+  "p099.s1": {
+   "start": 17547,
+   "end": 17576,
+   "heading": "Reasonable Security Practices"
+  },
+  "p100.s1": {
+   "start": 17577,
+   "end": 17732,
+   "heading": "Reasonable Security Practices"
+  },
+  "p100.s2": {
+   "start": 17733,
+   "end": 17899,
+   "heading": "Reasonable Security Practices"
+  },
+  "p100.s3": {
+   "start": 17900,
+   "end": 17997,
+   "heading": "Reasonable Security Practices"
+  },
+  "p100.s4": {
+   "start": 17998,
+   "end": 18261,
+   "heading": "Reasonable Security Practices"
+  },
+  "p100.s5": {
+   "start": 18262,
+   "end": 18391,
+   "heading": "Reasonable Security Practices"
+  },
+  "p101.s1": {
+   "start": 18392,
+   "end": 18500,
+   "heading": "Reasonable Security Practices"
+  },
+  "p101.s2": {
+   "start": 18501,
+   "end": 18580,
+   "heading": "Reasonable Security Practices"
+  },
+  "p101.s3": {
+   "start": 18581,
+   "end": 18703,
+   "heading": "Reasonable Security Practices"
+  },
+  "p102.s1": {
+   "start": 18704,
+   "end": 18896,
+   "heading": "Reasonable Security Practices"
+  },
+  "p102.s2": {
+   "start": 18897,
+   "end": 19098,
+   "heading": "Reasonable Security Practices"
+  },
+  "p103.s1": {
+   "start": 19099,
+   "end": 19142,
+   "heading": "Third-Party Products, Services, or Websites"
+  },
+  "p104.s1": {
+   "start": 19143,
+   "end": 19371,
+   "heading": "Third-Party Products, Services, or Websites"
+  },
+  "p104.s2": {
+   "start": 19372,
+   "end": 19517,
+   "heading": "Third-Party Products, Services, or Websites"
+  },
+  "p105.s1": {
+   "start": 19518,
+   "end": 19611,
+   "heading": "Third-Party Products, Services, or Websites"
+  },
+  "p105.s2": {
+   "start": 19612,
+   "end": 19722,
+   "heading": "Third-Party Products, Services, or Websites"
+  },
+  "p105.s3": {
+   "start": 19723,
+   "end": 20053,
+   "heading": "Third-Party Products, Services, or Websites"
+  },
+  "p105.s4": {
+   "start": 20054,
+   "end": 20243,
+   "heading": "Third-Party Products, Services, or Websites"
+  },
+  "p105.s5": {
+   "start": 20244,
+   "end": 20373,
+   "heading": "Third-Party Products, Services, or Websites"
+  },
+  "p106.s1": {
+   "start": 20374,
+   "end": 20386,
+   "heading": "Your Consent"
+  },
+  "p107.s1": {
+   "start": 20387,
+   "end": 20437,
+   "heading": "Your Consent"
+  },
+  "p107.s2": {
+   "start": 20438,
+   "end": 20636,
+   "heading": "Your Consent"
+  },
+  "p107.s3": {
+   "start": 20637,
+   "end": 20837,
+   "heading": "Your Consent"
+  },
+  "p107.s4": {
+   "start": 20838,
+   "end": 21054,
+   "heading": "Your Consent"
+  },
+  "p108.s1": {
+   "start": 21055,
+   "end": 21069,
+   "heading": "Choice/Opt-out"
+  },
+  "p109.s1": {
+   "start": 21070,
+   "end": 21258,
+   "heading": "Choice/Opt-out"
+  },
+  "p109.s2": {
+   "start": 21259,
+   "end": 21432,
+   "heading": "Choice/Opt-out"
+  },
+  "p110.s1": {
+   "start": 21433,
+   "end": 21587,
+   "heading": "Choice/Opt-out"
+  },
+  "p111.s1": {
+   "start": 21588,
+   "end": 21641,
+   "heading": "Personal Information Access/Rectification and Consent"
+  },
+  "p112.s1": {
+   "start": 21642,
+   "end": 21737,
+   "heading": "Personal Information Access/Rectification and Consent"
+  },
+  "p112.s2": {
+   "start": 21738,
+   "end": 21884,
+   "heading": "Personal Information Access/Rectification and Consent"
+  },
+  "p112.s3": {
+   "start": 21885,
+   "end": 21994,
+   "heading": "Personal Information Access/Rectification and Consent"
+  },
+  "p112.s4": {
+   "start": 21995,
+   "end": 22111,
+   "heading": "Personal Information Access/Rectification and Consent"
+  },
+  "p112.s5": {
+   "start": 22112,
+   "end": 22253,
+   "heading": "Personal Information Access/Rectification and Consent"
+  },
+  "p113.s1": {
+   "start": 22254,
+   "end": 22373,
+   "heading": "Personal Information Access/Rectification and Consent"
+  },
+  "p113.s2": {
+   "start": 22374,
+   "end": 22457,
+   "heading": "Personal Information Access/Rectification and Consent"
+  },
+  "p114.s1": {
+   "start": 22458,
+   "end": 22591,
+   "heading": "Personal Information Access/Rectification and Consent"
+  },
+  "p114.s2": {
+   "start": 22592,
+   "end": 22768,
+   "heading": "Personal Information Access/Rectification and Consent"
+  },
+  "p115.s1": {
+   "start": 22769,
+   "end": 23018,
+   "heading": "Personal Information Access/Rectification and Consent"
+  },
+  "p115.s2": {
+   "start": 23019,
+   "end": 23156,
+   "heading": "Personal Information Access/Rectification and Consent"
+  },
+  "p116.s1": {
+   "start": 23157,
+   "end": 23177,
+   "heading": "Children Information"
+  },
+  "p117.s1": {
+   "start": 23178,
+   "end": 23401,
+   "heading": "Children Information"
+  },
+  "p117.s2": {
+   "start": 23402,
+   "end": 23561,
+   "heading": "Children Information"
+  },
+  "p118.s1": {
+   "start": 23562,
+   "end": 23579,
+   "heading": "Changes to Policy"
+  },
+  "p119.s1": {
+   "start": 23580,
+   "end": 23640,
+   "heading": "Changes to Policy"
+  },
+  "p119.s2": {
+   "start": 23641,
+   "end": 23805,
+   "heading": "Changes to Policy"
+  },
+  "p119.s3": {
+   "start": 23806,
+   "end": 23962,
+   "heading": "Changes to Policy"
+  },
+  "p119.s4": {
+   "start": 23963,
+   "end": 24094,
+   "heading": "Changes to Policy"
+  },
+  "p119.s5": {
+   "start": 24095,
+   "end": 24216,
+   "heading": "Changes to Policy"
+  },
+  "p120.s1": {
+   "start": 24217,
+   "end": 24244,
+   "heading": "PhonePe MCP Data Use Policy"
+  },
+  "p121.s1": {
+   "start": 24245,
+   "end": 24251,
+   "heading": "PhonePe MCP Data Use Policy"
+  },
+  "p122.s1": {
+   "start": 24252,
+   "end": 24401,
+   "heading": "PhonePe MCP Data Use Policy"
+  },
+  "p122.s2": {
+   "start": 24402,
+   "end": 24515,
+   "heading": "PhonePe MCP Data Use Policy"
+  },
+  "p122.s3": {
+   "start": 24516,
+   "end": 24605,
+   "heading": "PhonePe MCP Data Use Policy"
+  },
+  "p122.s4": {
+   "start": 24606,
+   "end": 24777,
+   "heading": "PhonePe MCP Data Use Policy"
+  },
+  "p122.s5": {
+   "start": 24778,
+   "end": 24908,
+   "heading": "PhonePe MCP Data Use Policy"
+  },
+  "p122.s6": {
+   "start": 24909,
+   "end": 24985,
+   "heading": "PhonePe MCP Data Use Policy"
+  },
+  "p122.s7": {
+   "start": 24986,
+   "end": 25137,
+   "heading": "PhonePe MCP Data Use Policy"
+  },
+  "p123.s1": {
+   "start": 25138,
+   "end": 25176,
+   "heading": "PhonePe MCP Data Use Policy"
+  },
+  "p124.s1": {
+   "start": 25177,
+   "end": 25405,
+   "heading": "PhonePe MCP Data Use Policy"
+  },
+  "p124.s2": {
+   "start": 25406,
+   "end": 25692,
+   "heading": "PhonePe MCP Data Use Policy"
+  },
+  "p124.s3": {
+   "start": 25693,
+   "end": 25772,
+   "heading": "PhonePe MCP Data Use Policy"
+  },
+  "p125.s1": {
+   "start": 25773,
+   "end": 25797,
+   "heading": "PhonePe MCP Data Use Policy"
+  },
+  "p126.s1": {
+   "start": 25798,
+   "end": 26082,
+   "heading": "PhonePe MCP Data Use Policy"
+  },
+  "p127.s1": {
+   "start": 26083,
+   "end": 26091,
+   "heading": "PhonePe MCP Data Use Policy"
+  },
+  "p128.s1": {
+   "start": 26092,
+   "end": 26211,
+   "heading": "PhonePe MCP Data Use Policy"
+  },
+  "p129.s1": {
+   "start": 26212,
+   "end": 26237,
+   "heading": "PhonePe MCP Documentation"
+  },
+  "p130.s1": {
+   "start": 26238,
+   "end": 26247,
+   "heading": "PhonePe MCP Documentation"
+  },
+  "p131.s1": {
+   "start": 26248,
+   "end": 26361,
+   "heading": "PhonePe MCP Documentation"
+  },
+  "p131.s2": {
+   "start": 26362,
+   "end": 26418,
+   "heading": "PhonePe MCP Documentation"
+  },
+  "p131.s3": {
+   "start": 26419,
+   "end": 26646,
+   "heading": "PhonePe MCP Documentation"
+  },
+  "p132.s1": {
+   "start": 26647,
+   "end": 26809,
+   "heading": "PhonePe MCP Documentation"
+  },
+  "p132.s2": {
+   "start": 26810,
+   "end": 26884,
+   "heading": "PhonePe MCP Documentation"
+  },
+  "p132.s3": {
+   "start": 26885,
+   "end": 26991,
+   "heading": "PhonePe MCP Documentation"
+  },
+  "p133.s1": {
+   "start": 26992,
+   "end": 27023,
+   "heading": "PhonePe MCP Documentation"
+  },
+  "p134.s1": {
+   "start": 27024,
+   "end": 27107,
+   "heading": "PhonePe MCP Documentation"
+  },
+  "p135.s1": {
+   "start": 27108,
+   "end": 27195,
+   "heading": "PhonePe MCP Documentation"
+  },
+  "p136.s1": {
+   "start": 27196,
+   "end": 27314,
+   "heading": "PhonePe MCP Documentation"
+  },
+  "p136.s2": {
+   "start": 27315,
+   "end": 27385,
+   "heading": "PhonePe MCP Documentation"
+  },
+  "p137.s1": {
+   "start": 27386,
+   "end": 27517,
+   "heading": "PhonePe MCP Documentation"
+  },
+  "p137.s2": {
+   "start": 27518,
+   "end": 27586,
+   "heading": "PhonePe MCP Documentation"
+  },
+  "p138.s1": {
+   "start": 27587,
+   "end": 27603,
+   "heading": "PhonePe MCP Documentation"
+  },
+  "p139.s1": {
+   "start": 27604,
+   "end": 27709,
+   "heading": "PhonePe MCP Documentation"
+  },
+  "p139.s2": {
+   "start": 27710,
+   "end": 27752,
+   "heading": "PhonePe MCP Documentation"
+  },
+  "p139.s3": {
+   "start": 27753,
+   "end": 27834,
+   "heading": "PhonePe MCP Documentation"
+  },
+  "p140.s1": {
+   "start": 27835,
+   "end": 27842,
+   "heading": "PhonePe MCP Documentation"
+  },
+  "p141.s1": {
+   "start": 27843,
+   "end": 27845,
+   "heading": "PhonePe MCP Documentation"
+  },
+  "p141.s2": {
+   "start": 27846,
+   "end": 27897,
+   "heading": "PhonePe MCP Documentation"
+  },
+  "p142.s1": {
+   "start": 27898,
+   "end": 27900,
+   "heading": "PhonePe MCP Documentation"
+  },
+  "p142.s2": {
+   "start": 27901,
+   "end": 27956,
+   "heading": "PhonePe MCP Documentation"
+  },
+  "p143.s1": {
+   "start": 27957,
+   "end": 27959,
+   "heading": "PhonePe MCP Documentation"
+  },
+  "p143.s2": {
+   "start": 27960,
+   "end": 28016,
+   "heading": "PhonePe MCP Documentation"
+  },
+  "p143.s3": {
+   "start": 28017,
+   "end": 28064,
+   "heading": "PhonePe MCP Documentation"
+  },
+  "p144.s1": {
+   "start": 28065,
+   "end": 28067,
+   "heading": "PhonePe MCP Documentation"
+  },
+  "p144.s2": {
+   "start": 28068,
+   "end": 28123,
+   "heading": "PhonePe MCP Documentation"
+  },
+  "p145.s1": {
+   "start": 28124,
+   "end": 28132,
+   "heading": "PhonePe MCP Documentation"
+  },
+  "p146.s1": {
+   "start": 28133,
+   "end": 28135,
+   "heading": "PhonePe MCP Documentation"
+  },
+  "p146.s2": {
+   "start": 28136,
+   "end": 28203,
+   "heading": "PhonePe MCP Documentation"
+  },
+  "p147.s1": {
+   "start": 28204,
+   "end": 28206,
+   "heading": "PhonePe MCP Documentation"
+  },
+  "p147.s2": {
+   "start": 28207,
+   "end": 28276,
+   "heading": "PhonePe MCP Documentation"
+  },
+  "p148.s1": {
+   "start": 28277,
+   "end": 28279,
+   "heading": "PhonePe MCP Documentation"
+  },
+  "p148.s2": {
+   "start": 28280,
+   "end": 28320,
+   "heading": "PhonePe MCP Documentation"
+  },
+  "p148.s3": {
+   "start": 28321,
+   "end": 28368,
+   "heading": "PhonePe MCP Documentation"
+  },
+  "p149.s1": {
+   "start": 28369,
+   "end": 28371,
+   "heading": "PhonePe MCP Documentation"
+  },
+  "p149.s2": {
+   "start": 28372,
+   "end": 28484,
+   "heading": "PhonePe MCP Documentation"
+  },
+  "p150.s1": {
+   "start": 28485,
+   "end": 28546,
+   "heading": "PhonePe MCP Documentation"
+  },
+  "p150.s2": {
+   "start": 28547,
+   "end": 28645,
+   "heading": "PhonePe MCP Documentation"
+  },
+  "p150.s3": {
+   "start": 28646,
+   "end": 28752,
+   "heading": "PhonePe MCP Documentation"
+  },
+  "p151.s1": {
+   "start": 28753,
+   "end": 28839,
+   "heading": "PhonePe MCP Documentation"
+  },
+  "p151.s2": {
+   "start": 28840,
+   "end": 28908,
+   "heading": "PhonePe MCP Documentation"
+  },
+  "p152.s1": {
+   "start": 28909,
+   "end": 28931,
+   "heading": "Supported capabilities"
+  },
+  "p153.s1": {
+   "start": 28932,
+   "end": 28952,
+   "heading": "Supported capabilities"
+  },
+  "p154.s1": {
+   "start": 28953,
+   "end": 29029,
+   "heading": "Supported capabilities"
+  },
+  "p154.s2": {
+   "start": 29030,
+   "end": 29096,
+   "heading": "Supported capabilities"
+  },
+  "p155.s1": {
+   "start": 29097,
+   "end": 29157,
+   "heading": "Supported capabilities"
+  },
+  "p156.s1": {
+   "start": 29158,
+   "end": 29180,
+   "heading": "Supported capabilities"
+  },
+  "p157.s1": {
+   "start": 29181,
+   "end": 29214,
+   "heading": "Supported capabilities"
+  },
+  "p157.s2": {
+   "start": 29215,
+   "end": 29288,
+   "heading": "Supported capabilities"
+  },
+  "p157.s3": {
+   "start": 29289,
+   "end": 29342,
+   "heading": "Supported capabilities"
+  },
+  "p158.s1": {
+   "start": 29343,
+   "end": 29416,
+   "heading": "Supported capabilities"
+  },
+  "p159.s1": {
+   "start": 29417,
+   "end": 29440,
+   "heading": "Supported capabilities"
+  },
+  "p160.s1": {
+   "start": 29441,
+   "end": 29477,
+   "heading": "Supported capabilities"
+  },
+  "p160.s2": {
+   "start": 29478,
+   "end": 29570,
+   "heading": "Supported capabilities"
+  },
+  "p160.s3": {
+   "start": 29571,
+   "end": 29604,
+   "heading": "Supported capabilities"
+  },
+  "p161.s1": {
+   "start": 29605,
+   "end": 29653,
+   "heading": "Supported capabilities"
+  },
+  "p161.s2": {
+   "start": 29654,
+   "end": 29677,
+   "heading": "Supported capabilities"
+  },
+  "p162.s1": {
+   "start": 29678,
+   "end": 29700,
+   "heading": "Supported capabilities"
+  },
+  "p163.s1": {
+   "start": 29701,
+   "end": 29830,
+   "heading": "Supported capabilities"
+  },
+  "p164.s1": {
+   "start": 29831,
+   "end": 29886,
+   "heading": "Supported capabilities"
+  },
+  "p165.s1": {
+   "start": 29887,
+   "end": 29915,
+   "heading": "Supported capabilities"
+  },
+  "p166.s1": {
+   "start": 29916,
+   "end": 29993,
+   "heading": "Supported capabilities"
+  },
+  "p167.s1": {
+   "start": 29994,
+   "end": 30083,
+   "heading": "Supported capabilities"
+  },
+  "p168.s1": {
+   "start": 30084,
+   "end": 30101,
+   "heading": "Supported capabilities"
+  },
+  "p169.s1": {
+   "start": 30102,
+   "end": 30210,
+   "heading": "Supported capabilities"
+  },
+  "p169.s2": {
+   "start": 30211,
+   "end": 30249,
+   "heading": "Supported capabilities"
+  },
+  "p170.s1": {
+   "start": 30250,
+   "end": 30306,
+   "heading": "Supported capabilities"
+  },
+  "p171.s1": {
+   "start": 30307,
+   "end": 30326,
+   "heading": "Supported capabilities"
+  },
+  "p172.s1": {
+   "start": 30327,
+   "end": 30386,
+   "heading": "Supported capabilities"
+  },
+  "p172.s2": {
+   "start": 30387,
+   "end": 30441,
+   "heading": "Supported capabilities"
+  },
+  "p173.s1": {
+   "start": 30442,
+   "end": 30513,
+   "heading": "Supported capabilities"
+  },
+  "p174.s1": {
+   "start": 30514,
+   "end": 30541,
+   "heading": "Supported capabilities"
+  },
+  "p175.s1": {
+   "start": 30542,
+   "end": 30593,
+   "heading": "Supported capabilities"
+  },
+  "p176.s1": {
+   "start": 30594,
+   "end": 30645,
+   "heading": "Supported capabilities"
+  },
+  "p177.s1": {
+   "start": 30646,
+   "end": 30705,
+   "heading": "Supported capabilities"
+  },
+  "p178.s1": {
+   "start": 30706,
+   "end": 30764,
+   "heading": "Supported capabilities"
+  },
+  "p179.s1": {
+   "start": 30765,
+   "end": 30809,
+   "heading": "Supported capabilities"
+  },
+  "p180.s1": {
+   "start": 30810,
+   "end": 30861,
+   "heading": "Supported capabilities"
+  },
+  "p181.s1": {
+   "start": 30862,
+   "end": 30912,
+   "heading": "Supported capabilities"
+  },
+  "p182.s1": {
+   "start": 30913,
+   "end": 30977,
+   "heading": "Supported capabilities"
+  },
+  "p183.s1": {
+   "start": 30978,
+   "end": 31034,
+   "heading": "Supported capabilities"
+  },
+  "p184.s1": {
+   "start": 31035,
+   "end": 31056,
+   "heading": "Supported capabilities"
+  },
+  "p185.s1": {
+   "start": 31057,
+   "end": 31121,
+   "heading": "Supported capabilities"
+  },
+  "p185.s2": {
+   "start": 31122,
+   "end": 31326,
+   "heading": "Supported capabilities"
+  },
+  "p185.s3": {
+   "start": 31327,
+   "end": 31380,
+   "heading": "Supported capabilities"
+  },
+  "p186.s1": {
+   "start": 31381,
+   "end": 31512,
+   "heading": "Supported capabilities"
+  },
+  "p186.s2": {
+   "start": 31513,
+   "end": 31663,
+   "heading": "Supported capabilities"
+  },
+  "p186.s3": {
+   "start": 31664,
+   "end": 31718,
+   "heading": "Supported capabilities"
+  },
+  "p186.s4": {
+   "start": 31719,
+   "end": 31843,
+   "heading": "Supported capabilities"
+  },
+  "p187.s1": {
+   "start": 31844,
+   "end": 31871,
+   "heading": "Supported capabilities"
+  },
+  "p188.s1": {
+   "start": 31872,
+   "end": 31949,
+   "heading": "Supported capabilities"
+  },
+  "p188.s2": {
+   "start": 31950,
+   "end": 32015,
+   "heading": "Supported capabilities"
+  },
+  "p188.s3": {
+   "start": 32016,
+   "end": 32070,
+   "heading": "Supported capabilities"
+  },
+  "p188.s4": {
+   "start": 32071,
+   "end": 32174,
+   "heading": "Supported capabilities"
+  },
+  "p188.s5": {
+   "start": 32175,
+   "end": 32298,
+   "heading": "Supported capabilities"
+  },
+  "p189.s1": {
+   "start": 32299,
+   "end": 32321,
+   "heading": "Supported capabilities"
+  },
+  "p190.s1": {
+   "start": 32322,
+   "end": 32397,
+   "heading": "Supported capabilities"
+  },
+  "p191.s1": {
+   "start": 32398,
+   "end": 32489,
+   "heading": "Supported capabilities"
+  },
+  "p192.s1": {
+   "start": 32490,
+   "end": 32558,
+   "heading": "Supported capabilities"
+  },
+  "p193.s1": {
+   "start": 32559,
+   "end": 32644,
+   "heading": "Supported capabilities"
+  },
+  "p193.s2": {
+   "start": 32645,
+   "end": 32736,
+   "heading": "Supported capabilities"
+  },
+  "p194.s1": {
+   "start": 32737,
+   "end": 32850,
+   "heading": "Supported capabilities"
+  },
+  "p194.s2": {
+   "start": 32851,
+   "end": 32881,
+   "heading": "Supported capabilities"
+  },
+  "p195.s1": {
+   "start": 32882,
+   "end": 32943,
+   "heading": "Supported capabilities"
+  },
+  "p196.s1": {
+   "start": 32944,
+   "end": 33011,
+   "heading": "Supported capabilities"
+  },
+  "p197.s1": {
+   "start": 33012,
+   "end": 33027,
+   "heading": "Troubleshooting"
+  },
+  "p198.s1": {
+   "start": 33028,
+   "end": 33058,
+   "heading": "Troubleshooting"
+  },
+  "p199.s1": {
+   "start": 33059,
+   "end": 33157,
+   "heading": "Troubleshooting"
+  },
+  "p199.s2": {
+   "start": 33158,
+   "end": 33248,
+   "heading": "Troubleshooting"
+  },
+  "p200.s1": {
+   "start": 33249,
+   "end": 33284,
+   "heading": "Troubleshooting"
+  },
+  "p201.s1": {
+   "start": 33285,
+   "end": 33337,
+   "heading": "Troubleshooting"
+  },
+  "p201.s2": {
+   "start": 33338,
+   "end": 33434,
+   "heading": "Troubleshooting"
+  },
+  "p201.s3": {
+   "start": 33435,
+   "end": 33610,
+   "heading": "Troubleshooting"
+  },
+  "p202.s1": {
+   "start": 33611,
+   "end": 33629,
+   "heading": "Troubleshooting"
+  },
+  "p203.s1": {
+   "start": 33630,
+   "end": 33656,
+   "heading": "Troubleshooting"
+  },
+  "p203.s2": {
+   "start": 33657,
+   "end": 33725,
+   "heading": "Troubleshooting"
+  },
+  "p203.s3": {
+   "start": 33726,
+   "end": 33784,
+   "heading": "Troubleshooting"
+  },
+  "p204.s1": {
+   "start": 33785,
+   "end": 33820,
+   "heading": "Troubleshooting"
+  },
+  "p205.s1": {
+   "start": 33821,
+   "end": 33877,
+   "heading": "Troubleshooting"
+  },
+  "p205.s2": {
+   "start": 33878,
+   "end": 33953,
+   "heading": "Troubleshooting"
+  },
+  "p205.s3": {
+   "start": 33954,
+   "end": 34001,
+   "heading": "Troubleshooting"
+  },
+  "p206.s1": {
+   "start": 34002,
+   "end": 34023,
+   "heading": "Troubleshooting"
+  },
+  "p207.s1": {
+   "start": 34024,
+   "end": 34164,
+   "heading": "Troubleshooting"
+  },
+  "p207.s2": {
+   "start": 34165,
+   "end": 34206,
+   "heading": "Troubleshooting"
+  },
+  "p207.s3": {
+   "start": 34207,
+   "end": 34274,
+   "heading": "Troubleshooting"
+  },
+  "p207.s4": {
+   "start": 34275,
+   "end": 34364,
+   "heading": "Troubleshooting"
+  },
+  "p208.s1": {
+   "start": 34365,
+   "end": 34394,
+   "heading": "Troubleshooting"
+  },
+  "p209.s1": {
+   "start": 34395,
+   "end": 34433,
+   "heading": "Connector support: support.phonepe.com"
+  },
+  "p210.s1": {
+   "start": 34434,
+   "end": 34496,
+   "heading": "Connector privacy notice: PhonePe AI Connectors Privacy Notice"
+  },
+  "p211.s1": {
+   "start": 34497,
+   "end": 34547,
+   "heading": "PhonePe privacy policy: phonepe.com/privacy-policy"
+  },
+  "p212.s1": {
+   "start": 34548,
+   "end": 34591,
+   "heading": "PhonePe terms: phonepe.com/terms-conditions"
+  },
+  "p213.s1": {
+   "start": 34592,
+   "end": 34644,
+   "heading": "Security reporting: phonepe.com/report-vulnerability"
+  },
+  "p214.s1": {
+   "start": 34645,
+   "end": 34792,
+   "heading": "Security reporting: phonepe.com/report-vulnerability"
+  },
+  "p214.s2": {
+   "start": 34793,
+   "end": 34859,
+   "heading": "Security reporting: phonepe.com/report-vulnerability"
+  },
+  "p214.s3": {
+   "start": 34860,
+   "end": 34979,
+   "heading": "Security reporting: phonepe.com/report-vulnerability"
+  },
+  "p215.s1": {
+   "start": 34980,
+   "end": 35052,
+   "heading": "Security reporting: phonepe.com/report-vulnerability"
+  },
+  "p215.s2": {
+   "start": 35053,
+   "end": 35117,
+   "heading": "Security reporting: phonepe.com/report-vulnerability"
+  },
+  "p216.s1": {
+   "start": 35118,
+   "end": 35126,
+   "heading": "Security reporting: phonepe.com/report-vulnerability"
+  },
+  "p217.s1": {
+   "start": 35127,
+   "end": 35246,
+   "heading": "Security reporting: phonepe.com/report-vulnerability"
+  },
+  "p218.s1": {
+   "start": 35247,
+   "end": 35257,
+   "heading": "Contact Us"
+  },
+  "p219.s1": {
+   "start": 35258,
+   "end": 35553,
+   "heading": "Contact Us"
+  },
+  "p219.s2": {
+   "start": 35554,
+   "end": 35628,
+   "heading": "Contact Us"
+  }
+ },
+ "flags": {
+  "G1": {
+   "question": "What personal data does the company itself collect, and how broad is it?",
+   "search_log": {
+    "we collect": {
+     "regex": "\\bwe (?:may )?(?:collect|receive|obtain|gather|process)\\b",
+     "tier": "core",
+     "sentences_matched": 3
+    },
+    "information/data we collect": {
+     "regex": "\\b(?:information|data) (?:that )?we (?:collect|receive|obtain)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "collected automatically": {
+     "regex": "\\bautomatically (?:collect|receive|log|record)|collected automatically\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "you provide": {
+     "regex": "\\b(?:you|users) (?:provide|submit|give|share|upload|enter)\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "location": {
+     "regex": "\\b(?:precise |approximate |geo-?)?location\\b|\\bgeolocation\\b|\\bGPS\\b",
+     "tier": "support",
+     "sentences_matched": 3
+    },
+    "device / identifiers": {
+     "regex": "\\bdevice (?:information|data|identifiers?|id)\\b|\\bIP address(?:es)?\\b|\\badvertising (?:id|identifier)s?\\b|\\bIMEI\\b",
+     "tier": "support",
+     "sentences_matched": 2
+    },
+    "content / messages": {
+     "regex": "\\b(?:content|messages?|prompts?|inputs?|uploads?|files|photos|voice|audio|recordings?)\\b",
+     "tier": "support",
+     "sentences_matched": 6
+    },
+    "contacts": {
+     "regex": "\\bcontacts?(?: list| book)?\\b|\\baddress book\\b",
+     "tier": "support",
+     "sentences_matched": 11
+    },
+    "sensitive / biometric / financial": {
+     "regex": "\\bsensitive\\b|\\bbiometric\\b|\\bhealth\\b|\\bfinancial (?:information|data)\\b|\\bcard (?:number|details)\\b|\\bbank account\\b|\\bKYC\\b|\\bAadhaar\\b|\\bPAN\\b",
+     "tier": "support",
+     "sentences_matched": 30
+    },
+    "from other sources": {
+     "regex": "\\b(?:from|via) (?:third[- ]part(?:y|ies)|other sources|partners|data brokers|publicly available sources)\\b",
+     "tier": "support",
+     "sentences_matched": 1
+    },
+    "usage / log data": {
+     "regex": "\\b(?:usage|log|activity|interaction) (?:data|information)\\b|\\blog files?\\b",
+     "tier": "support",
+     "sentences_matched": 0
+    }
+   },
+   "n_candidates": 6,
+   "candidates": [
+    {
+     "sid": "p105.s3",
+     "heading": "Third-Party Products, Services, or Websites",
+     "core": [
+      "you provide"
+     ],
+     "support": [
+      "location"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p025.s1",
+     "heading": "Information Collection",
+     "core": [
+      "we collect"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p025.s2",
+     "heading": "Information Collection",
+     "core": [
+      "we collect"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p034.s1",
+     "heading": "Information Collection",
+     "core": [],
+     "support": [
+      "location",
+      "content / messages",
+      "sensitive / biometric / financial"
+     ],
+     "score": 3
+    },
+    {
+     "sid": "p107.s1",
+     "heading": "Your Consent",
+     "core": [
+      "we collect"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p031.s1",
+     "heading": "Information Collection",
+     "core": [],
+     "support": [
+      "location",
+      "device / identifiers"
+     ],
+     "score": 2
+    }
+   ]
+  },
+  "G2": {
+   "question": "Does the company sell personal data, or share it with / let third parties collect it for advertising, marketing or cross-site tracking?",
+   "search_log": {
+    "advertis*": {
+     "regex": "\\badvertis(?:e|er|ers|ing|ement|ements)\\b|\\bads\\b",
+     "tier": "core",
+     "sentences_matched": 2
+    },
+    "targeted / interest-based / behavioural ads": {
+     "regex": "\\b(?:targeted|interest[- ]based|personali[sz]ed|behaviou?ral|cross[- ]context(?:ual)?)(?: behaviou?ral)? (?:advertising|ads|marketing)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "sell / sale of data": {
+     "regex": "\\b(?:sell|sells|selling|sold|sale)\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "pixel / SDK / tracking tech": {
+     "regex": "\\bpixels?\\b|\\bSDKs?\\b|\\bweb beacons?\\b|\\btracking (?:technolog(?:y|ies)|tools?)\\b|\\btrackers?\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "ad / marketing partners": {
+     "regex": "\\b(?:advertising|ad|marketing) (?:partners?|networks?|platforms?|companies)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "opt-out of sale/ads / GPC": {
+     "regex": "\\bdo not sell\\b|\\bglobal privacy control\\b|\\bopt[- ]out of (?:the )?(?:sale|sharing|targeted|personali[sz]ed|interest)",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "cookies": {
+     "regex": "\\bcookies?\\b",
+     "tier": "support",
+     "sentences_matched": 13
+    },
+    "analytics provider": {
+     "regex": "\\banalytics (?:providers?|partners?|services|tools)\\b|\\bGoogle Analytics\\b",
+     "tier": "support",
+     "sentences_matched": 0
+    },
+    "share with third parties": {
+     "regex": "\\bshare\\b.{0,40}\\bthird[- ]part(?:y|ies)\\b|\\bthird[- ]part(?:y|ies)\\b.{0,40}\\b(?:share|disclose|collect)",
+     "tier": "support",
+     "sentences_matched": 2
+    },
+    "marketing": {
+     "regex": "\\bmarketing\\b|\\bpromotional\\b",
+     "tier": "support",
+     "sentences_matched": 5
+    }
+   },
+   "n_candidates": 4,
+   "candidates": [
+    {
+     "sid": "p065.s1",
+     "heading": "Purpose and Use of Information",
+     "core": [
+      "advertis*"
+     ],
+     "support": [
+      "marketing"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p057.s1",
+     "heading": "Purpose and Use of Information",
+     "core": [
+      "sell / sale of data"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p089.s1",
+     "heading": "Information Sharing and Disclosures",
+     "core": [
+      "advertis*"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p073.s1",
+     "heading": "Cookies or Similar Technologies",
+     "core": [],
+     "support": [
+      "cookies",
+      "marketing"
+     ],
+     "score": 2
+    }
+   ]
+  },
+  "G3": {
+   "question": "Does the company build profiles or inferences about users, or make automated decisions about them?",
+   "search_log": {
+    "profiling": {
+     "regex": "\\bprofil(?:e|es|ing)\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "automated decision": {
+     "regex": "\\bautomated (?:decision|decision-making|processing|means|systems?)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "infer / inference": {
+     "regex": "\\binfer(?:s|red|ring|ences?)?\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "legal or similarly significant": {
+     "regex": "\\blegal (?:or similarly significant )?effects?\\b|\\bsimilarly significant\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "scoring": {
+     "regex": "\\b(?:risk|credit|fraud) (?:scor(?:e|es|ing)|assessment)\\b",
+     "tier": "core",
+     "sentences_matched": 3
+    },
+    "personalise / recommend": {
+     "regex": "\\bpersonali[sz](?:e|es|ed|ing|ation)\\b|\\brecommend(?:ation|ations|s|ed)?\\b|\\btailor(?:ed)?\\b|\\bcustomi[sz]e\\b",
+     "tier": "support",
+     "sentences_matched": 2
+    },
+    "interests / preferences / segments": {
+     "regex": "\\b(?:interests?|preferences|segments?|demographics?)\\b",
+     "tier": "support",
+     "sentences_matched": 2
+    },
+    "predict / analyse behaviour": {
+     "regex": "\\bpredict(?:ive|ions?)?\\b|\\banaly[sz]e?(?:s|d)? (?:your )?(?:behaviou?r|usage|activity)\\b",
+     "tier": "support",
+     "sentences_matched": 1
+    }
+   },
+   "n_candidates": 4,
+   "candidates": [
+    {
+     "sid": "p038.s2",
+     "heading": "Information Collection",
+     "core": [
+      "profiling"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p045.s1",
+     "heading": "Information Collection",
+     "core": [
+      "scoring"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p086.s2",
+     "heading": "Information Sharing and Disclosures",
+     "core": [
+      "scoring"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p087.s1",
+     "heading": "Information Sharing and Disclosures",
+     "core": [
+      "scoring"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "G4": {
+   "question": "How specific is the policy about how long personal data is kept?",
+   "search_log": {
+    "retain / retention": {
+     "regex": "\\bretain(?:s|ed|ing)?\\b|\\bretention\\b",
+     "tier": "core",
+     "sentences_matched": 7
+    },
+    "keep / store for": {
+     "regex": "\\b(?:keep|kept|store|stored|hold)\\b.{0,60}\\b(?:for|until|as long as|period)\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "as long as necessary": {
+     "regex": "\\bas long as (?:is )?(?:necessary|needed|required|reasonably)\\b|\\bno longer (?:than|necessary|needed)\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "numeric period": {
+     "regex": "\\b\\d+\\s*(?:-\\s*)?(?:days?|weeks?|months?|years?)\\b|\\b(?:thirty|sixty|ninety|one|two|three|five|six|seven|ten|twelve|eighteen|twenty-four)\\s+(?:days?|months?|years?)\\b",
+     "tier": "core",
+     "sentences_matched": 2
+    },
+    "indefinitely": {
+     "regex": "\\bindefinite(?:ly)?\\b|\\bpermanently\\b|\\bforever\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "delete after / deletion": {
+     "regex": "\\b(?:delete|deleted|deletion|erase|purge|dispose)\\b",
+     "tier": "support",
+     "sentences_matched": 5
+    },
+    "legal obligation": {
+     "regex": "\\b(?:legal|statutory|regulatory) (?:obligations?|requirements?|purposes)\\b|\\brequired by (?:applicable )?law\\b",
+     "tier": "support",
+     "sentences_matched": 5
+    }
+   },
+   "n_candidates": 10,
+   "candidates": [
+    {
+     "sid": "p097.s1",
+     "heading": "Storage and Retention",
+     "core": [
+      "retain / retention",
+      "as long as necessary"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p097.s2",
+     "heading": "Storage and Retention",
+     "core": [
+      "retain / retention"
+     ],
+     "support": [
+      "legal obligation"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p098.s1",
+     "heading": "Storage and Retention",
+     "core": [
+      "retain / retention"
+     ],
+     "support": [
+      "delete after / deletion"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p008.s1",
+     "heading": "Storage and Retention",
+     "core": [
+      "retain / retention"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p032.s1",
+     "heading": "Information Collection",
+     "core": [
+      "keep / store for"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p096.s1",
+     "heading": "Storage and Retention",
+     "core": [
+      "retain / retention"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p112.s4",
+     "heading": "Personal Information Access/Rectification and Consent",
+     "core": [
+      "retain / retention"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p113.s2",
+     "heading": "Personal Information Access/Rectification and Consent",
+     "core": [
+      "retain / retention"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p117.s2",
+     "heading": "Children Information",
+     "core": [
+      "numeric period"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p158.s1",
+     "heading": "Supported capabilities",
+     "core": [
+      "numeric period"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "G5": {
+   "question": "What rights do users have to access, correct and delete their data, and for whom?",
+   "search_log": {
+    "right to / your rights": {
+     "regex": "\\bright(?:s)? (?:to|of)\\b|\\byour (?:privacy )?rights\\b|\\bdata subject\\b|\\bdata principal\\b",
+     "tier": "core",
+     "sentences_matched": 2
+    },
+    "access": {
+     "regex": "\\baccess (?:to )?(?:your|the) (?:personal )?(?:data|information)\\b|\\brequest (?:a copy|access)\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "correct / rectify / update": {
+     "regex": "\\b(?:correct|correction|rectif(?:y|ication)|update|amend)\\b",
+     "tier": "core",
+     "sentences_matched": 2
+    },
+    "delete / erase": {
+     "regex": "\\b(?:delete|deletion|erase|erasure|right to be forgotten)\\b",
+     "tier": "core",
+     "sentences_matched": 2
+    },
+    "portability / export": {
+     "regex": "\\bportab(?:le|ility)\\b|\\bexport (?:your )?data\\b|\\bdownload (?:your|a copy)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "object / restrict": {
+     "regex": "\\bobject(?:ion)? to\\b|\\brestrict(?:ion)? (?:of )?(?:the )?processing\\b",
+     "tier": "support",
+     "sentences_matched": 0
+    },
+    "nominate (DPDP)": {
+     "regex": "\\bnominat(?:e|ion)\\b",
+     "tier": "support",
+     "sentences_matched": 0
+    },
+    "jurisdiction limits": {
+     "regex": "\\b(?:EEA|European|UK|California|residents? of|depending on where you live|applicable law)\\b",
+     "tier": "support",
+     "sentences_matched": 0
+    }
+   },
+   "n_candidates": 7,
+   "candidates": [
+    {
+     "sid": "p013.s1",
+     "heading": "Personal Information Access/Rectification and Consent",
+     "core": [
+      "correct / rectify / update"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p073.s8",
+     "heading": "Cookies or Similar Technologies",
+     "core": [
+      "delete / erase"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p089.s1",
+     "heading": "Information Sharing and Disclosures",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p111.s1",
+     "heading": "Personal Information Access/Rectification and Consent",
+     "core": [
+      "correct / rectify / update"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p113.s1",
+     "heading": "Personal Information Access/Rectification and Consent",
+     "core": [
+      "delete / erase"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p114.s2",
+     "heading": "Personal Information Access/Rectification and Consent",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p186.s2",
+     "heading": "Supported capabilities",
+     "core": [
+      "access"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "G6": {
+   "question": "Is personal data transferred to or stored in other countries, and are safeguards named?",
+   "search_log": {
+    "transfer": {
+     "regex": "\\btransfer(?:s|red|ring)?\\b",
+     "tier": "core",
+     "sentences_matched": 4
+    },
+    "cross-border / international": {
+     "regex": "\\bcross[- ]border\\b|\\binternational(?:ly)?\\b|\\bglobal(?:ly)?\\b|\\bother countries\\b|\\boutside (?:of )?(?:your|the|India)\\b",
+     "tier": "core",
+     "sentences_matched": 2
+    },
+    "stored / processed in a country": {
+     "regex": "\\b(?:stored|processed|hosted|located)\\b.{0,40}\\b(?:in|outside) (?:the )?(?:United States|U\\.S\\.|US|India|EU|Europe|Singapore|China|countr(?:y|ies))\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "safeguard mechanisms": {
+     "regex": "\\bstandard contractual clauses\\b|\\bSCCs?\\b|\\badequacy\\b|\\bData Privacy Framework\\b|\\bbinding corporate rules\\b|\\bappropriate safeguards\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "localisation": {
+     "regex": "\\blocali[sz](?:ation|ed)\\b|\\bstored (?:only |exclusively )?(?:in|within) India\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "servers": {
+     "regex": "\\bservers?\\b|\\bdata cent(?:er|re)s?\\b",
+     "tier": "support",
+     "sentences_matched": 3
+    },
+    "jurisdiction": {
+     "regex": "\\bjurisdictions?\\b|\\bdata protection laws?\\b",
+     "tier": "support",
+     "sentences_matched": 2
+    }
+   },
+   "n_candidates": 6,
+   "candidates": [
+    {
+     "sid": "p068.s1",
+     "heading": "Purpose and Use of Information",
+     "core": [
+      "cross-border / international"
+     ],
+     "support": [
+      "jurisdiction"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p093.s1",
+     "heading": "Information Sharing and Disclosures",
+     "core": [
+      "cross-border / international"
+     ],
+     "support": [
+      "jurisdiction"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p023.s1",
+     "heading": "Updated 15 May 2026",
+     "core": [
+      "transfer"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p122.s7",
+     "heading": "PhonePe MCP Data Use Policy",
+     "core": [
+      "transfer"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p132.s1",
+     "heading": "PhonePe MCP Documentation",
+     "core": [
+      "transfer"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p196.s1",
+     "heading": "Supported capabilities",
+     "core": [
+      "transfer"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "G7": {
+   "question": "What does the policy say about children and minors, and what age threshold and safeguards apply?",
+   "search_log": {
+    "child / children / minor": {
+     "regex": "\\bchild(?:ren)?(?:'s)?\\b|\\bminors?\\b|\\bkids?\\b|\\bteens?(?:agers?)?\\b|\\byouth\\b|\\byoung (?:people|users)\\b",
+     "tier": "core",
+     "sentences_matched": 3
+    },
+    "age threshold": {
+     "regex": "\\bunder (?:the age of )?\\d{1,2}\\b|\\b\\d{1,2} years? (?:of age|old)\\b|\\bage of (?:majority|\\d{1,2})\\b|\\bminimum age\\b|\\bage requirement\\b",
+     "tier": "core",
+     "sentences_matched": 2
+    },
+    "parent / guardian / consent": {
+     "regex": "\\bparent(?:s|al)?\\b|\\bguardians?\\b|\\bverifiable (?:parental )?consent\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "COPPA / age verification": {
+     "regex": "\\bCOPPA\\b|\\bage (?:verification|assurance|estimation|gate)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "knowingly collect": {
+     "regex": "\\bknowingly\\b",
+     "tier": "support",
+     "sentences_matched": 1
+    }
+   },
+   "n_candidates": 4,
+   "candidates": [
+    {
+     "sid": "p117.s1",
+     "heading": "Children Information",
+     "core": [
+      "child / children / minor",
+      "age threshold"
+     ],
+     "support": [
+      "knowingly collect"
+     ],
+     "score": 7
+    },
+    {
+     "sid": "p117.s2",
+     "heading": "Children Information",
+     "core": [
+      "age threshold",
+      "parent / guardian / consent"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p014.s1",
+     "heading": "Children Information",
+     "core": [
+      "child / children / minor"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p116.s1",
+     "heading": "Children Information",
+     "core": [
+      "child / children / minor"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "AI1": {
+   "question": "Does the company use users' personal data or content to train or improve AI / machine-learning models?",
+   "search_log": {
+    "train / training": {
+     "regex": "\\btrain(?:s|ed|ing)?\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "model(s)": {
+     "regex": "\\b(?:AI |machine[- ]learning |language |foundation |our )?models?\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "machine learning": {
+     "regex": "\\bmachine[- ]learning\\b|\\bML\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "artificial intelligence / AI": {
+     "regex": "\\bartificial intelligence\\b|\\bAI\\b|\\bgenerative\\b|\\bLLMs?\\b|\\blarge language\\b",
+     "tier": "core",
+     "sentences_matched": 3
+    },
+    "improve / develop services": {
+     "regex": "\\b(?:improve|develop|enhance|build)\\b.{0,30}\\b(?:services?|products?|features?|technolog(?:y|ies)|systems?|algorithms?)\\b",
+     "tier": "support",
+     "sentences_matched": 0
+    },
+    "content / inputs / outputs": {
+     "regex": "\\b(?:content|inputs?|outputs?|prompts?|conversations?|chats?|messages?|posts?|feedback)\\b",
+     "tier": "support",
+     "sentences_matched": 9
+    },
+    "research": {
+     "regex": "\\bresearch\\b",
+     "tier": "support",
+     "sentences_matched": 1
+    }
+   },
+   "n_candidates": 5,
+   "candidates": [
+    {
+     "sid": "p131.s1",
+     "heading": "PhonePe MCP Documentation",
+     "core": [
+      "artificial intelligence / AI"
+     ],
+     "support": [
+      "content / inputs / outputs"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p031.s1",
+     "heading": "Information Collection",
+     "core": [
+      "model(s)"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p067.s1",
+     "heading": "Purpose and Use of Information",
+     "core": [
+      "train / training"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p186.s4",
+     "heading": "Supported capabilities",
+     "core": [
+      "artificial intelligence / AI"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p210.s1",
+     "heading": "Connector privacy notice: PhonePe AI Connectors Privacy Notice",
+     "core": [
+      "artificial intelligence / AI"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "AI2": {
+   "question": "If personal data is used for AI training, can the user stop it, and how?",
+   "search_log": {
+    "opt out": {
+     "regex": "\\bopt(?:[- ])?out\\b|\\bopt(?:[- ])?in\\b",
+     "tier": "core",
+     "sentences_matched": 4
+    },
+    "turn off / disable": {
+     "regex": "\\bturn(?:ing)? off\\b|\\bdisabl(?:e|ed|ing)\\b|\\btoggle\\b|\\bswitch off\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "choose whether / your choices": {
+     "regex": "\\bchoose (?:whether|if|not to|to stop)\\b|\\byour choices?\\b|\\bcontrol (?:whether|how)\\b|\\b(?:stop|prevent)\\b.{0,40}\\b(?:used|using)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "settings / controls": {
+     "regex": "\\b(?:privacy |data |account )?(?:settings|controls?|preferences)\\b|\\bdashboard\\b",
+     "tier": "support",
+     "sentences_matched": 10
+    },
+    "train / model (co-occurrence)": {
+     "regex": "\\btrain(?:s|ed|ing)?\\b|\\bmodels?\\b|\\bimprove the model\\b",
+     "tier": "support",
+     "sentences_matched": 2
+    },
+    "object / request": {
+     "regex": "\\bobject(?:ion)?\\b|\\bsubmit a request\\b|\\bprivacy (?:portal|request)\\b|\\bcontact us\\b",
+     "tier": "support",
+     "sentences_matched": 4
+    }
+   },
+   "n_candidates": 4,
+   "candidates": [
+    {
+     "sid": "p012.s1",
+     "heading": "Choice/Opt-out",
+     "core": [
+      "opt out"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p108.s1",
+     "heading": "Choice/Opt-out",
+     "core": [
+      "opt out"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p109.s1",
+     "heading": "Choice/Opt-out",
+     "core": [
+      "opt out"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p110.s1",
+     "heading": "Choice/Opt-out",
+     "core": [
+      "opt out"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "AI3": {
+   "question": "Can people (employees, contractors, reviewers) read or review users' content?",
+   "search_log": {
+    "human review": {
+     "regex": "\\bhuman (?:review(?:ers?)?|reviewed|oversight|moderators?)\\b|\\bmanual(?:ly)? review(?:ed)?\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "reviewers / annotators / moderators": {
+     "regex": "\\breviewers?\\b|\\bannotators?\\b|\\bmoderat(?:ors?|ion)\\b|\\bcrowd ?workers?\\b|\\braters?\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "staff may access / review content": {
+     "regex": "\\b(?:employees|personnel|staff|contractors|team members|authori[sz]ed (?:personnel|staff|employees))\\b.{0,60}\\b(?:access|review|read|view|see)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "review content / conversations": {
+     "regex": "\\breview(?:s|ed|ing)?\\b.{0,40}\\b(?:content|conversations?|chats?|messages?|inputs?|prompts?|recordings?)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "we may access / review / monitor content": {
+     "regex": "\\bwe (?:may |might |can )?(?:access|review|monitor|read|inspect|view|listen to)\\b.{0,50}\\b(?:content|communications?|conversations?|chats?|messages?|recordings?|files|inputs?)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "flagged / safety / abuse": {
+     "regex": "\\bflagged\\b|\\b(?:trust and )?safety\\b|\\babuse\\b|\\bmisuse\\b|\\bviolat(?:e|es|ion|ions)\\b",
+     "tier": "support",
+     "sentences_matched": 3
+    },
+    "support / feedback": {
+     "regex": "\\bfeedback\\b|\\bsupport (?:requests?|tickets?)\\b|\\bcustomer support\\b",
+     "tier": "support",
+     "sentences_matched": 1
+    }
+   },
+   "n_candidates": 0,
+   "candidates": []
+  },
+  "AI4": {
+   "question": "Does the policy let the company keep, use or share de-identified or aggregated data, and for what?",
+   "search_log": {
+    "de-identified": {
+     "regex": "\\bde-?identif(?:y|ied|ies|ication)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "anonymised": {
+     "regex": "\\banonymi[sz](?:e|ed|es|ation)\\b|\\banonymous\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "aggregated": {
+     "regex": "\\baggregat(?:e|ed|es|ion)\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "pseudonymised": {
+     "regex": "\\bpseudonymi[sz](?:e|ed|ation)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "no longer identifies": {
+     "regex": "\\b(?:no longer|cannot reasonably|not reasonably) (?:be used to )?identif(?:y|ies)\\b|\\bnon-?personal (?:data|information)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "share / any purpose": {
+     "regex": "\\bany (?:lawful )?purpose\\b|\\bshare\\b|\\bthird[- ]part(?:y|ies)\\b|\\bresearch\\b|\\bimprove\\b",
+     "tier": "support",
+     "sentences_matched": 18
+    }
+   },
+   "n_candidates": 1,
+   "candidates": [
+    {
+     "sid": "p059.s1",
+     "heading": "Purpose and Use of Information",
+     "core": [
+      "aggregated"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "AI5": {
+   "question": "Is user content sent to external AI / model providers, or licensed to others for AI training?",
+   "search_log": {
+    "AI / model providers": {
+     "regex": "\\b(?:AI|model|LLM|machine[- ]learning|artificial intelligence) (?:providers?|vendors?|partners?|services?|companies|developers?)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "named AI vendors": {
+     "regex": "\\bOpenAI\\b|\\bChatGPT\\b|\\bAnthropic\\b|\\bClaude\\b|\\bGemini\\b|\\bGoogle AI\\b|\\bAzure OpenAI\\b|\\bLlama\\b|\\bMistral\\b|\\bxAI\\b|\\bGrok\\b|\\bPerplexity\\b|\\bDeepSeek\\b",
+     "tier": "core",
+     "sentences_matched": 13
+    },
+    "third-party AI / models": {
+     "regex": "\\bthird[- ]party (?:AI|models?|LLMs?|artificial intelligence)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "integrations / connectors / plugins": {
+     "regex": "\\b(?:integrations?|connectors?|plug-?ins?|MCP|GPTs|extensions|(?<!user )agents?)\\b",
+     "tier": "core",
+     "sentences_matched": 38
+    },
+    "license content / data licensing": {
+     "regex": "\\blicen[cs](?:e|es|ing)\\b.{0,60}\\b(?:content|data)\\b|\\bdata licensing\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "sub-processors / service providers": {
+     "regex": "\\bsub-?processors?\\b|\\bservice providers?\\b|\\bvendors?\\b",
+     "tier": "support",
+     "sentences_matched": 6
+    },
+    "AI features": {
+     "regex": "\\bAI(?:-powered)? (?:features?|tools?|assistants?)\\b|\\bgenerative\\b",
+     "tier": "support",
+     "sentences_matched": 0
+    }
+   },
+   "n_candidates": 45,
+   "candidates": [
+    {
+     "sid": "p122.s1",
+     "heading": "PhonePe MCP Data Use Policy",
+     "core": [
+      "named AI vendors",
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p124.s2",
+     "heading": "PhonePe MCP Data Use Policy",
+     "core": [
+      "named AI vendors",
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p131.s1",
+     "heading": "PhonePe MCP Documentation",
+     "core": [
+      "named AI vendors",
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p134.s1",
+     "heading": "PhonePe MCP Documentation",
+     "core": [
+      "named AI vendors",
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p141.s2",
+     "heading": "PhonePe MCP Documentation",
+     "core": [
+      "named AI vendors",
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p146.s2",
+     "heading": "PhonePe MCP Documentation",
+     "core": [
+      "named AI vendors",
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p016.s1",
+     "heading": "PhonePe MCP Data Use Policy",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p017.s1",
+     "heading": "PhonePe MCP Documentation",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p031.s1",
+     "heading": "Information Collection",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p067.s1",
+     "heading": "Purpose and Use of Information",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p120.s1",
+     "heading": "PhonePe MCP Data Use Policy",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p122.s3",
+     "heading": "PhonePe MCP Data Use Policy",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p122.s4",
+     "heading": "PhonePe MCP Data Use Policy",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p122.s5",
+     "heading": "PhonePe MCP Data Use Policy",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p122.s6",
+     "heading": "PhonePe MCP Data Use Policy",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p124.s1",
+     "heading": "PhonePe MCP Data Use Policy",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p124.s3",
+     "heading": "PhonePe MCP Data Use Policy",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p126.s1",
+     "heading": "PhonePe MCP Data Use Policy",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p128.s1",
+     "heading": "PhonePe MCP Data Use Policy",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p129.s1",
+     "heading": "PhonePe MCP Documentation",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p131.s3",
+     "heading": "PhonePe MCP Documentation",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p132.s1",
+     "heading": "PhonePe MCP Documentation",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p132.s2",
+     "heading": "PhonePe MCP Documentation",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p135.s1",
+     "heading": "PhonePe MCP Documentation",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p140.s1",
+     "heading": "PhonePe MCP Documentation",
+     "core": [
+      "named AI vendors"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p142.s2",
+     "heading": "PhonePe MCP Documentation",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p143.s2",
+     "heading": "PhonePe MCP Documentation",
+     "core": [
+      "named AI vendors"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p144.s2",
+     "heading": "PhonePe MCP Documentation",
+     "core": [
+      "named AI vendors"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p145.s1",
+     "heading": "PhonePe MCP Documentation",
+     "core": [
+      "named AI vendors"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p149.s2",
+     "heading": "PhonePe MCP Documentation",
+     "core": [
+      "named AI vendors"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p154.s2",
+     "heading": "Supported capabilities",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p169.s2",
+     "heading": "Supported capabilities",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p174.s1",
+     "heading": "Supported capabilities",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p186.s1",
+     "heading": "Supported capabilities",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p186.s4",
+     "heading": "Supported capabilities",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p188.s1",
+     "heading": "Supported capabilities",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p188.s2",
+     "heading": "Supported capabilities",
+     "core": [
+      "named AI vendors"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p195.s1",
+     "heading": "Supported capabilities",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p196.s1",
+     "heading": "Supported capabilities",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p198.s1",
+     "heading": "Troubleshooting",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p199.s2",
+     "heading": "Troubleshooting",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p209.s1",
+     "heading": "Connector support: support.phonepe.com",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p210.s1",
+     "heading": "Connector privacy notice: PhonePe AI Connectors Privacy Notice",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p214.s1",
+     "heading": "Security reporting: phonepe.com/report-vulnerability",
+     "core": [
+      "named AI vendors"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p217.s1",
+     "heading": "Security reporting: phonepe.com/report-vulnerability",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "DPDP1": {
+   "question": "How does the policy obtain consent: an explicit affirmative action, a general agreement, or browsewrap ('by using you agree')?",
+   "search_log": {
+    "by using / visiting you agree": {
+     "regex": "\\bby (?:using|visiting|accessing|downloading|browsing|continuing|registering|signing up|providing)\\b.{0,120}\\b(?:agree|consent|accept|acknowledge)\\w*",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "consent": {
+     "regex": "\\bconsent(?:s|ed|ing)?\\b",
+     "tier": "core",
+     "sentences_matched": 10
+    },
+    "agree / accept": {
+     "regex": "\\b(?:you )?(?:agree|accept|acknowledge)(?:s|d)?\\b",
+     "tier": "core",
+     "sentences_matched": 6
+    },
+    "DPDP / Indian law": {
+     "regex": "\\bDigital Personal Data Protection\\b|\\bDPDP(?:A)?\\b|\\bIT Act\\b|\\bSPDI\\b|\\bInformation Technology\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "legal basis": {
+     "regex": "\\blegal bas(?:is|es)\\b|\\blegitimate interests?\\b|\\bperformance of (?:a|the) contract\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "notice / checkbox / sign-up": {
+     "regex": "\\bnotice\\b|\\bcheck ?box\\b|\\bsign[- ]?up\\b|\\bregistration\\b|\\bclick(?:ing)?\\b",
+     "tier": "support",
+     "sentences_matched": 8
+    },
+    "explicit / affirmative / freely": {
+     "regex": "\\bexplicit(?:ly)?\\b|\\baffirmative\\b|\\bfreely\\b|\\bunambiguous\\b|\\binformed\\b",
+     "tier": "support",
+     "sentences_matched": 3
+    }
+   },
+   "n_candidates": 17,
+   "candidates": [
+    {
+     "sid": "p107.s2",
+     "heading": "Your Consent",
+     "core": [
+      "by using / visiting you agree",
+      "consent"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p032.s1",
+     "heading": "Information Collection",
+     "core": [
+      "consent"
+     ],
+     "support": [
+      "explicit / affirmative / freely"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p034.s1",
+     "heading": "Information Collection",
+     "core": [
+      "consent"
+     ],
+     "support": [
+      "explicit / affirmative / freely"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p107.s4",
+     "heading": "Your Consent",
+     "core": [
+      "agree / accept"
+     ],
+     "support": [
+      "notice / checkbox / sign-up"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p011.s1",
+     "heading": "Your Consent",
+     "core": [
+      "consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p013.s1",
+     "heading": "Personal Information Access/Rectification and Consent",
+     "core": [
+      "consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p022.s2",
+     "heading": "Updated 15 May 2026",
+     "core": [
+      "agree / accept"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p023.s1",
+     "heading": "Updated 15 May 2026",
+     "core": [
+      "DPDP / Indian law"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p023.s4",
+     "heading": "Updated 15 May 2026",
+     "core": [
+      "agree / accept"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p095.s4",
+     "heading": "Information Sharing and Disclosures",
+     "core": [
+      "agree / accept"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p105.s5",
+     "heading": "Third-Party Products, Services, or Websites",
+     "core": [
+      "agree / accept"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p106.s1",
+     "heading": "Your Consent",
+     "core": [
+      "consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p107.s1",
+     "heading": "Your Consent",
+     "core": [
+      "consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p111.s1",
+     "heading": "Personal Information Access/Rectification and Consent",
+     "core": [
+      "consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p112.s2",
+     "heading": "Personal Information Access/Rectification and Consent",
+     "core": [
+      "consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p112.s3",
+     "heading": "Personal Information Access/Rectification and Consent",
+     "core": [
+      "consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p119.s4",
+     "heading": "Changes to Policy",
+     "core": [
+      "agree / accept"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "DPDP2": {
+   "question": "Can users withdraw consent, and is it as easy as giving it?",
+   "search_log": {
+    "withdraw / revoke consent": {
+     "regex": "\\bwithdraw(?:s|n|al|ing)?\\b|\\brevok(?:e|es|ed|ing)\\b|\\brevocation\\b",
+     "tier": "core",
+     "sentences_matched": 2
+    },
+    "consent manager": {
+     "regex": "\\bconsent manager\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "opt out / unsubscribe": {
+     "regex": "\\bopt(?:[- ])?out\\b|\\bunsubscrib(?:e|ing)\\b",
+     "tier": "core",
+     "sentences_matched": 5
+    },
+    "settings / dashboard": {
+     "regex": "\\bsettings\\b|\\bdashboard\\b|\\bpreferences\\b|\\bpreference cent(?:er|re)\\b|\\btoggle\\b",
+     "tier": "support",
+     "sentences_matched": 4
+    },
+    "contact / email to withdraw": {
+     "regex": "\\b(?:email|write to|contact)\\b",
+     "tier": "support",
+     "sentences_matched": 15
+    },
+    "delete account": {
+     "regex": "\\b(?:delete|deactivate|close) (?:your )?account\\b",
+     "tier": "support",
+     "sentences_matched": 1
+    },
+    "consent (co-occurrence)": {
+     "regex": "\\bconsent\\b",
+     "tier": "support",
+     "sentences_matched": 10
+    }
+   },
+   "n_candidates": 8,
+   "candidates": [
+    {
+     "sid": "p109.s2",
+     "heading": "Choice/Opt-out",
+     "core": [
+      "opt out / unsubscribe"
+     ],
+     "support": [
+      "contact / email to withdraw"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p112.s2",
+     "heading": "Personal Information Access/Rectification and Consent",
+     "core": [
+      "withdraw / revoke consent"
+     ],
+     "support": [
+      "consent (co-occurrence)"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p112.s3",
+     "heading": "Personal Information Access/Rectification and Consent",
+     "core": [
+      "withdraw / revoke consent"
+     ],
+     "support": [
+      "consent (co-occurrence)"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p012.s1",
+     "heading": "Choice/Opt-out",
+     "core": [
+      "opt out / unsubscribe"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p108.s1",
+     "heading": "Choice/Opt-out",
+     "core": [
+      "opt out / unsubscribe"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p109.s1",
+     "heading": "Choice/Opt-out",
+     "core": [
+      "opt out / unsubscribe"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p110.s1",
+     "heading": "Choice/Opt-out",
+     "core": [
+      "opt out / unsubscribe"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p201.s2",
+     "heading": "Troubleshooting",
+     "core": [],
+     "support": [
+      "settings / dashboard",
+      "contact / email to withdraw"
+     ],
+     "score": 2
+    }
+   ]
+  },
+  "DPDP3": {
+   "question": "Does the policy publish a Grievance Officer or Data Protection Officer with contact details?",
+   "search_log": {
+    "grievance officer": {
+     "regex": "\\bgrievance(?:s)?\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "data protection officer / DPO": {
+     "regex": "\\bdata protection officer\\b|\\bDPO\\b|\\bprivacy officer\\b|\\bnodal officer\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "email address": {
+     "regex": "[\\w.+-]+@[\\w-]+\\.[\\w.]+",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "Data Protection Board / complaint": {
+     "regex": "\\bData Protection Board\\b|\\b(?:lodge|file|make) a complaint\\b|\\bsupervisory authority\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "contact us": {
+     "regex": "\\bcontact us\\b|\\bhow to contact\\b|\\bpostal address\\b|\\baddress\\b",
+     "tier": "support",
+     "sentences_matched": 8
+    },
+    "officer / named person": {
+     "regex": "\\bofficer\\b|\\bMr\\.?\\b|\\bMs\\.?\\b",
+     "tier": "support",
+     "sentences_matched": 1
+    }
+   },
+   "n_candidates": 2,
+   "candidates": [
+    {
+     "sid": "p219.s1",
+     "heading": "Contact Us",
+     "core": [
+      "data protection officer / DPO"
+     ],
+     "support": [
+      "officer / named person"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p092.s1",
+     "heading": "Information Sharing and Disclosures",
+     "core": [
+      "grievance officer"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "DPDP4": {
+   "question": "Is the notice offered in Indian languages (Eighth Schedule) besides English? Record which languages.",
+   "search_log": {
+    "Eighth Schedule": {
+     "regex": "\\beighth schedule\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "language(s) / translation": {
+     "regex": "\\blanguages?\\b|\\btranslat(?:e|ed|ion|ions)\\b|\\bvernacular\\b|\\bregional\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "Indian language names (English)": {
+     "regex": "\\b(?:Hindi|Bengali|Bangla|Tamil|Telugu|Marathi|Gujarati|Kannada|Malayalam|Odia|Oriya|Punjabi|Assamese|Urdu|Konkani|Manipuri|Nepali|Sanskrit|Sindhi|Kashmiri|Maithili|Santali|Dogri|Bodo)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "Indian language names (native script)": {
+     "regex": "हिन्दी|हिंदी|বাংলা|தமிழ்|తెలుగు|मराठी|ગુજરાતી|ಕನ್ನಡ|മലയാളം|ଓଡ଼ିଆ|ਪੰਜਾਬੀ|অসমীয়া|اردو",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "English": {
+     "regex": "\\bEnglish\\b",
+     "tier": "support",
+     "sentences_matched": 0
+    }
+   },
+   "n_candidates": 2,
+   "candidates": [
+    {
+     "sid": "p002.s1",
+     "heading": "Englishગુજરાતીதமிழ்తెలుగుमराठीമലയാളംঅসমীয়াবাংলাहिन्दीಕನ್ನಡଓଡ଼ିଆ",
+     "core": [
+      "Indian language names (native script)"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p137.s1",
+     "heading": "PhonePe MCP Documentation",
+     "core": [
+      "language(s) / translation"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  }
+ }
+}

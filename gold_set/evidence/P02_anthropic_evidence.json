@@ -1,0 +1,5049 @@
+{
+ "policy_id": "P02",
+ "policy_key": "P02_anthropic",
+ "policy_name": "anthropic",
+ "url": "https://www.anthropic.com/legal/privacy",
+ "scope": "consumer",
+ "cohort": "ai",
+ "fetched_at_utc": "2026-11-11T18:47:17+00:00",
+ "text_file": "policies/text/P02_anthropic.txt",
+ "text_sha256": "b0e0ce0a4df6fa4b0a674f412a8d8e60b0ef420e8cdaa948dd2c2918692cffef",
+ "flag_definitions_sha256": "7c81dc82616e22f95abb8c359f50f76e890fa628b31296c19186e78518da00c7",
+ "segmenter_version": "1",
+ "n_paragraphs": 263,
+ "n_sentences": 388,
+ "sentences": {
+  "p001.s1": {
+   "start": 0,
+   "end": 29,
+   "heading": "01Collection of Personal Data"
+  },
+  "p002.s1": {
+   "start": 30,
+   "end": 144,
+   "heading": "01Collection of Personal Data"
+  },
+  "p003.s1": {
+   "start": 145,
+   "end": 331,
+   "heading": "01Collection of Personal Data"
+  },
+  "p003.s2": {
+   "start": 332,
+   "end": 476,
+   "heading": "01Collection of Personal Data"
+  },
+  "p003.s3": {
+   "start": 477,
+   "end": 583,
+   "heading": "01Collection of Personal Data"
+  },
+  "p004.s1": {
+   "start": 584,
+   "end": 884,
+   "heading": "01Collection of Personal Data"
+  },
+  "p005.s1": {
+   "start": 885,
+   "end": 940,
+   "heading": "01Collection of Personal Data"
+  },
+  "p005.s2": {
+   "start": 941,
+   "end": 1050,
+   "heading": "01Collection of Personal Data"
+  },
+  "p006.s1": {
+   "start": 1051,
+   "end": 1194,
+   "heading": "01Collection of Personal Data"
+  },
+  "p007.s1": {
+   "start": 1195,
+   "end": 1413,
+   "heading": "01Collection of Personal Data"
+  },
+  "p008.s1": {
+   "start": 1414,
+   "end": 1416,
+   "heading": "1. Collection of Personal Data"
+  },
+  "p008.s2": {
+   "start": 1417,
+   "end": 1444,
+   "heading": "1. Collection of Personal Data"
+  },
+  "p009.s1": {
+   "start": 1445,
+   "end": 1498,
+   "heading": "1. Collection of Personal Data"
+  },
+  "p010.s1": {
+   "start": 1499,
+   "end": 1539,
+   "heading": "Personal data you provide to us directly"
+  },
+  "p011.s1": {
+   "start": 1540,
+   "end": 1737,
+   "heading": "Personal data you provide to us directly"
+  },
+  "p011.s2": {
+   "start": 1738,
+   "end": 1811,
+   "heading": "Personal data you provide to us directly"
+  },
+  "p012.s1": {
+   "start": 1812,
+   "end": 1932,
+   "heading": "Personal data you provide to us directly"
+  },
+  "p013.s1": {
+   "start": 1933,
+   "end": 2178,
+   "heading": "Personal data you provide to us directly"
+  },
+  "p013.s2": {
+   "start": 2179,
+   "end": 2395,
+   "heading": "Personal data you provide to us directly"
+  },
+  "p013.s3": {
+   "start": 2396,
+   "end": 2446,
+   "heading": "Personal data you provide to us directly"
+  },
+  "p013.s4": {
+   "start": 2447,
+   "end": 2596,
+   "heading": "Personal data you provide to us directly"
+  },
+  "p013.s5": {
+   "start": 2597,
+   "end": 2819,
+   "heading": "Personal data you provide to us directly"
+  },
+  "p014.s1": {
+   "start": 2820,
+   "end": 2987,
+   "heading": "Personal data you provide to us directly"
+  },
+  "p014.s2": {
+   "start": 2988,
+   "end": 3157,
+   "heading": "Personal data you provide to us directly"
+  },
+  "p014.s3": {
+   "start": 3158,
+   "end": 3208,
+   "heading": "Personal data you provide to us directly"
+  },
+  "p015.s1": {
+   "start": 3209,
+   "end": 3446,
+   "heading": "Personal data you provide to us directly"
+  },
+  "p015.s2": {
+   "start": 3447,
+   "end": 3530,
+   "heading": "Personal data you provide to us directly"
+  },
+  "p016.s1": {
+   "start": 3531,
+   "end": 3715,
+   "heading": "Personal data you provide to us directly"
+  },
+  "p017.s1": {
+   "start": 3716,
+   "end": 3807,
+   "heading": "Personal data you provide to us directly"
+  },
+  "p017.s2": {
+   "start": 3808,
+   "end": 4246,
+   "heading": "Personal data you provide to us directly"
+  },
+  "p018.s1": {
+   "start": 4247,
+   "end": 4504,
+   "heading": "Personal data you provide to us directly"
+  },
+  "p019.s1": {
+   "start": 4505,
+   "end": 4573,
+   "heading": "Personal data we receive automatically from your use of the Services"
+  },
+  "p020.s1": {
+   "start": 4574,
+   "end": 4710,
+   "heading": "Personal data we receive automatically from your use of the Services"
+  },
+  "p020.s2": {
+   "start": 4711,
+   "end": 4725,
+   "heading": "Personal data we receive automatically from your use of the Services"
+  },
+  "p021.s1": {
+   "start": 4726,
+   "end": 4931,
+   "heading": "Personal data we receive automatically from your use of the Services"
+  },
+  "p021.s2": {
+   "start": 4932,
+   "end": 5421,
+   "heading": "Personal data we receive automatically from your use of the Services"
+  },
+  "p022.s1": {
+   "start": 5422,
+   "end": 5820,
+   "heading": "Personal data we receive automatically from your use of the Services"
+  },
+  "p023.s1": {
+   "start": 5821,
+   "end": 5937,
+   "heading": "Personal data we receive automatically from your use of the Services"
+  },
+  "p023.s2": {
+   "start": 5938,
+   "end": 5974,
+   "heading": "Personal data we receive automatically from your use of the Services"
+  },
+  "p023.s3": {
+   "start": 5975,
+   "end": 6244,
+   "heading": "Personal data we receive automatically from your use of the Services"
+  },
+  "p024.s1": {
+   "start": 6245,
+   "end": 6453,
+   "heading": "Personal data we receive automatically from your use of the Services"
+  },
+  "p024.s2": {
+   "start": 6454,
+   "end": 6666,
+   "heading": "Personal data we receive automatically from your use of the Services"
+  },
+  "p024.s3": {
+   "start": 6667,
+   "end": 6797,
+   "heading": "Personal data we receive automatically from your use of the Services"
+  },
+  "p025.s1": {
+   "start": 6798,
+   "end": 6853,
+   "heading": "Personal data we collect or receive to train our models"
+  },
+  "p026.s1": {
+   "start": 6854,
+   "end": 6940,
+   "heading": "Personal data we collect or receive to train our models"
+  },
+  "p026.s2": {
+   "start": 6941,
+   "end": 7013,
+   "heading": "Personal data we collect or receive to train our models"
+  },
+  "p027.s1": {
+   "start": 7014,
+   "end": 7061,
+   "heading": "Publicly available information via the Internet"
+  },
+  "p028.s1": {
+   "start": 7062,
+   "end": 7143,
+   "heading": "Datasets that we obtain through commercial agreements with third party businesses"
+  },
+  "p029.s1": {
+   "start": 7144,
+   "end": 7259,
+   "heading": "Datasets that we obtain through commercial agreements with third party businesses"
+  },
+  "p030.s1": {
+   "start": 7260,
+   "end": 7317,
+   "heading": "Feedback that users explicitly provide about our Services"
+  },
+  "p031.s1": {
+   "start": 7318,
+   "end": 7374,
+   "heading": "Materials flagged for safety, security, or policy review"
+  },
+  "p032.s1": {
+   "start": 7375,
+   "end": 7407,
+   "heading": "Data that we generate internally"
+  },
+  "p033.s1": {
+   "start": 7408,
+   "end": 7721,
+   "heading": "Data that we generate internally"
+  },
+  "p034.s1": {
+   "start": 7722,
+   "end": 7724,
+   "heading": "2. Uses of Personal Data Permitted Under Applicable Data Protection Laws"
+  },
+  "p034.s2": {
+   "start": 7725,
+   "end": 7794,
+   "heading": "2. Uses of Personal Data Permitted Under Applicable Data Protection Laws"
+  },
+  "p035.s1": {
+   "start": 7795,
+   "end": 7848,
+   "heading": "2. Uses of Personal Data Permitted Under Applicable Data Protection Laws"
+  },
+  "p036.s1": {
+   "start": 7849,
+   "end": 8009,
+   "heading": "2. Uses of Personal Data Permitted Under Applicable Data Protection Laws"
+  },
+  "p037.s1": {
+   "start": 8010,
+   "end": 8133,
+   "heading": "2. Uses of Personal Data Permitted Under Applicable Data Protection Laws"
+  },
+  "p038.s1": {
+   "start": 8134,
+   "end": 8277,
+   "heading": "2. Uses of Personal Data Permitted Under Applicable Data Protection Laws"
+  },
+  "p039.s1": {
+   "start": 8278,
+   "end": 8326,
+   "heading": "2. Uses of Personal Data Permitted Under Applicable Data Protection Laws"
+  },
+  "p040.s1": {
+   "start": 8327,
+   "end": 8398,
+   "heading": "2. Uses of Personal Data Permitted Under Applicable Data Protection Laws"
+  },
+  "p041.s1": {
+   "start": 8399,
+   "end": 8758,
+   "heading": "2. Uses of Personal Data Permitted Under Applicable Data Protection Laws"
+  },
+  "p042.s1": {
+   "start": 8759,
+   "end": 8795,
+   "heading": "2. Uses of Personal Data Permitted Under Applicable Data Protection Laws"
+  },
+  "p043.s1": {
+   "start": 8796,
+   "end": 8839,
+   "heading": "2. Uses of Personal Data Permitted Under Applicable Data Protection Laws"
+  },
+  "p044.s1": {
+   "start": 8840,
+   "end": 8918,
+   "heading": "2. Uses of Personal Data Permitted Under Applicable Data Protection Laws"
+  },
+  "p045.s1": {
+   "start": 8919,
+   "end": 9087,
+   "heading": "2. Uses of Personal Data Permitted Under Applicable Data Protection Laws"
+  },
+  "p046.s1": {
+   "start": 9088,
+   "end": 9181,
+   "heading": "2. Uses of Personal Data Permitted Under Applicable Data Protection Laws"
+  },
+  "p047.s1": {
+   "start": 9182,
+   "end": 9308,
+   "heading": "2. Uses of Personal Data Permitted Under Applicable Data Protection Laws"
+  },
+  "p047.s2": {
+   "start": 9309,
+   "end": 9642,
+   "heading": "2. Uses of Personal Data Permitted Under Applicable Data Protection Laws"
+  },
+  "p048.s1": {
+   "start": 9643,
+   "end": 9736,
+   "heading": "2. Uses of Personal Data Permitted Under Applicable Data Protection Laws"
+  },
+  "p049.s1": {
+   "start": 9737,
+   "end": 9739,
+   "heading": "3. Recipients and Third-Party Data Sources"
+  },
+  "p049.s2": {
+   "start": 9740,
+   "end": 9779,
+   "heading": "3. Recipients and Third-Party Data Sources"
+  },
+  "p050.s1": {
+   "start": 9780,
+   "end": 9937,
+   "heading": "3. Recipients and Third-Party Data Sources"
+  },
+  "p051.s1": {
+   "start": 9938,
+   "end": 10093,
+   "heading": "3. Recipients and Third-Party Data Sources"
+  },
+  "p052.s1": {
+   "start": 10094,
+   "end": 10586,
+   "heading": "3. Recipients and Third-Party Data Sources"
+  },
+  "p053.s1": {
+   "start": 10587,
+   "end": 10823,
+   "heading": "3. Recipients and Third-Party Data Sources"
+  },
+  "p054.s1": {
+   "start": 10824,
+   "end": 10908,
+   "heading": "3. Recipients and Third-Party Data Sources"
+  },
+  "p055.s1": {
+   "start": 10909,
+   "end": 11180,
+   "heading": "3. Recipients and Third-Party Data Sources"
+  },
+  "p056.s1": {
+   "start": 11181,
+   "end": 11470,
+   "heading": "3. Recipients and Third-Party Data Sources"
+  },
+  "p056.s2": {
+   "start": 11471,
+   "end": 11529,
+   "heading": "3. Recipients and Third-Party Data Sources"
+  },
+  "p057.s1": {
+   "start": 11530,
+   "end": 11712,
+   "heading": "3. Recipients and Third-Party Data Sources"
+  },
+  "p057.s2": {
+   "start": 11713,
+   "end": 11818,
+   "heading": "3. Recipients and Third-Party Data Sources"
+  },
+  "p058.s1": {
+   "start": 11819,
+   "end": 11900,
+   "heading": "3. Recipients and Third-Party Data Sources"
+  },
+  "p058.s2": {
+   "start": 11901,
+   "end": 11939,
+   "heading": "3. Recipients and Third-Party Data Sources"
+  },
+  "p059.s1": {
+   "start": 11940,
+   "end": 12115,
+   "heading": "3. Recipients and Third-Party Data Sources"
+  },
+  "p060.s1": {
+   "start": 12116,
+   "end": 12215,
+   "heading": "3. Recipients and Third-Party Data Sources"
+  },
+  "p060.s2": {
+   "start": 12216,
+   "end": 12496,
+   "heading": "3. Recipients and Third-Party Data Sources"
+  },
+  "p060.s3": {
+   "start": 12497,
+   "end": 12580,
+   "heading": "3. Recipients and Third-Party Data Sources"
+  },
+  "p060.s4": {
+   "start": 12581,
+   "end": 12738,
+   "heading": "3. Recipients and Third-Party Data Sources"
+  },
+  "p060.s5": {
+   "start": 12739,
+   "end": 12870,
+   "heading": "3. Recipients and Third-Party Data Sources"
+  },
+  "p061.s1": {
+   "start": 12871,
+   "end": 12982,
+   "heading": "3. Recipients and Third-Party Data Sources"
+  },
+  "p061.s2": {
+   "start": 12983,
+   "end": 13612,
+   "heading": "3. Recipients and Third-Party Data Sources"
+  },
+  "p062.s1": {
+   "start": 13613,
+   "end": 13793,
+   "heading": "3. Recipients and Third-Party Data Sources"
+  },
+  "p063.s1": {
+   "start": 13794,
+   "end": 13991,
+   "heading": "3. Recipients and Third-Party Data Sources"
+  },
+  "p064.s1": {
+   "start": 13992,
+   "end": 14097,
+   "heading": "3. Recipients and Third-Party Data Sources"
+  },
+  "p065.s1": {
+   "start": 14098,
+   "end": 14100,
+   "heading": "4. Rights and Choices"
+  },
+  "p065.s2": {
+   "start": 14101,
+   "end": 14119,
+   "heading": "4. Rights and Choices"
+  },
+  "p066.s1": {
+   "start": 14120,
+   "end": 14288,
+   "heading": "4. Rights and Choices"
+  },
+  "p066.s2": {
+   "start": 14289,
+   "end": 14456,
+   "heading": "4. Rights and Choices"
+  },
+  "p066.s3": {
+   "start": 14457,
+   "end": 14527,
+   "heading": "4. Rights and Choices"
+  },
+  "p066.s4": {
+   "start": 14528,
+   "end": 14640,
+   "heading": "4. Rights and Choices"
+  },
+  "p067.s1": {
+   "start": 14641,
+   "end": 14731,
+   "heading": "4. Rights and Choices"
+  },
+  "p067.s2": {
+   "start": 14732,
+   "end": 14880,
+   "heading": "4. Rights and Choices"
+  },
+  "p067.s3": {
+   "start": 14881,
+   "end": 15037,
+   "heading": "4. Rights and Choices"
+  },
+  "p068.s1": {
+   "start": 15038,
+   "end": 15144,
+   "heading": "4. Rights and Choices"
+  },
+  "p068.s2": {
+   "start": 15145,
+   "end": 15427,
+   "heading": "4. Rights and Choices"
+  },
+  "p068.s3": {
+   "start": 15428,
+   "end": 15525,
+   "heading": "4. Rights and Choices"
+  },
+  "p068.s4": {
+   "start": 15526,
+   "end": 15620,
+   "heading": "4. Rights and Choices"
+  },
+  "p068.s5": {
+   "start": 15621,
+   "end": 15708,
+   "heading": "4. Rights and Choices"
+  },
+  "p068.s6": {
+   "start": 15709,
+   "end": 15833,
+   "heading": "4. Rights and Choices"
+  },
+  "p069.s1": {
+   "start": 15834,
+   "end": 16125,
+   "heading": "4. Rights and Choices"
+  },
+  "p070.s1": {
+   "start": 16126,
+   "end": 16278,
+   "heading": "4. Rights and Choices"
+  },
+  "p070.s2": {
+   "start": 16279,
+   "end": 16371,
+   "heading": "4. Rights and Choices"
+  },
+  "p071.s1": {
+   "start": 16372,
+   "end": 16508,
+   "heading": "4. Rights and Choices"
+  },
+  "p071.s2": {
+   "start": 16509,
+   "end": 16687,
+   "heading": "4. Rights and Choices"
+  },
+  "p071.s3": {
+   "start": 16688,
+   "end": 16704,
+   "heading": "4. Rights and Choices"
+  },
+  "p072.s1": {
+   "start": 16705,
+   "end": 16838,
+   "heading": "4. Rights and Choices"
+  },
+  "p072.s2": {
+   "start": 16839,
+   "end": 16908,
+   "heading": "4. Rights and Choices"
+  },
+  "p072.s3": {
+   "start": 16909,
+   "end": 17193,
+   "heading": "4. Rights and Choices"
+  },
+  "p073.s1": {
+   "start": 17194,
+   "end": 17336,
+   "heading": "4. Rights and Choices"
+  },
+  "p073.s2": {
+   "start": 17337,
+   "end": 17631,
+   "heading": "4. Rights and Choices"
+  },
+  "p073.s3": {
+   "start": 17632,
+   "end": 17794,
+   "heading": "4. Rights and Choices"
+  },
+  "p074.s1": {
+   "start": 17795,
+   "end": 17892,
+   "heading": "4. Rights and Choices"
+  },
+  "p075.s1": {
+   "start": 17893,
+   "end": 18032,
+   "heading": "4. Rights and Choices"
+  },
+  "p075.s2": {
+   "start": 18033,
+   "end": 18136,
+   "heading": "4. Rights and Choices"
+  },
+  "p075.s3": {
+   "start": 18137,
+   "end": 18247,
+   "heading": "4. Rights and Choices"
+  },
+  "p076.s1": {
+   "start": 18248,
+   "end": 18600,
+   "heading": "4. Rights and Choices"
+  },
+  "p077.s1": {
+   "start": 18601,
+   "end": 18771,
+   "heading": "4. Rights and Choices"
+  },
+  "p077.s2": {
+   "start": 18772,
+   "end": 18923,
+   "heading": "4. Rights and Choices"
+  },
+  "p077.s3": {
+   "start": 18924,
+   "end": 18950,
+   "heading": "4. Rights and Choices"
+  },
+  "p078.s1": {
+   "start": 18951,
+   "end": 19029,
+   "heading": "4. Rights and Choices"
+  },
+  "p078.s2": {
+   "start": 19030,
+   "end": 19076,
+   "heading": "4. Rights and Choices"
+  },
+  "p079.s1": {
+   "start": 19077,
+   "end": 19079,
+   "heading": "5. Data Transfers"
+  },
+  "p079.s2": {
+   "start": 19080,
+   "end": 19094,
+   "heading": "5. Data Transfers"
+  },
+  "p080.s1": {
+   "start": 19095,
+   "end": 19451,
+   "heading": "5. Data Transfers"
+  },
+  "p080.s2": {
+   "start": 19452,
+   "end": 19556,
+   "heading": "5. Data Transfers"
+  },
+  "p080.s3": {
+   "start": 19557,
+   "end": 19690,
+   "heading": "5. Data Transfers"
+  },
+  "p081.s1": {
+   "start": 19691,
+   "end": 19834,
+   "heading": "5. Data Transfers"
+  },
+  "p082.s1": {
+   "start": 19835,
+   "end": 20068,
+   "heading": "5. Data Transfers"
+  },
+  "p082.s2": {
+   "start": 20069,
+   "end": 20304,
+   "heading": "5. Data Transfers"
+  },
+  "p083.s1": {
+   "start": 20305,
+   "end": 20480,
+   "heading": "5. Data Transfers"
+  },
+  "p083.s2": {
+   "start": 20481,
+   "end": 20586,
+   "heading": "5. Data Transfers"
+  },
+  "p083.s3": {
+   "start": 20587,
+   "end": 20779,
+   "heading": "5. Data Transfers"
+  },
+  "p084.s1": {
+   "start": 20780,
+   "end": 20919,
+   "heading": "5. Data Transfers"
+  },
+  "p084.s2": {
+   "start": 20920,
+   "end": 21020,
+   "heading": "5. Data Transfers"
+  },
+  "p085.s1": {
+   "start": 21021,
+   "end": 21023,
+   "heading": "6. Data Retention, Data Lifecycle, and Security Controls"
+  },
+  "p085.s2": {
+   "start": 21024,
+   "end": 21077,
+   "heading": "6. Data Retention, Data Lifecycle, and Security Controls"
+  },
+  "p086.s1": {
+   "start": 21078,
+   "end": 21257,
+   "heading": "6. Data Retention, Data Lifecycle, and Security Controls"
+  },
+  "p087.s1": {
+   "start": 21258,
+   "end": 21509,
+   "heading": "6. Data Retention, Data Lifecycle, and Security Controls"
+  },
+  "p088.s1": {
+   "start": 21510,
+   "end": 21549,
+   "heading": "Aggregated or De-Identified Information"
+  },
+  "p089.s1": {
+   "start": 21550,
+   "end": 21665,
+   "heading": "Aggregated or De-Identified Information"
+  },
+  "p089.s2": {
+   "start": 21666,
+   "end": 21934,
+   "heading": "Aggregated or De-Identified Information"
+  },
+  "p089.s3": {
+   "start": 21935,
+   "end": 21948,
+   "heading": "Aggregated or De-Identified Information"
+  },
+  "p090.s1": {
+   "start": 21949,
+   "end": 22078,
+   "heading": "Aggregated or De-Identified Information"
+  },
+  "p091.s1": {
+   "start": 22079,
+   "end": 22302,
+   "heading": "Aggregated or De-Identified Information"
+  },
+  "p091.s2": {
+   "start": 22303,
+   "end": 22440,
+   "heading": "Aggregated or De-Identified Information"
+  },
+  "p092.s1": {
+   "start": 22441,
+   "end": 22535,
+   "heading": "Aggregated or De-Identified Information"
+  },
+  "p092.s2": {
+   "start": 22536,
+   "end": 22588,
+   "heading": "Aggregated or De-Identified Information"
+  },
+  "p093.s1": {
+   "start": 22589,
+   "end": 22775,
+   "heading": "Aggregated or De-Identified Information"
+  },
+  "p094.s1": {
+   "start": 22776,
+   "end": 22837,
+   "heading": "Security Controls Relating to our Processing of Personal Data"
+  },
+  "p095.s1": {
+   "start": 22838,
+   "end": 23027,
+   "heading": "Security Controls Relating to our Processing of Personal Data"
+  },
+  "p096.s1": {
+   "start": 23028,
+   "end": 23030,
+   "heading": "7. Children"
+  },
+  "p096.s2": {
+   "start": 23031,
+   "end": 23039,
+   "heading": "7. Children"
+  },
+  "p097.s1": {
+   "start": 23040,
+   "end": 23192,
+   "heading": "7. Children"
+  },
+  "p097.s2": {
+   "start": 23193,
+   "end": 23267,
+   "heading": "7. Children"
+  },
+  "p097.s3": {
+   "start": 23268,
+   "end": 23506,
+   "heading": "7. Children"
+  },
+  "p098.s1": {
+   "start": 23507,
+   "end": 23509,
+   "heading": "8. Changes to Our Privacy Policy"
+  },
+  "p098.s2": {
+   "start": 23510,
+   "end": 23539,
+   "heading": "8. Changes to Our Privacy Policy"
+  },
+  "p099.s1": {
+   "start": 23540,
+   "end": 23599,
+   "heading": "8. Changes to Our Privacy Policy"
+  },
+  "p099.s2": {
+   "start": 23600,
+   "end": 23767,
+   "heading": "8. Changes to Our Privacy Policy"
+  },
+  "p099.s3": {
+   "start": 23768,
+   "end": 23861,
+   "heading": "8. Changes to Our Privacy Policy"
+  },
+  "p100.s1": {
+   "start": 23862,
+   "end": 23864,
+   "heading": "9. Contact Information"
+  },
+  "p100.s2": {
+   "start": 23865,
+   "end": 23884,
+   "heading": "9. Contact Information"
+  },
+  "p101.s1": {
+   "start": 23885,
+   "end": 24062,
+   "heading": "9. Contact Information"
+  },
+  "p101.s2": {
+   "start": 24063,
+   "end": 24176,
+   "heading": "9. Contact Information"
+  },
+  "p102.s1": {
+   "start": 24177,
+   "end": 24344,
+   "heading": "9. Contact Information"
+  },
+  "p103.s1": {
+   "start": 24345,
+   "end": 24454,
+   "heading": "9. Contact Information"
+  },
+  "p104.s1": {
+   "start": 24455,
+   "end": 24584,
+   "heading": "9. Contact Information"
+  },
+  "p105.s1": {
+   "start": 24585,
+   "end": 24688,
+   "heading": "9. Contact Information"
+  },
+  "p106.s1": {
+   "start": 24689,
+   "end": 24844,
+   "heading": "9. Contact Information"
+  },
+  "p106.s2": {
+   "start": 24845,
+   "end": 24922,
+   "heading": "9. Contact Information"
+  },
+  "p106.s3": {
+   "start": 24923,
+   "end": 25040,
+   "heading": "9. Contact Information"
+  },
+  "p106.s4": {
+   "start": 25041,
+   "end": 25156,
+   "heading": "9. Contact Information"
+  },
+  "p106.s5": {
+   "start": 25157,
+   "end": 25282,
+   "heading": "9. Contact Information"
+  },
+  "p107.s1": {
+   "start": 25283,
+   "end": 25286,
+   "heading": "10. Legal Bases for Processing"
+  },
+  "p107.s2": {
+   "start": 25287,
+   "end": 25313,
+   "heading": "10. Legal Bases for Processing"
+  },
+  "p108.s1": {
+   "start": 25314,
+   "end": 25321,
+   "heading": "Purpose"
+  },
+  "p109.s1": {
+   "start": 25322,
+   "end": 25334,
+   "heading": "Type of Data"
+  },
+  "p110.s1": {
+   "start": 25335,
+   "end": 25346,
+   "heading": "Legal Basis"
+  },
+  "p111.s1": {
+   "start": 25347,
+   "end": 25506,
+   "heading": "Legal Basis"
+  },
+  "p112.s1": {
+   "start": 25507,
+   "end": 25532,
+   "heading": "Identity and Contact Data"
+  },
+  "p113.s1": {
+   "start": 25533,
+   "end": 25552,
+   "heading": "Payment Information"
+  },
+  "p114.s1": {
+   "start": 25553,
+   "end": 25561,
+   "heading": "Feedback"
+  },
+  "p115.s1": {
+   "start": 25562,
+   "end": 25580,
+   "heading": "Inputs and Outputs"
+  },
+  "p116.s1": {
+   "start": 25581,
+   "end": 25602,
+   "heading": "Technical Information"
+  },
+  "p117.s1": {
+   "start": 25603,
+   "end": 25611,
+   "heading": "Contract"
+  },
+  "p118.s1": {
+   "start": 25612,
+   "end": 25734,
+   "heading": "Contract"
+  },
+  "p119.s1": {
+   "start": 25735,
+   "end": 25760,
+   "heading": "Identity and Contact Data"
+  },
+  "p120.s1": {
+   "start": 25761,
+   "end": 25769,
+   "heading": "Feedback"
+  },
+  "p121.s1": {
+   "start": 25770,
+   "end": 25794,
+   "heading": "Study Participation Data"
+  },
+  "p122.s1": {
+   "start": 25795,
+   "end": 25813,
+   "heading": "Inputs and Outputs"
+  },
+  "p123.s1": {
+   "start": 25814,
+   "end": 25835,
+   "heading": "Technical Information"
+  },
+  "p124.s1": {
+   "start": 25836,
+   "end": 25916,
+   "heading": "Consent (for example for precise device location or for health app integrations)"
+  },
+  "p125.s1": {
+   "start": 25917,
+   "end": 25937,
+   "heading": "Legitimate interests"
+  },
+  "p126.s1": {
+   "start": 25938,
+   "end": 26106,
+   "heading": "Legitimate interests"
+  },
+  "p127.s1": {
+   "start": 26107,
+   "end": 26250,
+   "heading": "Legitimate interests"
+  },
+  "p128.s1": {
+   "start": 26251,
+   "end": 26276,
+   "heading": "Identity and Contact Data"
+  },
+  "p129.s1": {
+   "start": 26277,
+   "end": 26302,
+   "heading": "Communication Information"
+  },
+  "p130.s1": {
+   "start": 26303,
+   "end": 26324,
+   "heading": "Technical Information"
+  },
+  "p131.s1": {
+   "start": 26325,
+   "end": 26349,
+   "heading": "Study Participation Data"
+  },
+  "p132.s1": {
+   "start": 26350,
+   "end": 26498,
+   "heading": "Study Participation Data"
+  },
+  "p133.s1": {
+   "start": 26499,
+   "end": 26710,
+   "heading": "Study Participation Data"
+  },
+  "p134.s1": {
+   "start": 26711,
+   "end": 26731,
+   "heading": "Legitimate Interests"
+  },
+  "p135.s1": {
+   "start": 26732,
+   "end": 26857,
+   "heading": "Legitimate Interests"
+  },
+  "p136.s1": {
+   "start": 26858,
+   "end": 26905,
+   "heading": "To create and administer your Anthropic account"
+  },
+  "p137.s1": {
+   "start": 26906,
+   "end": 26931,
+   "heading": "Identity and Contact Data"
+  },
+  "p138.s1": {
+   "start": 26932,
+   "end": 26951,
+   "heading": "Payment Information"
+  },
+  "p139.s1": {
+   "start": 26952,
+   "end": 26960,
+   "heading": "Feedback"
+  },
+  "p140.s1": {
+   "start": 26961,
+   "end": 26978,
+   "heading": "Verification Data"
+  },
+  "p141.s1": {
+   "start": 26979,
+   "end": 26987,
+   "heading": "Contract"
+  },
+  "p142.s1": {
+   "start": 26988,
+   "end": 27058,
+   "heading": "To facilitate payments for products and services provided by Anthropic"
+  },
+  "p143.s1": {
+   "start": 27059,
+   "end": 27084,
+   "heading": "Identity and Contact Data"
+  },
+  "p144.s1": {
+   "start": 27085,
+   "end": 27104,
+   "heading": "Payment Information"
+  },
+  "p145.s1": {
+   "start": 27105,
+   "end": 27113,
+   "heading": "Contract"
+  },
+  "p146.s1": {
+   "start": 27114,
+   "end": 27472,
+   "heading": "Contract"
+  },
+  "p147.s1": {
+   "start": 27473,
+   "end": 27498,
+   "heading": "Identity and Contact Data"
+  },
+  "p148.s1": {
+   "start": 27499,
+   "end": 27518,
+   "heading": "Payment Information"
+  },
+  "p149.s1": {
+   "start": 27519,
+   "end": 27537,
+   "heading": "Inputs and Outputs"
+  },
+  "p150.s1": {
+   "start": 27538,
+   "end": 27559,
+   "heading": "Technical Information"
+  },
+  "p151.s1": {
+   "start": 27560,
+   "end": 27577,
+   "heading": "Verification Data"
+  },
+  "p152.s1": {
+   "start": 27578,
+   "end": 27602,
+   "heading": "Study Participation Data"
+  },
+  "p153.s1": {
+   "start": 27603,
+   "end": 27686,
+   "heading": "Study Participation Data"
+  },
+  "p154.s1": {
+   "start": 27687,
+   "end": 27707,
+   "heading": "Legitimate interests"
+  },
+  "p155.s1": {
+   "start": 27708,
+   "end": 27724,
+   "heading": "Legal obligation"
+  },
+  "p156.s1": {
+   "start": 27725,
+   "end": 27740,
+   "heading": "Vital Interests"
+  },
+  "p157.s1": {
+   "start": 27741,
+   "end": 27917,
+   "heading": "Vital Interests"
+  },
+  "p157.s2": {
+   "start": 27918,
+   "end": 27968,
+   "heading": "Vital Interests"
+  },
+  "p158.s1": {
+   "start": 27969,
+   "end": 28004,
+   "heading": "To investigate and resolve disputes"
+  },
+  "p159.s1": {
+   "start": 28005,
+   "end": 28030,
+   "heading": "Identity and Contact Data"
+  },
+  "p160.s1": {
+   "start": 28031,
+   "end": 28050,
+   "heading": "Payment Information"
+  },
+  "p161.s1": {
+   "start": 28051,
+   "end": 28069,
+   "heading": "Inputs and Outputs"
+  },
+  "p162.s1": {
+   "start": 28070,
+   "end": 28078,
+   "heading": "Feedback"
+  },
+  "p163.s1": {
+   "start": 28079,
+   "end": 28100,
+   "heading": "Technical Information"
+  },
+  "p164.s1": {
+   "start": 28101,
+   "end": 28125,
+   "heading": "Study Participation Data"
+  },
+  "p165.s1": {
+   "start": 28126,
+   "end": 28151,
+   "heading": "Communication Information"
+  },
+  "p166.s1": {
+   "start": 28152,
+   "end": 28172,
+   "heading": "Legitimate interests"
+  },
+  "p167.s1": {
+   "start": 28173,
+   "end": 28189,
+   "heading": "Legal obligation"
+  },
+  "p168.s1": {
+   "start": 28190,
+   "end": 28341,
+   "heading": "Legal obligation"
+  },
+  "p168.s2": {
+   "start": 28342,
+   "end": 28388,
+   "heading": "Legal obligation"
+  },
+  "p169.s1": {
+   "start": 28389,
+   "end": 28431,
+   "heading": "To investigate and resolve security issues"
+  },
+  "p170.s1": {
+   "start": 28432,
+   "end": 28457,
+   "heading": "Identity and Contact Data"
+  },
+  "p171.s1": {
+   "start": 28458,
+   "end": 28477,
+   "heading": "Payment Information"
+  },
+  "p172.s1": {
+   "start": 28478,
+   "end": 28486,
+   "heading": "Feedback"
+  },
+  "p173.s1": {
+   "start": 28487,
+   "end": 28508,
+   "heading": "Technical Information"
+  },
+  "p174.s1": {
+   "start": 28509,
+   "end": 28527,
+   "heading": "Inputs and Outputs"
+  },
+  "p175.s1": {
+   "start": 28528,
+   "end": 28552,
+   "heading": "Study Participation Data"
+  },
+  "p176.s1": {
+   "start": 28553,
+   "end": 28578,
+   "heading": "Communication Information"
+  },
+  "p177.s1": {
+   "start": 28579,
+   "end": 28596,
+   "heading": "Verification Data"
+  },
+  "p178.s1": {
+   "start": 28597,
+   "end": 28613,
+   "heading": "Legal obligation"
+  },
+  "p179.s1": {
+   "start": 28614,
+   "end": 28634,
+   "heading": "Legitimate interests"
+  },
+  "p180.s1": {
+   "start": 28635,
+   "end": 28773,
+   "heading": "Legitimate interests"
+  },
+  "p180.s2": {
+   "start": 28774,
+   "end": 28846,
+   "heading": "Legitimate interests"
+  },
+  "p181.s1": {
+   "start": 28847,
+   "end": 28924,
+   "heading": "To debug and to identify and repair errors that impair existing functionality"
+  },
+  "p182.s1": {
+   "start": 28925,
+   "end": 28950,
+   "heading": "Identity and Contact Data"
+  },
+  "p183.s1": {
+   "start": 28951,
+   "end": 28959,
+   "heading": "Feedback"
+  },
+  "p184.s1": {
+   "start": 28960,
+   "end": 28981,
+   "heading": "Technical Information"
+  },
+  "p185.s1": {
+   "start": 28982,
+   "end": 29000,
+   "heading": "Inputs and Outputs"
+  },
+  "p186.s1": {
+   "start": 29001,
+   "end": 29021,
+   "heading": "Legitimate interests"
+  },
+  "p187.s1": {
+   "start": 29022,
+   "end": 29204,
+   "heading": "Legitimate interests"
+  },
+  "p188.s1": {
+   "start": 29205,
+   "end": 29276,
+   "heading": "To improve the Services and conduct research (excluding model training)"
+  },
+  "p189.s1": {
+   "start": 29277,
+   "end": 29302,
+   "heading": "Identity and Contact Data"
+  },
+  "p190.s1": {
+   "start": 29303,
+   "end": 29311,
+   "heading": "Feedback"
+  },
+  "p191.s1": {
+   "start": 29312,
+   "end": 29336,
+   "heading": "Study Participation Data"
+  },
+  "p192.s1": {
+   "start": 29337,
+   "end": 29358,
+   "heading": "Technical Information"
+  },
+  "p193.s1": {
+   "start": 29359,
+   "end": 29377,
+   "heading": "Inputs and Outputs"
+  },
+  "p194.s1": {
+   "start": 29378,
+   "end": 29397,
+   "heading": "Scientific Research"
+  },
+  "p195.s1": {
+   "start": 29398,
+   "end": 29418,
+   "heading": "Legitimate interests"
+  },
+  "p196.s1": {
+   "start": 29419,
+   "end": 29656,
+   "heading": "Legitimate interests"
+  },
+  "p196.s2": {
+   "start": 29657,
+   "end": 29903,
+   "heading": "Legitimate interests"
+  },
+  "p197.s1": {
+   "start": 29904,
+   "end": 29976,
+   "heading": "Legitimate interests"
+  },
+  "p198.s1": {
+   "start": 29977,
+   "end": 30104,
+   "heading": "Legitimate interests"
+  },
+  "p199.s1": {
+   "start": 30105,
+   "end": 30113,
+   "heading": "Feedback"
+  },
+  "p200.s1": {
+   "start": 30114,
+   "end": 30138,
+   "heading": "Study Participation Data"
+  },
+  "p201.s1": {
+   "start": 30139,
+   "end": 30157,
+   "heading": "Inputs and Outputs"
+  },
+  "p202.s1": {
+   "start": 30158,
+   "end": 30211,
+   "heading": "Data provided through the Development Partner Program"
+  },
+  "p203.s1": {
+   "start": 30212,
+   "end": 30231,
+   "heading": "Scientific Research"
+  },
+  "p204.s1": {
+   "start": 30232,
+   "end": 30239,
+   "heading": "Consent"
+  },
+  "p205.s1": {
+   "start": 30240,
+   "end": 30260,
+   "heading": "Legitimate interests"
+  },
+  "p206.s1": {
+   "start": 30261,
+   "end": 30498,
+   "heading": "Legitimate interests"
+  },
+  "p206.s2": {
+   "start": 30499,
+   "end": 30745,
+   "heading": "Legitimate interests"
+  },
+  "p207.s1": {
+   "start": 30746,
+   "end": 30839,
+   "heading": "Legitimate interests"
+  },
+  "p208.s1": {
+   "start": 30840,
+   "end": 30865,
+   "heading": "Identity and Contact Data"
+  },
+  "p209.s1": {
+   "start": 30866,
+   "end": 30884,
+   "heading": "Inputs and Outputs"
+  },
+  "p210.s1": {
+   "start": 30885,
+   "end": 30906,
+   "heading": "Technical Information"
+  },
+  "p211.s1": {
+   "start": 30907,
+   "end": 30931,
+   "heading": "Study Participation Data"
+  },
+  "p212.s1": {
+   "start": 30932,
+   "end": 30949,
+   "heading": "Verification Data"
+  },
+  "p213.s1": {
+   "start": 30950,
+   "end": 30958,
+   "heading": "Contract"
+  },
+  "p214.s1": {
+   "start": 30959,
+   "end": 30979,
+   "heading": "Legitimate interests"
+  },
+  "p215.s1": {
+   "start": 30980,
+   "end": 31094,
+   "heading": "Legitimate interests"
+  },
+  "p215.s2": {
+   "start": 31095,
+   "end": 31249,
+   "heading": "Legitimate interests"
+  },
+  "p215.s3": {
+   "start": 31250,
+   "end": 31292,
+   "heading": "Legitimate interests"
+  },
+  "p216.s1": {
+   "start": 31293,
+   "end": 31313,
+   "heading": "Use of personal data"
+  },
+  "p217.s1": {
+   "start": 31314,
+   "end": 31317,
+   "heading": "11. Regional Supplemental Disclosures"
+  },
+  "p217.s2": {
+   "start": 31318,
+   "end": 31351,
+   "heading": "11. Regional Supplemental Disclosures"
+  },
+  "p218.s1": {
+   "start": 31352,
+   "end": 31400,
+   "heading": "Supplemental Disclosures for Residents of Canada"
+  },
+  "p219.s1": {
+   "start": 31401,
+   "end": 31495,
+   "heading": "Supplemental Disclosures for Residents of Canada"
+  },
+  "p219.s2": {
+   "start": 31496,
+   "end": 31575,
+   "heading": "Supplemental Disclosures for Residents of Canada"
+  },
+  "p219.s3": {
+   "start": 31576,
+   "end": 31737,
+   "heading": "Supplemental Disclosures for Residents of Canada"
+  },
+  "p220.s1": {
+   "start": 31738,
+   "end": 31746,
+   "heading": "Supplemental Disclosures for Residents of Canada"
+  },
+  "p220.s2": {
+   "start": 31747,
+   "end": 32118,
+   "heading": "Supplemental Disclosures for Residents of Canada"
+  },
+  "p220.s3": {
+   "start": 32119,
+   "end": 32242,
+   "heading": "Supplemental Disclosures for Residents of Canada"
+  },
+  "p220.s4": {
+   "start": 32243,
+   "end": 32370,
+   "heading": "Supplemental Disclosures for Residents of Canada"
+  },
+  "p220.s5": {
+   "start": 32371,
+   "end": 32476,
+   "heading": "Supplemental Disclosures for Residents of Canada"
+  },
+  "p221.s1": {
+   "start": 32477,
+   "end": 32508,
+   "heading": "Supplemental Disclosures for Residents of Canada"
+  },
+  "p221.s2": {
+   "start": 32509,
+   "end": 32888,
+   "heading": "Supplemental Disclosures for Residents of Canada"
+  },
+  "p221.s3": {
+   "start": 32889,
+   "end": 33073,
+   "heading": "Supplemental Disclosures for Residents of Canada"
+  },
+  "p222.s1": {
+   "start": 33074,
+   "end": 33082,
+   "heading": "Supplemental Disclosures for Residents of Canada"
+  },
+  "p222.s2": {
+   "start": 33083,
+   "end": 33284,
+   "heading": "Supplemental Disclosures for Residents of Canada"
+  },
+  "p223.s1": {
+   "start": 33285,
+   "end": 33333,
+   "heading": "Supplemental Disclosures for Residents of Brazil"
+  },
+  "p224.s1": {
+   "start": 33334,
+   "end": 33428,
+   "heading": "Supplemental Disclosures for Residents of Brazil"
+  },
+  "p224.s2": {
+   "start": 33429,
+   "end": 33508,
+   "heading": "Supplemental Disclosures for Residents of Brazil"
+  },
+  "p224.s3": {
+   "start": 33509,
+   "end": 33670,
+   "heading": "Supplemental Disclosures for Residents of Brazil"
+  },
+  "p225.s1": {
+   "start": 33671,
+   "end": 33683,
+   "heading": "Supplemental Disclosures for Residents of Brazil"
+  },
+  "p225.s2": {
+   "start": 33684,
+   "end": 33896,
+   "heading": "Supplemental Disclosures for Residents of Brazil"
+  },
+  "p225.s3": {
+   "start": 33897,
+   "end": 34120,
+   "heading": "Supplemental Disclosures for Residents of Brazil"
+  },
+  "p226.s1": {
+   "start": 34121,
+   "end": 34143,
+   "heading": "Supplemental Disclosures for Residents of Brazil"
+  },
+  "p226.s2": {
+   "start": 34144,
+   "end": 34251,
+   "heading": "Supplemental Disclosures for Residents of Brazil"
+  },
+  "p226.s3": {
+   "start": 34252,
+   "end": 34349,
+   "heading": "Supplemental Disclosures for Residents of Brazil"
+  },
+  "p227.s1": {
+   "start": 34350,
+   "end": 34403,
+   "heading": "Supplemental Disclosures for Residents of Brazil"
+  },
+  "p227.s2": {
+   "start": 34404,
+   "end": 34490,
+   "heading": "Supplemental Disclosures for Residents of Brazil"
+  },
+  "p228.s1": {
+   "start": 34491,
+   "end": 34511,
+   "heading": "Supplemental Disclosures for Residents of Brazil"
+  },
+  "p228.s2": {
+   "start": 34512,
+   "end": 34588,
+   "heading": "Supplemental Disclosures for Residents of Brazil"
+  },
+  "p229.s1": {
+   "start": 34589,
+   "end": 34643,
+   "heading": "Supplemental Disclosures for Residents of Brazil"
+  },
+  "p229.s2": {
+   "start": 34644,
+   "end": 34746,
+   "heading": "Supplemental Disclosures for Residents of Brazil"
+  },
+  "p230.s1": {
+   "start": 34747,
+   "end": 34790,
+   "heading": "Supplemental Disclosures for Residents of Brazil"
+  },
+  "p230.s2": {
+   "start": 34791,
+   "end": 34961,
+   "heading": "Supplemental Disclosures for Residents of Brazil"
+  },
+  "p231.s1": {
+   "start": 34962,
+   "end": 35008,
+   "heading": "Supplemental Disclosures for Residents of Brazil"
+  },
+  "p231.s2": {
+   "start": 35009,
+   "end": 35137,
+   "heading": "Supplemental Disclosures for Residents of Brazil"
+  },
+  "p232.s1": {
+   "start": 35138,
+   "end": 35207,
+   "heading": "Supplemental Disclosures for Residents of Brazil"
+  },
+  "p232.s2": {
+   "start": 35208,
+   "end": 35317,
+   "heading": "Supplemental Disclosures for Residents of Brazil"
+  },
+  "p233.s1": {
+   "start": 35318,
+   "end": 35430,
+   "heading": "Supplemental Disclosures for Residents of Brazil"
+  },
+  "p234.s1": {
+   "start": 35431,
+   "end": 35458,
+   "heading": "Supplemental Disclosures for Residents of Brazil"
+  },
+  "p234.s2": {
+   "start": 35459,
+   "end": 35503,
+   "heading": "Supplemental Disclosures for Residents of Brazil"
+  },
+  "p234.s3": {
+   "start": 35504,
+   "end": 35554,
+   "heading": "Supplemental Disclosures for Residents of Brazil"
+  },
+  "p235.s1": {
+   "start": 35555,
+   "end": 35644,
+   "heading": "Supplemental Disclosures for Residents of Brazil"
+  },
+  "p236.s1": {
+   "start": 35645,
+   "end": 35743,
+   "heading": "Supplemental Disclosures for Residents of Brazil"
+  },
+  "p236.s2": {
+   "start": 35744,
+   "end": 36103,
+   "heading": "Supplemental Disclosures for Residents of Brazil"
+  },
+  "p237.s1": {
+   "start": 36104,
+   "end": 36133,
+   "heading": "Supplemental Disclosures for Residents of Brazil"
+  },
+  "p237.s2": {
+   "start": 36134,
+   "end": 36223,
+   "heading": "Supplemental Disclosures for Residents of Brazil"
+  },
+  "p237.s3": {
+   "start": 36224,
+   "end": 36473,
+   "heading": "Supplemental Disclosures for Residents of Brazil"
+  },
+  "p237.s4": {
+   "start": 36474,
+   "end": 36586,
+   "heading": "Supplemental Disclosures for Residents of Brazil"
+  },
+  "p237.s5": {
+   "start": 36587,
+   "end": 36768,
+   "heading": "Supplemental Disclosures for Residents of Brazil"
+  },
+  "p237.s6": {
+   "start": 36769,
+   "end": 36964,
+   "heading": "Supplemental Disclosures for Residents of Brazil"
+  },
+  "p237.s7": {
+   "start": 36965,
+   "end": 37012,
+   "heading": "Supplemental Disclosures for Residents of Brazil"
+  },
+  "p238.s1": {
+   "start": 37013,
+   "end": 37076,
+   "heading": "Supplemental Disclosures for Residents of the Republic of Korea"
+  },
+  "p239.s1": {
+   "start": 37077,
+   "end": 37245,
+   "heading": "Supplemental Disclosures for Residents of the Republic of Korea"
+  },
+  "p239.s2": {
+   "start": 37246,
+   "end": 37346,
+   "heading": "Supplemental Disclosures for Residents of the Republic of Korea"
+  },
+  "p239.s3": {
+   "start": 37347,
+   "end": 37480,
+   "heading": "Supplemental Disclosures for Residents of the Republic of Korea"
+  },
+  "p239.s4": {
+   "start": 37481,
+   "end": 37539,
+   "heading": "Supplemental Disclosures for Residents of the Republic of Korea"
+  },
+  "p240.s1": {
+   "start": 37540,
+   "end": 37591,
+   "heading": "Items of Personal Data Collected and Purpose of Use"
+  },
+  "p241.s1": {
+   "start": 37592,
+   "end": 37610,
+   "heading": "Items of Personal Data Collected and Purpose of Use"
+  },
+  "p241.s2": {
+   "start": 37611,
+   "end": 37688,
+   "heading": "Items of Personal Data Collected and Purpose of Use"
+  },
+  "p242.s1": {
+   "start": 37689,
+   "end": 37747,
+   "heading": "Purpose: Identity verification, Fraud and abuse monitoring"
+  },
+  "p243.s1": {
+   "start": 37748,
+   "end": 37840,
+   "heading": "Items of Data: Name, birthdate, sex, native-foreigner-code, and DI (duplication information)"
+  },
+  "p244.s1": {
+   "start": 37841,
+   "end": 37892,
+   "heading": "Period of retention and use: Until account deletion"
+  },
+  "p245.s1": {
+   "start": 37893,
+   "end": 37934,
+   "heading": "Delegation of Processing of Personal Data"
+  },
+  "p246.s1": {
+   "start": 37935,
+   "end": 38104,
+   "heading": "Delegation of Processing of Personal Data"
+  },
+  "p247.s1": {
+   "start": 38105,
+   "end": 38177,
+   "heading": "Korea Credit Bureau: Fraud and abuse detection and identity verification"
+  },
+  "p248.s1": {
+   "start": 38178,
+   "end": 38248,
+   "heading": "Kim & Chang: Assisting with the domestic representative related duties"
+  },
+  "p249.s1": {
+   "start": 38249,
+   "end": 38283,
+   "heading": "Overseas Transfer of Personal Data"
+  },
+  "p250.s1": {
+   "start": 38284,
+   "end": 38402,
+   "heading": "Overseas Transfer of Personal Data"
+  },
+  "p250.s2": {
+   "start": 38403,
+   "end": 38470,
+   "heading": "Overseas Transfer of Personal Data"
+  },
+  "p251.s1": {
+   "start": 38471,
+   "end": 38544,
+   "heading": "Recipient’s Name (Contact Information): Persona (privacy@withpersona.com)"
+  },
+  "p252.s1": {
+   "start": 38545,
+   "end": 38608,
+   "heading": "Country to which Personal Data to be Transferred: United States"
+  },
+  "p253.s1": {
+   "start": 38609,
+   "end": 38728,
+   "heading": "Country to which Personal Data to be Transferred: United States"
+  },
+  "p254.s1": {
+   "start": 38729,
+   "end": 38808,
+   "heading": "Recipient’s Purpose of Use: Fraud and abuse detection and identity verification"
+  },
+  "p255.s1": {
+   "start": 38809,
+   "end": 38858,
+   "heading": "Period of Retention and Use by Recipient: 3 years"
+  },
+  "p256.s1": {
+   "start": 38859,
+   "end": 38930,
+   "heading": "Legal Basis for Overseas Transfer: PIPA Article 28-8(1)(iii) delegation"
+  },
+  "p257.s1": {
+   "start": 38931,
+   "end": 39079,
+   "heading": "Legal Basis for Overseas Transfer: PIPA Article 28-8(1)(iii) delegation"
+  },
+  "p257.s2": {
+   "start": 39080,
+   "end": 39185,
+   "heading": "Legal Basis for Overseas Transfer: PIPA Article 28-8(1)(iii) delegation"
+  },
+  "p257.s3": {
+   "start": 39186,
+   "end": 39312,
+   "heading": "Legal Basis for Overseas Transfer: PIPA Article 28-8(1)(iii) delegation"
+  },
+  "p257.s4": {
+   "start": 39313,
+   "end": 39446,
+   "heading": "Legal Basis for Overseas Transfer: PIPA Article 28-8(1)(iii) delegation"
+  },
+  "p258.s1": {
+   "start": 39447,
+   "end": 39495,
+   "heading": "Domestic Representative in the Republic of Korea"
+  },
+  "p259.s1": {
+   "start": 39496,
+   "end": 39815,
+   "heading": "Domestic Representative in the Republic of Korea"
+  },
+  "p260.s1": {
+   "start": 39816,
+   "end": 39912,
+   "heading": "Entity Name and Representative: Anthropic Korea, Limited (Representative Patrick Azubike Ekeruo)"
+  },
+  "p261.s1": {
+   "start": 39913,
+   "end": 40000,
+   "heading": "Registered Address: (Yeoksam-dong), 41F, 152 Teheran-ro, Gangnam-gu, Seoul, South Korea"
+  },
+  "p262.s1": {
+   "start": 40001,
+   "end": 40026,
+   "heading": "Telephone: +82 2 734 0940"
+  },
+  "p263.s1": {
+   "start": 40027,
+   "end": 40064,
+   "heading": "Email: anthropic_privacy@kimchang.com"
+  }
+ },
+ "flags": {
+  "G1": {
+   "question": "What personal data does the company itself collect, and how broad is it?",
+   "search_log": {
+    "we collect": {
+     "regex": "\\bwe (?:may )?(?:collect|receive|obtain|gather|process)\\b",
+     "tier": "core",
+     "sentences_matched": 15
+    },
+    "information/data we collect": {
+     "regex": "\\b(?:information|data) (?:that )?we (?:collect|receive|obtain)\\b",
+     "tier": "core",
+     "sentences_matched": 2
+    },
+    "collected automatically": {
+     "regex": "\\bautomatically (?:collect|receive|log|record)|collected automatically\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "you provide": {
+     "regex": "\\b(?:you|users) (?:provide|submit|give|share|upload|enter)\\b",
+     "tier": "core",
+     "sentences_matched": 6
+    },
+    "location": {
+     "regex": "\\b(?:precise |approximate |geo-?)?location\\b|\\bgeolocation\\b|\\bGPS\\b",
+     "tier": "support",
+     "sentences_matched": 2
+    },
+    "device / identifiers": {
+     "regex": "\\bdevice (?:information|data|identifiers?|id)\\b|\\bIP address(?:es)?\\b|\\badvertising (?:id|identifier)s?\\b|\\bIMEI\\b",
+     "tier": "support",
+     "sentences_matched": 1
+    },
+    "content / messages": {
+     "regex": "\\b(?:content|messages?|prompts?|inputs?|uploads?|files|photos|voice|audio|recordings?)\\b",
+     "tier": "support",
+     "sentences_matched": 35
+    },
+    "contacts": {
+     "regex": "\\bcontacts?(?: list| book)?\\b|\\baddress book\\b",
+     "tier": "support",
+     "sentences_matched": 24
+    },
+    "sensitive / biometric / financial": {
+     "regex": "\\bsensitive\\b|\\bbiometric\\b|\\bhealth\\b|\\bfinancial (?:information|data)\\b|\\bcard (?:number|details)\\b|\\bbank account\\b|\\bKYC\\b|\\bAadhaar\\b|\\bPAN\\b",
+     "tier": "support",
+     "sentences_matched": 5
+    },
+    "from other sources": {
+     "regex": "\\b(?:from|via) (?:third[- ]part(?:y|ies)|other sources|partners|data brokers|publicly available sources)\\b",
+     "tier": "support",
+     "sentences_matched": 4
+    },
+    "usage / log data": {
+     "regex": "\\b(?:usage|log|activity|interaction) (?:data|information)\\b|\\blog files?\\b",
+     "tier": "support",
+     "sentences_matched": 3
+    }
+   },
+   "n_candidates": 24,
+   "candidates": [
+    {
+     "sid": "p015.s1",
+     "heading": "Personal data you provide to us directly",
+     "core": [
+      "we collect",
+      "you provide"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p019.s1",
+     "heading": "Personal data we receive automatically from your use of the Services",
+     "core": [
+      "we collect",
+      "information/data we collect"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p025.s1",
+     "heading": "Personal data we collect or receive to train our models",
+     "core": [
+      "we collect",
+      "information/data we collect"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p013.s2",
+     "heading": "Personal data you provide to us directly",
+     "core": [
+      "you provide"
+     ],
+     "support": [
+      "content / messages",
+      "from other sources"
+     ],
+     "score": 5
+    },
+    {
+     "sid": "p016.s1",
+     "heading": "Personal data you provide to us directly",
+     "core": [
+      "we collect"
+     ],
+     "support": [
+      "content / messages",
+      "contacts"
+     ],
+     "score": 5
+    },
+    {
+     "sid": "p022.s1",
+     "heading": "Personal data we receive automatically from your use of the Services",
+     "core": [
+      "we collect"
+     ],
+     "support": [
+      "content / messages",
+      "usage / log data"
+     ],
+     "score": 5
+    },
+    {
+     "sid": "p003.s2",
+     "heading": "01Collection of Personal Data",
+     "core": [
+      "we collect"
+     ],
+     "support": [
+      "content / messages"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p018.s1",
+     "heading": "Personal data you provide to us directly",
+     "core": [
+      "you provide"
+     ],
+     "support": [
+      "content / messages"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p023.s3",
+     "heading": "Personal data we receive automatically from your use of the Services",
+     "core": [
+      "we collect"
+     ],
+     "support": [
+      "content / messages"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p090.s1",
+     "heading": "Aggregated or De-Identified Information",
+     "core": [
+      "you provide"
+     ],
+     "support": [
+      "content / messages"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p003.s1",
+     "heading": "01Collection of Personal Data",
+     "core": [
+      "we collect"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p009.s1",
+     "heading": "1. Collection of Personal Data",
+     "core": [
+      "we collect"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p010.s1",
+     "heading": "Personal data you provide to us directly",
+     "core": [
+      "you provide"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p023.s1",
+     "heading": "Personal data we receive automatically from your use of the Services",
+     "core": [
+      "we collect"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p028.s1",
+     "heading": "Datasets that we obtain through commercial agreements with third party businesses",
+     "core": [
+      "we collect"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p033.s1",
+     "heading": "Data that we generate internally",
+     "core": [
+      "we collect"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p060.s4",
+     "heading": "3. Recipients and Third-Party Data Sources",
+     "core": [
+      "you provide"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p067.s2",
+     "heading": "4. Rights and Choices",
+     "core": [
+      "we collect"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p089.s2",
+     "heading": "Aggregated or De-Identified Information",
+     "core": [
+      "we collect"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p241.s2",
+     "heading": "Items of Personal Data Collected and Purpose of Use",
+     "core": [
+      "we collect"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p021.s2",
+     "heading": "Personal data we receive automatically from your use of the Services",
+     "core": [],
+     "support": [
+      "location",
+      "device / identifiers"
+     ],
+     "score": 2
+    },
+    {
+     "sid": "p023.s2",
+     "heading": "Personal data we receive automatically from your use of the Services",
+     "core": [],
+     "support": [
+      "content / messages",
+      "usage / log data"
+     ],
+     "score": 2
+    },
+    {
+     "sid": "p058.s1",
+     "heading": "3. Recipients and Third-Party Data Sources",
+     "core": [],
+     "support": [
+      "content / messages",
+      "from other sources"
+     ],
+     "score": 2
+    },
+    {
+     "sid": "p124.s1",
+     "heading": "Consent (for example for precise device location or for health app integrations)",
+     "core": [],
+     "support": [
+      "location",
+      "sensitive / biometric / financial"
+     ],
+     "score": 2
+    }
+   ]
+  },
+  "G2": {
+   "question": "Does the company sell personal data, or share it with / let third parties collect it for advertising, marketing or cross-site tracking?",
+   "search_log": {
+    "advertis*": {
+     "regex": "\\badvertis(?:e|er|ers|ing|ement|ements)\\b|\\bads\\b",
+     "tier": "core",
+     "sentences_matched": 2
+    },
+    "targeted / interest-based / behavioural ads": {
+     "regex": "\\b(?:targeted|interest[- ]based|personali[sz]ed|behaviou?ral|cross[- ]context(?:ual)?)(?: behaviou?ral)? (?:advertising|ads|marketing)\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "sell / sale of data": {
+     "regex": "\\b(?:sell|sells|selling|sold|sale)\\b",
+     "tier": "core",
+     "sentences_matched": 2
+    },
+    "pixel / SDK / tracking tech": {
+     "regex": "\\bpixels?\\b|\\bSDKs?\\b|\\bweb beacons?\\b|\\btracking (?:technolog(?:y|ies)|tools?)\\b|\\btrackers?\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "ad / marketing partners": {
+     "regex": "\\b(?:advertising|ad|marketing) (?:partners?|networks?|platforms?|companies)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "opt-out of sale/ads / GPC": {
+     "regex": "\\bdo not sell\\b|\\bglobal privacy control\\b|\\bopt[- ]out of (?:the )?(?:sale|sharing|targeted|personali[sz]ed|interest)",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "cookies": {
+     "regex": "\\bcookies?\\b",
+     "tier": "support",
+     "sentences_matched": 2
+    },
+    "analytics provider": {
+     "regex": "\\banalytics (?:providers?|partners?|services|tools)\\b|\\bGoogle Analytics\\b",
+     "tier": "support",
+     "sentences_matched": 0
+    },
+    "share with third parties": {
+     "regex": "\\bshare\\b.{0,40}\\bthird[- ]part(?:y|ies)\\b|\\bthird[- ]part(?:y|ies)\\b.{0,40}\\b(?:share|disclose|collect)",
+     "tier": "support",
+     "sentences_matched": 1
+    },
+    "marketing": {
+     "regex": "\\bmarketing\\b|\\bpromotional\\b",
+     "tier": "support",
+     "sentences_matched": 4
+    }
+   },
+   "n_candidates": 4,
+   "candidates": [
+    {
+     "sid": "p077.s2",
+     "heading": "4. Rights and Choices",
+     "core": [
+      "advertis*",
+      "targeted / interest-based / behavioural ads",
+      "opt-out of sale/ads / GPC"
+     ],
+     "support": [],
+     "score": 9
+    },
+    {
+     "sid": "p077.s1",
+     "heading": "4. Rights and Choices",
+     "core": [
+      "sell / sale of data"
+     ],
+     "support": [
+      "marketing"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p021.s2",
+     "heading": "Personal data we receive automatically from your use of the Services",
+     "core": [
+      "advertis*"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p097.s1",
+     "heading": "7. Children",
+     "core": [
+      "sell / sale of data"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "G3": {
+   "question": "Does the company build profiles or inferences about users, or make automated decisions about them?",
+   "search_log": {
+    "profiling": {
+     "regex": "\\bprofil(?:e|es|ing)\\b",
+     "tier": "core",
+     "sentences_matched": 2
+    },
+    "automated decision": {
+     "regex": "\\bautomated (?:decision|decision-making|processing|means|systems?)\\b",
+     "tier": "core",
+     "sentences_matched": 2
+    },
+    "infer / inference": {
+     "regex": "\\binfer(?:s|red|ring|ences?)?\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "legal or similarly significant": {
+     "regex": "\\blegal (?:or similarly significant )?effects?\\b|\\bsimilarly significant\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "scoring": {
+     "regex": "\\b(?:risk|credit|fraud) (?:scor(?:e|es|ing)|assessment)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "personalise / recommend": {
+     "regex": "\\bpersonali[sz](?:e|es|ed|ing|ation)\\b|\\brecommend(?:ation|ations|s|ed)?\\b|\\btailor(?:ed)?\\b|\\bcustomi[sz]e\\b",
+     "tier": "support",
+     "sentences_matched": 3
+    },
+    "interests / preferences / segments": {
+     "regex": "\\b(?:interests?|preferences|segments?|demographics?)\\b",
+     "tier": "support",
+     "sentences_matched": 24
+    },
+    "predict / analyse behaviour": {
+     "regex": "\\bpredict(?:ive|ions?)?\\b|\\banaly[sz]e?(?:s|d)? (?:your )?(?:behaviou?r|usage|activity)\\b",
+     "tier": "support",
+     "sentences_matched": 0
+    }
+   },
+   "n_candidates": 5,
+   "candidates": [
+    {
+     "sid": "p076.s1",
+     "heading": "4. Rights and Choices",
+     "core": [
+      "profiling",
+      "automated decision",
+      "legal or similarly significant"
+     ],
+     "support": [],
+     "score": 9
+    },
+    {
+     "sid": "p073.s1",
+     "heading": "4. Rights and Choices",
+     "core": [
+      "profiling"
+     ],
+     "support": [
+      "interests / preferences / segments"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p235.s1",
+     "heading": "Supplemental Disclosures for Residents of Brazil",
+     "core": [
+      "automated decision"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p038.s1",
+     "heading": "2. Uses of Personal Data Permitted Under Applicable Data Protection Laws",
+     "core": [],
+     "support": [
+      "personalise / recommend",
+      "interests / preferences / segments"
+     ],
+     "score": 2
+    },
+    {
+     "sid": "p127.s1",
+     "heading": "Legitimate interests",
+     "core": [],
+     "support": [
+      "personalise / recommend",
+      "interests / preferences / segments"
+     ],
+     "score": 2
+    }
+   ]
+  },
+  "G4": {
+   "question": "How specific is the policy about how long personal data is kept?",
+   "search_log": {
+    "retain / retention": {
+     "regex": "\\bretain(?:s|ed|ing)?\\b|\\bretention\\b",
+     "tier": "core",
+     "sentences_matched": 6
+    },
+    "keep / store for": {
+     "regex": "\\b(?:keep|kept|store|stored|hold)\\b.{0,60}\\b(?:for|until|as long as|period)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "as long as necessary": {
+     "regex": "\\bas long as (?:is )?(?:necessary|needed|required|reasonably)\\b|\\bno longer (?:than|necessary|needed)\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "numeric period": {
+     "regex": "\\b\\d+\\s*(?:-\\s*)?(?:days?|weeks?|months?|years?)\\b|\\b(?:thirty|sixty|ninety|one|two|three|five|six|seven|ten|twelve|eighteen|twenty-four)\\s+(?:days?|months?|years?)\\b",
+     "tier": "core",
+     "sentences_matched": 3
+    },
+    "indefinitely": {
+     "regex": "\\bindefinite(?:ly)?\\b|\\bpermanently\\b|\\bforever\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "delete after / deletion": {
+     "regex": "\\b(?:delete|deleted|deletion|erase|purge|dispose)\\b",
+     "tier": "support",
+     "sentences_matched": 5
+    },
+    "legal obligation": {
+     "regex": "\\b(?:legal|statutory|regulatory) (?:obligations?|requirements?|purposes)\\b|\\brequired by (?:applicable )?law\\b",
+     "tier": "support",
+     "sentences_matched": 9
+    }
+   },
+   "n_candidates": 8,
+   "candidates": [
+    {
+     "sid": "p086.s1",
+     "heading": "6. Data Retention, Data Lifecycle, and Security Controls",
+     "core": [
+      "retain / retention",
+      "as long as necessary"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p255.s1",
+     "heading": "Period of Retention and Use by Recipient: 3 years",
+     "core": [
+      "retain / retention",
+      "numeric period"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p236.s2",
+     "heading": "Supplemental Disclosures for Residents of Brazil",
+     "core": [
+      "retain / retention"
+     ],
+     "support": [
+      "delete after / deletion",
+      "legal obligation"
+     ],
+     "score": 5
+    },
+    {
+     "sid": "p071.s2",
+     "heading": "4. Rights and Choices",
+     "core": [
+      "numeric period"
+     ],
+     "support": [
+      "delete after / deletion"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p244.s1",
+     "heading": "Period of retention and use: Until account deletion",
+     "core": [
+      "retain / retention"
+     ],
+     "support": [
+      "delete after / deletion"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p068.s2",
+     "heading": "4. Rights and Choices",
+     "core": [
+      "numeric period"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p072.s1",
+     "heading": "4. Rights and Choices",
+     "core": [
+      "retain / retention"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p085.s2",
+     "heading": "6. Data Retention, Data Lifecycle, and Security Controls",
+     "core": [
+      "retain / retention"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "G5": {
+   "question": "What rights do users have to access, correct and delete their data, and for whom?",
+   "search_log": {
+    "right to / your rights": {
+     "regex": "\\bright(?:s)? (?:to|of)\\b|\\byour (?:privacy )?rights\\b|\\bdata subject\\b|\\bdata principal\\b",
+     "tier": "core",
+     "sentences_matched": 31
+    },
+    "access": {
+     "regex": "\\baccess (?:to )?(?:your|the) (?:personal )?(?:data|information)\\b|\\brequest (?:a copy|access)\\b",
+     "tier": "core",
+     "sentences_matched": 2
+    },
+    "correct / rectify / update": {
+     "regex": "\\b(?:correct|correction|rectif(?:y|ication)|update|amend)\\b",
+     "tier": "core",
+     "sentences_matched": 7
+    },
+    "delete / erase": {
+     "regex": "\\b(?:delete|deletion|erase|erasure|right to be forgotten)\\b",
+     "tier": "core",
+     "sentences_matched": 7
+    },
+    "portability / export": {
+     "regex": "\\bportab(?:le|ility)\\b|\\bexport (?:your )?data\\b|\\bdownload (?:your|a copy)\\b",
+     "tier": "core",
+     "sentences_matched": 3
+    },
+    "object / restrict": {
+     "regex": "\\bobject(?:ion)? to\\b|\\brestrict(?:ion)? (?:of )?(?:the )?processing\\b",
+     "tier": "support",
+     "sentences_matched": 1
+    },
+    "nominate (DPDP)": {
+     "regex": "\\bnominat(?:e|ion)\\b",
+     "tier": "support",
+     "sentences_matched": 0
+    },
+    "jurisdiction limits": {
+     "regex": "\\b(?:EEA|European|UK|California|residents? of|depending on where you live|applicable law)\\b",
+     "tier": "support",
+     "sentences_matched": 21
+    }
+   },
+   "n_candidates": 43,
+   "candidates": [
+    {
+     "sid": "p070.s1",
+     "heading": "4. Rights and Choices",
+     "core": [
+      "right to / your rights",
+      "access",
+      "portability / export"
+     ],
+     "support": [],
+     "score": 9
+    },
+    {
+     "sid": "p071.s1",
+     "heading": "4. Rights and Choices",
+     "core": [
+      "right to / your rights",
+      "delete / erase"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p072.s1",
+     "heading": "4. Rights and Choices",
+     "core": [
+      "right to / your rights",
+      "correct / rectify / update"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p229.s2",
+     "heading": "Supplemental Disclosures for Residents of Brazil",
+     "core": [
+      "right to / your rights",
+      "correct / rectify / update"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p230.s2",
+     "heading": "Supplemental Disclosures for Residents of Brazil",
+     "core": [
+      "right to / your rights",
+      "delete / erase"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p231.s2",
+     "heading": "Supplemental Disclosures for Residents of Brazil",
+     "core": [
+      "right to / your rights",
+      "portability / export"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p070.s2",
+     "heading": "4. Rights and Choices",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [
+      "jurisdiction limits"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p073.s1",
+     "heading": "4. Rights and Choices",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [
+      "object / restrict"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p106.s3",
+     "heading": "9. Contact Information",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [
+      "jurisdiction limits"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p226.s3",
+     "heading": "Supplemental Disclosures for Residents of Brazil",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [
+      "jurisdiction limits"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p005.s1",
+     "heading": "01Collection of Personal Data",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p005.s2",
+     "heading": "01Collection of Personal Data",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p041.s1",
+     "heading": "2. Uses of Personal Data Permitted Under Applicable Data Protection Laws",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p061.s1",
+     "heading": "3. Recipients and Third-Party Data Sources",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p067.s1",
+     "heading": "4. Rights and Choices",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p067.s3",
+     "heading": "4. Rights and Choices",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p068.s4",
+     "heading": "4. Rights and Choices",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p069.s1",
+     "heading": "4. Rights and Choices",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p071.s2",
+     "heading": "4. Rights and Choices",
+     "core": [
+      "delete / erase"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p072.s3",
+     "heading": "4. Rights and Choices",
+     "core": [
+      "correct / rectify / update"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p074.s1",
+     "heading": "4. Rights and Choices",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p075.s1",
+     "heading": "4. Rights and Choices",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p097.s3",
+     "heading": "7. Children",
+     "core": [
+      "delete / erase"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p099.s1",
+     "heading": "8. Changes to Our Privacy Policy",
+     "core": [
+      "correct / rectify / update"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p099.s2",
+     "heading": "8. Changes to Our Privacy Policy",
+     "core": [
+      "correct / rectify / update"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p106.s1",
+     "heading": "9. Contact Information",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p106.s4",
+     "heading": "9. Contact Information",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p106.s5",
+     "heading": "9. Contact Information",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p146.s1",
+     "heading": "Contract",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p187.s1",
+     "heading": "Legitimate interests",
+     "core": [
+      "correct / rectify / update"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p222.s2",
+     "heading": "Supplemental Disclosures for Residents of Canada",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p226.s1",
+     "heading": "Supplemental Disclosures for Residents of Brazil",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p227.s2",
+     "heading": "Supplemental Disclosures for Residents of Brazil",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p228.s1",
+     "heading": "Supplemental Disclosures for Residents of Brazil",
+     "core": [
+      "access"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p228.s2",
+     "heading": "Supplemental Disclosures for Residents of Brazil",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p229.s1",
+     "heading": "Supplemental Disclosures for Residents of Brazil",
+     "core": [
+      "correct / rectify / update"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p230.s1",
+     "heading": "Supplemental Disclosures for Residents of Brazil",
+     "core": [
+      "delete / erase"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p231.s1",
+     "heading": "Supplemental Disclosures for Residents of Brazil",
+     "core": [
+      "portability / export"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p232.s2",
+     "heading": "Supplemental Disclosures for Residents of Brazil",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p234.s2",
+     "heading": "Supplemental Disclosures for Residents of Brazil",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p236.s2",
+     "heading": "Supplemental Disclosures for Residents of Brazil",
+     "core": [
+      "delete / erase"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p244.s1",
+     "heading": "Period of retention and use: Until account deletion",
+     "core": [
+      "delete / erase"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p257.s2",
+     "heading": "Legal Basis for Overseas Transfer: PIPA Article 28-8(1)(iii) delegation",
+     "core": [
+      "right to / your rights"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "G6": {
+   "question": "Is personal data transferred to or stored in other countries, and are safeguards named?",
+   "search_log": {
+    "transfer": {
+     "regex": "\\btransfer(?:s|red|ring)?\\b",
+     "tier": "core",
+     "sentences_matched": 25
+    },
+    "cross-border / international": {
+     "regex": "\\bcross[- ]border\\b|\\binternational(?:ly)?\\b|\\bglobal(?:ly)?\\b|\\bother countries\\b|\\boutside (?:of )?(?:your|the|India)\\b",
+     "tier": "core",
+     "sentences_matched": 12
+    },
+    "stored / processed in a country": {
+     "regex": "\\b(?:stored|processed|hosted|located)\\b.{0,40}\\b(?:in|outside) (?:the )?(?:United States|U\\.S\\.|US|India|EU|Europe|Singapore|China|countr(?:y|ies))\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "safeguard mechanisms": {
+     "regex": "\\bstandard contractual clauses\\b|\\bSCCs?\\b|\\badequacy\\b|\\bData Privacy Framework\\b|\\bbinding corporate rules\\b|\\bappropriate safeguards\\b",
+     "tier": "core",
+     "sentences_matched": 8
+    },
+    "localisation": {
+     "regex": "\\blocali[sz](?:ation|ed)\\b|\\bstored (?:only |exclusively )?(?:in|within) India\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "servers": {
+     "regex": "\\bservers?\\b|\\bdata cent(?:er|re)s?\\b",
+     "tier": "support",
+     "sentences_matched": 1
+    },
+    "jurisdiction": {
+     "regex": "\\bjurisdictions?\\b|\\bdata protection laws?\\b",
+     "tier": "support",
+     "sentences_matched": 10
+    }
+   },
+   "n_candidates": 32,
+   "candidates": [
+    {
+     "sid": "p237.s3",
+     "heading": "Supplemental Disclosures for Residents of Brazil",
+     "core": [
+      "transfer",
+      "cross-border / international",
+      "stored / processed in a country"
+     ],
+     "support": [
+      "jurisdiction"
+     ],
+     "score": 10
+    },
+    {
+     "sid": "p083.s1",
+     "heading": "5. Data Transfers",
+     "core": [
+      "transfer",
+      "cross-border / international",
+      "safeguard mechanisms"
+     ],
+     "support": [],
+     "score": 9
+    },
+    {
+     "sid": "p080.s1",
+     "heading": "5. Data Transfers",
+     "core": [
+      "transfer",
+      "cross-border / international"
+     ],
+     "support": [
+      "servers"
+     ],
+     "score": 7
+    },
+    {
+     "sid": "p237.s6",
+     "heading": "Supplemental Disclosures for Residents of Brazil",
+     "core": [
+      "transfer",
+      "safeguard mechanisms"
+     ],
+     "support": [
+      "jurisdiction"
+     ],
+     "score": 7
+    },
+    {
+     "sid": "p081.s1",
+     "heading": "5. Data Transfers",
+     "core": [
+      "transfer",
+      "cross-border / international"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p082.s1",
+     "heading": "5. Data Transfers",
+     "core": [
+      "cross-border / international",
+      "safeguard mechanisms"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p082.s2",
+     "heading": "5. Data Transfers",
+     "core": [
+      "transfer",
+      "safeguard mechanisms"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p083.s3",
+     "heading": "5. Data Transfers",
+     "core": [
+      "transfer",
+      "safeguard mechanisms"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p084.s2",
+     "heading": "5. Data Transfers",
+     "core": [
+      "transfer",
+      "cross-border / international"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p237.s1",
+     "heading": "Supplemental Disclosures for Residents of Brazil",
+     "core": [
+      "transfer",
+      "cross-border / international"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p237.s4",
+     "heading": "Supplemental Disclosures for Residents of Brazil",
+     "core": [
+      "transfer",
+      "cross-border / international"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p237.s5",
+     "heading": "Supplemental Disclosures for Residents of Brazil",
+     "core": [
+      "transfer",
+      "safeguard mechanisms"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p084.s1",
+     "heading": "5. Data Transfers",
+     "core": [
+      "transfer"
+     ],
+     "support": [
+      "jurisdiction"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p221.s2",
+     "heading": "Supplemental Disclosures for Residents of Canada",
+     "core": [
+      "transfer"
+     ],
+     "support": [
+      "jurisdiction"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p013.s5",
+     "heading": "Personal data you provide to us directly",
+     "core": [
+      "cross-border / international"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p055.s1",
+     "heading": "3. Recipients and Third-Party Data Sources",
+     "core": [
+      "transfer"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p077.s2",
+     "heading": "4. Rights and Choices",
+     "core": [
+      "cross-border / international"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p079.s2",
+     "heading": "5. Data Transfers",
+     "core": [
+      "transfer"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p080.s2",
+     "heading": "5. Data Transfers",
+     "core": [
+      "transfer"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p080.s3",
+     "heading": "5. Data Transfers",
+     "core": [
+      "transfer"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p083.s2",
+     "heading": "5. Data Transfers",
+     "core": [
+      "safeguard mechanisms"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p101.s2",
+     "heading": "9. Contact Information",
+     "core": [
+      "cross-border / international"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p215.s1",
+     "heading": "Legitimate interests",
+     "core": [
+      "cross-border / international"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p221.s1",
+     "heading": "Supplemental Disclosures for Residents of Canada",
+     "core": [
+      "transfer"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p237.s7",
+     "heading": "Supplemental Disclosures for Residents of Brazil",
+     "core": [
+      "safeguard mechanisms"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p249.s1",
+     "heading": "Overseas Transfer of Personal Data",
+     "core": [
+      "transfer"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p250.s2",
+     "heading": "Overseas Transfer of Personal Data",
+     "core": [
+      "transfer"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p252.s1",
+     "heading": "Country to which Personal Data to be Transferred: United States",
+     "core": [
+      "transfer"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p253.s1",
+     "heading": "Country to which Personal Data to be Transferred: United States",
+     "core": [
+      "transfer"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p256.s1",
+     "heading": "Legal Basis for Overseas Transfer: PIPA Article 28-8(1)(iii) delegation",
+     "core": [
+      "transfer"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p257.s1",
+     "heading": "Legal Basis for Overseas Transfer: PIPA Article 28-8(1)(iii) delegation",
+     "core": [
+      "transfer"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p257.s2",
+     "heading": "Legal Basis for Overseas Transfer: PIPA Article 28-8(1)(iii) delegation",
+     "core": [
+      "transfer"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "G7": {
+   "question": "What does the policy say about children and minors, and what age threshold and safeguards apply?",
+   "search_log": {
+    "child / children / minor": {
+     "regex": "\\bchild(?:ren)?(?:'s)?\\b|\\bminors?\\b|\\bkids?\\b|\\bteens?(?:agers?)?\\b|\\byouth\\b|\\byoung (?:people|users)\\b",
+     "tier": "core",
+     "sentences_matched": 4
+    },
+    "age threshold": {
+     "regex": "\\bunder (?:the age of )?\\d{1,2}\\b|\\b\\d{1,2} years? (?:of age|old)\\b|\\bage of (?:majority|\\d{1,2})\\b|\\bminimum age\\b|\\bage requirement\\b",
+     "tier": "core",
+     "sentences_matched": 2
+    },
+    "parent / guardian / consent": {
+     "regex": "\\bparent(?:s|al)?\\b|\\bguardians?\\b|\\bverifiable (?:parental )?consent\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "COPPA / age verification": {
+     "regex": "\\bCOPPA\\b|\\bage (?:verification|assurance|estimation|gate)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "knowingly collect": {
+     "regex": "\\bknowingly\\b",
+     "tier": "support",
+     "sentences_matched": 1
+    }
+   },
+   "n_candidates": 4,
+   "candidates": [
+    {
+     "sid": "p097.s1",
+     "heading": "7. Children",
+     "core": [
+      "child / children / minor",
+      "age threshold"
+     ],
+     "support": [
+      "knowingly collect"
+     ],
+     "score": 7
+    },
+    {
+     "sid": "p097.s3",
+     "heading": "7. Children",
+     "core": [
+      "child / children / minor",
+      "age threshold"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p096.s2",
+     "heading": "7. Children",
+     "core": [
+      "child / children / minor"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p097.s2",
+     "heading": "7. Children",
+     "core": [
+      "child / children / minor"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "AI1": {
+   "question": "Does the company use users' personal data or content to train or improve AI / machine-learning models?",
+   "search_log": {
+    "train / training": {
+     "regex": "\\btrain(?:s|ed|ing)?\\b",
+     "tier": "core",
+     "sentences_matched": 15
+    },
+    "model(s)": {
+     "regex": "\\b(?:AI |machine[- ]learning |language |foundation |our )?models?\\b",
+     "tier": "core",
+     "sentences_matched": 18
+    },
+    "machine learning": {
+     "regex": "\\bmachine[- ]learning\\b|\\bML\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "artificial intelligence / AI": {
+     "regex": "\\bartificial intelligence\\b|\\bAI\\b|\\bgenerative\\b|\\bLLMs?\\b|\\blarge language\\b",
+     "tier": "core",
+     "sentences_matched": 12
+    },
+    "improve / develop services": {
+     "regex": "\\b(?:improve|develop|enhance|build)\\b.{0,30}\\b(?:services?|products?|features?|technolog(?:y|ies)|systems?|algorithms?)\\b",
+     "tier": "support",
+     "sentences_matched": 4
+    },
+    "content / inputs / outputs": {
+     "regex": "\\b(?:content|inputs?|outputs?|prompts?|conversations?|chats?|messages?|posts?|feedback)\\b",
+     "tier": "support",
+     "sentences_matched": 47
+    },
+    "research": {
+     "regex": "\\bresearch\\b",
+     "tier": "support",
+     "sentences_matched": 14
+    }
+   },
+   "n_candidates": 22,
+   "candidates": [
+    {
+     "sid": "p045.s1",
+     "heading": "2. Uses of Personal Data Permitted Under Applicable Data Protection Laws",
+     "core": [
+      "train / training",
+      "model(s)",
+      "artificial intelligence / AI"
+     ],
+     "support": [
+      "improve / develop services",
+      "research"
+     ],
+     "score": 11
+    },
+    {
+     "sid": "p089.s2",
+     "heading": "Aggregated or De-Identified Information",
+     "core": [
+      "train / training",
+      "model(s)",
+      "artificial intelligence / AI"
+     ],
+     "support": [
+      "improve / develop services",
+      "research"
+     ],
+     "score": 11
+    },
+    {
+     "sid": "p047.s1",
+     "heading": "2. Uses of Personal Data Permitted Under Applicable Data Protection Laws",
+     "core": [
+      "train / training",
+      "model(s)",
+      "artificial intelligence / AI"
+     ],
+     "support": [
+      "content / inputs / outputs"
+     ],
+     "score": 10
+    },
+    {
+     "sid": "p091.s1",
+     "heading": "Aggregated or De-Identified Information",
+     "core": [
+      "train / training",
+      "model(s)",
+      "artificial intelligence / AI"
+     ],
+     "support": [
+      "content / inputs / outputs"
+     ],
+     "score": 10
+    },
+    {
+     "sid": "p004.s1",
+     "heading": "01Collection of Personal Data",
+     "core": [
+      "train / training",
+      "model(s)",
+      "artificial intelligence / AI"
+     ],
+     "support": [],
+     "score": 9
+    },
+    {
+     "sid": "p047.s2",
+     "heading": "2. Uses of Personal Data Permitted Under Applicable Data Protection Laws",
+     "core": [
+      "model(s)",
+      "artificial intelligence / AI"
+     ],
+     "support": [
+      "content / inputs / outputs",
+      "research"
+     ],
+     "score": 8
+    },
+    {
+     "sid": "p188.s1",
+     "heading": "To improve the Services and conduct research (excluding model training)",
+     "core": [
+      "train / training",
+      "model(s)"
+     ],
+     "support": [
+      "improve / develop services",
+      "research"
+     ],
+     "score": 8
+    },
+    {
+     "sid": "p197.s1",
+     "heading": "Legitimate interests",
+     "core": [
+      "train / training",
+      "model(s)"
+     ],
+     "support": [
+      "improve / develop services",
+      "research"
+     ],
+     "score": 8
+    },
+    {
+     "sid": "p072.s3",
+     "heading": "4. Rights and Choices",
+     "core": [
+      "model(s)",
+      "artificial intelligence / AI"
+     ],
+     "support": [
+      "content / inputs / outputs"
+     ],
+     "score": 7
+    },
+    {
+     "sid": "p080.s1",
+     "heading": "5. Data Transfers",
+     "core": [
+      "train / training",
+      "model(s)"
+     ],
+     "support": [
+      "research"
+     ],
+     "score": 7
+    },
+    {
+     "sid": "p090.s1",
+     "heading": "Aggregated or De-Identified Information",
+     "core": [
+      "train / training",
+      "model(s)"
+     ],
+     "support": [
+      "content / inputs / outputs"
+     ],
+     "score": 7
+    },
+    {
+     "sid": "p196.s2",
+     "heading": "Legitimate interests",
+     "core": [
+      "model(s)",
+      "artificial intelligence / AI"
+     ],
+     "support": [
+      "research"
+     ],
+     "score": 7
+    },
+    {
+     "sid": "p206.s2",
+     "heading": "Legitimate interests",
+     "core": [
+      "model(s)",
+      "artificial intelligence / AI"
+     ],
+     "support": [
+      "research"
+     ],
+     "score": 7
+    },
+    {
+     "sid": "p025.s1",
+     "heading": "Personal data we collect or receive to train our models",
+     "core": [
+      "train / training",
+      "model(s)"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p026.s1",
+     "heading": "Personal data we collect or receive to train our models",
+     "core": [
+      "train / training",
+      "model(s)"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p026.s2",
+     "heading": "Personal data we collect or receive to train our models",
+     "core": [
+      "train / training",
+      "model(s)"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p033.s1",
+     "heading": "Data that we generate internally",
+     "core": [
+      "train / training",
+      "model(s)"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p198.s1",
+     "heading": "Legitimate interests",
+     "core": [
+      "train / training",
+      "model(s)"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p002.s1",
+     "heading": "01Collection of Personal Data",
+     "core": [
+      "artificial intelligence / AI"
+     ],
+     "support": [
+      "research"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p062.s1",
+     "heading": "3. Recipients and Third-Party Data Sources",
+     "core": [
+      "artificial intelligence / AI"
+     ],
+     "support": [
+      "research"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p003.s1",
+     "heading": "01Collection of Personal Data",
+     "core": [
+      "artificial intelligence / AI"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p066.s2",
+     "heading": "4. Rights and Choices",
+     "core": [
+      "train / training"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "AI2": {
+   "question": "If personal data is used for AI training, can the user stop it, and how?",
+   "search_log": {
+    "opt out": {
+     "regex": "\\bopt(?:[- ])?out\\b|\\bopt(?:[- ])?in\\b",
+     "tier": "core",
+     "sentences_matched": 6
+    },
+    "turn off / disable": {
+     "regex": "\\bturn(?:ing)? off\\b|\\bdisabl(?:e|ed|ing)\\b|\\btoggle\\b|\\bswitch off\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "choose whether / your choices": {
+     "regex": "\\bchoose (?:whether|if|not to|to stop)\\b|\\byour choices?\\b|\\bcontrol (?:whether|how)\\b|\\b(?:stop|prevent)\\b.{0,40}\\b(?:used|using)\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "settings / controls": {
+     "regex": "\\b(?:privacy |data |account )?(?:settings|controls?|preferences)\\b|\\bdashboard\\b",
+     "tier": "support",
+     "sentences_matched": 9
+    },
+    "train / model (co-occurrence)": {
+     "regex": "\\btrain(?:s|ed|ing)?\\b|\\bmodels?\\b|\\bimprove the model\\b",
+     "tier": "support",
+     "sentences_matched": 19
+    },
+    "object / request": {
+     "regex": "\\bobject(?:ion)?\\b|\\bsubmit a request\\b|\\bprivacy (?:portal|request)\\b|\\bcontact us\\b",
+     "tier": "support",
+     "sentences_matched": 8
+    }
+   },
+   "n_candidates": 8,
+   "candidates": [
+    {
+     "sid": "p047.s1",
+     "heading": "2. Uses of Personal Data Permitted Under Applicable Data Protection Laws",
+     "core": [
+      "opt out"
+     ],
+     "support": [
+      "settings / controls",
+      "train / model (co-occurrence)"
+     ],
+     "score": 5
+    },
+    {
+     "sid": "p024.s3",
+     "heading": "Personal data we receive automatically from your use of the Services",
+     "core": [
+      "opt out"
+     ],
+     "support": [
+      "settings / controls"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p033.s1",
+     "heading": "Data that we generate internally",
+     "core": [
+      "choose whether / your choices"
+     ],
+     "support": [
+      "train / model (co-occurrence)"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p047.s2",
+     "heading": "2. Uses of Personal Data Permitted Under Applicable Data Protection Laws",
+     "core": [
+      "opt out"
+     ],
+     "support": [
+      "train / model (co-occurrence)"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p059.s1",
+     "heading": "3. Recipients and Third-Party Data Sources",
+     "core": [
+      "turn off / disable"
+     ],
+     "support": [
+      "settings / controls"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p073.s3",
+     "heading": "4. Rights and Choices",
+     "core": [
+      "opt out"
+     ],
+     "support": [
+      "object / request"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p077.s2",
+     "heading": "4. Rights and Choices",
+     "core": [
+      "opt out"
+     ],
+     "support": [
+      "settings / controls"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p029.s1",
+     "heading": "Datasets that we obtain through commercial agreements with third party businesses",
+     "core": [
+      "opt out"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "AI3": {
+   "question": "Can people (employees, contractors, reviewers) read or review users' content?",
+   "search_log": {
+    "human review": {
+     "regex": "\\bhuman (?:review(?:ers?)?|reviewed|oversight|moderators?)\\b|\\bmanual(?:ly)? review(?:ed)?\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "reviewers / annotators / moderators": {
+     "regex": "\\breviewers?\\b|\\bannotators?\\b|\\bmoderat(?:ors?|ion)\\b|\\bcrowd ?workers?\\b|\\braters?\\b",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "staff may access / review content": {
+     "regex": "\\b(?:employees|personnel|staff|contractors|team members|authori[sz]ed (?:personnel|staff|employees))\\b.{0,60}\\b(?:access|review|read|view|see)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "review content / conversations": {
+     "regex": "\\breview(?:s|ed|ing)?\\b.{0,40}\\b(?:content|conversations?|chats?|messages?|inputs?|prompts?|recordings?)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "we may access / review / monitor content": {
+     "regex": "\\bwe (?:may |might |can )?(?:access|review|monitor|read|inspect|view|listen to)\\b.{0,50}\\b(?:content|communications?|conversations?|chats?|messages?|recordings?|files|inputs?)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "flagged / safety / abuse": {
+     "regex": "\\bflagged\\b|\\b(?:trust and )?safety\\b|\\babuse\\b|\\bmisuse\\b|\\bviolat(?:e|es|ion|ions)\\b",
+     "tier": "support",
+     "sentences_matched": 17
+    },
+    "support / feedback": {
+     "regex": "\\bfeedback\\b|\\bsupport (?:requests?|tickets?)\\b|\\bcustomer support\\b",
+     "tier": "support",
+     "sentences_matched": 14
+    }
+   },
+   "n_candidates": 2,
+   "candidates": [
+    {
+     "sid": "p029.s1",
+     "heading": "Datasets that we obtain through commercial agreements with third party businesses",
+     "core": [
+      "reviewers / annotators / moderators"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p047.s2",
+     "heading": "2. Uses of Personal Data Permitted Under Applicable Data Protection Laws",
+     "core": [],
+     "support": [
+      "flagged / safety / abuse",
+      "support / feedback"
+     ],
+     "score": 2
+    }
+   ]
+  },
+  "AI4": {
+   "question": "Does the policy let the company keep, use or share de-identified or aggregated data, and for what?",
+   "search_log": {
+    "de-identified": {
+     "regex": "\\bde-?identif(?:y|ied|ies|ication)\\b",
+     "tier": "core",
+     "sentences_matched": 5
+    },
+    "anonymised": {
+     "regex": "\\banonymi[sz](?:e|ed|es|ation)\\b|\\banonymous\\b",
+     "tier": "core",
+     "sentences_matched": 5
+    },
+    "aggregated": {
+     "regex": "\\baggregat(?:e|ed|es|ion)\\b",
+     "tier": "core",
+     "sentences_matched": 6
+    },
+    "pseudonymised": {
+     "regex": "\\bpseudonymi[sz](?:e|ed|ation)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "no longer identifies": {
+     "regex": "\\b(?:no longer|cannot reasonably|not reasonably) (?:be used to )?identif(?:y|ies)\\b|\\bnon-?personal (?:data|information)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "share / any purpose": {
+     "regex": "\\bany (?:lawful )?purpose\\b|\\bshare\\b|\\bthird[- ]part(?:y|ies)\\b|\\bresearch\\b|\\bimprove\\b",
+     "tier": "support",
+     "sentences_matched": 51
+    }
+   },
+   "n_candidates": 11,
+   "candidates": [
+    {
+     "sid": "p062.s1",
+     "heading": "3. Recipients and Third-Party Data Sources",
+     "core": [
+      "de-identified",
+      "anonymised",
+      "aggregated"
+     ],
+     "support": [
+      "share / any purpose"
+     ],
+     "score": 10
+    },
+    {
+     "sid": "p089.s2",
+     "heading": "Aggregated or De-Identified Information",
+     "core": [
+      "de-identified",
+      "aggregated"
+     ],
+     "support": [
+      "share / any purpose"
+     ],
+     "score": 7
+    },
+    {
+     "sid": "p088.s1",
+     "heading": "Aggregated or De-Identified Information",
+     "core": [
+      "de-identified",
+      "aggregated"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p089.s1",
+     "heading": "Aggregated or De-Identified Information",
+     "core": [
+      "de-identified",
+      "aggregated"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p092.s1",
+     "heading": "Aggregated or De-Identified Information",
+     "core": [
+      "aggregated"
+     ],
+     "support": [
+      "share / any purpose"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p015.s2",
+     "heading": "Personal data you provide to us directly",
+     "core": [
+      "aggregated"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p087.s1",
+     "heading": "6. Data Retention, Data Lifecycle, and Security Controls",
+     "core": [
+      "anonymised"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p093.s1",
+     "heading": "Aggregated or De-Identified Information",
+     "core": [
+      "de-identified"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p230.s1",
+     "heading": "Supplemental Disclosures for Residents of Brazil",
+     "core": [
+      "anonymised"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p230.s2",
+     "heading": "Supplemental Disclosures for Residents of Brazil",
+     "core": [
+      "anonymised"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p236.s2",
+     "heading": "Supplemental Disclosures for Residents of Brazil",
+     "core": [
+      "anonymised"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "AI5": {
+   "question": "Is user content sent to external AI / model providers, or licensed to others for AI training?",
+   "search_log": {
+    "AI / model providers": {
+     "regex": "\\b(?:AI|model|LLM|machine[- ]learning|artificial intelligence) (?:providers?|vendors?|partners?|services?|companies|developers?)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "named AI vendors": {
+     "regex": "\\bOpenAI\\b|\\bChatGPT\\b|\\bAnthropic\\b|\\bClaude\\b|\\bGemini\\b|\\bGoogle AI\\b|\\bAzure OpenAI\\b|\\bLlama\\b|\\bMistral\\b|\\bxAI\\b|\\bGrok\\b|\\bPerplexity\\b|\\bDeepSeek\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "third-party AI / models": {
+     "regex": "\\bthird[- ]party (?:AI|models?|LLMs?|artificial intelligence)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "integrations / connectors / plugins": {
+     "regex": "\\b(?:integrations?|connectors?|plug-?ins?|MCP|GPTs|extensions|(?<!user )agents?)\\b",
+     "tier": "core",
+     "sentences_matched": 8
+    },
+    "license content / data licensing": {
+     "regex": "\\blicen[cs](?:e|es|ing)\\b.{0,60}\\b(?:content|data)\\b|\\bdata licensing\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "sub-processors / service providers": {
+     "regex": "\\bsub-?processors?\\b|\\bservice providers?\\b|\\bvendors?\\b",
+     "tier": "support",
+     "sentences_matched": 5
+    },
+    "AI features": {
+     "regex": "\\bAI(?:-powered)? (?:features?|tools?|assistants?)\\b|\\bgenerative\\b",
+     "tier": "support",
+     "sentences_matched": 1
+    }
+   },
+   "n_candidates": 8,
+   "candidates": [
+    {
+     "sid": "p056.s1",
+     "heading": "3. Recipients and Third-Party Data Sources",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p059.s1",
+     "heading": "3. Recipients and Third-Party Data Sources",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p060.s2",
+     "heading": "3. Recipients and Third-Party Data Sources",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p060.s3",
+     "heading": "3. Recipients and Third-Party Data Sources",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p060.s5",
+     "heading": "3. Recipients and Third-Party Data Sources",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p067.s1",
+     "heading": "4. Rights and Choices",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p075.s2",
+     "heading": "4. Rights and Choices",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p124.s1",
+     "heading": "Consent (for example for precise device location or for health app integrations)",
+     "core": [
+      "integrations / connectors / plugins"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "DPDP1": {
+   "question": "How does the policy obtain consent: an explicit affirmative action, a general agreement, or browsewrap ('by using you agree')?",
+   "search_log": {
+    "by using / visiting you agree": {
+     "regex": "\\bby (?:using|visiting|accessing|downloading|browsing|continuing|registering|signing up|providing)\\b.{0,120}\\b(?:agree|consent|accept|acknowledge)\\w*",
+     "tier": "core",
+     "sentences_matched": 1
+    },
+    "consent": {
+     "regex": "\\bconsent(?:s|ed|ing)?\\b",
+     "tier": "core",
+     "sentences_matched": 16
+    },
+    "agree / accept": {
+     "regex": "\\b(?:you )?(?:agree|accept|acknowledge)(?:s|d)?\\b",
+     "tier": "core",
+     "sentences_matched": 2
+    },
+    "DPDP / Indian law": {
+     "regex": "\\bDigital Personal Data Protection\\b|\\bDPDP(?:A)?\\b|\\bIT Act\\b|\\bSPDI\\b|\\bInformation Technology\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "legal basis": {
+     "regex": "\\blegal bas(?:is|es)\\b|\\blegitimate interests?\\b|\\bperformance of (?:a|the) contract\\b",
+     "tier": "core",
+     "sentences_matched": 25
+    },
+    "notice / checkbox / sign-up": {
+     "regex": "\\bnotice\\b|\\bcheck ?box\\b|\\bsign[- ]?up\\b|\\bregistration\\b|\\bclick(?:ing)?\\b",
+     "tier": "support",
+     "sentences_matched": 4
+    },
+    "explicit / affirmative / freely": {
+     "regex": "\\bexplicit(?:ly)?\\b|\\baffirmative\\b|\\bfreely\\b|\\bunambiguous\\b|\\binformed\\b",
+     "tier": "support",
+     "sentences_matched": 2
+    }
+   },
+   "n_candidates": 43,
+   "candidates": [
+    {
+     "sid": "p221.s2",
+     "heading": "Supplemental Disclosures for Residents of Canada",
+     "core": [
+      "by using / visiting you agree",
+      "agree / accept"
+     ],
+     "support": [],
+     "score": 6
+    },
+    {
+     "sid": "p220.s5",
+     "heading": "Supplemental Disclosures for Residents of Canada",
+     "core": [
+      "consent"
+     ],
+     "support": [
+      "notice / checkbox / sign-up"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p048.s1",
+     "heading": "2. Uses of Personal Data Permitted Under Applicable Data Protection Laws",
+     "core": [
+      "legal basis"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p063.s1",
+     "heading": "3. Recipients and Third-Party Data Sources",
+     "core": [
+      "consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p073.s1",
+     "heading": "4. Rights and Choices",
+     "core": [
+      "legal basis"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p075.s1",
+     "heading": "4. Rights and Choices",
+     "core": [
+      "consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p075.s2",
+     "heading": "4. Rights and Choices",
+     "core": [
+      "consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p075.s3",
+     "heading": "4. Rights and Choices",
+     "core": [
+      "consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p107.s2",
+     "heading": "10. Legal Bases for Processing",
+     "core": [
+      "legal basis"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p110.s1",
+     "heading": "Legal Basis",
+     "core": [
+      "legal basis"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p124.s1",
+     "heading": "Consent (for example for precise device location or for health app integrations)",
+     "core": [
+      "consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p125.s1",
+     "heading": "Legitimate interests",
+     "core": [
+      "legal basis"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p126.s1",
+     "heading": "Legitimate interests",
+     "core": [
+      "legal basis"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p133.s1",
+     "heading": "Study Participation Data",
+     "core": [
+      "consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p134.s1",
+     "heading": "Legitimate Interests",
+     "core": [
+      "legal basis"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p135.s1",
+     "heading": "Legitimate Interests",
+     "core": [
+      "legal basis"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p153.s1",
+     "heading": "Study Participation Data",
+     "core": [
+      "consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p154.s1",
+     "heading": "Legitimate interests",
+     "core": [
+      "legal basis"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p157.s1",
+     "heading": "Vital Interests",
+     "core": [
+      "legal basis"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p166.s1",
+     "heading": "Legitimate interests",
+     "core": [
+      "legal basis"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p168.s1",
+     "heading": "Legal obligation",
+     "core": [
+      "legal basis"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p179.s1",
+     "heading": "Legitimate interests",
+     "core": [
+      "legal basis"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p180.s1",
+     "heading": "Legitimate interests",
+     "core": [
+      "legal basis"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p186.s1",
+     "heading": "Legitimate interests",
+     "core": [
+      "legal basis"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p187.s1",
+     "heading": "Legitimate interests",
+     "core": [
+      "legal basis"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p195.s1",
+     "heading": "Legitimate interests",
+     "core": [
+      "legal basis"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p196.s1",
+     "heading": "Legitimate interests",
+     "core": [
+      "legal basis"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p204.s1",
+     "heading": "Consent",
+     "core": [
+      "consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p205.s1",
+     "heading": "Legitimate interests",
+     "core": [
+      "legal basis"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p206.s1",
+     "heading": "Legitimate interests",
+     "core": [
+      "legal basis"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p214.s1",
+     "heading": "Legitimate interests",
+     "core": [
+      "legal basis"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p215.s1",
+     "heading": "Legitimate interests",
+     "core": [
+      "legal basis"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p215.s2",
+     "heading": "Legitimate interests",
+     "core": [
+      "legal basis"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p220.s1",
+     "heading": "Supplemental Disclosures for Residents of Canada",
+     "core": [
+      "consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p220.s2",
+     "heading": "Supplemental Disclosures for Residents of Canada",
+     "core": [
+      "consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p220.s3",
+     "heading": "Supplemental Disclosures for Residents of Canada",
+     "core": [
+      "consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p220.s4",
+     "heading": "Supplemental Disclosures for Residents of Canada",
+     "core": [
+      "consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p225.s1",
+     "heading": "Supplemental Disclosures for Residents of Brazil",
+     "core": [
+      "legal basis"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p233.s1",
+     "heading": "Supplemental Disclosures for Residents of Brazil",
+     "core": [
+      "consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p234.s1",
+     "heading": "Supplemental Disclosures for Residents of Brazil",
+     "core": [
+      "consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p234.s2",
+     "heading": "Supplemental Disclosures for Residents of Brazil",
+     "core": [
+      "consent"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p237.s2",
+     "heading": "Supplemental Disclosures for Residents of Brazil",
+     "core": [
+      "agree / accept"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p256.s1",
+     "heading": "Legal Basis for Overseas Transfer: PIPA Article 28-8(1)(iii) delegation",
+     "core": [
+      "legal basis"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "DPDP2": {
+   "question": "Can users withdraw consent, and is it as easy as giving it?",
+   "search_log": {
+    "withdraw / revoke consent": {
+     "regex": "\\bwithdraw(?:s|n|al|ing)?\\b|\\brevok(?:e|es|ed|ing)\\b|\\brevocation\\b",
+     "tier": "core",
+     "sentences_matched": 6
+    },
+    "consent manager": {
+     "regex": "\\bconsent manager\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "opt out / unsubscribe": {
+     "regex": "\\bopt(?:[- ])?out\\b|\\bunsubscrib(?:e|ing)\\b",
+     "tier": "core",
+     "sentences_matched": 6
+    },
+    "settings / dashboard": {
+     "regex": "\\bsettings\\b|\\bdashboard\\b|\\bpreferences\\b|\\bpreference cent(?:er|re)\\b|\\btoggle\\b",
+     "tier": "support",
+     "sentences_matched": 4
+    },
+    "contact / email to withdraw": {
+     "regex": "\\b(?:email|write to|contact)\\b",
+     "tier": "support",
+     "sentences_matched": 28
+    },
+    "delete account": {
+     "regex": "\\b(?:delete|deactivate|close) (?:your )?account\\b",
+     "tier": "support",
+     "sentences_matched": 0
+    },
+    "consent (co-occurrence)": {
+     "regex": "\\bconsent\\b",
+     "tier": "support",
+     "sentences_matched": 16
+    }
+   },
+   "n_candidates": 13,
+   "candidates": [
+    {
+     "sid": "p075.s2",
+     "heading": "4. Rights and Choices",
+     "core": [
+      "withdraw / revoke consent"
+     ],
+     "support": [
+      "settings / dashboard",
+      "consent (co-occurrence)"
+     ],
+     "score": 5
+    },
+    {
+     "sid": "p047.s1",
+     "heading": "2. Uses of Personal Data Permitted Under Applicable Data Protection Laws",
+     "core": [
+      "opt out / unsubscribe"
+     ],
+     "support": [
+      "settings / dashboard"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p075.s1",
+     "heading": "4. Rights and Choices",
+     "core": [
+      "withdraw / revoke consent"
+     ],
+     "support": [
+      "consent (co-occurrence)"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p075.s3",
+     "heading": "4. Rights and Choices",
+     "core": [
+      "withdraw / revoke consent"
+     ],
+     "support": [
+      "consent (co-occurrence)"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p220.s5",
+     "heading": "Supplemental Disclosures for Residents of Canada",
+     "core": [
+      "withdraw / revoke consent"
+     ],
+     "support": [
+      "consent (co-occurrence)"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p234.s1",
+     "heading": "Supplemental Disclosures for Residents of Brazil",
+     "core": [
+      "withdraw / revoke consent"
+     ],
+     "support": [
+      "consent (co-occurrence)"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p234.s2",
+     "heading": "Supplemental Disclosures for Residents of Brazil",
+     "core": [
+      "withdraw / revoke consent"
+     ],
+     "support": [
+      "consent (co-occurrence)"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p024.s3",
+     "heading": "Personal data we receive automatically from your use of the Services",
+     "core": [
+      "opt out / unsubscribe"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p029.s1",
+     "heading": "Datasets that we obtain through commercial agreements with third party businesses",
+     "core": [
+      "opt out / unsubscribe"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p047.s2",
+     "heading": "2. Uses of Personal Data Permitted Under Applicable Data Protection Laws",
+     "core": [
+      "opt out / unsubscribe"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p073.s3",
+     "heading": "4. Rights and Choices",
+     "core": [
+      "opt out / unsubscribe"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p077.s2",
+     "heading": "4. Rights and Choices",
+     "core": [
+      "opt out / unsubscribe"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p133.s1",
+     "heading": "Study Participation Data",
+     "core": [],
+     "support": [
+      "contact / email to withdraw",
+      "consent (co-occurrence)"
+     ],
+     "score": 2
+    }
+   ]
+  },
+  "DPDP3": {
+   "question": "Does the policy publish a Grievance Officer or Data Protection Officer with contact details?",
+   "search_log": {
+    "grievance officer": {
+     "regex": "\\bgrievance(?:s)?\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "data protection officer / DPO": {
+     "regex": "\\bdata protection officer\\b|\\bDPO\\b|\\bprivacy officer\\b|\\bnodal officer\\b",
+     "tier": "core",
+     "sentences_matched": 2
+    },
+    "email address": {
+     "regex": "[\\w.+-]+@[\\w-]+\\.[\\w.]+",
+     "tier": "core",
+     "sentences_matched": 7
+    },
+    "Data Protection Board / complaint": {
+     "regex": "\\bData Protection Board\\b|\\b(?:lodge|file|make) a complaint\\b|\\bsupervisory authority\\b",
+     "tier": "core",
+     "sentences_matched": 5
+    },
+    "contact us": {
+     "regex": "\\bcontact us\\b|\\bhow to contact\\b|\\bpostal address\\b|\\baddress\\b",
+     "tier": "support",
+     "sentences_matched": 11
+    },
+    "officer / named person": {
+     "regex": "\\bofficer\\b|\\bMr\\.?\\b|\\bMs\\.?\\b",
+     "tier": "support",
+     "sentences_matched": 2
+    }
+   },
+   "n_candidates": 12,
+   "candidates": [
+    {
+     "sid": "p105.s1",
+     "heading": "9. Contact Information",
+     "core": [
+      "data protection officer / DPO",
+      "email address"
+     ],
+     "support": [
+      "officer / named person"
+     ],
+     "score": 7
+    },
+    {
+     "sid": "p257.s3",
+     "heading": "Legal Basis for Overseas Transfer: PIPA Article 28-8(1)(iii) delegation",
+     "core": [
+      "data protection officer / DPO",
+      "email address"
+     ],
+     "support": [
+      "officer / named person"
+     ],
+     "score": 7
+    },
+    {
+     "sid": "p222.s2",
+     "heading": "Supplemental Disclosures for Residents of Canada",
+     "core": [
+      "email address"
+     ],
+     "support": [
+      "contact us"
+     ],
+     "score": 4
+    },
+    {
+     "sid": "p068.s4",
+     "heading": "4. Rights and Choices",
+     "core": [
+      "email address"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p097.s3",
+     "heading": "7. Children",
+     "core": [
+      "email address"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p106.s1",
+     "heading": "9. Contact Information",
+     "core": [
+      "Data Protection Board / complaint"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p106.s3",
+     "heading": "9. Contact Information",
+     "core": [
+      "Data Protection Board / complaint"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p106.s4",
+     "heading": "9. Contact Information",
+     "core": [
+      "Data Protection Board / complaint"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p106.s5",
+     "heading": "9. Contact Information",
+     "core": [
+      "Data Protection Board / complaint"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p237.s6",
+     "heading": "Supplemental Disclosures for Residents of Brazil",
+     "core": [
+      "Data Protection Board / complaint"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p251.s1",
+     "heading": "Recipient’s Name (Contact Information): Persona (privacy@withpersona.com)",
+     "core": [
+      "email address"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p263.s1",
+     "heading": "Email: anthropic_privacy@kimchang.com",
+     "core": [
+      "email address"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  },
+  "DPDP4": {
+   "question": "Is the notice offered in Indian languages (Eighth Schedule) besides English? Record which languages.",
+   "search_log": {
+    "Eighth Schedule": {
+     "regex": "\\beighth schedule\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "language(s) / translation": {
+     "regex": "\\blanguages?\\b|\\btranslat(?:e|ed|ion|ions)\\b|\\bvernacular\\b|\\bregional\\b",
+     "tier": "core",
+     "sentences_matched": 5
+    },
+    "Indian language names (English)": {
+     "regex": "\\b(?:Hindi|Bengali|Bangla|Tamil|Telugu|Marathi|Gujarati|Kannada|Malayalam|Odia|Oriya|Punjabi|Assamese|Urdu|Konkani|Manipuri|Nepali|Sanskrit|Sindhi|Kashmiri|Maithili|Santali|Dogri|Bodo)\\b",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "Indian language names (native script)": {
+     "regex": "हिन्दी|हिंदी|বাংলা|தமிழ்|తెలుగు|मराठी|ગુજરાતી|ಕನ್ನಡ|മലയാളം|ଓଡ଼ିଆ|ਪੰਜਾਬੀ|অসমীয়া|اردو",
+     "tier": "core",
+     "sentences_matched": 0
+    },
+    "English": {
+     "regex": "\\bEnglish\\b",
+     "tier": "support",
+     "sentences_matched": 0
+    }
+   },
+   "n_candidates": 5,
+   "candidates": [
+    {
+     "sid": "p004.s1",
+     "heading": "01Collection of Personal Data",
+     "core": [
+      "language(s) / translation"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p006.s1",
+     "heading": "01Collection of Personal Data",
+     "core": [
+      "language(s) / translation"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p033.s1",
+     "heading": "Data that we generate internally",
+     "core": [
+      "language(s) / translation"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p072.s3",
+     "heading": "4. Rights and Choices",
+     "core": [
+      "language(s) / translation"
+     ],
+     "support": [],
+     "score": 3
+    },
+    {
+     "sid": "p217.s2",
+     "heading": "11. Regional Supplemental Disclosures",
+     "core": [
+      "language(s) / translation"
+     ],
+     "support": [],
+     "score": 3
+    }
+   ]
+  }
+ }
+}

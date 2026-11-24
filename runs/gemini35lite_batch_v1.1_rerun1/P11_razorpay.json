@@ -1,0 +1,935 @@
+{
+ "policy_id": "P11",
+ "policy_name": "razorpay",
+ "scope": "all_users",
+ "mode": "batch",
+ "text_sha256": "8c5d095bc8c19a8d9f1222e0e6bbd77832c93a8b6609df94428ac8c742bcb8c0",
+ "n_sentences": 142,
+ "batch_calls": [
+  {
+   "attempt": 1,
+   "flags": [
+    "G1",
+    "G2",
+    "G3",
+    "G4",
+    "G5",
+    "G6",
+    "G7",
+    "AI1",
+    "AI2",
+    "AI4",
+    "AI5",
+    "DPDP1",
+    "DPDP2",
+    "DPDP3"
+   ],
+   "cached": false,
+   "n_sentences": 99,
+   "raw": "{\n  \"answers\": [\n    {\n      \"flag\": \"G1\",\n      \"presence\": \"Present\",\n      \"state\": \"ED\",\n      \"evidence\": [\n        {\n          \"id\": \"p020.s2\",\n          \"quote\": \"We may collect and store your Sensitive Personal Data or Information—such as financial information, including credit card details, debit card details, bank account information, and Know Your Customer (\\\"KYC\\\") documents\"\n        },\n        {\n          \"id\": \"p033.s1\",\n          \"quote\": \"We record information relating to your use of Razorpay, such as the searches you undertake, the pages you view, your browser type, IP address, location, requested URL, referring URL, and timestamp information.\"\n        }\n      ],\n      \"rationale\": \"The company collects personal information beyond basic details, including financial data, KYC documents, location, device, and usage information.\"\n    },\n    {\n      \"flag\": \"G2\",\n      \"presence\": \"Present\",\n      \"state\": \"CD\",\n      \"evidence\": [\n        {\n          \"id\": \"p038.s2\",\n          \"quote\": \"These third parties may also use information about your visits to Razorpay and other websites to target advertisements for Razorpay's products and services.\"\n        },\n        {\n          \"id\": \"p039.s1\",\n          \"quote\": \"Razorpay users can opt out of sharing this information with third parties by disabling or blocking cookies; the process varies by browser.\"\n        }\n      ],\n      \"rationale\": \"The policy discloses that third parties use visit information to target ads, but allows users to opt out by disabling or blocking cookies.\"\n    },\n    {\n      \"flag\": \"G3\",\n      \"presence\": \"Absent\",\n      \"state\": null,\n      \"evidence\": [],\n      \"rationale\": \"The provided sentences do not describe profiling, inferences, or automated decision-making processes.\"\n    },\n    {\n      \"flag\": \"G4\",\n      \"presence\": \"Present\",\n      \"state\": \"CD\",\n      \"evidence\": [\n        {\n          \"id\": \"p018.s2\",\n          \"quote\": \"Logs are retained for a period of 12 months unless or otherwise stated by law.\"\n        }\n      ],\n      \"rationale\": \"The policy provides a specific retention period for logs, but otherwise relies on general or purpose-based retention for user content.\"\n    },\n    {\n      \"flag\": \"G5\",\n      \"presence\": \"Present\",\n      \"state\": \"ED\",\n      \"evidence\": [\n        {\n          \"id\": \"p062.s1\",\n          \"quote\": \"You have the right to access, correct, update, and withdraw consent in relation to your Personal Data, in accordance with the Digital Personal Data Protection Act, 2023.\"\n        }\n      ],\n      \"rationale\": \"Users are explicitly granted rights to access, correct, and update their personal data.\"\n    },\n    {\n      \"flag\": \"G6\",\n      \"presence\": \"Present\",\n      \"state\": \"ED\",\n      \"evidence\": [\n        {\n          \"id\": \"p051.s1\",\n          \"quote\": \"We will not transfer personal data to any country prohibited by Government notification.\"\n        }\n      ],\n      \"rationale\": \"The policy mentions restrictions on international transfers without specifying adequacy decisions, standard contractual clauses, or other required safeguards.\"\n    },\n    {\n      \"flag\": \"G7\",\n      \"presence\": \"Absent\",\n      \"state\": null,\n      \"evidence\": [],\n      \"rationale\": \"The provided sentences do not mention children, minors, or any associated age thresholds and safeguards.\"\n    },\n    {\n      \"flag\": \"AI1\",\n      \"presence\": \"Absent\",\n      \"state\": null,\n      \"evidence\": [],\n      \"rationale\": \"The sentences mention AI interactions and platform connectors but do not state that user personal data or content is used to train AI models.\"\n    },\n    {\n      \"flag\": \"AI2\",\n      \"presence\": \"Absent\",\n      \"state\": null,\n      \"evidence\": [],\n      \"rationale\": \"Since training on user data is not established, no AI training opt-out control is described.\"\n    },\n    {\n      \"flag\": \"AI4\",\n      \"presence\": \"Present\",\n      \"state\": \"ED\",\n      \"evidence\": [\n        {\n          \"id\": \"p046.s1\",\n          \"quote\": \"We may disclose aggregate information relating to user behavior to third parties in connection with actual or prospective business relationships, such as advertisers and content distributors.\"\n        }\n      ],\n      \"rationale\": \"The company discloses that aggregate information may be shared with third parties such as advertisers.\"\n    },\n    {\n      \"flag\": \"AI5\",\n      \"presence\": \"Present\",\n      \"state\": \"CD\",\n      \"evidence\": [\n        {\n          \"id\": \"p029.s1\",\n          \"quote\": \"When you choose to use an AI Integration, the third-party AI platform may send certain instructions, queries, or data that you choose to submit through that platform to Razorpay’s MCP server in order to fulfill your request.\"\n        },\n        {\n          \"id\": \"p029.s2\",\n          \"quote\": \"Razorpay processes such data only for the purpose of executing the requested operation, monitoring and debugging.\"\n        }\n      ],\n      \"rationale\": \"Data flows to external AI integrations only when chosen by the user and is limited to executing the request.\"\n    },\n    {\n      \"flag\": \"DPDP1\",\n      \"presence\": \"Present\",\n      \"state\": \"EE\",\n      \"evidence\": [\n        {\n          \"id\": \"p013.s1\",\n          \"quote\": \"By visiting or using the Website, you agree to be bound by this Privacy Policy and consent to the collection, use, processing, and sharing of your Personal Information as described below.\"\n        }\n      ],\n      \"rationale\": \"Consent is obtained through browsewrap terms via visiting or using the website.\"\n    },\n    {\n      \"flag\": \"DPDP2\",\n      \"presence\": \"Present\",\n      \"state\": \"ED\",\n      \"evidence\": [\n        {\n          \"id\": \"p062.s1\",\n          \"quote\": \"You have the right to access, correct, update, and withdraw consent in relation to your Personal Data, in accordance with the Digital Personal Data Protection Act, 2023.\"\n        }\n      ],\n      \"rationale\": \"Users have the right to withdraw consent in relation to their personal data.\"\n    },\n    {\n      \"flag\": \"DPDP3"
+  }
+ ],
+ "flags": {
+  "G1": {
+   "flag": "G1",
+   "flag_key": "first_party_collection_scope",
+   "search_log": {
+    "we collect": 9,
+    "information/data we collect": 3,
+    "collected automatically": 0,
+    "you provide": 5,
+    "location": 1,
+    "device / identifiers": 1,
+    "content / messages": 13,
+    "contacts": 8,
+    "sensitive / biometric / financial": 3,
+    "from other sources": 0,
+    "usage / log data": 0
+   },
+   "n_candidates": 18,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "ED",
+   "evidence": [
+    {
+     "id": "p020.s2",
+     "quote": "We may collect and store your Sensitive Personal Data or Information—such as financial information, including credit card details, debit card details, bank account information, and Know Your Customer (\"KYC\") documents",
+     "status": "exact",
+     "start": 5132,
+     "end": 5349,
+     "heading": "3. Account information of Merchants"
+    },
+    {
+     "id": "p033.s1",
+     "quote": "We record information relating to your use of Razorpay, such as the searches you undertake, the pages you view, your browser type, IP address, location, requested URL, referring URL, and timestamp information.",
+     "status": "exact",
+     "start": 8247,
+     "end": 8456,
+     "heading": "5. Activity"
+    }
+   ],
+   "status": "verified",
+   "rationale": "The company collects personal information beyond basic details, including financial data, KYC documents, location, device, and usage information.",
+   "attempts": 1,
+   "shown": [
+    "p004.s1",
+    "p005.s1",
+    "p011.s2",
+    "p012.s1",
+    "p014.s2",
+    "p015.s1",
+    "p015.s2",
+    "p015.s3",
+    "p017.s1",
+    "p018.s1",
+    "p020.s2",
+    "p021.s1",
+    "p021.s2",
+    "p031.s1",
+    "p032.s1",
+    "p033.s1",
+    "p033.s2",
+    "p041.s1",
+    "p042.s1",
+    "p045.s2",
+    "p046.s1",
+    "p059.s1",
+    "p060.s1",
+    "p061.s1",
+    "p062.s1",
+    "p067.s1",
+    "p068.s1",
+    "p069.s1",
+    "p070.s1",
+    "p071.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "G2": {
+   "flag": "G2",
+   "flag_key": "third_party_advertising_tracking",
+   "search_log": {
+    "advertis*": 3,
+    "targeted / interest-based / behavioural ads": 0,
+    "sell / sale of data": 1,
+    "pixel / SDK / tracking tech": 0,
+    "ad / marketing partners": 0,
+    "opt-out of sale/ads / GPC": 1,
+    "cookies": 9,
+    "analytics provider": 0,
+    "share with third parties": 3,
+    "marketing": 0
+   },
+   "n_candidates": 6,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "CD",
+   "evidence": [
+    {
+     "id": "p038.s2",
+     "quote": "These third parties may also use information about your visits to Razorpay and other websites to target advertisements for Razorpay's products and services.",
+     "status": "exact",
+     "start": 10442,
+     "end": 10598,
+     "heading": "6. Cookies"
+    },
+    {
+     "id": "p039.s1",
+     "quote": "Razorpay users can opt out of sharing this information with third parties by disabling or blocking cookies; the process varies by browser.",
+     "status": "exact",
+     "start": 10802,
+     "end": 10940,
+     "heading": "6. Cookies"
+    }
+   ],
+   "status": "verified",
+   "rationale": "The policy discloses that third parties use visit information to target ads, but allows users to opt out by disabling or blocking cookies.",
+   "attempts": 1,
+   "shown": [
+    "p022.s1",
+    "p023.s1",
+    "p038.s1",
+    "p038.s2",
+    "p038.s3",
+    "p039.s1",
+    "p039.s2",
+    "p046.s1",
+    "p046.s2",
+    "p047.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "G3": {
+   "flag": "G3",
+   "flag_key": "profiling_automated_decisions",
+   "search_log": {
+    "profiling": 0,
+    "automated decision": 0,
+    "infer / inference": 0,
+    "legal or similarly significant": 0,
+    "scoring": 0,
+    "personalise / recommend": 3,
+    "interests / preferences / segments": 6,
+    "predict / analyse behaviour": 0
+   },
+   "n_candidates": 1,
+   "mode": "batch",
+   "presence": "Absent",
+   "state": "NS",
+   "evidence": [],
+   "status": "absent_unverifiable",
+   "rationale": "The provided sentences do not describe profiling, inferences, or automated decision-making processes.",
+   "attempts": 1,
+   "shown": [
+    "p017.s1",
+    "p018.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "G4": {
+   "flag": "G4",
+   "flag_key": "data_retention_specificity",
+   "search_log": {
+    "retain / retention": 1,
+    "keep / store for": 0,
+    "as long as necessary": 0,
+    "numeric period": 1,
+    "indefinitely": 0,
+    "delete after / deletion": 3,
+    "legal obligation": 1
+   },
+   "n_candidates": 1,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "CD",
+   "evidence": [
+    {
+     "id": "p018.s2",
+     "quote": "Logs are retained for a period of 12 months unless or otherwise stated by law.",
+     "status": "exact",
+     "start": 4827,
+     "end": 4905,
+     "heading": "2. Information we collect and how we use it"
+    }
+   ],
+   "status": "verified",
+   "rationale": "The policy provides a specific retention period for logs, but otherwise relies on general or purpose-based retention for user content.",
+   "attempts": 1,
+   "shown": [
+    "p018.s2",
+    "p019.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "G5": {
+   "flag": "G5",
+   "flag_key": "user_rights_access_deletion",
+   "search_log": {
+    "right to / your rights": 1,
+    "access": 1,
+    "correct / rectify / update": 3,
+    "delete / erase": 3,
+    "portability / export": 0,
+    "object / restrict": 0,
+    "nominate (DPDP)": 0,
+    "jurisdiction limits": 3
+   },
+   "n_candidates": 7,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "ED",
+   "evidence": [
+    {
+     "id": "p062.s1",
+     "quote": "You have the right to access, correct, update, and withdraw consent in relation to your Personal Data, in accordance with the Digital Personal Data Protection Act, 2023.",
+     "status": "exact",
+     "start": 15694,
+     "end": 15863,
+     "heading": "12. Terms and modifications to this Privacy Policy"
+    }
+   ],
+   "status": "verified",
+   "rationale": "Users are explicitly granted rights to access, correct, and update their personal data.",
+   "attempts": 1,
+   "shown": [
+    "p023.s1",
+    "p023.s2",
+    "p024.s1",
+    "p037.s3",
+    "p037.s4",
+    "p055.s3",
+    "p055.s4",
+    "p058.s1",
+    "p059.s1",
+    "p062.s1",
+    "p062.s2",
+    "p063.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "G6": {
+   "flag": "G6",
+   "flag_key": "international_data_transfers",
+   "search_log": {
+    "transfer": 4,
+    "cross-border / international": 1,
+    "stored / processed in a country": 0,
+    "safeguard mechanisms": 0,
+    "localisation": 0,
+    "servers": 2,
+    "jurisdiction": 1
+   },
+   "n_candidates": 4,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "ED",
+   "evidence": [
+    {
+     "id": "p051.s1",
+     "quote": "We will not transfer personal data to any country prohibited by Government notification.",
+     "status": "exact",
+     "start": 14009,
+     "end": 14097,
+     "heading": "9. Links"
+    }
+   ],
+   "status": "verified",
+   "rationale": "The policy mentions restrictions on international transfers without specifying adequacy decisions, standard contractual clauses, or other required safeguards.",
+   "attempts": 1,
+   "shown": [
+    "p001.s1",
+    "p002.s1",
+    "p034.s2",
+    "p034.s3",
+    "p042.s2",
+    "p043.s1",
+    "p051.s1",
+    "p052.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "G7": {
+   "flag": "G7",
+   "flag_key": "childrens_data_safeguards",
+   "search_log": {
+    "child / children / minor": 0,
+    "age threshold": 0,
+    "parent / guardian / consent": 1,
+    "COPPA / age verification": 0,
+    "knowingly collect": 0
+   },
+   "n_candidates": 1,
+   "mode": "batch",
+   "presence": "Absent",
+   "state": "NS",
+   "evidence": [],
+   "status": "absent_unverifiable",
+   "rationale": "The provided sentences do not mention children, minors, or any associated age thresholds and safeguards.",
+   "attempts": 1,
+   "shown": [
+    "p044.s1",
+    "p044.s2"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "AI1": {
+   "flag": "AI1",
+   "flag_key": "ai_model_training_on_user_content",
+   "search_log": {
+    "train / training": 0,
+    "model(s)": 0,
+    "machine learning": 0,
+    "artificial intelligence / AI": 12,
+    "improve / develop services": 1,
+    "content / inputs / outputs": 11,
+    "research": 0
+   },
+   "n_candidates": 12,
+   "mode": "batch",
+   "presence": "Absent",
+   "state": "NS",
+   "evidence": [],
+   "status": "absent_unverifiable",
+   "rationale": "The sentences mention AI interactions and platform connectors but do not state that user personal data or content is used to train AI models.",
+   "attempts": 1,
+   "shown": [
+    "p004.s1",
+    "p005.s1",
+    "p006.s1",
+    "p007.s1",
+    "p008.s1",
+    "p018.s1",
+    "p018.s2",
+    "p027.s1",
+    "p028.s1",
+    "p028.s2",
+    "p029.s1",
+    "p029.s2",
+    "p030.s1",
+    "p030.s2",
+    "p030.s3",
+    "p031.s1",
+    "p032.s1",
+    "p050.s1",
+    "p051.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "AI2": {
+   "flag": "AI2",
+   "flag_key": "ai_training_opt_out_control",
+   "presence": "Absent",
+   "state": "NS",
+   "evidence": [],
+   "status": "not_applicable",
+   "attempts": 0,
+   "shown": [],
+   "mode": "batch",
+   "rationale": "not applicable: AI1=NS",
+   "discarded_answer_status": "absent_unverifiable"
+  },
+  "AI3": {
+   "flag": "AI3",
+   "flag_key": "ai_human_review_of_chats",
+   "search_log": {
+    "human review": 0,
+    "reviewers / annotators / moderators": 0,
+    "staff may access / review content": 0,
+    "review content / conversations": 0,
+    "we may access / review / monitor content": 0,
+    "flagged / safety / abuse": 3,
+    "support / feedback": 3
+   },
+   "n_candidates": 0,
+   "mode": "batch",
+   "presence": "Absent",
+   "state": "NS",
+   "evidence": [],
+   "status": "no_candidates",
+   "rationale": "no sentence matched the flag's search terms; absence not verified",
+   "attempts": 0,
+   "shown": []
+  },
+  "AI4": {
+   "flag": "AI4",
+   "flag_key": "deidentification_training_carveout",
+   "search_log": {
+    "de-identified": 0,
+    "anonymised": 1,
+    "aggregated": 3,
+    "pseudonymised": 0,
+    "no longer identifies": 0,
+    "share / any purpose": 27
+   },
+   "n_candidates": 4,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "ED",
+   "evidence": [
+    {
+     "id": "p046.s1",
+     "quote": "We may disclose aggregate information relating to user behavior to third parties in connection with actual or prospective business relationships, such as advertisers and content distributors.",
+     "status": "exact",
+     "start": 12936,
+     "end": 13127,
+     "heading": "8. Transfer of information"
+    }
+   ],
+   "status": "verified",
+   "rationale": "The company discloses that aggregate information may be shared with third parties such as advertisers.",
+   "attempts": 1,
+   "shown": [
+    "p033.s3",
+    "p033.s4",
+    "p034.s1",
+    "p038.s1",
+    "p038.s2",
+    "p046.s1",
+    "p046.s2"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "AI5": {
+   "flag": "AI5",
+   "flag_key": "third_party_ai_subprocessors",
+   "search_log": {
+    "AI / model providers": 1,
+    "named AI vendors": 2,
+    "third-party AI / models": 3,
+    "integrations / connectors / plugins": 10,
+    "license content / data licensing": 0,
+    "sub-processors / service providers": 1,
+    "AI features": 4
+   },
+   "n_candidates": 11,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "CD",
+   "evidence": [
+    {
+     "id": "p029.s1",
+     "quote": "When you choose to use an AI Integration, the third-party AI platform may send certain instructions, queries, or data that you choose to submit through that platform to Razorpay’s MCP server in order to fulfill your request.",
+     "status": "exact",
+     "start": 7356,
+     "end": 7580,
+     "heading": "4. Customer Information"
+    },
+    {
+     "id": "p029.s2",
+     "quote": "Razorpay processes such data only for the purpose of executing the requested operation, monitoring and debugging.",
+     "status": "exact",
+     "start": 7581,
+     "end": 7694,
+     "heading": "4. Customer Information"
+    }
+   ],
+   "status": "verified",
+   "rationale": "Data flows to external AI integrations only when chosen by the user and is limited to executing the request.",
+   "attempts": 1,
+   "shown": [
+    "p001.s1",
+    "p002.s1",
+    "p004.s1",
+    "p005.s1",
+    "p018.s1",
+    "p018.s2",
+    "p027.s1",
+    "p028.s1",
+    "p028.s2",
+    "p029.s1",
+    "p029.s2",
+    "p030.s3",
+    "p031.s1",
+    "p032.s1",
+    "p049.s1",
+    "p050.s1",
+    "p051.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "DPDP1": {
+   "flag": "DPDP1",
+   "flag_key": "dpdp_unambiguous_affirmative_consent",
+   "search_log": {
+    "by using / visiting you agree": 1,
+    "consent": 5,
+    "agree / accept": 7,
+    "DPDP / Indian law": 1,
+    "legal basis": 0,
+    "notice / checkbox / sign-up": 4,
+    "explicit / affirmative / freely": 1
+   },
+   "n_candidates": 11,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "EE",
+   "evidence": [
+    {
+     "id": "p013.s1",
+     "quote": "By visiting or using the Website, you agree to be bound by this Privacy Policy and consent to the collection, use, processing, and sharing of your Personal Information as described below.",
+     "status": "exact",
+     "start": 2865,
+     "end": 3052,
+     "heading": "1. Introduction to Privacy Policy"
+    }
+   ],
+   "status": "verified",
+   "rationale": "Consent is obtained through browsewrap terms via visiting or using the website.",
+   "attempts": 1,
+   "shown": [
+    "p013.s1",
+    "p013.s2",
+    "p013.s3",
+    "p016.s2",
+    "p017.s1",
+    "p025.s2",
+    "p026.s1",
+    "p031.s1",
+    "p032.s1",
+    "p035.s2",
+    "p035.s3",
+    "p056.s1",
+    "p057.s1",
+    "p059.s1",
+    "p060.s1",
+    "p062.s1",
+    "p062.s2",
+    "p063.s1",
+    "p063.s2",
+    "p065.s2",
+    "p066.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "DPDP2": {
+   "flag": "DPDP2",
+   "flag_key": "dpdp_easy_consent_withdrawal",
+   "search_log": {
+    "withdraw / revoke consent": 1,
+    "consent manager": 0,
+    "opt out / unsubscribe": 2,
+    "settings / dashboard": 2,
+    "contact / email to withdraw": 13,
+    "delete account": 1,
+    "consent (co-occurrence)": 4
+   },
+   "n_candidates": 4,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "ED",
+   "evidence": [
+    {
+     "id": "p062.s1",
+     "quote": "You have the right to access, correct, update, and withdraw consent in relation to your Personal Data, in accordance with the Digital Personal Data Protection Act, 2023.",
+     "status": "exact",
+     "start": 15694,
+     "end": 15863,
+     "heading": "12. Terms and modifications to this Privacy Policy"
+    }
+   ],
+   "status": "verified",
+   "rationale": "Users have the right to withdraw consent in relation to their personal data.",
+   "attempts": 1,
+   "shown": [
+    "p021.s2",
+    "p021.s3",
+    "p039.s1",
+    "p039.s2",
+    "p059.s1",
+    "p060.s1",
+    "p062.s1",
+    "p062.s2"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "DPDP3": {
+   "flag": "DPDP3",
+   "flag_key": "dpdp_grievance_dpo_contact",
+   "search_log": {
+    "grievance officer": 4,
+    "data protection officer / DPO": 4,
+    "email address": 2,
+    "Data Protection Board / complaint": 0,
+    "contact us": 10,
+    "officer / named person": 3
+   },
+   "n_candidates": 7,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "ED",
+   "evidence": [
+    {
+     "id": "p071.s2",
+     "quote": "DPO",
+     "status": "exact",
+     "start": 17898,
+     "end": 17901,
+     "heading": "12. Terms and modifications to this Privacy Policy"
+    },
+    {
+     "id": "p074.s1",
+     "quote": "E-mail: dpo@razorpay.com",
+     "status": "exact",
+     "start": 17956,
+     "end": 17980,
+     "heading": "E-mail: dpo@razorpay.com"
+    }
+   ],
+   "status": "verified",
+   "rationale": "The policy designates a Data Protection Officer with a direct contact email address.",
+   "attempts": 1,
+   "shown": [
+    "p055.s4",
+    "p056.s1",
+    "p066.s2",
+    "p067.s1",
+    "p068.s1",
+    "p069.s1",
+    "p070.s1",
+    "p071.s1",
+    "p071.s2",
+    "p072.s1",
+    "p074.s1",
+    "p075.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": false,
+     "problems": []
+    }
+   ]
+  },
+  "DPDP4": {
+   "flag": "DPDP4",
+   "flag_key": "dpdp_eighth_schedule_languages",
+   "search_log": {
+    "Eighth Schedule": 0,
+    "language(s) / translation": 0,
+    "Indian language names (English)": 0,
+    "Indian language names (native script)": 0,
+    "English": 0
+   },
+   "n_candidates": 0,
+   "mode": "batch",
+   "presence": "Absent",
+   "state": "NS",
+   "evidence": [],
+   "status": "no_candidates",
+   "rationale": "no sentence matched the flag's search terms; absence not verified",
+   "attempts": 0,
+   "shown": []
+  }
+ },
+ "scores": {
+  "scoring_version": "1.0",
+  "risk_index": 35.1852,
+  "risk_index_display": 35,
+  "disclosure_quality": 66.0714,
+  "disclosure_quality_display": 66,
+  "risk_points": 9.5,
+  "max_risk_points": 27.0,
+  "quality_points": 18.5,
+  "max_quality_points": 28.0,
+  "n_applicable": 14,
+  "n_not_stated": 4,
+  "per_flag": [
+   {
+    "flag": "G1",
+    "state": "ED",
+    "weight": 1.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 1.0,
+    "max_risk_points": 1.0,
+    "quality_points": 2.0
+   },
+   {
+    "flag": "G2",
+    "state": "CD",
+    "weight": 3.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 1.5,
+    "max_risk_points": 3.0,
+    "quality_points": 1.5
+   },
+   {
+    "flag": "G3",
+    "state": "NS",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 0.0,
+    "max_risk_points": 2.0,
+    "quality_points": 0.0
+   },
+   {
+    "flag": "G4",
+    "state": "CD",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 1.0,
+    "max_risk_points": 2.0,
+    "quality_points": 1.5
+   },
+   {
+    "flag": "G5",
+    "state": "ED",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 0.0,
+    "max_risk_points": 2.0,
+    "quality_points": 2.0
+   },
+   {
+    "flag": "G6",
+    "state": "ED",
+    "weight": 1.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 1.0,
+    "max_risk_points": 1.0,
+    "quality_points": 2.0
+   },
+   {
+    "flag": "G7",
+    "state": "NS",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 0.0,
+    "max_risk_points": 2.0,
+    "quality_points": 0.0
+   },
+   {
+    "flag": "AI1",
+    "state": "NS",
+    "weight": 3.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 0.0,
+    "max_risk_points": 3.0,
+    "quality_points": 0.0
+   },
+   {
+    "flag": "AI2",
+    "state": "NS",
+    "weight": 2.0,
+    "applicable": false,
+    "reason": "not applicable: AI1=NS",
+    "risk_points": 0.0,
+    "max_risk_points": 0.0,
+    "quality_points": 0.0
+   },
+   {
+    "flag": "AI3",
+    "state": "NS",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 0.0,
+    "max_risk_points": 2.0,
+    "quality_points": 0.0
+   },
+   {
+    "flag": "AI4",
+    "state": "ED",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 2.0,
+    "max_risk_points": 2.0,
+    "quality_points": 2.0
+   },
+   {
+    "flag": "AI5",
+    "state": "CD",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 1.0,
+    "max_risk_points": 2.0,
+    "quality_points": 1.5
+   },
+   {
+    "flag": "DPDP1",
+    "state": "EE",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 2.0,
+    "max_risk_points": 2.0,
+    "quality_points": 2.0
+   },
+   {
+    "flag": "DPDP2",
+    "state": "ED",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 0.0,
+    "max_risk_points": 2.0,
+    "quality_points": 2.0
+   },
+   {
+    "flag": "DPDP3",
+    "state": "ED",
+    "weight": 1.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 0.0,
+    "max_risk_points": 1.0,
+    "quality_points": 2.0
+   },
+   {
+    "flag": "DPDP4",
+    "state": "NS",
+    "weight": 0.0,
+    "applicable": false,
+    "reason": "informational flag (weight 0)",
+    "risk_points": 0.0,
+    "max_risk_points": 0.0,
+    "quality_points": 0.0
+   }
+  ],
+  "complete": true,
+  "rejected_flags_scored_as_UN": []
+ },
+ "policy_key": "P11_razorpay",
+ "cohort": "india"
+}

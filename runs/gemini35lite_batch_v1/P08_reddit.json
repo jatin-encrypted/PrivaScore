@@ -1,0 +1,1499 @@
+{
+ "policy_id": "P08",
+ "policy_name": "reddit",
+ "scope": "all_users",
+ "mode": "batch",
+ "text_sha256": "d60d85907b1af9ded4ad758204c6cf7a44026c67c35281cfdd9673b00294030a",
+ "n_sentences": 698,
+ "batch_calls": [
+  {
+   "attempt": 1,
+   "flags": [
+    "G1",
+    "G2",
+    "G3",
+    "G4",
+    "G5",
+    "G6",
+    "G7",
+    "AI1",
+    "AI2",
+    "AI3",
+    "AI4",
+    "AI5",
+    "DPDP1",
+    "DPDP2",
+    "DPDP3",
+    "DPDP4"
+   ],
+   "cached": true,
+   "n_sentences": 273,
+   "raw": "{\n  \"answers\": [\n    {\n      \"flag\": \"G1\",\n      \"presence\": \"Present\",\n      \"state\": \"ED\",\n      \"evidence\": [\n        {\"id\": \"p103.s1\", \"quote\": \"We collect information you provide to us directly when you use the Services.\"},\n        {\"id\": \"p119.s1\", \"quote\": \"We automatically collect information as you use our Services.\"}\n      ],\n      \"rationale\": \"The company collects various types of personal data beyond basic account details, including device and usage information, location, and user content.\"\n    },\n    {\n      \"flag\": \"G2\",\n      \"presence\": \"Present\",\n      \"state\": \"CD\",\n      \"evidence\": [\n        {\"id\": \"p090.s2\", \"quote\": \"We don’t sell your personal data to third parties, including data brokers.\"},\n        {\"id\": \"p186.s1\", \"quote\": \"You may opt out of us using information we collect from third parties, including advertising partners, to personalize the ads you see on and off Reddit.\"}\n      ],\n      \"rationale\": \"The company states it does not sell personal data, but it shares or collects data via third-party advertising partners and provides a mechanism to opt out of personalized ads.\"\n    },\n    {\n      \"flag\": \"G3\",\n      \"presence\": \"Present\",\n      \"state\": \"CD\",\n      \"evidence\": [\n        {\"id\": \"p131.s1\", \"quote\": \"We infer attributes such as age range, gender, and/or preferred language(s) based on the information we have about you.\"},\n        {\"id\": \"p489.s7\", \"quote\": \"We do not engage in profiling of consumers in furtherance of automated decisions that produce legal or similarly significant effects as those terms are defined in applicable regulations.\"}\n      ],\n      \"rationale\": \"The policy describes building inferences about users for recommendations and advertising, but explicitly states it does not engage in profiling for automated decisions with legal or significant effects.\"\n    },\n    {\n      \"flag\": \"G4\",\n      \"presence\": \"Present\",\n      \"state\": \"CD\",\n      \"evidence\": [\n        {\"id\": \"p121.s3\", \"quote\": \"Except for the IP address used to create your account, Reddit will delete any IP addresses collected after 100 days.\"},\n        {\"id\": \"p176.s1\", \"quote\": \"We store the information we collect for as long as it is necessary for the purpose(s) for which we originally collected it.\"}\n      ],\n      \"rationale\": \"The policy provides a specific retention period for certain peripheral data (IP addresses) but uses purpose-based retention for other information.\"\n    },\n    {\n      \"flag\": \"G5\",\n      \"presence\": \"Present\",\n      \"state\": \"ED\",\n      \"evidence\": [\n        {\"id\": \"p091.s1\", \"quote\": \"All of our users get privacy rights - not just those in select countries.\"},\n        {\"id\": \"p092.s2\", \"quote\": \"At Reddit, anyone can request a copy of their personal data, account deletion, or information about our policies.\"}\n      ],\n      \"rationale\": \"The company offers access, correction, and deletion rights to users generally rather than restricting them to specific regions.\"\n    },\n    {\n      \"flag\": \"G6\",\n      \"presence\": \"Present\",\n      \"state\": \"CD\",\n      \"evidence\": [\n        {\"id\": \"p203.s2\", \"quote\": \"We process and store information on servers located in the United States, and we may transfer it to our affiliates, service providers, and other third parties located in various countries depending on factors such as the locations of our users and operational needs.\"},\n        {\"id\": \"p204.s1\", \"quote\": \"When we transfer the personal data of users in the EEA, UK and/or Switzerland to countries outside these regions, we ensure an adequate level of protection through mechanisms such as adequacy decisions and the Standard Contractual Clauses\"}\n      ],\n      \"rationale\": \"Data is transferred internationally, and specific legal mechanisms such as Standard Contractual Clauses and adequacy decisions are named for safeguards.\"\n    },\n    {\n      \"flag\": \"G7\",\n      \"presence\": \"Present\",\n      \"state\": \"CD\",\n      \"evidence\": [\n        {\"id\": \"p489.s5\", \"quote\": \"Reddit does not have knowledge that it “sells” or “shares” the personal information of users under 16 years of age.\"}\n      ],\n      \"rationale\": \"The policy addresses an under-16 age threshold with protections regarding sharing or selling data for minors.\"\n    },\n    {\n      \"flag\": \"AI1\",\n      \"presence\": \"Absent\",\n      \"state\": null,\n      \"evidence\": [],\n      \"rationale\": \"The provided sentences do not mention using personal data or user content to train machine learning or AI models.\"\n    },\n    {\n      \"flag\": \"AI2\",\n      \"presence\": \"Absent\",\n      \"state\": null,\n      \"evidence\": [],\n      \"rationale\": \"There is no mention of personal data being used for AI training, and thus no opt-out control for AI training is described.\"\n    },\n    {\n      \"flag\": \"AI3\",\n      \"presence\": \"Present\",\n      \"state\": \"CD\",\n      \"evidence\": [\n        {\"id\": \"p174.s3\", \"quote\": \"We also enforce technical and administrative access controls to limit which of our employees have access to non-public personal information.\"}\n      ],\n      \"rationale\": \"Employee access to user data is limited by technical and administrative controls rather than routine unconstrained review.\"\n    },\n    {\n      \"flag\": \"AI4\",\n      \"presence\": \"Present\",\n      \"state\": \"ED\",\n      \"evidence\": [\n        {\"id\": \"p172.s2\", \"quote\": \"We may share information about you that has been aggregated or anonymized such that it cannot reasonably be used to identify you.\"},\n        {\"id\": \"p182.s5\", \"quote\": \"After you submit a request to delete your account, we initiate a deletion process to safely and completely remove your data from our servers or retain it only in anonymized form.\"}\n      ],\n      \"rationale\": \"The policy states that aggregated or anonymized data may be shared with third parties or retained indefinitely.\"\n    },\n    {\n      \"flag\": \"AI5\",\n      \"presence\": \"Present\",\n      \"state\": \"CD\",\n      \"evidence\": [\n        {\"id\": \"p167.s4\", \"quote\": \"(vi) LLM providers who help us compile and summarize public content fo"
+  },
+  {
+   "attempt": 2,
+   "flags": [
+    "G1",
+    "G2",
+    "G3",
+    "G4",
+    "G5",
+    "G6",
+    "G7",
+    "AI1",
+    "AI2",
+    "AI3",
+    "AI4",
+    "AI5",
+    "DPDP1",
+    "DPDP2",
+    "DPDP3",
+    "DPDP4"
+   ],
+   "cached": true,
+   "n_sentences": 273,
+   "raw": "{\n  \"answers\": [\n    {\n      \"flag\": \"G1\",\n      \"presence\": \"Present\",\n      \"state\": \"ED\",\n      \"evidence\": [\n        {\n          \"id\": \"p121.s2\",\n          \"quote\": \"This may include your IP address, user-agent string, browser type, operating system, referral URLs, device information (such as device IDs), device settings, and mobile carrier name.\"\n        },\n        {\n          \"id\": \"p123.s1\",\n          \"quote\": \"We collect information about how you use our Services, like pages visited, how you interact with content, ads, and communities, upvotes/downvotes, links clicked, the requested URL, and search terms.\"\n        },\n        {\n          \"id\": \"p131.s1\",\n          \"quote\": \"We infer attributes such as age range, gender, and/or preferred language(s) based on the information we have about you.\"\n        }\n      ],\n      \"rationale\": \"The company collects personal data beyond basic account details, including device/usage data, interactions, and inferred attributes.\"\n    },\n    {\n      \"flag\": \"G2\",\n      \"presence\": \"Present\",\n      \"state\": \"CD\",\n      \"evidence\": [\n        {\n          \"id\": \"p090.s2\",\n          \"quote\": \"We don’t sell your personal data to third parties, including data brokers.\"\n        },\n        {\n          \"id\": \"p167.s4\",\n          \"quote\": \"third-party ad serving and measurement providers who help us and advertisers serve relevant ads and measure the performance of ads\"\n        },\n        {\n          \"id\": \"p186.s1\",\n          \"quote\": \"You may opt out of us using information we collect from third parties, including advertising partners, to personalize the ads you see on and off Reddit.\"\n        }\n      ],\n      \"rationale\": \"The company shares data with ad partners for advertising but allows users to opt out of personalized advertising.\"\n    },\n    {\n      \"flag\": \"G3\",\n      \"presence\": \"Present\",\n      \"state\": \"CD\",\n      \"evidence\": [\n        {\n          \"id\": \"p131.s1\",\n          \"quote\": \"We infer attributes such as age range, gender, and/or preferred language(s) based on the information we have about you.\"\n        },\n        {\n          \"id\": \"p487.s1\",\n          \"quote\": \"Inferences we make based on other collected data, for purposes such as recommending content, advertising, and analytics.\"\n        },\n        {\n          \"id\": \"p489.s7\",\n          \"quote\": \"We do not engage in profiling of consumers in furtherance of automated decisions that produce legal or similarly significant effects as those terms are defined in applicable regulations.\"\n        }\n      ],\n      \"rationale\": \"The company creates inferences for recommendations and advertising but disclaims automated decisions with legal or similarly significant effects.\"\n    },\n    {\n      \"flag\": \"G4\",\n      \"presence\": \"Present\",\n      \"state\": \"CD\",\n      \"evidence\": [\n        {\n          \"id\": \"p121.s3\",\n          \"quote\": \"Except for the IP address used to create your account, Reddit will delete any IP addresses collected after 100 days.\"\n        },\n        {\n          \"id\": \"p176.s1\",\n          \"quote\": \"We store the information we collect for as long as it is necessary for the purpose(s) for which we originally collected it.\"\n        }\n      ],\n      \"rationale\": \"Retention periods are mostly purpose-based, with only a specific concrete period mentioned for IP addresses.\"\n    },\n    {\n      \"flag\": \"G5\",\n      \"presence\": \"Present\",\n      \"state\": \"CD\",\n      \"evidence\": [\n        {\n          \"id\": \"p091.s1\",\n          \"quote\": \"All of our users get privacy rights - not just those in select countries.\"\n        },\n        {\n          \"id\": \"p092.s2\",\n          \"quote\": \"At Reddit, anyone can request a copy of their personal data, account deletion, or information about our policies.\"\n        },\n        {\n          \"id\": \"p182.s3\",\n          \"quote\": \"When you delete your account, your profile is no longer visible to other users and disassociated from content you posted under that account.\"\n        },\n        {\n          \"id\": \"p182.s4\",\n          \"quote\": \"Please note, however, that the posts, comments, and messages you submitted prior to deleting your account will still be visible to others unless you first delete the specific content.\"\n        }\n      ],\n      \"rationale\": \"Users have access, correction, and deletion rights, but deletion of an account leaves submitted posts and comments visible unless separately deleted.\"\n    },\n    {\n      \"flag\": \"G6\",\n      \"presence\": \"Present\",\n      \"state\": \"CD\",\n      \"evidence\": [\n        {\n          \"id\": \"p203.s2\",\n          \"quote\": \"We process and store information on servers located in the United States, and we may transfer it to our affiliates, service providers, and other third parties located in various countries depending on factors such as the locations of our users and operational needs.\"\n        },\n        {\n          \"id\": \"p204.s1\",\n          \"quote\": \"When we transfer the personal data of users in the EEA, UK and/or Switzerland to countries outside these regions, we ensure an adequate level of protection through mechanisms such as adequacy decisions and the Standard Contractual Clauses\"\n        }\n      ],\n      \"rationale\": \"Data is transferred internationally, and specific mechanisms like Standard Contractual Clauses and adequacy decisions are named for protected regions.\"\n    },\n    {\n      \"flag\": \"G7\",\n      \"presence\": \"Present\",\n      \"state\": \"CD\",\n      \"evidence\": [\n        {\n          \"id\": \"p489.s5\",\n          \"quote\": \"Reddit does not have knowledge that it “sells” or “shares” the personal information of users under 16 years of age.\"\n        }\n      ],\n      \"rationale\": \"The policy specifies an age threshold of under 16 regarding sales or sharing of personal information.\"\n    },\n    {\n      \"flag\": \"AI1\",\n      \"presence\": \"Present\",\n      \"state\": \"ED\",\n      \"evidence\": [\n        {\n          \"id\": \"p167.s4\",\n          \"quote\": \"(vi) LLM providers who help us compile and summarize public content for relevant search resul"
+  }
+ ],
+ "flags": {
+  "G1": {
+   "flag": "G1",
+   "flag_key": "first_party_collection_scope",
+   "search_log": {
+    "we collect": 44,
+    "information/data we collect": 25,
+    "collected automatically": 2,
+    "you provide": 54,
+    "location": 28,
+    "device / identifiers": 6,
+    "content / messages": 74,
+    "contacts": 7,
+    "sensitive / biometric / financial": 1,
+    "from other sources": 13,
+    "usage / log data": 21
+   },
+   "n_candidates": 103,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "ED",
+   "evidence": [
+    {
+     "id": "p121.s2",
+     "quote": "This may include your IP address, user-agent string, browser type, operating system, referral URLs, device information (such as device IDs), device settings, and mobile carrier name.",
+     "status": "exact",
+     "start": 9469,
+     "end": 9651,
+     "heading": "Logs Data"
+    },
+    {
+     "id": "p123.s1",
+     "quote": "We collect information about how you use our Services, like pages visited, how you interact with content, ads, and communities, upvotes/downvotes, links clicked, the requested URL, and search terms.",
+     "status": "exact",
+     "start": 9787,
+     "end": 9985,
+     "heading": "Usage Information"
+    },
+    {
+     "id": "p131.s1",
+     "quote": "We infer attributes such as age range, gender, and/or preferred language(s) based on the information we have about you.",
+     "status": "exact",
+     "start": 11526,
+     "end": 11645,
+     "heading": "Inferred Information"
+    }
+   ],
+   "status": "verified",
+   "rationale": "The company collects personal data beyond basic account details, including device/usage data, interactions, and inferred attributes.",
+   "attempts": 2,
+   "shown": [
+    "p090.s1",
+    "p090.s2",
+    "p101.s1",
+    "p102.s1",
+    "p103.s1",
+    "p103.s2",
+    "p118.s1",
+    "p119.s1",
+    "p129.s1",
+    "p129.s2",
+    "p140.s4",
+    "p140.s5",
+    "p176.s1",
+    "p176.s2",
+    "p186.s1",
+    "p186.s2",
+    "p225.s1",
+    "p226.s1",
+    "p245.s1",
+    "p246.s1",
+    "p262.s1",
+    "p263.s1",
+    "p276.s1",
+    "p277.s1",
+    "p298.s1",
+    "p299.s1",
+    "p317.s1",
+    "p318.s1",
+    "p328.s1",
+    "p329.s1",
+    "p338.s1",
+    "p339.s1",
+    "p356.s1",
+    "p357.s1",
+    "p369.s1",
+    "p370.s1",
+    "p382.s1",
+    "p383.s1",
+    "p395.s1",
+    "p396.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": true,
+     "problems": [
+      "invalid JSON for the whole batch: Expecting ',' delimiter: line 129 column 113 (char 7111)"
+     ]
+    },
+    {
+     "attempt": 2,
+     "cached": true,
+     "problems": []
+    }
+   ]
+  },
+  "G2": {
+   "flag": "G2",
+   "flag_key": "third_party_advertising_tracking",
+   "search_log": {
+    "advertis*": 31,
+    "targeted / interest-based / behavioural ads": 4,
+    "sell / sale of data": 3,
+    "pixel / SDK / tracking tech": 1,
+    "ad / marketing partners": 2,
+    "opt-out of sale/ads / GPC": 2,
+    "cookies": 32,
+    "analytics provider": 2,
+    "share with third parties": 5,
+    "marketing": 5
+   },
+   "n_candidates": 36,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "CD",
+   "evidence": [
+    {
+     "id": "p090.s2",
+     "quote": "We don’t sell your personal data to third parties, including data brokers.",
+     "status": "exact",
+     "start": 2598,
+     "end": 2672,
+     "heading": "Introduction"
+    },
+    {
+     "id": "p167.s4",
+     "quote": "third-party ad serving and measurement providers who help us and advertisers serve relevant ads and measure the performance of ads",
+     "status": "exact",
+     "start": 18953,
+     "end": 19083,
+     "heading": "How We Share Your Information"
+    },
+    {
+     "id": "p186.s1",
+     "quote": "You may opt out of us using information we collect from third parties, including advertising partners, to personalize the ads you see on and off Reddit.",
+     "status": "exact",
+     "start": 24422,
+     "end": 24574,
+     "heading": "Controlling Personalized Advertising"
+    }
+   ],
+   "status": "verified",
+   "rationale": "The company shares data with ad partners for advertising but allows users to opt out of personalized advertising.",
+   "attempts": 2,
+   "shown": [
+    "p090.s2",
+    "p091.s1",
+    "p105.s6",
+    "p106.s1",
+    "p123.s1",
+    "p124.s1",
+    "p125.s2",
+    "p125.s3",
+    "p133.s2",
+    "p133.s3",
+    "p134.s1",
+    "p137.s1",
+    "p137.s2",
+    "p137.s3",
+    "p137.s4",
+    "p137.s5",
+    "p139.s1",
+    "p140.s1",
+    "p154.s1",
+    "p155.s1",
+    "p167.s4",
+    "p168.s1",
+    "p185.s1",
+    "p186.s1",
+    "p186.s2",
+    "p190.s1",
+    "p190.s2",
+    "p191.s1",
+    "p191.s2",
+    "p323.s1",
+    "p324.s1",
+    "p333.s1",
+    "p334.s1",
+    "p439.s1",
+    "p440.s1",
+    "p489.s3",
+    "p489.s4"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": true,
+     "problems": [
+      "invalid JSON for the whole batch: Expecting ',' delimiter: line 129 column 113 (char 7111)"
+     ]
+    },
+    {
+     "attempt": 2,
+     "cached": true,
+     "problems": []
+    }
+   ]
+  },
+  "G3": {
+   "flag": "G3",
+   "flag_key": "profiling_automated_decisions",
+   "search_log": {
+    "profiling": 10,
+    "automated decision": 1,
+    "infer / inference": 3,
+    "legal or similarly significant": 1,
+    "scoring": 0,
+    "personalise / recommend": 14,
+    "interests / preferences / segments": 21,
+    "predict / analyse behaviour": 0
+   },
+   "n_candidates": 17,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "CD",
+   "evidence": [
+    {
+     "id": "p131.s1",
+     "quote": "We infer attributes such as age range, gender, and/or preferred language(s) based on the information we have about you.",
+     "status": "exact",
+     "start": 11526,
+     "end": 11645,
+     "heading": "Inferred Information"
+    },
+    {
+     "id": "p487.s1",
+     "quote": "Inferences we make based on other collected data, for purposes such as recommending content, advertising, and analytics.",
+     "status": "exact",
+     "start": 45022,
+     "end": 45142,
+     "heading": "Additional Information for California & Other US State Users"
+    },
+    {
+     "id": "p489.s7",
+     "quote": "We do not engage in profiling of consumers in furtherance of automated decisions that produce legal or similarly significant effects as those terms are defined in applicable regulations.",
+     "status": "exact",
+     "start": 46774,
+     "end": 46960,
+     "heading": "Additional Information for California & Other US State Users"
+    }
+   ],
+   "status": "verified",
+   "rationale": "The company creates inferences for recommendations and advertising but disclaims automated decisions with legal or similarly significant effects.",
+   "attempts": 2,
+   "shown": [
+    "p086.s2",
+    "p087.s1",
+    "p098.s1",
+    "p098.s2",
+    "p099.s1",
+    "p105.s6",
+    "p106.s1",
+    "p106.s2",
+    "p109.s1",
+    "p109.s2",
+    "p129.s1",
+    "p129.s2",
+    "p130.s1",
+    "p131.s1",
+    "p132.s1",
+    "p142.s1",
+    "p142.s2",
+    "p182.s3",
+    "p182.s4",
+    "p184.s1",
+    "p185.s1",
+    "p310.s1",
+    "p311.s1",
+    "p323.s1",
+    "p324.s1",
+    "p487.s1",
+    "p488.s1",
+    "p489.s7",
+    "p490.s1",
+    "p508.s1",
+    "p509.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": true,
+     "problems": [
+      "invalid JSON for the whole batch: Expecting ',' delimiter: line 129 column 113 (char 7111)"
+     ]
+    },
+    {
+     "attempt": 2,
+     "cached": true,
+     "problems": []
+    }
+   ]
+  },
+  "G4": {
+   "flag": "G4",
+   "flag_key": "data_retention_specificity",
+   "search_log": {
+    "retain / retention": 3,
+    "keep / store for": 1,
+    "as long as necessary": 0,
+    "numeric period": 3,
+    "indefinitely": 0,
+    "delete after / deletion": 10,
+    "legal obligation": 2
+   },
+   "n_candidates": 7,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "CD",
+   "evidence": [
+    {
+     "id": "p121.s3",
+     "quote": "Except for the IP address used to create your account, Reddit will delete any IP addresses collected after 100 days.",
+     "status": "exact",
+     "start": 9652,
+     "end": 9768,
+     "heading": "Logs Data"
+    },
+    {
+     "id": "p176.s1",
+     "quote": "We store the information we collect for as long as it is necessary for the purpose(s) for which we originally collected it.",
+     "status": "exact",
+     "start": 21568,
+     "end": 21691,
+     "heading": "How We Protect Your Information"
+    }
+   ],
+   "status": "verified",
+   "rationale": "Retention periods are mostly purpose-based, with only a specific concrete period mentioned for IP addresses.",
+   "attempts": 2,
+   "shown": [
+    "p121.s3",
+    "p122.s1",
+    "p176.s1",
+    "p176.s2",
+    "p176.s3",
+    "p182.s5",
+    "p182.s6",
+    "p182.s7",
+    "p183.s1",
+    "p479.s1",
+    "p480.s1",
+    "p489.s5",
+    "p489.s6"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": true,
+     "problems": [
+      "invalid JSON for the whole batch: Expecting ',' delimiter: line 129 column 113 (char 7111)"
+     ]
+    },
+    {
+     "attempt": 2,
+     "cached": true,
+     "problems": []
+    }
+   ]
+  },
+  "G5": {
+   "flag": "G5",
+   "flag_key": "user_rights_access_deletion",
+   "search_log": {
+    "right to / your rights": 20,
+    "access": 6,
+    "correct / rectify / update": 8,
+    "delete / erase": 11,
+    "portability / export": 2,
+    "object / restrict": 1,
+    "nominate (DPDP)": 0,
+    "jurisdiction limits": 29
+   },
+   "n_candidates": 35,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "CD",
+   "evidence": [
+    {
+     "id": "p091.s1",
+     "quote": "All of our users get privacy rights - not just those in select countries.",
+     "status": "exact",
+     "start": 2673,
+     "end": 2746,
+     "heading": "Introduction"
+    },
+    {
+     "id": "p092.s2",
+     "quote": "At Reddit, anyone can request a copy of their personal data, account deletion, or information about our policies.",
+     "status": "exact",
+     "start": 2780,
+     "end": 2893,
+     "heading": "Introduction"
+    },
+    {
+     "id": "p182.s3",
+     "quote": "When you delete your account, your profile is no longer visible to other users and disassociated from content you posted under that account.",
+     "status": "exact",
+     "start": 23204,
+     "end": 23344,
+     "heading": "Deleting Your Account"
+    },
+    {
+     "id": "p182.s4",
+     "quote": "Please note, however, that the posts, comments, and messages you submitted prior to deleting your account will still be visible to others unless you first delete the specific content.",
+     "status": "exact",
+     "start": 23345,
+     "end": 23528,
+     "heading": "Deleting Your Account"
+    }
+   ],
+   "status": "verified",
+   "rationale": "Users have access, correction, and deletion rights, but deletion of an account leaves submitted posts and comments visible unless separately deleted.",
+   "attempts": 2,
+   "shown": [
+    "p092.s2",
+    "p093.s1",
+    "p121.s3",
+    "p122.s1",
+    "p125.s5",
+    "p126.s1",
+    "p133.s3",
+    "p134.s1",
+    "p137.s4",
+    "p137.s5",
+    "p161.s1",
+    "p162.s1",
+    "p166.s3",
+    "p167.s1",
+    "p177.s1",
+    "p178.s1",
+    "p178.s2",
+    "p178.s3",
+    "p180.s1",
+    "p180.s2",
+    "p180.s3",
+    "p181.s1",
+    "p182.s1",
+    "p182.s2",
+    "p182.s3",
+    "p182.s4",
+    "p182.s5",
+    "p182.s6",
+    "p188.s3",
+    "p188.s4",
+    "p211.s1",
+    "p211.s2",
+    "p211.s3",
+    "p212.s1",
+    "p489.s1",
+    "p489.s2",
+    "p490.s1",
+    "p490.s2"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": true,
+     "problems": [
+      "invalid JSON for the whole batch: Expecting ',' delimiter: line 129 column 113 (char 7111)"
+     ]
+    },
+    {
+     "attempt": 2,
+     "cached": true,
+     "problems": []
+    }
+   ]
+  },
+  "G6": {
+   "flag": "G6",
+   "flag_key": "international_data_transfers",
+   "search_log": {
+    "transfer": 7,
+    "cross-border / international": 6,
+    "stored / processed in a country": 1,
+    "safeguard mechanisms": 5,
+    "localisation": 0,
+    "servers": 2,
+    "jurisdiction": 6
+   },
+   "n_candidates": 13,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "CD",
+   "evidence": [
+    {
+     "id": "p203.s2",
+     "quote": "We process and store information on servers located in the United States, and we may transfer it to our affiliates, service providers, and other third parties located in various countries depending on factors such as the locations of our users and operational needs.",
+     "status": "exact",
+     "start": 28470,
+     "end": 28736,
+     "heading": "International Data Transfers"
+    },
+    {
+     "id": "p204.s1",
+     "quote": "When we transfer the personal data of users in the EEA, UK and/or Switzerland to countries outside these regions, we ensure an adequate level of protection through mechanisms such as adequacy decisions and the Standard Contractual Clauses",
+     "status": "exact",
+     "start": 28737,
+     "end": 28975,
+     "heading": "International Data Transfers"
+    }
+   ],
+   "status": "verified",
+   "rationale": "Data is transferred internationally, and specific mechanisms like Standard Contractual Clauses and adequacy decisions are named for protected regions.",
+   "attempts": 2,
+   "shown": [
+    "p190.s4",
+    "p191.s1",
+    "p202.s1",
+    "p203.s1",
+    "p203.s2",
+    "p204.s1",
+    "p205.s1",
+    "p206.s1",
+    "p206.s2",
+    "p206.s3",
+    "p206.s4",
+    "p206.s5",
+    "p207.s1",
+    "p207.s2",
+    "p208.s1",
+    "p512.s1",
+    "p513.s1",
+    "p513.s2",
+    "p514.s2",
+    "p514.s3"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": true,
+     "problems": [
+      "invalid JSON for the whole batch: Expecting ',' delimiter: line 129 column 113 (char 7111)"
+     ]
+    },
+    {
+     "attempt": 2,
+     "cached": true,
+     "problems": []
+    }
+   ]
+  },
+  "G7": {
+   "flag": "G7",
+   "flag_key": "childrens_data_safeguards",
+   "search_log": {
+    "child / children / minor": 0,
+    "age threshold": 1,
+    "parent / guardian / consent": 1,
+    "COPPA / age verification": 1,
+    "knowingly collect": 0
+   },
+   "n_candidates": 3,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "CD",
+   "evidence": [
+    {
+     "id": "p489.s5",
+     "quote": "Reddit does not have knowledge that it “sells” or “shares” the personal information of users under 16 years of age.",
+     "status": "exact",
+     "start": 46513,
+     "end": 46628,
+     "heading": "Additional Information for California & Other US State Users"
+    }
+   ],
+   "status": "verified",
+   "rationale": "The policy specifies an age threshold of under 16 regarding sales or sharing of personal information.",
+   "attempts": 2,
+   "shown": [
+    "p167.s4",
+    "p168.s1",
+    "p171.s2",
+    "p172.s1",
+    "p489.s5",
+    "p489.s6"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": true,
+     "problems": [
+      "invalid JSON for the whole batch: Expecting ',' delimiter: line 129 column 113 (char 7111)"
+     ]
+    },
+    {
+     "attempt": 2,
+     "cached": true,
+     "problems": []
+    }
+   ]
+  },
+  "AI1": {
+   "flag": "AI1",
+   "flag_key": "ai_model_training_on_user_content",
+   "search_log": {
+    "train / training": 0,
+    "model(s)": 0,
+    "machine learning": 0,
+    "artificial intelligence / AI": 2,
+    "improve / develop services": 9,
+    "content / inputs / outputs": 79,
+    "research": 5
+   },
+   "n_candidates": 9,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "ED",
+   "evidence": [
+    {
+     "id": "p167.s4",
+     "quote": "(vi) LLM providers who help us compile and summarize public content for relevant search results on Reddit.",
+     "status": "exact",
+     "start": 19484,
+     "end": 19590,
+     "heading": "How We Share Your Information"
+    }
+   ],
+   "status": "verified",
+   "rationale": "The company discloses sharing content with LLM providers to compile and summarize public content for search results.",
+   "attempts": 2,
+   "shown": [
+    "p097.s2",
+    "p097.s3",
+    "p125.s2",
+    "p125.s3",
+    "p158.s1",
+    "p159.s1",
+    "p167.s4",
+    "p168.s1",
+    "p217.s1",
+    "p218.s1",
+    "p290.s1",
+    "p291.s1",
+    "p310.s1",
+    "p311.s1",
+    "p362.s1",
+    "p363.s1",
+    "p451.s1",
+    "p452.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": true,
+     "problems": [
+      "invalid JSON for the whole batch: Expecting ',' delimiter: line 129 column 113 (char 7111)"
+     ]
+    },
+    {
+     "attempt": 2,
+     "cached": true,
+     "problems": []
+    }
+   ]
+  },
+  "AI2": {
+   "flag": "AI2",
+   "flag_key": "ai_training_opt_out_control",
+   "search_log": {
+    "opt out": 13,
+    "turn off / disable": 1,
+    "choose whether / your choices": 4,
+    "settings / controls": 23,
+    "train / model (co-occurrence)": 0,
+    "object / request": 8
+   },
+   "n_candidates": 18,
+   "mode": "batch",
+   "presence": "Absent",
+   "state": "NS",
+   "evidence": [],
+   "status": "absent_unverifiable",
+   "rationale": "The given sentences do not describe a user control to opt out specifically of AI model training.",
+   "attempts": 2,
+   "shown": [
+    "p125.s5",
+    "p126.s1",
+    "p133.s3",
+    "p134.s1",
+    "p137.s4",
+    "p137.s5",
+    "p147.s3",
+    "p147.s4",
+    "p161.s1",
+    "p162.s1",
+    "p178.s2",
+    "p178.s3",
+    "p186.s1",
+    "p186.s2",
+    "p190.s1",
+    "p190.s2",
+    "p190.s3",
+    "p190.s4",
+    "p191.s1",
+    "p191.s2",
+    "p192.s1",
+    "p195.s1",
+    "p195.s2",
+    "p196.s1",
+    "p199.s1",
+    "p200.s1",
+    "p489.s1",
+    "p489.s2",
+    "p489.s3",
+    "p489.s4"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": true,
+     "problems": [
+      "invalid JSON for the whole batch: Expecting ',' delimiter: line 129 column 113 (char 7111)"
+     ]
+    },
+    {
+     "attempt": 2,
+     "cached": true,
+     "problems": []
+    }
+   ]
+  },
+  "AI3": {
+   "flag": "AI3",
+   "flag_key": "ai_human_review_of_chats",
+   "search_log": {
+    "human review": 0,
+    "reviewers / annotators / moderators": 6,
+    "staff may access / review content": 1,
+    "review content / conversations": 1,
+    "we may access / review / monitor content": 0,
+    "flagged / safety / abuse": 8,
+    "support / feedback": 1
+   },
+   "n_candidates": 8,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "CD",
+   "evidence": [
+    {
+     "id": "p100.s1",
+     "quote": "Reddit allows moderators to access Reddit content and information using moderator bots and tools.",
+     "status": "exact",
+     "start": 5053,
+     "end": 5150,
+     "heading": "Reddit Is a Public Platform"
+    },
+    {
+     "id": "p174.s3",
+     "quote": "We also enforce technical and administrative access controls to limit which of our employees have access to non-public personal information.",
+     "status": "exact",
+     "start": 21334,
+     "end": 21474,
+     "heading": "How We Protect Your Information"
+    }
+   ],
+   "status": "verified",
+   "rationale": "Personnel and moderators have access to content under specific tools, roles, and limited controls.",
+   "attempts": 2,
+   "shown": [
+    "p006.s1",
+    "p007.s1",
+    "p098.s2",
+    "p099.s1",
+    "p100.s1",
+    "p100.s2",
+    "p100.s6",
+    "p101.s1",
+    "p111.s1",
+    "p111.s2",
+    "p114.s4",
+    "p115.s1",
+    "p129.s2",
+    "p129.s3",
+    "p174.s3",
+    "p175.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": true,
+     "problems": [
+      "invalid JSON for the whole batch: Expecting ',' delimiter: line 129 column 113 (char 7111)"
+     ]
+    },
+    {
+     "attempt": 2,
+     "cached": true,
+     "problems": []
+    }
+   ]
+  },
+  "AI4": {
+   "flag": "AI4",
+   "flag_key": "deidentification_training_carveout",
+   "search_log": {
+    "de-identified": 1,
+    "anonymised": 3,
+    "aggregated": 3,
+    "pseudonymised": 0,
+    "no longer identifies": 1,
+    "share / any purpose": 63
+   },
+   "n_candidates": 5,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "ED",
+   "evidence": [
+    {
+     "id": "p172.s2",
+     "quote": "We may share information about you that has been aggregated or anonymized such that it cannot reasonably be used to identify you.",
+     "status": "exact",
+     "start": 20783,
+     "end": 20912,
+     "heading": "How We Share Your Information"
+    }
+   ],
+   "status": "verified",
+   "rationale": "De-identified or aggregated information may be shared with third parties without stated operational limits.",
+   "attempts": 2,
+   "shown": [
+    "p100.s3",
+    "p100.s4",
+    "p172.s1",
+    "p172.s2",
+    "p172.s3",
+    "p182.s5",
+    "p182.s6",
+    "p502.s1",
+    "p503.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": true,
+     "problems": [
+      "invalid JSON for the whole batch: Expecting ',' delimiter: line 129 column 113 (char 7111)"
+     ]
+    },
+    {
+     "attempt": 2,
+     "cached": true,
+     "problems": []
+    }
+   ]
+  },
+  "AI5": {
+   "flag": "AI5",
+   "flag_key": "third_party_ai_subprocessors",
+   "search_log": {
+    "AI / model providers": 1,
+    "named AI vendors": 1,
+    "third-party AI / models": 0,
+    "integrations / connectors / plugins": 12,
+    "license content / data licensing": 1,
+    "sub-processors / service providers": 5,
+    "AI features": 0
+   },
+   "n_candidates": 15,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "ED",
+   "evidence": [
+    {
+     "id": "p097.s2",
+     "quote": "That content and information may also be available in search results on internet search engines like Google or in responses provided by an AI chatbot like OpenAI’s ChatGPT as well as reshared by others without permission or where Reddit has no control.",
+     "status": "exact",
+     "start": 3586,
+     "end": 3838,
+     "heading": "Reddit Is a Public Platform"
+    },
+    {
+     "id": "p167.s4",
+     "quote": "(vi) LLM providers who help us compile and summarize public content for relevant search results on Reddit.",
+     "status": "exact",
+     "start": 19484,
+     "end": 19590,
+     "heading": "How We Share Your Information"
+    }
+   ],
+   "status": "verified",
+   "rationale": "User content is sent or made available to third-party AI and model providers such as OpenAI.",
+   "attempts": 2,
+   "shown": [
+    "p097.s2",
+    "p097.s3",
+    "p100.s4",
+    "p100.s5",
+    "p121.s2",
+    "p121.s3",
+    "p136.s1",
+    "p137.s1",
+    "p167.s4",
+    "p168.s1",
+    "p233.s1",
+    "p234.s1",
+    "p283.s1",
+    "p284.s1",
+    "p306.s1",
+    "p307.s1",
+    "p344.s1",
+    "p345.s1",
+    "p375.s1",
+    "p376.s1",
+    "p402.s1",
+    "p403.s1",
+    "p465.s1",
+    "p466.s1",
+    "p490.s3",
+    "p490.s4",
+    "p490.s5",
+    "p490.s6"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": true,
+     "problems": [
+      "invalid JSON for the whole batch: Expecting ',' delimiter: line 129 column 113 (char 7111)"
+     ]
+    },
+    {
+     "attempt": 2,
+     "cached": true,
+     "problems": []
+    }
+   ]
+  },
+  "DPDP1": {
+   "flag": "DPDP1",
+   "flag_key": "dpdp_unambiguous_affirmative_consent",
+   "search_log": {
+    "by using / visiting you agree": 1,
+    "consent": 11,
+    "agree / accept": 2,
+    "DPDP / Indian law": 0,
+    "legal basis": 12,
+    "notice / checkbox / sign-up": 10,
+    "explicit / affirmative / freely": 4
+   },
+   "n_candidates": 25,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "CD",
+   "evidence": [
+    {
+     "id": "p519.s5",
+     "quote": "By continuing to use our Services after Privacy Policy changes go into effect, you agree to be bound by the revised policy.",
+     "status": "exact",
+     "start": 52073,
+     "end": 52196,
+     "heading": "Changes to This Policy"
+    }
+   ],
+   "status": "verified",
+   "rationale": "Consent for terms/policies relies primarily on continued use (browsewrap/agreement by use).",
+   "attempts": 2,
+   "shown": [
+    "p165.s1",
+    "p165.s2",
+    "p165.s3",
+    "p178.s2",
+    "p178.s3",
+    "p188.s1",
+    "p188.s2",
+    "p197.s1",
+    "p197.s2",
+    "p211.s1",
+    "p211.s2",
+    "p212.s1",
+    "p212.s2",
+    "p213.s1",
+    "p213.s2",
+    "p214.s1",
+    "p287.s1",
+    "p288.s1",
+    "p290.s1",
+    "p291.s1",
+    "p310.s1",
+    "p311.s1",
+    "p323.s1",
+    "p324.s1",
+    "p333.s1",
+    "p334.s1",
+    "p348.s1",
+    "p349.s1",
+    "p362.s1",
+    "p363.s1",
+    "p379.s1",
+    "p380.s1",
+    "p387.s1",
+    "p388.s1",
+    "p423.s1",
+    "p424.s1",
+    "p519.s5",
+    "p520.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": true,
+     "problems": [
+      "invalid JSON for the whole batch: Expecting ',' delimiter: line 129 column 113 (char 7111)"
+     ]
+    },
+    {
+     "attempt": 2,
+     "cached": true,
+     "problems": []
+    }
+   ]
+  },
+  "DPDP2": {
+   "flag": "DPDP2",
+   "flag_key": "dpdp_easy_consent_withdrawal",
+   "search_log": {
+    "withdraw / revoke consent": 5,
+    "consent manager": 0,
+    "opt out / unsubscribe": 13,
+    "settings / dashboard": 16,
+    "contact / email to withdraw": 19,
+    "delete account": 3,
+    "consent (co-occurrence)": 11
+   },
+   "n_candidates": 18,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "ED",
+   "evidence": [
+    {
+     "id": "p182.s1",
+     "quote": "You may delete your account at any time from the settings page in your account.",
+     "status": "exact",
+     "start": 23072,
+     "end": 23151,
+     "heading": "Deleting Your Account"
+    },
+    {
+     "id": "p211.s1",
+     "quote": "Users in the EEA, Switzerland, and UK have the right to request access to, rectification of, or erasure of their personal data; to data portability in certain circumstances; to request restriction of processing; to object to processing; and to withdraw consent for processing where they have previously provided consent.",
+     "status": "exact",
+     "start": 31990,
+     "end": 32310,
+     "heading": "Additional Information for EEA, Swiss, and UK Users"
+    }
+   ],
+   "status": "verified",
+   "rationale": "Users can withdraw consent or manage settings via self-serve account tools.",
+   "attempts": 2,
+   "shown": [
+    "p161.s1",
+    "p162.s1",
+    "p178.s2",
+    "p178.s3",
+    "p182.s1",
+    "p182.s2",
+    "p184.s1",
+    "p185.s1",
+    "p186.s1",
+    "p186.s2",
+    "p190.s1",
+    "p190.s2",
+    "p190.s3",
+    "p190.s4",
+    "p191.s1",
+    "p191.s2",
+    "p192.s1",
+    "p195.s1",
+    "p195.s2",
+    "p196.s1",
+    "p211.s1",
+    "p211.s2",
+    "p489.s1",
+    "p489.s2",
+    "p489.s3",
+    "p489.s4",
+    "p503.s1",
+    "p504.s1",
+    "p507.s1",
+    "p508.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": true,
+     "problems": [
+      "invalid JSON for the whole batch: Expecting ',' delimiter: line 129 column 113 (char 7111)"
+     ]
+    },
+    {
+     "attempt": 2,
+     "cached": true,
+     "problems": []
+    }
+   ]
+  },
+  "DPDP3": {
+   "flag": "DPDP3",
+   "flag_key": "dpdp_grievance_dpo_contact",
+   "search_log": {
+    "grievance officer": 0,
+    "data protection officer / DPO": 7,
+    "email address": 8,
+    "Data Protection Board / complaint": 2,
+    "contact us": 19,
+    "officer / named person": 3
+   },
+   "n_candidates": 13,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "CD",
+   "evidence": [
+    {
+     "id": "p517.s1",
+     "quote": "If you have questions regarding your rights or wish to make a request related to your personal data, you can contact the Controller or the Data Protection Officer by emailing us at dpo@reddit.com.",
+     "status": "exact",
+     "start": 51316,
+     "end": 51512,
+     "heading": "Data Protection Officer (DPO)"
+    }
+   ],
+   "status": "verified",
+   "rationale": "A Data Protection Officer email contact is provided, but no individually named Grievance Officer is designated.",
+   "attempts": 2,
+   "shown": [
+    "p200.s1",
+    "p201.s1",
+    "p201.s2",
+    "p202.s1",
+    "p208.s4",
+    "p208.s5",
+    "p211.s3",
+    "p212.s1",
+    "p490.s6",
+    "p491.s1",
+    "p515.s1",
+    "p516.s1",
+    "p516.s2",
+    "p517.s1",
+    "p518.s1",
+    "p526.s1",
+    "p527.s1",
+    "p532.s1",
+    "p533.s1",
+    "p538.s1",
+    "p539.s1",
+    "p544.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": true,
+     "problems": [
+      "invalid JSON for the whole batch: Expecting ',' delimiter: line 129 column 113 (char 7111)"
+     ]
+    },
+    {
+     "attempt": 2,
+     "cached": true,
+     "problems": []
+    }
+   ]
+  },
+  "DPDP4": {
+   "flag": "DPDP4",
+   "flag_key": "dpdp_eighth_schedule_languages",
+   "search_log": {
+    "Eighth Schedule": 0,
+    "language(s) / translation": 3,
+    "Indian language names (English)": 0,
+    "Indian language names (native script)": 8,
+    "English": 2
+   },
+   "n_candidates": 11,
+   "mode": "batch",
+   "presence": "Present",
+   "state": "ED",
+   "evidence": [
+    {
+     "id": "p051.s1",
+     "quote": "हिंदी",
+     "status": "exact",
+     "start": 690,
+     "end": 695,
+     "heading": "Svenska (SE)"
+    },
+    {
+     "id": "p052.s1",
+     "quote": "বাংলা",
+     "status": "exact",
+     "start": 696,
+     "end": 701,
+     "heading": "Svenska (SE)"
+    },
+    {
+     "id": "p053.s1",
+     "quote": "தமிழ்",
+     "status": "exact",
+     "start": 702,
+     "end": 707,
+     "heading": "Svenska (SE)"
+    },
+    {
+     "id": "p054.s1",
+     "quote": "తెలుగు",
+     "status": "exact",
+     "start": 708,
+     "end": 714,
+     "heading": "Svenska (SE)"
+    }
+   ],
+   "status": "verified",
+   "rationale": "The notice text provides section headers or options referencing Indian languages.",
+   "attempts": 2,
+   "shown": [
+    "p035.s1",
+    "p036.s1",
+    "p043.s1",
+    "p044.s1",
+    "p051.s1",
+    "p052.s1",
+    "p053.s1",
+    "p054.s1",
+    "p055.s1",
+    "p059.s1",
+    "p060.s1",
+    "p063.s1",
+    "p064.s1",
+    "p106.s1",
+    "p106.s2",
+    "p125.s3",
+    "p125.s4",
+    "p131.s1",
+    "p132.s1"
+   ],
+   "history": [
+    {
+     "attempt": 1,
+     "cached": true,
+     "problems": [
+      "invalid JSON for the whole batch: Expecting ',' delimiter: line 129 column 113 (char 7111)"
+     ]
+    },
+    {
+     "attempt": 2,
+     "cached": true,
+     "problems": []
+    }
+   ]
+  }
+ },
+ "scores": {
+  "scoring_version": "1.0",
+  "risk_index": 56.8966,
+  "risk_index_display": 57,
+  "disclosure_quality": 78.3333,
+  "disclosure_quality_display": 78,
+  "risk_points": 16.5,
+  "max_risk_points": 29.0,
+  "quality_points": 23.5,
+  "max_quality_points": 30.0,
+  "n_applicable": 15,
+  "n_not_stated": 1,
+  "per_flag": [
+   {
+    "flag": "G1",
+    "state": "ED",
+    "weight": 1.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 1.0,
+    "max_risk_points": 1.0,
+    "quality_points": 2.0
+   },
+   {
+    "flag": "G2",
+    "state": "CD",
+    "weight": 3.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 1.5,
+    "max_risk_points": 3.0,
+    "quality_points": 1.5
+   },
+   {
+    "flag": "G3",
+    "state": "CD",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 1.0,
+    "max_risk_points": 2.0,
+    "quality_points": 1.5
+   },
+   {
+    "flag": "G4",
+    "state": "CD",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 1.0,
+    "max_risk_points": 2.0,
+    "quality_points": 1.5
+   },
+   {
+    "flag": "G5",
+    "state": "CD",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 1.0,
+    "max_risk_points": 2.0,
+    "quality_points": 1.5
+   },
+   {
+    "flag": "G6",
+    "state": "CD",
+    "weight": 1.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 0.5,
+    "max_risk_points": 1.0,
+    "quality_points": 1.5
+   },
+   {
+    "flag": "G7",
+    "state": "CD",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 1.0,
+    "max_risk_points": 2.0,
+    "quality_points": 1.5
+   },
+   {
+    "flag": "AI1",
+    "state": "ED",
+    "weight": 3.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 3.0,
+    "max_risk_points": 3.0,
+    "quality_points": 2.0
+   },
+   {
+    "flag": "AI2",
+    "state": "NS",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 0.0,
+    "max_risk_points": 2.0,
+    "quality_points": 0.0
+   },
+   {
+    "flag": "AI3",
+    "state": "CD",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 1.0,
+    "max_risk_points": 2.0,
+    "quality_points": 1.5
+   },
+   {
+    "flag": "AI4",
+    "state": "ED",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 2.0,
+    "max_risk_points": 2.0,
+    "quality_points": 2.0
+   },
+   {
+    "flag": "AI5",
+    "state": "ED",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 2.0,
+    "max_risk_points": 2.0,
+    "quality_points": 2.0
+   },
+   {
+    "flag": "DPDP1",
+    "state": "CD",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 1.0,
+    "max_risk_points": 2.0,
+    "quality_points": 1.5
+   },
+   {
+    "flag": "DPDP2",
+    "state": "ED",
+    "weight": 2.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 0.0,
+    "max_risk_points": 2.0,
+    "quality_points": 2.0
+   },
+   {
+    "flag": "DPDP3",
+    "state": "CD",
+    "weight": 1.0,
+    "applicable": true,
+    "reason": "",
+    "risk_points": 0.5,
+    "max_risk_points": 1.0,
+    "quality_points": 1.5
+   },
+   {
+    "flag": "DPDP4",
+    "state": "ED",
+    "weight": 0.0,
+    "applicable": false,
+    "reason": "informational flag (weight 0)",
+    "risk_points": 0.0,
+    "max_risk_points": 0.0,
+    "quality_points": 0.0
+   }
+  ],
+  "complete": true,
+  "rejected_flags_scored_as_UN": []
+ },
+ "policy_key": "P08_reddit",
+ "cohort": "global"
+}

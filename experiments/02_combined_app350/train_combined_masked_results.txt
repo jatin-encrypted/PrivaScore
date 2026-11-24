@@ -1,0 +1,34 @@
+  trained First Party Collection/Use                    on  5308 rows
+  trained Third Party Sharing/Collection                on  5308 rows
+  trained User Choice/Control                           on  2582 rows
+  trained User Access, Edit and Deletion                on  2582 rows
+  trained Data Retention                                on  2582 rows
+  trained Data Security                                 on  2582 rows
+  trained Policy Change                                 on  2582 rows
+  trained Do Not Track                                  on  2582 rows
+  trained International and Specific Audiences          on  2582 rows
+  trained Other                                         on  2582 rows
+
+validation macro F1: 0.6347
+test macro F1 (all rows, includes the APP-350-vacuous-class artifact - see analysis doc): 0.6188
+test macro F1 (OPP-115 rows only - the fair number): 0.7243
+
+=== Per-class report (OPP-115 test rows) ===
+                                      precision    recall  f1-score   support
+
+          First Party Collection/Use       0.84      0.71      0.77       262
+      Third Party Sharing/Collection       0.90      0.72      0.80       205
+                 User Choice/Control       0.63      0.56      0.59       123
+      User Access, Edit and Deletion       0.69      0.66      0.67        50
+                      Data Retention       0.50      0.48      0.49        27
+                       Data Security       0.59      0.68      0.63        47
+                       Policy Change       0.85      0.74      0.79        31
+                        Do Not Track       1.00      1.00      1.00         5
+International and Specific Audiences       0.90      0.64      0.75        72
+                               Other       0.79      0.71      0.75       268
+
+                           micro avg       0.79      0.68      0.73      1090
+                           macro avg       0.77      0.69      0.72      1090
+                        weighted avg       0.79      0.68      0.73      1090
+                         samples avg       0.80      0.75      0.74      1090
+

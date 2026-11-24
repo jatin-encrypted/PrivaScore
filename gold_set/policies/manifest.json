@@ -1,0 +1,422 @@
+{
+  "P01_openai": {
+    "id": "P01",
+    "name": "openai",
+    "cohort": "ai",
+    "scope": "consumer",
+    "url": "https://openai.com/policies/row-privacy-policy/",
+    "status": 200,
+    "final_url": "https://openai.com/policies/row-privacy-policy/",
+    "content_type": "text/html; charset=utf-8",
+    "fetched_at_utc": "2026-11-11T18:47:16+00:00",
+    "method": "requests",
+    "raw_file": "policies/raw/P01_openai.html",
+    "text_file": "policies/text/P01_openai.txt",
+    "raw_sha256": "c74cbc4cd6a4ce0cc79066a6e8a493b27aa5d6a09d8d02eb9eb01414d4497244",
+    "text_sha256": "4d3e6c2b467fc057af22da83b68a8892850c02e08d835ec53076a1c2f553ce1e",
+    "raw_bytes": 473245,
+    "text_words": 4133,
+    "warnings": [],
+    "text_extractor_version": "2",
+    "previous_text_versions": [
+      {
+        "version": "1",
+        "file": "policies/text_v1/P01_openai.txt",
+        "sha256": "94e1c24fe6a646e542cfd87ef14e32fdbb97bde84ed4825c858627b99a19ffa8",
+        "words": 4440
+      }
+    ]
+  },
+  "P02_anthropic": {
+    "id": "P02",
+    "name": "anthropic",
+    "cohort": "ai",
+    "scope": "consumer",
+    "url": "https://www.anthropic.com/legal/privacy",
+    "status": 200,
+    "final_url": "https://www.anthropic.com/legal/privacy",
+    "content_type": "text/html; charset=utf-8",
+    "fetched_at_utc": "2026-11-11T18:47:17+00:00",
+    "method": "requests",
+    "raw_file": "policies/raw/P02_anthropic.html",
+    "text_file": "policies/text/P02_anthropic.txt",
+    "raw_sha256": "f30e72364b5018aef805134fc86acb5c99ba7fa72b60d0cf445ecf6b47d139fa",
+    "text_sha256": "b0e0ce0a4df6fa4b0a674f412a8d8e60b0ef420e8cdaa948dd2c2918692cffef",
+    "raw_bytes": 1218186,
+    "text_words": 6138,
+    "warnings": [],
+    "text_extractor_version": "2",
+    "previous_text_versions": [
+      {
+        "version": "1",
+        "file": "policies/text_v1/P02_anthropic.txt",
+        "sha256": "271f84229b520c56676a812d65654a767dd154521c557e2756a03e481c014aac",
+        "words": 6169
+      }
+    ]
+  },
+  "P03_deepseek": {
+    "id": "P03",
+    "name": "deepseek",
+    "cohort": "ai",
+    "scope": "consumer",
+    "url": "https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html",
+    "status": 200,
+    "final_url": "https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html",
+    "content_type": "text/html",
+    "fetched_at_utc": "2026-11-11T18:47:19+00:00",
+    "method": "requests",
+    "raw_file": "policies/raw/P03_deepseek.html",
+    "text_file": "policies/text/P03_deepseek.txt",
+    "raw_sha256": "339984e36a795843ee2b5b917797072ec249f3c0e9ff7cbbfe754c01caa4f069",
+    "text_sha256": "7580bab746cfc4fdad2695bd97764d9ba6caf4606409857208c2eb045cf91ec2",
+    "raw_bytes": 48935,
+    "text_words": 4289,
+    "warnings": [],
+    "text_extractor_version": "2",
+    "previous_text_versions": [
+      {
+        "version": "1",
+        "file": "policies/text_v1/P03_deepseek.txt",
+        "sha256": "4eb9e8af2e4e9a8ba1d488b6edaf85085be875e6e2a34e5bdfd7b124b4f5b5e5",
+        "words": 4310
+      }
+    ]
+  },
+  "P04_perplexity": {
+    "id": "P04",
+    "name": "perplexity",
+    "cohort": "ai",
+    "scope": "consumer",
+    "url": "https://www.perplexity.ai/hub/legal/privacy-notice",
+    "status": 200,
+    "final_url": "https://www.perplexity.ai/hub/legal/privacy-notice",
+    "content_type": "text/html",
+    "fetched_at_utc": "2026-11-11T18:47:21+00:00",
+    "method": "requests",
+    "raw_file": "policies/raw/P04_perplexity.html",
+    "text_file": "policies/text/P04_perplexity.txt",
+    "raw_sha256": "dbe959c40696fd79caf9a7a2b5944ec4dd2c0171fed68c16117a07ad14847a50",
+    "text_sha256": "086612361cbe1de40239f1e7ce6fd0120356e4f1b3218b8c21a5ee553cfb442b",
+    "raw_bytes": 242605,
+    "text_words": 5072,
+    "warnings": [],
+    "text_extractor_version": "2",
+    "previous_text_versions": [
+      {
+        "version": "1",
+        "file": "policies/text_v1/P04_perplexity.txt",
+        "sha256": "9edceed0fbeee90e6ece60b89fa3a27db8336e6ee3cf626b1f10ddd2f08ef4c0",
+        "words": 5081
+      }
+    ]
+  },
+  "P05_xai": {
+    "id": "P05",
+    "name": "xai",
+    "cohort": "ai",
+    "scope": "consumer",
+    "url": "https://x.ai/legal/privacy-policy",
+    "status": 200,
+    "final_url": "https://x.ai/legal/privacy-policy",
+    "content_type": "text/html; charset=utf-8",
+    "fetched_at_utc": "2026-11-11T18:47:22+00:00",
+    "method": "requests",
+    "raw_file": "policies/raw/P05_xai.html",
+    "text_file": "policies/text/P05_xai.txt",
+    "raw_sha256": "951ad850860f3ebf66f5bc380e860d7dd5c5f35e247a5c33c010c7894a214329",
+    "text_sha256": "e9d5e4f0d8fccc77ae5da947038d2d27380630c058197bb10a7da40d96cda0c9",
+    "raw_bytes": 152802,
+    "text_words": 4188,
+    "warnings": [],
+    "text_extractor_version": "2",
+    "previous_text_versions": [
+      {
+        "version": "1",
+        "file": "policies/text_v1/P05_xai.txt",
+        "sha256": "de7a4cdb65cf6c27f6ebef30dcc1606a4ae23951d02386ccd3d5e20177b29017",
+        "words": 4217
+      }
+    ]
+  },
+  "P06_zoom": {
+    "id": "P06",
+    "name": "zoom",
+    "cohort": "global",
+    "scope": "all_users",
+    "url": "https://www.zoom.com/en/trust/privacy/privacy-statement/",
+    "status": 200,
+    "final_url": "https://www.zoom.com/en/trust/privacy/privacy-statement/",
+    "content_type": "text/html; charset=utf-8",
+    "fetched_at_utc": "2026-11-11T18:47:25+00:00",
+    "method": "requests",
+    "raw_file": "policies/raw/P06_zoom.html",
+    "text_file": "policies/text/P06_zoom.txt",
+    "raw_sha256": "befc23172b47993753c315abad6da7e7792cf37d553df0ee1ffd6db3b9fd4510",
+    "text_sha256": "c4604c11de4704cfa18b36f9d0e06b4191c27232224d9f9efed0f8f5ed374de9",
+    "raw_bytes": 357710,
+    "text_words": 8198,
+    "warnings": [],
+    "text_extractor_version": "2",
+    "previous_text_versions": [
+      {
+        "version": "1",
+        "file": "policies/text_v1/P06_zoom.txt",
+        "sha256": "d3db2c2ff385fd7958ef1285f70956a9c5f2c354cfb117f52243a2805dbb722a",
+        "words": 8232
+      }
+    ]
+  },
+  "P07_spotify": {
+    "id": "P07",
+    "name": "spotify",
+    "cohort": "global",
+    "scope": "all_users",
+    "url": "https://www.spotify.com/in-en/legal/privacy-policy/",
+    "status": 200,
+    "final_url": "https://www.spotify.com/in-en/legal/privacy-policy/",
+    "content_type": "text/html; charset=utf-8",
+    "fetched_at_utc": "2026-11-11T18:47:27+00:00",
+    "method": "requests",
+    "raw_file": "policies/raw/P07_spotify.html",
+    "text_file": "policies/text/P07_spotify.txt",
+    "raw_sha256": "efa200733a4ac6bdf03e381db52579b3e3bd928cd346e308215e2c5b867ab8ab",
+    "text_sha256": "ea050ce111fb7761f4d28179bbdffdf7b2e0d5082ee4766496daf7e9c98a3716",
+    "raw_bytes": 196868,
+    "text_words": 6893,
+    "warnings": [],
+    "text_extractor_version": "2",
+    "previous_text_versions": [
+      {
+        "version": "1",
+        "file": "policies/text_v1/P07_spotify.txt",
+        "sha256": "3b58b004ed1f33e63fbeaaeff25b6cb80a30009f45ffba7c0d7e87eb666a15ed",
+        "words": 6926
+      }
+    ]
+  },
+  "P08_reddit": {
+    "id": "P08",
+    "name": "reddit",
+    "cohort": "global",
+    "scope": "all_users",
+    "url": "https://www.reddit.com/policies/privacy-policy",
+    "status": 200,
+    "final_url": "https://www.reddit.com/policies/privacy-policy?solution=f0878ce48c6632a6f0878ce48c6632a6&js_challenge=1&jsc_token=2824be10929bdc604753c70a67a1c3318d40777ddf156263745f518de7516b4f&jsc_orig_r=",
+    "content_type": "text/html (rendered)",
+    "fetched_at_utc": "2026-11-11T18:50:33+00:00",
+    "method": "playwright-chromium",
+    "raw_file": "policies/raw/P08_reddit.html",
+    "text_file": "policies/text/P08_reddit.txt",
+    "raw_sha256": "533c3a7fc059c53a61b45b239bc030edf13afc3d1bee1666507c655d8c123345",
+    "text_sha256": "d60d85907b1af9ded4ad758204c6cf7a44026c67c35281cfdd9673b00294030a",
+    "raw_bytes": 511261,
+    "text_words": 8117,
+    "warnings": [],
+    "text_extractor_version": "2",
+    "previous_text_versions": [
+      {
+        "version": "1",
+        "file": "policies/text_v1/P08_reddit.txt",
+        "sha256": "3ba360041e4a4ed62a97523463996d88a6f154b027903fc7c3210032b1e24204",
+        "words": 8169
+      }
+    ]
+  },
+  "P09_notion": {
+    "id": "P09",
+    "name": "notion",
+    "cohort": "global",
+    "scope": "all_users",
+    "url": "https://www.notion.so/Privacy-Policy-3468d120cf614d4c9014c09f6adc9091",
+    "status": 200,
+    "final_url": "https://www.notion.com/trust/privacy-policy?__dm_a=1",
+    "content_type": "text/html (rendered)",
+    "fetched_at_utc": "2026-11-11T18:50:54+00:00",
+    "method": "playwright-chromium",
+    "raw_file": "policies/raw/P09_notion.html",
+    "text_file": "policies/text/P09_notion.txt",
+    "raw_sha256": "9d2d24320524174b8581af3d2fd5c7ec1e494e89997e91006d5ec51a3a446116",
+    "text_sha256": "4b1bd83be17d7b07f265b9d1b67eebf0abd405d29be7af944bc31aad39ff1b76",
+    "raw_bytes": 203599,
+    "text_words": 5119,
+    "warnings": [],
+    "text_extractor_version": "2",
+    "previous_text_versions": [
+      {
+        "version": "1",
+        "file": "policies/text_v1/P09_notion.txt",
+        "sha256": "d4e8e9f21d40034aedfdfae47205db274e530f7afd5003f9de228bfef1ec0cfa",
+        "words": 5149
+      }
+    ]
+  },
+  "P10_duolingo": {
+    "id": "P10",
+    "name": "duolingo",
+    "cohort": "global",
+    "scope": "all_users",
+    "url": "https://www.duolingo.com/privacy",
+    "status": 200,
+    "final_url": "https://www.duolingo.com/privacy",
+    "content_type": "text/html (rendered)",
+    "fetched_at_utc": "2026-11-11T18:53:05+00:00",
+    "method": "playwright-chromium",
+    "raw_file": "policies/raw/P10_duolingo.html",
+    "text_file": "policies/text/P10_duolingo.txt",
+    "raw_sha256": "f2027578eb44da11bebe85e61837897a8578f5bc1a54818cec5dcbc3683ce8f3",
+    "text_sha256": "bda945667707dceeeb9df589a2879e958904e15cfd8bea60fa609bc0cc4cd90c",
+    "raw_bytes": 109634,
+    "text_words": 4806,
+    "warnings": [],
+    "text_extractor_version": "2",
+    "previous_text_versions": [
+      {
+        "version": "1",
+        "file": "policies/text_v1/P10_duolingo.txt",
+        "sha256": "728b02b38e14cf09987cb06d4c8b24afedd0189c311939270dcd41ecd2c72658",
+        "words": 4823
+      }
+    ]
+  },
+  "P11_razorpay": {
+    "id": "P11",
+    "name": "razorpay",
+    "cohort": "india",
+    "scope": "all_users",
+    "url": "https://razorpay.com/privacy-policy/",
+    "status": 200,
+    "final_url": "https://razorpay.com/privacy-policy/",
+    "content_type": "text/html; charset=utf-8",
+    "fetched_at_utc": "2026-11-11T18:47:33+00:00",
+    "method": "requests",
+    "raw_file": "policies/raw/P11_razorpay.html",
+    "text_file": "policies/text/P11_razorpay.txt",
+    "raw_sha256": "812e996dbf51fa04f43a0c4c3d484d995013f41654cac11950afeca42a9a8142",
+    "text_sha256": "8c5d095bc8c19a8d9f1222e0e6bbd77832c93a8b6609df94428ac8c742bcb8c0",
+    "raw_bytes": 1007512,
+    "text_words": 2787,
+    "warnings": [],
+    "text_extractor_version": "2",
+    "previous_text_versions": [
+      {
+        "version": "1",
+        "file": "policies/text_v1/P11_razorpay.txt",
+        "sha256": "6bbc6568eef29250fc8cafd68aa2f29b4399f0e6e6f749e6c4a02158909cb008",
+        "words": 2788
+      }
+    ]
+  },
+  "P12_phonepe": {
+    "id": "P12",
+    "name": "phonepe",
+    "cohort": "india",
+    "scope": "all_users",
+    "url": "https://www.phonepe.com/privacy-policy/",
+    "status": 200,
+    "final_url": "https://www.phonepe.com/privacy-policy/",
+    "content_type": "text/html",
+    "fetched_at_utc": "2026-11-11T18:47:35+00:00",
+    "method": "requests",
+    "raw_file": "policies/raw/P12_phonepe.html",
+    "text_file": "policies/text/P12_phonepe.txt",
+    "raw_sha256": "df64bfefa92b978f9470fe6f396ea7944274634f23f141c163df736723354326",
+    "text_sha256": "3e9c49e54dea82e72437ae128669325428f7fe77ab9841c4096d5099ff0d0ec1",
+    "raw_bytes": 269358,
+    "text_words": 5222,
+    "warnings": [],
+    "text_extractor_version": "2",
+    "previous_text_versions": [
+      {
+        "version": "1",
+        "file": "policies/text_v1/P12_phonepe.txt",
+        "sha256": "7cb6ed20b938d5b03de459161e42bcba8bb1b2b12eeeb8df3c4791eaedb67e38",
+        "words": 5259
+      }
+    ]
+  },
+  "P13_swiggy": {
+    "id": "P13",
+    "name": "swiggy",
+    "cohort": "india",
+    "scope": "all_users",
+    "url": "https://www.swiggy.com/privacy-policy",
+    "status": 200,
+    "final_url": "https://www.swiggy.com/privacy-policy",
+    "content_type": "text/html (rendered)",
+    "fetched_at_utc": "2026-11-11T18:52:00+00:00",
+    "method": "playwright-chromium",
+    "raw_file": "policies/raw/P13_swiggy.html",
+    "text_file": "policies/text/P13_swiggy.txt",
+    "raw_sha256": "3451a0b1ce4b67dd9acec036fcf4e6c9f09162ce548cd408c1782ad6bfd3ee13",
+    "text_sha256": "1663547ad9c7e486ce1bcdb8117a558b096d618a368221f1a495b5ab90ef1599",
+    "raw_bytes": 68645,
+    "text_words": 3707,
+    "warnings": [],
+    "text_extractor_version": "2",
+    "previous_text_versions": [
+      {
+        "version": "1",
+        "file": "policies/text_v1/P13_swiggy.txt",
+        "sha256": "2fab2995f3a7757d506a894c47109b9a8582c30f6d7f7c318b2db958c8046be6",
+        "words": 3720
+      }
+    ]
+  },
+  "P14_zomato": {
+    "id": "P14",
+    "name": "zomato",
+    "cohort": "india",
+    "scope": "all_users",
+    "url": "https://www.zomato.com/policies/privacy/",
+    "status": 200,
+    "final_url": "https://www.zomato.com/policies/privacy/",
+    "content_type": "text/html",
+    "fetched_at_utc": "2026-11-11T18:47:38+00:00",
+    "method": "requests",
+    "raw_file": "policies/raw/P14_zomato.html",
+    "text_file": "policies/text/P14_zomato.txt",
+    "raw_sha256": "96645cf8f326794cd93a9331977e31cd9beacdb456a909bf075dc511b4595730",
+    "text_sha256": "2f16a4a9b47863d8e315bd405dbfb6297069324a47a374ea8878a1ffd120499a",
+    "raw_bytes": 79539,
+    "text_words": 7017,
+    "warnings": [],
+    "text_extractor_version": "2",
+    "previous_text_versions": [
+      {
+        "version": "1",
+        "file": "policies/text_v1/P14_zomato.txt",
+        "sha256": "181ae1c419ebaad6878a05d05a69b690af6defe11f493de4f06aa22c5e4c43a0",
+        "words": 7048
+      }
+    ]
+  },
+  "P15_unacademy": {
+    "id": "P15",
+    "name": "unacademy",
+    "cohort": "india",
+    "scope": "all_users",
+    "url": "https://unacademy.com/privacy",
+    "status": 200,
+    "final_url": "https://unacademy.com/privacy",
+    "content_type": "text/html; charset=utf-8",
+    "fetched_at_utc": "2026-11-11T18:47:39+00:00",
+    "method": "requests",
+    "raw_file": "policies/raw/P15_unacademy.html",
+    "text_file": "policies/text/P15_unacademy.txt",
+    "raw_sha256": "9a9fd5d4f9dcadc2d2e8af209601b199069fde6a1ef5f2e1a5bf5984819a63f9",
+    "text_sha256": "32a106340f0e4aaab2a661a3aab414d8e974aff8bd3f3d481af39acb6957d9bf",
+    "raw_bytes": 178908,
+    "text_words": 8442,
+    "warnings": [],
+    "text_extractor_version": "2",
+    "previous_text_versions": [
+      {
+        "version": "1",
+        "file": "policies/text_v1/P15_unacademy.txt",
+        "sha256": "53bc50e3d9428626431c0ef4e9f045b63b4b137cfa293e25c4ad11cf29f455b3",
+        "words": 8486
+      }
+    ]
+  }
+}

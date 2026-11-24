@@ -1,0 +1,204 @@
+# P13 swiggy: full text with sentence IDs
+
+- Source: https://www.swiggy.com/privacy-policy
+- Fetched (UTC): 2026-11-11T18:52:00+00:00
+- Snapshot: `policies/text/P13_swiggy.txt` sha256 `1663547ad9c7e486ce1bcdb8117a558b096d618a368221f1a495b5ab90ef1599`
+
+Cite evidence by sentence ID (e.g. `p042.s2`). IDs are stable as long as the snapshot is unchanged.
+
+
+### p001 Privacy Policy
+
+
+### p002 Last updated on April 17, 2026
+
+**p003** `s1` This Privacy Policy ("Policy") describes the policies and procedures of the collection, use, disclosure and protection of your information when you use our website located at swiggy.com, the Swiggy mobile applications, or the Instamart mobile application, etc (collectively, "Platform/s") made available by Swiggy Limited or its affiliates (collectively referred to as "Swiggy Group", "we", "us" and "our").
+
+**p004** `s1` The terms "you" and "your" refer to the user of the Platforms. `s2` The term "Services" refers to any services offered by the Swiggy Group whether on the Platforms or otherwise.
+
+**p005** `s1` Please read this Policy before using the Platforms or submitting any personal information to the Swiggy Group. `s2` This Policy is a part of and incorporated within, and is to be read along with, the Terms of Use.
+
+
+### p006 YOUR CONSENT
+
+**p007** `s1` By using the Platforms and the Services, you agree and consent to the collection, transfer, use, storage, disclosure and sharing of your information as described and collected by us in accordance with this Policy. `s2` If you do not agree with the Policy, please do not use or access the Platform.
+
+
+### p008 POLICY CHANGES
+
+**p009** `s1` We may occasionally update this Policy and the updated Policy will be posted on this page. `s2` If we make any significant changes to this Policy we will endeavor to intimate you of such changes, such as via prominent notice on the Platforms or to your email address on record and where required by applicable law, we will obtain your consent. `s3` To the extent permitted under the applicable law, your continued use of the Services following the changes to this Privacy Policy will constitute your consent and acceptance of those changes.
+
+
+### p010 LINKS TO OTHER WEBSITES
+
+**p011** `s1` The Platforms may contain links to other websites and similar other features. `s2` Your use of such websites and/or features may result in the collection, processing or sharing of information about you, depending on the website/feature. `s3` Any personal information about you collected whilst visiting such websites/feature(s) is not governed by this Policy, unless specifically mentioned otherwise. `s4` The Swiggy Group shall not be responsible for and has no control over the practices and content of any website/feature accessed using such links contained on the Platforms. `s5` This Policy shall not apply to any information you may disclose to any of our service providers/service personnel which we do not require you to disclose to us or any of our service providers under this Policy. `s6` We strongly encourage you to read such third parties' privacy policies.
+
+
+### p012 INFORMATION WE COLLECT FROM YOU
+
+**p013** `s1` Your Device Information: In order to improve your app experience and lend stability to our Services to you, we may collect information or employ third party plugins that collect information about the devices you use to access our Services, including the hardware models, operating systems and versions, software, file names and versions, preferred languages, device identifiers, advertising identifiers, device motion information, mobile network information, installed applications on device and phone state. `s2` The information collected thus will be disclosed to or collected directly by these plugins and may be used to improve the content and/or functionality of the services offered to you. `s3` Analytics companies may use mobile device IDs to track your usage of the Platforms.
+
+**p014** `s1` Your account information: Your full name, email address, address, postal code, password and other information you may provide with your account, such as your gender, mobile phone number etc. For a few Services we may also collect your profile picture. `s2` You may optionally provide us with this information through third-party sign-in services. `s3` In such cases, we fetch and store whatever information is made available to us by you through these sign-in services.
+
+**p015** `s1` Your preferences: Your preferences and settings such as time zone and language. `s2` The search terms you have looked up and results you selected, how long you used our Services and which features you used, the ads you clicked on.
+
+**p016** `s1` Your content: Information you provide through our Services, including your ratings and/or reviews of our Merchants and/or their products, current and prior restaurant reservation details, food ordering details and history, most ordered restaurants/products etc and other information you provide to us.
+
+**p017** `s1` Your communications: Communications between you and other users, service providers, PDP, Merchants, through our Services; your participation in a survey, poll, campaign, contest or promotion scheme; your request for certain features (e.g., newsletters, updates or other products); your communication with us about employment and/or occupational/professional opportunities.
+
+**p018** `s1` Your transactional information: If you make reservations or purchases through our Services, we may collect and store information about you to process your requests and automatically complete forms for future transactions, including (but not limited to) your phone number, address, email, billing information in a tokenized manner.
+
+**p019** `s1` Your Public Posts: You also may provide information (such as ratings, reviews, comments, likes,.) to be published or displayed (hereinafter, "posted") on certain areas of our Services(collectively, "User Content"). `s2` Your User Content is posted on and transmitted to others at your own risk. `s3` Additionally, we cannot control the actions of other users of our Services with whom you may choose to share your User Content.. `s4` We may display this information on the Services, share it with businesses, and further distribute it to a wider audience through third party sites and services. `s5` You should be careful about revealing any sensitive details about yourself in such postings.
+
+**p020** `s1` Usage information: Details of your use of our Services, including traffic data, location data, logs and other communication data and the resources that you access and use on or through our Services.
+
+**p021** `s1` Stored information and files: Our applications also may access metadata and other information associated with other files stored on your mobile device with your consent.
+
+**p022** `s1` Location information: Our applications collect real-time information about the location of your device, as permitted by you.
+
+**p023** `s1` Last URL visited: The URL of the last web page you visited before visiting our websites.
+
+**p024** `s1` Applications: If you use the Platforms, we may collect information about the presence and/ or absence and/ or details pertaining to other applications on your mobile phone.
+
+**p025** `s1` Specifically from PDPs/Pickers we may collect: photographs, phone number, name, Pan card, Aadhar/Voter ID, driving license, Bank details, Location (while logged in), gender, vehicle type, home address(for inventory delivery), blood group, nominee/spouse /emergency contact details for the purposes specified in this Policy.
+
+**p026** `s1` Additionally, we may also collect information relating to you (including your prescriptions), to facilitate through the Instamart Platform, your purchase of pharmaceutical drugs from retail pharmacies ("Retail Pharmacies"), and consultation with registered medical practitioners ("Medical Practitioners").
+
+**p027** `s1` We use the information you provide to us to enhance the functionality and improve the quality of our Services, and to personalize your experience while using our Services. `s2` We also use this information to display relevant advertising, provide support to you, communicate with you, and comply with our legal obligations.
+
+
+### p028 COOKIES
+
+**p029** `s1` The Platforms, and third parties with whom we partner, may use cookies, pixel tags, web beacons, mobile device IDs, "flash cookies (wherever applicable)" and similar files or technologies to collect and store information with respect to your use of the Services and third-party websites.
+
+**p030** `s1` Cookies are small files that are stored on your browser or device by websites, apps, online media and advertisements. `s2` We use cookies and similar technologies for purposes such as:
+
+**p031** `s1` Authenticating users;
+
+**p032** `s1` Remembering user preferences and settings;
+
+**p033** `s1` Determining the popularity of content;
+
+**p034** `s1` Delivering and measuring the effectiveness of advertising campaigns;
+
+**p035** `s1` Analysing site traffic and trends, and generally understanding the online behaviors and interests of people who interact with our services.
+
+**p036** `s1` A pixel tag (also called a web beacon or clear GIF) is a tiny graphic with a unique identifier, embedded invisibly on a webpage (or an online ad or email), and is used to count or track things like activity on a webpage or ad impressions or clicks, as well as to access cookies stored on users' computers. `s2` We use pixel tags to measure the popularity of our various pages, features and services. `s3` We also may include web beacons in e-mail messages or newsletters to determine whether the message has been opened and for other analytics.
+
+**p037** `s1` To modify your cookie settings, please visit your browser's settings. `s2` By using our Services with your browser settings to accept cookies, you are explicitly consenting to our use of cookies in the manner described in this section.
+
+**p038** `s1` We may also allow third parties to provide audience measurement and analytics services for us, to serve advertisements on our behalf across the Internet, and to track and report on the performance of those advertisements. `s2` These entities may use cookies, web beacons, SDKs and other technologies to identify your device when you visit the Platforms and use our Services, as well as when you visit other online sites and services.
+
+**p039** `s1` Please see our Cookie Policy for more information regarding the use of cookies and other technologies described in this section, including regarding your choices relating to such technologies.
+
+
+### p040 USES OF YOUR INFORMATION
+
+**p041** `s1` We use the information we collect for following purposes, including:
+
+**p042** `s1` To provide, personalise, maintain and improve our products and services, such as to enable and facilitate deliveries and other services, enable features to personalise your account and enhance your overall experience on the Platforms. `s2` This may include processing information made available on the Platforms (including information you provide or that is shared with the Platforms) to enable relevant features, prompts, reminders, or notifications in connection with your use of the Services;
+
+**p043** `s1` To carry out our obligations arising from any contracts entered into between you and us and to provide you with the information and services;
+
+**p044** `s1` To administer and enhance the security of our Platforms and for internal operations, including troubleshooting, data analysis, testing, research, statistical and survey purposes;
+
+**p045** `s1` To facilitate and/or provide you with information about services we consider similar to those that you are already using, or have enquired about, or may interest you. `s2` If you are a registered user, we will contact you by electronic means (e-mail or SMS or telephone or other internet based instant messaging systems) with information about these services;
+
+**p046** `s1` To understand our users (what they do on our Services, what features they like, how they use them, etc.), improve the content and features of our Services (such as by personalizing content to your interests), process and complete your transactions, make special offers provide customer support, process and respond to your queries;
+
+**p047** `s1` To generate and review reports and data about, and to conduct research on, our user base and Service usage patterns and share it with third parties;
+
+**p048** `s1` To allow you to participate in interactive features of our Services, if any;
+
+**p049** `s1` To measure or understand the effectiveness of advertising we serve to you and others, and to deliver advertising to you;
+
+**p050** `s1` If you are a partner restaurant or merchant or delivery partner, to track the progress of delivery or status of the order placed by our customers;
+
+**p051** `s1` To carry out academic research with academic partners in an aggregated and anonymized manner;
+
+**p052** `s1` Administer and facilitate contests, campaigns, giveaways and sweepstakes;
+
+**p053** `s1` To enable Retail Pharmacies to dispense medication to you, and Medical Practitioners to provide you with consultation services; or
+
+**p054** `s1` To enable AI-assisted features, we may share certain personal data and transaction-related information with third-party AI service providers, including order details, delivery information, preferences, and interaction data, for the purpose of enabling such features.
+
+**p055** `s1` We may combine the information that we receive from third parties with the information you give to us and information we collect about you for the purposes set out above.
+
+**p056** `s1` Further, we may anonymize and/or de-identify information collected from you through the Services or via other means, including via the use of third-party web analytic tools. `s2` As a result, our use and disclosure of aggregated and/or de-identified information is not restricted by this Policy, and it may be used and disclosed to others without limitation.
+
+**p057** `s1` We analyse the log files of our Platforms that may contain Internet Protocol (IP) addresses, browser type and language, Internet service provider (ISP), referring, app crashes, page viewed and exit websites and applications, operating system, date/time stamp, and clickstream data. `s2` This helps us to administer the website, to learn about user behavior on the site, to improve our product and services, and to gather demographic information about our user base as a whole.
+
+
+### p058 DISCLOSURE AND DISTRIBUTION OF YOUR INFORMATION
+
+**p059** `s1` We may share your information that we collect for following purposes:
+
+**p060** `s1` With Service Providers: We may share your information with our vendors, consultants, marketing partners, Retail Pharmacies, Medical Practitioners, delivery partners, research firms and other service providers, business partners, payment processing companies, for the purposes listed above. `s2` For example, your information may be shared with outside vendors to send you emails and messages or push notifications to your devices in relation to our Services, to help us analyze and improve the use of our Services, to process and collect payments. `s3` We also may use vendors for other projects, such as conducting surveys or organizing sweepstakes for us.
+
+**p061** `s1` With Connected Platforms/Apps: By providing your personal information, including addresses, phone numbers, ordering history and other details during your ordering process, you acknowledge and agree that such data may be used to personalize your experience across our ecosystem of services. `s2` This may include sharing and utilizing your information seamlessly across any connected platforms or apps within the Swiggy Group, or any other apps or platforms developed by Swiggy Group, enhancing functionality and providing consistent service when you access them using the same credentials.
+
+**p062** `s1` With Partner Restaurants/Merchants: While you place a request for your order through the Platforms, your information, including personal information is provided to us and to the restaurants/merchants with whom you may choose to order. `s2` In order to facilitate your online food order processing, we provide your information to that restaurant/merchant in a similar manner as if you had placed an order directly with the restaurant/Merchant. `s3` If you provide a mobile phone number, we may send you text messages regarding the order's delivery status. `s4` Any information shared with the restaurants/merchants is subject to restaurants / merchants own privacy policy and practices.
+
+**p063** `s1` Please note that the restaurants/merchants may use the same for their own purposes, including but not limited to, provision of their services, customer management, marketing etc. Any such use is subject to their own compliance with applicable laws and regulations. `s2` The Swiggy Group disclaims any liability or responsibility with respect to how restaurants/merchants share and/or use your information provided to them. `s3` We encourage you to review their privacy policy and other terms and conditions to understand their use of your information better.
+
+**p064** `s1` With Academic Partners: We may share your information with our academic partners for the purpose of carrying out academic research in an anonymized and/or de-identified manner.
+
+**p065** `s1` With Other Users: If you are a delivery partner, we may share your name, phone number and/or profile picture (if applicable), tracking details with other users, Merchants or other service providers to provide them the Services.
+
+**p066** `s1` For Crime Prevention or Investigation: We may share this information with governmental agencies or other companies assisting us, when we are:
+
+**p067** `s1` Obligated under the applicable laws or in good faith to respond to court orders and processes; or
+
+**p068** `s1` Detecting and preventing against actual or potential occurrence of identity theft, fraud, abuse of Services and other illegal acts;
+
+**p069** `s1` Responding to claims that an advertisement, posting or other content violates the intellectual property rights of a third party;
+
+**p070** `s1` Under a duty to disclose or share your personal data in order to enforce our Terms of Use and other agreements, policies or to protect the rights, property, or safety of the Swiggy Group, our customers, or others, or in the event of a claim or dispute relating to your use of our Services.
+
+**p071** `s1` This includes exchanging information with other companies and organisations including for the purposes of fraud detection, prevention, mitigation, auditing, assurance purposes, and credit risk reduction.
+
+**p072** `s1` For Internal Use: We may share your information with any present or future member of our Group (as defined below) including our affiliates for our internal business purposes. `s2` The term "Group" means, with respect to any person, any entity that is controlled by such person, or any entity that controls such person, or any entity that is under common control with such person, whether directly or indirectly, or, in the case of a natural person, any Relative (as such term is defined in the Companies Act, 1956 and Companies Act, 2013 to the extent applicable) of such person.
+
+**p073** `s1` With Advertisers and advertising networks: We may work with third parties such as network advertisers to serve advertisements on the Platforms and on third-party websites or other media (e.g., social networking platforms). `s2` These third parties may use cookies, JavaScript, web beacons (including clear GIFs), Flash LSOs and other tracking technologies to measure the effectiveness of their ads and to personalize advertising content to you.
+
+**p074** `s1` To fulfill the purpose for which you provide it.
+
+**p075** `s1` We may transfer your personal information with any third party to which we transfer or sell our assets, merge or consolidate with or in connection with an internal restructuring, and you agree that such third party will have the right to continue to use the personal information provided to us by you, in accordance with the Terms and this Policy.
+
+**p076** `s1` With AI Assistants used to access the Platforms: AI Assistants used to access the Platforms may be operated by third parties independent of the Swiggy Group. `s2` The Swiggy Group does not control and shall not be responsible for the availability, performance, or conduct of such third-party AI providers. `s3` Use of such AI Assistants may be subject to separate terms and privacy policies of the respective third-party providers. `s4` All information shared by you when connecting your account to ChatGPT or other AI assistants remains your property and that of the Swiggy Group. `s5` OpenAI or any AI service provider acting on your behalf does not obtain any ownership rights over such data. `s6` AI providers may only process the data as necessary to execute your instructions. `s7` Such data processing shall be carried out in accordance with Applicable Laws, and this Policy.
+
+**p077** `s1` You cannot opt out of advertising on the Platforms, you may opt out of much interest-based advertising on third party sites and through third party ad networks (including DoubleClick Ad Exchange, Facebook Audience Network and Google AdSense). `s2` For more information, visit www.aboutads.info/choices. `s3` Opting out means that you will no longer receive personalized ads by third parties ad networks from which you have opted out, which is based on your browsing information across multiple sites and online services. `s4` If you delete cookies or change devices, your opt out may no longer be effective.
+
+**p078** `s1` We may share your information other than as described in this Policy if we notify you and you consent to the sharing.
+
+
+### p079 DATA SECURITY PRECAUTIONS
+
+**p080** `s1` We have in place appropriate technical and security measures to secure the information collected by us.
+
+**p081** `s1` We use vault and tokenization services from third party service providers to protect the sensitive personal information provided by you. `s2` The third-party service providers with respect to our vault and tokenization services and our payment gateway and payment processing are compliant with the payment card industry standard (generally referred to as PCI compliant service providers).
+
+**p082** `s1` You are advised not to send your full credit/debit card details through unencrypted electronic platforms. `s2` Where we have given you (or where you have chosen) a username and password which enables you to access certain parts of the Platforms, you are responsible for keeping these details confidential. `s3` We ask you not to share your password with anyone.
+
+**p083** `s1` Please be aware that the transmission of information via the internet is not completely secure. `s2` Although we will do our best to protect your personal data, we cannot guarantee the security of your data transmitted through the Platforms. `s3` Once we have received your information, we will use strict physical, electronic, and procedural safeguards to try to prevent unauthorised access.
+
+
+### p084 OPT-OUT/ Withdrawal of Consent
+
+**p085** `s1` When you sign up for an account, you are opting in to receive emails from us. `s2` You can follow the "unsubscribe" instructions in commercial email messages, but note that you cannot opt out of receiving certain administrative notices, service notices, or legal notices from the Swiggy Group.
+
+**p086** `s1` If you wish to withdraw your consent for the use and disclosure of your personal information in the manner provided in this Policy or you want your data to be deleted, please write to us at support@swiggy.in. `s2` Please note that we may take time to process such requests, and your request shall take effect no later than 5 (Five) business days from the receipt of such request, after which we will not use your personal data for any processing unless required by us to comply with our legal obligations. `s3` We may not be able to offer you any or all Services upon such withdrawal of your consent.
+
+**p087** `s1` We may, however, retain and store your personal information in anonymized or aggregated form, for as long as necessary, and use it as permitted under applicable law, including for analytics, improving our products and services, and other business purposes.
+
+
+### p088 GRIEVANCE OFFICER AND PLATFORM SECURITY
+
+**p089** `s1` If you have any queries relating to the processing or usage of information provided by you in connection with this Policy, please email us at grievances@swiggy.in or write to our Grievance Officer at the following address:
+
+
+### p090 Swiggy Grievance Officer
+
+**p091** `s1` Survey No.14, No. 158, 3rd-6th Floor, Tower I, Sumadhura Capitol Towers, Pattanduru Agrahara Village, K.R.Puram Hobli, Bangalore East Taluk, Bengaluru, Karnataka 560066
+
+**p092** `s1` If you come across any abuse or violation of the Policy, please report to grievances@swiggy.in. `s2` Further, please note that the Platforms store your data with the cloud platform of Amazon Web Services provided by Amazon Web Services, Inc., which may store this data on their servers located outside of India. `s3` Amazon Web Services has security measures in place to protect the loss, misuse and alteration of the information, details of which are available at https://aws.amazon.com/. `s4` The privacy policy adopted by Amazon Web Services is detailed in https://aws.amazon.com/privacy. `s5` In the event you have questions or concerns about the security measures adopted by Amazon Web Services, you can contact their data protection / privacy team / legal team or designated the grievance officer at these organisations, whose contact details are available in its privacy policy, or can also write to our Grievance Officer at the address provided above.
