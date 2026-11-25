@@ -6,6 +6,7 @@ any log record, any error body, or any file on disk.
 from __future__ import annotations
 
 import logging
+import time
 
 from privascore.flags import REPO_ROOT
 
@@ -79,7 +80,21 @@ def test_nothing_is_written_to_disk(client, policy_text):
     assert _listing() - before == set(), "the request created files in the repo"
 
 
-def test_the_canary_is_not_in_any_file_afterwards(client, policy_text, tmp_path):
+def test_the_canary_is_not_in_any_file_afterwards(client, policy_text):
+    """Only files CHANGED by the request count as a leak.
+
+    Scanning every file in the repo looked stricter but was wrong: any file that merely contains
+    the canary string for an unrelated reason (the build brief uses it as an example) failed the
+    test on a machine that had one, while nothing had actually been written.
+
+    _local/ is deliberately NOT added to IGNORE. A real leak into that folder has to stay
+    visible, and the mtime check is what makes an unchanged file there harmless.
+
+    The window is the request itself. A filesystem with coarse mtime granularity could in
+    principle stamp a file written early in the request just below `start`; that would be a
+    missed leak rather than a false alarm, and no mainstream filesystem used here is that coarse.
+    """
+    start = time.time()
     client.post("/api/v1/evaluate", json={"text": _with_canary(policy_text)})
     hits = []
     for p in REPO_ROOT.rglob("*"):
@@ -87,6 +102,8 @@ def test_the_canary_is_not_in_any_file_afterwards(client, policy_text, tmp_path)
         if not p.is_file() or any(i in rel for i in IGNORE) or rel.startswith("backend/tests"):
             continue
         try:
+            if p.stat().st_mtime < start:
+                continue          # unchanged since before the request
             if CANARY in p.read_text(encoding="utf-8", errors="ignore"):
                 hits.append(rel)
         except OSError:
