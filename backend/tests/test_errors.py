@@ -1,0 +1,113 @@
+"""Error mapping (section 6.9), including the one case that is NOT an error.
+
+The distinction that matters: QuotaExhausted and ProviderOverloaded abort the analysis, while
+any other LLMError is absorbed by the pipeline (those flags become "rejected", are scored as UN,
+and the client gets a 200 with complete=false).
+"""
+from __future__ import annotations
+
+import asyncio
+
+import pytest
+
+from privascore.llm import LLMError, ProviderOverloaded, QuotaExhausted
+
+
+def _raise(exc):
+    def f(system, user):
+        raise exc
+    return f
+
+
+@pytest.fixture
+def break_llm(client):
+    pipeline = client.app.state.pipeline
+    real = pipeline.client.complete_json
+
+    def install(exc):
+        pipeline.client.complete_json = _raise(exc)
+    yield install
+    pipeline.client.complete_json = real
+
+
+def _post(client, policy_text):
+    return client.post("/api/v1/evaluate", json={"text": policy_text})
+
+
+def test_quota_exhausted_is_429(client, policy_text, break_llm):
+    break_llm(QuotaExhausted("gemini: daily quota reached"))
+    r = _post(client, policy_text)
+    assert r.status_code == 429
+    assert r.json()["error"]["code"] == "LLM_QUOTA"
+    assert r.headers["retry-after"] == "60"
+    assert "quota reached" not in r.text          # provider text never reaches the client
+
+
+def test_provider_overloaded_is_503_not_429(client, policy_text, break_llm):
+    """ProviderOverloaded subclasses QuotaExhausted, so the order of the except clauses matters."""
+    break_llm(ProviderOverloaded("gemini: still overloaded"))
+    r = _post(client, policy_text)
+    assert r.status_code == 503
+    assert r.json()["error"]["code"] == "LLM_OVERLOADED"
+    assert r.headers["retry-after"] == "120"
+
+
+def test_a_plain_llm_error_gives_partial_results_not_an_error(client, policy_text, break_llm):
+    break_llm(LLMError("gemini: gave up after 2 attempts"))
+    r = _post(client, policy_text)
+    assert r.status_code == 200
+    d = r.json()
+    assert d["scores"]["complete"] is False
+    assert d["scores"]["rejected_flags"], "flags that got no answer must be listed"
+    rejected = [f for f in d["flags"] if f["status"] == "rejected"]
+    assert rejected and all(f["state"] == "UN" for f in rejected)   # scored as Unclear
+    assert all(f["rationale"] is None and f["evidence"] == [] for f in rejected)
+    assert "gave up after" not in r.text
+
+
+def test_busy_when_the_gate_is_held(client, policy_text):
+    """A second analysis while one runs gets BUSY at once, instead of queueing silently.
+    A semaphore with zero permits is exactly what a running analysis leaves behind."""
+    app = client.app
+    real_gate = app.state.gate
+    app.state.gate = asyncio.Semaphore(0)
+    try:
+        r = _post(client, policy_text)
+    finally:
+        app.state.gate = real_gate
+    assert r.status_code == 429
+    assert r.json()["error"]["code"] == "BUSY"
+    assert r.headers["retry-after"] == "30"
+
+
+def test_unknown_field_is_rejected(client, policy_text):
+    r = client.post("/api/v1/evaluate", json={"text": policy_text, "scopes": "consumer"})
+    assert r.status_code == 422 and r.json()["error"]["code"] == "INVALID_REQUEST"
+
+
+def test_bad_scope_is_rejected(client, policy_text):
+    r = client.post("/api/v1/evaluate", json={"text": policy_text, "scope": "enterprise"})
+    assert r.status_code == 422 and r.json()["error"]["code"] == "INVALID_REQUEST"
+
+
+def test_company_name_length_is_capped(client, policy_text):
+    r = client.post("/api/v1/evaluate", json={"text": policy_text, "company_name": "x" * 121})
+    assert r.status_code == 422
+
+
+def test_an_unexpected_exception_is_a_generic_500(client_no_reraise, policy_text):
+    """In production an unexpected exception becomes a generic 500 with no internal detail.
+    (TestClient re-raises server exceptions by default, so this one needs a plain client.)"""
+    c = client_no_reraise
+    c.app.state.pipeline.client.complete_json = _raise(ZeroDivisionError("secret internal detail"))
+    r = _post(c, policy_text)
+    assert r.status_code == 500
+    assert r.json()["error"] == {"code": "INTERNAL",
+                                 "message": "Something went wrong on our side.",
+                                 "retry_after_s": None}
+    assert "secret internal detail" not in r.text
+
+
+def test_every_error_body_has_the_same_shape(client):
+    r = client.post("/api/v1/evaluate", json={"text": "tiny"})
+    assert set(r.json()["error"]) >= {"code", "message", "retry_after_s"}
