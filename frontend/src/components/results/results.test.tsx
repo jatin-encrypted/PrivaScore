@@ -2,11 +2,13 @@ import { render, screen, within } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { describe, expect, it, vi } from "vitest";
 
+import { copy } from "../../lib/copy";
 import { riskLevel, sortedCategories, stateLabel, statusText } from "../../lib/flags";
 import { flag, response, TEXT } from "../../test/fixture";
 import { CategoryProfile } from "./CategoryProfile";
 import { FlagGroups } from "./FlagGroups";
 import { FlagRow } from "./FlagRow";
+import { MethodNotes } from "./MethodNotes";
 import { PolicySummary } from "./PolicySummary";
 import { ReadingPanel } from "./ReadingPanel";
 import { ResultsView } from "./ResultsView";
@@ -337,5 +339,15 @@ describe("ResultsView", () => {
     expect(blobs[0]).not.toContain(TEXT);
     expect(JSON.parse(blobs[0]!).document.text).toBeNull();
     vi.unstubAllGlobals();
+  });
+});
+
+
+describe("the method notes section is announced with a name", () => {
+  it("resolves aria-labelledby to its heading, not to itself", () => {
+    render(<MethodNotes />);
+    // A <section> is only exposed as a region when its label actually resolves. Pointing
+    // aria-labelledby at the section's own id left it nameless, so this query is the fix.
+    expect(screen.getByRole("region", { name: copy.howToRead.heading })).toBeInTheDocument();
   });
 });

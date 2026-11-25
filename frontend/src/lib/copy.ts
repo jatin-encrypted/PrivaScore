@@ -34,7 +34,13 @@ export const copy = {
 
   examples: {
     heading: "Saved analyses",
-    sub: "Fifteen real privacy policies, analysed earlier and stored with the run. Opening one costs no provider call, so it is instant and it is the same result you would get by pasting that text.",
+    /**
+     * Do NOT shorten this to "the same result you would get by pasting that text". It is not:
+     * the provider is not guaranteed to be deterministic even at temperature 0, and this server
+     * may be running a different model than the one that produced the stored run. The stored
+     * result is evidence of what that run said, not a prediction of what a new run would say.
+     */
+    sub: "Fifteen real privacy policies, analysed earlier and stored with the run. Opening one costs no provider call, so it is instant. It shows the stored result: pasting the same text runs a fresh analysis, which can label some practices differently.",
     provenance: (model: string, date: string) => `Analysed by ${model} on ${date}.`,
     /** Neutral by design (section 9): this is the order of the gold set, not a ranking. */
     orderNote: "Listed in gold set order, which is not a ranking.",

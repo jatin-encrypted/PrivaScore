@@ -6,7 +6,7 @@ import { copy } from "../../lib/copy";
  */
 export function MethodNotes() {
   return (
-    <section aria-labelledby="how-to-read" id="how-to-read">
+    <section aria-labelledby="how-to-read-heading" id="how-to-read">
       <h2 className="t-h2 border-t-2 border-rule-strong pt-8" id="how-to-read-heading">
         {copy.howToRead.heading}
       </h2>
