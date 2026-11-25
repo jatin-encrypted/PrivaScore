@@ -1,0 +1,193 @@
+@import "tailwindcss";
+
+/* Fonts are self-hosted from npm: no Google Fonts link, no third-party request (section 7.8).
+   Archivo's WIDTH axis is what the type scale in section 8.3 is built on, and only the "wdth"
+   build exposes it (index.css carries the weight axis alone), so this import is deliberate. */
+@import "@fontsource-variable/archivo/wdth.css";
+@import "@fontsource-variable/jetbrains-mono/index.css";
+
+/* ---------------------------------------------------------------- tokens (section 8.2)
+   Light is ink on near-white, dark is near-white on near-black: the same structure and the
+   same signal red, lifted for contrast. The theme follows the system; there is no toggle.
+   Contrast ratios in the comments are the targets; verify them with a checker (section 7.9). */
+
+:root {
+  color-scheme: light dark;
+  --bg:          #fafafa;   /* page */
+  --surface:     #ffffff;   /* textarea, source panel */
+  --ink:         #0a0a0a;   /* primary text, primary button, heavy rules */
+  --ink-2:       #3f3f46;   /* secondary text, state tags, bars */
+  --ink-3:       #6b6b73;   /* tertiary text, IDs, axis labels (~5:1 on --bg) */
+  --rule:        #e4e4e7;   /* hairlines, bar tracks */
+  --rule-strong: #0a0a0a;   /* 2px section rules */
+  --signal:      #d92d20;   /* risk + evidence ONLY (~4.8:1 on white) */
+  --signal-ink:  #ffffff;   /* text on a --signal fill */
+  --mark:        rgb(217 45 32 / 0.14);   /* evidence highlight in the source view */
+  --mark-active: rgb(217 45 32 / 0.32);   /* flashed highlight after "Show in policy" */
+  --focus:       #0a0a0a;
+
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  --dur-fast: 140ms;
+  --dur-base: 220ms;
+  --dur-reveal: 700ms;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg:          #0a0a0a;
+    --surface:     #121212;
+    --ink:         #f4f4f5;
+    --ink-2:       #c4c4cc;
+    --ink-3:       #8f8f98;   /* ~6:1 on --bg */
+    --rule:        #2a2a2e;
+    --rule-strong: #f4f4f5;
+    --signal:      #ff4d3d;   /* ~6:1 on --bg */
+    --signal-ink:  #0a0a0a;
+    --mark:        rgb(255 77 61 / 0.22);
+    --mark-active: rgb(255 77 61 / 0.40);
+    --focus:       #f4f4f5;
+  }
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-ink-3: var(--ink-3);
+  --color-rule: var(--rule);
+  --color-rule-strong: var(--rule-strong);
+  --color-signal: var(--signal);
+  --color-signal-ink: var(--signal-ink);
+  --color-mark: var(--mark);
+  --font-sans: "Archivo Variable", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono Variable", ui-monospace, monospace;
+  --radius-none: 0px;
+}
+
+/* ---------------------------------------------------------------- base */
+
+@layer base {
+  html {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--font-sans);
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body { margin: 0; font-size: 1rem; line-height: 1.6; }
+
+  ::selection { background: var(--ink); color: var(--bg); }
+  /* The one focus ring for the whole app. Do NOT add `outline-none` to a control:
+     utilities beat this base layer, and the ring would silently disappear. */
+  :focus-visible { outline: 2px solid var(--focus); outline-offset: 3px; }
+  textarea, input { caret-color: var(--signal); }
+  * { scrollbar-color: var(--ink-3) transparent; scrollbar-width: thin; }
+
+  /* Square everywhere: no radius, no shadow, no gradient (section 8.1). */
+  *, *::before, *::after { border-radius: 0; box-shadow: none; }
+}
+
+/* ---------------------------------------------------------------- type scale (section 8.3)
+   Archivo's width axis is driven through font-stretch, which is the property the variable
+   build declares (font-stretch: 62% 125%) and which, unlike font-variation-settings, is
+   inheritable and animatable.
+
+   These live in @layer components so a Tailwind utility still wins: `.t-body` sets a reading
+   measure and `.t-small` sets a colour, and without the layer they would beat `max-w-none`
+   and `text-signal` purely by coming later in the file. */
+@layer components {
+
+  .t-display {
+    font-stretch: 125%;
+    font-weight: 850;
+    font-size: clamp(2.5rem, 1.6rem + 4.5vw, 6rem);
+    line-height: 0.95;
+    letter-spacing: -0.035em;
+    text-wrap: balance;
+  }
+
+  .t-score {
+    font-stretch: 125%;
+    font-weight: 900;
+    font-size: clamp(3.5rem, 2rem + 6vw, 6rem);
+    line-height: 0.9;
+    letter-spacing: -0.04em;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .t-h2 {
+    font-stretch: 112%;
+    font-weight: 800;
+    font-size: 1.75rem;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+  }
+  @media (min-width: 1024px) { .t-h2 { font-size: 2rem; } }
+
+  .t-h3 { font-stretch: 100%; font-weight: 700; font-size: 1.125rem; line-height: 1.3; }
+  .t-row-title { font-stretch: 100%; font-weight: 650; font-size: 1.0625rem; }
+  .t-body { font-stretch: 100%; font-weight: 400; font-size: 1rem; line-height: 1.6; max-width: 68ch; }
+  .t-quote { font-stretch: 100%; font-weight: 500; font-size: 1.0625rem; line-height: 1.55; }
+  .t-small { font-weight: 500; font-size: 0.875rem; line-height: 1.4; color: var(--ink-2); }
+  .t-code { font-family: var(--font-mono); font-size: 0.8125rem; color: var(--ink-3); }
+  .t-num { font-variant-numeric: tabular-nums; }
+
+  /* ---------------------------------------------------------------- motion (section 8.6) */
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+
+  /* ---------------------------------------------------------------- loading bar (section 8.6)
+     One 30%-wide ink segment sliding along a 2px rule. It is indeterminate on purpose: the
+     request is a single blocking call, so a percentage would be invented (section 8.8).
+     Reduced motion swaps the whole bar for static text, in CSS, with no JS media query. */
+
+  .loading-track {
+    position: relative;
+    height: 2px;
+    overflow: hidden;
+    background: var(--rule);
+  }
+
+  .loading-track::after {
+    content: "";
+    position: absolute;
+    inset-block: 0;
+    width: 30%;
+    background: var(--ink);
+    animation: loading-slide 1.4s linear infinite;
+  }
+
+  @keyframes loading-slide {
+    from { transform: translateX(-100%); }
+    /* translateX is a share of the element's OWN width, and the segment is 30% of the track:
+       333% moves its left edge from -30% to exactly 100% of the track, so the loop is seamless. */
+    to   { transform: translateX(333%); }
+  }
+
+  .loading-static { display: none; }
+
+  @media (prefers-reduced-motion: reduce) {
+    .loading-track { display: none; }
+    .loading-static { display: block; }
+  }
+
+  /* ---------------------------------------------------------------- evidence mark (section 8.5) */
+
+  mark.evidence {
+    background: var(--mark);
+    color: inherit;
+  }
+
+  mark.evidence[data-active="true"] {
+    background: var(--mark-active);
+    transition: background var(--dur-reveal) var(--ease-out);
+  }
+}
