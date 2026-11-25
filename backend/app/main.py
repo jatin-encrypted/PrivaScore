@@ -21,6 +21,7 @@ import privascore
 from . import errors, logging_setup
 from .errors import ApiError
 from .examples import ExampleLibrary
+from .limits import BodySizeLimit
 from .pipeline import PipelineService
 from .routers import evaluate, examples, meta
 from .settings import Settings
@@ -81,9 +82,8 @@ def create_app(settings: Settings | None = None) -> FastAPI:
         the client IP, the user agent or anything from the body."""
         rid = uuid.uuid4().hex[:12]
         request.state.request_id = rid
-        length = request.headers.get("content-length")
-        if length and length.isdigit() and int(length) > s.max_body_bytes:
-            return ApiError("BODY_TOO_LARGE", 413).response()
+        # The body cap itself is BodySizeLimit, added below: it counts the bytes that actually
+        # arrive, which Content-Length does not report for a chunked request.
         t = time.perf_counter()
         response = await call_next(request)
         log.info("request_id=%s %s %s status=%s duration_ms=%d",
@@ -92,6 +92,9 @@ def create_app(settings: Settings | None = None) -> FastAPI:
         response.headers["X-Content-Type-Options"] = "nosniff"
         response.headers["Referrer-Policy"] = "no-referrer"
         return response
+
+    # Outermost, so an oversized body is cut off before anything buffers it.
+    app.add_middleware(BodySizeLimit, max_bytes=s.max_body_bytes)
 
     app.include_router(evaluate.router, prefix="/api/v1", tags=["evaluate"])
     app.include_router(meta.router, prefix="/api/v1", tags=["meta"])

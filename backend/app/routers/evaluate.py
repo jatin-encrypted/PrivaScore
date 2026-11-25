@@ -10,6 +10,7 @@ from fastapi import APIRouter, Request, Response
 from privascore.llm import LLMError, ProviderOverloaded, QuotaExhausted
 
 from ..errors import ApiError
+from ..limits import run_guarded
 from ..presenter import present
 from ..schemas import EvaluateRequest, EvaluateResponse
 
@@ -32,17 +33,19 @@ async def evaluate(body: EvaluateRequest, request: Request, response: Response) 
 
     if gate.locked():                            # no await between the check and the acquire
         raise ApiError("BUSY", 429, retry_after_s=30)
-    async with gate:
-        try:
-            raw = await pipeline.analyse(text, body.scope, body.company_name)
-        except ProviderOverloaded:               # subclass of QuotaExhausted: catch it FIRST
-            raise ApiError("LLM_OVERLOADED", 503, retry_after_s=120) from None
-        except QuotaExhausted:
-            raise ApiError("LLM_QUOTA", 429, retry_after_s=60) from None
-        except LLMError:
-            # Most LLMErrors are absorbed inside the pipeline (those flags become "rejected" and
-            # the result is a 200 with complete=false). Only an escaping one lands here.
-            raise ApiError("LLM_ERROR", 502) from None
+    # NOT `async with gate`: the analysis runs in threads that cannot be cancelled, so a client
+    # that disconnects would release the permit while its Gemini call was still in flight.
+    # run_guarded releases on the work finishing, not on this request finishing.
+    try:
+        raw = await run_guarded(gate, pipeline.analyse(text, body.scope, body.company_name))
+    except ProviderOverloaded:                   # subclass of QuotaExhausted: catch it FIRST
+        raise ApiError("LLM_OVERLOADED", 503, retry_after_s=120) from None
+    except QuotaExhausted:
+        raise ApiError("LLM_QUOTA", 429, retry_after_s=60) from None
+    except LLMError:
+        # Most LLMErrors are absorbed inside the pipeline (those flags become "rejected" and
+        # the result is a 200 with complete=false). Only an escaping one lands here.
+        raise ApiError("LLM_ERROR", 502) from None
 
     response.headers["Cache-Control"] = "no-store"
     return present(text, raw, pipeline, source="live", company_name=body.company_name)
