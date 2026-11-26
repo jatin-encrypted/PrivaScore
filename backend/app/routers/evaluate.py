@@ -52,14 +52,11 @@ async def evaluate(body: EvaluateRequest, request: Request, response: Response) 
     # run_guarded releases on the work finishing, not on this request finishing.
     try:
         raw = await run_guarded(gate, pipeline.analyse(text, body.scope, body.company_name))
-    except ProviderOverloaded:                   # subclass of QuotaExhausted: catch it FIRST
-        # The provider produced nothing and charged nothing, so neither do we.
-        if who is not None:
-            limiter.refund(who)
+    except ProviderOverloaded as exc:            # subclass of QuotaExhausted: catch it FIRST
+        _refund_if_nothing_was_billed(limiter, who, exc)
         raise ApiError("LLM_OVERLOADED", 503, retry_after_s=120) from None
-    except QuotaExhausted:
-        if who is not None:
-            limiter.refund(who)
+    except QuotaExhausted as exc:
+        _refund_if_nothing_was_billed(limiter, who, exc)
         raise ApiError("LLM_QUOTA", 429, retry_after_s=60) from None
     except LLMError:
         # Most LLMErrors are absorbed inside the pipeline (those flags become "rejected" and
@@ -68,3 +65,17 @@ async def evaluate(body: EvaluateRequest, request: Request, response: Response) 
 
     response.headers["Cache-Control"] = "no-store"
     return present(text, raw, pipeline, source="live", company_name=body.company_name)
+
+
+def _refund_if_nothing_was_billed(limiter, who: str | None, exc: Exception) -> None:
+    """Hand the budget charge back only when the provider provably billed nothing.
+
+    The budget bounds provider spend, so an attempt refused outright must not eat the day's
+    allowance. But a batch extraction retries once, so a 503 can follow a first call that did
+    succeed and was billed. The pipeline records how many calls completed; absent that
+    attribute, assume the worst and keep the charge.
+    """
+    if who is None:
+        return
+    if getattr(exc, "completed_llm_calls", None) == 0:
+        limiter.refund(who)

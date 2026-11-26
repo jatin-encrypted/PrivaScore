@@ -8,7 +8,7 @@ from dataclasses import dataclass
 from privascore.config import load_config
 from privascore.extractor import Extractor, load_rules
 from privascore.flags import load_flags
-from privascore.llm import make_client
+from privascore.llm import LLMError, make_client
 from privascore.metrics import policy_metrics
 
 from .settings import Settings
@@ -78,8 +78,16 @@ class PipelineService:
     def _extract(self, text: str, scope: str, company_name: str | None):
         t = time.perf_counter()
         ex = InMemoryExtractor(self.client, self.flagset, self.cfg.extractor)   # cheap; one per request
-        res = ex.extract_policy_batch(text, policy_id="input", scope=scope,
-                                      policy_name=(company_name or "").strip().lower())
+        try:
+            res = ex.extract_policy_batch(text, policy_id="input", scope=scope,
+                                          policy_name=(company_name or "").strip().lower())
+        except LLMError as exc:
+            # How many provider calls COMPLETED before this failed. The counter is incremented
+            # only once a call returns, so this is exactly the number the provider billed, and
+            # the route refunds the request's budget charge only when it is zero. A batch
+            # extraction retries once, so a 503 can arrive after a first call that did succeed.
+            exc.completed_llm_calls = ex.stats["llm_calls"]
+            raise
         return res, ex.stats["llm_calls"], round((time.perf_counter() - t) * 1000)
 
     # --- async entry point used by the route

@@ -202,7 +202,9 @@ def test_a_provider_outage_does_not_drain_the_daily_budget(client_factory, polic
 
     with client_factory(rate_limit_per_client=0, rate_limit_daily_budget=5) as c:
         def boom(*a, **k):
-            raise ProviderOverloaded("gemini: still overloaded")
+            exc = ProviderOverloaded("gemini: still overloaded")
+            exc.completed_llm_calls = 0           # the provider never answered, so never billed
+            raise exc
 
         c.app.state.pipeline.analyse = boom
 
@@ -219,11 +221,63 @@ def test_a_refund_also_returns_the_clients_own_allowance(client_factory, policy_
 
     with client_factory(rate_limit_per_client=1, rate_limit_daily_budget=0) as c:
         def boom(*a, **k):
-            raise ProviderOverloaded("gemini: still overloaded")
+            exc = ProviderOverloaded("gemini: still overloaded")
+            exc.completed_llm_calls = 0
+            raise exc
 
         c.app.state.pipeline.analyse = boom
         assert c.post("/api/v1/evaluate", json={"text": policy_text}).status_code == 503
 
         # The allowance is back, so the retry the 503 invites is actually possible.
-        c.app.state.pipeline.analyse = boom
         assert c.post("/api/v1/evaluate", json={"text": policy_text}).status_code == 503
+
+
+def test_an_outage_after_a_billed_call_is_not_refunded(client_factory, policy_text):
+    """The refund has to be provable, not assumed.
+
+    extract_policy_batch retries once, so a 503 can arrive AFTER a first call that the provider
+    completed and billed. Refunding then would hand back budget for a call we really did spend.
+    The extractor counts calls only once they return, so the count at failure time is exactly
+    the number billed.
+    """
+    from privascore.llm import ProviderOverloaded
+
+    with client_factory(rate_limit_per_client=0, rate_limit_daily_budget=5) as c:
+        def boom_after_one_billed_call(*a, **k):
+            exc = ProviderOverloaded("gemini: overloaded on the retry")
+            exc.completed_llm_calls = 1           # the first batch call went through
+            raise exc
+
+        c.app.state.pipeline.analyse = boom_after_one_billed_call
+
+        r = c.post("/api/v1/evaluate", json={"text": policy_text})
+        assert r.status_code == 503
+        assert c.app.state.rate_limiter._day_count == 1, \
+            "a call the provider completed must stay charged"
+
+
+def test_the_pipeline_reports_how_many_calls_were_billed(client, policy_text):
+    """The route can only decide this if the pipeline tells it, so the attribute has to be set
+    on the exception rather than guessed.
+
+    A plain LLMError is absorbed inside the extractor (those flags become "rejected" and the
+    result is a 200 with complete=false), so the escaping cases are the quota family.
+    """
+    from privascore.llm import ProviderOverloaded
+
+    pipeline = client.app.state.pipeline
+
+    def explode(system, user):
+        raise ProviderOverloaded("mock: overloaded on the first call")
+
+    original = pipeline.client.complete_json
+    pipeline.client.complete_json = explode
+    try:
+        # Real policy text, because filler matches no flag candidates and the extractor then
+        # skips the provider entirely (skip_llm_when_no_candidates).
+        with pytest.raises(ProviderOverloaded) as caught:
+            pipeline._extract(policy_text, "all_users", None)
+        assert caught.value.completed_llm_calls == 0, \
+            "nothing returned, so nothing was billed"
+    finally:
+        pipeline.client.complete_json = original
