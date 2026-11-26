@@ -10,7 +10,7 @@ from fastapi import APIRouter, Request, Response
 from privascore.llm import LLMError, ProviderOverloaded, QuotaExhausted
 
 from ..errors import ApiError
-from ..limits import run_guarded
+from ..limits import client_identity, run_guarded
 from ..presenter import present
 from ..schemas import EvaluateRequest, EvaluateResponse
 
@@ -31,16 +31,32 @@ async def evaluate(body: EvaluateRequest, request: Request, response: Response) 
     if len(text) > s.max_chars:
         raise ApiError("TEXT_TOO_LONG", 422)
 
-    if gate.locked():                            # no await between the check and the acquire
+    # BUSY is decided first, and deliberately so. The limiter's budget exists to bound what is
+    # spent at the provider; a request refused here never reaches it. Charging those would let
+    # anyone exhaust the day's budget with rapid requests that cost the key nothing, which is a
+    # denial of service against the guard itself. Neither check awaits, so nothing can slip in
+    # between them.
+    if gate.locked():
         raise ApiError("BUSY", 429, retry_after_s=30)
+
+    limiter = request.app.state.rate_limiter
+    who = None
+    if limiter.enabled:
+        who = client_identity(request.client.host if request.client else "unknown",
+                              request.headers, s.trust_proxy, s.trusted_proxy_hops)
+        wait_s = limiter.check(who)
+        if wait_s is not None:
+            raise ApiError("RATE_LIMITED", 429, retry_after_s=max(1, int(wait_s)))
     # NOT `async with gate`: the analysis runs in threads that cannot be cancelled, so a client
     # that disconnects would release the permit while its Gemini call was still in flight.
     # run_guarded releases on the work finishing, not on this request finishing.
     try:
         raw = await run_guarded(gate, pipeline.analyse(text, body.scope, body.company_name))
-    except ProviderOverloaded:                   # subclass of QuotaExhausted: catch it FIRST
+    except ProviderOverloaded as exc:            # subclass of QuotaExhausted: catch it FIRST
+        _refund_if_nothing_was_billed(limiter, who, exc)
         raise ApiError("LLM_OVERLOADED", 503, retry_after_s=120) from None
-    except QuotaExhausted:
+    except QuotaExhausted as exc:
+        _refund_if_nothing_was_billed(limiter, who, exc)
         raise ApiError("LLM_QUOTA", 429, retry_after_s=60) from None
     except LLMError:
         # Most LLMErrors are absorbed inside the pipeline (those flags become "rejected" and
@@ -49,3 +65,17 @@ async def evaluate(body: EvaluateRequest, request: Request, response: Response) 
 
     response.headers["Cache-Control"] = "no-store"
     return present(text, raw, pipeline, source="live", company_name=body.company_name)
+
+
+def _refund_if_nothing_was_billed(limiter, who: str | None, exc: Exception) -> None:
+    """Hand the budget charge back only when the provider provably billed nothing.
+
+    The budget bounds provider spend, so an attempt refused outright must not eat the day's
+    allowance. But a batch extraction retries once, so a 503 can follow a first call that did
+    succeed and was billed. The pipeline records how many calls completed; absent that
+    attribute, assume the worst and keep the charge.
+    """
+    if who is None:
+        return
+    if getattr(exc, "completed_llm_calls", None) == 0:
+        limiter.refund(who)

@@ -12,16 +12,18 @@ import logging
 import time
 import uuid
 from contextlib import asynccontextmanager
+from pathlib import Path
 
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
 
 import privascore
 
 from . import errors, logging_setup
 from .errors import ApiError
 from .examples import ExampleLibrary
-from .limits import BodySizeLimit
+from .limits import BodySizeLimit, RateLimiter
 from .pipeline import PipelineService
 from .routers import evaluate, examples, meta
 from .settings import Settings
@@ -34,6 +36,8 @@ async def lifespan(app: FastAPI):
     s: Settings = app.state.settings
     app.state.pipeline = PipelineService(s)
     app.state.gate = asyncio.Semaphore(s.max_concurrent)
+    app.state.rate_limiter = RateLimiter(s.rate_limit_per_client, s.rate_limit_window_s,
+                                         s.rate_limit_daily_budget)
     p = app.state.pipeline
     log.info("ready provider=%s model=%s bert=%s privascore=%s env=%s",
              p.provider, p.model, p.bert_status, privascore.__version__, s.env)
@@ -100,6 +104,17 @@ def create_app(settings: Settings | None = None) -> FastAPI:
     app.include_router(meta.router, prefix="/api/v1", tags=["meta"])
     app.include_router(examples.router, prefix="/api/v1", tags=["examples"])
     errors.install(app)
+
+    # LAST, so every API route above takes precedence: this mount is at "/" and would
+    # otherwise swallow them. A missing directory degrades to an API-only service rather than
+    # failing to boot, because a deployment typo should not be a crash loop.
+    if s.static_dir:
+        static = Path(s.static_dir)
+        if static.is_dir():
+            app.mount("/", StaticFiles(directory=static, html=True), name="app")
+        else:
+            log.warning("static_dir %r does not exist: serving the API only", s.static_dir)
+
     return app
 
 

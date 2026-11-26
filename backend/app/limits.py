@@ -15,7 +15,10 @@ Both guards here replace a check that looked like a limit but was really a reque
 from __future__ import annotations
 
 import asyncio
+import hashlib
 import logging
+import secrets
+import time
 from typing import Awaitable, TypeVar
 
 from .errors import ApiError
@@ -121,3 +124,116 @@ async def run_guarded(gate: asyncio.Semaphore, work: Awaitable[T]) -> T:
 
     task.add_done_callback(release)
     return await asyncio.shield(task)
+
+
+# --------------------------------------------------------------------------- rate limiting
+
+def client_identity(socket_ip: str, headers, trust_proxy: bool, hops: int = 1) -> str:
+    """Who to count this request against.
+
+    Behind a reverse proxy every request arrives from the proxy, so the socket address is the
+    proxy's and X-Forwarded-For has to be read instead. Two things make that delicate.
+
+    First, the header is believed ONLY when the deployment declares a proxy. With nothing in
+    front, the header is simply the client talking, and trusting it would hand every client an
+    unlimited supply of fresh identities.
+
+    Second, and less obvious: each proxy APPENDS the address it saw, so whatever the client
+    sent survives on the LEFT. Reading the left-most entry therefore reads the client's own
+    claim, which is spoofable even behind a trusted proxy. The trustworthy entries are the
+    right-most ones, added by our own infrastructure, so with `hops` trusted proxies the real
+    client is `hops` from the right.
+
+        client -> proxy -> app        "<spoofed>, <client>"            hops=1 -> [-1]
+        client -> CDN -> LB -> app    "<spoofed>, <client>, <CDN>"    hops=2 -> [-2]
+
+    Too few entries means the request did not arrive through the expected chain, so there is
+    nothing trustworthy in the header and the socket address is used.
+    """
+    if trust_proxy and hops > 0:
+        forwarded = headers.get("x-forwarded-for")
+        if forwarded:
+            parts = [p.strip() for p in forwarded.split(",") if p.strip()]
+            if len(parts) >= hops:
+                return parts[-hops]
+    return socket_ip
+
+
+class RateLimiter:
+    """A per-client window plus a global daily budget, both in memory.
+
+    The daily budget is the one that actually protects the API key. A per-client limit alone
+    does not: twenty clients each staying politely under their allowance can still spend far
+    more than a day's quota between them.
+
+    No client address is retained. Entries are keyed by a BLAKE2b hash under a salt generated
+    at construction, so the table cannot be read back as a list of visitors, cannot be compared
+    across restarts, and cannot be matched against a precomputed table of all IPv4 addresses.
+
+    Section 6.8 forbids a database, and this needs none: it is a dict that forgets entries older
+    than the window. One process holds it, which matches max_concurrent=1 single-worker
+    deployment. More than one worker would give each its own counters, so the effective limit
+    would multiply by the worker count.
+    """
+
+    def __init__(self, per_client: int, window_s: int = 3600, daily_budget: int = 0,
+                 now=time.monotonic):
+        self.per_client = per_client
+        self.window_s = window_s
+        self.daily_budget = daily_budget
+        self._now = now
+        self._salt = secrets.token_bytes(16)
+        self._hits: dict[str, list[float]] = {}
+        self._day_start = now()
+        self._day_count = 0
+
+    @property
+    def enabled(self) -> bool:
+        return self.per_client > 0 or self.daily_budget > 0
+
+    def _key(self, client: str) -> str:
+        return hashlib.blake2b(client.encode("utf-8"), key=self._salt, digest_size=16).hexdigest()
+
+    def check(self, client: str) -> float | None:
+        """None to allow (and the call is counted), or the seconds to wait before retrying."""
+        now = self._now()
+
+        if self.daily_budget > 0:
+            if now - self._day_start >= 86_400:
+                self._day_start, self._day_count = now, 0
+            if self._day_count >= self.daily_budget:
+                return round(86_400 - (now - self._day_start), 1) or 1.0
+
+        if self.per_client > 0:
+            cutoff = now - self.window_s
+            # Forgetting everything stale on each call keeps the table bounded by the number of
+            # distinct clients seen within one window, with no cleanup task to run.
+            self._hits = {k: [t for t in ts if t > cutoff]
+                          for k, ts in self._hits.items() if any(t > cutoff for t in ts)}
+            key = self._key(client)
+            times = self._hits.get(key, [])
+            if len(times) >= self.per_client:
+                return round(times[0] + self.window_s - now, 1) or 1.0
+            times.append(now)
+            self._hits[key] = times
+
+        self._day_count += 1
+        return None
+
+    def refund(self, client: str) -> None:
+        """Give back a charge for a request that never reached the provider.
+
+        The budget bounds what is spent at the provider, so an attempt the provider refused
+        outright (a 503, or a quota rejection) has to be handed back. Otherwise an outage
+        quietly eats the day's allowance and real users are refused once it recovers. The
+        client's own allowance comes back too, so the retry the error invites is possible.
+        """
+        if self.daily_budget > 0 and self._day_count > 0:
+            self._day_count -= 1
+        if self.per_client > 0:
+            key = self._key(client)
+            times = self._hits.get(key)
+            if times:
+                times.pop()
+                if not times:
+                    self._hits.pop(key, None)

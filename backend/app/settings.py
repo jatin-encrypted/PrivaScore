@@ -40,6 +40,23 @@ class Settings(BaseSettings):
 
     cors_origins: list[str] = ["http://localhost:5173"]
 
+    # /evaluate spends a real provider call, so it is rate limited by default. 0 disables.
+    # The daily budget is the figure that actually bounds the key's spend: a per-client limit
+    # alone does not stop many clients each staying politely under their own allowance.
+    rate_limit_per_client: int = 10
+    rate_limit_window_s: int = 3600
+    rate_limit_daily_budget: int = 200
+    # Only enable behind a reverse proxy that sets X-Forwarded-For. Believing that header
+    # without one lets any client mint a fresh identity per request. `hops` is how many proxies
+    # of OUR OWN sit in front: the client's address is that many entries from the right, because
+    # anything the client put in the header survives on the left.
+    trust_proxy: bool = False
+    trusted_proxy_hops: int = 1
+
+    # Path to frontend/dist. When set, the API also serves the built app, so a deployment is a
+    # single origin with no CORS. Empty in development, where Vite serves the frontend.
+    static_dir: str = ""
+
     llm_max_rate_limit_waits: int = 0
     llm_overload_waits: list[float] = [10.0]
     llm_max_http_retries: int = 1
