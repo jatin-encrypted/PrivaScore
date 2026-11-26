@@ -219,3 +219,21 @@ class RateLimiter:
 
         self._day_count += 1
         return None
+
+    def refund(self, client: str) -> None:
+        """Give back a charge for a request that never reached the provider.
+
+        The budget bounds what is spent at the provider, so an attempt the provider refused
+        outright (a 503, or a quota rejection) has to be handed back. Otherwise an outage
+        quietly eats the day's allowance and real users are refused once it recovers. The
+        client's own allowance comes back too, so the retry the error invites is possible.
+        """
+        if self.daily_budget > 0 and self._day_count > 0:
+            self._day_count -= 1
+        if self.per_client > 0:
+            key = self._key(client)
+            times = self._hits.get(key)
+            if times:
+                times.pop()
+                if not times:
+                    self._hits.pop(key, None)

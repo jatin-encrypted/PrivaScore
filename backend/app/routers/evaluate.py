@@ -40,6 +40,7 @@ async def evaluate(body: EvaluateRequest, request: Request, response: Response) 
         raise ApiError("BUSY", 429, retry_after_s=30)
 
     limiter = request.app.state.rate_limiter
+    who = None
     if limiter.enabled:
         who = client_identity(request.client.host if request.client else "unknown",
                               request.headers, s.trust_proxy, s.trusted_proxy_hops)
@@ -52,8 +53,13 @@ async def evaluate(body: EvaluateRequest, request: Request, response: Response) 
     try:
         raw = await run_guarded(gate, pipeline.analyse(text, body.scope, body.company_name))
     except ProviderOverloaded:                   # subclass of QuotaExhausted: catch it FIRST
+        # The provider produced nothing and charged nothing, so neither do we.
+        if who is not None:
+            limiter.refund(who)
         raise ApiError("LLM_OVERLOADED", 503, retry_after_s=120) from None
     except QuotaExhausted:
+        if who is not None:
+            limiter.refund(who)
         raise ApiError("LLM_QUOTA", 429, retry_after_s=60) from None
     except LLMError:
         # Most LLMErrors are absorbed inside the pipeline (those flags become "rejected" and

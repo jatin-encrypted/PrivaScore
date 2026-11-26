@@ -189,3 +189,41 @@ def test_the_image_does_not_trust_a_proxy_by_default():
     dockerfile = (REPO_ROOT / "backend" / "Dockerfile").read_text(encoding="utf-8")
     assert "PRIVASCORE_TRUST_PROXY=true" not in dockerfile, \
         "the image must not enable proxy trust for every deployment"
+
+
+def test_a_provider_outage_does_not_drain_the_daily_budget(client_factory, policy_text):
+    """Observed live: Gemini answered 503 twice and each attempt still cost a budget slot.
+
+    The budget bounds what is spent at the provider. A 503 means the provider produced nothing
+    and charged nothing, so charging our own budget for it lets an outage quietly eat the day's
+    allowance and leave real users refused once the provider recovers.
+    """
+    from privascore.llm import ProviderOverloaded
+
+    with client_factory(rate_limit_per_client=0, rate_limit_daily_budget=5) as c:
+        def boom(*a, **k):
+            raise ProviderOverloaded("gemini: still overloaded")
+
+        c.app.state.pipeline.analyse = boom
+
+        r = c.post("/api/v1/evaluate", json={"text": policy_text})
+        assert r.status_code == 503 and r.json()["error"]["code"] == "LLM_OVERLOADED"
+        assert c.app.state.rate_limiter._day_count == 0, \
+            "a provider outage must not consume the day's budget"
+
+
+def test_a_refund_also_returns_the_clients_own_allowance(client_factory, policy_text):
+    """Otherwise a user who happened to arrive during an outage would be locked out of the
+    retry they are being told to make."""
+    from privascore.llm import ProviderOverloaded
+
+    with client_factory(rate_limit_per_client=1, rate_limit_daily_budget=0) as c:
+        def boom(*a, **k):
+            raise ProviderOverloaded("gemini: still overloaded")
+
+        c.app.state.pipeline.analyse = boom
+        assert c.post("/api/v1/evaluate", json={"text": policy_text}).status_code == 503
+
+        # The allowance is back, so the retry the 503 invites is actually possible.
+        c.app.state.pipeline.analyse = boom
+        assert c.post("/api/v1/evaluate", json={"text": policy_text}).status_code == 503
