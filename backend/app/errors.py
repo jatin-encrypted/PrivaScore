@@ -19,6 +19,7 @@ MESSAGES = {
     "TEXT_TOO_LONG": "The text is longer than the maximum.",
     "BODY_TOO_LARGE": "The request body is too large.",
     "BUSY": "Another analysis is running. Try again in about a minute.",
+    "RATE_LIMITED": "This site has a limit on how many analyses it runs. Try again later.",
     "LLM_QUOTA": "The analysis provider's usage limit has been reached.",
     "LLM_OVERLOADED": "The analysis provider is overloaded right now.",
     "LLM_ERROR": "The analysis provider failed.",

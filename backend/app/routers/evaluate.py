@@ -10,7 +10,7 @@ from fastapi import APIRouter, Request, Response
 from privascore.llm import LLMError, ProviderOverloaded, QuotaExhausted
 
 from ..errors import ApiError
-from ..limits import run_guarded
+from ..limits import client_identity, run_guarded
 from ..presenter import present
 from ..schemas import EvaluateRequest, EvaluateResponse
 
@@ -30,6 +30,15 @@ async def evaluate(body: EvaluateRequest, request: Request, response: Response) 
         raise ApiError("TEXT_TOO_SHORT", 422)
     if len(text) > s.max_chars:
         raise ApiError("TEXT_TOO_LONG", 422)
+
+    # Before any work: this endpoint spends a provider call on the server's key.
+    limiter = request.app.state.rate_limiter
+    if limiter.enabled:
+        who = client_identity(request.client.host if request.client else "unknown",
+                              request.headers, s.trust_proxy)
+        wait_s = limiter.check(who)
+        if wait_s is not None:
+            raise ApiError("RATE_LIMITED", 429, retry_after_s=max(1, int(wait_s)))
 
     if gate.locked():                            # no await between the check and the acquire
         raise ApiError("BUSY", 429, retry_after_s=30)
