@@ -31,17 +31,21 @@ async def evaluate(body: EvaluateRequest, request: Request, response: Response) 
     if len(text) > s.max_chars:
         raise ApiError("TEXT_TOO_LONG", 422)
 
-    # Before any work: this endpoint spends a provider call on the server's key.
+    # BUSY is decided first, and deliberately so. The limiter's budget exists to bound what is
+    # spent at the provider; a request refused here never reaches it. Charging those would let
+    # anyone exhaust the day's budget with rapid requests that cost the key nothing, which is a
+    # denial of service against the guard itself. Neither check awaits, so nothing can slip in
+    # between them.
+    if gate.locked():
+        raise ApiError("BUSY", 429, retry_after_s=30)
+
     limiter = request.app.state.rate_limiter
     if limiter.enabled:
         who = client_identity(request.client.host if request.client else "unknown",
-                              request.headers, s.trust_proxy)
+                              request.headers, s.trust_proxy, s.trusted_proxy_hops)
         wait_s = limiter.check(who)
         if wait_s is not None:
             raise ApiError("RATE_LIMITED", 429, retry_after_s=max(1, int(wait_s)))
-
-    if gate.locked():                            # no await between the check and the acquire
-        raise ApiError("BUSY", 429, retry_after_s=30)
     # NOT `async with gate`: the analysis runs in threads that cannot be cancelled, so a client
     # that disconnects would release the permit while its Gemini call was still in flight.
     # run_guarded releases on the work finishing, not on this request finishing.

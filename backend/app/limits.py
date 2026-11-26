@@ -128,21 +128,34 @@ async def run_guarded(gate: asyncio.Semaphore, work: Awaitable[T]) -> T:
 
 # --------------------------------------------------------------------------- rate limiting
 
-def client_identity(socket_ip: str, headers, trust_proxy: bool) -> str:
+def client_identity(socket_ip: str, headers, trust_proxy: bool, hops: int = 1) -> str:
     """Who to count this request against.
 
-    Behind a reverse proxy every request arrives from the proxy, so the socket address is
-    useless and X-Forwarded-For carries the real client. That header is also trivially
-    spoofable, so it is believed ONLY when the deployment declares it sits behind a proxy;
-    otherwise any client could mint a fresh identity per request and never hit a limit.
+    Behind a reverse proxy every request arrives from the proxy, so the socket address is the
+    proxy's and X-Forwarded-For has to be read instead. Two things make that delicate.
+
+    First, the header is believed ONLY when the deployment declares a proxy. With nothing in
+    front, the header is simply the client talking, and trusting it would hand every client an
+    unlimited supply of fresh identities.
+
+    Second, and less obvious: each proxy APPENDS the address it saw, so whatever the client
+    sent survives on the LEFT. Reading the left-most entry therefore reads the client's own
+    claim, which is spoofable even behind a trusted proxy. The trustworthy entries are the
+    right-most ones, added by our own infrastructure, so with `hops` trusted proxies the real
+    client is `hops` from the right.
+
+        client -> proxy -> app        "<spoofed>, <client>"            hops=1 -> [-1]
+        client -> CDN -> LB -> app    "<spoofed>, <client>, <CDN>"    hops=2 -> [-2]
+
+    Too few entries means the request did not arrive through the expected chain, so there is
+    nothing trustworthy in the header and the socket address is used.
     """
-    if trust_proxy:
+    if trust_proxy and hops > 0:
         forwarded = headers.get("x-forwarded-for")
         if forwarded:
-            # Left-most entry is the original client; the rest are proxies it passed through.
-            first = forwarded.split(",")[0].strip()
-            if first:
-                return first
+            parts = [p.strip() for p in forwarded.split(",") if p.strip()]
+            if len(parts) >= hops:
+                return parts[-hops]
     return socket_ip
 
 

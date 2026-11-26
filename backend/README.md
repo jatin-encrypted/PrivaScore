@@ -91,15 +91,32 @@ with rate limiting on:
 | `PRIVASCORE_RATE_LIMIT_PER_CLIENT` | `10` | analyses per client per window; `0` disables |
 | `PRIVASCORE_RATE_LIMIT_WINDOW_S` | `3600` | the window |
 | `PRIVASCORE_RATE_LIMIT_DAILY_BUDGET` | `200` | total analyses per day across everyone; `0` disables |
-| `PRIVASCORE_TRUST_PROXY` | `true` in the image | read `X-Forwarded-For`. Only correct behind a proxy |
+| `PRIVASCORE_TRUST_PROXY` | `false` | read `X-Forwarded-For`. Only correct behind a proxy |
+| `PRIVASCORE_TRUSTED_PROXY_HOPS` | `1` | how many proxies of **ours** sit in front |
 
 The **daily budget** is the figure that actually bounds the day's spend. A per-client limit
 alone does not: a handful of addresses each staying politely under their allowance can still
 run far more than a day's quota between them.
 
-`PRIVASCORE_TRUST_PROXY` must be `false` when nothing sits in front of the app. The header is
-trivially spoofable, so believing it without a proxy hands every client an unlimited supply of
-fresh identities.
+**On Render, Fly or any platform with a proxy in front, set `PRIVASCORE_TRUST_PROXY=true`.**
+Without it every request looks like it came from the proxy, so all clients share one bucket.
+That fails closed rather than open, but it is far more restrictive than intended.
+
+Leave it `false` when nothing sits in front of the app. The header is then simply the client
+talking, and believing it hands every client an unlimited supply of fresh identities.
+
+`PRIVASCORE_TRUSTED_PROXY_HOPS` matters because each proxy **appends** the address it saw, so
+anything the client put in the header survives on the left. The trustworthy entries are the
+right-most ones, the ones our own infrastructure added, and the client is `hops` from the right:
+
+```
+client -> proxy -> app            "<spoofed>, <client>"           hops=1
+client -> CDN -> balancer -> app  "<spoofed>, <client>, <CDN>"    hops=2
+```
+
+Reading the left-most entry instead would read the client's own claim, which is spoofable even
+behind a trusted proxy. Set `hops` to the number of proxies you actually run; one is right for
+a single Render or Fly service.
 
 Counters are in memory, keyed by a salted hash of the address, with the salt regenerated each
 boot: no database (section 6.8 forbids one) and no record of who visited. They are also

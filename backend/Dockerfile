@@ -60,8 +60,11 @@ COPY --from=web /build/dist ./frontend/dist
 ENV PRIVASCORE_ENV=prod \
     PRIVASCORE_BERT=off \
     PRIVASCORE_BERT_REQUIRED=false \
-    PRIVASCORE_STATIC_DIR=/app/frontend/dist \
-    PRIVASCORE_TRUST_PROXY=true
+    PRIVASCORE_STATIC_DIR=/app/frontend/dist
+# PRIVASCORE_TRUST_PROXY is deliberately NOT set here. X-Forwarded-For is only meaningful
+# behind a proxy, and trusting it without one lets any client mint a fresh identity per
+# request. Set it (with PRIVASCORE_TRUSTED_PROXY_HOPS) in the specific deployment that has a
+# proxy in front. Left off, every client shares one bucket: restrictive, but not unsafe.
 # GEMINI_API_KEY, PRIVASCORE_LLM_PROVIDER and PRIVASCORE_LLM_MODEL are supplied at run time.
 # Without them privascore.example.toml applies, which is provider = "mock": the app still runs
 # and every response carries a MOCK_PROVIDER warning, so placeholder labels cannot be mistaken

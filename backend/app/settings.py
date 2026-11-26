@@ -47,8 +47,11 @@ class Settings(BaseSettings):
     rate_limit_window_s: int = 3600
     rate_limit_daily_budget: int = 200
     # Only enable behind a reverse proxy that sets X-Forwarded-For. Believing that header
-    # without one lets any client mint a fresh identity per request.
+    # without one lets any client mint a fresh identity per request. `hops` is how many proxies
+    # of OUR OWN sit in front: the client's address is that many entries from the right, because
+    # anything the client put in the header survives on the left.
     trust_proxy: bool = False
+    trusted_proxy_hops: int = 1
 
     # Path to frontend/dist. When set, the API also serves the built app, so a deployment is a
     # single origin with no CORS. Empty in development, where Vite serves the frontend.

@@ -11,6 +11,8 @@ from __future__ import annotations
 
 import pytest
 
+from privascore.flags import REPO_ROOT
+
 from app.limits import RateLimiter
 
 
@@ -116,12 +118,74 @@ def test_reading_the_saved_examples_is_never_rate_limited(client_factory):
 
 @pytest.mark.parametrize("trust", [True, False])
 def test_a_forwarded_header_is_only_believed_when_the_deployment_says_to(trust):
-    """Behind a proxy the socket address is the proxy's, so X-Forwarded-For has to be read. It
-    is also trivially spoofable, so believing it when there is no proxy would hand every client
-    an unlimited supply of fresh identities."""
+    """Behind a proxy the socket address is the proxy's, so X-Forwarded-For has to be read. With
+    no proxy it is the client talking, so it must be ignored."""
     from app.limits import client_identity
 
     scope_ip = "10.0.0.1"
-    headers = {"x-forwarded-for": "1.2.3.4, 10.0.0.1"}
-    got = client_identity(scope_ip, headers, trust_proxy=trust)
-    assert got == ("1.2.3.4" if trust else scope_ip)
+    headers = {"x-forwarded-for": "1.2.3.4, 203.0.113.9"}
+    got = client_identity(scope_ip, headers, trust_proxy=trust, hops=1)
+    assert got == ("203.0.113.9" if trust else scope_ip)
+
+
+# ------------------------------------------------- what the security review found
+
+def test_a_request_refused_as_busy_does_not_spend_the_daily_budget(client_factory, policy_text):
+    """The budget exists to bound provider spend. A request refused with BUSY never reaches the
+    provider, so charging it would let anyone exhaust the day's budget with rapid requests that
+    cost the key nothing: a denial of service against the guard itself."""
+    import asyncio
+
+    with client_factory(rate_limit_per_client=0, rate_limit_daily_budget=5) as c:
+        app = c.app
+        # Hold the only permit, so every request below is refused with BUSY.
+        app.state.gate = asyncio.Semaphore(0)
+
+        for _ in range(5):
+            r = c.post("/api/v1/evaluate", json={"text": policy_text})
+            assert r.status_code == 429 and r.json()["error"]["code"] == "BUSY"
+
+        assert app.state.rate_limiter._day_count == 0, \
+            "a BUSY request must not be charged against the day's provider budget"
+
+
+def test_the_forwarded_header_cannot_be_spoofed_by_the_client():
+    """X-Forwarded-For is APPENDED to by each proxy, so anything the client puts there survives
+    on the LEFT. Reading the left-most entry therefore reads the client's own claim, which hands
+    it an unlimited supply of identities even behind a trusted proxy. With one trusted hop the
+    real address is the right-most entry, the one the proxy itself added."""
+    from app.limits import client_identity
+
+    spoofed = {"x-forwarded-for": "1.2.3.4, 203.0.113.9"}
+    got = client_identity("10.0.0.1", spoofed, trust_proxy=True, hops=1)
+    assert got == "203.0.113.9", "must use the entry the trusted proxy added, not the client's"
+
+
+def test_two_trusted_hops_skip_both_of_our_own_proxies():
+    from app.limits import client_identity
+
+    # client -> CDN (appends client) -> load balancer (appends CDN) -> app
+    headers = {"x-forwarded-for": "1.2.3.4, 203.0.113.9, 198.51.100.7"}
+    assert client_identity("10.0.0.1", headers, trust_proxy=True, hops=2) == "203.0.113.9"
+
+
+def test_a_short_forwarded_header_falls_back_to_the_socket_address():
+    """Fewer entries than configured hops means the header did not come through the expected
+    chain. Trusting it then would be trusting the client, so use the socket address."""
+    from app.limits import client_identity
+
+    headers = {"x-forwarded-for": "1.2.3.4"}
+    assert client_identity("10.0.0.1", headers, trust_proxy=True, hops=2) == "10.0.0.1"
+
+
+def test_the_image_does_not_trust_a_proxy_by_default():
+    """Believing the header without a proxy in front lets any client mint identities, so the
+    default has to fail closed. Without it every client shares one bucket, which is restrictive
+    rather than unsafe."""
+    from app.settings import Settings
+
+    assert Settings().trust_proxy is False
+
+    dockerfile = (REPO_ROOT / "backend" / "Dockerfile").read_text(encoding="utf-8")
+    assert "PRIVASCORE_TRUST_PROXY=true" not in dockerfile, \
+        "the image must not enable proxy trust for every deployment"
