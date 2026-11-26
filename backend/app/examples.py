@@ -140,8 +140,10 @@ class ExampleLibrary:
         """The full analysis, shaped exactly like a live one. Cached after the first call."""
         if policy_id not in self._rendered:
             ex = self.examples[policy_id]
+            # The stored run's model, not this server's: that is the model that produced it.
             raw = RawAnalysis(extraction=ex.analysis, metrics=ex.metrics, llm_calls=0,
-                              timings_ms={})
+                              timings_ms={}, provider=self.run_meta["provider"],
+                              model=self.run_meta["model"])
             # document_text is sent ONLY for examples. A live caller already has the text it
             # pasted; an example viewer does not, and the source panel needs it to show quotes
             # in place.

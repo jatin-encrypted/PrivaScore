@@ -60,7 +60,12 @@ COPY --from=web /build/dist ./frontend/dist
 ENV PRIVASCORE_ENV=prod \
     PRIVASCORE_BERT=off \
     PRIVASCORE_BERT_REQUIRED=false \
-    PRIVASCORE_STATIC_DIR=/app/frontend/dist
+    PRIVASCORE_STATIC_DIR=/app/frontend/dist \
+    PRIVASCORE_LLM_FALLBACK_MODEL=gemini-3.5-flash-lite
+# When the main model hits its usage limit or is overloaded, the analysis is run again with
+# gemini-3.5-flash-lite, and each result names the model that produced it. Gemini counts limits
+# per model, so this one still has its own allowance. It is a Gemini model name: set
+# PRIVASCORE_LLM_FALLBACK_MODEL to another model, or to an empty value, for a different provider.
 # PRIVASCORE_TRUST_PROXY is deliberately NOT set here. X-Forwarded-For is only meaningful
 # behind a proxy, and trusting it without one lets any client mint a fresh identity per
 # request. Set it (with PRIVASCORE_TRUSTED_PROXY_HOPS) in the specific deployment that has a

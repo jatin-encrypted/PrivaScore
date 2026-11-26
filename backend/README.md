@@ -37,7 +37,7 @@ access log records client IPs).
 | Method + path | Purpose |
 |---|---|
 | `POST /api/v1/evaluate` | analyse pasted text; one blocking request, can take a minute or more |
-| `GET /api/v1/health` | `{status, provider, model, bert}` |
+| `GET /api/v1/health` | `{status, provider, model, fallback_model, active_model, bert}` |
 | `GET /api/v1/meta` | limits, the 16 flags with questions and state meanings, categories, versions |
 
 `MAX_CONCURRENT` is 1: a second analysis while one runs gets `429 BUSY` straight away rather
@@ -67,8 +67,9 @@ docker run -p 8000:8000 \
   privascore
 ```
 
-On Render, Fly or similar: point the service at `backend/Dockerfile` with the build context set
-to the repository root, and set those three variables as secrets. The platform supplies `$PORT`.
+The live site runs on Railway. On Railway, Render, Fly or similar: point the service at
+`backend/Dockerfile` with the build context set to the repository root, and set those three
+variables as secrets. The platform supplies `$PORT`.
 
 ### BERT is off in the image
 
@@ -98,7 +99,7 @@ The **daily budget** is the figure that actually bounds the day's spend. A per-c
 alone does not: a handful of addresses each staying politely under their allowance can still
 run far more than a day's quota between them.
 
-**On Render, Fly or any platform with a proxy in front, set `PRIVASCORE_TRUST_PROXY=true`.**
+**On Railway, Render, Fly or any platform with a proxy in front, set `PRIVASCORE_TRUST_PROXY=true`.**
 Without it every request looks like it came from the proxy, so all clients share one bucket.
 That fails closed rather than open, but it is far more restrictive than intended.
 
@@ -115,13 +116,31 @@ client -> CDN -> balancer -> app  "<spoofed>, <client>, <CDN>"    hops=2
 ```
 
 Reading the left-most entry instead would read the client's own claim, which is spoofable even
-behind a trusted proxy. Set `hops` to the number of proxies you actually run; one is right for
-a single Render or Fly service.
+behind a trusted proxy. Set `hops` to the number of proxies you actually run, and check what
+your platform really puts in the header before turning this on.
 
 Counters are in memory, keyed by a salted hash of the address, with the salt regenerated each
 boot: no database (section 6.8 forbids one) and no record of who visited. They are also
 per-process, so running more than one worker multiplies the effective limit by the worker count.
 Keep it to one worker, which also matches `max_concurrent=1`.
+
+### Switching to a second model at the usage limit
+
+When the main model hits its usage limit (HTTP 429) or stays overloaded (HTTP 503), the whole
+analysis is run again with a second model of the same provider and key. Gemini counts limits
+per model, so the second model still has its own allowance. The image sets it:
+
+| Variable | Default in the image | What it does |
+|---|---|---|
+| `PRIVASCORE_LLM_FALLBACK_MODEL` | `gemini-3.5-flash-lite` | the second model; empty turns the switch off |
+| `PRIVASCORE_LLM_FALLBACK_COOLDOWN_S` | `600` | how long later requests skip the limited model |
+
+The analysis is rerun from the start rather than continued, so a result never mixes the
+answers of two models. Every result names the model that produced it (`meta.model`, shown as
+"Analysed by ..." on the results page), and `/api/v1/health` reports `active_model`, the model
+the next analysis will try first. If both models are limited, the user gets `LLM_QUOTA` as
+before. The second model is less accurate: on the 15-policy reference set gemini-3.5-flash-lite
+matched the reference state 73% of the time, against 87% for gemini-3.6-flash.
 
 ### If the provider variables are missing
 

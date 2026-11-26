@@ -7,7 +7,8 @@ from privascore.flags import load_flags
 def test_health(client):
     r = client.get("/api/v1/health")
     assert r.status_code == 200
-    assert r.json() == {"status": "ok", "provider": "mock", "model": "mock", "bert": "disabled"}
+    assert r.json() == {"status": "ok", "provider": "mock", "model": "mock", "fallback_model": None,
+                        "active_model": "mock", "bert": "disabled"}
 
 
 def test_meta_lists_all_16_flags_in_pipeline_order(client):

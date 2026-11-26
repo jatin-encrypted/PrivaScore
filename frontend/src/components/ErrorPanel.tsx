@@ -44,6 +44,8 @@ export function errorMessage(code: ErrorCode, limits: { minChars: number; maxCha
       return copy.errors.TEXT_TOO_SHORT(num(limits.minChars));
     case "BUSY":
       return copy.errors.BUSY;
+    case "RATE_LIMITED":
+      return copy.errors.RATE_LIMITED;
     case "LLM_QUOTA":
       return copy.errors.LLM_QUOTA;
     case "LLM_OVERLOADED":

@@ -28,6 +28,11 @@ class Settings(BaseSettings):
 
     llm_provider: str = ""          # empty -> whatever privascore.toml says
     llm_model: str = ""
+    # When llm_model hits its usage limit or is overloaded, the analysis is run again with this
+    # model (same provider, same key), and later requests use it for llm_fallback_cooldown_s
+    # before the main model is tried again. Empty turns the fallback off.
+    llm_fallback_model: str = ""
+    llm_fallback_cooldown_s: int = 600
 
     bert: Literal["on", "off"] = "on"
     bert_required: bool = True

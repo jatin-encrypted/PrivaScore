@@ -127,6 +127,13 @@ describe("ErrorPanel", () => {
     expect(screen.getByText(/usage limit has been reached/)).toBeInTheDocument();
   });
 
+  it("explains RATE_LIMITED as the site's own limit, not a server fault", () => {
+    render(<ErrorPanel {...props} code="RATE_LIMITED" />);
+    expect(screen.getByRole("heading", { name: "Analysis limit reached" })).toBeInTheDocument();
+    expect(screen.getByText(/limits how many new analyses/)).toBeInTheDocument();
+    expect(screen.queryByText(/Something went wrong/)).not.toBeInTheDocument();
+  });
+
   it("explains BUSY as one analysis at a time", () => {
     render(<ErrorPanel {...props} code="BUSY" />);
     expect(screen.getByText(/Another analysis is running/)).toBeInTheDocument();

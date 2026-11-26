@@ -19,7 +19,7 @@ export function PolicySummary({ data }: { data: EvaluateResponse }) {
 
       <p className="t-small t-num mt-4 text-ink-2">
         {num(metrics.readability.words)} words · {num(metrics.readability.reading_minutes)} min read ·{" "}
-        <span className="t-code">{meta.model}</span> · {localDateTime(meta.analysed_at)}
+        {copy.results.analysedBy} <span className="t-code">{meta.model}</span> · {localDateTime(meta.analysed_at)}
       </p>
 
       {(mock || !scores.complete || rest.length > 0) && (

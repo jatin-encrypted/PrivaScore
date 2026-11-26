@@ -159,6 +159,7 @@ export const copy = {
     /** Headings: the plain problem, then one sentence on what to do (section 7.4 D). */
     headings: {
       BUSY: "One analysis at a time",
+      RATE_LIMITED: "Analysis limit reached",
       LLM_QUOTA: "Usage limit reached",
       LLM_OVERLOADED: "Gemini is busy",
       LLM_ERROR: "The analysis failed",
@@ -172,6 +173,7 @@ export const copy = {
       CANCELLED: "Something went wrong",
     },
     BUSY: "Another analysis is running. Try again in about a minute.",
+    RATE_LIMITED: "This site limits how many new analyses it runs. Try again later, or open a saved analysis.",
     LLM_QUOTA: "Gemini's usage limit has been reached. Try again later, or open a saved analysis.",
     LLM_OVERLOADED: "Gemini is overloaded right now. Try again in a few minutes.",
     LLM_ERROR: "The analysis service failed. Nothing was saved. Try again.",
@@ -200,6 +202,9 @@ export const copy = {
 
   results: {
     untitled: "Your policy",
+    /** Followed by the model name. A live analysis can switch to a second model when the main
+     * one hits its usage limit, so this names the model that produced THESE labels. */
+    analysedBy: "Analysed by",
     sourceLabel: "Your text",
     /** A saved analysis is a published policy, not something the reader pasted. */
     sourceLabelSaved: (company: string) => `${company}'s policy text`,

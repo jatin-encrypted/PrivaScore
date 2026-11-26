@@ -16,7 +16,7 @@ export type Scope = EvaluateRequest["scope"];
 /** The error codes the backend can return (section 6.9), plus the two the client adds itself. */
 export type ErrorCode =
   | "INVALID_REQUEST" | "TEXT_TOO_SHORT" | "TEXT_TOO_LONG" | "BODY_TOO_LARGE"
-  | "BUSY" | "LLM_QUOTA" | "LLM_OVERLOADED" | "LLM_ERROR" | "NOT_FOUND" | "INTERNAL"
+  | "BUSY" | "RATE_LIMITED" | "LLM_QUOTA" | "LLM_OVERLOADED" | "LLM_ERROR" | "NOT_FOUND" | "INTERNAL"
   | "NETWORK" | "CANCELLED";
 
 export class ApiError extends Error {

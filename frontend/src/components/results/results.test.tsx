@@ -120,6 +120,13 @@ describe("PolicySummary banners", () => {
     render(<PolicySummary data={response()} />);
     expect(screen.getByText(/gemini-3\.6-flash/)).toBeInTheDocument();
   });
+
+  it("names the fallback model when the analysis switched to it", () => {
+    const base = response();
+    const data = response({ meta: { ...base.meta, model: "gemini-3.5-flash-lite" } });
+    const { container } = render(<PolicySummary data={data} />);
+    expect(container.textContent).toContain("Analysed by gemini-3.5-flash-lite");
+  });
 });
 
 describe("FlagRow", () => {

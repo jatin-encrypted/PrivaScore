@@ -15,7 +15,9 @@ router = APIRouter()
 @router.get("/health")
 async def health(request: Request) -> dict:
     p = request.app.state.pipeline
-    return {"status": "ok", "provider": p.provider, "model": p.model, "bert": p.bert_status}
+    return {"status": "ok", "provider": p.provider, "model": p.model,
+            "fallback_model": p.fallback_model, "active_model": p.active_model,
+            "bert": p.bert_status}
 
 
 @router.get("/meta")
@@ -52,6 +54,7 @@ async def meta(request: Request) -> dict:
         },
         "provider": p.provider,
         "model": p.model,
+        "fallback_model": p.fallback_model,
         "env": s.env,
     }
 
