@@ -4,7 +4,9 @@ PrivaScore reads a privacy policy and reports what it says about 16 privacy prac
 
 It was built as a 5th-semester mini project (ECE, LNMIIT).
 
-**Current state:** the analysis pipeline, a 15-policy evaluation set and the supporting classifier experiments are complete. Everything runs from the command line; there is no web interface yet.
+**Try it:** [privascore-production.up.railway.app](https://privascore-production.up.railway.app/). Paste a privacy policy, or open one of the 15 saved analyses.
+
+**Current state:** the analysis pipeline, a 15-policy evaluation set, the supporting classifier experiments and a web app (FastAPI backend, React frontend) are complete. The web app is deployed on Railway.
 
 ## What it reports for each policy
 
@@ -26,7 +28,7 @@ policy text
 
 - A quote counts only if it occurs **verbatim** in its cited sentence, allowing only for differences in Unicode, quote marks, dashes, case and whitespace. Fuzzy matches are never accepted. An answer that fails is retried once with the problems listed; if it still fails, the flag is marked for review and scored as Unclear.
 - The LLM returns structured JSON only and has no tools; the policy text is treated as data, not as instructions.
-- Every LLM reply is cached by prompt hash in `.cache/llm/`, so re-running a run costs nothing.
+- On the command line, every LLM reply is cached by prompt hash in `.cache/llm/`, so re-running a run costs nothing. The web app keeps no cache.
 
 ## The 16 flags
 
@@ -99,6 +101,17 @@ On the same pairs, 3.6-flash is right where 3.5-flash-lite is wrong 39 times; th
 - Training BERT on OPP-115 and APP-350 together (with a masked loss for APP-350's missing labels) raised First / Third Party F1 on held-out APP-350 policies by +0.078, but did not improve OPP-115 (−0.011, 95% CI [−0.028, +0.005]). The OPP-115-only model is kept, which also keeps APP-350 as an out-of-domain test.
 - On the gold set, a pre-registered test found that BERT does not improve evidence retrieval enough to justify the larger prompts (+4.3 points of recall against a required +5). It is therefore used only as a descriptive category profile.
 
+## Web app
+
+- **Paste a policy** (and optionally the company name). The results page shows both scores, the 16 practices with their evidence states, every quote highlighted in the policy text, and the readability and vague-wording metrics.
+- **Saved analyses.** The 15 gold-set policies, analysed earlier by gemini-3.6-flash, open instantly and cost no API call.
+- **Model.** Live analyses use gemini-3.6-flash. When it reaches its usage limit or is overloaded, the analysis is run again from the start with gemini-3.5-flash-lite, which has its own limit. The results page names the model that produced each result ("Analysed by ..."). The smaller model is less accurate (see [Results](#results)). If both are limited, the page says so, and the saved analyses still work.
+- **Limits.** Live analyses run one at a time and are rate limited (by default 10 per visitor per hour and 200 per day for the whole site).
+- **Privacy.** The pasted text is sent to Google's Gemini API for analysis. The app keeps it in memory only while it is analysed and does not store or log it. There is no database and there are no accounts.
+- **No BERT on the live site.** The deployed image leaves BERT out to stay small, so a freshly pasted policy has no category profile. The saved analyses keep theirs, because it was computed in advance.
+
+The API, the deployment and its environment variables are described in [`backend/README.md`](backend/README.md).
+
 ## Quick start
 
 Requires Python 3.11 or newer.
@@ -133,10 +146,23 @@ Without `--batch` the extractor makes up to 16 calls per policy (one per flag). 
 .venv/bin/python -I -m privascore.bert_eval            # pre-registered BERT test on the gold set → runs/bert_eval/
 ```
 
+**Run the web app locally** (also needs Node.js and npm):
+
+```bash
+.venv/bin/pip install -r backend/requirements.txt
+# mock provider and no BERT: no API key or checkpoint needed, the labels are placeholders
+PRIVASCORE_LLM_PROVIDER=mock PRIVASCORE_BERT=off PRIVASCORE_BERT_REQUIRED=false \
+  .venv/bin/uvicorn app.main:app --app-dir backend --port 8000 --no-access-log
+cd frontend && npm ci && npm run dev    # http://localhost:5173, forwards /api to port 8000
+```
+
+Leave out the three variables to use the provider set in `privascore.toml` and the BERT checkpoint.
+
 **Tests** (no network, no API key):
 
 ```bash
-.venv/bin/python -m pytest -q
+.venv/bin/python -m pytest -q tests backend/tests    # pipeline and backend
+cd frontend && npm test                               # frontend
 ```
 
 ### Reading a flag result
@@ -174,6 +200,8 @@ The MIT License covers the code only. It does not cover the datasets:
 ```
 privascore/            the pipeline: text, flags, extractor, verifier, scoring, evaluation, metrics, BERT
   llm/                 Gemini, Groq and mock clients
+backend/               FastAPI web API, rate limiting and the Dockerfile (see backend/README.md)
+frontend/              React + Vite + Tailwind web interface
 tests/                 unit tests (no network, no API key)
 gold_set/              policy snapshots, flag definitions, annotation guidelines, reference labels
 runs/                  saved extractor runs and evaluations, the BERT gold-set test, policy metrics
@@ -188,6 +216,7 @@ LICENSE                MIT, for the code only (see License)
 - **Small reference set.** 15 policies and a single annotator, so there is no inter-annotator agreement. The reference labels were pre-filled by an LLM from a different model family than the extractor (Claude) and then reviewed row by row by the author: 117 verified, 10 edited, and 113 accepted after a random spot-check. This can bias the labels towards the pre-fill. See [`gold_set/ANNOTATION_GUIDELINES.md`](gold_set/ANNOTATION_GUIDELINES.md), section 6.
 - **LLM output varies.** Re-running gemini-3.5-flash-lite with identical prompts changed 14% of the states. Accuracy stayed the same, but the policy ranking did not.
 - **BERT was trained on 2016 website policies.** Its calibration gets worse on other data, and its confidence does not drop when that happens. Its probabilities are never shown as confidence about a policy.
+- **The live site may use the smaller model.** When gemini-3.6-flash reaches its usage limit, results come from gemini-3.5-flash-lite, which matched the reference state 73% of the time against 87%. The results page always names the model.
 - **Results describe a snapshot.** Policies change, and the DPDP checks describe readiness, not legal compliance.
 
 ## References
